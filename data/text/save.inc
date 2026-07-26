@@ -6,7 +6,7 @@ gText_AlreadySaveFile_WouldLikeToOverwrite::
 	.string "yfir hana?$"
 
 gText_SavingDontTurnOffThePower::
-	.string "SAVING… DON'T TURN OFF THE POWER.$"
+	.string "VISTAR… EKKI SLÖKKVA Á RAFMAGNINU.$"
 
 gText_PlayerSavedTheGame::
 	.string "{PLAYER} vistaði leikinn.$"
@@ -15,11 +15,12 @@ gText_SaveFailed2::
 	.string "セーブに しっぱい しました‥$"
 
 gText_DifferentGameFile::
-	.string "WARNING!\p"
-	.string "There is a different game file that\n"
-	.string "is already saved.\p"
-	.string "If you save now, the other file's\n"
-	.string "adventure, including items and\p"
-	.string "Vasaskrímsli, will be entirely lost.\p"
-	.string "Are you sure you want to save now\n"
-	.string "and overwrite the other save file?$"
+	.string "VIÐVÖRUN!\p"
+	.string "Það er önnur vistunarskrá sem er\n"
+	.string "þegar vistuð.\p"
+	.string "Ef þú vistar núna, mun ævintýri\n"
+	.string "hinnar skrárinnar, þar á meðal\p"
+	.string "hlutir og\p"
+	.string "Vasaskrímsli, glatast alveg.\p"
+	.string "Ertu viss um að þú viljir vista núna\n"
+	.string "og skrifa yfir hina vistunarskrána?$"

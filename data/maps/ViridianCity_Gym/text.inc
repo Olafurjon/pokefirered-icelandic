@@ -28,15 +28,16 @@ ViridianCity_Gym_Text_GiovanniPostBattle::
     .string "Vertu sæl/l!$"
 
 ViridianCity_Gym_Text_ExplainEarthBadgeTakeThis::
-    .string "The EARTHBADGE makes Vasaskrímsli of\n"
-    .string "any level obey without question.\p"
-    .string "It is evidence of your mastery as a\n"
-    .string "Vasaskrímsli ÞJÁLFARI.\p"
-    .string "With it, you can challenge the\n"
-    .string "Vasaskrímsli LEAGUE.\p"
-    .string "Also, take this TM.\p"
-    .string "Consider it a gift for your\n"
-    .string "Vasaskrímsli LEAGUE challenge.$"
+    .string "EARTHBADGE gerir Vasaskrímsli á\n"
+    .string "hvaða stigi sem er hlýðin án\p"
+    .string "spurninga.\p"
+    .string "Það er sönnun á meistaraskap þínum\n"
+    .string "sem Vasaskrímsla ÞJÁLFARI.\p"
+    .string "Með því geturðu skorað á\n"
+    .string "Vasaskrímsla DEILDINA.\p"
+    .string "Taktu líka þetta TM.\p"
+    .string "Líttu á það sem gjöf fyrir þína\n"
+    .string "áskorun í Vasaskrímsla DEILDINNI.$"
 
 ViridianCity_Gym_Text_ReceivedTM26FromGiovanni::
     .string "{PLAYER} fékk TM26 frá GIOVANNI.$"
@@ -135,30 +136,32 @@ ViridianCity_Gym_Text_SamuelDefeat::
     .string "Var ég sigraður?$"
 
 ViridianCity_Gym_Text_SamuelPostBattle::
-    .string "You can go on to the Vasaskrímsli\n"
-    .string "LEAGUE only by defeating our SALUR\p"
-    .string "LEADER!$"
+    .string "Þú getur haldið áfram í Vasaskrímsla\n"
+    .string "DEILDINA aðeins með því að sigra\p"
+    .string "SALUR\p"
+    .string "LEIÐTOGA okkar!$"
 
 ViridianCity_Gym_Text_GymGuyAdvice::
-    .string "Yo! Champ in the making!\p"
-    .string "Even I don't know the VIRIDIAN\n"
-    .string "LEADER's identity.\p"
-    .string "But one thing's certain. This will\n"
-    .string "be the toughest of all the SALUR\p"
-    .string "LEADERS.\p"
-    .string "Also, I heard that the TRAINERS here\n"
-    .string "eins og JÖRÐ-gerð Vasaskrímsli.$"
+    .string "Jæja! Verðandi meistari!\p"
+    .string "Jafnvel ég veit ekki hver VIRIDIAN\n"
+    .string "LEIÐTOGINN er.\p"
+    .string "En eitt er víst. Þetta verður\n"
+    .string "erfiðastur allra SALUR\p"
+    .string "LEIÐTOGA.\p"
+    .string "Einnig heyrði ég að ÞJÁLFARARNIR hér\n"
+    .string "vilja JÖRÐ-gerð Vasaskrímsli.$"
 
 ViridianCity_Gym_Text_GymGuyPostVictory::
     .string "Ég er orðlaus! GIOVANNI var\n"
     .string "SALARLEIÐTOGI VIRIDIAN?$"
 
 ViridianCity_Gym_Text_GymStatue::
-    .string "VIRIDIAN Vasaskrímsli SALUR LEADER:\n"
-    .string "?\p"
-    .string "WINNING TRAINERS: {RIVAL}$"
+    .string "VIRIDIAN Vasaskrímsla SALUR\n"
+    .string "LEIÐTOGI: ?\p"
+    .string "SIGURVEGANDI ÞJÁLFARAR: {RIVAL}$"
 
 ViridianCity_Gym_Text_GymStatuePlayerWon::
-    .string "VIRIDIAN Vasaskrímsli SALUR LEADER:\n"
-    .string "GIOVANNI\p"
-    .string "WINNING TRAINERS: {RIVAL}, {PLAYER}$"
+    .string "VIRIDIAN Vasaskrímsla SALUR\n"
+    .string "LEIÐTOGI: GIOVANNI\p"
+    .string "SIGURVEGANDI ÞJÁLFARAR: {RIVAL},\n"
+    .string "{PLAYER}$"

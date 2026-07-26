@@ -28,7 +28,7 @@ Route13_Text_ValerieDefeat::
 
 Route13_Text_ValeriePostBattle::
     .string "Þú fékkst þessa BADGES frá SALUR\n"
-    .string "LEADERS. Ég veit það!$"
+    .string "LEIÐTOGAR. Ég veit það!$"
 
 Route13_Text_GwenIntro::
     .string "Krúttlegu Vasaskrímslin mín óska\n"
@@ -119,4 +119,3 @@ Route13_Text_SelectToSwitchItems::
 
 Route13_Text_RouteSign::
     .string "LEIÐ 13 Norður til SILENCE BRIDGE$"
-

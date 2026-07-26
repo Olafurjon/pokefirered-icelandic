@@ -1,7 +1,8 @@
 Trade_Text_LookingForMonWannaTradeForMon::
-	.string "I'm looking for the Vasaskrímsli\n"
+	.string "Ég er að leita að Vasaskrímslinu\n"
 	.string "{STR_VAR_1}!\p"
-	.string "Wanna trade one for my {STR_VAR_2}?$"
+	.string "Viltu skipta einu fyrir mitt\n"
+	.string "{STR_VAR_2}?$"
 
 Trade_Text_AwwOhWell::
 	.string "Awww! Oh, well…$"

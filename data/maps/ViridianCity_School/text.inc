@@ -37,13 +37,13 @@ ViridianCity_School_Text_NotebookThirdPage::
 
 ViridianCity_School_Text_NotebookFourthPage::
     .string "Fjórða síða…\p"
-    .string "Endanlegt markmið allra Vasaskrímsli\n"
-    .string "ÞJÁLFARAR er einfalt.\p"
+    .string "Endanlegt markmið allra Vasaskrímsla\n"
+    .string "ÞJÁLFARA er einfalt.\p"
     .string "Það er að sigra efstu átta\n"
-    .string "Vasaskrímsli SALUR LEIÐTOGIS.\p"
+    .string "Vasaskrímsla SALUR LEIÐTOGA.\p"
     .string "Gerðu það til að öðlast réttinn til\n"
     .string "að mæta…\p"
-    .string "ELITE FOUR í Vasaskrímsli LEAGUE!$"
+    .string "ELITE FOUR í Vasaskrímsla DEILDINNI!$"
 
 ViridianCity_School_Text_TurnThePage::
     .string "Fletta blaðsíðu?$"

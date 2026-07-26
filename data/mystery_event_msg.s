@@ -98,14 +98,16 @@ SurfPichu_Slot5:
 	return
 
 sText_MysteryGiftEgg:
-	.string "Oh, your party appears to be full.\p"
-	.string "Please come see me after storing a\n"
-	.string "Vasaskrímsli on a PC.$"
+	.string "Ó, liðið þitt virðist vera fullt.\p"
+	.string "Vinsamlegast komdu aftur til mín\n"
+	.string "eftir að þú hefur geymt Vasaskrímsli\p"
+	.string "í tölvu.$"
 
 sText_FullParty:
-	.string "Oh, your party appears to be full.\p"
-	.string "Please come see me after storing a\n"
-	.string "Vasaskrímsli on a PC.$"
+	.string "Ó, liðið þitt virðist vera fullt.\p"
+	.string "Vinsamlegast komdu aftur til mín\n"
+	.string "eftir að þú hefur geymt Vasaskrímsli\p"
+	.string "í tölvu.$"
 
 MysteryEventScript_VisitingTrainer::
 	setvaddress MysteryEventScript_VisitingTrainer
@@ -129,28 +131,28 @@ MysteryEventScript_VisitingTrainerArrived:
 	end
 
 sText_MysteryGiftVisitingTrainer:
-	.string "Thank you for using the MYSTERY GIFT\n"
-	.string "System.\p"
-	.string "A ÞJÁLFARI has arrived in the SEVII\n"
-	.string "ISLANDS looking for you.\p"
-	.string "We hope you will enjoy battling the\n"
-	.string "visiting ÞJÁLFARI.\p"
-	.string "You may invite other TRAINERS by\n"
-	.string "entering other passwords.\p"
-	.string "Try looking for other passwords that\n"
-	.string "may work.$"
+	.string "Takk fyrir að nota MYSTERY GIFT\n"
+	.string "kerfið.\p"
+	.string "ÞJÁLFARI er kominn til SEVII EYJA og\n"
+	.string "leitar að þér.\p"
+	.string "Við vonum að þú njótir þess að\n"
+	.string "berjast við heimsóknar ÞJÁLFARANN.\p"
+	.string "Þú getur boðið öðrum ÞJÁLFÖRUM með\n"
+	.string "því að slá inn önnur lykilorð.\p"
+	.string "Reyndu að leita að öðrum lykilorðum\n"
+	.string "sem gætu virkað.$"
 
 sText_MysteryGiftVisitingTrainer_2:
-	.string "Thank you for using the MYSTERY GIFT\n"
-	.string "System.\p"
-	.string "A ÞJÁLFARI has arrived in the SEVII\n"
-	.string "ISLANDS looking for you.\p"
-	.string "We hope you will enjoy battling the\n"
-	.string "visiting ÞJÁLFARI.\p"
-	.string "You may invite other TRAINERS by\n"
-	.string "entering other passwords.\p"
-	.string "Try looking for other passwords that\n"
-	.string "may work.$"
+	.string "Takk fyrir að nota MYSTERY GIFT\n"
+	.string "kerfið.\p"
+	.string "ÞJÁLFARI er kominn til SEVII EYJA og\n"
+	.string "leitar að þér.\p"
+	.string "Við vonum að þú njótir þess að\n"
+	.string "berjast við heimsóknar ÞJÁLFARANN.\p"
+	.string "Þú getur boðið öðrum ÞJÁLFÖRUM með\n"
+	.string "því að slá inn önnur lykilorð.\p"
+	.string "Reyndu að leita að öðrum lykilorðum\n"
+	.string "sem gætu virkað.$"
 
 MysteryEventScript_BattleCard::
 	setvaddress MysteryEventScript_BattleCard
@@ -230,26 +232,30 @@ AuroraTicket_Obtained:
 	end
 
 sText_AuroraTicket1:
-	.string "Ó, fyrirgefðu, {PLAYER}. KEY ITEMS\n"
-	.string "HÓLFIÐ í TÖSKUNNI þinni er fullt.\p"
+	.string "Ó, fyrirgefðu, {PLAYER}.\n"
+	.string "LYKILHLUTAHÓLFIÐ í TÖSKUNNI þinni er\p"
+	.string "fullt.\p"
 	.string "Vinsamlegast geymdu eitthvað á\n"
 	.string "tölvunni þinni, komdu svo aftur.$"
 
 sText_AuroraTicket2:
-	.string "Ó, fyrirgefðu, {PLAYER}. KEY ITEMS\n"
-	.string "HÓLFIÐ í TÖSKUNNI þinni er fullt.\p"
+	.string "Ó, fyrirgefðu, {PLAYER}.\n"
+	.string "LYKILHLUTAHÓLFIÐ í TÖSKUNNI þinni er\p"
+	.string "fullt.\p"
 	.string "Vinsamlegast geymdu eitthvað á\n"
 	.string "tölvunni þinni, komdu svo aftur.$"
 
 sText_AuroraTicketGot:
-	.string "Ó, fyrirgefðu, {PLAYER}. KEY ITEMS\n"
-	.string "HÓLFIÐ í TÖSKUNNI þinni er fullt.\p"
+	.string "Ó, fyrirgefðu, {PLAYER}.\n"
+	.string "LYKILHLUTAHÓLFIÐ í TÖSKUNNI þinni er\p"
+	.string "fullt.\p"
 	.string "Vinsamlegast geymdu eitthvað á\n"
 	.string "tölvunni þinni, komdu svo aftur.$"
 
 sText_AuroraTicketNoPlace:
-	.string "Ó, fyrirgefðu, {PLAYER}. KEY ITEMS\n"
-	.string "HÓLFIÐ í TÖSKUNNI þinni er fullt.\p"
+	.string "Ó, fyrirgefðu, {PLAYER}.\n"
+	.string "LYKILHLUTAHÓLFIÐ í TÖSKUNNI þinni er\p"
+	.string "fullt.\p"
 	.string "Vinsamlegast geymdu eitthvað á\n"
 	.string "tölvunni þinni, komdu svo aftur.$"
 
@@ -291,26 +297,30 @@ MysticTicket_Obtained:
 	end
 
 sText_MysticTicket2:
-	.string "Ó, fyrirgefðu, {PLAYER}. KEY ITEMS\n"
-	.string "HÓLFIÐ í TÖSKUNNI þinni er fullt.\p"
+	.string "Ó, fyrirgefðu, {PLAYER}.\n"
+	.string "LYKILHLUTAHÓLFIÐ í TÖSKUNNI þinni er\p"
+	.string "fullt.\p"
 	.string "Vinsamlegast geymdu eitthvað á\n"
 	.string "tölvunni þinni, komdu svo aftur.$"
 
 sText_MysticTicket1:
-	.string "Ó, fyrirgefðu, {PLAYER}. KEY ITEMS\n"
-	.string "HÓLFIÐ í TÖSKUNNI þinni er fullt.\p"
+	.string "Ó, fyrirgefðu, {PLAYER}.\n"
+	.string "LYKILHLUTAHÓLFIÐ í TÖSKUNNI þinni er\p"
+	.string "fullt.\p"
 	.string "Vinsamlegast geymdu eitthvað á\n"
 	.string "tölvunni þinni, komdu svo aftur.$"
 
 sText_MysticTicketGot:
-	.string "Ó, fyrirgefðu, {PLAYER}. KEY ITEMS\n"
-	.string "HÓLFIÐ í TÖSKUNNI þinni er fullt.\p"
+	.string "Ó, fyrirgefðu, {PLAYER}.\n"
+	.string "LYKILHLUTAHÓLFIÐ í TÖSKUNNI þinni er\p"
+	.string "fullt.\p"
 	.string "Vinsamlegast geymdu eitthvað á\n"
 	.string "tölvunni þinni, komdu svo aftur.$"
 
 sText_MysticTicketNoPlace:
-	.string "Ó, fyrirgefðu, {PLAYER}. KEY ITEMS\n"
-	.string "HÓLFIÐ í TÖSKUNNI þinni er fullt.\p"
+	.string "Ó, fyrirgefðu, {PLAYER}.\n"
+	.string "LYKILHLUTAHÓLFIÐ í TÖSKUNNI þinni er\p"
+	.string "fullt.\p"
 	.string "Vinsamlegast geymdu eitthvað á\n"
 	.string "tölvunni þinni, komdu svo aftur.$"
 
@@ -329,11 +339,12 @@ MysteryEventScript_AlteringCave_:
 	end
 
 sText_MysteryGiftAlteringCave:
-	.string "Thank you for using the MYSTERY GIFT\n"
-	.string "System.\p"
-	.string "Recently, there have been rumors of\n"
-	.string "rare Vasaskrímsli appearances.\p"
-	.string "The rumors are about ALTERING CAVE\n"
-	.string "on OUTCAST ISLAND.\p"
-	.string "Why not visit there and check if the\n"
-	.string "rumors are indeed true?$"
+	.string "Takk fyrir að nota MYSTERY GIFT\n"
+	.string "kerfið.\p"
+	.string "Nýlega hafa verið sögusagnir um\n"
+	.string "sjaldgæf Vasaskrímsli.\p"
+	.string "Sögusagnirnar eru um ALTERING CAVE á\n"
+	.string "OUTCAST ISLAND.\p"
+	.string "Hvers vegna ekki að heimsækja þangað\n"
+	.string "og athuga hvort sögusagnirnar séu\p"
+	.string "sannar?$"

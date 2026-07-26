@@ -8,6 +8,6 @@ const u8 gText_MysteryGiftNationalDex[] = _("VasaDEX hefur verið uppfærður\nm
 const u8 gText_MysteryGiftRareWord[] = _("Sjaldgæfu orði hefur verið bætt við.");
 const u8 gText_MysteryGiftSentOver[] = _("{STR_VAR_1} var sent yfir!");
 const u8 gText_MysteryGiftFullParty[] = _("Hópurinn þinn er fullur.\nEkki var hægt að senda {STR_VAR_1} yfir.");
-const u8 gText_MysteryGiftNewTrainer[] = _("A new ÞJÁLFARI has arrived in\nHOENN.");
+const u8 gText_MysteryGiftNewTrainer[] = _("Nýr ÞJÁLFARI er kominn til\nHOENN.");
 const u8 gText_MysteryGiftNewAdversaryInBattleTower[] = _("Nýr andstæðingur birtist\ní BARDAGATURNINUM!");
 const u8 gText_MysteryGiftCantBeUsed[] = _("Þessi gögn er ekki hægt að nota í\nþessari útgáfu.");

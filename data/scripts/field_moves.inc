@@ -159,10 +159,11 @@ EventScript_DontUseStrength::
 	end
 
 Text_UseStrength::
-	.string "It's a big boulder, but a\n"
-	.string "Vasaskrímsli may be able to push it\p"
-	.string "aside.\p"
-	.string "Would you like to use STRENGTH?$"
+	.string "Þetta er stór steinn, en\n"
+	.string "Vasaskrímsli gæti hugsanlega ýtt\p"
+	.string "honum\p"
+	.string "til hliðar.\p"
+	.string "Viltu nota STRENGTH?$"
 
 Text_MonUsedStrengthCanMoveBoulders::
 	.string "{STR_VAR_1} notaði STRENGTH!\p"
@@ -269,9 +270,9 @@ Text_MonUsedDive::
 	.string "{STR_VAR_1} notaði DIVE.$"
 
 Text_MonMaySurface::
-	.string "Light is filtering down from above.\n"
-	.string "A Vasaskrímsli may be able to\p"
-	.string "surface.$"
+	.string "Ljós síast niður að ofan.\n"
+	.string "Vasaskrímsli gæti hugsanlega\p"
+	.string "komið upp á yfirborðið.$"
 
 Text_LightFilteringUseDive::
 	.string "Ljós síast niður að ofan. Viltu nota\n"

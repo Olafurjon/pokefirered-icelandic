@@ -12,6 +12,6 @@ ViridianCity_PokemonCenter_1F_Text_PokeCenterInEveryTown::
 
 ViridianCity_PokemonCenter_1F_Text_PokeCentersHealMons::
     .string "Vasaskrímslasetur lækna þreytt,\n"
-    .string "særð eða yfirliða Vasaskrímsli.\p"
+    .string "særð eða yfirliðin Vasaskrímsli.\p"
     .string "Þau koma öllum Vasaskrímslum í\n"
     .string "fulla heilsu.$"

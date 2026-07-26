@@ -12,6 +12,6 @@ ThreeIsland_Mart_Text_PeopleHealWithBerriesFromForest::
 
 ThreeIsland_Mart_Text_BikersWereAboutToTrashMart::
     .string "Þessir MÓTORHJÓLAMENN ætluðu að\n"
-    .string "rústa þessari Vasaskrímsla-búð.\p"
+    .string "rústa þessari Vasaskrímslabúð.\p"
     .string "Ég er fegin/n að þeir ákváðu að\n"
     .string "fara!$"

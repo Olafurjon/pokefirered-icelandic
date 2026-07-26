@@ -11,7 +11,7 @@ VSSeeker_Text_NoTrainersWithinRange::
 	.string "{PAUSE_UNTIL_PRESS}$"
 
 VSSeeker_Text_TrainersNotReady::
-	.string "Hinir TRAINERS virðast ekki vera\n"
+	.string "Hinir ÞJÁLFARARNIR virðast ekki vera\n"
 	.string "tilbúnir í bardaga.\p"
 	.string "Bíðum til síðar.{PAUSE_UNTIL_PRESS}$"
 
@@ -93,12 +93,12 @@ Route8_Text_PaigeRematchIntro::
 	.string "ekki að þau þróist, en…$"
 
 Route8_Text_LeslieRematchIntro::
-	.string "School is fun, but I still think\n"
-	.string "Vasaskrímsli are fun, too.$"
+	.string "Skólinn er skemmtilegur, en mér\n"
+	.string "finnst Vasaskrímsli líka skemmtileg.$"
 
 Route8_Text_AndreaRematchIntro::
-	.string "MJÁGJARN and KLÓFESSOR are so cute,\n"
-	.string "meow, meow, meow!$"
+	.string "MJÁGJARN og KLÓFESSOR eru svo sæt,\n"
+	.string "mjálf, mjálf, mjálf!$"
 
 Route8_Text_MeganRematchIntro::
 	.string "Við lítum kannski kjánalega út\n"
@@ -189,8 +189,8 @@ Route10_Text_TrentRematchIntro::
 	.string "Það er svo gott, ég get ekki farið!$"
 
 Route10_Text_CarolRematchIntro::
-	.string "My head is starting to spin. I've\n"
-	.string "been hiking for too long…$"
+	.string "Höfuðið á mér er farið að snúast. Ég\n"
+	.string "hef verið að ganga of lengi…$"
 
 Route11_Text_HugoRematchIntro::
 	.string "Vinna, tapa eða jafntefli! Nú er\n"
@@ -258,9 +258,10 @@ Route12_Text_HankRematchIntro::
 	.string "BARNIÐ! Önnur umferð, berjist!$"
 
 Route12_Text_ElliotRematchIntro::
-	.string "I love fishing, don't get me wrong.\n"
-	.string "But, I wish I had more work… …It's\p"
-	.string "hard to give up fishing!$"
+	.string "Ég elska að veiða, misskildu mig\n"
+	.string "ekki. En, ég vildi að ég hefði meiri\p"
+	.string "vinnu… …Það er\p"
+	.string "erfitt að hætta að veiða!$"
 
 Route12_Text_AndrewRematchIntro::
 	.string "Hvað er að veiðast?\p"
@@ -401,8 +402,8 @@ Route15_Text_AlexRematchIntro::
 	.string "þú tapar fyrir mér, krakki!$"
 
 Route15_Text_CeliaRematchIntro::
-	.string "What's cool and happening? Trading\n"
-	.string "Vasaskrímsli, of course.$"
+	.string "Hvað er flott og í gangi? Að skipta\n"
+	.string "á Vasaskrímslum, auðvitað.$"
 
 Route15_Text_YazminRematchIntro::
 	.string "Viltu leika við Vasaskrímslin mín\n"
@@ -518,9 +519,10 @@ Route19_Text_DouglasRematchIntro::
 	.string "Hefurðu séð?$"
 
 Route19_Text_DavidRematchIntro::
-	.string "I tried diving for Vasaskrímsli\n"
-	.string "again, but it was a no-go like\p"
-	.string "before.$"
+	.string "Ég reyndi að kafa eftir\n"
+	.string "Vasaskrímslum aftur, en það gekk\p"
+	.string "ekki eins og\p"
+	.string "áður.$"
 
 Route19_Text_TonyRematchIntro::
 	.string "Ég horfi á sjóinn til að gleyma öllu\n"
@@ -996,8 +998,8 @@ SevenIsland_TanobyRuins_Text_BrandonRematchIntro::
 	.string "steinklefa?$"
 
 SevenIsland_TanobyRuins_Text_BenjaminRematchIntro::
-	.string "A mystic Vasaskrímsli is said to\n"
-	.string "sleep inside here.$"
+	.string "Sagt er að dularfullt Vasaskrímsli\n"
+	.string "sofi hér inni.$"
 
 SevenIsland_TanobyRuins_Text_EdnaRematchIntro::
 	.string "Kennarinn minn er að sýna mér\n"

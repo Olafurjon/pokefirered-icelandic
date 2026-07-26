@@ -30,7 +30,7 @@ Text_MonSentToBoxInPC::
     .string "てんそうした！$"
 
 Text_NoMoreRoomForPokemon::
-    .string "There's no more room for\n"
+    .string "Það er ekki meira pláss fyrir\n"
     .string "Vasaskrímsli!\p"
-    .string "The Vasaskrímsli BOXES are full and\n"
-    .string "can't accept any more!$"
+    .string "Vasaskrímsla KASSARNIR eru fullir og\n"
+    .string "geta ekki tekið við fleiri!$"

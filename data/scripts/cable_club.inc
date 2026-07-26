@@ -1402,7 +1402,7 @@ Text_TrainerTooBusyToNotice::
 	.string "að taka eftir…$"
 
 Text_LookedAtPlayersTrainerCard::
-	.string "Score! Got to look at {STR_VAR_1}'s\n"
+	.string "Frábært! Fékk að skoða {STR_VAR_1}s\n"
 	.string "ÞJÁLFARAKORT!$"
 
 Text_LookedAtPlayersTrainerCardColored::

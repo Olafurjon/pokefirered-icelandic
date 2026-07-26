@@ -31,15 +31,15 @@ Text_Snacks::
 
 Text_PokemartSign::
 	.string "Allt sem þig vantar!\n"
-	.string "Vasaskrímsla-BÚÐ$"
+	.string "Vasaskrímslabúð$"
 
 Text_PokecenterSign::
 	.string "Læknaðu Vasaskrímslin þín!\n"
-	.string "Vasaskrímsla-SETUR$"
+	.string "Vasaskrímslasetur$"
 
 Text_Indigo_UltimateGoal::
 	.string "INDIGO PLATEAU\p"
-	.string "Lokamark ÞJÁLFARA!\n"
+	.string "Endanlegt markmið ÞJÁLFARA!\n"
 	.string "HÖFUÐSTÖÐVAR Vasaskrímsladeildar$"
 
 Text_Indigo_HighestAuthority::
@@ -86,8 +86,8 @@ Text_TrashBin::
 	.string "Það er ekkert hér!$"
 
 Text_Cup::
-	.string "Þetta er bolli með Vasaskrímsla-\n"
-	.string "merki á sér.$"
+	.string "Þetta er bolli með Vasaskrímsla\n"
+	.string "merki á honum.$"
 
 Text_PolishedWindow::
 	.string "Glugginn er mjög vel pússaður.$"

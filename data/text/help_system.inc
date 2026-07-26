@@ -1638,7 +1638,7 @@ Help_Text_DefineMoney2::
 	.string "ÞJÁLFARA, færðu verðlaunapeninga.\p"
 	.string "Safnaðu verðlaunapeningunum þínum\n"
 	.string "svo þú getir notið þess að versla\p"
-	.string "í Vasaskrímsli MARTS!$"
+	.string "í Vasaskrímslabúð!$"
 
 Help_Text_DefineBadges2::
 	.string "Þetta sýnir fjölda Vasaskrímsla-\n"

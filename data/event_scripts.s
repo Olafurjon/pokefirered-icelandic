@@ -809,8 +809,8 @@ gStdScriptsEnd::
 
 @ Unused
 Text_WouldYouLikeToMixRecords::
-	.string "Would you like to mix records with\n"
-	.string "other TRAINERS?$"
+	.string "Viltu blanda skráningum við\n"
+	.string "aðra ÞJÁLFARA?$"
 
 @ Unused
 Text_WeHopeToSeeYouAgain2::

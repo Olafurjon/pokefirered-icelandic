@@ -112,7 +112,7 @@ ViridianCity_Text_CatchMonsForEasierBattles::
 ViridianCity_Text_MovesLimitedByPP::
     .string "ÞJÁLFARI RÁÐ\p"
     .string "Bardagahreyfingar Vasaskrímsla eru\n"
-    .string "takmarkaðar af POWER POINTS, PP.\p"
+    .string "takmarkaðar af ORKUPUNKTUM, PP.\p"
     .string "Til að fylla á PP skaltu hvíla\n"
     .string "þreytt Vasaskrímsli í\p"
     .string "Vasaskrímslasetri.$"

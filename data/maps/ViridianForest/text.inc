@@ -1,12 +1,12 @@
 ViridianForest_Text_FriendsItchingToBattle::
-    .string "I came here with some friends to\n"
-    .string "ná okkur í SKORDÝ Vasaskrímsli!\p"
-    .string "They're all itching to get into some\n"
-    .string "Vasaskrímsli battles!$"
+    .string "Ég kom hingað með vinum til að ná\n"
+    .string "okkur í SKORDÝRA Vasaskrímsli!\p"
+    .string "Þau eru öll spennt að komast í\n"
+    .string "Vasaskrímsla bardaga!$"
 
 ViridianForest_Text_RickIntro::
-    .string "Hey! You have Vasaskrímsli! Come on!\n"
-    .string "Let's battle 'em!$"
+    .string "Hey! Þú átt Vasaskrímsli! Komdu!\n"
+    .string "Berjumst!$"
 
 ViridianForest_Text_RickDefeat::
     .string "Nei! CATERPIE ræður ekki við þetta!$"
@@ -16,11 +16,12 @@ ViridianForest_Text_RickPostBattle::
     .string "Seinna, allt í lagi?$"
 
 ViridianForest_Text_DougIntro::
-    .string "Yo! You can't jam out if you're a\n"
-    .string "Vasaskrímsli ÞJÁLFARI!$"
+    .string "Jæja! Þú getur ekki slakað á ef þú\n"
+    .string "ert Vasaskrímsla ÞJÁLFARI!$"
 
 ViridianForest_Text_DougDefeat::
-    .string "Huh? I ran out of Vasaskrímsli!$"
+    .string "Ha? Ég varð uppiskroppa með\n"
+    .string "Vasaskrímsli!$"
 
 ViridianForest_Text_DougPostBattle::
     .string "Þetta er ömurlegt! Ég ætla að\n"
@@ -50,31 +51,30 @@ ViridianForest_Text_AnthonyPostBattle::
     .string "Ég tapaði hluta vasapeninganna…$"
 
 ViridianForest_Text_CharlieIntro::
-    .string "Did you know that Vasaskrímsli\n"
-    .string "evolve?$"
+    .string "Vissirðu að Vasaskrímsli þróast?$"
 
 ViridianForest_Text_CharlieDefeat::
     .string "Ó! Ég tapaði!$"
 
 ViridianForest_Text_CharliePostBattle::
     .string "SKORDÝ Vasaskrímsli þróast hratt.\n"
-    .string "They're a lot of fun!$"
+    .string "Þau eru ótrúlega skemmtileg!$"
 
 ViridianForest_Text_RanOutOfPokeBalls::
-    .string "I was throwing VASA BOLTAR to catch\n"
-    .string "Vasaskrímsli, and I ran out.\p"
-    .string "That's why you can never have too\n"
-    .string "many VASA BOLTAR.$"
+    .string "Ég var að kasta VASA BOLTUM til að\n"
+    .string "ná Vasaskrímslum, og ég kláraði þá.\p"
+    .string "Þess vegna geturðu aldrei átt of\n"
+    .string "marga VASA BOLTA.$"
 
 ViridianForest_Text_AvoidGrassyAreasWhenWeak::
     .string "ÞJÁLFARA RÁÐ\p"
-    .string "If your Vasaskrímsli are weak and\n"
-    .string "you want to avoid battles, stay away\p"
-    .string "from grassy areas!$"
+    .string "Ef Vasaskrímslin þín eru veik og þú\n"
+    .string "vilt forðast bardaga, haltu þig frá\p"
+    .string "grasflötum!$"
 
 ViridianForest_Text_UseAntidoteForPoison::
-    .string "For poison, use ANTIDOTE! Get it at\n"
-    .string "Vasaskrímsli MARTS!$"
+    .string "Við eitrun skaltu nota MÓTEITUR!\n"
+    .string "Fáðu það í Vasaskrímslabúð!$"
 
 ViridianForest_Text_ContactOakViaPCToRatePokedex::
     .string "ÞJÁLFARA RÁÐ\p"
@@ -83,16 +83,17 @@ ViridianForest_Text_ContactOakViaPCToRatePokedex::
 
 ViridianForest_Text_CantCatchOwnedMons::
     .string "ÞJÁLFARA RÁÐ\p"
-    .string "You can't catch a Vasaskrímsli that\n"
-    .string "belongs to someone else.\p"
-    .string "Throw VASA BOLTAR only at wild\n"
-    .string "Vasaskrímsli to catch them!$"
+    .string "Þú getur ekki náð Vasaskrímsli sem\n"
+    .string "tilheyrir einhverjum öðrum.\p"
+    .string "Kastaðu VASA BOLTUM aðeins á villt\n"
+    .string "Vasaskrímsli til að ná þeim!$"
 
 ViridianForest_Text_WeakenMonsBeforeCapture::
     .string "ÞJÁLFARA RÁÐ\p"
-    .string "Weaken Vasaskrímsli before\n"
-    .string "attempting capture!\p"
-    .string "When healthy, they may escape!$"
+    .string "Veiktu Vasaskrímsli áður en þú\n"
+    .string "reynir að ná þeim!\p"
+    .string "Ef þau eru heilbrigð gætu þau\n"
+    .string "sloppið!$"
 
 ViridianForest_Text_LeavingViridianForest::
     .string "FER ÚT ÚR VIRIDIAN SKÓGI PEWTER BORG\n"

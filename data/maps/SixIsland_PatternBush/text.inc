@@ -31,12 +31,12 @@ SixIsland_PatternBush_Text_GarretIntro::
     .string "lifir aðeins hér í kring!$"
 
 SixIsland_PatternBush_Text_GarretDefeat::
-    .string "Heheh… Isn't my Vasaskrímsli\n"
-    .string "awesome?$"
+    .string "Heheh… Er Vasaskrímslið mitt ekki\n"
+    .string "geggjað?$"
 
 SixIsland_PatternBush_Text_GarretPostBattle::
     .string "Það er stelpa nálægt BUSH sem mælir\n"
-    .string "HORNUXI fyrir TRAINERS.$"
+    .string "HORNUXI fyrir ÞJÁLFARA.$"
 
 SixIsland_PatternBush_Text_JonahIntro::
     .string "Veistu, mér finnst þetta bara ekki\n"

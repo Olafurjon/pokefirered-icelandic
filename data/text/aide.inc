@@ -1,14 +1,14 @@
 Aide_Text_HaventCaughtEnoughMonsForItem::
-	.string "Let's see… Uh-oh! You have caught\n"
-	.string "only {STR_VAR_3} kinds of\p"
-	.string "Vasaskrímsli!\p"
-	.string "You need {STR_VAR_1} kinds if you\n"
-	.string "want the {STR_VAR_2}.$"
+	.string "Sjáum… Úbbs! Þú hefur aðeins náð\n"
+	.string "{STR_VAR_3} tegundum af\p"
+	.string "Vasaskrímslum!\p"
+	.string "Þú þarft {STR_VAR_1} tegundir ef þú\n"
+	.string "vilt {STR_VAR_2}.$"
 
 Aide_Text_GetEnoughMonsComeBackForItem::
-	.string "…Oh. I see.\p"
-	.string "When you get {STR_VAR_1} kinds of\n"
-	.string "Vasaskrímsli, come back for the\p"
+	.string "…Ó. Ég skil.\p"
+	.string "Þegar þú færð {STR_VAR_1} tegundir\n"
+	.string "af Vasaskrímslum, komdu aftur fyrir\p"
 	.string "{STR_VAR_2}.$"
 
 Aide_Text_DontHaveAnyRoomForItem::

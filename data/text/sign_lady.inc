@@ -24,5 +24,5 @@ PalletTown_Text_LookCopiedTrainerTipsSign::
 
 @ Used by NPC
 PalletTown_Text_PressStartToOpenMenuCopy::
-	.string "ÞJÁLFARA RÁÐ\p"
+	.string "ÞJÁLFARA RÁÐ!\p"
 	.string "Ýttu á START til að opna MENU!$"
