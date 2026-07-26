@@ -22,7 +22,7 @@ CeruleanCity_BikeShop_Text_HowDoYouLikeNewBicycle::
     .string "Hvernig líkar þér nýja REIÐHJÓLIÐ?\n"
     .string "Rennur það vel?\p"
     .string "Þú getur farið með það á\n"
-    .string "HJÓLALEIÐINA og jafnvel inn í hella!$"
+    .string "HJÓLAVEGINN og jafnvel inn í hella!$"
 
 CeruleanCity_BikeShop_Text_MakeRoomForBicycle::
     .string "Þú þarft að gera pláss fyrir\n"
@@ -49,4 +49,3 @@ CeruleanCity_BikeShop_Text_GermanFoldableBicyleFinallyOnMarket::
 
 CeruleanCity_BikeShop_Text_ShinyNewBicycle::
     .string "Gljáandi nýtt REIÐHJÓL!$"
-

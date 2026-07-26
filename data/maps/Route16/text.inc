@@ -71,7 +71,7 @@ Route16_Text_MonSprawledOutInSlumber::
     .string "djúpum og notalegum svefni.$"
 
 Route16_Text_CyclingRoadSign::
-    .string "Njóttu brekkunnar! HJÓLAVEGUR$"
+    .string "Njóttu brekkunnar! HJÓLAVEGURINN$"
 
 Route16_Text_RouteSign::
     .string "LEIÐ 16 CELADON BORG - FUCHSIA BORG$"

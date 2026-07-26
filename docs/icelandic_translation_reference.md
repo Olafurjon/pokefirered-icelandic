@@ -31,6 +31,7 @@ This document records approved terminology and style rules for the Icelandic ver
 | TOWN | BÆR | Place suffix, e.g. `PALLET BÆR`. |
 | CITY | BORG | Place suffix. |
 | ROUTE X | VEGUR X | Route names/signage. |
+| CYCLING ROAD | HJÓLAVEGURINN | Location term; inflect as `HJÓLAVEGINN`, `HJÓLAVEGINUM`. |
 | ISLAND | EYJA | Place suffix, e.g. `ONE EYJA`, `SEVII EYJAR`. |
 | PALLET TOWN | PALLET BÆR | Location/banner name; use `PALLET BÆ`, `PALLET BÆJAR` etc. in inflected prose. |
 | BERRY | BER | Generic berry/item-family word in visible text. |

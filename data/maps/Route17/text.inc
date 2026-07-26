@@ -7,7 +7,7 @@ Route17_Text_RaulDefeat::
 
 Route17_Text_RaulPostBattle::
     .string "Þú getur fundið góða hluti liggjandi\n"
-    .string "á HJÓLAVEGI.\p"
+    .string "á HJÓLAVEGINUM.\p"
     .string "Það eru góðir peningar í að hirða þá\n"
     .string "og selja.$"
 
@@ -123,4 +123,4 @@ Route17_Text_DontThrowGameThrowBalls::
     .string "VASA BOLTUM í staðinn!$"
 
 Route17_Text_CyclingRoadSign::
-    .string "HJÓLAVEGUR Hallinn endar hér!$"
+    .string "HJÓLAVEGURINN Hallinn endar hér!$"

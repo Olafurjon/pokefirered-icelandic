@@ -34,6 +34,5 @@ Route18_Text_RouteSign::
     .string "LEIÐ 18 CELADON BORG - FUCHSIA BORG$"
 
 Route18_Text_CyclingRoadSign::
-    .string "HJÓLAVEGUR Gangandi vegfarendur\n"
+    .string "HJÓLAVEGURINN Gangandi vegfarendur\n"
     .string "bannaðir!$"
-
