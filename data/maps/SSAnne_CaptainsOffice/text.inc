@@ -1,53 +1,51 @@
 SSAnne_CaptainsOffice_Text_CaptainIFeelSeasick::
-    .string "CAPTAIN: Ooargh…\n"
-    .string "I feel hideous…\l"
-    .string "Urrp! Seasick…$"
+    .string "SKIPSTJÓRI: Óaaargh... Mér líður\n"
+    .string "hræðilega... Urrp! Sjóveiki...$"
 
 SSAnne_CaptainsOffice_Text_RubbedCaptainsBack::
-    .string "{PLAYER} rubbed the CAPTAIN's\n"
-    .string "back!\p"
-    .string "Rub-rub…\n"
-    .string "Rub-rub…$"
+    .string "{PLAYER} nuddaði bakið á\n"
+    .string "SKIPSTJÓRANUM!\p"
+    .string "Nudd-nudd... Nudd-nudd...$"
 
 SSAnne_CaptainsOffice_Text_ThankYouHaveHMForCut::
-    .string "CAPTAIN: Whew! Thank you!\n"
-    .string "I'm feeling much better now.\p"
-    .string "You want to see my hidden CUT\n"
-    .string "technique?\p"
-    .string "I could show you my prized CUT\n"
-    .string "technique if I weren't so ill…\p"
-    .string "I know! You can have this!\n"
-    .string "This HIDDEN MACHINE!\p"
-    .string "Teach CUT to your POKéMON, and\n"
-    .string "you can see it CUT anytime!$"
+    .string "SKIPSTJÓRI: Úff! Takk fyrir! Mér\n"
+    .string "líður miklu betur núna.\p"
+    .string "Viltu sjá leynilegu CUT tæknina\n"
+    .string "mína?\p"
+    .string "Ég gæti sýnt þér dýrmætu CUT tæknina\n"
+    .string "mína ef ég væri ekki svona veikur...\p"
+    .string "Ég veit! Þú mátt fá þetta! Þessa\n"
+    .string "FÖLDU VÉL!\p"
+    .string "Kenndu vasaskrímslinu þínu CUT, og\n"
+    .string "þú getur séð það CUT-a hvenær sem\p"
+    .string "er!$"
 
 SSAnne_CaptainsOffice_Text_ObtainedHM01FromCaptain::
-    .string "{PLAYER} obtained HM01\n"
-    .string "from the CAPTAIN!$"
+    .string "{PLAYER} fékk HM01 frá\n"
+    .string "SKIPSTJÓRANUM!$"
 
 SSAnne_CaptainsOffice_Text_ExplainCut::
-    .string "Using CUT, you can chop down\n"
-    .string "small trees.\p"
-    .string "Why not try it with the trees\n"
-    .string "around VERMILION CITY?$"
+    .string "Með CUT geturðu höggvið niður lítil\n"
+    .string "tré.\p"
+    .string "Af hverju prófarðu það ekki á\n"
+    .string "trjánum í kringum VERMILION BORG?$"
 
 SSAnne_CaptainsOffice_Text_SSAnneWillSetSailSoon::
-    .string "CAPTAIN: …Whew!\p"
-    .string "Now that I'm not sick anymore,\n"
-    .string "I guess it's time.\p"
-    .string "The S.S. ANNE will set sail soon!\p"
-    .string "Farewell, until our return to\n"
-    .string "VERMILION CITY!$"
+    .string "SKIPSTJÓRI: ...Úff!\p"
+    .string "Nú þegar ég er ekki veikur lengur\n"
+    .string "held ég að tíminn sé kominn.\p"
+    .string "S.S. ANNE leggur fljótlega úr höfn!\p"
+    .string "Vertu sæl, þar til við snúum aftur\n"
+    .string "til VERMILION BORGAR!$"
 
 SSAnne_CaptainsOffice_Text_YouHaveNoRoomForThis::
-    .string "Oh, no!\n"
-    .string "You have no room for this!$"
+    .string "Ó, nei! Þú hefur ekkert pláss fyrir\n"
+    .string "þetta!$"
 
 SSAnne_CaptainsOffice_Text_YuckShouldntHaveLooked::
-    .string "Yuck!\n"
-    .string "Shouldn't have looked!$"
+    .string "Oj! Hefði ekki átt að líta!$"
 
 SSAnne_CaptainsOffice_Text_HowToConquerSeasickness::
-    .string "How to Conquer Seasickness…\n"
-    .string "The CAPTAIN's reading this!$"
+    .string "Hvernig má sigrast á sjóveiki...\n"
+    .string "SKIPSTJÓRINN er að lesa þetta!$"
 

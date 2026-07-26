@@ -1,113 +1,111 @@
 Route16_Text_LaoIntro::
-    .string "What do you want?$"
+    .string "Hvað viltu?$"
 
 Route16_Text_LaoDefeat::
-    .string "Don't you dare laugh!$"
+    .string "Ekki voga þér að hlæja!$"
 
 Route16_Text_LaoPostBattle::
-    .string "We like just hanging here.\n"
-    .string "What's it to you?$"
+    .string "Okkur finnst bara gott að hanga hér.\n"
+    .string "Hvað kemur það þér við?$"
 
 Route16_Text_KojiIntro::
-    .string "Nice BIKE!\n"
-    .string "Hand it over!$"
+    .string "Flott HJÓL! Láttu mig fá það!$"
 
 Route16_Text_KojiDefeat::
-    .string "Knockout!$"
+    .string "Rot!$"
 
 Route16_Text_KojiPostBattle::
-    .string "Forget it, who needs your BIKE!$"
+    .string "Gleymdu því, hver þarf á HJÓLINU\n"
+    .string "þínu að halda!$"
 
 Route16_Text_LukeIntro::
-    .string "Come out and play, little mouse!$"
+    .string "Komdu út að leika, litla mús!$"
 
 Route16_Text_LukeDefeat::
-    .string "You little rat!$"
+    .string "Þú litla rotta!$"
 
 Route16_Text_LukePostBattle::
-    .string "I hate losing!\n"
-    .string "Get out of my face!$"
+    .string "Ég hata að tapa! Farðu úr andlitinu\n"
+    .string "á mér!$"
 
 Route16_Text_HideoIntro::
-    .string "Hey, you just bumped me!$"
+    .string "Hey, þú rakst í mig!$"
 
 Route16_Text_HideoDefeat::
-    .string "Kaboom!$"
+    .string "Kabúmm!$"
 
 Route16_Text_HideoPostBattle::
-    .string "We'll always be hanging around here\n"
-    .string "even if you don't like it.\p"
-    .string "You can detour to VERMILION from\n"
-    .string "FUCHSIA going along the coast.$"
+    .string "Við munum alltaf hanga hér, hvort\n"
+    .string "sem þér líkar það eða ekki.\p"
+    .string "Þú getur farið hjáleið til VERMILION\n"
+    .string "frá FUCHSIA meðfram ströndinni.$"
 
 Route16_Text_CamronIntro::
-    .string "I'm feeling hungry and mean!\n"
-    .string "I need a punching bag!$"
+    .string "Ég er svangur og illur! Ég þarf\n"
+    .string "kýlipoka!$"
 
 Route16_Text_CamronDefeat::
-    .string "Bad, bad, bad!$"
+    .string "Slæmt, slæmt, slæmt!$"
 
 Route16_Text_CamronPostBattle::
-    .string "If I'm going to have POKéMON, they\n"
-    .string "may as well be ferocious.\p"
-    .string "I'd use them to leave my enemies\n"
-    .string "in tatters.$"
+    .string "Ef ég ætla að eiga vasaskrímsli mega\n"
+    .string "þau alveg vera grimm.\p"
+    .string "Ég myndi nota þau til að tæta óvini\n"
+    .string "mína í sundur.$"
 
 Route16_Text_RubenIntro::
-    .string "Hey, there!\n"
-    .string "Let's have ourselves a good time!$"
+    .string "Heyrðu þarna! Skemmtum okkur\n"
+    .string "almennilega!$"
 
 Route16_Text_RubenDefeat::
-    .string "Don't make me mad!$"
+    .string "Ekki gera mig reiðan!$"
 
 Route16_Text_RubenPostBattle::
-    .string "I get my kicks by harassing people\n"
-    .string "with my stinking POKéMON.\p"
-    .string "They're great for startling people.\n"
-    .string "And, they bite, too.$"
+    .string "Ég fæ mitt fjör úr því að angra fólk\n"
+    .string "með stinkandi vasaskrímslunum mínum.\p"
+    .string "Þau eru frábær til að hræða fólk. Og\n"
+    .string "þau bíta líka.$"
 
 Route16_Text_MonSprawledOutInSlumber::
-    .string "A POKéMON is sprawled out in\n"
-    .string "a deep and comfortable slumber.$"
+    .string "Vasaskrímsli liggur endilangt í\n"
+    .string "djúpum og notalegum svefni.$"
 
 Route16_Text_CyclingRoadSign::
-    .string "Enjoy the slope!\n"
-    .string "CYCLING ROAD$"
+    .string "Njóttu brekkunnar! HJÓLAVEGUR$"
 
 Route16_Text_RouteSign::
-    .string "ROUTE 16\n"
-    .string "CELADON CITY - FUCHSIA CITY$"
+    .string "LEIÐ 16 CELADON BORG - FUCHSIA BORG$"
 
 Route16_Text_JedIntro::
-    .string "JED: Our love knows no bounds.\n"
-    .string "We're in love and we show it!$"
+    .string "JED: Ást okkar þekkir engin mörk.\n"
+    .string "Við erum ástfangin og sýnum það!$"
 
 Route16_Text_JedDefeat::
-    .string "JED: Oh, no!\n"
-    .string "My love has seen me as a loser!$"
+    .string "JED: Ó, nei! Ástin mín sá mig sem\n"
+    .string "tapara!$"
 
 Route16_Text_JedPostBattle::
-    .string "JED: Listen, LEA.\n"
-    .string "You need to focus less on me.$"
+    .string "JED: Hlustaðu, LEA. Þú þarft að\n"
+    .string "hugsa aðeins minna um mig.$"
 
 Route16_Text_JedNotEnoughMons::
-    .string "JED: You have just one POKéMON?\n"
-    .string "Is there no love in your heart?$"
+    .string "JED: Þú átt bara eitt vasaskrímsli?\n"
+    .string "Er engin ást í hjarta þínu?$"
 
 Route16_Text_LeaIntro::
-    .string "LEA: Sometimes, the intensity of\n"
-    .string "our love scares me.$"
+    .string "LEA: Stundum hræðir styrkur ástar\n"
+    .string "okkar mig.$"
 
 Route16_Text_LeaDefeat::
-    .string "LEA: Ohh! But JED looks cool\n"
-    .string "even in a loss!$"
+    .string "LEA: Óó! En JED er svalur jafnvel\n"
+    .string "þegar hann tapar!$"
 
 Route16_Text_LeaPostBattle::
-    .string "LEA: Ehehe, I'm sorry.\n"
-    .string "JED is so cool.$"
+    .string "LEA: Ehehe, fyrirgefðu. JED er svo\n"
+    .string "svalur.$"
 
 Route16_Text_LeaNotEnoughMons::
-    .string "LEA: Oh, you don't have two\n"
-    .string "POKéMON with you?\p"
-    .string "Doesn't it feel lonely for you or\n"
-    .string "your POKéMON?$"
+    .string "LEA: Ó, þú ert ekki með tvö\n"
+    .string "vasaskrímsli með þér?\p"
+    .string "Finnst þér það ekki einmanalegt\n"
+    .string "fyrir þig eða vasaskrímslið þitt?$"

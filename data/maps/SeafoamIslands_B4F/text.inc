@@ -1,29 +1,29 @@
 Text_RockSlideTeach::
-    .string "When you're up on a rocky mountain\n"
-    .string "like this, rockslides are a threat.\p"
-    .string "Can you imagine?\n"
-    .string "Boulders tumbling down on you?\p"
-    .string "That'd be, like, waaaaaaaaaaah!\n"
-    .string "Total terror!\p"
-    .string "You don't seem to be scared.\n"
-    .string "Want to try using ROCK SLIDE?$"
+    .string "Þegar þú ert uppi á grýttu fjalli\n"
+    .string "eins og þessu eru grjóthrun\p"
+    .string "hættuleg.\p"
+    .string "Geturðu ímyndað þér það? Stórgrýti\n"
+    .string "veltandi niður á þig?\p"
+    .string "Það væri svona, vááááááááá! Algjör\n"
+    .string "hryllingur!\p"
+    .string "Þú virðist ekki hræddur. Viltu prófa\n"
+    .string "að nota GRJÓTHRUN?$"
 
 Text_RockSlideDeclined::
-    .string "Oh, so you are scared after all.$"
+    .string "Ó, svo þú ert hræddur eftir allt.$"
 
 Text_RockSlideWhichMon::
-    .string "Which POKéMON should I teach\n"
-    .string "ROCK SLIDE?$"
+    .string "Hvaða vasaskrímsli á ég að kenna\n"
+    .string "GRJÓTHRUN?$"
 
 Text_RockSlideTaught::
-    .string "It might be scary to use it in this\n"
-    .string "tunnel…$"
+    .string "Það gæti verið ógnvekjandi að nota\n"
+    .string "það í þessum göngum...$"
 
 SeafoamIslands_B4F_Text_BouldersMightChangeWaterFlow::
-    .string "Hint: Boulders might change the\n"
-    .string "flow of water.$"
+    .string "Vísbending: Stórgrýti gæti breytt\n"
+    .string "vatnsrennsli.$"
 
 SeafoamIslands_B4F_Text_DangerFastCurrent::
-    .string "DANGER\n"
-    .string "Fast current!$"
+    .string "HÆTTA Stríður straumur!$"
 

@@ -814,37 +814,37 @@ Text_WouldYouLikeToMixRecords::
 
 @ Unused
 Text_WeHopeToSeeYouAgain2::
-	.string "We hope to see you again!$"
+	.string "Vonandi sjáumst við aftur!$"
 
 	.include "data/text/pc.inc"
 
 @ Unused
 Text_WelcomeTradeCenter::
-	.string "Welcome to the POKéMON CABLE CLUB\n"
-	.string "TRADE CENTER.$"
+	.string "Velkomin í VASaSKRÍMSLI\n"
+	.string "KAPALKLÚBB - SKIPTI.$"
 
 @ Unused
 Text_WelcomeColosseum::
-	.string "Welcome to the POKéMON CABLE CLUB\n"
-	.string "COLOSSEUM.$"
+	.string "Velkomin í VASaSKRÍMSLI\n"
+	.string "KAPALKLÚBB - VÍGVÖLL.$"
 
 @ Unused
 Text_WelcomeTimeCapsule::
-	.string "Welcome to the POKéMON CABLE CLUB\n"
-	.string "TIME CAPSULE.$"
+	.string "Velkomin í VASaSKRÍMSLI\n"
+	.string "KAPALKLÚBB - TÍMAHYLKI.$"
 
 Text_PleaseComeAgain::
-	.string "Please come again!$"
+	.string "Komdu endilega aftur!$"
 
 @ Unused
 Text_HavingDiscountSaleToday::
-	.string "Welcome!\p"
-	.string "We're having a discount sale today!$"
+	.string "Velkomin!\p"
+	.string "Við erum með afslátt í dag!$"
 
 @ Unused
 Text_PlayerWhatCanIDoForYou::
-	.string "{PLAYER}{KUN}, welcome!\p"
-	.string "What can I do for you?$"
+	.string "{PLAYER}{KUN}, velkomin!\p"
+	.string "Hvað get ég gert fyrir þig?$"
 
 	.include "data/text/obtain_item.inc"
 
@@ -852,11 +852,11 @@ Text_MakingPreparations::
 	.string "じゅんびちゅうです！$"
 
 Text_WantWhichFloor::
-	.string "Which floor do you want?$"
+	.string "Hvaða hæð viltu fara á?$"
 
 Text_BagItemCanBeRegistered::
-	.string "An item in the BAG can be\n"
-	.string "registered to SELECT for easy use.$"
+	.string "Hlut í TÖSKUNNI má skrá\n"
+	.string "á SELECT til þæginda.$"
 
 @ Unused (email from R/S Rivals computer)
 Text_TrainerSchoolEmail::
@@ -870,7 +870,7 @@ Text_TrainerSchoolEmail::
 	.string "‥‥　‥‥　‥‥$"
 
 Text_PlayerBootedUpPC::
-	.string "{PLAYER} booted up the PC.$"
+	.string "{PLAYER} kveikti á tölvunni.$"
 
 @ Unused
 Text_LinkWasCanceled::
@@ -878,29 +878,29 @@ Text_LinkWasCanceled::
 
 @ Unused
 Text_GiveNicknameToReceivedMon::
-	.string "Want to give a nickname to the\n"
-	.string "{STR_VAR_2} you received?$"
+	.string "Viltu gefa {STR_VAR_2}, sem\n"
+	.string "þú fékkst, gælunafn?$"
 
 gText_PkmnFainted3::
-	.string "{STR_VAR_1} fainted…\p"
+	.string "{STR_VAR_1} féll í yfirlið…\p"
 	.string "$"
 
 Text_WelcomeWantToHealPkmn::
-	.string "Welcome to our POKéMON CENTER!\p"
-	.string "Would you like me to heal your\n"
-	.string "POKéMON back to perfect health?$"
+	.string "Velkomin í VASaSKRÍMSLI SETRIÐ!\p"
+	.string "Viltu að ég lækni\n"
+	.string "VASaSKRÍMSLIN þín alveg?$"
 
 Text_TakeYourPkmnForFewSeconds::
-	.string "Okay, I'll take your POKéMON for a\n"
-	.string "few seconds.$"
+	.string "Allt í lagi, ég tek\n"
+	.string "VASaSKRÍMSLIN í smástund.$"
 
 Text_WeHopeToSeeYouAgain::
-	.string "We hope to see you again!$"
+	.string "Vonandi sjáumst við aftur!$"
 
 Text_RestoredPkmnToFullHealth::
-	.string "Thank you for waiting.\n"
-	.string "We've restored your POKéMON to\l"
-	.string "full health.$"
+	.string "Takk fyrir að bíða.\n"
+	.string "VASaSKRÍMSLIN þín eru\l"
+	.string "orðin fullhraust.$"
 
 	.include "data/text/surf.inc"
 
@@ -915,21 +915,21 @@ Text_BigHoleInTheWall::
 	.string "おおきな　あなが　あいている！$"
 
 Text_WirelessClubUndergoingAdjustments::
-	.string "I'm terribly sorry.\n"
-	.string "The POKéMON WIRELESS CLUB is\l"
-	.string "undergoing adjustments now.$"
+	.string "Mér þykir það mjög leitt.\n"
+	.string "VASaSKRÍMSLI ÞRÁÐLAUSI\l"
+	.string "KLÚBBURINN er í stillingum.$"
 
 Text_AppearsToBeUndergoingAdjustments::
-	.string "It appears to be undergoing\n"
-	.string "adjustments…$"
+	.string "Það virðist vera verið\n"
+	.string "að stilla þetta…$"
 
 Text_HandedOverItem::
-	.string "{PLAYER} handed over the\n"
+	.string "{PLAYER} afhenti\n"
 	.string "{STR_VAR_1}.$"
 
 Text_GiveNicknameToThisMon::
-	.string "Do you want to give a nickname to\n"
-	.string "this {STR_VAR_1}?$"
+	.string "Viltu gefa þessu {STR_VAR_1}\n"
+	.string "gælunafn?$"
 
 	.include "data/text/itemfinder.inc"
 	.include "data/text/route23.inc"
@@ -937,21 +937,19 @@ Text_GiveNicknameToThisMon::
 	.include "data/text/ingame_trade.inc"
 
 Text_CardKeyOpenedDoor::
-	.string "Bingo!\n"
-	.string "The CARD KEY opened the door!$"
+	.string "Bingó!\n"
+	.string "KORTALYKILLINN opnaði dyrnar!$"
 
 Text_ItNeedsCardKey::
-	.string "No!\n"
-	.string "It needs a CARD KEY!$"
+	.string "Nei!\n"
+	.string "Það þarf KORTALYKIL!$"
 
 Text_AccessedProfOaksPC::
-	.string "Accessed PROF. OAK's PC…\p"
-	.string "Accessed the POKéDEX Rating\n"
-	.string "System…$"
+	.string "Tengdist tölvu Prófessors EIKS…\p"
+	.string "Tengdist matskerfi VasaDEX…$"
 
 Text_HavePokedexRated::
-	.string "Would you like to have your\n"
-	.string "POKéDEX rated?$"
+	.string "Viltu láta meta VasaDEXið þitt?$"
 
 Text_ClosedLinkToProfOaksPC::
 	.string "Closed link to PROF. OAK's PC.$"

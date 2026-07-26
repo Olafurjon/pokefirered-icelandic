@@ -1,28 +1,27 @@
 CinnabarIsland_Gym_Text_PhotoOfBlaineAndFuji::
-    .string "It's a photo of BLAINE and\n"
-    .string "MR. FUJI.\p"
-    .string "They're standing shoulder to\n"
-    .string "shoulder with big grins.$"
+    .string "Þetta er mynd af BLAINE og MR. FUJI.\p"
+    .string "Þeir standa öxl við öxl og brosa\n"
+    .string "breitt.$"
 
 CinnabarIsland_PokemonLab_Entrance_Text_StudyMonsExtensively::
-    .string "We study POKéMON extensively\n"
-    .string "every day.\p"
-    .string "People often bring us rare POKéMON\n"
-    .string "for examination.$"
+    .string "Við rannsökum vasaskrímsli ítarlega\n"
+    .string "á hverjum degi.\p"
+    .string "Fólk kemur oft með sjaldgæf\n"
+    .string "vasaskrímsli til skoðunar.$"
 
 CinnabarIsland_PokemonLab_Entrance_Text_PhotoOfLabFounderDrFuji::
-    .string "A photo of the LAB's founder…\n"
-    .string "DR. FUJI?!$"
+    .string "Mynd af stofnanda\n"
+    .string "rannsóknarstofunnar... DR. FUJI?!$"
 
 CinnabarIsland_PokemonLab_Entrance_Text_MeetingRoomSign::
-    .string "POKéMON LAB\n"
-    .string "Meeting Room$"
+    .string "VASASKRÍMSLARANNSÓKNARSTOFA\n"
+    .string "Fundarherbergi$"
 
 CinnabarIsland_PokemonLab_Entrance_Text_RAndDRoomSign::
-    .string "POKéMON LAB\n"
-    .string "R & D Room$"
+    .string "VASASKRÍMSLARANNSÓKNARSTOFA R & D\n"
+    .string "herbergi$"
 
 CinnabarIsland_PokemonLab_Entrance_Text_TestingRoomSign::
-    .string "POKéMON LAB\n"
-    .string "Testing Room$"
+    .string "VASASKRÍMSLARANNSÓKNARSTOFA\n"
+    .string "Prófunarherbergi$"
 

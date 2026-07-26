@@ -1,6 +1,6 @@
 SSAnne_3F_Corridor_Text_CaptainTeachesCutToMons::
-    .string "Our CAPTAIN is a sword master.\n"
-    .string "He's awesome at using CUT.\p"
-    .string "They say he even teaches CUT\n"
-    .string "to POKéMON!$"
+    .string "SKIPSTJÓRINN okkar er sverðmeistari.\n"
+    .string "Hann er magnaður í CUT.\p"
+    .string "Þeir segja að hann kenni jafnvel CUT\n"
+    .string "til vasaskrímsla!$"
 

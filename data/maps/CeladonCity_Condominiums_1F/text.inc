@@ -1,37 +1,37 @@
 CeladonCity_Condominiums_1F_Text_Meowth::
-    .string "MEOWTH: Meow!$"
+    .string "MJÁGJARN: Mjá!$"
 
 CeladonCity_Condominiums_1F_Text_TryThisDrinkInstead::
-    .string "You shouldn't spend all your money\n"
-    .string "on drinks.\p"
-    .string "Try this instead.$"
+    .string "Þú ættir ekki að eyða öllum\n"
+    .string "peningunum þínum í drykki.\p"
+    .string "Prófaðu þetta í staðinn.$"
 
 CeladonCity_Condominiums_1F_Text_NothingBeatsThirstLikeTea::
-    .string "Nothing beats thirst like some hot\n"
-    .string "TEA.\p"
-    .string "It really is the best.$"
+    .string "Ekkert slær á þorsta eins og heitt\n"
+    .string "TE.\p"
+    .string "Það er í alvöru það besta.$"
 
 CeladonCity_Condominiums_1F_Text_MyDearMonsKeepMeCompany::
-    .string "My dear POKéMON keep me company.\n"
-    .string "MEOWTH even brings money home!$"
+    .string "Kæru vasaskrímslin mín halda mér\n"
+    .string "félagsskap. MJÁGJARN kemur jafnvel\p"
+    .string "með peninga heim!$"
 
 CeladonCity_Condominiums_1F_Text_DaisyComesToBuyTea::
-    .string "Oh, hello, dearie.\n"
-    .string "Did you enjoy my TEA?\p"
-    .string "By the way, dear. Are you, by any\n"
-    .string "chance, from PALLET TOWN?\p"
-    .string "A girl from PALLET TOWN, DAISY,\n"
-    .string "she enjoys TEA every day.\p"
-    .string "She visits the CELADON DEPT. STORE\n"
-    .string "to buy some TEA.$"
+    .string "Ó, hæ gæskur. Sástu ánægður með TEIÐ\n"
+    .string "mitt?\p"
+    .string "Áttu annars, af einhverju tilfelli,\n"
+    .string "heima í PALLET BÆ?\p"
+    .string "Stúlka frá PALLET BÆ, DAISY, hún\n"
+    .string "nýtur þess að drekka TE á hverjum\p"
+    .string "degi.\p"
+    .string "Hún fer í CELADON VÖRUHÚSIÐ til að\n"
+    .string "kaupa TE.$"
 
 CeladonCity_Condominiums_1F_Text_Clefairy::
-    .string "CLEFAIRY: Pi pippippi!$"
+    .string "BLEIKÁLFUR: Pí pípppí!$"
 
 CeladonCity_Condominiums_1F_Text_Nidoran::
-    .string "NIDORAN♀: Kya kyaoo!$"
+    .string "NIDORAN♀: Kja kjaó!$"
 
 CeladonCity_Condominiums_1F_Text_ManagersSuite::
-    .string "CELADON MANSION\n"
-    .string "Manager's Suite$"
-
+    .string "CELADON STÓRHÝSI Íbúð stjórnanda$"

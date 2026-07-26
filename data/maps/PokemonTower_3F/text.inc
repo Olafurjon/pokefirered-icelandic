@@ -1,36 +1,29 @@
 PokemonTower_3F_Text_HopeIntro::
-    .string "Urrg… Awaa…\n"
-    .string "Huhu… Graa…$"
+    .string "Urrg… Awaa… Huhu… Graa…$"
 
 PokemonTower_3F_Text_HopeDefeat::
-    .string "Hwa!\n"
-    .string "I'm saved!$"
+    .string "Hwa! I'm saved!$"
 
 PokemonTower_3F_Text_HopePostBattle::
-    .string "The ghosts can be identified by\n"
-    .string "the SILPH SCOPE.$"
+    .string "Draugana má bera kennsl á með\n"
+    .string "SILPH-SJÁNNI.$"
 
 PokemonTower_3F_Text_CarlyIntro::
-    .string "Kekeke…\n"
-    .string "Kwaaah!$"
+    .string "Kekeke… Kwaaah!$"
 
 PokemonTower_3F_Text_CarlyDefeat::
-    .string "Hmm?\n"
-    .string "What am I doing?$"
+    .string "Hmm? What am I doing?$"
 
 PokemonTower_3F_Text_CarlyPostBattle::
-    .string "Sorry!\n"
-    .string "I was possessed!$"
+    .string "Fyrirgefðu! Ég var haldinn!$"
 
 PokemonTower_3F_Text_PatriciaIntro::
-    .string "Be gone!\n"
-    .string "Malevolent spirit!$"
+    .string "Be gone! Malevolent spirit!$"
 
 PokemonTower_3F_Text_PatriciaDefeat::
-    .string "Whew!\n"
-    .string "The spirit left!$"
+    .string "Púff! Andinn fór!$"
 
 PokemonTower_3F_Text_PatriciaPostBattle::
-    .string "The others above…\n"
-    .string "They must have been possessed.$"
+    .string "Hinir fyrir ofan… Þeir hljóta að\n"
+    .string "hafa verið andsetnir.$"
 

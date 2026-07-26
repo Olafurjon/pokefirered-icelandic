@@ -1,50 +1,52 @@
 PokemonTower_7F_Text_Grunt1Intro::
-    .string "What do you want?\n"
-    .string "Why are you here?$"
+    .string "Hvað viltu? Af hverju ertu hér?$"
 
 PokemonTower_7F_Text_Grunt1Defeat::
-    .string "I give up!$"
+    .string "Ég gefst upp!$"
 
 PokemonTower_7F_Text_Grunt1PostBattle::
-    .string "I'm not going to forget this!$"
+    .string "Ég mun ekki gleyma þessu!$"
 
 PokemonTower_7F_Text_Grunt2Intro::
-    .string "This old guy marched right up to\n"
-    .string "our HIDEOUT.\p"
-    .string "Then, he starts ranting about how\n"
-    .string "TEAM ROCKET's abusing POKéMON.\p"
-    .string "So, we're just talking it over as\n"
-    .string "adults.$"
+    .string "Þessi gamli maður ruddist beint inn\n"
+    .string "í FELUSTAÐINN okkar.\p"
+    .string "Svo fór hann að rausa um að\n"
+    .string "ROCKET-GENGIÐ misnotaði\p"
+    .string "Vasaskrímsli.\p"
+    .string "Við erum bara að ræða þetta eins og\n"
+    .string "fullorðið fólk.$"
 
 PokemonTower_7F_Text_Grunt2Defeat::
-    .string "Please!\n"
-    .string "No more!$"
+    .string "Vinsamlegast! Ekki meira!$"
 
 PokemonTower_7F_Text_Grunt2PostBattle::
-    .string "POKéMON are only good for making\n"
-    .string "money. Why not use them?\p"
-    .string "You stay out of our business!$"
+    .string "Vasaskrímsli eru bara góð til að\n"
+    .string "græða peninga. Af hverju ekki að\p"
+    .string "nota þau?\p"
+    .string "Haltu þér frá okkar málum!$"
 
 PokemonTower_7F_Text_Grunt3Intro::
-    .string "You're not saving anyone, kid!$"
+    .string "Þú ert ekki að bjarga neinum,\n"
+    .string "krakki!$"
 
 PokemonTower_7F_Text_Grunt3Defeat::
-    .string "Don't fight us ROCKETS!$"
+    .string "Ekki berjast við okkur ROCKETS!$"
 
 PokemonTower_7F_Text_Grunt3PostBattle::
-    .string "You're not getting away with this!$"
+    .string "Þú kemst ekki upp með þetta!$"
 
 PokemonTower_7F_Text_MrFujiThankYouFollowMe::
-    .string "MR. FUJI: Heh?\n"
-    .string "You came to save me?\p"
-    .string "Thank you. But, I came here of my\n"
-    .string "own free will.\p"
-    .string "I came to calm the spirit of\n"
-    .string "CUBONE's mother.\p"
-    .string "I think MAROWAK's spirit has\n"
-    .string "finally left us.\p"
-    .string "I must thank you for your kind\n"
-    .string "concern.\p"
-    .string "Follow me to my home, POKéMON\n"
-    .string "HOUSE, at the foot of this tower.$"
+    .string "MR. FUJI: Ha? Komstu til að bjarga\n"
+    .string "mér?\p"
+    .string "Takk fyrir. En ég kom hingað af\n"
+    .string "fúsum og frjálsum vilja.\p"
+    .string "Ég kom til að róa anda móður\n"
+    .string "BEINFARA.\p"
+    .string "Ég held að andi HNAUSKÚPU hafi loks\n"
+    .string "yfirgefið okkur.\p"
+    .string "Ég verð að þakka þér fyrir\n"
+    .string "umhyggjuna.\p"
+    .string "Fylgdu mér heim til mín, í\n"
+    .string "Vasaskrímsla HOUSE við rætur\p"
+    .string "turnsins.$"
 

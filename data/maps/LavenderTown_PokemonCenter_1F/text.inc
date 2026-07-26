@@ -1,16 +1,18 @@
 LavenderTown_PokemonCenter_1F_Text_RocketsDoAnythingForMoney::
-    .string "TEAM ROCKET will do anything for\n"
-    .string "the sake of money!\p"
-    .string "There is no job too dirty, no deed\n"
-    .string "too heinous, no crime too wicked!$"
+    .string "ROCKET-GENGIÐ gerir hvað sem er\n"
+    .string "fyrir peninga!\p"
+    .string "Engin vinna er of skítug, enginn\n"
+    .string "verknaður of hræðilegur, enginn\p"
+    .string "glæpur of illur!$"
 
 LavenderTown_PokemonCenter_1F_Text_CubonesMotherKilledByRockets::
-    .string "I saw CUBONE's mother trying to\n"
-    .string "escape from TEAM ROCKET.\p"
-    .string "She was killed trying to get away…$"
+    .string "Ég sá móður BEINFARA reyna að flýja\n"
+    .string "frá ROCKET-GENGINU.\p"
+    .string "Hún var drepin þegar hún reyndi að\n"
+    .string "komast undan…$"
 
 LavenderTown_PokemonCenter_1F_Text_PeoplePayForCuboneSkulls::
-    .string "You know how the CUBONE species\n"
-    .string "wears skulls, right?\p"
-    .string "People will pay a lot for one.$"
+    .string "Þú veist hvernig BEINFARI tegundin\n"
+    .string "ber hauskúpur, ekki satt?\p"
+    .string "Fólk mun borga mikið fyrir eina.$"
 

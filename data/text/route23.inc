@@ -1,28 +1,26 @@
 Text_OnlySkilledTrainersAllowedThrough::
-	.string "Only truly skilled TRAINERS are\n"
-	.string "allowed through.\p"
-	.string "You don't have the {STR_VAR_1}\n"
-	.string "yet!$"
+	.string "Aðeins sannarlega færir ÞJÁLFARAR\n"
+	.string "mega fara hér í gegn.\p"
+	.string "Þú ert ekki með {STR_VAR_1} enn!$"
 
 Text_CantLetYouPass::
-	.string "Rules are rules.\n"
-	.string "I can't let you pass.$"
+	.string "Reglur eru reglur. Ég get ekki\n"
+	.string "hleypt þér í gegn.$"
 
 Text_OhThatsBadgeGoRightAhead::
-	.string "Oh! That is the {STR_VAR_1}!\n"
-	.string "Go right ahead.$"
+	.string "Ó! Þetta er {STR_VAR_1}! Farðu\n"
+	.string "endilega áfram.$"
 
 Text_OnlyPassWithBadgeDontHaveYet::
-	.string "You can pass here only if you have\n"
-	.string "the {STR_VAR_1}.\p"
-	.string "You don't have the {STR_VAR_1}\n"
-	.string "yet.\p"
-	.string "You have to have it to get to\n"
-	.string "the POKéMON LEAGUE.$"
+	.string "Þú mátt aðeins fara hér í gegn ef\n"
+	.string "þú ert með {STR_VAR_1}.\p"
+	.string "Þú ert ekki með {STR_VAR_1} enn.\p"
+	.string "Þú þarft það til að komast í\n"
+	.string "VASASKRÍMSLADEILDINA.$"
 
 Text_OnlyPassWithBadgeOhGoAhead::
-	.string "You can pass here only if you have\n"
-	.string "the {STR_VAR_1}.\p"
-	.string "Oh! That is the {STR_VAR_1}!{PAUSE_MUSIC}{PLAY_BGM}{MUS_LEVEL_UP}{PAUSE 0x60}{RESUME_MUSIC}\p"
-	.string "Okay, then.\n"
-	.string "Please, go right ahead.$"
+	.string "Þú mátt aðeins fara hér í gegn ef\n"
+	.string "þú ert með {STR_VAR_1}.\p"
+	.string "Ó! Þetta er\n"
+	.string "{STR_VAR_1}!{PAUSE_MUSIC}{PLAY_BGM}{MUS_LEVEL_UP}{PAUSE 0x60}{RESUME_MUSIC}\p"
+	.string "Allt í lagi. Farðu endilega áfram.$"

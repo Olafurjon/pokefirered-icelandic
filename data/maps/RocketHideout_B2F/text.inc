@@ -1,12 +1,11 @@
 RocketHideout_B2F_Text_GruntIntro::
-    .string "BOSS said you can see ghosts with\n"
-    .string "the SILPH SCOPE.$"
+    .string "FORINGINN sagði að hægt væri að sjá\n"
+    .string "drauga með SILPH SCOPE.$"
 
 RocketHideout_B2F_Text_GruntDefeat::
-    .string "I surrender!$"
+    .string "Ég gefst upp!$"
 
 RocketHideout_B2F_Text_GruntPostBattle::
-    .string "The TEAM ROCKET HQ has four\n"
-    .string "underground floors.\p"
-    .string "Think you can reach the BOSS?$"
-
+    .string "Höfuðstöðvar ROCKET-GENGISINS eru á\n"
+    .string "fjórum neðanjarðarhæðum.\p"
+    .string "Heldurðu að þú náir til FORINGJANS?$"

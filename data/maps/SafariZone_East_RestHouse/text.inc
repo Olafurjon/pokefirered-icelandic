@@ -1,12 +1,12 @@
 SafariZone_East_Text_HowManyDidYouCatch::
-    .string "How many did you catch?\n"
-    .string "I'm bushed from the effort!$"
+    .string "Hversu mörg veiddirðu? Ég er úrvinda\n"
+    .string "af áreynslunni!$"
 
 SafariZone_East_Text_CaughtChanseyAllWorthwhile::
-    .string "I caught a CHANSEY!\p"
-    .string "That makes this all worthwhile.$"
+    .string "Ég fangaði SÆLEGG!\p"
+    .string "Það gerir þetta allt þess virði.$"
 
 SafariZone_East_Text_TiredFromAllTheFun::
-    .string "Whew!\n"
-    .string "I'm tired from all the fun!$"
+    .string "Púff! Ég er þreyttur eftir alla\n"
+    .string "skemmtunina!$"
 

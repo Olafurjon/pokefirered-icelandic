@@ -1,154 +1,146 @@
 Route19_Text_RichardIntro::
-    .string "I have to exercise and warm up\n"
-    .string "before going out for a swim.$"
+    .string "Ég þarf að æfa mig og hita upp áður\n"
+    .string "en ég fer út að synda.$"
 
 Route19_Text_RichardDefeat::
-    .string "All warmed up!$"
+    .string "Alveg orðinn heitur!$"
 
 Route19_Text_RichardPostBattle::
-    .string "Thanks, kid!\n"
-    .string "I'm ready for a swim.$"
+    .string "Takk, krakki! Ég er tilbúinn í sund.$"
 
 Route19_Text_ReeceIntro::
-    .string "Wait! Slow down!\n"
-    .string "You'll have a heart attack!$"
+    .string "Bíddu! Hægðu á þér! Þú færð\n"
+    .string "hjartaáfall!$"
 
 Route19_Text_ReeceDefeat::
-    .string "Ooh!\n"
-    .string "That's chilly!$"
+    .string "Úú! Þetta er kalt!$"
 
 Route19_Text_ReecePostBattle::
-    .string "Watch out for TENTACOOL.\n"
-    .string "They sting so painfully.$"
+    .string "Passaðu þig á HOLSEPI. Þau stinga\n"
+    .string "svo sársaukafullt.$"
 
 Route19_Text_MatthewIntro::
-    .string "I love swimming!\n"
-    .string "What about you?$"
+    .string "Ég elska sund! Hvað með þig?$"
 
 Route19_Text_MatthewDefeat::
-    .string "Belly flop!$"
+    .string "Magalending!$"
 
 Route19_Text_MatthewPostBattle::
-    .string "I can beat even marine POKéMON\n"
-    .string "at swimming.$"
+    .string "Ég get meira að segja unnið\n"
+    .string "sjó-vasaskrímsli í sundi.$"
 
 Route19_Text_DouglasIntro::
-    .string "What's beyond the horizon?$"
+    .string "Hvað er handan sjóndeildarhringsins?$"
 
 Route19_Text_DouglasDefeat::
-    .string "Glub!$"
+    .string "Glúbb!$"
 
 Route19_Text_DouglasPostBattle::
-    .string "I see a couple of islands over\n"
-    .string "yonder!$"
+    .string "Ég sé nokkrar eyjar þarna úti!$"
 
 Route19_Text_DavidIntro::
-    .string "I tried diving for POKéMON, but it\n"
-    .string "was a no-go.$"
+    .string "Ég reyndi að kafa eftir\n"
+    .string "vasaskrímslum, en það gekk ekkert.$"
 
 Route19_Text_DavidDefeat::
-    .string "Help!$"
+    .string "Hjálp!$"
 
 Route19_Text_DavidPostBattle::
-    .string "I guess you have to fish for sea\n"
-    .string "POKéMON.$"
+    .string "Ætli maður þurfi að veiða\n"
+    .string "sjó-vasaskrímsli.$"
 
 Route19_Text_TonyIntro::
-    .string "I look at the sea to forget all\n"
-    .string "the bad things that happened.$"
+    .string "Ég horfi á sjóinn til að gleyma öllu\n"
+    .string "slæmu sem gerðist.$"
 
 Route19_Text_TonyDefeat::
-    .string "Ooh!\n"
-    .string "Traumatic!$"
+    .string "Úú! Áfall!$"
 
 Route19_Text_TonyPostBattle::
-    .string "I'm looking at the sea to forget\n"
-    .string "the bad thing that happened!$"
+    .string "Ég horfi á sjóinn til að gleyma því\n"
+    .string "slæma sem gerðist!$"
 
 Route19_Text_AnyaIntro::
-    .string "Oh, I just love your ride!\n"
-    .string "Can I have it if I win?$"
+    .string "Ó, ég elska fararskjótann þinn! Má\n"
+    .string "ég fá hann ef ég vinn?$"
 
 Route19_Text_AnyaDefeat::
-    .string "Oh! I lost!$"
+    .string "Ó! Ég tapaði!$"
 
 Route19_Text_AnyaPostBattle::
-    .string "It's still a long way to go to\n"
-    .string "SEAFOAM ISLANDS…\p"
-    .string "I want to go back to FUCHSIA…$"
+    .string "Það er enn langt til SEAFOAM EYJA...\p"
+    .string "Mig langar aftur til FUCHSIA...$"
 
 Route19_Text_AliceIntro::
-    .string "Swimming's great!\n"
-    .string "Sunburns aren't!$"
+    .string "Sund er frábært! Sólbruni er það\n"
+    .string "ekki!$"
 
 Route19_Text_AliceDefeat::
-    .string "Shocker!$"
+    .string "Stuð!$"
 
 Route19_Text_AlicePostBattle::
-    .string "My boyfriend wanted to swim to\n"
-    .string "SEAFOAM ISLANDS.$"
+    .string "Kærastinn minn vildi synda til\n"
+    .string "SEAFOAM EYJA.$"
 
 Route19_Text_AxleIntro::
-    .string "Ahoy, there!\n"
-    .string "These waters are treacherous!$"
+    .string "Ahoy, þarna! Þessi vötn eru varasöm!$"
 
 Route19_Text_AxleDefeat::
-    .string "Ooh!\n"
-    .string "Dangerous!$"
+    .string "Úú! Hættulegt!$"
 
 Route19_Text_AxlePostBattle::
-    .string "M-my legs! They cramped up!\n"
-    .string "Glub, glub…$"
+    .string "F-fæturnir mínir! Þeir krumpuðust!\n"
+    .string "Glúbb, glúbb...$"
 
 Route19_Text_ConnieIntro::
-    .string "I swam here with my friends…\n"
-    .string "I'm tired…$"
+    .string "Ég synti hingað með vinum mínum...\n"
+    .string "Ég er þreytt...$"
 
 Route19_Text_ConnieDefeat::
-    .string "I'm exhausted…$"
+    .string "Ég er örmagna...$"
 
 Route19_Text_ConniePostBattle::
-    .string "If I were to ride a POKéMON on\n"
-    .string "the sea, I'd like a LAPRAS.\p"
-    .string "LAPRAS is so big, I bet it\n"
-    .string "would keep me dry on water.$"
+    .string "Ef ég ætti að ríða vasaskrímsli á\n"
+    .string "sjónum myndi ég vilja LAGARGANDU.\p"
+    .string "LAGARGANDU er svo stór að ég veðja\n"
+    .string "að hún héldi mér þurrum á vatninu.$"
 
 Route19_Text_RouteSign::
-    .string "SEA ROUTE 19\n"
-    .string "FUCHSIA CITY - SEAFOAM ISLANDS$"
+    .string "SJÓLEIÐ 19 FUCHSIA BORG - SEAFOAM\n"
+    .string "EYJAR$"
 
 Route19_Text_LiaIntro::
-    .string "LIA: I'm looking after my brother.\n"
-    .string "He just became a TRAINER.$"
+    .string "LIA: Ég passa litla bróður minn.\n"
+    .string "Hann varð nýlega ÞJÁLFARI.$"
 
 Route19_Text_LiaDefeat::
-    .string "LIA: That's no way to treat my\n"
-    .string "little brother!$"
+    .string "LIA: Svona kemur maður ekki fram við\n"
+    .string "litla bróður minn!$"
 
 Route19_Text_LiaPostBattle::
-    .string "LIA: Do you have a younger\n"
-    .string "brother?\p"
-    .string "I hope you're teaching him all\n"
-    .string "sorts of things.$"
+    .string "LIA: Áttu yngri bróður?\p"
+    .string "Ég vona að þú sért að kenna honum\n"
+    .string "alls konar hluti.$"
 
 Route19_Text_LiaNotEnoughMons::
-    .string "LIA: I want to battle together\n"
-    .string "with my little brother.\p"
-    .string "Don't you have two POKéMON?$"
+    .string "LIA: Ég vil berjast með litla bróður\n"
+    .string "mínum.\p"
+    .string "Áttu ekki tvö vasaskrímsli?$"
 
 Route19_Text_LucIntro::
-    .string "LUC: My big sis taught me how\n"
-    .string "to swim and train POKéMON.$"
+    .string "LUC: Stóra systir kenndi mér að\n"
+    .string "synda og þjálfa vasaskrímsli.$"
 
 Route19_Text_LucDefeat::
-    .string "LUC: Oh, wow!\n"
-    .string "Someone tougher than my big sis!$"
+    .string "LUC: Ó, vá! Einhver sterkari en\n"
+    .string "stóra systir!$"
 
 Route19_Text_LucPostBattle::
-    .string "LUC: My big sis is strong and nice.\n"
-    .string "I think she's awesome!$"
+    .string "LUC: Stóra systir er sterk og góð.\n"
+    .string "Mér finnst hún frábær!$"
 
 Route19_Text_LucNotEnoughMons::
-    .string "LUC: I don't want to if I can't\n"
-    .string "battle you with my big sis.\p"
-    .string "Don't you have two POKéMON?$"
+    .string "LUC: Ég vil ekki gera þetta nema ég\n"
+    .string "geti barist við þig með stóru\p"
+    .string "systur.\p"
+    .string "Áttu ekki tvö vasaskrímsli?$"

@@ -1,12 +1,10 @@
 ThreeIsland_House5_Text_ImNotLostelle::
-    .string "Me?\n"
-    .string "I'm not LOSTELLE.\p"
-    .string "She's probably gone to the\n"
-    .string "BERRY FOREST, I think.\p"
-    .string "She picks BERRIES there for making\n"
-    .string "lunch.$"
+    .string "Ég? Ég er ekki LOSTELLE.\p"
+    .string "Hún er líklega farin í BERJASKÓGINN,\n"
+    .string "held ég.\p"
+    .string "Hún tínir þar BER í hádegismat.$"
 
 ThreeIsland_House5_Text_IllGoPlayWithLostelle::
-    .string "I think I'll go play with LOSTELLE\n"
-    .string "today.$"
+    .string "Ég held ég fari að leika við\n"
+    .string "LOSTELLE í dag.$"
 

@@ -1,29 +1,27 @@
 Text_MayIHelpYou::
-	.string "Hi, there!\n"
-	.string "May I help you?$"
+	.string "Hæ, þú! Get ég hjálpað þér?$"
 
 Text_FillOutQuestionnaire::
-	.string "There is a questionnaire.\n"
-	.string "Would you like to fill it out?$"
+	.string "Það er spurningalisti. Viltu fyllja\n"
+	.string "hann út?$"
 
 Text_QuestionnaireThankYou::
-	.string "Thank you for taking the time to\n"
-	.string "fill out our questionnaire.\p"
-	.string "Your feedback will be used for\n"
-	.string "future reference.$"
+	.string "Takk fyrir að gefa þér tíma til að\n"
+	.string "fyllja út spurningalistann okkar.\p"
+	.string "Álit þitt verður notað til framtíðar\n"
+	.string "viðmiðunar.$"
 
 Text_YouKnowThoseWords::
-	.string "Oh, hello!\n"
-	.string "You know those words?\p"
-	.string "That means you must know about\n"
-	.string "the MYSTERY GIFT.\p"
-	.string "From now on, you should be\n"
-	.string "receiving MYSTERY GIFTS!$"
+	.string "Ó, halló! Þú þekkir þessi orð?\p"
+	.string "Það þýðir að þú hlýtur að vita um\n"
+	.string "MYSTERY GIFT.\p"
+	.string "Upp frá þessu ættirðu að fá MYSTERY\n"
+	.string "GIFTS!$"
 
 Text_YouCanAccessMysteryGift::
-	.string "Once you save your game, you can\n"
-	.string "access the MYSTERY GIFT.$"
+	.string "Þegar þú vistar leikinn geturðu\n"
+	.string "nálgast MYSTERY GIFT.$"
 
 Text_ThankYouForAccessingMysteryGift::
-	.string "Thank you for accessing the\n"
-	.string "MYSTERY GIFT System.$"
+	.string "Takk fyrir að fá aðgang að MYSTERY\n"
+	.string "GIFT kerfinu.$"

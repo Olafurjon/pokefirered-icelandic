@@ -1,86 +1,80 @@
 Route10_Text_MarkIntro::
-    .string "Wow, you came all the way here?\n"
-    .string "Maybe you're a POKéMANIAC, too?\l"
-    .string "Want to see my collection?$"
+    .string "Vá, komstu alla leið hingað? Kannski\n"
+    .string "ertu líka SKRÍMSLASJÚKUR? Viltu\p"
+    .string "sjá safnið mitt?$"
 
 Route10_Text_MarkDefeat::
-    .string "Humph.\n"
-    .string "I'm not angry!$"
+    .string "Hmph. Ég er ekki reiður!$"
 
 Route10_Text_MarkPostBattle::
-    .string "I have more rare POKéMON at home!$"
+    .string "Ég á fleiri sjaldgæf vasaskrímsli\n"
+    .string "heima!$"
 
 Route10_Text_ClarkIntro::
-    .string "Ha-hahah-ah-ha!$"
+    .string "Ha-hahaha-ha-ha!$"
 
 Route10_Text_ClarkDefeat::
-    .string "Ha-haha!\n"
-    .string "Not laughing!\l"
-    .string "Ha-hay fever! Haha-ha-choo!$"
+    .string "Ha-haha! Ekki að hlæja! Ha-hay\n"
+    .string "fever! Haha-ha-tjí!$"
 
 Route10_Text_ClarkPostBattle::
-    .string "Haha-ha-choo!\n"
-    .string "Ha-choo!\l"
-    .string "Snort! Snivel!$"
+    .string "Haha-ha-tjí! Ha-tjí! Snökt! Snökt!$"
 
 Route10_Text_HermanIntro::
-    .string "Hi, kid!\n"
-    .string "Want to see my POKéMON?$"
+    .string "Hæ, krakki! Viltu sjá vasaskrímslið\n"
+    .string "mitt?$"
 
 Route10_Text_HermanDefeat::
-    .string "Oh, no!\n"
-    .string "My POKéMON!$"
+    .string "Ó, nei! Vasaskrímslið mitt!$"
 
 Route10_Text_HermanPostBattle::
-    .string "I don't like you.\n"
-    .string "I don't like anyone better than me!$"
+    .string "Mér líkar ekki við þig. Mér líkar\n"
+    .string "ekki við neinn sem er betri en ég!$"
 
 Route10_Text_HeidiIntro::
-    .string "I've been out at a POKéMON GYM\n"
-    .string "a few times.\p"
-    .string "…But I always lose.$"
+    .string "Ég hef nokkrum sinnum komið út úr\n"
+    .string "vasaskrímsla-SAL.\p"
+    .string "...En ég tapa alltaf.$"
 
 Route10_Text_HeidiDefeat::
-    .string "Ohh!\n"
-    .string "After all my training!$"
+    .string "Óó! Eftir alla þjálfunina!$"
 
 Route10_Text_HeidiPostBattle::
-    .string "I noticed some POKéMANIACS\n"
-    .string "prowling around.\p"
-    .string "Can you imagine? Them?\n"
-    .string "Up here in the mountains?$"
+    .string "Ég tók eftir nokkrum SKRÍMSLASJÚKUM\n"
+    .string "á ráfi.\p"
+    .string "Geturðu ímyndað þér það? Þau? Hér\n"
+    .string "uppi í fjöllunum?$"
 
 Route10_Text_TrentIntro::
-    .string "Ah!\n"
-    .string "This mountain air is delicious!$"
+    .string "Ah! Þetta fjallaloft er ljúffengt!$"
 
 Route10_Text_TrentDefeat::
-    .string "That cleared my head!$"
+    .string "Þetta hreinsaði höfuðið!$"
 
 Route10_Text_TrentPostBattle::
-    .string "I feel bloated on mountain air!$"
+    .string "Ég er útþaninn af fjallalofti!$"
 
 Route10_Text_CarolIntro::
-    .string "I'm feeling a bit faint.\n"
-    .string "I haven't hiked in some time.$"
+    .string "Mér er dálítið yfirliða. Ég hef ekki\n"
+    .string "gengið á fjöll lengi.$"
 
 Route10_Text_CarolDefeat::
-    .string "I'm too tired.\n"
-    .string "I wasn't up for it.$"
+    .string "Ég er of þreytt. Ég var ekki tilbúin\n"
+    .string "í þetta.$"
 
 Route10_Text_CarolPostBattle::
-    .string "The POKéMON here in the mountains\n"
-    .string "are so chunky…\p"
-    .string "I wish there were pink POKéMON\n"
-    .string "with a floral pattern!$"
+    .string "Vasaskrímslin hér í fjöllunum eru\n"
+    .string "svo þybbin...\p"
+    .string "Ég vildi að til væru bleik\n"
+    .string "vasaskrímsli með blómamynstri!$"
 
 Route10_Text_RockTunnelDetourToLavender::
-    .string "ROCK TUNNEL\n"
-    .string "Detour to LAVENDER TOWN$"
+    .string "ROCK TUNNEL Hjáleið til LAVENDER\n"
+    .string "BORGAR$"
 
 Route10_Text_RockTunnel::
-    .string "ROCK TUNNEL$"
+    .string "STEINGÖNG$"
 
 Route10_Text_PowerPlant::
-    .string "POWER PLANT$"
+    .string "ORKUVER$"
 

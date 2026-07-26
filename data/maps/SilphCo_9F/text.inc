@@ -1,47 +1,44 @@
 SilphCo_9F_Text_YouShouldTakeQuickNap::
-    .string "You look tired.\n"
-    .string "You should take a quick nap.$"
+    .string "Þú lítur þreytt út. Þú ættir að fá\n"
+    .string "þér stuttan blund.$"
 
 SilphCo_9F_Text_DontGiveUp::
-    .string "Don't give up!$"
+    .string "Ekki gefast upp!$"
 
 SilphCo_9F_Text_ThankYouSoMuch::
-    .string "Thank you so much.$"
+    .string "Kærar þakkir.$"
 
 SilphCo_9F_Text_Grunt1Intro::
-    .string "Your POKéMON seem to adore you,\n"
-    .string "kid!$"
+    .string "Vasaskrímslin þín virðast dá þig,\n"
+    .string "krakki!$"
 
 SilphCo_9F_Text_Grunt1Defeat::
-    .string "Ghaaah!$"
+    .string "Gaaaah!$"
 
 SilphCo_9F_Text_Grunt1PostBattle::
-    .string "If I had started as a TRAINER at\n"
-    .string "your age…$"
+    .string "Ef ég hefði byrjað sem ÞJÁLFARI á\n"
+    .string "þínum aldri…$"
 
 SilphCo_9F_Text_EdIntro::
-    .string "Your POKéMON have weak points!\n"
-    .string "I can nail them!$"
+    .string "Vasaskrímslin þín hafa veika punkta!\n"
+    .string "Ég get hitt þá!$"
 
 SilphCo_9F_Text_EdDefeat::
-    .string "You hammered me!$"
+    .string "Þú lamdir mig niður!$"
 
 SilphCo_9F_Text_EdPostBattle::
-    .string "Exploiting weak spots does work.\n"
-    .string "Think about type advantages.$"
+    .string "Að nýta veikleika virkar.\n"
+    .string "Hugsaðu um gerðaryfirburði.$"
 
 SilphCo_9F_Text_Grunt2Intro::
-    .string "I am one of the four ROCKET\n"
-    .string "BROTHERS!$"
+    .string "Ég er einn af fjórum\n"
+    .string "ROCKET-BRÆÐRUM!$"
 
 SilphCo_9F_Text_Grunt2Defeat::
-    .string "Warg!\n"
-    .string "Brothers, I lost!$"
+    .string "Varg! Bræður, ég tapaði!$"
 
 SilphCo_9F_Text_Grunt2PostBattle::
-    .string "My brothers will avenge me!$"
+    .string "Bræður mínir munu hefna mín!$"
 
 SilphCo_9F_Text_FloorSign::
-    .string "SILPH CO. HEAD OFFICE\n"
-    .string "9F$"
-
+    .string "SILPH CO. HÖFUÐSKRIFSTOFA 9H$"

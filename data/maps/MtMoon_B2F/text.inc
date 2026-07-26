@@ -1,84 +1,82 @@
 MtMoon_B2F_Text_MiguelIntro::
-    .string "Hey, stop!\p"
-    .string "I found these fossils!\n"
-    .string "They're both mine!$"
+    .string "Heyrðu, stoppaðu!\p"
+    .string "Ég fann þessa steingervinga! Þeir\n"
+    .string "eru báðir mínir!$"
 
 MtMoon_B2F_Text_MiguelDefeat::
-    .string "Okay!\n"
-    .string "I'll share!$"
+    .string "Allt í lagi! Ég skal deila!$"
 
 MtMoon_B2F_Text_WellEachTakeAFossil::
-    .string "We'll each take a fossil!\n"
-    .string "No being greedy!$"
+    .string "Við tökum hvort sinn steingerving!\n"
+    .string "Enga græðgi!$"
 
 MtMoon_B2F_Text_ThenThisFossilIsMine::
-    .string "All right.\n"
-    .string "Then this fossil is mine!$"
+    .string "Allt í lagi. Þá er þessi\n"
+    .string "steingervingur minn!$"
 
 MtMoon_B2F_Text_LabOnCinnabarRegeneratesFossils::
-    .string "Far away, on CINNABAR ISLAND,\n"
-    .string "there's a POKéMON LAB.\p"
-    .string "They do research on regenerating\n"
-    .string "fossils.$"
+    .string "Langt í burtu, á CINNABAR EYJU, er\n"
+    .string "Vasaskrímsla-rannsóknarstofa.\p"
+    .string "Þar er rannsakað hvernig endurlífga\n"
+    .string "má steingervinga.$"
 
 MtMoon_B2F_Text_Grunt1Intro::
-    .string "We, TEAM ROCKET, shall find the\n"
-    .string "fossils!\p"
-    .string "Reviving POKéMON from them will\n"
-    .string "earn us huge riches!$"
+    .string "Við, ROCKET-GENGIÐ, munum finna\n"
+    .string "steingervingana!\p"
+    .string "Ef við endurlífgum vasaskrímsli úr\n"
+    .string "þeim græðum við stórfé!$"
 
 MtMoon_B2F_Text_Grunt1Defeat::
-    .string "Urgh!\n"
-    .string "Now I'm mad!$"
+    .string "Urgh! Nú er ég reiður!$"
 
 MtMoon_B2F_Text_Grunt1PostBattle::
-    .string "You made me mad!\n"
-    .string "TEAM ROCKET will blacklist you!$"
+    .string "Þú gerðir mig reiðan! ROCKET-GENGIÐ\n"
+    .string "setur þig á svartan lista!$"
 
 MtMoon_B2F_Text_Grunt2Intro::
-    .string "We, TEAM ROCKET, are POKéMON\n"
-    .string "gangsters!\l"
-    .string "We strike fear with our strength!$"
+    .string "Við í ROCKET-GENGINU erum glæpamenn\n"
+    .string "vasaskrímslaheimsins! Við vekjum\p"
+    .string "ótta með styrk okkar!$"
 
 MtMoon_B2F_Text_Grunt2Defeat::
-    .string "I blew it!$"
+    .string "Ég klúðraði þessu!$"
 
 MtMoon_B2F_Text_Grunt2PostBattle::
-    .string "Darn it all!\n"
-    .string "My associates won't stand for this!$"
+    .string "Fjandinn hafi það! Félagar mínir\n"
+    .string "sætta sig ekki við þetta!$"
 
 MtMoon_B2F_Text_Grunt3Intro::
-    .string "We're pulling a big job here!\n"
-    .string "Get lost, kid!$"
+    .string "Við erum með stórt verk hér! Hypjaðu\n"
+    .string "þig, krakki!$"
 
 MtMoon_B2F_Text_Grunt3Defeat::
-    .string "So, you are good…$"
+    .string "Þú ert þá góður...$"
 
 MtMoon_B2F_Text_Grunt3PostBattle::
-    .string "If you find a fossil, give it to me\n"
-    .string "and scram!$"
+    .string "Ef þú finnur steingerving, láttu mig\n"
+    .string "fá hann og hypjaðu þig!$"
 
 MtMoon_B2F_Text_Grunt4Intro::
-    .string "Little kids shouldn't be messing\n"
-    .string "around with grown-ups!\p"
-    .string "It could be bad news!$"
+    .string "Lítil börn ættu ekki að flækjast í\n"
+    .string "mál fullorðinna!\p"
+    .string "Það gæti endað illa!$"
 
 MtMoon_B2F_Text_Grunt4Defeat::
-    .string "I'm steamed!$"
+    .string "Ég er brjálaður!$"
 
 MtMoon_B2F_Text_Grunt4PostBattle::
-    .string "POKéMON lived here long before\n"
-    .string "people came.$"
+    .string "Vasaskrímsli bjuggu hér löngu áður\n"
+    .string "en menn komu.$"
 
 MtMoon_B2F_Text_YouWantDomeFossil::
-    .string "Do you want the DOME FOSSIL?$"
+    .string "Viltu HVOLFGERVING?$"
 
 MtMoon_B2F_Text_YouWantHelixFossil::
-    .string "Do you want the HELIX FOSSIL?$"
+    .string "Viltu SPÍRALGERVING?$"
 
 MtMoon_B2F_Text_ObtainedHelixFossil::
-    .string "Obtained the HELIX FOSSIL!$"
+    .string "Fékkst SPÍRALGERVING!$"
 
 MtMoon_B2F_Text_ObtainedDomeFossil::
-    .string "Obtained the DOME FOSSIL!$"
+    .string "Fékkst HVOLFGERVING!$"
 

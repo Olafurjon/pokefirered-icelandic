@@ -1,19 +1,19 @@
 CinnabarIsland_PokemonLab_ResearchRoom_Text_EeveeCanEvolveIntroThreeMons::
-    .string "EEVEE can evolve into one of three\n"
-    .string "kinds of POKéMON.$"
+    .string "SNIÐDÝR getur þróast í eina af\n"
+    .string "þremur tegundum vasaskrímsla.$"
 
 CinnabarIsland_PokemonLab_ResearchRoom_Text_LegendaryBirdEmail::
-    .string "There's an e-mail message.\p"
-    .string "… … …\p"
-    .string "There are three legendary bird\n"
-    .string "POKéMON.\p"
-    .string "They are ARTICUNO, ZAPDOS, and\n"
-    .string "MOLTRES.\p"
-    .string "Their whereabouts are unknown.\p"
-    .string "We plan to explore the cavern\n"
-    .string "close to CERULEAN.\p"
-    .string "From: POKéMON RESEARCH TEAM…$"
+    .string "Það er tölvupóstur.\p"
+    .string "... ... ...\p"
+    .string "Til eru þrjú goðsagnakennd\n"
+    .string "fugla-vasaskrímsli.\p"
+    .string "Þau eru ÉLJASKARFU, ÞÓRSHANI og\n"
+    .string "BLOSSAGAUK.\p"
+    .string "Dvalarstaðir þeirra eru óþekktir.\p"
+    .string "Við ætlum að kanna hellinn nálægt\n"
+    .string "CERULEAN.\p"
+    .string "Frá: VASASKRÍMSLA-RANNSÓKNARHÓPUR...$"
 
 CinnabarIsland_PokemonLab_ResearchRoom_Text_AnAmberPipe::
-    .string "An amber pipe!$"
+    .string "Rafpípa úr rafi!$"
 

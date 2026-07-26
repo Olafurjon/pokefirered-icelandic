@@ -1,74 +1,67 @@
 SilphCo_2F_Text_ConnorIntro::
-    .string "Help!\n"
-    .string "I'm a SILPH employee.$"
+    .string "Hjálp! Ég er starfsmaður SILPH.$"
 
 SilphCo_2F_Text_ConnorDefeat::
-    .string "How did you know\n"
-    .string "I was a ROCKET?$"
+    .string "Hvernig vissirðu að ég væri ROCKET?$"
 
 SilphCo_2F_Text_ConnorPostBattle::
-    .string "I work for both SILPH and TEAM\n"
-    .string "ROCKET.$"
+    .string "Ég vinn bæði fyrir SILPH og\n"
+    .string "ROCKET-GENGIÐ.$"
 
 SilphCo_2F_Text_JerryIntro::
-    .string "It's off-limits here!\n"
-    .string "Go home!$"
+    .string "Hér er bannaður aðgangur! Farðu heim!$"
 
 SilphCo_2F_Text_JerryDefeat::
-    .string "You're good.$"
+    .string "Þú ert fær.$"
 
 SilphCo_2F_Text_JerryPostBattle::
-    .string "Can you solve the maze in here?\n"
-    .string "It's not easy, I tell you!$"
+    .string "Geturðu leyst völundarhúsið hér?\n"
+    .string "Það er ekki auðvelt, skal ég segja þér!$"
 
 SilphCo_2F_Text_Grunt1Intro::
-    .string "No kids are allowed in here!$"
+    .string "Börn mega ekki vera hér inni!$"
 
 SilphCo_2F_Text_Grunt1Defeat::
-    .string "Tough!$"
+    .string "Harður slagur!$"
 
 SilphCo_2F_Text_Grunt1PostBattle::
-    .string "Diamond-shaped tiles are teleport\n"
-    .string "blocks.\p"
-    .string "They're transporters for this\n"
-    .string "high-tech building.$"
+    .string "Tígullaga flísarnar eru\n"
+    .string "fjarflutningsblokkir.\p"
+    .string "Þær eru flutningstæki fyrir þessa\n"
+    .string "hátæknibyggingu.$"
 
 SilphCo_2F_Text_Grunt2Intro::
-    .string "Hey, kid!\n"
-    .string "What are you wandering here for?$"
+    .string "Hei, krakki! Hvað ertu að ráfa\n"
+    .string "hérna?$"
 
 SilphCo_2F_Text_Grunt2Defeat::
-    .string "I goofed!$"
+    .string "Ég klúðraði!$"
 
 SilphCo_2F_Text_Grunt2PostBattle::
-    .string "SILPH CO. will be associated with\n"
-    .string "TEAM ROCKET!$"
+    .string "SILPH CO. verður tengt\n"
+    .string "ROCKET-GENGINU!$"
 
 Text_ThunderWaveTeach::
-    .string "Eeek!\n"
-    .string "No! Stop! Help!\p"
-    .string "Oh, you're not with TEAM ROCKET.\n"
-    .string "I'm sorry, I thought…\p"
-    .string "Will you forgive me if I teach\n"
-    .string "you the THUNDER WAVE technique?$"
+    .string "Ííík! Nei! Hættu! Hjálp!\p"
+    .string "Ó, þú ert ekki með ROCKET-GENGINU.\n"
+    .string "Fyrirgefðu, ég hélt…\p"
+    .string "Fyrirgefurðu mér ef ég kenni þér\n"
+    .string "ELDINGABYLGJU?$"
 
 Text_ThunderWaveDeclined::
-    .string "Oh…\n"
-    .string "But THUNDER WAVE is convenient…$"
+    .string "Ó… En ELDINGABYLGJA er svo nytsamleg…$"
 
 Text_ThunderWaveWhichMon::
-    .string "Which POKéMON should I teach\n"
-    .string "THUNDER WAVE?$"
+    .string "Hvaða Vasaskrímsli á ég að kenna\n"
+    .string "ELDINGABYLGJU?$"
 
 Text_ThunderWaveTaught::
-    .string "THUNDER WAVE causes paralysis in\n"
-    .string "the target POKéMON.\p"
-    .string "A paralyzed POKéMON may be unable\n"
-    .string "to move in battle.\p"
-    .string "It's an ELECTRIC-type move, so it\n"
-    .string "won't work on some POKéMON.$"
+    .string "ELDINGABYLGJA veldur lömun hjá\n"
+    .string "mark-Vasaskrímslinu.\p"
+    .string "Lamað Vasaskrímsli getur stundum\n"
+    .string "ekki hreyft sig í bardaga.\p"
+    .string "Þetta er RAF-gerðar bragð, svo það\n"
+    .string "virkar ekki á sum Vasaskrímsli.$"
 
 SilphCo_2F_Text_FloorSign::
-    .string "SILPH CO. HEAD OFFICE\n"
-    .string "2F$"
-
+    .string "SILPH CO. HÖFUÐSKRIFSTOFA 2H$"

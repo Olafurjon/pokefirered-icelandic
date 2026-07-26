@@ -1,62 +1,60 @@
 OneIsland_Text_BillLetsGoSeeCelio::
-    .string "BILL: Here we are!\n"
-    .string "This is ONE ISLAND.\p"
-    .string "There are several islands around\n"
-    .string "here, and this is one of them.\p"
-    .string "My friend CELIO sent the boat to\n"
-    .string "fetch me here.\p"
-    .string "He's in charge of the island's PC\n"
-    .string "network by his lonesome.\p"
-    .string "…Why am I telling you this now?\n"
-    .string "Let's just go see CELIO!$"
+    .string "BILL: Hér erum við! Þetta er ONE\n"
+    .string "EYJA.\p"
+    .string "Það eru nokkrar eyjar hér í kring og\n"
+    .string "þetta er ein þeirra.\p"
+    .string "Vinur minn CELIO sendi bátinn til að\n"
+    .string "sækja mig hingað.\p"
+    .string "Hann sér einn um tölvunet eyjunnar.\p"
+    .string "…Af hverju er ég að segja þér þetta\n"
+    .string "núna? Við skulum fara að hitta hann.$"
 
 Text_WhereDoYouWantToSail::
-    .string "Ahoy, there!\n"
-    .string "Where do you want to sail?$"
+    .string "Halló, þarna! Hvert viltu sigla?$"
 
 OneIsland_Text_LuckyToHaveCelioHere::
-    .string "Here we are on an island smack in\n"
-    .string "the middle of nowhere.\p"
-    .string "We're lucky to have an upstanding\n"
-    .string "young man like CELIO here.\p"
-    .string "My granddaughter was in a tizzy\n"
-    .string "over CELIO's friend.\p"
-    .string "Something about a famous\n"
-    .string "POKéMANIAC?\p"
-    .string "I'm not sure what that means, but\n"
-    .string "CELIO is quite the man!$"
+    .string "Hér erum við á eyju í miðri algjörri\n"
+    .string "óbyggð.\p"
+    .string "Við erum heppin að hafa svona\n"
+    .string "traustan ungan mann eins og CELIO\p"
+    .string "hér.\p"
+    .string "Barnabarnið mitt varð alveg uppnumið\n"
+    .string "yfir vini CELIO.\p"
+    .string "Eitthvað um frægan SKRÍMSLASJÚKAN?\p"
+    .string "Ég veit ekki alveg hvað það þýðir,\n"
+    .string "en CELIO er aldeilis maður!$"
 
 OneIsland_Text_HavePCLinkageWithKanto::
-    .string "My granddaughter was in a tizzy\n"
-    .string "over a new breakthrough.\p"
-    .string "She said we now have PC linkage\n"
-    .string "with people in KANTO.\p"
-    .string "I'm not sure what that means, but\n"
-    .string "CELIO is quite the man!$"
+    .string "Barnabarn mitt var í uppnámi yfir\n"
+    .string "nýrri byltingu.\p"
+    .string "Hún sagði að við höfum nú\n"
+    .string "tölvutengingu við fólk í KANTO.\p"
+    .string "Ég er ekki viss hvað það þýðir, en\n"
+    .string "CELIO er mikill maður!$"
 
 OneIsland_Text_HavePCLinkageWithHoenn::
-    .string "My granddaughter was in a tizzy\n"
-    .string "over a new breakthrough.\p"
-    .string "She said we finally have PC linkage\n"
-    .string "with people in HOENN.\p"
-    .string "I'm not sure what that means, but\n"
-    .string "CELIO is quite the man.\p"
-    .string "He would make a fine husband for\n"
-    .string "my granddaughter!$"
+    .string "Barnabarn mitt var í uppnámi yfir\n"
+    .string "nýrri byltingu.\p"
+    .string "Hún sagði að við höfum loksins\n"
+    .string "tölvutengingu við fólk í HOENN.\p"
+    .string "Ég er ekki viss hvað það þýðir, en\n"
+    .string "CELIO er mikill maður.\p"
+    .string "Hann myndi verða góður eiginmaður\n"
+    .string "fyrir barnabarn mitt!$"
 
 OneIsland_Text_IslandSign::
-    .string "ONE ISLAND\n"
-    .string "Friends Gather at Knot Island$"
+    .string "EINN EYJA Vinir safnast saman á\n"
+    .string "Hnúta Eyju$"
 
 OneIsland_Text_PokemonNetCenterSign::
-    .string "Expanding the POKéMON World!\n"
-    .string "POKéMON NET CENTER$"
+    .string "Stækkum heim Vasaskrímsla!\n"
+    .string "VASASKRÍMSLA NETSETUR$"
 
 @ Unused
 OneIsland_Text_ReturnToCinnabar::
-    .string "グレンタウンに　もどりますか？$"
+    .string "グレンタウンに もどりますか？$"
 
 OneIsland_Text_IsntWarmClimateHereGreat::
-    .string "Hi, sight-seeing, are you?\n"
-    .string "Isn't the warm climate here great?$"
+    .string "Hæ, ertu í skoðunarferð? Er ekki\n"
+    .string "hlýja loftslagið hér frábært?$"
 

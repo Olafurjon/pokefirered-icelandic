@@ -1,28 +1,28 @@
 PokemonMansion_B1F_Text_LewisIntro::
-    .string "Uh-oh…\n"
-    .string "Where am I now?$"
+    .string "Uh-oh... Hvar er ég núna?$"
 
 PokemonMansion_B1F_Text_LewisDefeat::
-    .string "Awooh!$"
+    .string "Áúú!$"
 
 PokemonMansion_B1F_Text_LewisPostBattle::
-    .string "You can find stuff lying around.\n"
-    .string "The residents must've left them.$"
+    .string "Þú getur fundið hluti liggjandi hér.\n"
+    .string "Íbúarnir hljóta að hafa skilið þá\p"
+    .string "eftir.$"
 
 PokemonMansion_B1F_Text_IvanIntro::
-    .string "This place is ideal for a lab.\n"
-    .string "Look at all this space.$"
+    .string "Þessi staður er fullkominn fyrir\n"
+    .string "rannsóknarstofu. Sjáðu allt plássið.$"
 
 PokemonMansion_B1F_Text_IvanDefeat::
-    .string "What was that for?$"
+    .string "Til hvers var þetta?$"
 
 PokemonMansion_B1F_Text_IvanPostBattle::
-    .string "I like it here.\n"
-    .string "It's conducive to my studies.$"
+    .string "Mér líkar hér. Þetta stuðlar að\n"
+    .string "rannsóknum mínum.$"
 
 PokemonMansion_B1F_Text_MewtwoIsFarTooPowerful::
-    .string "Diary: Sept. 1\n"
-    .string "MEWTWO is far too powerful.\p"
-    .string "We have failed to curb its vicious\n"
-    .string "tendencies…$"
+    .string "Dagbók: 1. sept. TVÍMÝTA er allt of\n"
+    .string "kraftmikil.\p"
+    .string "Okkur tókst ekki að hemja illvígar\n"
+    .string "hneigðir hennar...$"
 

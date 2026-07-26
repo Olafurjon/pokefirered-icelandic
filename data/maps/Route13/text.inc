@@ -1,128 +1,122 @@
 Route13_Text_SebastianIntro::
-    .string "My bird POKéMON want to battle\n"
-    .string "with you!$"
+    .string "Fugla-Vasaskrímslin mín vilja\n"
+    .string "berjast við þig!$"
 
 Route13_Text_SebastianDefeat::
-    .string "My PIDGEY and PIDGEOTTO combo\n"
-    .string "lost?$"
+    .string "Tapaði DÚFUTETUR og DÚFINN\n"
+    .string "samsetningin mín?$"
 
 Route13_Text_SebastianPostBattle::
-    .string "My POKéMON look happy even though\n"
-    .string "they lost.$"
+    .string "My Vasaskrímsli look happy even\n"
+    .string "though they lost.$"
 
 Route13_Text_SusieIntro::
-    .string "I'm told I'm good for a kid.$"
+    .string "Mér er sagt að ég sé góð fyrir barn.$"
 
 Route13_Text_SusieDefeat::
-    .string "Ohh!\n"
-    .string "I lost!$"
+    .string "Ó! Ég tapaði!$"
 
 Route13_Text_SusiePostBattle::
-    .string "I want to become a good TRAINER.\n"
-    .string "I'll train hard, just watch.$"
+    .string "Ég vil verða góður ÞJÁLFARI. Ég mun\n"
+    .string "æfa stíft, bíddu bara.$"
 
 Route13_Text_ValerieIntro::
-    .string "Wow!\n"
-    .string "Your BADGES are too cool!$"
+    .string "Vá! BADGES þínir eru of flottir!$"
 
 Route13_Text_ValerieDefeat::
-    .string "Not enough!$"
+    .string "Ekki nóg!$"
 
 Route13_Text_ValeriePostBattle::
-    .string "You got those BADGES from GYM\n"
-    .string "LEADERS. I know!$"
+    .string "Þú fékkst þessa BADGES frá SALUR\n"
+    .string "LEADERS. Ég veit það!$"
 
 Route13_Text_GwenIntro::
-    .string "My cute POKéMON wish to make your\n"
-    .string "acquaintance.$"
+    .string "Krúttlegu Vasaskrímslin mín óska\n"
+    .string "eftir að kynnast þér.$"
 
 Route13_Text_GwenDefeat::
-    .string "Good going!\n"
-    .string "You totally won!$"
+    .string "Vel gert! Þú vannst algjörlega!$"
 
 Route13_Text_GwenPostBattle::
-    .string "You have to make POKéMON battle\n"
-    .string "to toughen them up.$"
+    .string "Maður þarf að láta Vasaskrímsli\n"
+    .string "berjast til að herða þau.$"
 
 Route13_Text_AlmaIntro::
-    .string "I found CARBOS in a cave once\n"
-    .string "while I was spelunking.$"
+    .string "Ég fann CARBOS í helli einu sinni á\n"
+    .string "meðan ég var að hellaskoða.$"
 
 Route13_Text_AlmaDefeat::
-    .string "Oh, too bad!\n"
-    .string "I just messed up!$"
+    .string "Ó, of slæmt! Ég klúðraði bara!$"
 
 Route13_Text_AlmaPostBattle::
-    .string "CARBOS boosted the SPEED of my\n"
-    .string "POKéMON.$"
+    .string "CARBOS hækkaði HRAÐA\n"
+    .string "Vasaskrímslisins míns.$"
 
 Route13_Text_PerryIntro::
-    .string "I'm not going to lose.\n"
-    .string "Not when the wind's blowing my way!$"
+    .string "Ég ætla ekki að tapa. Ekki þegar\n"
+    .string "vindurinn blæs í mína átt!$"
 
 Route13_Text_PerryDefeat::
-    .string "The wind turned!$"
+    .string "Vindurinn snerist!$"
 
 Route13_Text_PerryPostBattle::
-    .string "I'm beat.\n"
-    .string "I guess I'll FLY home.$"
+    .string "Ég er búinn. Ég held að ég FLJÚGI\n"
+    .string "heim.$"
 
 Route13_Text_LolaIntro::
-    .string "Sure, I'll play with you, sweetie.$"
+    .string "Jú, ég skal leika við þig, krútt.$"
 
 Route13_Text_LolaDefeat::
-    .string "Oh!\n"
-    .string "You little beast!$"
+    .string "Ó! Þú litla skrímsli!$"
 
 Route13_Text_LolaPostBattle::
-    .string "I wonder which is stronger, male or\n"
-    .string "female POKéMON?$"
+    .string "Ég velti fyrir mér hvort karlkyns\n"
+    .string "eða kvenkyns Vasaskrímsli séu\p"
+    .string "sterkari.$"
 
 Route13_Text_SheilaIntro::
-    .string "Do you want to battle some\n"
-    .string "POKéMON with me?$"
+    .string "Viltu berjast með nokkrum\n"
+    .string "Vasaskrímslum við mig?$"
 
 Route13_Text_SheilaDefeat::
-    .string "It's over already?$"
+    .string "Er þetta búið nú þegar?$"
 
 Route13_Text_SheilaPostBattle::
-    .string "I don't know anything about\n"
-    .string "POKéMON actually.\p"
-    .string "The ones I use… I picked them\n"
-    .string "for their looks!$"
+    .string "Ég veit reyndar ekkert um\n"
+    .string "Vasaskrímsli.\p"
+    .string "Þau sem ég nota… Ég valdi þau bara\n"
+    .string "útlitsins vegna!$"
 
 Route13_Text_JaredIntro::
-    .string "What're you lookin' at?$"
+    .string "Hvað ertu að horfa á?$"
 
 Route13_Text_JaredDefeat::
-    .string "Dang!\n"
-    .string "Stripped gears!$"
+    .string "Djöfull! Gírarnir slitnuðu!$"
 
 Route13_Text_JaredPostBattle::
-    .string "Get lost!$"
+    .string "Hafðu þig á brott!$"
 
 Route13_Text_RobertIntro::
-    .string "I always go with bird POKéMON.\n"
-    .string "I've dedicated myself to them.$"
+    .string "Ég vel alltaf fugla-Vasaskrímsli. Ég\n"
+    .string "hef helgað mig þeim.$"
 
 Route13_Text_RobertDefeat::
-    .string "Out of power!$"
+    .string "Enginn kraftur eftir!$"
 
 Route13_Text_RobertPostBattle::
-    .string "I wish I could fly like PIDGEY and\n"
-    .string "PIDGEOTTO…$"
+    .string "Ég vildi að ég gæti flogið eins og\n"
+    .string "DÚFUTETUR og DÚFINN…$"
 
 Route13_Text_LookToLeftOfThatPost::
-    .string "TRAINER TIPS\p"
-    .string "Look, look!\n"
-    .string "Look to the left of that post!$"
+    .string "ÞJÁLFARA RÁÐ\p"
+    .string "Sjáðu, sjáðu! Horfðu til vinstri við\n"
+    .string "þennan staur!$"
 
 Route13_Text_SelectToSwitchItems::
-    .string "TRAINER TIPS\p"
-    .string "Use SELECT to switch items in the\n"
-    .string "ITEMS window.$"
+    .string "ÞJÁLFARA RÁÐ\p"
+    .string "Notaðu SELECT til að skipta um hluti\n"
+    .string "í HLUTA-glugganum.$"
 
 Route13_Text_RouteSign::
-    .string "ROUTE 13\n"
-    .string "North to SILENCE BRIDGE$"
+    .string "LEIÐ 13 Norður til SILENCE BRIDGE$"
 

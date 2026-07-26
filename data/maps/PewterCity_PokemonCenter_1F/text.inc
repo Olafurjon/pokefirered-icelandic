@@ -1,27 +1,26 @@
 PewterCity_PokemonCenter_1F_Text_TeamRocketMtMoonImOnPhone::
-    .string "What!?\p"
-    .string "TEAM ROCKET is at MT. MOON?\n"
-    .string "Huh?\p"
-    .string "I'm on the phone!\n"
-    .string "Scram!$"
+    .string "Hvað!?\p"
+    .string "ROCKET-GENGIÐ er á MT. MOON? Ha?\p"
+    .string "Ég er í símanum! Hypjaðu þig!$"
 
 PewterCity_PokemonCenter_1F_Text_Jigglypuff::
-    .string "JIGGLYPUFF: Puu pupuu!$"
+    .string "KRÚTTÍPÚTT: Púú pupúú!$"
 
 PewterCity_PokemonCenter_1F_Text_WhenJiggylypuffSingsMonsGetDrowsy::
-    .string "Yawn!\p"
-    .string "When JIGGLYPUFF sings, POKéMON get\n"
-    .string "drowsy…\p"
-    .string "…Me, too…\n"
-    .string "Snore…$"
+    .string "Geisp!\p"
+    .string "Þegar KRÚTTÍPÚTT syngur verða\n"
+    .string "vasaskrímsli syfjuð...\p"
+    .string "...Ég líka... Hrot...$"
 
 PewterCity_PokemonCenter_1F_Text_TradingMyClefairyForPikachu::
-    .string "I really want a PIKACHU, so I'm\n"
-    .string "trading my CLEFAIRY for one.$"
+    .string "Mig langar virkilega í LEIFTURSKO,\n"
+    .string "svo ég ætla að skipta BLEIKÁLFUR\p"
+    .string "mínum fyrir LEIFTURSKO.$"
 
 PewterCity_PokemonCenter_1F_Text_TradingPikachuWithKid::
-    .string "I'm trading POKéMON with that kid\n"
-    .string "there.\p"
-    .string "I had two PIKACHU, so I figured\n"
-    .string "I might as well trade one.$"
+    .string "Ég er að skipta á vasaskrímslum við\n"
+    .string "krakkann þarna.\p"
+    .string "Ég átti tvö LEIFTURSKO, svo mér\n"
+    .string "fannst eins gott að skipta öðru\p"
+    .string "þeirra.$"
 

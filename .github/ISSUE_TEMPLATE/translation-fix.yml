@@ -1,0 +1,35 @@
+name: Translation fix
+description: Report English text, awkward Icelandic, or inconsistent terminology.
+title: "[Translation]: "
+labels: ["translation"]
+body:
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshot
+      description: Drag in a screenshot if possible.
+  - type: input
+    id: location
+    attributes:
+      label: Where in the game?
+      description: Map, building, NPC, battle, menu, or route.
+      placeholder: "Example: Pallet Town, player's house bookshelf"
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: Current text
+      description: Write the exact text currently shown.
+    validations:
+      required: true
+  - type: textarea
+    id: suggested
+    attributes:
+      label: Suggested Icelandic text
+      description: Include capitalization exactly as it should appear.
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Context, line width concerns, or glossary references.

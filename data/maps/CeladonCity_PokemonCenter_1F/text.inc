@@ -1,15 +1,15 @@
 CeladonCity_PokemonCenter_1F_Text_PokeFluteAwakensSleepingMons::
-    .string "A POKé FLUTE awakens sleeping\n"
-    .string "POKéMON. You know that.\p"
-    .string "It does so with a sound that only\n"
-    .string "they can hear.$"
+    .string "VASAFLAUTA vekur sofandi\n"
+    .string "vasaskrímsli. Þú veist það.\p"
+    .string "Hún gerir það með hljóði sem aðeins\n"
+    .string "þau heyra.$"
 
 CeladonCity_PokemonCenter_1F_Text_RodeHereFromFuchsia::
-    .string "I rode here from FUCHSIA.\p"
-    .string "It's an uphill ride on CYCLING\n"
-    .string "ROAD, so I'm exhausted.$"
+    .string "Ég hjólaði hingað frá FUCHSIA.\p"
+    .string "CYCLING ROAD liggur upp í móti, svo\n"
+    .string "ég er örmagna.$"
 
 CeladonCity_PokemonCenter_1F_Text_GoToCyclingRoadIfIHadBike::
-    .string "If I had a BIKE, I would go to\n"
-    .string "CYCLING ROAD!$"
+    .string "Ef ég ætti HJÓL færi ég á CYCLING\n"
+    .string "ROAD!$"
 

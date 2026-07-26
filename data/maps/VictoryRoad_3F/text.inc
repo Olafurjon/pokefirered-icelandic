@@ -1,100 +1,96 @@
 Text_DoubleEdgeTeach::
-    .string "You should be proud of yourself,\n"
-    .string "having battled your way through\l"
-    .string "VICTORY ROAD so courageously.\p"
-    .string "In recognition of your feat,\n"
-    .string "I'll teach you DOUBLE-EDGE.\p"
-    .string "Would you like me to teach that\n"
-    .string "technique?$"
+    .string "Þú ættir að vera stolt af þér fyrir\n"
+    .string "að hafa barist svo hugrakklega\p"
+    .string "í gegnum SIGURVEG.\p"
+    .string "Til viðurkenningar á afrekinu skal\n"
+    .string "ég kenna þér TVÍEGGJAÐ.\p"
+    .string "Viltu að ég kenni þessa\n"
+    .string "tækni?$"
 
 Text_DoubleEdgeDeclined::
-    .string "I'll teach you the technique\n"
-    .string "anytime.$"
+    .string "Ég kenni þér tæknina\n"
+    .string "hvenær sem er.$"
 
 Text_DoubleEdgeWhichMon::
-    .string "Which POKéMON should I teach\n"
-    .string "DOUBLE-EDGE?$"
+    .string "Hvaða Vasaskrímsli á ég að kenna\n"
+    .string "TVÍEGGJAÐ?$"
 
 Text_DoubleEdgeTaught::
-    .string "Keep that drive going for the\n"
-    .string "POKéMON LEAGUE!\p"
-    .string "Take a run at them and knock 'em\n"
-    .string "out!$"
+    .string "Haltu þessum krafti gangandi fyrir\n"
+    .string "VASASKRÍMSLADEILDINA!\p"
+    .string "Ráðist á þau og sláið þau\n"
+    .string "út!$"
 
 VictoryRoad_3F_Text_GeorgeIntro::
-    .string "I heard rumors of a child prodigy.$"
+    .string "Ég heyrði sögusagnir um undrabarn.$"
 
 VictoryRoad_3F_Text_GeorgeDefeat::
-    .string "The rumors were true!$"
+    .string "Sögusagnirnar voru sannar!$"
 
 VictoryRoad_3F_Text_GeorgePostBattle::
-    .string "So, it was you who beat GIOVANNI\n"
-    .string "of TEAM ROCKET?$"
+    .string "Svo það varst þú sem sigraðir\n"
+    .string "GIOVANNI úr ROCKET-GENGINU?$"
 
 VictoryRoad_3F_Text_AlexaIntro::
-    .string "TRAINERS live to seek stronger\n"
-    .string "opponents.$"
+    .string "ÞJÁLFARAR lifa til að leita að\n"
+    .string "sterkari andstæðingum.$"
 
 VictoryRoad_3F_Text_AlexaDefeat::
-    .string "Oh!\n"
-    .string "So strong!$"
+    .string "Ó! Þvílíkur styrkur!$"
 
 VictoryRoad_3F_Text_AlexaPostBattle::
-    .string "By fighting tough battles, you get\n"
-    .string "stronger.$"
+    .string "Með því að berjast í hörðum bardögum\n"
+    .string "verðurðu sterkari.$"
 
 VictoryRoad_3F_Text_CarolineIntro::
-    .string "I'll show you just how good you\n"
-    .string "are. Not!$"
+    .string "Ég skal sýna þér hvað í þér býr.\n"
+    .string "Eða ekki!$"
 
 VictoryRoad_3F_Text_CarolineDefeat::
-    .string "I'm furious!$"
+    .string "Ég er brjáluð!$"
 
 VictoryRoad_3F_Text_CarolinePostBattle::
-    .string "You showed me just how good\n"
-    .string "I was…$"
+    .string "Þú sýndir mér hvað í mér bjó…$"
 
 VictoryRoad_3F_Text_ColbyIntro::
-    .string "Only the chosen can pass here!$"
+    .string "Aðeins hin útvöldu mega fara hér!$"
 
 VictoryRoad_3F_Text_ColbyDefeat::
-    .string "I don't believe it!$"
+    .string "Ég trúi þessu ekki!$"
 
 VictoryRoad_3F_Text_ColbyPostBattle::
-    .string "All TRAINERS here are headed to\n"
-    .string "the POKéMON LEAGUE.\p"
-    .string "Don't let down your guard.$"
+    .string "Allir ÞJÁLFARAR hér stefna í\n"
+    .string "VASASKRÍMSLADEILDINA.\p"
+    .string "Ekki slaka á verðinum.$"
 
 VictoryRoad_3F_Text_RayIntro::
-    .string "RAY: Together, the two of us are\n"
-    .string "destined for greatness!$"
+    .string "RAY: Saman erum við tvö\n"
+    .string "sköpuð til mikilleika!$"
 
 VictoryRoad_3F_Text_RayDefeat::
-    .string "RAY: Ludicrous!\n"
-    .string "This can't be!$"
+    .string "RAY: Fáránlegt! Þetta getur ekki verið!$"
 
 VictoryRoad_3F_Text_RayPostBattle::
-    .string "RAY: You've beaten us.\n"
-    .string "Greatness remains elusive…$"
+    .string "RAY: Þú sigraðir okkur. Mikilleikinn\n"
+    .string "rennur okkur úr greipum…$"
 
 VictoryRoad_3F_Text_RayNotEnoughMons::
-    .string "RAY: Together, the two of us are\n"
-    .string "striving for the pinnacle.\p"
-    .string "We need you to bring two POKéMON\n"
-    .string "into battle with us.$"
+    .string "RAY: Saman stefnum við tvö\n"
+    .string "á tindinn.\p"
+    .string "Þú þarft að koma með tvö\n"
+    .string "Vasaskrímsli í bardaga við okkur.$"
 
 VictoryRoad_3F_Text_TyraIntro::
-    .string "TYRA: We're trying to become\n"
-    .string "champions together.$"
+    .string "TYRA: Við ætlum að verða\n"
+    .string "meistarar saman.$"
 
 VictoryRoad_3F_Text_TyraDefeat::
-    .string "TYRA: Oh, but…$"
+    .string "TYRA: Ó, en…$"
 
 VictoryRoad_3F_Text_TyraPostBattle::
-    .string "TYRA: You've taught me that power\n"
-    .string "can be infinite in shape and form.$"
+    .string "TYRA: Þú kenndir mér að kraftur\n"
+    .string "getur birst í ótal myndum.$"
 
 VictoryRoad_3F_Text_TyraNotEnoughMons::
-    .string "TYRA: You can't battle with us if\n"
-    .string "you have only one POKéMON.$"
-
+    .string "TYRA: Þú getur ekki barist við\n"
+    .string "okkur með bara eitt Vasaskrímsli.$"

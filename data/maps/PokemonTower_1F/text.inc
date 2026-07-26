@@ -1,29 +1,28 @@
 PokemonTower_1F_Text_ErectedInMemoryOfDeadMons::
-    .string "POKéMON TOWER was erected in the\n"
-    .string "memory of POKéMON that died.$"
+    .string "Vasaskrímsla TOWER var reist til\n"
+    .string "minningar um Vasaskrímsli sem\p"
+    .string "dóu.$"
 
 PokemonTower_1F_Text_ComeToPayRespectsSon::
-    .string "Did you come to pay respects?\p"
-    .string "Bless your POKéMON-loving heart,\n"
-    .string "son.$"
+    .string "Komstu til að votta virðingu þína?\p"
+    .string "Blessað sé Vasaskrímslaelskandi\n"
+    .string "hjarta þitt, sonur.$"
 
 PokemonTower_1F_Text_ComeToPayRespectsGirl::
-    .string "Did you come to pay respects?\p"
-    .string "Bless your POKéMON-loving heart,\n"
-    .string "girl.$"
+    .string "Komstu til að votta virðingu þína?\p"
+    .string "Blessað sé Vasaskrímslaelskandi\n"
+    .string "hjarta þitt, stúlka.$"
 
 PokemonTower_1F_Text_CameToPrayForDepartedClefairy::
-    .string "I came to pray for my dearly\n"
-    .string "departed CLEFAIRY.\p"
-    .string "Sniff!\n"
-    .string "I'm awash in tears…$"
+    .string "Ég kom til að biðja fyrir mínum kæra\n"
+    .string "horfna BLEIKÁLFI.\p"
+    .string "Snökt! Ég er að drukkna í tárum…$"
 
 PokemonTower_1F_Text_GrowlitheWhyDidYouDie::
-    .string "My GROWLITHE…\n"
-    .string "Why did you die?$"
+    .string "BLYSRAKKINN minn… Af hverju dóstu?$"
 
 PokemonTower_1F_Text_SenseSpiritsUpToMischief::
-    .string "I am a CHANNELER.\p"
-    .string "There are spirits up to mischief.\n"
-    .string "I sense them high in the TOWER.$"
+    .string "Ég er MIÐILL.\p"
+    .string "Það eru andar að gera óþekkt. Ég\n"
+    .string "skynja þá hátt í TURNINUM.$"
 

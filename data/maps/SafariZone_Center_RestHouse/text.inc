@@ -1,8 +1,8 @@
 SafariZone_Center_Text_WhereDidErikGo::
-    .string "SARA: Where did my boyfriend,\n"
-    .string "ERIK, go?$"
+    .string "SARA: Hvert fór kærastinn minn,\n"
+    .string "ERIK?$"
 
 SafariZone_Center_Text_CatchingMonsAsGifts::
-    .string "I'm catching POKéMON to take home\n"
-    .string "as gifts.$"
+    .string "I'm catching Vasaskrímsli to take\n"
+    .string "home as gifts.$"
 

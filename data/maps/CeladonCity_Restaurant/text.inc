@@ -1,37 +1,36 @@
 CeladonCity_Restaurant_Text_TakingBreakRightNow::
-    .string "Hi!\p"
-    .string "Sorry, but we're taking a break\n"
-    .string "right now.$"
+    .string "Hæ!\p"
+    .string "Því miður, við erum í pásu núna.$"
 
 CeladonCity_Restaurant_Text_OftenGoToDrugstore::
-    .string "My POKéMON are weak, so I often\n"
-    .string "have to go to the DRUGSTORE.$"
+    .string "Vasaskrímslin mín eru veikburða, svo\n"
+    .string "ég þarf oft að fara í LYFJABÚÐINA.$"
 
 CeladonCity_Restaurant_Text_PsstBasementUnderGameCorner::
-    .string "Psst! There's a basement under the\n"
-    .string "GAME CORNER, I hear.$"
+    .string "Psst! Ég heyri að það sé kjallari\n"
+    .string "undir SPILASALNUM.$"
 
 CeladonCity_Restaurant_Text_ManLostItAllAtSlots::
-    .string "Munch…\p"
-    .string "The man at that table lost it all\n"
-    .string "at the slots.$"
+    .string "Namm...\p"
+    .string "Maðurinn við borðið tapaði öllu í\n"
+    .string "spilakössunum.$"
 
 CeladonCity_Restaurant_Text_TakeThisImBusted::
-    .string "Go ahead! Laugh!\n"
-    .string "I'm flat-out busted!\p"
-    .string "No more slots for me!\n"
-    .string "I'm going straight!\p"
-    .string "Here!\n"
-    .string "I won't be needing this anymore!$"
+    .string "Gjörðu svo vel! Hlæðu bara! Ég er\n"
+    .string "gjörsamlega blankur!\p"
+    .string "Engir fleiri spilakassar fyrir mig!\n"
+    .string "Ég ætla að taka mig á!\p"
+    .string "Hér! Ég þarf ekki á þessu að halda\n"
+    .string "lengur!$"
 
 CeladonCity_Restaurant_Text_ReceivedCoinCaseFromMan::
-    .string "{PLAYER} received a COIN CASE\n"
-    .string "from the man.$"
+    .string "{PLAYER} fékk PENINGAVESKI frá\n"
+    .string "manninum.$"
 
 CeladonCity_Restaurant_Text_MakeRoomForThis::
-    .string "Make room for this!$"
+    .string "Búðu til pláss fyrir þetta!$"
 
 CeladonCity_Restaurant_Text_ThoughtIdWinItBack::
-    .string "I always thought I was going to\n"
-    .string "win it back…$"
+    .string "Ég hélt alltaf að ég myndi vinna\n"
+    .string "þetta til baka...$"
 

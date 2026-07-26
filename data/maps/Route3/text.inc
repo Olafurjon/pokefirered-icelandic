@@ -1,104 +1,97 @@
 Route3_Text_TunnelFromCeruleanTiring::
-    .string "Whew… I better take a rest…\n"
-    .string "Groan…\p"
-    .string "That tunnel from CERULEAN takes a\n"
-    .string "lot out of you!$"
+    .string "Púff... ég ætti að hvíla mig...\n"
+    .string "Styn...\p"
+    .string "Göngin frá CERULEAN taka verulega á!$"
 
 Route3_Text_ColtonIntro::
-    .string "Hey!\n"
-    .string "I saw you in VIRIDIAN FOREST!$"
+    .string "Hey! Ég sá þig í VIRIDIAN-SKÓGI!$"
 
 Route3_Text_ColtonDefeat::
-    .string "You beat me again!$"
+    .string "Þú vannst mig aftur!$"
 
 Route3_Text_ColtonPostBattle::
-    .string "There are other kinds of POKéMON\n"
-    .string "than the ones you find in forests.$"
+    .string "Það eru til aðrar gerðir\n"
+    .string "vasaskrímsla en þær sem þú finnur í\p"
+    .string "skógum.$"
 
 Route3_Text_BenIntro::
-    .string "Hi!\n"
-    .string "I like shorts!\p"
-    .string "They're delightfully comfy and\n"
-    .string "easy to wear!$"
+    .string "Hæ! Mér finnst stuttbuxur frábærar!\p"
+    .string "Þær eru dásamlega þægilegar og\n"
+    .string "auðveldar í notkun!$"
 
 Route3_Text_BenDefeat::
-    .string "I don't believe it!$"
+    .string "Ég trúi þessu ekki!$"
 
 Route3_Text_BenPostBattle::
-    .string "Are you using a POKéMON CENTER's\n"
-    .string "PC for storing your POKéMON?\p"
-    .string "Each BOX can hold up to\n"
-    .string "30 POKéMON.$"
+    .string "Notarðu PC í vasaskrímslamiðstöð til\n"
+    .string "að geyma vasaskrímslin þín?\p"
+    .string "Hvert BOX rúmar allt að 30\n"
+    .string "vasaskrímsli.$"
 
 Route3_Text_JaniceIntro::
-    .string "Excuse me!\n"
-    .string "You looked at me, didn't you?$"
+    .string "Afsakaðu! Þú horfðir á mig, ekki\n"
+    .string "satt?$"
 
 Route3_Text_JaniceDefeat::
-    .string "You're mean!$"
+    .string "Þú ert vondur!$"
 
 Route3_Text_JanicePostBattle::
-    .string "You shouldn't be staring if you\n"
-    .string "don't want to battle!$"
+    .string "Þú ættir ekki að stara ef þú vilt\n"
+    .string "ekki berjast!$"
 
 Route3_Text_GregIntro::
-    .string "Are you a TRAINER?\n"
-    .string "Let's get with it right away!$"
+    .string "Ertu ÞJÁLFARI? Byrjum þá strax!$"
 
 Route3_Text_GregDefeat::
-    .string "If I had new POKéMON, I would've\n"
-    .string "won!$"
+    .string "Ef ég ætti ný vasaskrímsli hefði ég\n"
+    .string "unnið!$"
 
 Route3_Text_GregPostBattle::
-    .string "If a POKéMON BOX on the PC gets\n"
-    .string "full, just switch to another BOX.$"
+    .string "Ef vasaskrímsla-BOX í PC fyllist\n"
+    .string "skaltu bara skipta yfir í annað BOX.$"
 
 Route3_Text_SallyIntro::
-    .string "That look you gave me…\n"
-    .string "It's so intriguing!$"
+    .string "Þetta augnaráð sem þú gafst mér...\n"
+    .string "Það er svo spennandi!$"
 
 Route3_Text_SallyDefeat::
-    .string "Be nice!$"
+    .string "Vertu almennilegur!$"
 
 Route3_Text_SallyPostBattle::
-    .string "You can avoid battles by not\n"
-    .string "letting TRAINERS see you.$"
+    .string "Þú getur forðast bardaga með því að\n"
+    .string "láta ÞJÁLFARA ekki sjá þig.$"
 
 Route3_Text_CalvinIntro::
-    .string "Hey! You're not wearing shorts!\n"
-    .string "What's wrong with you?$"
+    .string "Hey! Þú ert ekki í stuttbuxum! Hvað\n"
+    .string "er að þér?$"
 
 Route3_Text_CalvinDefeat::
-    .string "Lost!\n"
-    .string "Lost! Lost!$"
+    .string "Tapaði! Tapaði! Tapaði!$"
 
 Route3_Text_CalvinPostBattle::
-    .string "I always wear shorts, even in\n"
-    .string "winter. That's my policy.$"
+    .string "Ég geng alltaf í stuttbuxum, jafnvel\n"
+    .string "á veturna. Það er mín regla.$"
 
 Route3_Text_JamesIntro::
-    .string "I'll battle you with the POKéMON\n"
-    .string "I just caught.$"
+    .string "Ég berst við þig með vasaskrímslunum\n"
+    .string "sem ég náði rétt áðan.$"
 
 Route3_Text_JamesDefeat::
-    .string "Done like dinner!$"
+    .string "Kláraður eins og kvöldmatur!$"
 
 Route3_Text_JamesPostBattle::
-    .string "Trained POKéMON are stronger than\n"
-    .string "the wild ones.$"
+    .string "Þjálfuð vasaskrímsli eru sterkari en\n"
+    .string "villt.$"
 
 Route3_Text_RobinIntro::
-    .string "Eek!\n"
-    .string "Did you touch me?$"
+    .string "Ííík! Snertirðu mig?$"
 
 Route3_Text_RobinDefeat::
-    .string "That's it?$"
+    .string "Var það allt?$"
 
 Route3_Text_RobinPostBattle::
-    .string "ROUTE 4 is at the foot of\n"
-    .string "MT. MOON.$"
+    .string "VEGUR 4 er við rætur MT. MOON.$"
 
 Route3_Text_RouteSign::
-    .string "ROUTE 3\n"
-    .string "MT. MOON AHEAD$"
+    .string "LEIÐ 3 MT. MOON FRAMUNDAN$"
 

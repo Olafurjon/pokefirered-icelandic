@@ -1,131 +1,126 @@
 Route17_Text_RaulIntro::
-    .string "There's no getting rich quick in\n"
-    .string "battling kids.$"
+    .string "Það græðist ekkert hratt á því að\n"
+    .string "berjast við krakka.$"
 
 Route17_Text_RaulDefeat::
-    .string "Burned out!$"
+    .string "Brenndur út!$"
 
 Route17_Text_RaulPostBattle::
-    .string "You can find good stuff lying\n"
-    .string "around on CYCLING ROAD.\p"
-    .string "There's good money in picking them\n"
-    .string "up and selling them.$"
+    .string "Þú getur fundið góða hluti liggjandi\n"
+    .string "á HJÓLAVEGI.\p"
+    .string "Það eru góðir peningar í að hirða þá\n"
+    .string "og selja.$"
 
 Route17_Text_IsaiahIntro::
-    .string "I'm mighty proud of my bod, kiddo.\n"
-    .string "Come on!$"
+    .string "Ég er ótrúlega stoltur af kroppnum\n"
+    .string "mínum, krakki. Komdu!$"
 
 Route17_Text_IsaiahDefeat::
-    .string "Whoo!$"
+    .string "Hú!$"
 
 Route17_Text_IsaiahPostBattle::
-    .string "I could belly-bump you outta\n"
-    .string "here!$"
+    .string "Ég gæti magaskellt þér héðan út!$"
 
 Route17_Text_VirgilIntro::
-    .string "You heading to FUCHSIA?$"
+    .string "Ertu á leið til FUCHSIA?$"
 
 Route17_Text_VirgilDefeat::
-    .string "Crash and burn!$"
+    .string "Krass og bruni!$"
 
 Route17_Text_VirgilPostBattle::
-    .string "I love racing downhill!$"
+    .string "Ég elska að keppa niður brekkur!$"
 
 Route17_Text_BillyIntro::
-    .string "We're BIKERS!\n"
-    .string "We rule the roads, man!$"
+    .string "Við erum MÓTORHJÓLAMENN! Við ráðum\n"
+    .string "vegunum, maður!$"
 
 Route17_Text_BillyDefeat::
-    .string "Smoked!$"
+    .string "Reyktur!$"
 
 Route17_Text_BillyPostBattle::
-    .string "Are you looking for adventure?$"
+    .string "Ertu að leita að ævintýrum?$"
 
 Route17_Text_NikolasIntro::
-    .string "Let VOLTORB electrify you!$"
+    .string "Láttu STUÐBOLTA rafmagna þig!$"
 
 Route17_Text_NikolasDefeat::
-    .string "Grounded out!$"
+    .string "Jarðtengdur!$"
 
 Route17_Text_NikolasPostBattle::
-    .string "I got my VOLTORB at the abandoned\n"
-    .string "POWER PLANT.$"
+    .string "Ég fékk STUÐBOLTANN minn í yfirgefna\n"
+    .string "ORKUVERINU.$"
 
 Route17_Text_ZeekIntro::
-    .string "I leveled up my POKéMON, but it\n"
-    .string "won't evolve. Why?$"
+    .string "Ég hækkaði stigið á vasaskrímslinu\n"
+    .string "mínu, en það þróast ekki. Af hverju?$"
 
 Route17_Text_ZeekDefeat::
-    .string "Why, you!$"
+    .string "Af hverju, þú!$"
 
 Route17_Text_ZeekPostBattle::
-    .string "Maybe some POKéMON need element\n"
-    .string "STONES to evolve.$"
+    .string "Kannski þurfa sum vasaskrímsli\n"
+    .string "frumsteina til að þróast.$"
 
 Route17_Text_JamalIntro::
-    .string "I need a little exercise!$"
+    .string "Ég þarf smá hreyfingu!$"
 
 Route17_Text_JamalDefeat::
-    .string "Whew!\n"
-    .string "Good workout!$"
+    .string "Úff! Góð æfing!$"
 
 Route17_Text_JamalPostBattle::
-    .string "I'm sure I lost weight there!$"
+    .string "Ég er viss um að ég léttist þarna!$"
 
 Route17_Text_CoreyIntro::
-    .string "Be a rebel!$"
+    .string "Vertu uppreisnarmaður!$"
 
 Route17_Text_CoreyDefeat::
-    .string "Aaaargh!$"
+    .string "Aaaaargh!$"
 
 Route17_Text_CoreyPostBattle::
-    .string "Be ready to fight for your beliefs!$"
+    .string "Vertu tilbúinn að berjast fyrir\n"
+    .string "sannfæringu þinni!$"
 
 Route17_Text_JaxonIntro::
-    .string "Nice BIKE!\n"
-    .string "How's it handle?$"
+    .string "Flott HJÓL! Hvernig stýrist það?$"
 
 Route17_Text_JaxonDefeat::
-    .string "Shoot!$"
+    .string "Skot!$"
 
 Route17_Text_JaxonPostBattle::
-    .string "The slope makes it hard to steer.$"
+    .string "Hallinn gerir erfitt að stýra.$"
 
 Route17_Text_WilliamIntro::
-    .string "Get lost, kid!\n"
-    .string "I'm bushed!$"
+    .string "Láttu þig hverfa, krakki! Ég er\n"
+    .string "örmagna!$"
 
 Route17_Text_WilliamDefeat::
-    .string "Are you satisfied?$"
+    .string "Ertu ánægður?$"
 
 Route17_Text_WilliamPostBattle::
-    .string "I need to catch a few z's!$"
+    .string "Ég þarf að leggja mig!$"
 
 Route17_Text_WatchOutForDiscardedItems::
-    .string "It's a notice.\p"
-    .string "Watch out for discarded items.$"
+    .string "Þetta er tilkynning.\p"
+    .string "Varist hluti sem hefur verið hent.$"
 
 Route17_Text_SameSpeciesGrowDifferentRates::
-    .string "TRAINER TIPS\p"
-    .string "All POKéMON are unique.\p"
-    .string "Even POKéMON of the same species\n"
-    .string "and level grow at different rates.$"
+    .string "ÞJÁLFARA RÁÐ\p"
+    .string "Öll vasaskrímsli eru einstök.\p"
+    .string "Jafnvel vasaskrímsli af sömu tegund\n"
+    .string "og sama stigi vaxa mishratt.$"
 
 Route17_Text_PressBToStayInPlace::
-    .string "TRAINER TIPS\p"
-    .string "Press the B Button to stay in place\n"
-    .string "while on a slope.$"
+    .string "ÞJÁLFARA RÁÐ\p"
+    .string "Ýttu á B hnappinn til að vera kyrr á\n"
+    .string "hallandi leið.$"
 
 Route17_Text_RouteSign::
-    .string "ROUTE 17\n"
-    .string "CELADON CITY - FUCHSIA CITY$"
+    .string "LEIÐ 17 CELADON BORG - FUCHSIA BORG$"
 
 Route17_Text_DontThrowGameThrowBalls::
-    .string "It's a notice!\p"
-    .string "Don't throw the game, throw POKé\n"
-    .string "BALLS instead!$"
+    .string "Þetta er tilkynning!\p"
+    .string "Ekki kasta leiknum frá þér, kastaðu\n"
+    .string "VASA BOLTUM í staðinn!$"
 
 Route17_Text_CyclingRoadSign::
-    .string "CYCLING ROAD\n"
-    .string "Slope ends here!$"
-
+    .string "HJÓLAVEGUR Hallinn endar hér!$"

@@ -1,67 +1,68 @@
 LavenderTown_PokemonCenter_1F_Text_HearMrFujiNotFromAroundHere::
-    .string "I recently moved to this town.\p"
-    .string "I hear that MR. FUJI's not from\n"
-    .string "these parts originally, either.$"
+    .string "Ég flutti nýlega í þennan bæ.\p"
+    .string "Ég heyri að MR. FUJI sé ekki\n"
+    .string "upprunalega héðan heldur.$"
 
 LavenderTown_VolunteerPokemonHouse_Text_WhereDidMrFujiGo::
-    .string "That's odd, MR. FUJI isn't here.\n"
-    .string "Where'd he go?$"
+    .string "Þetta er skrítið, MR. FUJI er ekki\n"
+    .string "hér. Hvert fór hann?$"
 
 LavenderTown_VolunteerPokemonHouse_Text_MrFujiWasPrayingForCubonesMother::
-    .string "MR. FUJI had been praying alone\n"
-    .string "for CUBONE's mother.$"
+    .string "MR. FUJI hafði verið að biðja einn\n"
+    .string "fyrir móður BEINFARI.$"
 
 LavenderTown_VolunteerPokemonHouse_Text_MrFujiLooksAfterOrphanedMons::
-    .string "This is really MR. FUJI's house.\p"
-    .string "He's really kind.\p"
-    .string "He looks after abandoned and\n"
-    .string "orphaned POKéMON.$"
+    .string "Þetta er í raun húsið hans MR. FUJI.\p"
+    .string "Hann er mjög góður.\p"
+    .string "Hann sér um yfirgefin og munaðarlaus\n"
+    .string "Vasaskrímsli.$"
 
 LavenderTown_VolunteerPokemonHouse_Text_MonsNiceToHug::
-    .string "It's so warm!\n"
-    .string "POKéMON are so nice to hug.$"
+    .string "Það er svo hlýtt! Það er svo gott að\n"
+    .string "knúsa Vasaskrímsli.$"
 
 LavenderTown_VolunteerPokemonHouse_Text_Nidorino::
-    .string "NIDORINO: Gaoo!$"
+    .string "NÁLHERRA: Gaoo!$"
 
 LavenderTown_VolunteerPokemonHouse_Text_Psyduck::
-    .string "PSYDUCK: Gwappa!$"
+    .string "MÍGRENDI: Gwappa!$"
 
 LavenderTown_VolunteerPokemonHouse_Text_IdLikeYouToHaveThis::
     .string "MR. FUJI: {PLAYER}…\p"
-    .string "Your POKéDEX quest is one that\n"
-    .string "requires strong dedication.\p"
-    .string "Without deep love for POKéMON,\n"
-    .string "your quest may fail.\p"
-    .string "I'm not sure if this will help you,\n"
-    .string "but I'd like you to have it.$"
+    .string "VasaDEX-leiðangurinn þinn krefst\n"
+    .string "mikillar einurðar.\p"
+    .string "Án djúprar ástar á Vasaskrímslum\n"
+    .string "gæti leiðangurinn mistekist.\p"
+    .string "Ég veit ekki hvort þetta hjálpar, en\n"
+    .string "ég vil að þú eigir það.$"
 
 LavenderTown_VolunteerPokemonHouse_Text_ReceivedPokeFluteFromMrFuji::
-    .string "{PLAYER} received a POKé FLUTE\n"
-    .string "from MR. FUJI.$"
+    .string "{PLAYER} fékk VASAFLAUTU frá MR.\n"
+    .string "FUJI.$"
 
 LavenderTown_VolunteerPokemonHouse_Text_ExplainPokeFlute::
-    .string "Upon hearing the POKé FLUTE,\n"
-    .string "sleeping POKéMON will spring awake.\p"
-    .string "Try using it on POKéMON that are\n"
-    .string "sleeping obstacles.$"
+    .string "Þegar VASAFLAUTAN hljómar vakna\n"
+    .string "sofandi Vasaskrímsli strax.\p"
+    .string "Prófaðu hana á Vasaskrímsli sem sofa\n"
+    .string "og loka leiðinni.$"
 
 LavenderTown_VolunteerPokemonHouse_Text_MustMakeRoomForThis::
-    .string "You must make room for this!$"
+    .string "Þú verður að gera pláss fyrir þetta!$"
 
 LavenderTown_VolunteerPokemonHouse_Text_HasPokeFluteHelpedYou::
-    .string "MR. FUJI: Has my POKé FLUTE\n"
-    .string "helped you?$"
+    .string "MR. FUJI: Hefur VASAFLAUTAN mín\n"
+    .string "hjálpað þér?$"
 
 LavenderTown_VolunteerPokemonHouse_Text_GrandPrizeDrawingClipped::
-    .string "POKéMON FAN MAGAZINE\n"
-    .string "Monthly Grand Prize Drawing!\p"
-    .string "The application form is…\p"
-    .string "Gone! It's been clipped out.\n"
-    .string "Someone must have applied already.$"
+    .string "Mánaðarlegur aðalvinningur\n"
+    .string "VASASKRÍMSLA AÐDÁENDABLAÐSINS!\p"
+    .string "Umsóknarblaðið er…\p"
+    .string "Farið! Það hefur verið klippt út.\n"
+    .string "Einhver hefur þegar sótt um.$"
 
 LavenderTown_VolunteerPokemonHouse_Text_PokemonMagazinesLineShelf::
-    .string "POKéMON magazines line the shelf.\p"
-    .string "POKéMON INSIDER…\p"
-    .string "POKéMON FAN…$"
+    .string "Vasaskrímslatímarit standa í\n"
+    .string "hillunni.\p"
+    .string "VASASKRÍMSLA INNSÝN…\p"
+    .string "VASASKRÍMSLA AÐDÁANDI…$"
 

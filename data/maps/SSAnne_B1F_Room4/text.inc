@@ -1,23 +1,22 @@
 SSAnne_B1F_Room4_Text_LeonardIntro::
-    .string "You know what they say about\n"
-    .string "sailors and battling!$"
+    .string "Þú veist hvað sagt er um sjómenn og\n"
+    .string "bardaga!$"
 
 SSAnne_B1F_Room4_Text_LeonardDefeat::
-    .string "Right!\n"
-    .string "Good battle, mate!$"
+    .string "Rétt! Góður bardagi, félagi!$"
 
 SSAnne_B1F_Room4_Text_LeonardPostBattle::
-    .string "Hahaha!\n"
-    .string "Want to be a sailor, mate?$"
+    .string "Hahaha! Viltu verða sjómaður,\n"
+    .string "félagi?$"
 
 SSAnne_B1F_Room4_Text_DuncanIntro::
-    .string "Come on, then!\n"
-    .string "My sailor's pride is at stake!$"
+    .string "Komdu þá! Sjómaðurstolt mitt er í\n"
+    .string "húfi!$"
 
 SSAnne_B1F_Room4_Text_DuncanDefeat::
-    .string "Your spirit sank me!$"
+    .string "Andinn þinn sökkti mér!$"
 
 SSAnne_B1F_Room4_Text_DuncanPostBattle::
-    .string "Did you see the FISHING GURU in\n"
-    .string "VERMILION CITY?$"
+    .string "Sástu VEIÐIMEISTARANN í VERMILION\n"
+    .string "BORG?$"
 

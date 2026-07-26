@@ -1,26 +1,25 @@
 ViridianCity_Mart_Text_YouCameFromPallet::
-    .string "Hey!\n"
-    .string "You came from PALLET TOWN?$"
+    .string "Hæ! Komstu frá PALLET BÆ?$"
 
 ViridianCity_Mart_Text_TakeThisToProfOak::
-    .string "You know PROF. OAK, right?\p"
-    .string "His order came in.\n"
-    .string "Can I get you to take it to him?$"
+    .string "Þú þekkir Prófessor EIK, ekki satt?\p"
+    .string "Pöntunin hans kom. Gætirðu farið með\n"
+    .string "hana til hans?$"
 
 ViridianCity_Mart_Text_ReceivedOaksParcelFromClerk::
-    .string "{PLAYER} received OAK'S PARCEL\n"
-    .string "from the POKéMON MART clerk.$"
+    .string "{PLAYER} fékk PAKKA EIKS frá\n"
+    .string "afgreiðslumanninum.$"
 
 ViridianCity_Mart_Text_SayHiToOakForMe::
-    .string "Okay, thanks! Please say hi to\n"
-    .string "PROF. OAK for me, too.$"
+    .string "Allt í lagi, takk! Skilaðu líka\n"
+    .string "kveðju til Prófessor EIK frá mér.$"
 
 ViridianCity_Mart_Text_ShopDoesGoodBusinessInAntidotes::
-    .string "This shop does good business in\n"
-    .string "ANTIDOTES, I've heard.$"
+    .string "Þessi búð selur vel af MÓTEITRUM,\n"
+    .string "hef ég heyrt.$"
 
 ViridianCity_Mart_Text_GotToBuySomePotions::
-    .string "I've got to buy some POTIONS.\p"
-    .string "You never know when your POKéMON\n"
-    .string "will need quick healing.$"
-
+    .string "Ég þarf að kaupa nokkur SEYÐI.\p"
+    .string "Maður veit aldrei hvenær\n"
+    .string "Vasaskrímslin þurfa skjóta\p"
+    .string "lækningu.$"

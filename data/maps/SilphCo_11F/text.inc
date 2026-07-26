@@ -1,94 +1,86 @@
 SilphCo_11F_Text_ThanksForSavingMeDearBoy::
-    .string "PRESIDENT: Oh, dear boy!\n"
-    .string "Thank you for saving SILPH.\p"
-    .string "I will never forget you saved us in\n"
-    .string "our moment of peril.\p"
-    .string "I have to thank you in some way.\p"
-    .string "Because I am rich, I can give you\n"
-    .string "anything.\p"
-    .string "Here, maybe this will do.$"
+    .string "FORSTJÓRI: Ó, kæri drengur! Takk\n"
+    .string "fyrir að bjarga SILPH.\p"
+    .string "Ég gleymi aldrei að þú bjargaðir\n"
+    .string "okkur á hættustundu.\p"
+    .string "Ég verð að þakka þér á einhvern hátt.\p"
+    .string "Þar sem ég er ríkur get ég gefið\n"
+    .string "þér hvað sem er.\p"
+    .string "Hér, kannski dugar þetta.$"
 
 SilphCo_11F_Text_ThanksForSavingMeDearGirl::
-    .string "PRESIDENT: Oh, dear girl!\n"
-    .string "Thank you for saving SILPH.\p"
-    .string "I will never forget you saved us in\n"
-    .string "our moment of peril.\p"
-    .string "I have to thank you in some way.\p"
-    .string "Because I am rich, I can give you\n"
-    .string "anything.\p"
-    .string "Here, maybe this will do.$"
+    .string "FORSTJÓRI: Ó, kæra stúlka! Takk\n"
+    .string "fyrir að bjarga SILPH.\p"
+    .string "Ég gleymi aldrei að þú bjargaðir\n"
+    .string "okkur á hættustundu.\p"
+    .string "Ég verð að þakka þér á einhvern hátt.\p"
+    .string "Þar sem ég er ríkur get ég gefið\n"
+    .string "þér hvað sem er.\p"
+    .string "Hér, kannski dugar þetta.$"
 
 SilphCo_11F_Text_ObtainedMasterBallFromPresident::
-    .string "{PLAYER} obtained a MASTER BALL\n"
-    .string "from the PRESIDENT!$"
+    .string "{PLAYER} fékk MEISTARABOLTA frá\n"
+    .string "FORSTJÓRANUM!$"
 
 SilphCo_11F_Text_ThatsOurSecretPrototype::
-    .string "PRESIDENT: You can't buy that\n"
-    .string "anywhere.\p"
-    .string "It's our secret prototype MASTER\n"
-    .string "BALL.\p"
-    .string "It will catch any POKéMON without\n"
-    .string "fail!\p"
-    .string "You should be quiet about using it,\n"
-    .string "though.$"
+    .string "FORSTJÓRI: Þetta er hvergi hægt\n"
+    .string "að kaupa.\p"
+    .string "Þetta er leynilega frumgerð okkar,\n"
+    .string "MEISTARABOLTI.\p"
+    .string "Hann fangar hvaða Vasaskrímsli sem\n"
+    .string "er, án þess að bregðast!\p"
+    .string "Þú ættir samt að hafa hljótt um\n"
+    .string "notkun hans.$"
 
 SilphCo_11F_Text_YouHaveNoRoomForThis::
-    .string "You have no room for this.$"
+    .string "Þú hefur ekki pláss fyrir þetta.$"
 
 SilphCo_11F_Text_ThanksForRescuingUs::
-    .string "SECRETARY: Thank you for rescuing\n"
-    .string "all of us.\p"
-    .string "We, from the PRESIDENT down,\n"
-    .string "are indebted to you.$"
+    .string "RITARI: Takk fyrir að bjarga\n"
+    .string "okkur öllum.\p"
+    .string "Við, allt frá FORSTJÓRANUM og niður,\n"
+    .string "stöndum í þakkarskuld við þig.$"
 
 SilphCo_11F_Text_GiovanniIntro::
-    .string "Ah, {PLAYER}!\n"
-    .string "So we meet again!\p"
-    .string "The PRESIDENT and I are discussing\n"
-    .string "a vital business proposition.\p"
-    .string "Keep your nose out of grown-up\n"
-    .string "matters…\p"
-    .string "Or, experience a world of pain!$"
+    .string "Ah, {PLAYER}! Við hittumst aftur!\p"
+    .string "FORSTJÓRINN og ég erum að ræða\n"
+    .string "afar mikilvægt viðskiptamál.\p"
+    .string "Haltu nefinu frá málefnum fullorðinna…\p"
+    .string "Annars kynnistu sársauka!$"
 
 SilphCo_11F_Text_GiovanniDefeat::
-    .string "Arrgh!!\n"
-    .string "I lost again!?$"
+    .string "Arrgh!! Ég tapaði aftur!?$"
 
 SilphCo_11F_Text_GiovanniPostBattle::
-    .string "Blast it all!\n"
-    .string "You ruined our plans for SILPH!\p"
-    .string "But, TEAM ROCKET will never fall!\p"
-    .string "{PLAYER}! Never forget that all\n"
-    .string "POKéMON exist for TEAM ROCKET!\p"
-    .string "I must go, but I shall return!$"
+    .string "Fjárinn hafi það! Þú eyðilagðir\n"
+    .string "áætlanir okkar um SILPH!\p"
+    .string "En ROCKET-GENGIÐ mun aldrei falla!\p"
+    .string "{PLAYER}! Gleymdu aldrei að öll\n"
+    .string "Vasaskrímsli eru til fyrir ROCKET-GENGIÐ!\p"
+    .string "Ég verð að fara, en ég mun snúa aftur!$"
 
 SilphCo_11F_Text_Grunt2Intro::
-    .string "Stop right there!\n"
-    .string "Don't you move!$"
+    .string "Stansaðu þarna! Ekki hreyfa þig!$"
 
 SilphCo_11F_Text_Grunt2Defeat::
-    .string "Don't…\n"
-    .string "Please!$"
+    .string "Ekki… Vinsamlegast!$"
 
 SilphCo_11F_Text_Grunt2PostBattle::
-    .string "So, you want to see my BOSS?$"
+    .string "Svo þú vilt hitta FORINGJANN minn?$"
 
 SilphCo_11F_Text_Grunt1Intro::
-    .string "Halt! Do you have an appointment\n"
-    .string "with my BOSS?$"
+    .string "Stans! Átt þú bókaðan tíma\n"
+    .string "hjá FORINGJANUM mínum?$"
 
 SilphCo_11F_Text_Grunt1Defeat::
-    .string "Gaah!\n"
-    .string "Demolished!$"
+    .string "Gaah! Tættur í sundur!$"
 
 SilphCo_11F_Text_Grunt1PostBattle::
-    .string "Watch your step…\n"
-    .string "My BOSS likes his POKéMON tough!$"
+    .string "Passaðu þig… FORINGINN minn vill\n"
+    .string "Vasaskrímslin sín hörð!$"
 
 SilphCo_11F_Text_MonitorHasMonsOnIt::
-    .string "The monitor has POKéMON on it!$"
+    .string "Það eru Vasaskrímsli á skjánum!$"
 
 SilphCo_11F_Text_FloorSign::
-    .string "SILPH CO. HEAD OFFICE\n"
-    .string "11F$"
-
+    .string "SILPH CO. HÖFUÐSKRIFSTOFA 11H$"

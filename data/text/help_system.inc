@@ -1,1166 +1,1286 @@
 Help_Text_WhatShouldIDo::
-	.string "What should I do in this situation?$"
+	.string "Hvað ætti ég að gera í þessari\n"
+	.string "stöðu?$"
 
 Help_Text_HowDoIDoThis::
-	.string "How do I do this?$"
+	.string "Hvernig geri ég þetta?$"
 
 Help_Text_WhatDoesThisTermMean::
-	.string "What does this term mean?$"
+	.string "Hvað þýðir þetta hugtak?$"
 
 Help_Text_AboutThisGame::
-	.string "About this game$"
+	.string "Um þennan leik$"
 
 Help_Text_TypeMatchupList::
-	.string "Type Matchup List$"
+	.string "Tegundarviðmiðunarlisti$"
 
 Help_Text_Exit::
-	.string "EXIT$"
+	.string "HÆTTA$"
 
 Help_Text_Cancel::
-	.string "CANCEL$"
+	.string "HÆTTA VIÐ$"
 
 Help_Text_TryDoingItOnYourOwn::
-	.string "じぶんの ちからで やってみよう！$"
+	.string "Reyndu að gera það sjálf/ur!$"
 
 Help_Text_DescWhatShouldIDo::
-	.string "Select to obtain hints for getting\n"
-	.string "over challenging situations.$"
+	.string "Veldu til að fá vísbendingar um\n"
+	.string "hvernig á að takast á við krefjandi\p"
+	.string "aðstæður.$"
 
 Help_Text_DescHowDoIDoThis::
-	.string "Detailed instructions are given for\n"
-	.string "various operations.$"
+	.string "Ítarlegar leiðbeiningar eru gefnar\n"
+	.string "fyrir mismunandi aðgerðir.$"
 
 Help_Text_DescWhatDoesThisTermMean::
-	.string "Detailed descriptions are given for\n"
-	.string "terms that appear in the game.$"
+	.string "Ítarlegar lýsingar eru gefnar á\n"
+	.string "hugtökum sem birtast í leiknum.$"
 
 Help_Text_DescAboutThisGame::
-	.string "Detailed descriptions are given\n"
-	.string "about this game.$"
+	.string "Ítarlegar lýsingar eru gefnar um\n"
+	.string "þennan leik.$"
 
 Help_Text_DescTypeMatchupList::
-	.string "The matchups of  POKéMON types\n"
-	.string "and moves are listed.$"
+	.string "Tegundarviðmiðun Vasaskrímsla og\n"
+	.string "hreyfinga er skráð.$"
 
 Help_Text_DescExit::
-	.string "Select to exit the HELP System.$"
+	.string "Veldu til að hætta í HJÁLPARKERFINU.$"
 
 Help_Text_Greetings::
-	.string "Greetings! This is the HELP System.\n"
-	.string "Call me up whenever and wherever you\l"
-	.string "need by pressing the L or R Button.\l"
-	.string "The help messages change to suit the\l"
-	.string "situation, so check them often, please.$"
+	.string "Halló! Þetta er HJÁLPARKERFIÐ.\n"
+	.string "Kallaðu á mig hvenær og hvar sem þú\p"
+	.string "þarft með því að ýta á L eða R\n"
+	.string "takkann. Hjálparskilaboðin breytast\p"
+	.string "eftir\p"
+	.string "aðstæðum, svo athugaðu þau oft,\n"
+	.string "vinsamlegast.$"
 
 Help_Text_PlayingForFirstTime::
-	.string "I'm playing for the first time. Help!$"
+	.string "Ég er að spila í fyrsta skipti.\n"
+	.string "Hjálp!$"
 
 Help_Text_WhatShouldIBeDoing::
-	.string "What should I be doing?$"
+	.string "Hvað ætti ég að vera að gera?$"
 
 Help_Text_CantGetOutOfRoom::
-	.string "I can't get out of a room!$"
+	.string "Ég kemst ekki út úr herbergi!$"
 
 Help_Text_CantFindPersonIWant::
-	.string "I can't find the person I want.$"
+	.string "Ég finn ekki þann sem ég leita að.$"
 
 Help_Text_TalkedToEveryoneNowWhat::
-	.string "I've talked to everyone. Now what?$"
+	.string "Ég hef talað við alla. Hvað nú?$"
 
 Help_Text_SomeoneBlockingMyWay::
-	.string "There's someone blocking my way!$"
+	.string "Það er einhver að loka leið minni!$"
 
 Help_Text_ICantGoOn::
-	.string "I can't go on!$"
+	.string "Ég get ekki haldið áfram!$"
 
 Help_Text_OutOfThingsToDo::
-	.string "I'm out of things to do.$"
+	.string "Ég er búinn með verkefni.$"
 
 Help_Text_WhatHappenedToItemIGot::
-	.string "What happened to the item I got?$"
+	.string "Hvað varð um hlutinn sem ég fékk?$"
 
 Help_Text_WhatAreMyAdventureBasics::
-	.string "What are the basics of my adventure?$"
+	.string "Hver eru grunnatriði ævintýrisins\n"
+	.string "míns?$"
 
 Help_Text_HowAreRoadsForestsDifferent::
-	.string "How are roads and forests different?$"
+	.string "Hvernig eru vegir og skógar ólíkir?$"
 
 Help_Text_HowAreCavesDifferent::
-	.string "How are caves different?$"
+	.string "Hvernig eru hellar ólíkir?$"
 
 Help_Text_HowDoIProgress::
-	.string "How do I progress?$"
+	.string "Hvernig kemst ég áfram?$"
 
 Help_Text_WhenCanIUseItem::
-	.string "When can I use items?$"
+	.string "Hvenær get ég notað hluti?$"
 
 Help_Text_WhatsABattle::
-	.string "What's a battle?$"
+	.string "Hvað er bardagi?$"
 
 Help_Text_HowDoIPrepareForBattle::
-	.string "How do I prepare for battle?$"
+	.string "Hvernig undirbý ég mig fyrir\n"
+	.string "bardaga?$"
 
 Help_Text_WhatIsAMonsVitality::
-	.string "What is a POKéMON's vitality?$"
+	.string "Hvað er lífsorka Vasaskrímslis?$"
 
 Help_Text_MyMonsAreHurt::
-	.string "My POKéMON are hurt!$"
+	.string "Vasaskrímslin mín eru særð!$"
 
 Help_Text_WhatIsStatusProblem::
-	.string "What is a status problem?$"
+	.string "Hvað er stöðuvandamál?$"
 
 Help_Text_WhatHappensIfAllMyMonsFaint::
-	.string "What happens if all my POKéMON faint?$"
+	.string "Hvað gerist ef öll Vasaskrímslin mín\n"
+	.string "falla í yfirlið?$"
 
 Help_Text_CantCatchMons::
-	.string "I can't catch POKéMON!$"
+	.string "Ég get ekki fangað Vasaskrímsli!$"
 
 Help_Text_RanOutOfPotions::
-	.string "I ran out of POTIONS.$"
+	.string "Ég kláraði SEYÐIÐ.$"
 
 Help_Text_CanIBuyPokeBalls::
-	.string "Can I buy POKé BALLS?$"
+	.string "Get ég keypt VASA BOLTA?$"
 
 Help_Text_WhatsATrainer::
-	.string "What's a TRAINER?$"
+	.string "Hvað er ÞJÁLFARI?$"
 
 Help_Text_HowDoIWinAgainstTrainer::
-	.string "How do I win against a TRAINER?$"
+	.string "Hvernig vinn ég gegn ÞJÁLFARA?$"
 
 Help_Text_WhereDoMonsAppear::
-	.string "Where do POKéMON appear?$"
+	.string "Hvar birtast Vasaskrímsli?$"
 
 Help_Text_WhatAreMoves::
-	.string "What are POKéMON moves?$"
+	.string "Hverjar eru hreyfingar Vasaskrímsla?$"
 
 Help_Text_WhatAreHiddenMoves::
-	.string "What are HIDDEN moves?$"
+	.string "Hvað eru FALDAR hreyfingar?$"
 
 Help_Text_WhatMovesShouldIUse::
-	.string "What moves should I use?$"
+	.string "Hvaða hreyfingar ætti ég að nota?$"
 
 Help_Text_WantToAddMoreMoves::
-	.string "I want to add more moves.$"
+	.string "Ég vil bæta við fleiri hreyfingum.$"
 
 Help_Text_WantToMakeMonStronger::
-	.string "I want to make my POKéMON stronger.$"
+	.string "Ég vil gera Vasaskrímslið mitt\n"
+	.string "sterkara.$"
 
 Help_Text_FoeMonsTooStrong::
-	.string "The foe POKéMON are too strong!$"
+	.string "Vasaskrímsli óvinarins eru of sterk!$"
 
 Help_Text_WhatDoIDoInCave::
-	.string "What do I do in a cave?$"
+	.string "Hvað geri ég í helli?$"
 
 Help_Text_NothingIWantToKnow::
-	.string "There's nothing that I want to know!$"
+	.string "Það er ekkert sem ég vil vita!$"
 
 Help_Text_WhatsPokemonCenter::
-	.string "What's a POKéMON CENTER?$"
+	.string "Hvað er Vasaskrímsli MIÐSTÖÐ?$"
 
 Help_Text_WhatsPokemonMart::
-	.string "What's a POKéMON MART?$"
+	.string "Hvað er Vasaskrímsli VERSLUN?$"
 
 Help_Text_WantToEndGame::
-	.string "I want to end the game.$"
+	.string "Ég vil ljúka leiknum.$"
 
 Help_Text_WhatsAMon::
-	.string "What's a POKéMON?$"
+	.string "Hvað er Vasaskrímsli?$"
 
 Help_Text_WhatIsThatPersonLike::
-	.string "What is that person like?$"
+	.string "Hvernig er sú manneskja?$"
 
 Help_Text_WhatDoesHiddenMoveDo::
-	.string "What does a HIDDEN move do?$"
+	.string "Hvað gerir FÖLDU hreyfing?$"
 
 Help_Text_WhatDoIDoInSafari::
-	.string "What do I do in a SAFARI GAME?$"
+	.string "Hvað geri ég í SAFARI LEIKNUM?$"
 
 Help_Text_WhatAreSafariRules::
-	.string "What are the SAFARI GAME rules?$"
+	.string "Hverjar eru reglurnar í SAFARI\n"
+	.string "LEIKNUM?$"
 
 Help_Text_WantToEndSafari::
-	.string "I want to end this SAFARI GAME!$"
+	.string "Ég vil ljúka þessum SAFARI LEIK!$"
 
 Help_Text_WhatIsAGym::
-	.string "What is a GYM?$"
+	.string "Hvað er SALUR?$"
 
 Help_Text_AnswerPlayingForFirstTime::
-	.string "You become the main character,\n"
-	.string "exploring the world of POKéMON.\l"
-	.string "By talking to people and solving\l"
-	.string "mysteries, new paths will open to you.\l"
-	.string "Strive for the goal together with your\l"
-	.string "wonderful POKéMON.$"
+	.string "Þú verður aðalpersónan og kannar\n"
+	.string "heim Vasaskrímsla.\p"
+	.string "Með því að tala við fólk og leysa\n"
+	.string "gátur munu nýjar leiðir opnast\p"
+	.string "fyrir þér. Strefðu að markmiðinu\n"
+	.string "saman með dásamlegu Vasaskrímslunum\p"
+	.string "þínum.$"
 
 Help_Text_AnswerWhatShouldIBeDoing::
-	.string "When you come across another person,\n"
-	.string "go up to them and press the A Button.\l"
-	.string "That will get them to talk and interact\l"
-	.string "with your character. You may also\l"
-	.string "examine various items and objects in\l"
-	.string "the same way. Talk to people and check\l"
-	.string "things often to obtain information.$"
+	.string "Þegar þú hittir aðra manneskju,\n"
+	.string "gakktu að henni og ýttu á A\p"
+	.string "takkann. Það fær þau til að tala og\n"
+	.string "hafa samskipti við persónuna þína.\p"
+	.string "Þú getur líka skoðað ýmsa hluti og\n"
+	.string "hluti á sama hátt. Talaðu við\p"
+	.string "fólk og athugaðu hluti oft til að fá\n"
+	.string "upplýsingar.$"
 
 Help_Text_AnswerCantGetOutOfRoom::
-	.string "On the stairs or the exits of a\n"
-	.string "building is a red mat. Move your\l"
-	.string "character to stand on top of the\l"
-	.string "red mat. Press the {PLUS} Control Pad \l"
-	.string "toward the stairs or the exit to\l"
-	.string "advance.$"
+	.string "Á stigum eða útgöngum úr byggingu er\n"
+	.string "rauð mottu. Færðu\p"
+	.string "persónuna þína til að standa á rauðu\n"
+	.string "mottunni. Ýttu á {PLUS} stýripúðann\p"
+	.string "í átt að stigunum eða útgöngunni til\n"
+	.string "að halda áfram.$"
 
 Help_Text_AnswerCantFindPersonIWant::
-	.string "This isn't something you should worry\n"
-	.string "about too much.\l"
-	.string "Talk to other people, check signs,\l"
-	.string "check things, and so on.\l"
-	.string "Sometimes, you may need to just move\l"
-	.string "to a new town or place.$"
+	.string "Þetta er ekki eitthvað sem þú ættir\n"
+	.string "að hafa of miklar áhyggjur af.\p"
+	.string "Talaðu við aðra\p"
+	.string "menn, athugaðu skilti, athugaðu\n"
+	.string "hluti, og svo framvegis. Stundum\p"
+	.string "gætirðu þurft\p"
+	.string "að flytja til nýs bæjar eða staðar.$"
 
 Help_Text_AnswerTalkedToEveryoneNowWhat::
-	.string "Try moving on to a new road, town, or\n"
-	.string "place.$"
+	.string "Reyndu að halda áfram á nýjan veg,\n"
+	.string "bæ, eða stað.$"
 
 Help_Text_AnswerSomeoneBlockingMyWay::
-	.string "There could be something in the town\n"
-	.string "or inside a building that is the cause.\l"
-	.string "Try talking to the people in the area\l"
-	.string "again. If there is a problem that they\l"
-	.string "need solved, you may have to help.\l"
-	.string "Afterwards, try talking to the person\l"
-	.string "blocking your way again.$"
+	.string "Það gæti verið eitthvað í bænum eða\n"
+	.string "inni í byggingu sem er\p"
+	.string "orsökin. Reyndu að tala við fólkið á\n"
+	.string "svæðinu aftur. Ef það er\p"
+	.string "vandamál sem þau þurfa að leysa,\n"
+	.string "gætirðu þurft að hjálpa. Eftir það,\p"
+	.string "reyndu\p"
+	.string "að tala við manneskjuna sem lokar\n"
+	.string "leið þinni aftur.$"
 
 Help_Text_AnswerICantGoOn::
-	.string "Try talking to people by going up to\n"
-	.string "them and pressing the A Button.\l"
-	.string "Also, try checking things like odd trees\l"
-	.string "and strange rocks with the A Button.\l"
-	.string "Press the {PLUS} Control Pad and try going\l"
-	.string "to places that look impassable, too.$"
+	.string "Reyndu að tala við fólk með því að\n"
+	.string "ganga að þeim og ýta á A takkann.\p"
+	.string "Reyndu líka að athuga hluti eins og\n"
+	.string "skrítin tré og undarlega steina með\p"
+	.string "A\p"
+	.string "takkanum. Ýttu á {PLUS} stýripúðann\n"
+	.string "og reyndu að fara á staði sem\p"
+	.string "virðast\p"
+	.string "ófærðir líka.$"
 
 Help_Text_AnswerOutOfThingsToDo::
-	.string "Try going to places where you \n"
-	.string "haven't visited yet.\l"
-	.string "Also, check everything that looks\l"
-	.string "suspicious by pressing the A Button.$"
+	.string "Reyndu að fara á staði sem þú hefur\n"
+	.string "ekki heimsótt ennþá. Athugaðu líka\p"
+	.string "allt sem lítur grunsamlega út með\n"
+	.string "því að ýta á A takkann.$"
 
 Help_Text_AnswerWhatHappenedToItemIGot::
-	.string "Any item that you are given by another\n"
-	.string "character goes in your BAG.\l"
-	.string "The item is automatically sorted and\l"
-	.string "placed in one of three pockets.\l"
-	.string "For instructions on the BAG's use,\l"
-	.string "please refer to the HELP System's\l"
-	.string "“How do I do this?” heading.$"
+	.string "Allir hlutir sem þú færð frá annarri\n"
+	.string "persónu fara í TÖSKUNA þína.\p"
+	.string "Hluturinn er sjálfkrafa flokkaður og\n"
+	.string "settur í einn af þremur vösum. Fyrir\p"
+	.string "leiðbeiningar um notkun TÖSKUNNAR,\n"
+	.string "vinsamlegast skoðaðu HJÁLPARKERFIÐ\p"
+	.string "undir\p"
+	.string "fyrirsögninni 'Hvernig geri ég\n"
+	.string "þetta?'$"
 
 Help_Text_AnswerWhatAreMyAdventureBasics::
-	.string "If POKéMON are hurt in battle,\n"
-	.string "take them to a POKéMON CENTER and\l"
-	.string "have them healed by the staff.\l"
-	.string "Get in the habit of saving your\l"
-	.string "game and recording your progress.\l"
-	.string "Stock up on healing items at\l"
-	.string "POKéMON MARTS before traveling far.$"
+	.string "Ef Vasaskrímsli særast í bardaga,\n"
+	.string "farðu með þau á Vasaskrímsli MIÐSTÖÐ\p"
+	.string "og láttu starfsfólkið lækna þau.\n"
+	.string "Venstu því að vista leikinn þinn\p"
+	.string "og skrá framvindu þína. Safnaðu\n"
+	.string "lækningahlutum í Vasaskrímsli\p"
+	.string "VERSLUNUM áður en þú ferðast langt.$"
 
 Help_Text_AnswerHowAreRoadsForestsDifferent::
-	.string "Forests are basically the same as\n"
-	.string "roads but they can be like mazes.\l"
-	.string "All forests have a way out, so don't\l"
-	.string "give up if you get lost.$"
+	.string "Skógar eru í grundvallaratriðum eins\n"
+	.string "og vegir en þeir geta verið eins og\p"
+	.string "völundarhús.\p"
+	.string "Allir skógar hafa leið út, svo ekki\n"
+	.string "gefast upp ef þú týnist.$"
 
 Help_Text_AnswerHowAreCavesDifferent::
-	.string "Caves are dark and dangerous. Wild\n"
-	.string "POKéMON can appear anywhere in them.\l"
-	.string "If there is an emergency, rush to a\l"
-	.string "POKéMON CENTER or use items.\l"
-	.string "New towns await discovery beyond some\l"
-	.string "caves, so don't give up.$"
+	.string "Hellar eru dimmir og hættulegir.\n"
+	.string "Villt Vasaskrímsli geta birst hvar\p"
+	.string "sem er í þeim. Ef neyðarástand er,\n"
+	.string "hlauptu á Vasaskrímsli MIÐSTÖÐ eða\p"
+	.string "notaðu hluti. Nýir bæir bíða\n"
+	.string "uppgötvunar handan sumra hella, svo\p"
+	.string "ekki gefast upp.$"
 
 Help_Text_AnswerHowDoIProgress::
-	.string "The object of the game is to train\n"
-	.string "your POKéMON and move forward.\l"
-	.string "You must collect info and solve\l"
-	.string "problems. For example, what do you\l"
-	.string "need to get around an obstacle?\l"
-	.string "What would get that impeding\l"
-	.string "person out of the way?$"
+	.string "Markmið leiksins er að þjálfa\n"
+	.string "Vasaskrímslið þitt og halda áfram.\p"
+	.string "Þú verður að safna upplýsingum og\n"
+	.string "leysa vandamál. Til dæmis, hvað\p"
+	.string "þarftu til að komast framhjá\n"
+	.string "hindrun? Hvað myndi fá þessa\p"
+	.string "hindrandi manneskju úr vegi?$"
 
 Help_Text_AnswerWhenCanIUseItem::
-	.string "There are several kinds of items.\n"
-	.string "Some can be used only on the field.\l"
-	.string "Some are only for use during battle.\l"
-	.string "Some can be used anytime.\l"
-	.string "Try using an item - if it can't be used,\l"
-	.string "you will be alerted.$"
+	.string "Það eru nokkrar tegundir af hlutum.\n"
+	.string "Sumir er aðeins hægt að nota á\p"
+	.string "vellinum.\p"
+	.string "Sumir eru aðeins til notkunar í\n"
+	.string "bardaga. Sumir er hægt að nota\p"
+	.string "hvenær sem er. Reyndu að nota\p"
+	.string "hlut - ef hann er ekki hægt að nota,\n"
+	.string "verður þér gert viðvart.$"
 
 Help_Text_AnswerWhatsABattle::
-	.string "In a battle, POKéMON try to reduce\n"
-	.string "one another's vitality, expressed as\l"
-	.string "HP. If a POKéMON's HP falls to zero,\l"
-	.string "it faints, and the other POKéMON\l"
-	.string "wins. By winning a battle, POKéMON\l"
-	.string "earn EXP. Points, which help them\l"
-	.string "level up (grow stronger).$"
+	.string "Í bardaga reyna Vasaskrímsli að\n"
+	.string "lækka lífsorku hvors annars,\p"
+	.string "sem er gefin upp sem HP. Ef HP\n"
+	.string "Vasaskrímslis fellur í núll, fellur\p"
+	.string "það í yfirlið, og hitt Vasaskrímslið\n"
+	.string "vinnur. Með því að vinna bardaga\p"
+	.string "þéna Vasaskrímsli EXP. stig, sem\n"
+	.string "hjálpa þeim að hækka um stig (verða\p"
+	.string "sterkari).$"
 
 Help_Text_AnswerHowDoIPrepareForBattle::
-	.string "First, fully heal the POKéMON in your\n"
-	.string "party (the POKéMON with you) at any\l"
-	.string "POKéMON CENTER.\l"
-	.string "You should also buy healing items for\l"
-	.string "emergencies at a POKéMON MART.$"
+	.string "Fyrst skaltu lækna Vasaskrímslin í\n"
+	.string "hópnum þínum (Vasaskrímslin sem\p"
+	.string "eru með þér) að fullu á hvaða\n"
+	.string "Vasaskrímsli MIÐSTÖÐ sem er. Þú\p"
+	.string "ættir líka að kaupa lækningahluti\n"
+	.string "fyrir neyðartilvik í Vasaskrímsli\p"
+	.string "VERSLUN.$"
 
 Help_Text_AnswerWhatIsAMonsVitality::
-	.string "A POKéMON's vitality is expressed in HP.\n"
-	.string "If a POKéMON is hurt in battle, HP is\l"
-	.string "subtracted. If its HP drops to zero,\l"
-	.string "the POKéMON faints.\l"
-	.string "Heal hurt or fainted POKéMON at a\l"
-	.string "POKéMON CENTER or by using items.$"
+	.string "Lífsorka Vasaskrímslis er gefin upp\n"
+	.string "í HP. Ef Vasaskrímsli særast\p"
+	.string "í bardaga er HP dregið frá. Ef HP\n"
+	.string "þess fellur í núll, fellur\p"
+	.string "Vasaskrímslið í yfirlið. Læknaðu\n"
+	.string "særð eða yfirliðin Vasaskrímsli á\p"
+	.string "Vasaskrímsli MIÐSTÖÐ eða með því að\n"
+	.string "nota hluti.$"
 
 Help_Text_AnswerMyMonsAreHurt::
-	.string "A POKéMON CENTER is like an inn for\n"
-	.string "POKéMON. It will fully heal POKéMON of\l"
-	.string "any status problems and fully restore\l"
-	.string "their HP using a special machine.\l"
-	.string "This service is free, so get in the\l"
-	.string "habit of healing your POKéMON often.$"
+	.string "Vasaskrímsli MIÐSTÖÐ er eins og\n"
+	.string "gistihús fyrir Vasaskrímsli. Hún\p"
+	.string "mun lækna Vasaskrímsli að fullu af\n"
+	.string "hvers kyns stöðuvandamálum og endur-\p"
+	.string "heimta HP þeirra að fullu með\n"
+	.string "sérstakri vél. Þessi þjónusta er\p"
+	.string "ókeypis, svo venstu því að lækna\n"
+	.string "Vasaskrímslin þín oft.$"
 
 Help_Text_AnswerWhatIsStatusProblem::
-	.string "A status problem refers to an ailment\n"
-	.string "that is inflicted on a POKéMON by its\l"
-	.string "foe's attack. These include burns,\l"
-	.string "paralysis, poisoning, sleep, and\l"
-	.string "freezing. These can be healed by\l"
-	.string "visiting a POKéMON CENTER or using\l"
-	.string "the appropriate item.$"
+	.string "Stöðuvandamál vísar til kvilla sem\n"
+	.string "er valdið Vasaskrímsli af árás\p"
+	.string "óvinar þess. Þetta felur í sér\n"
+	.string "bruna, lömun, eitrun, svefn og\p"
+	.string "frystingu.\p"
+	.string "Hægt er að lækna þetta með því að\n"
+	.string "heimsækja Vasaskrímsli MIÐSTÖÐ eða\p"
+	.string "nota viðeigandi hlut.$"
 
 Help_Text_AnswerWhatHappensIfAllMyMonsFaint::
-	.string "If all the POKéMON in your party\n"
-	.string "(all the POKéMON with you) faint, you\l"
-	.string "lose some MONEY, and you are\l"
-	.string "returned home or to a POKéMON\l"
-	.string "CENTER. To reduce that chance, visit\l"
-	.string "POKéMON CENTERS often. Also, get\l"
-	.string "in the habit of saving often.$"
+	.string "Ef öll Vasaskrímslin í hópnum þínum\n"
+	.string "(öll Vasaskrímslin með þér) falla í\p"
+	.string "yfirlið, tapar þú einhverjum\n"
+	.string "Peningum, og þú ert sendur heim eða\p"
+	.string "á\p"
+	.string "Vasaskrímsli MIÐSTÖÐ. Til að minnka\n"
+	.string "þá líkur skaltu heimsækja\p"
+	.string "Vasaskrímsli MIÐSTÖÐVAR oft. Venstu\n"
+	.string "líka því að vista oft.$"
 
 Help_Text_AnswerCantCatchMons::
-	.string "If a wild POKéMON escapes from a POKé\n"
-	.string "BALL, it's obviously still feisty.\l"
-	.string "Try reducing its HP some more, and\l"
-	.string "try to weaken it with paralysis or sleep\l"
-	.string "before trying to catch it.\l"
-	.string "If the POKé BALL rocks for a while,\l"
-	.string "the quarry is close to being caught!$"
+	.string "Ef villt Vasaskrímsli sleppur úr\n"
+	.string "VASABOLTA, er það augljóslega enn\p"
+	.string "frekt. Reyndu að lækka HP þess að\n"
+	.string "einhverju leyti, og reyndu að veikja\p"
+	.string "það með lömun eða svefni áður en þú\n"
+	.string "reynir að veiða það. Ef VASA BOLTINN\p"
+	.string "hristist um stund, er bráðin nálægt\n"
+	.string "því að vera veidd!$"
 
 Help_Text_AnswerRanOutOfPotions::
-	.string "There are shops, known as POKéMON\n"
-	.string "MARTS, that sell items.\l"
-	.string "You will not find POKéMON MARTS on\l"
-	.string "roads, in forests, or in caves.\l"
-	.string "Stock up on needed items while you are\l"
-	.string "visiting a town with a POKéMON MART.$"
+	.string "Það eru verslanir, þekktar sem\n"
+	.string "Vasaskrímsli VERSLANIR, sem selja\p"
+	.string "hluti. Þú finnur ekki Vasaskrímsli\n"
+	.string "VERSLANIR á vegum, í skógum eða í\p"
+	.string "hellum. Safnaðu nauðsynlegum hlutum\n"
+	.string "meðan þú heimsækir bæ með\p"
+	.string "Vasaskrímsli VERSLUN.$"
 
 Help_Text_AnswerCanIBuyPokeBalls::
-	.string "You may buy POKé BALLS at any\n"
-	.string "POKéMON MART in any town.\l"
-	.string "You will not find POKéMON MARTS on\l"
-	.string "roads, in forests, or in caves.\l"
-	.string "Stock up on POKé BALLS while you are\l"
-	.string "visiting a town with a POKéMON MART.$"
+	.string "Þú getur keypt VASA BOLTA í hvaða\n"
+	.string "Vasaskrímsli VERSLUN sem er í hvaða\p"
+	.string "bæ sem er. Þú finnur ekki\n"
+	.string "Vasaskrímsli VERSLANIR á vegum, í\p"
+	.string "skógum eða í hellum. Safnaðu VASA\n"
+	.string "BOLTUM meðan þú heimsækir bæ með\p"
+	.string "Vasaskrímsli VERSLUN.$"
 
 Help_Text_AnswerWhatsATrainer::
-	.string "A TRAINER is a person who raises\n"
-	.string "POKéMON through battling.\l"
-	.string "TRAINERS will challenge you \l"
-	.string "wherever they are - it could be on\l"
-	.string "a road, in forests, caves, anywhere.\l"
-	.string "If your eyes meet, you have to accept\l"
-	.string "their challenge. So be careful!$"
+	.string "ÞJÁLFARI er manneskja sem ræktar\n"
+	.string "Vasaskrímsli með bardögum.\p"
+	.string "ÞJÁLFARAR munu skora á þig hvar sem\n"
+	.string "þeir eru - það gæti verið á vegi, í\p"
+	.string "skógum, hellum, hvar sem er. Ef augu\n"
+	.string "ykkar mætast, verður þú að samþykkja\p"
+	.string "skorun þeirra. Svo vertu varkár!$"
 
 Help_Text_AnswerHowDoIWinAgainstTrainer::
-	.string "To beat a TRAINER in battle, use\n"
-	.string "POKéMON that have type advantages\l"
-	.string "over the foe's POKéMON. You may also\l"
-	.string "use highly trained POKéMON with\l"
-	.string "overwhelming power. Outnumbering the\l"
-	.string "foe's POKéMON is another obvious\l"
-	.string "tactic.$"
+	.string "Til að sigra ÞJÁLFARA í bardaga,\n"
+	.string "notaðu Vasaskrímsli sem hafa\p"
+	.string "tegundarforgang yfir Vasaskrímsli\n"
+	.string "óvinarins. Þú getur líka notað\p"
+	.string "háþjálfuð Vasaskrímsli með\n"
+	.string "yfirgnæfandi krafti. Að vera fleiri\p"
+	.string "en Vasaskrímsli óvinarins er önnur\n"
+	.string "augljós taktík.$"
 
 Help_Text_AnswerWhereDoMonsAppear::
-	.string "Wild POKéMON will appear in tall grass,\n"
-	.string "on roads, and in forests. They will\l"
-	.string "appear anywhere in dark caves.\l"
-	.string "There are no wild POKéMON or TRAINERS\l"
-	.string "in towns, so they are safe places.$"
+	.string "Villt Vasaskrímsli munu birtast í\n"
+	.string "háu grasi, á vegum og í skógum.\p"
+	.string "Þau munu birtast hvar sem er í\n"
+	.string "dimmum hellum. Það eru engin villt\p"
+	.string "Vasaskrímsli eða ÞJÁLFARAR í bæjum,\n"
+	.string "svo þeir eru öruggir staðir.$"
 
 Help_Text_AnswerWhatAreMoves::
-	.string "POKéMON may learn up to four different\n"
-	.string "techniques, or moves. There is a great\l"
-	.string "variety of moves including attacks and\l"
-	.string "those with special effects. The kinds\l"
-	.string "of moves that can be learned vary\l"
-	.string "for each POKéMON. Some moves\l"
-	.string "can be learned from machines.$"
+	.string "Vasaskrímsli geta lært allt að\n"
+	.string "fjórar mismunandi tækni, eða\p"
+	.string "hreyfingar.\p"
+	.string "Það er mikill fjölbreytileiki af\n"
+	.string "hreyfingum, þar á meðal árásum og\p"
+	.string "þeim sem hafa sérstök áhrif.\n"
+	.string "Tegundir hreyfinga sem hægt er að\p"
+	.string "læra eru\p"
+	.string "mismunandi fyrir hvert Vasaskrímsli.\n"
+	.string "Sumar hreyfingar er hægt að læra\p"
+	.string "af vélum.$"
 
 Help_Text_AnswerWhatAreHiddenMoves::
-	.string "HIDDEN moves are those that are\n"
-	.string "especially important for your\l"
-	.string "adventure. To use such a move outside\l"
-	.string "of battle, open the “POKéMON” MENU\l"
-	.string "and make the POKéMON that knows the\l"
-	.string "move use it. A fainted POKéMON may use\l"
-	.string "a HIDDEN move outside of battle.$"
+	.string "FALDAR hreyfingar eru þær sem eru\n"
+	.string "sérstaklega mikilvægar fyrir\p"
+	.string "ævintýrið þitt. Til að nota slíka\n"
+	.string "hreyfingu utan bardaga, opnaðu\p"
+	.string "'Vasaskrímsli' VALMYNDINA og láttu\n"
+	.string "Vasaskrímslið sem kann hreyfinguna\p"
+	.string "nota hana. Yfirliðið Vasaskrímsli\n"
+	.string "getur notað FALDA hreyfingu utan\p"
+	.string "bardaga.$"
 
 Help_Text_AnswerWhatMovesShouldIUse::
-	.string "Select “FIGHT,” and the MENU of moves\n"
-	.string "will appear. Consider the type\l"
-	.string "matchups, and use the most effective\l"
-	.string "moves. You can check the effects of\l"
-	.string "moves by opening “POKéMON,”\l"
-	.string "picking a POKéMON, opening “SUMMARY,”\l"
-	.string "then opening “POKéMON SKILLS.”$"
+	.string "Veldu 'BARDAG,' og VALMYND hreyfinga\n"
+	.string "mun birtast. Íhugaðu\p"
+	.string "tegundarviðmiðun, og notaðu\n"
+	.string "áhrifaríkustu hreyfingarnar. Þú\p"
+	.string "getur\p"
+	.string "skoðað áhrif hreyfinga með því að\n"
+	.string "opna 'Vasaskrímsli,' velja\p"
+	.string "Vasaskrímsli, opna 'YFIRLIT,' og\n"
+	.string "síðan opna 'Vasaskrímsli FÆRNI.'$"
 
 Help_Text_AnswerWantToAddMoreMoves::
-	.string "The most a POKéMON can learn is four\n"
-	.string "moves. They are learned as the\l"
-	.string "POKéMON levels up. It can also be\l"
-	.string "taught a move using a TM (Technical\l"
-	.string "Machine) or HM (Hidden Machine).\l"
-	.string "There are also people who teach moves.$"
+	.string "Mest sem Vasaskrímsli getur lært eru\n"
+	.string "fjórar hreyfingar. Þær eru lærðar\p"
+	.string "eftir því sem Vasaskrímslið hækkar\n"
+	.string "um stig. Því er einnig hægt að kenna\p"
+	.string "hreyfingu með því að nota TM\n"
+	.string "(Tæknivél) eða HM (Falinn vél).\p"
+	.string "Það eru líka til fólk sem kennir\n"
+	.string "hreyfingar.$"
 
 Help_Text_AnswerWantToMakeMonStronger::
-	.string "The key to making your POKéMON\n"
-	.string "strong is to battle and win often.\l"
-	.string "The EXP. (Experience) Points earned\l"
-	.string "by winning battles accumulate to\l"
-	.string "level up POKéMON that participated in\l"
-	.string "them. Battle wild POKéMON often to\l"
-	.string "level up your party.$"
+	.string "Lykillinn að því að gera\n"
+	.string "Vasaskrímslið þitt sterkt er að\p"
+	.string "berjast og vinna oft. EXP. (reynslu)\n"
+	.string "stigin sem þénuð eru með því að\p"
+	.string "vinna bardaga safnast upp til að\n"
+	.string "hækka Vasaskrímsli sem tóku þátt í\p"
+	.string "þeim um stig. Berjist oft við villt\n"
+	.string "Vasaskrímsli til að hækka hópinn\p"
+	.string "þinn um stig.$"
 
 Help_Text_AnswerFoeMonsTooStrong::
-	.string "If your foes are too strong, try\n"
-	.string "leveling up your POKéMON some more.\l"
-	.string "Go back the way you came and battle\l"
-	.string "wild POKéMON to level up your party.\l"
-	.string "You may also battle TRAINERS whom you\l"
-	.string "have not battled before.$"
+	.string "Ef óvinir þínir eru of sterkir,\n"
+	.string "reyndu að hækka Vasaskrímslin þín\p"
+	.string "eitthvað meira um stig. Farðu til\n"
+	.string "baka sömu leið og þú komst og\p"
+	.string "berjist við villt Vasaskrímsli til\n"
+	.string "að hækka hópinn þinn um stig. Þú\p"
+	.string "getur\p"
+	.string "líka barist við ÞJÁLFARA sem þú\n"
+	.string "hefur ekki barist við áður.$"
 
 Help_Text_AnswerWhatDoIDoInCave::
-	.string "Unlike roads and forests, wild POKéMON\n"
-	.string "can appear anywhere in caves.\l"
-	.string "If your POKéMON are hurt in a cave,\l"
-	.string "rush to a POKéMON CENTER or use items\l"
-	.string "to heal them right away. It is very\l"
-	.string "dangerous to force your luck in caves.$"
+	.string "Ólíkt vegum og skógum, geta villt\n"
+	.string "Vasaskrímsli birst hvar sem er í\p"
+	.string "hellum. Ef Vasaskrímslin þín særast\n"
+	.string "í helli, hlauptu á Vasaskrímsli\p"
+	.string "MIÐSTÖÐ eða notaðu hluti til að\n"
+	.string "lækna þau strax. Það er mjög\p"
+	.string "hættulegt að reyna á heppnina í\n"
+	.string "hellum.$"
 
 Help_Text_AnswerNothingIWantToKnow::
-	.string "Trust your own knowledge and power.\n"
-	.string "Believe in yourself and find your way!$"
+	.string "Treystu eigin þekkingu og krafti.\n"
+	.string "Trúðu á sjálfan þig og finndu þína\p"
+	.string "leið!$"
 
 Help_Text_AnswerWhatsPokemonCenter::
-	.string "A POKéMON CENTER is identified by its\n"
-	.string "red roof and a “P.C” sign. Every\l"
-	.string "POKéMON CENTER offers such services as\l"
-	.string "fully healing POKéMON and free PC use,\l"
-	.string "making it essential for your travels.\l"
-	.string "On the upper floor are facilities for\l"
-	.string "linking with friends and others.$"
+	.string "Vasaskrímsli MIÐSTÖÐ er auðkennd með\n"
+	.string "rauðu þaki og 'P.C' skilti.\p"
+	.string "Hver Vasaskrímsli MIÐSTÖÐ býður upp\n"
+	.string "á þjónustu eins og fulla lækningu\p"
+	.string "Vasaskrímsla og ókeypis tölvunotkun,\n"
+	.string "sem gerir hana ómissandi fyrir\p"
+	.string "ferðalög þín. Á efri hæð eru aðstaða\n"
+	.string "til að tengjast vinum og\p"
+	.string "öðrum.$"
 
 Help_Text_AnswerWhatsPokemonMart::
-	.string "A POKéMON MART is identified by its\n"
-	.string "blue roof and a “MART” sign.\l"
-	.string "Items can be bought and sold at any\l"
-	.string "POKéMON MART. Some MARTS carry items\l"
-	.string "that are available only in their towns.$"
+	.string "Vasaskrímsli VERSLUN er auðkennd með\n"
+	.string "bláu þaki og 'VERSLUN' skilti.\p"
+	.string "Hægt er að kaupa og selja hluti í\n"
+	.string "hvaða Vasaskrímsli VERSLUN sem er.\p"
+	.string "Sumar VERSLANIR selja hluti sem eru\n"
+	.string "aðeins fáanlegir í þeirra bæjum.$"
 
 Help_Text_AnswerWantToEndGame::
-	.string "You can safely end your game by\n"
-	.string "selecting “SAVE” on the MENU.\l"
-	.string "Once you have saved, the game can be\l"
-	.string "safely turned off. When the game is\l"
-	.string "turned back on, you can resume from\l"
-	.string "where you last saved.$"
+	.string "Þú getur örugglega hætt í leiknum\n"
+	.string "með því að velja 'VISTA' í\p"
+	.string "VALMYNDINNI. Þegar þú hefur vistað\n"
+	.string "má slökkva á leiknum.\p"
+	.string "Þegar kveikt er aftur geturðu haldið\n"
+	.string "áfram þar sem þú vistaðir síðast.$"
 
 Help_Text_AnswerWhatsAMon::
-	.string "POKéMON are living beings about which\n"
-	.string "many mysteries still remain. You may\l"
-	.string "see them in grass, the sea, and caves.\l"
-	.string "They appear to obey the wishes of the\l"
-	.string "TRAINERS that caught them.$"
+	.string "Vasaskrímsli eru lifandi verur um\n"
+	.string "sem margar gátur eru enn óleystar.\p"
+	.string "Þú gætir séð þau í grasi, sjónum og\n"
+	.string "hellum. Þau virðast hlýða óskum\p"
+	.string "ÞJÁLFARANNA sem veiddu þau.$"
 
 Help_Text_AnswerWhatIsThatPersonLike::
-	.string "Use the FAME CHECKER among the\n"
-	.string "KEY ITEMS in your BAG.\l"
-	.string "It may give you a hint, so try it out.$"
+	.string "Notaðu FRÆGÐARSJÁNA meðal LYKILHLUTA\n"
+	.string "í TÖSKUNNI þinni. Hún\p"
+	.string "gæti gefið þér vísbendingu, svo\n"
+	.string "prófaðu hana.$"
 
 Help_Text_AnswerWhatDoesHiddenMoveDo::
-	.string "A HIDDEN move is taught to a POKéMON\n"
-	.string "using an HM (Hidden Machine).\l"
-	.string "A HIDDEN move is important for helping\l"
-	.string "your adventure. For example, one is\l"
-	.string "used to light up dark caves. Another\l"
-	.string "cuts down small trees. There is one\l"
-	.string "for traveling on water, and so on.$"
+	.string "FÖLDU hreyfingu er kennt\n"
+	.string "Vasaskrímsli með því að nota HM\p"
+	.string "(Falinn vél). FÖLDU hreyfing er\n"
+	.string "mikilvæg til að hjálpa ævintýrinu\p"
+	.string "þínu. Til dæmis er ein notuð til að\n"
+	.string "lýsa upp dimma hella. Önnur sker\p"
+	.string "niður\p"
+	.string "lítil tré. Það er ein til að ferðast\n"
+	.string "á vatni, og svo framvegis.$"
 
 Help_Text_AnswerWhatDoIDoInSafari::
-	.string "Try to catch wild POKéMON by throwing\n"
-	.string "the special SAFARI BALLS.\l"
-	.string "You may keep any item you find, too.$"
+	.string "Reyndu að fanga villt Vasaskrímsli\n"
+	.string "með því að kasta sérstökum SAFARI\p"
+	.string "BOLTUM. Þú mátt líka halda öllum\n"
+	.string "hlutum sem þú finnur.$"
 
 Help_Text_AnswerWhatAreSafariRules::
-	.string "Your SAFARI GAME ends once you have\n"
-	.string "traveled a certain distance or thrown\l"
-	.string "all your SAFARI BALLS.\l"
-	.string "Open the MENU to check the remaining\l"
-	.string "number of steps and SAFARI BALLS.$"
+	.string "SAFARI LEIKURINN þinn endar þegar þú\n"
+	.string "hefur ferðast ákveðna vegalengd eða\p"
+	.string "kastað öllum SAFARI BOLTUM þínum.\n"
+	.string "Opnaðu VALMYNDINA til að athuga\p"
+	.string "eftirstandandi\p"
+	.string "fjölda skrefa og SAFARI BOLTA.$"
 
 Help_Text_AnswerWantToEndSafari::
-	.string "If you would like to cut your SAFARI\n"
-	.string "GAME short, open the MENU and select\l"
-	.string "“RETIRE” at the top of the list.$"
+	.string "Ef þú vilt stytta SAFARI LEIKINN\n"
+	.string "þinn, opnaðu VALMYNDINA og veldu\p"
+	.string "'RETIRE' efst á listanum.$"
 
 Help_Text_AnswerWhatIsAGym::
-	.string "POKéMON GYMS are operated by the\n"
-	.string "POKéMON LEAGUE and are training\l"
-	.string "facilities for TRAINERS. They are all\l"
-	.string "across the land in cities and towns.\l"
-	.string "Each one is headed by a LEADER, who\l"
-	.string "is a very skilled TRAINER. Beat the\l"
-	.string "LEADER to collect a BADGE.$"
+	.string "Vasaskrímsla SALIR eru reknir af\n"
+	.string "Vasaskrímsla DEILDINNI og eru\p"
+	.string "þjálfunarstaðir fyrir ÞJÁLFARA.\n"
+	.string "Þeir eru í borgum og bæjum um\p"
+	.string "allt land. Hverjum þeirra stýrir\n"
+	.string "LEIÐTOGI, mjög fær ÞJÁLFARI.\p"
+	.string "Sigraðu LEIÐTOGANN til að fá\n"
+	.string "MERKI.$"
 
 Help_Text_UsingPokedex::
-	.string " Using “POKéDEX”$"
+	.string "Nota 'VasaDEX'$"
 
 Help_Text_UsingPokemon::
-	.string " Using “POKéMON”$"
+	.string "Nota 'VASASKR'$"
 
 Help_Text_UsingSummary::
-	.string "  Using “SUMMARY”$"
+	.string "Nota 'YFIRLIT'$"
 
 Help_Text_UsingSwitch::
-	.string "  Using “SWITCH”$"
+	.string "Nota 'SKIPTA'$"
 
 Help_Text_UsingItem::
-	.string "  Using “ITEM”$"
+	.string "Nota 'HLUTUR'$"
 
 Help_Text_UsingBag::
-	.string " Using “BAG”$"
+	.string "Nota 'TASKA'$"
 
 Help_Text_UsingAnItem::
-	.string "  Using an item$"
+	.string "Nota hlut$"
 
 Help_Text_UsingKeyItem::
-	.string "  Using a key item$"
+	.string "Nota lykilhlut$"
 
 Help_Text_UsingPokeBall::
-	.string "  Using a POKé BALL$"
+	.string "Nota VASA BOLTA$"
 
 Help_Text_UsingPlayer::
-	.string " Using “{PLAYER}”$"
+	.string "Nota '{PLAYER}'$"
 
 Help_Text_UsingSave::
-	.string " Using “SAVE”$"
+	.string "Nota 'VISTA'$"
 
 Help_Text_UsingOption::
-	.string " Using “OPTION”$"
+	.string "Nota 'VALKOSTUR'$"
 
 Help_Text_UsingPotion::
-	.string "    Using a POTION$"
+	.string "Nota SEYÐI$"
 
 Help_Text_UsingTownMap::
-	.string "    Using the TOWN MAP$"
+	.string "Nota BÆJARKORTIÐ$"
 
 Help_Text_UsingTM::
-	.string "    Using a TM$"
+	.string "Nota TM$"
 
 Help_Text_UsingHM::
-	.string "    Using an HM$"
+	.string "Nota HM$"
 
 Help_Text_UsingMoveOutsideOfBattle::
-	.string "Using a move outside of battle$"
+	.string "Að nota hreyfingu utan bardaga$"
 
 Help_Text_RidingBicycle::
-	.string "    Riding the BICYCLE$"
+	.string "Að hjóla á REIÐHJÓLINU$"
 
 Help_Text_EnteringName::
-	.string "Entering a name$"
+	.string "Að slá inn nafn$"
 
 Help_Text_UsingPC::
-	.string "Using a PC$"
+	.string "Að nota tölvu$"
 
 Help_Text_UsingBillsPC::
-	.string " Using “{STR_VAR_1}'S PC”$"
+	.string "Nota '{STR_VAR_1}'S TÖLVU'$"
 
 Help_Text_UsingWithdraw::
-	.string "  Using “WITHDRAW”$"
+	.string "Nota 'TAKA ÚT'$"
 
 Help_Text_UsingDeposit::
-	.string "  Using “DEPOSIT”$"
+	.string "Nota 'LEGGJA INN'$"
 
 Help_Text_UsingMove::
-	.string "  Using “MOVE”$"
+	.string "Nota 'FÆRA'$"
 
 Help_Text_MovingItems::
-	.string "  Moving items$"
+	.string "Færa hluti$"
 
 Help_Text_UsingPlayersPC::
-	.string " Using “{PLAYER}'s PC”$"
+	.string "Nota '{PLAYER}'s TÖLVU'$"
 
 Help_Text_UsingWithdrawItem::
-	.string "  Using “WITHDRAW ITEM”$"
+	.string "Nota 'TAKA HLUT ÚT'$"
 
 Help_Text_UsingDepositItem::
-	.string "  Using “DEPOSIT ITEM”$"
+	.string "Nota 'LEGGJA HLUT INN'$"
 
 Help_Text_UsingMailbox::
-	.string "  Using “MAILBOX”$"
+	.string "Nota 'PÓSTKASSI'$"
 
 Help_Text_UsingProfOaksPC::
-	.string " Using “PROF. OAK'S PC”$"
+	.string "Nota 'TÖLVU Prófessor EIK'$"
 
 Help_Text_OpeningMenu::
-	.string "Opening the MENU$"
+	.string "Að opna VALMYNDINA$"
 
 Help_Text_UsingFight::
-	.string " Using “FIGHT”$"
+	.string "Nota 'BERJAST'$"
 
 Help_Text_UsingPokemon2::
-	.string " Using “POKéMON”$"
+	.string "Nota 'VASASKR'$"
 
 Help_Text_UsingShift::
-	.string "  Using “SHIFT”$"
+	.string "Nota 'FÆRA'$"
 
 Help_Text_UsingSummary2::
-	.string "  Using “SUMMARY”$"
+	.string "Nota 'YFIRLIT'$"
 
 Help_Text_UsingBag2::
-	.string " Using “BAG”$"
+	.string "Nota 'TASKA'$"
 
 Help_Text_ReadingPokedex::
-	.string " Reading the “POKéDEX”$"
+	.string "Lesa 'VasaDEX'$"
 
 Help_Text_UsingHomePC::
-	.string "Using the PC at home$"
+	.string "Að nota tölvuna heima$"
 
 Help_Text_UsingItemStorage::
-	.string "Using the Item Storage System$"
+	.string "Að nota hlutageymslukerfið$"
 
 Help_Text_UsingWithdrawItem2::
-	.string "  Using “WITHDRAW ITEM”$"
+	.string "Nota 'TAKA HLUT ÚT'$"
 
 Help_Text_UsingDepositItem2::
-	.string "  Using “DEPOSIT ITEM”$"
+	.string "Nota 'LEGGJA HLUT INN'$"
 
 Help_Text_UsingMailbox2::
-	.string "Using the MAILBOX$"
+	.string "Að nota PÓSTKASSANN$"
 
 Help_Text_UsingRun::
-	.string " Using “RUN”$"
+	.string "Nota 'FLÝJA'$"
 
 Help_Text_RegisterKeyItem::
-	.string "  “REGISTER” a key item$"
+	.string "'SKRÁ' lykilhlut$"
 
 Help_Text_UsingBall::
-	.string " Using “BALL”$"
+	.string "Nota 'BOLTA'$"
 
 Help_Text_UsingBait::
-	.string " Using “BAIT”$"
+	.string "Nota 'BEITU'$"
 
 Help_Text_UsingRock::
-	.string " Using “ROCK”$"
+	.string "Nota 'STEIN'$"
 
 Help_Text_UsingHallOfFame::
-	.string " Using “HALL OF FAME”$"
+	.string "Nota 'FRÆGÐARHÖLLINA'$"
 
 Help_Text_HowToUsePokedex::
-	.string "{CIRCLE_1} Select “POKéDEX” on the MENU.\n"
-	.string "{CIRCLE_2} Choose POKéMON using commands such\n"
-	.string "   as “POKéMON LIST,”\n"
-	.string "   “HABITATS OF POKéMON,” and\n"
-	.string "   “SEARCH.”\n"
-	.string "{CIRCLE_3} Select a POKéMON to obtain detailed\n"
-	.string "   information.$"
+	.string "{CIRCLE_1} Veldu 'VasaDEX' í\n"
+	.string "VALMYNDINNI. {CIRCLE_2} Veldu\p"
+	.string "Vasaskrímsli\p"
+	.string "með skipunum eins og 'VASASKRÍMSLA\n"
+	.string "LISTI,' 'BÚSVÆÐI VASASKRÍMSLA,'\p"
+	.string "og 'LEIT.' {CIRCLE_3} Veldu\n"
+	.string "Vasaskrímsli til að fá nákvæmar\p"
+	.string "upplýsingar.$"
 
 Help_Text_HowToUsePokemon::
-	.string "{CIRCLE_1} Select “POKéMON” on the MENU.\n"
-	.string "{CIRCLE_2} Choose a POKéMON in your party.\n"
-	.string "{CIRCLE_3} Select “SUMMARY,” “SWITCH,”\n"
-	.string "   or “ITEM.”$"
+	.string "{CIRCLE_1} Veldu 'Vasaskrímsli' í\n"
+	.string "VALMYNDINNI. {CIRCLE_2} Veldu\p"
+	.string "Vasaskrímsli í hópnum þínum.\n"
+	.string "{CIRCLE_3} Veldu 'YFIRLIT,'\p"
+	.string "'SKIPTA,' eða 'HLUTUR.'$"
 
 Help_Text_HowToUseSummary::
-	.string "{CIRCLE_1} Select “SUMMARY.”\n"
-	.string "{CIRCLE_2} Press left or right on the {PLUS} Control\n"
-	.string "   Pad to check the information:\n"
-	.string "   “POKéMON INFO”\n"
-	.string "   “POKéMON SKILLS”\n"
-	.string "   “KNOWN MOVES”$"
+	.string "{CIRCLE_1} Veldu 'YFIRLIT.'\n"
+	.string "{CIRCLE_2} Ýttu á vinstri eða hægri\p"
+	.string "á\p"
+	.string "{PLUS} stýripúðanum til að skoða\n"
+	.string "upplýsingarnar: 'VASASKRÍMSLA\p"
+	.string "UPPLÝSINGAR'\p"
+	.string "'VASASKRÍMSLA HÆFNI' 'ÞEKKTAR\n"
+	.string "HREYFINGAR'$"
 
 Help_Text_HowToUseSwitch::
-	.string "{CIRCLE_1} Choose the POKéMON you want to\n"
-	.string "   switch around.\n"
-	.string "{CIRCLE_2} Select “SWITCH.”\n"
-	.string "{CIRCLE_3} Select the POKéMON to switch with\n"
-	.string "   the first one.\n"
-	.string "The POKéMON at the left of the screen\n"
-	.string "will be the first one out in a battle.$"
+	.string "{CIRCLE_1} Veldu Vasaskrímslið sem\n"
+	.string "þú vilt skipta um.\p"
+	.string "{CIRCLE_2} Veldu 'SKIPTA.'\n"
+	.string "{CIRCLE_3} Veldu Vasaskrímslið\p"
+	.string "til að skipta við það fyrsta. Það\n"
+	.string "Vasaskrímsli vinstra megin á\p"
+	.string "skjánum verður það fyrsta sem fer í\n"
+	.string "bardaga.$"
 
 Help_Text_HowToUseItem::
-	.string "{CIRCLE_1} Select “ITEM.”\n"
-	.string "{CIRCLE_2} Select whether you want to “GIVE”\n"
-	.string "   an item to the POKéMON to hold,\n"
-	.string "   or “TAKE” an item it is holding.\n"
-	.string "A POKéMON can hold no more than one\n"
-	.string "item!$"
+	.string "{CIRCLE_1} Veldu 'HLUTUR.'\n"
+	.string "{CIRCLE_2} Veldu hvort þú vilt\p"
+	.string "'GEFA' Vasaskrímsli\p"
+	.string "hlut til að halda, eða 'TAKA' hlut\n"
+	.string "sem það heldur. Vasaskrímsli\p"
+	.string "getur ekki haldið fleiri en einum\n"
+	.string "hlut!$"
 
 Help_Text_HowToUseBag::
-	.string "{CIRCLE_1} Select “BAG” on the MENU.\n"
-	.string "{CIRCLE_2} Press left or right on the {PLUS} Control\n"
-	.string "   Pad to check the data headings:\n"
-	.string "   “ITEMS”\n"
-	.string "   “KEY ITEMS”\n"
-	.string "   “POKé BALLS”\n"
-	.string "   Press up or down to select an item.$"
+	.string "{CIRCLE_1} Veldu 'TASKA' í VALMYND.\n"
+	.string "{CIRCLE_2} Ýttu á vinstri eða hægri\p"
+	.string "á {PLUS} stýripúðanum til að skoða\n"
+	.string "gögnin: 'HLUTIR' 'LYKILHLUTIR'\p"
+	.string "'VASA BOLTAR' Ýttu upp eða niður til\n"
+	.string "að velja hlut.$"
 
 Help_Text_HowToUseAnItem::
-	.string "{CIRCLE_1} Select the “ITEMS” POCKET.\n"
-	.string "{CIRCLE_2} Press up or down on the {PLUS} Control\n"
-	.string "   Pad to select an item.\n"
-	.string "{CIRCLE_3} Select “USE” to use the selected\n"
-	.string "   item.\n"
-	.string "Some items may not be used depending\n"
-	.string "on the place and/or situation.$"
+	.string "{CIRCLE_1} Veldu 'HLUTIR' VASA.\n"
+	.string "{CIRCLE_2} Ýttu upp eða niður\p"
+	.string "á {PLUS} stýripúðanum til að velja\n"
+	.string "hlut. {CIRCLE_3} Veldu 'NOTA' til að\p"
+	.string "nota valinn hlut. Sumir hlutir má\n"
+	.string "ekki nota eftir staðsetningu\p"
+	.string "og/eða aðstæðum.$"
 
 Help_Text_HowToUseKeyItem::
-	.string "{CIRCLE_1} Select the “KEY ITEMS” POCKET.\n"
-	.string "{CIRCLE_2} Press up or down on the {PLUS} Control\n"
-	.string "   Pad to select a key item.\n"
-	.string "{CIRCLE_3} Select “USE” to use the selected\n"
-	.string "   key item.$"
+	.string "{CIRCLE_1} Veldu 'LYKILHLUTAHÓLF.'\n"
+	.string "{CIRCLE_2} Ýttu upp eða niður\p"
+	.string "á {PLUS} stýripúðanum til að velja\n"
+	.string "lykilhlut. {CIRCLE_3} Veldu 'NOTA'\p"
+	.string "til að nota valinn lykilhlut.$"
 
 Help_Text_HowToUsePokeBall::
-	.string "{CIRCLE_1} While battling a wild POKéMON,\n"
-	.string "   select the BAG's “POKé BALLS”\n"
-	.string "   POCKET.\n"
-	.string "{CIRCLE_2} Press up or down on the {PLUS} Control\n"
-	.string "   Pad to select a POKé BALL.\n"
-	.string "{CIRCLE_3} Select “USE” to throw the selected\n"
-	.string "   POKé BALL.$"
+	.string "{CIRCLE_1} Meðan þú berst við villt\n"
+	.string "Vasaskrímsli skaltu velja\p"
+	.string "'VASA BOLTAHÓLF' í TÖSKUNNI.\n"
+	.string "{CIRCLE_2} Ýttu upp eða niður á\p"
+	.string "{PLUS}\p"
+	.string "stýripúðanum til að velja VASA\n"
+	.string "BOLTA. {CIRCLE_3} Veldu 'NOTA' til\p"
+	.string "að kasta\p"
+	.string "völdum VASA BOLTA.$"
 
 Help_Text_HowToUsePlayer::
-	.string "{CIRCLE_1} Select “{PLAYER}” on the MENU.\n"
-	.string "{CIRCLE_2} Your TRAINER CARD is displayed face\n"
-	.string "   up with basic information. Press the\n"
-	.string "   A Button to turn the CARD over.\n"
-	.string "{CIRCLE_3} A variety of data can be found on\n"
-	.string "   the reverse side of the CARD.$"
+	.string "{CIRCLE_1} Veldu '{PLAYER}' í\n"
+	.string "VALMYNDINNI. {CIRCLE_2}\p"
+	.string "ÞJÁLFARAKORTIÐ\p"
+	.string "þitt birtist með grunnupplýsingum.\n"
+	.string "Ýttu á A takkann til að\p"
+	.string "snúa KORTINU við. {CIRCLE_3} Ýmsar\n"
+	.string "upplýsingar eru á bakhlið KORTSINS.$"
 
 Help_Text_HowToUseSave::
-	.string "{CIRCLE_1} Select “SAVE” on the MENU.\n"
-	.string "{CIRCLE_2} Select “YES” and your progress is\n"
-	.string "   recorded in the save file.\n"
-	.string "Once the game is saved, you may turn\n"
-	.string "off the game. Your game can be resumed\n"
-	.string "from where you saved.$"
+	.string "{CIRCLE_1} Veldu 'VISTA' í VALMYND.\n"
+	.string "{CIRCLE_2} Veldu 'JÁ' og\p"
+	.string "framfarir þínar eru skráðar í\n"
+	.string "vistunarskrána. Þegar leikurinn er\p"
+	.string "vistaður geturðu slökkt á leiknum.\n"
+	.string "Leikurinn þinn getur haldið áfram\p"
+	.string "frá því þar sem þú vistaðir.$"
 
 Help_Text_HowToUseOption::
-	.string "{CIRCLE_1} Select “OPTION” on the MENU.\n"
-	.string "{CIRCLE_2} Press up or down on the {PLUS} Control\n"
-	.string "   Pad to select an optional item, then\n"
-	.string "   press left or right to alter the\n"
-	.string "   settings.\n"
-	.string "{CIRCLE_3} Select “CANCEL” or press the\n"
-	.string "   B Button after making changes.$"
+	.string "{CIRCLE_1} Veldu 'VALKOSTUR' í\n"
+	.string "VALMYND. {CIRCLE_2} Ýttu upp eða\p"
+	.string "niður á\p"
+	.string "{PLUS} stýripúðanum til að velja\n"
+	.string "valkost, ýttu svo vinstri eða\p"
+	.string "hægri til að breyta stillingum.\n"
+	.string "{CIRCLE_3} Veldu 'HÆTTA VIÐ' eða\p"
+	.string "ýttu\p"
+	.string "á B takkann eftir að hafa gert\n"
+	.string "breytingar.$"
 
 Help_Text_HowToUsePotion::
-	.string "{CIRCLE_1} Open the MENU.\n"
-	.string "{CIRCLE_2} Press up or down on the {PLUS} Control\n"
-	.string "   Pad and select “BAG.”\n"
-	.string "{CIRCLE_3} Select “POTION” in the “ITEMS”\n"
-	.string "   POCKET.\n"
-	.string "{CIRCLE_4} Select “USE.”\n"
-	.string "{CIRCLE_5} Select the POKéMON to be healed.$"
+	.string "{CIRCLE_1} Opnaðu VALMYNDINA.\n"
+	.string "{CIRCLE_2} Ýttu upp eða niður á\p"
+	.string "{PLUS}\p"
+	.string "stýripúðanum og veldu 'TASKA.'\n"
+	.string "{CIRCLE_3} Veldu 'SEYÐI' í\p"
+	.string "'HLUTAHÓLFINU.' {CIRCLE_4} Veldu\n"
+	.string "'NOTA.' {CIRCLE_5} Veldu\p"
+	.string "Vasaskrímslið sem á að lækna.$"
 
 Help_Text_HowToUseTownMap::
-	.string "{CIRCLE_1} Open the MENU.\n"
-	.string "{CIRCLE_2} Press up or down on the {PLUS} Control\n"
-	.string "   Pad and select “BAG.”\n"
-	.string "{CIRCLE_3} Press left or right to open the\n"
-	.string "   “KEY ITEMS” POCKET, then press\n"
-	.string "   up or down to select “TOWN MAP.” \n"
-	.string "{CIRCLE_4} Select “USE” to open the TOWN MAP.$"
+	.string "{CIRCLE_1} Opnaðu VALMYND.\n"
+	.string "{CIRCLE_2} Ýttu upp eða niður á\p"
+	.string "{PLUS}\p"
+	.string "stýripúðanum og veldu 'TASKA.'\n"
+	.string "{CIRCLE_3} Ýttu vinstri eða hægri\p"
+	.string "til\p"
+	.string "að opna 'LYKILHLUTAHÓLF,' ýttu svo\n"
+	.string "upp eða niður til að velja 'KORT\p"
+	.string "BORGAR.' {CIRCLE_4} Veldu 'NOTA' til\n"
+	.string "að opna KORT BORGAR.$"
 
 Help_Text_HowToUseTM::
-	.string "{CIRCLE_1} Open the MENU.\n"
-	.string "{CIRCLE_2} Open the “KEY ITEMS” POCKET in the\n"
-	.string "   “BAG.”\n"
-	.string "{CIRCLE_3} “OPEN” the TM CASE.\n"
-	.string "{CIRCLE_4} Select and “USE” a TM.\n"
-	.string "{CIRCLE_5} Select a POKéMON that can learn the\n"
-	.string "   move in the TM.$"
+	.string "{CIRCLE_1} Opnaðu VALMYNDINA.\n"
+	.string "{CIRCLE_2} Opnaðu 'LYKILHLUTAHÓLF' í\p"
+	.string "'TÖSKUNNI.' {CIRCLE_3} Veldu 'OPNA'\n"
+	.string "á TM KASSANUM. {CIRCLE_4} Veldu\p"
+	.string "og 'NOTA' á TM. {CIRCLE_5} Veldu\n"
+	.string "Vasaskrímsli sem getur lært\p"
+	.string "hreyfinguna.$"
 
 Help_Text_HowToUseHM::
-	.string "{CIRCLE_1} Open the MENU.\n"
-	.string "{CIRCLE_2} Open the “KEY ITEMS” POCKET in the\n"
-	.string "   “BAG.”\n"
-	.string "{CIRCLE_3} “OPEN” the TM CASE.\n"
-	.string "{CIRCLE_4} Select and “USE” an HM.\n"
-	.string "{CIRCLE_5} Select a POKéMON that can learn it.\n"
-	.string "HMs are hard to remove, so be careful!$"
+	.string "{CIRCLE_1} Opnaðu VALMYNDINA.\n"
+	.string "{CIRCLE_2} Opnaðu 'LYKILHLUTAHÓLF' í\p"
+	.string "'TÖSKUNNI.' {CIRCLE_3} Veldu 'OPNA'\n"
+	.string "á TM KASSANUM. {CIRCLE_4} Veldu\p"
+	.string "og 'NOTA' á HM. {CIRCLE_5} Veldu\n"
+	.string "Vasaskrímsli sem getur lært hana.\p"
+	.string "Erfitt er að fjarlægja HM.$"
 
 Help_Text_HowToUseMoveOutsideOfBattle::
-	.string "{CIRCLE_1} Open the MENU.\n"
-	.string "{CIRCLE_2} Select “POKéMON.”\n"
-	.string "{CIRCLE_3} Select a POKéMON that knows an\n"
-	.string "   HM move. The usable HM move(s)\n"
-	.string "   will be shown in blue. Select and\n"
-	.string "   use the desired move to destroy an\n"
-	.string "   obstacle, fly, surf, etc.$"
+	.string "{CIRCLE_1} Opnaðu VALMYNDINA.\n"
+	.string "{CIRCLE_2} Veldu 'Vasaskrímsli.'\p"
+	.string "{CIRCLE_3}\p"
+	.string "Veldu Vasaskrímsli sem kann HM\n"
+	.string "hreyfingu. Notanleg HM hreyfing(ar)\p"
+	.string "verða\p"
+	.string "sýndar í bláu. Veldu og notaðu\n"
+	.string "viðeigandi hreyfingu til að\p"
+	.string "eyðileggja\p"
+	.string "hindrun, fljúga, surfa, o.s.frv.$"
 
 Help_Text_HowToRideBicycle::
-	.string "{CIRCLE_1} Open the MENU. Open the\n"
-	.string "   “KEY ITEMS” POCKET in the “BAG”\n"
-	.string "   and select the “BICYCLE.”\n"
-	.string "{CIRCLE_2} The BICYCLE can be ridden by\n"
-	.string "   selecting “USE.” You may also\n"
-	.string "   “REGISTER” it for instant use by\n"
-	.string "   pressing SELECT.$"
+	.string "{CIRCLE_1} Opnaðu VALMYND. Opnaðu\n"
+	.string "'LYKILHLUTAHÓLF' í 'TÖSKUNNI' og\p"
+	.string "veldu 'HJÓL.' {CIRCLE_2} Þú getur\n"
+	.string "notað HJÓLIÐ með því að velja\p"
+	.string "'NOTA.' Þú getur líka 'SKRÁÐ' það\n"
+	.string "til að nota það strax með SELECT.$"
 
 Help_Text_HowToEnterName::
-	.string "{CIRCLE_1} Move the cursor to the letter you\n"
-	.string "   want with the {PLUS} Control Pad, then\n"
-	.string "   press the A Button to enter it.\n"
-	.string "{CIRCLE_2} Press the B Button to back up.\n"
-	.string "{CIRCLE_3} Press SELECT to switch between\n"
-	.string "   uppercase and lowercase letters.\n"
-	.string "{CIRCLE_4} Press the A Button on “OK.”$"
+	.string "{CIRCLE_1} Færðu bendilinn á stafinn\n"
+	.string "sem þú vilt með {PLUS} stýripúðanum\p"
+	.string "og ýttu á A til að slá hann inn.\n"
+	.string "{CIRCLE_2} Ýttu á B til að fara til\p"
+	.string "baka.\p"
+	.string "{CIRCLE_3} Ýttu á SELECT til að\n"
+	.string "skipta á milli hástafa og lágstafa.\p"
+	.string "{CIRCLE_4} Ýttu á A á 'OK.'$"
 
 Help_Text_HowToUsePC::
-	.string "{CIRCLE_1} Go to any POKéMON CENTER, go up\n"
-	.string "   to the PC, then press the A Button.$"
+	.string "{CIRCLE_1} Farðu í hvaða\n"
+	.string "Vasaskrímsla MIÐSTÖÐ sem er, farðu\p"
+	.string "að TÖLVUNNI\p"
+	.string "og ýttu á A takkann.$"
 
 Help_Text_HowToUseBillsPC::
-	.string "{CIRCLE_1} Select “{STR_VAR_1}'S PC” on the PC.\n"
-	.string "{CIRCLE_2} Select from one of the top three\n"
-	.string "   MENU items to access the POKéMON\n"
-	.string "   Storage System.\n"
-	.string "If you catch a POKéMON when you have\n"
-	.string "six in your party, the POKéMON is sent\n"
-	.string "automatically to a BOX in the System!$"
+	.string "{CIRCLE_1} Veldu '{STR_VAR_1} TÖLVA'\n"
+	.string "í TÖLVUNNI. {CIRCLE_2} Veldu eitt af\p"
+	.string "þremur efstu VALMYNDARATRIÐUNUM til\n"
+	.string "að opna Vasaskrímsla GEYMSLUKERFIÐ.\p"
+	.string "Ef þú fangar Vasaskrímsli þegar þú\n"
+	.string "ert með sex í hópnum fer það í\p"
+	.string "KASSA.$"
 
 Help_Text_HowToUseWithdraw::
-	.string "{CIRCLE_1} Select a POKéMON in the open BOX\n"
-	.string "   with the {PLUS} Control Pad.\n"
-	.string "{CIRCLE_2} Select “WITHDRAW” to remove the\n"
-	.string "   POKéMON from the BOX and add it to\n"
-	.string "   your party.\n"
-	.string "You may not withdraw a POKéMON if you\n"
-	.string "already have six POKéMON with you!$"
+	.string "{CIRCLE_1} Veldu Vasaskrímsli í opna\n"
+	.string "KASSANUM með {PLUS} stýripúðanum.\p"
+	.string "{CIRCLE_2} Veldu 'TAKA ÚT' til að\n"
+	.string "fjarlægja Vasaskrímslið úr KASSANUM\p"
+	.string "og bæta því við hópinn þinn. Þú mátt\n"
+	.string "ekki taka út Vasaskrímsli ef þú\p"
+	.string "ert nú þegar með sex Vasaskrímsli\n"
+	.string "með þér!$"
 
 Help_Text_HowToUseDeposit::
-	.string "{CIRCLE_1} Select a POKéMON in your party with\n"
-	.string "   the {PLUS} Control Pad.\n"
-	.string "{CIRCLE_2} Select “DEPOSIT.”\n"
-	.string "{CIRCLE_3} Select the BOX, then press the\n"
-	.string "   A Button to store the POKéMON.\n"
-	.string "If you have only one POKéMON with you,\n"
-	.string "it may not be stored!$"
+	.string "{CIRCLE_1} Veldu Vasaskrímsli í\n"
+	.string "hópnum þínum með {PLUS}\p"
+	.string "stýripúðanum.\p"
+	.string "{CIRCLE_2} Veldu 'LEGGJA INN.'\n"
+	.string "{CIRCLE_3} Veldu KASSANN, ýttu svo\p"
+	.string "á A takkann til að geyma\n"
+	.string "Vasaskrímslið. Ef þú ert aðeins með\p"
+	.string "eitt Vasaskrímsli með þér, má ekki\n"
+	.string "geyma það!$"
 
 Help_Text_HowToUseMove::
-	.string "{CIRCLE_1} Select a POKéMON in the open BOX.\n"
-	.string "{CIRCLE_2} Pick up the POKéMON by selecting\n"
-	.string "   “MOVE” and move it anywhere with\n"
-	.string "   the {PLUS} Control Pad.\n"
-	.string "{CIRCLE_3} Move the POKéMON to the BOX name\n"
-	.string "   and press left or right to move it\n"
-	.string "   to another BOX.$"
+	.string "{CIRCLE_1} Veldu Vasaskrímsli í opna\n"
+	.string "KASSANUM. {CIRCLE_2} Taktu\p"
+	.string "Vasaskrímslið upp með því að velja\n"
+	.string "'FÆRA' og færðu það hvert sem er með\p"
+	.string "{PLUS} stýripúðanum. {CIRCLE_3}\n"
+	.string "Færðu Vasaskrímslið að KASSANAFNINU\p"
+	.string "og\p"
+	.string "ýttu á vinstri eða hægri til að færa\n"
+	.string "það í annan KASSA.$"
 
 Help_Text_HowToMoveItems::
-	.string "{CIRCLE_1} Faintly shown POKéMON can be made\n"
-	.string "   to hold an item by selecting it and\n"
-	.string "   pressing the A Button.\n"
-	.string "{CIRCLE_2} Clearly shown POKéMON can be made\n"
-	.string "   to give the item they are holding to\n"
-	.string "   another POKéMON, or return the item\n"
-	.string "   to the BAG with the A Button.$"
+	.string "{CIRCLE_1} Dauft sýnd Vasaskrímsli\n"
+	.string "geta haldið hlut ef þú velur þau og\p"
+	.string "ýtir\p"
+	.string "á A takkann. {CIRCLE_2} Skýrt sýnd\n"
+	.string "Vasaskrímsli geta gefið hlutinn sem\p"
+	.string "þau halda öðru Vasaskrímsli eða sett\n"
+	.string "hann aftur í TÖSKUNA.$"
 
 Help_Text_HowToUsePlayersPC::
-	.string "{CIRCLE_1} Select “{PLAYER}'s PC” on the PC.\n"
-	.string "{CIRCLE_2} Select either “ITEM STORAGE” or\n"
-	.string "   “MAILBOX.”\n"
-	.string "You may store things in your own PC\n"
-	.string "if your BAG is full. You may also\n"
-	.string "withdraw items stored in your PC.$"
+	.string "{CIRCLE_1} Veldu '{PLAYER}'s TÖLVA'\n"
+	.string "á tölvunni. {CIRCLE_2} Veldu\p"
+	.string "annaðhvort\p"
+	.string "'HLUTAGEYMSLA' eða 'PÓSTKASSI.' Þú\n"
+	.string "getur geymt hluti í eigin tölvu ef\p"
+	.string "TASKAN þín er full. Þú getur líka\n"
+	.string "tekið hluti út sem eru geymdir í\p"
+	.string "tölvunni þinni.$"
 
 Help_Text_HowToUseWithdrawItem::
-	.string "{CIRCLE_1} Select “WITHDRAW ITEM.”\n"
-	.string "{CIRCLE_2} Select the item to be withdrawn.\n"
-	.string "{CIRCLE_3} The item can be withdrawn and\n"
-	.string "   placed in the BAG's ITEMS POCKET.\n"
-	.string "   It may also be directly given to a\n"
-	.string "   POKéMON to hold.$"
+	.string "{CIRCLE_1} Veldu 'TAKA HLUT ÚT.'\n"
+	.string "{CIRCLE_2} Veldu hlutinn sem á að\p"
+	.string "taka út. {CIRCLE_3} Hluturinn er\n"
+	.string "hægt að taka út og setja í HLUTAHÓLF\p"
+	.string "TÖSKUNNAR. Hann má einnig gefa beint\n"
+	.string "Vasaskrímsli til að\p"
+	.string "halda.$"
 
 Help_Text_HowToUseDepositItem::
-	.string "{CIRCLE_1} Select “DEPOSIT ITEM.”\n"
-	.string "{CIRCLE_2} Select the item in the BAG to be\n"
-	.string "   deposited using the {PLUS} Control Pad.\n"
-	.string "{CIRCLE_3} If there is more than one \n"
-	.string "   item to be deposited, enter the\n"
-	.string "   quantity with the {PLUS} Control Pad,\n"
-	.string "   then press the A Button.$"
+	.string "{CIRCLE_1} Veldu 'LEGGJA HLUT INN.'\n"
+	.string "{CIRCLE_2} Veldu hlutinn í\p"
+	.string "TÖSKUNNI sem á að leggja inn með\n"
+	.string "{PLUS} stýripúðanum. {CIRCLE_3} Ef\p"
+	.string "það er\p"
+	.string "meira en einn hlutur til að leggja\n"
+	.string "inn, sláðu inn magnið með {PLUS}\p"
+	.string "stýripúðanum, ýttu svo á A takkann.$"
 
 Help_Text_HowToUseMailbox::
-	.string "When MAIL is taken from a POKéMON,\n"
-	.string "it is moved to the MAILBOX. If it has\n"
-	.string "no MAIL, the MAILBOX can't be used.\n"
-	.string "{CIRCLE_1} Select “{PLAYER}'S PC” on the PC.\n"
-	.string "{CIRCLE_2} Select “MAILBOX” to read MAIL or\n"
-	.string "   make a POKéMON hold MAIL.$"
+	.string "Þegar PÓSTUR er tekinn af\n"
+	.string "Vasaskrímsli færist hann í\p"
+	.string "PÓSTKASSANN. Ef enginn PÓSTUR er til\n"
+	.string "staðar er ekki hægt að nota\p"
+	.string "PÓSTKASSANN. {CIRCLE_1} Veldu\n"
+	.string "'{PLAYER} TÖLVA' í TÖLVUNNI.\p"
+	.string "{CIRCLE_2} Veldu 'PÓSTKASSI' til að\n"
+	.string "lesa PÓST eða láta Vasaskrímsli\p"
+	.string "halda á honum.$"
 
 Help_Text_HowToUseProfOaksPC::
-	.string "{CIRCLE_1} Select “PROF. OAK'S PC” on the PC.\n"
-	.string "{CIRCLE_2} PROF. OAK will evaluate your\n"
-	.string "   POKéDEX.\n"
-	.string "His evaluations should give you hints\n"
-	.string "for catching more POKéMON!$"
+	.string "{CIRCLE_1} Veldu 'TÖLVA Prófessor\n"
+	.string "EIK' í TÖLVUNNI. {CIRCLE_2}\p"
+	.string "Prófessor EIK metur\p"
+	.string "VasaDEX þinn. Matið hans ætti að\n"
+	.string "gefa þér vísbendingar um hvernig þú\p"
+	.string "getur fangað fleiri Vasaskrímsli!$"
 
 Help_Text_HowToOpenMenu::
-	.string "{CIRCLE_1} Press START.\n"
-	.string "{CIRCLE_2} The MENU will open on the right.\n"
-	.string "{CIRCLE_3} Depending on the situation, the MENU\n"
-	.string "   may feature different headings.\n"
-	.string "The MENU will not open in certain\n"
-	.string "situations such as when talking, doing\n"
-	.string "something, battling, etc.$"
+	.string "{CIRCLE_1} Ýttu á START. {CIRCLE_2}\n"
+	.string "VALMYNDIN opnast til hægri.\p"
+	.string "{CIRCLE_3} Eftir aðstæðum getur\n"
+	.string "VALMYNDIN sýnt mismunandi\p"
+	.string "valkosti. VALMYNDIN opnast ekki í\n"
+	.string "ákveðnum aðstæðum eins og þegar\p"
+	.string "talað er, gert eitthvað, barist\n"
+	.string "o.s.frv.$"
 
 Help_Text_HowToUseFight::
-	.string "{CIRCLE_1} Select “FIGHT.”\n"
-	.string "{CIRCLE_2} Select one of the moves shown,\n"
-	.string "and that move will be used!$"
+	.string "{CIRCLE_1} Veldu 'BERJAST.'\n"
+	.string "{CIRCLE_2} Veldu eina af\p"
+	.string "hreyfingunum\p"
+	.string "sem sýndar eru, og sú hreyfing\n"
+	.string "verður notuð!$"
 
 Help_Text_HowToUsePokemon2::
-	.string "{CIRCLE_1} Select “POKéMON.”\n"
-	.string "{CIRCLE_2} Select the POKéMON in your party\n"
-	.string "   that you want to use.\n"
-	.string "{CIRCLE_3} If you have two or more POKéMON\n"
-	.string "   with you, they may be switched by\n"
-	.string "   selecting “SHIFT.” Check POKéMON\n"
-	.string "   data by selecting “SUMMARY.”$"
+	.string "{CIRCLE_1} Veldu 'Vasaskrímsli.'\n"
+	.string "{CIRCLE_2} Veldu Vasaskrímslið í\p"
+	.string "hópnum þínum sem þú vilt nota.\n"
+	.string "{CIRCLE_3} Ef þú ert með tvö eða\p"
+	.string "fleiri Vasaskrímsli með þér, er hægt\n"
+	.string "að skipta þeim með því að velja\p"
+	.string "'SKIPTA.' Skoðaðu Vasaskrímsli gögn\n"
+	.string "með því að velja 'YFIRLIT.'$"
 
 Help_Text_HowToUseShift::
-	.string "This command switches the POKéMON in\n"
-	.string "battle with another one in your party.\n"
-	.string "{CIRCLE_1} Select the POKéMON to be sent out.\n"
-	.string "{CIRCLE_2} Select “SHIFT.”\n"
-	.string "{CIRCLE_3} The selected POKéMON will switch\n"
-	.string "   places with the POKéMON in battle!$"
+	.string "Þessi skipun skiptir Vasaskrímslinu\n"
+	.string "í bardaga út fyrir annað í hópnum\p"
+	.string "þínum. {CIRCLE_1} Veldu\n"
+	.string "Vasaskrímslið sem á að senda út.\p"
+	.string "{CIRCLE_2} Veldu 'SKIPTA.'\n"
+	.string "{CIRCLE_3} Valið Vasaskrímsli mun\p"
+	.string "skipta um stað við Vasaskrímslið í\n"
+	.string "bardaga!$"
 
 Help_Text_HowToUseSummary2::
-	.string "{CIRCLE_1} Select “SUMMARY.”\n"
-	.string "{CIRCLE_2} Press left or right on the {PLUS} Control\n"
-	.string "   Pad to check the information:\n"
-	.string "   “POKéMON INFO”\n"
-	.string "   “POKéMON SKILLS”\n"
-	.string "   “KNOWN MOVES”$"
+	.string "{CIRCLE_1} Veldu 'YFIRLIT.'\n"
+	.string "{CIRCLE_2} Ýttu á vinstri eða hægri\p"
+	.string "á {PLUS} stýripúðanum til að skoða\n"
+	.string "upplýsingarnar: 'Vasaskrímsli\p"
+	.string "UPPLÝSINGAR' 'Vasaskrímsli\n"
+	.string "HÆFILEIKAR' 'ÞEKKTAR HREYFINGAR'$"
 
 Help_Text_HowToUseBag2::
-	.string "{CIRCLE_1} Select “BAG.”\n"
-	.string "{CIRCLE_2} Press left or right on the {PLUS} Control\n"
-	.string "   Pad to check the data headings:\n"
-	.string "   “ITEMS”\n"
-	.string "   “KEY ITEMS”\n"
-	.string "   “POKé BALLS”\n"
-	.string "   Press up or down to select an item.$"
+	.string "{CIRCLE_1} Veldu 'TASKA.' {CIRCLE_2}\n"
+	.string "Ýttu vinstri eða hægri á {PLUS}\p"
+	.string "stýripúðanum til að skoða gögnin:\n"
+	.string "'HLUTIR' 'LYKILHLUTIR' 'VASA\p"
+	.string "BOLTAR' Ýttu upp eða niður til að\n"
+	.string "velja hlut.$"
 
 Help_Text_HowToReadPokedex::
-	.string "{CIRCLE_1} POKéMON that you have caught are\n"
-	.string "   identified by a POKé BALL mark on\n"
-	.string "   the POKéDEX list.\n"
-	.string "{CIRCLE_2} A caught POKéMON will provide a\n"
-	.string "   large amount of data.\n"
+	.string "{CIRCLE_3} Veldu 'NÆSTU GÖGN' til að\n"
+	.string "sýna KORT BORGAR með búsvæðum\p"
+	.string "þess.$"
 	.if REVISION < 1
-	.string "{CIRCLE_3} Select “AREA” to display the TOWN\n"
-	.string "   MAP with the POKéMON's habitat(s).$"
+	.string "{CIRCLE_3} Veldu 'NÆSTU GÖGN' til að\n"
+	.string "sýna KORT BORGAR með búsvæðum\p"
+	.string "þess.$"
 	.else
-	.string "{CIRCLE_3} Select “NEXT DATA” to display the\n"
-	.string "   TOWN MAP with its habitat(s).$"
+	.string "{CIRCLE_3} Veldu 'NÆSTU GÖGN' til að\n"
+	.string "sýna KORT BORGAR með búsvæðum\p"
+	.string "þess.$"
 	.endif
 
 Help_Text_HowToUseHomePC::
-	.string "{CIRCLE_1} Go up to the PC at home, then press\n"
-	.string "   the A Button.\n"
-	.string "{CIRCLE_2} The PC will turn on.\n"
-	.string "{CIRCLE_3} Select either “ITEM STORAGE” or\n"
-	.string "   “MAILBOX.”$"
+	.string "{CIRCLE_1} Farðu að tölvunni heima,\n"
+	.string "ýttu svo á A takkann. {CIRCLE_2}\p"
+	.string "Tölvan kveikir á sér. {CIRCLE_3}\n"
+	.string "Veldu annaðhvort 'HLUTAGEYMSLA' eða\p"
+	.string "'PÓSTKASSI.'$"
 
 Help_Text_HowToUseItemStorage::
-	.string "{CIRCLE_1} Select “WITHDRAW ITEM” to withdraw\n"
-	.string "   an item stored on your PC.\n"
-	.string "{CIRCLE_2} Select “DEPOSIT ITEM” to put \n"
-	.string "   an item from your BAG into your PC.$"
+	.string "{CIRCLE_1} Veldu 'TAKA HLUT ÚT' til\n"
+	.string "að taka út hlut sem er geymdur í\p"
+	.string "tölvunni þinni.\p"
+	.string "{CIRCLE_2} Veldu 'LEGGJA HLUT INN'\n"
+	.string "til að setja hlut úr TÖSKUNNI þinni\p"
+	.string "í\p"
+	.string "tölvuna þína.$"
 
 Help_Text_HowToUseWithdrawItem2::
-	.string "{CIRCLE_1} Select “WITHDRAW ITEM.”\n"
-	.string "{CIRCLE_2} Select the item to be withdrawn.\n"
-	.string "{CIRCLE_3} The item can be withdrawn and\n"
-	.string "   placed in the BAG's ITEMS POCKET.\n"
-	.string "   It may also be directly given to a\n"
-	.string "   POKéMON to hold.$"
+	.string "{CIRCLE_1} Veldu 'TAKA HLUT ÚT.'\n"
+	.string "{CIRCLE_2} Veldu hlutinn sem á að\p"
+	.string "taka út. {CIRCLE_3} Hægt er að taka\n"
+	.string "hlutinn út og setja hann í HLUTAHÓLF\p"
+	.string "TÖSKUNNAR. Einnig má gefa hann beint\n"
+	.string "Vasaskrímsli til að halda á.$"
 
 Help_Text_HowToUseDepositItem2::
-	.string "{CIRCLE_1} Select “DEPOSIT ITEM.”\n"
-	.string "{CIRCLE_2} Select the item in the BAG to be\n"
-	.string "   deposited using the {PLUS} Control Pad.\n"
-	.string "{CIRCLE_3} If there is nothing in the BAG, this\n"
-	.string "   command can't be used!$"
+	.string "{CIRCLE_1} Veldu 'LEGGJA HLUT INN.'\n"
+	.string "{CIRCLE_2} Veldu hlutinn í\p"
+	.string "TÖSKUNNI sem á að leggja inn með\n"
+	.string "{PLUS} stýripúðanum. {CIRCLE_3} Ef\p"
+	.string "það er\p"
+	.string "ekki neitt í TÖSKUNNI, er ekki hægt\n"
+	.string "að nota þessa skipun!$"
 
 Help_Text_HowToUseMailbox2::
-	.string "When MAIL is taken from a POKéMON,\n"
-	.string "it is moved to the MAILBOX. If it has\n"
-	.string "no MAIL, the MAILBOX can't be used.\n"
-	.string "{CIRCLE_1} Select MAIL by name to read it or\n"
-	.string "   make a POKéMON hold it.$"
+	.string "Þegar PÓSTUR er tekinn af\n"
+	.string "Vasaskrímsli færist hann í\p"
+	.string "PÓSTKASSANN. Ef enginn PÓSTUR er til\n"
+	.string "staðar er ekki hægt að nota\p"
+	.string "PÓSTKASSANN. {CIRCLE_1} Veldu PÓST\n"
+	.string "eftir nafni til að lesa hann eða\p"
+	.string "láta Vasaskrímsli halda á honum.$"
 
 Help_Text_HowToUseRun::
-	.string "You may not “RUN” from a TRAINER\n"
-	.string "battle!\n"
-	.string "{CIRCLE_1} You may “RUN” from a wild POKéMON.\n"
-	.string "{CIRCLE_2} Your chance of escape is improved\n"
-	.string "   if your POKéMON in battle is fast.$"
+	.string "Þú mátt ekki 'FLÝJA' úr ÞJÁLFARA\n"
+	.string "bardaga! {CIRCLE_1} Þú mátt 'FLÝJA'\p"
+	.string "frá villtu Vasaskrímsli. {CIRCLE_2}\n"
+	.string "Líkur þínar á flótta batna ef\p"
+	.string "Vasaskrímslið þitt í bardaga er\n"
+	.string "hratt.$"
 
 Help_Text_HowToRegisterKeyItem::
-	.string "You may “REGISTER” a key item for\n"
-	.string "instant use by pressing SELECT!\n"
-	.string "{CIRCLE_1} Open the “KEY ITEMS” POCKET.\n"
-	.string "{CIRCLE_2} Select the key item, then select\n"
-	.string "   “REGISTER.”$"
+	.string "Þú getur 'SKRÁÐ' lykilhlut til að\n"
+	.string "nota hann strax með SELECT!\p"
+	.string "{CIRCLE_1} Opnaðu 'LYKILHLUTAHÓLF.'\n"
+	.string "{CIRCLE_2} Veldu lykilhlutinn og\p"
+	.string "veldu\p"
+	.string "svo 'SKRÁ.'$"
 
 Help_Text_HowToUseBall::
-	.string "{CIRCLE_1} Select to throw the special POKé\n"
-	.string "   BALL used only in the SAFARI ZONE.\n"
-	.string "When wild POKéMON appear, throw lots\n"
-	.string "of SAFARI BALLS to catch them!$"
+	.string "{CIRCLE_1} Veldu til að kasta\n"
+	.string "sérstökum SAFARI BOLTA sem er aðeins\p"
+	.string "notaður í SAFARI SVÆÐINU. Þegar\n"
+	.string "villt Vasaskrímsli birtast skaltu\p"
+	.string "kasta mörgum SAFARI BOLTUM til að\n"
+	.string "fanga þau!$"
 
 Help_Text_HowToUseBait::
-	.string "{CIRCLE_1} Select to throw the special food\n"
-	.string "   used only in the SAFARI ZONE.\n"
-	.string "It is POKéMON food rolled up into\n"
-	.string "a ball for easy eating. When BAIT is\n"
-	.string "thrown, the wild POKéMON may get\n"
-	.string "attracted by it, and may not flee!$"
+	.string "{CIRCLE_1} Veldu til að kasta\n"
+	.string "sérstakri fæðu sem er aðeins notuð í\p"
+	.string "SAFARI SVÆÐINU. Þetta er kúlulaga\n"
+	.string "Vasaskrímslafóður sem auðvelt er að\p"
+	.string "borða. Þegar BEITU er kastað getur\n"
+	.string "villt Vasaskrímsli laðast að henni\p"
+	.string "og verið ólíklegra til að flýja.$"
 
 Help_Text_HowToUseRock::
-	.string "{CIRCLE_1} Select to throw a rock lying on\n"
-	.string "   the ground in the SAFARI ZONE.\n"
-	.string "Throwing a rock at a POKéMON may \n"
-	.string "make it run away, but it becomes easier\n"
-	.string "to catch!$"
+	.string "{CIRCLE_1} Veldu til að kasta steini\n"
+	.string "sem liggur á jörðinni í SAFARI\p"
+	.string "SVÆÐINU. Ef steini er kastað í\n"
+	.string "Vasaskrímsli getur það flúið, en það\p"
+	.string "verður auðveldara að fanga það!$"
 
 Help_Text_HowToUseHallOfFame::
-	.string "{CIRCLE_1} Select “HALL OF FAME” on the PC.\n"
-	.string "{CIRCLE_2} The POKéMON that have entered the\n"
-	.string "   HALL OF FAME can be examined.$"
+	.string "{CIRCLE_1} Veldu 'FRÆGÐARHÖLL' á\n"
+	.string "tölvunni. {CIRCLE_2} Hægt er að\p"
+	.string "skoða Vasaskrímslin sem hafa komist\n"
+	.string "í FRÆGÐARHÖLLINA.$"
 
 Help_Text_HP::
 	.string "HP$"
 
 Help_Text_EXP::
-	.string "EXP. {LEFT_PAREN}EXP. Points{RIGHT_PAREN}$"
+	.string "EXP. {LEFT_PAREN}EXP.\n"
+	.string "punktar{RIGHT_PAREN}$"
 
 Help_Text_Moves::
-	.string "MOVES$"
+	.string "ÁRÁSIR$"
 
 Help_Text_Attack::
-	.string "ATTACK$"
+	.string "SÓKN$"
 
 Help_Text_Defense::
-	.string "DEFENSE$"
+	.string "VÖRN$"
 
 Help_Text_SpAtk::
-	.string "SP. ATK$"
+	.string "SÉR. SÓKN$"
 
 Help_Text_SpDef::
-	.string "SP. DEF$"
+	.string "SÉR. VÖRN$"
 
 Help_Text_Speed::
-	.string "SPEED$"
+	.string "HRAÐI$"
 
 Help_Text_Level::
-	.string "Lv. {LEFT_PAREN}Level{RIGHT_PAREN}$"
+	.string "Stig. {LEFT_PAREN}Stig{RIGHT_PAREN}$"
 
 Help_Text_Type::
-	.string "TYPE$"
+	.string "GERÐ$"
 
 Help_Text_OT::
-	.string "OT$"
+	.string "ÞJÁLFARI$"
 
 Help_Text_Item::
-	.string "ITEM$"
+	.string "HLUTUR$"
 
 Help_Text_Ability::
-	.string "ABILITY$"
+	.string "HÆFILEIKI$"
 
 Help_Text_Money::
-	.string "MONEY$"
+	.string "PENINGAR$"
 
 Help_Text_MoveType::
-	.string "MOVE TYPE$"
+	.string "ÁRÁSARGERÐ$"
 
 Help_Text_Nature::
-	.string "NATURE$"
+	.string "EÐLI$"
 
 Help_Text_IDNo::
-	.string "ID No.$"
+	.string "Auðkennisnúmer.$"
 
 Help_Text_PP::
 	.string "PP$"
 
 Help_Text_Power::
-	.string "POWER$"
+	.string "STYRKUR$"
 
 Help_Text_Accuracy::
-	.string "ACCURACY$"
+	.string "NÁKVÆMNI$"
 
 Help_Text_FNT::
 	.string "FNT$"
 
 Help_Text_Items::
-	.string "ITEMS$"
+	.string "HLUTIR$"
 
 Help_Text_KeyItems::
-	.string "KEY ITEMS$"
+	.string "LYKILHLUTIR$"
 
 Help_Text_PokeBalls::
-	.string "POKé BALLS$"
+	.string "VASA BOLTAR$"
 
 Help_Text_Pokedex::
-	.string "POKéDEX$"
+	.string "VasaDEX$"
 
 Help_Text_PlayTime::
-	.string "PLAY TIME$"
+	.string "LEIKTÍMI$"
 
 Help_Text_Badges::
-	.string "BADGES$"
+	.string "MERKI$"
 
 Help_Text_TextSpeed::
-	.string "TEXT SPEED$"
+	.string "TEXTAHRAÐI$"
 
 Help_Text_BattleScene::
-	.string "BATTLE SCENE$"
+	.string "BARDAGASENA$"
 
 Help_Text_BattleStyle::
-	.string "BATTLE STYLE$"
+	.string "BARDAGASTÍLL$"
 
 Help_Text_Sound::
-	.string "SOUND$"
+	.string "HLJÓÐ$"
 
 Help_Text_ButtonMode::
-	.string "BUTTON MODE$"
+	.string "HNAPPAHAMUR$"
 
 Help_Text_Frame::
-	.string "FRAME$"
+	.string "RAMMI$"
 
 Help_Text_Cancel2::
-	.string "CANCEL$"
+	.string "HÆTTA VIÐ$"
 
 Help_Text_TM::
 	.string "TM$"
@@ -1169,713 +1289,774 @@ Help_Text_HM::
 	.string "HM$"
 
 Help_Text_HMMove::
-	.string "HM MOVE$"
+	.string "HM-ÁRÁS$"
 
 Help_Text_Evolution::
-	.string "EVOLUTION$"
+	.string "ÞRÓUN$"
 
 Help_Text_StatusProblem::
-	.string "STATUS PROBLEM$"
+	.string "ÁSTANDSVANDI$"
 
 Help_Text_Pokemon::
-	.string "POKéMON$"
+	.string "Vasaskrímsli$"
 
 Help_Text_IDNo2::
-	.string "ID No.$"
+	.string "Auðkennisnúmer.$"
 
 Help_Text_Money2::
-	.string "MONEY$"
+	.string "PENINGAR$"
 
 Help_Text_Badges2::
-	.string "BADGES$"
+	.string "MERKI$"
 
 Help_Text_DefineHP::
-	.string "HP indicates a POKéMON's vitality.\n"
-	.string "If a POKéMON's HP drops to zero, it\l"
-	.string "faints and is unable to battle.\l"
-	.string "So, the key in battle is to try to\l"
-	.string "reduce the foe's HP to zero.\l"
-	.string "If your POKéMON are hurt, restore their\l"
-	.string "HP at a POKéMON CENTER or use items.$"
+	.string "HP sýnir lífsþrótt Vasaskrímslis. Ef\n"
+	.string "HP Vasaskrímslis fer í núll\p"
+	.string "fellur það í yfirlið og getur ekki\n"
+	.string "barist. Lykillinn í bardaga er því\p"
+	.string "að lækka HP óvinarins í núll. Ef\n"
+	.string "Vasaskrímslin þín meiðast skaltu\p"
+	.string "lækna þau fljótt.$"
 
 Help_Text_DefineEXP::
-	.string "EXP. Points stands for “Experience\n"
-	.string "Points.” POKéMON gain EXP. Points by\l"
-	.string "participating in winning battles.\l"
-	.string "When a POKéMON accumulates sufficient\l"
-	.string "EXP. Points, it levels up. The EXP. Bar\l"
-	.string "indicates accumulated EXP. Points.\l"
-	.string "It returns to zero upon leveling up.$"
+	.string "EXP. stig merkja 'Reynslustig.'\n"
+	.string "Vasaskrímsli fá EXP. stig með því\p"
+	.string "að taka þátt í bardögum sem vinnast.\n"
+	.string "Þegar Vasaskrímsli safnar nógu\p"
+	.string "mörgum\p"
+	.string "EXP. stigum hækkar það um stig. EXP.\n"
+	.string "stikan sýnir uppsöfnuð EXP. stig.$"
 
 Help_Text_DefineMoves::
-	.string "POKéMON may learn up to four different\n"
-	.string "moves. There are many kinds of moves\l"
-	.string "including attacks and those with\l"
-	.string "special effects. The kinds of moves\l"
-	.string "that can be learned vary for each\l"
-	.string "POKéMON. Some moves can be learned\l"
-	.string "from items.$"
+	.string "Vasaskrímsli geta lært allt að\n"
+	.string "fjórar mismunandi hreyfingar. Til\p"
+	.string "eru\p"
+	.string "margar gerðir hreyfinga, þar á meðal\n"
+	.string "árásir og hreyfingar með sérstök\p"
+	.string "áhrif.\p"
+	.string "Hvaða hreyfingar er hægt að læra er\n"
+	.string "mismunandi eftir Vasaskrímsli. Sumar\p"
+	.string "hreyfingar má læra af hlutum.$"
 
 Help_Text_DefineAttack::
-	.string "ATTACK indicates the power of an\n"
-	.string "offensive move. The higher this stat,\l"
-	.string "the more powerful the move.\l"
-	.string "It is applied for the following move\l"
-	.string "types: NORMAL, POISON, GROUND,\l"
-	.string "FLYING, BUG, FIGHTING, ROCK, GHOST,\l"
-	.string "and STEEL.$"
+	.string "SÓKN sýnir kraft líkamlegrar árásar.\n"
+	.string "Því hærri sem talan er, því öflugri\p"
+	.string "er árásin. Hún á við um þessar\n"
+	.string "tegundir: VENJL., EITUR, JÖRÐ, FLUG,\p"
+	.string "SKORDÝ, BARDAG, STEINN, DRAUG og\n"
+	.string "STÁL.$"
 
 Help_Text_DefineDefense::
-	.string "DEFENSE indicates the resistance a\n"
-	.string "POKéMON has against physical attacks.\l"
-	.string "The higher this stat, the less damage\l"
-	.string "sustained from a foe's physical hit.$"
+	.string "VÖRN (DEFENSE) sýnir mótstöðu\n"
+	.string "Vasaskrímslis gegn líkamlegum\p"
+	.string "árásum. Því hærri sem þessi tala er,\n"
+	.string "því minni skaða tekur það af\p"
+	.string "líkamlegri árás óvinar.$"
 
 Help_Text_DefineSpAtk::
-	.string "SP. ATK (Special Attack) indicates the\n"
-	.string "power of a special attack move.\l"
-	.string "The higher this stat, the more powerful\l"
-	.string "the special attack move.\l"
-	.string "It is applied for the following move\l"
-	.string "types: FIRE, WATER, ELECTRIC, GRASS,\l"
-	.string "ICE, PSYCHIC, DRAGON, and DARK.$"
+	.string "SP. ATK (Sérstök Árás) gefur til\n"
+	.string "kynna kraft sérstakrar\p"
+	.string "árásarhreyfingar.\p"
+	.string "Því hærri sem þessi tala er, því\n"
+	.string "öflugri er sérstaka\p"
+	.string "árásarhreyfingin. Hún á við um\n"
+	.string "eftirfarandi hreyfingar-\p"
+	.string "gerðir: ELDUR, VATN, RAFM,\n"
+	.string "GRAS,\p"
+	.string "ÍS, HUGAR, DREKI, og MYRKUR.$"
 
 Help_Text_DefineSpDef::
-	.string "SP. DEF (Special Defense) indicates\n"
-	.string "the resistance a POKéMON has against\l"
-	.string "special attacks.\l"
-	.string "The higher this stat, the less damage\l"
-	.string "sustained from a foe's special attack.$"
+	.string "SÉR. VÖRN (Special Defense) sýnir\n"
+	.string "mótstöðu Vasaskrímslis gegn\p"
+	.string "sérstökum\p"
+	.string "árásum. Því hærri sem þessi tala er,\n"
+	.string "því minni skaða tekur það af\p"
+	.string "sérstakri árás óvinar.$"
 
 Help_Text_DefineSpeed::
-	.string "SPEED indicates the agility of a\n"
-	.string "POKéMON. If this stat exceeds the foe's\l"
-	.string "in battle, the POKéMON can make a move\l"
-	.string "before its slower opponent.$"
+	.string "HRAÐI (SPEED) sýnir snerpu\n"
+	.string "Vasaskrímslis. Ef þessi tala er\p"
+	.string "hærri\p"
+	.string "en hjá óvininum í bardaga getur\n"
+	.string "Vasaskrímslið gert hreyfingu á undan\p"
+	.string "hægari andstæðingi sínum.$"
 
 Help_Text_DefineLevel::
-	.string "Lv. (Level) indicates the growth and\n"
-	.string "strength of a POKéMON.\l"
-	.string "In general, when a POKéMON levels up,\l"
-	.string "its stats such as HP, ATTACK, and\l"
-	.string "DEFENSE rise, making it stronger.\l"
-	.string "POKéMON may learn a new move upon\l"
-	.string "leveling up.$"
+	.string "Lv. sýnir vöxt og styrk\n"
+	.string "Vasaskrímslis. Yfirleitt hækka\p"
+	.string "eiginleikar eins og\p"
+	.string "HP, SÓKN og VÖRN þegar Vasaskrímsli\n"
+	.string "hækkar um stig. Það getur líka lært\p"
+	.string "nýja árás við stigahækkun.$"
 
 Help_Text_DefineType::
-	.string "POKéMON and moves are classified by\n"
-	.string "type. Every type has advantageous and\l"
-	.string "disadvantageous matchups against\l"
-	.string "other types. For example, like a rock-\l"
-	.string "paper-scissors game, the WATER type is\l"
-	.string "strong against the FIRE type and weak\l"
-	.string "against the GRASS type.$"
+	.string "Vasaskrímsli og árásir eru flokkuð\n"
+	.string "eftir tegundum. Hver tegund hefur\p"
+	.string "styrkleika og veikleika gegn öðrum\n"
+	.string "tegundum. Til dæmis er VATN sterkt\p"
+	.string "gegn ELDUR en veikt gegn GRAS.$"
 
 Help_Text_DefineOT::
-	.string "OT stands for “Original TRAINER,”\n"
-	.string "the first TRAINER to have caught the\l"
-	.string "selected POKéMON.\l"
-	.string "Even if the POKéMON is traded, the OT\l"
-	.string "name will remain unchanged.$"
+	.string "OT merkir 'Upprunalegur ÞJÁLFARI,'\n"
+	.string "fyrsti ÞJÁLFARINN sem fangaði\p"
+	.string "valið Vasaskrímsli. Þótt skipt sé á\n"
+	.string "Vasaskrímslinu helst OT-nafnið eins.$"
 
 Help_Text_DefineItem::
-	.string "All POKéMON can be made to hold one\n"
-	.string "item each. Some items will be used by\l"
-	.string "the POKéMON automatically in certain\l"
-	.string "situations. To make a POKéMON hold an\l"
-	.string "item, select the item from the BAG and\l"
-	.string "“GIVE” it to the POKéMON.$"
+	.string "Öll Vasaskrímsli geta haldið einum\n"
+	.string "hlut hvert. Sumir hlutir verða\p"
+	.string "notaðir af Vasaskrímslinu sjálfkrafa\n"
+	.string "í ákveðnum aðstæðum.\p"
+	.string "Til að láta Vasaskrímsli halda hlut,\n"
+	.string "veldu hlutinn úr TÖSKUNNI og\p"
+	.string "'GEFA' hann Vasaskrímslinu.$"
 
 Help_Text_DefineAbility::
-	.string "All POKéMON have a special ABILITY.\n"
-	.string "There are many different kinds of these\l"
-	.string "abilities, some used in battle, some\l"
-	.string "elsewhere. The abilities differ from\l"
-	.string "species to species. Some species may\l"
-	.string "have more than one kind of ability.$"
+	.string "Öll Vasaskrímsli hafa sérstaka\n"
+	.string "HÆFILEIKA. Það eru margar\p"
+	.string "mismunandi tegundir af þessum\n"
+	.string "hæfileikum, sumir notaðir í bardaga,\p"
+	.string "sumir annars staðar. Hæfileikarnir\n"
+	.string "eru mismunandi eftir tegundum.\p"
+	.string "Sumar tegundir geta haft fleiri en\n"
+	.string "eina tegund af hæfileikum.$"
 
 Help_Text_DefineMoney::
-	.string "Whenever you win a battle against a\n"
-	.string "TRAINER, you are given prize money.\l"
-	.string "Save up your prize money so you can\l"
-	.string "enjoy shopping at POKéMON MARTS!$"
+	.string "Alltaf þegar þú vinnur bardaga gegn\n"
+	.string "ÞJÁLFARA færðu verðlaunafé.\p"
+	.string "Safnaðu því svo þú getir verslað í\n"
+	.string "Vasaskrímsla-búðum!$"
 
 Help_Text_DefineMoveType::
-	.string "Moves are also classified by types.\n"
-	.string "If a POKéMON of a certain type uses\l"
-	.string "a move of the same type, the move's\l"
-	.string "power is boosted. If the move's type\l"
-	.string "has a matchup advantage against the\l"
-	.string "target, its effectiveness is also\l"
-	.string "boosted.$"
+	.string "Árásir eru líka flokkaðar eftir\n"
+	.string "tegundum. Ef Vasaskrímsli notar árás\p"
+	.string "af sömu tegund og það sjálft eykst\n"
+	.string "kraftur árásarinnar. Ef tegundin er\p"
+	.string "sterk gegn skotmarkinu eykst virkni\n"
+	.string "hennar líka.$"
 
 Help_Text_DefineNature::
-	.string "All POKéMON have a personality,\n"
-	.string "or “NATURE.” The POKéMON's\l"
-	.string "nature appears to affect how the\l"
-	.string "POKéMON will grow upon leveling up.$"
+	.string "Öll Vasaskrímsli hafa persónuleika,\n"
+	.string "eða 'EÐLI.' Eðli Vasaskrímslisins\p"
+	.string "virðist hafa áhrif á hvernig\n"
+	.string "Vasaskrímslið mun vaxa við\p"
+	.string "stigahækkun.$"
 
 Help_Text_DefineIDNo::
-	.string "The ID No. is a special number assigned\n"
-	.string "specifically to you as a TRAINER.\l"
-	.string "Together with the OT name, the ID No.\l"
-	.string "is used to precisely identify the\l"
-	.string "Original TRAINER.\l"
-	.string "The ID No. does not change even if the\l"
-	.string "POKéMON is traded.$"
+	.string "Auðkennisnúmerið er sérstakt númer\n"
+	.string "sem er úthlutað þér sem ÞJÁLFARA.\p"
+	.string "Ásamt OT-nafninu auðkennir það\n"
+	.string "upprunalega ÞJÁLFARANN nákvæmlega.\p"
+	.string "Auðkennisnúmerið breytist ekki þótt\n"
+	.string "skipt sé á Vasaskrímslinu.$"
 
 Help_Text_DefinePP::
-	.string "PP stands for “Power Points.”\n"
-	.string "It indicates the number of times a\l"
-	.string "certain move can be used in battle.\l"
-	.string "Like HP, PP can be restored by visiting\l"
-	.string "a POKéMON CENTER or using certain\l"
-	.string "items.$"
+	.string "PP stendur fyrir kraftpunkta. Það\n"
+	.string "sýnir hversu oft má nota ákveðna\p"
+	.string "árás í bardaga. Eins og HP má\n"
+	.string "endurheimta PP í\p"
+	.string "Vasaskrímsla-MIÐSTÖÐ\p"
+	.string "eða með ákveðnum hlutum.$"
 
 Help_Text_DefinePower::
-	.string "POWER indicates the strength of an\n"
-	.string "attack. The higher this number, the\l"
-	.string "greater the damage that can be\l"
-	.string "inflicted on the foe!$"
+	.string "KRAFTUR sýnir styrk árásar. Því\n"
+	.string "hærri sem talan er, því meiri skaða\p"
+	.string "er hægt að valda óvininum!$"
 
 Help_Text_DefineAccuracy::
-	.string "ACCURACY indicates the probability of\n"
-	.string "the move hitting the foe.\l"
-	.string "The higher this number, the more likely\l"
-	.string "the move will strike the target.$"
+	.string "NÁKVÆMNI (ACCURACY) gefur til kynna\n"
+	.string "líkur á að hreyfingin hitti óvininn.\p"
+	.string "Því hærri sem þessi tala er, því\n"
+	.string "líklegra er að hreyfingin hitti\p"
+	.string "skotmarkið.$"
 
 Help_Text_DefineFNT::
-	.string "FNT stands for “fainted.”\n"
-	.string "A POKéMON faints if its HP is reduced\l"
-	.string "to zero. It becomes incapable of taking\l"
-	.string "part in battle.\l"
-	.string "Restore a fainted POKéMON at a POKéMON\l"
-	.string "CENTER, or use an item.$"
+	.string "FNT merkir 'örmagnað.' Vasaskrímsli\n"
+	.string "örmagnast ef HP þess fer niður í\p"
+	.string "núll. Þá getur það ekki tekið þátt í\n"
+	.string "bardaga. Læknaðu örmagnað\p"
+	.string "Vasaskrímsli í Vasaskrímsla-MIÐSTÖÐ\n"
+	.string "eða með hlut.$"
 
 Help_Text_DefineItems::
-	.string "Ordinary items bought at any POKéMON\n"
-	.string "MART are placed in the ITEMS POCKET.\l"
-	.string "Items may be used, given to a POKéMON\l"
-	.string "to hold, or tossed out as garbage.$"
+	.string "Venjulegir hlutir úr Vasaskrímsla-\n"
+	.string "búðum fara í HLUTAHÓLFIÐ.\p"
+	.string "Hægt er að nota hluti, gefa\n"
+	.string "Vasaskrímsli þá til að halda á,\p"
+	.string "eða henda þeim.$"
 
 Help_Text_DefineKeyItems::
-	.string "Important items that you find or \n"
-	.string "receive from people are placed in the\l"
-	.string "KEY ITEMS POCKET.\l"
-	.string "Key items may be used, or registered\l"
-	.string "for use instantly with SELECT. Once\l"
-	.string "registered, the item can be used\l"
-	.string "without opening the MENU and BAG.$"
+	.string "Mikilvægir hlutir sem þú finnur eða\n"
+	.string "færð frá fólki fara í\p"
+	.string "LYKILHLUTAHÓLF.\p"
+	.string "Lykilhluti má nota eða skrá fyrir\n"
+	.string "skjóta notkun með SELECT.\p"
+	.string "Þegar hlutur er skráður má nota hann\n"
+	.string "án þess að opna VALMYND og TÖSKU.$"
 
 Help_Text_DefinePokeBalls::
-	.string "POKé BALLS, which are used for\n"
-	.string "catching wild POKéMON, are placed in\l"
-	.string "the POKé BALLS POCKET.\l"
-	.string "POKé BALLS may be bought at POKéMON\l"
-	.string "MARTS. They may be used, given to a\l"
-	.string "POKéMON to hold, or tossed out as\l"
-	.string "garbage.$"
+	.string "VASA BOLTAR, notaðir til að fanga\n"
+	.string "villt Vasaskrímsli, fara í VASA\p"
+	.string "BOLTAHÓLFIÐ. Þeir fást í\n"
+	.string "Vasaskrímsla-búðum. Hægt er að nota\p"
+	.string "þá, gefa Vasaskrímsli þá til að\n"
+	.string "halda á, eða henda þeim.$"
 
 Help_Text_DefinePokedex::
-	.string "This indicates the number of species of\n"
-	.string "POKéMON you have caught and/or\l"
-	.string "evolved to fill the POKéDEX.\l"
-	.string "Try hard to catch all sorts of\l"
-	.string "POKéMON!$"
+	.string "Þetta sýnir fjölda Vasaskrímsla-\n"
+	.string "tegunda sem þú hefur fangað og/eða\p"
+	.string "þróað til að fylla VasaDEX. Reyndu\n"
+	.string "að fanga alls konar Vasaskrímsli!$"
 
 Help_Text_DefinePlayTime::
-	.string "This is the total amount of time that\n"
-	.string "you have played this game.$"
+	.string "Þetta er heildartíminn sem þú hefur\n"
+	.string "spilað þennan leik.$"
 
 Help_Text_DefineBadges::
-	.string "The POKéMON LEAGUE BADGES that you\n"
-	.string "have won are registered and shown.\l"
-	.string "Earn BADGES by defeating GYM LEADERS\l"
-	.string "in various cities and towns.$"
+	.string "VasaskrímslaDEILDAR-MERKIN sem þú\n"
+	.string "hefur unnið eru skráð og sýnd.\p"
+	.string "Fáðu MERKI með því að sigra\n"
+	.string "SALARLEIÐTOGA í ýmsum borgum og\p"
+	.string "bæjum.$"
 
 Help_Text_DefineTextSpeed::
-	.string "You can adjust how quickly the text is\n"
-	.string "displayed. Choose one: SLOW, MID,\l"
-	.string "or FAST.$"
+	.string "Þú getur stillt hversu hratt textinn\n"
+	.string "birtist. Veldu einn: HÆGT, MIÐ,\p"
+	.string "eða HRATT.$"
 
 Help_Text_DefineBattleScene::
-	.string "You can choose to turn the battle\n"
-	.string "animation ON or OFF.$"
+	.string "Þú getur valið að kveikja eða\n"
+	.string "slökkva á bardagahreyfingum.$"
 
 Help_Text_DefineBattleStyle::
-	.string "You can choose whether or not a\n"
-	.string "TRAINER can switch a POKéMON after\l"
-	.string "it has made its foe faint.\l"
-	.string "Set to “SHIFT” if you would like the\l"
-	.string "chance to switch a POKéMON after it\l"
-	.string "has made its foe faint.$"
+	.string "Þú getur valið hvort ÞJÁLFARI getur\n"
+	.string "skipt um Vasaskrímsli eftir að það\p"
+	.string "hefur látið andstæðing sinn falla í\n"
+	.string "yfirlið. Stilltu á 'SKIPTA' ef þú\p"
+	.string "vilt fá tækifæri til að skipta um\n"
+	.string "Vasaskrímsli eftir að það hefur\p"
+	.string "látið andstæðing sinn falla í\n"
+	.string "yfirlið.$"
 
 Help_Text_DefineSound::
-	.string "You can choose between MONO and\n"
-	.string "STEREO sound output.$"
+	.string "Þú getur valið á milli MONO og\n"
+	.string "STEREO hljóðúttaks.$"
 
 Help_Text_DefineButtonMode::
-	.string "Set to “HELP” to display help messages\n"
-	.string "by pressing the L or R Button.\l"
-	.string "Set to “LR” to enable the switching\l"
-	.string "of the POKéDEX pages and BAG POCKETS\l"
-	.string "using the L and R Buttons.\l"
-	.string "Set to “L=A” to make the L Button\l"
-	.string "work the same as the A Button.$"
+	.string "Stilltu á 'HJÁLP' til að sýna\n"
+	.string "hjálpar- skilaboð með því að ýta á L\p"
+	.string "eða R\p"
+	.string "takkann. Stilltu á 'LR' til að\n"
+	.string "virkja skipti á VasaDEX síðum og\p"
+	.string "TÖSKUVÖSUM með L og R tökkunum.\n"
+	.string "Stilltu á 'L=A' til að láta L\p"
+	.string "takkann virka eins og A takkann.$"
 
 Help_Text_DefineFrame::
-	.string "You may choose the design of the frame\n"
-	.string "around certain menus. Try them out and\l"
-	.string "see what you like.$"
+	.string "Þú getur valið hönnun rammans\n"
+	.string "umhverfis ákveðnar valmyndir.\p"
+	.string "Prófaðu\p"
+	.string "þær og sjáðu hvað þér líkar.$"
 
 Help_Text_DefineCancel2::
-	.string "The settings will be changed to the\n"
-	.string "selections shown in red, and you will\l"
-	.string "return to the MENU.$"
+	.string "Stillingarnar verða breyttar í þær\n"
+	.string "valkosti sem sýndir eru í rauðu, og\p"
+	.string "þú\p"
+	.string "munt snúa aftur í VALMYNDINA.$"
 
 Help_Text_DefineTM::
-	.string "A TM (Technical Machine) is a device\n"
-	.string "used to teach a move to a POKéMON.\l"
-	.string "There are many different kinds.\l"
-	.string "Moves can be taught only to those\l"
-	.string "POKéMON capable of using them.\l"
-	.string "A TM breaks after a single use.$"
+	.string "TM (Tæknivél) er tæki sem notað er\n"
+	.string "til að kenna Vasaskrímsli hreyfingu.\p"
+	.string "Það eru margar mismunandi tegundir.\n"
+	.string "Hreyfingar er aðeins hægt að kenna\p"
+	.string "þeim Vasaskrímslum sem eru fær um að\n"
+	.string "nota þær. TM brotnar eftir eina\p"
+	.string "notkun.$"
 
 Help_Text_DefineHM::
-	.string "An HM (Hidden Machine) is a device used\n"
-	.string "to teach a HIDDEN move to a POKéMON.\l"
-	.string "A HIDDEN move can be taught only to\l"
-	.string "those POKéMON capable of using it.\l"
-	.string "Unlike a TM, an HM can be used over\l"
-	.string "and over. A HIDDEN move can be tough\l"
-	.string "for a POKéMON to forget.$"
+	.string "HM (Falin Vél) er tæki sem notað er\n"
+	.string "til að kenna Vasaskrímsli FALNA\p"
+	.string "hreyfingu. FALNA hreyfingu er aðeins\n"
+	.string "hægt að kenna þeim Vasaskrímslum\p"
+	.string "sem eru fær um að nota hana. Ólíkt\n"
+	.string "TM, er hægt að nota HM aftur og\p"
+	.string "aftur. FALNA hreyfingu getur verið\n"
+	.string "erfitt fyrir Vasaskrímsli að gleyma.$"
 
 Help_Text_DefineHMMove::
-	.string "HIDDEN moves are those that are\n"
-	.string "especially important for your\l"
-	.string "adventure. To use such a move outside\l"
-	.string "of battle, open the “POKéMON” MENU\l"
-	.string "and make the POKéMON that knows the\l"
-	.string "move use it. A fainted POKéMON may use\l"
-	.string "a HIDDEN move outside of battle.$"
+	.string "FALNAR hreyfingar eru þær sem eru\n"
+	.string "sérstaklega mikilvægar fyrir\p"
+	.string "ævintýrið þitt. Til að nota slíka\n"
+	.string "hreyfingu utan bardaga, opnaðu\p"
+	.string "'Vasaskrímsli' VALMYNDINA og láttu\n"
+	.string "Vasaskrímslið sem kann hreyfinguna\p"
+	.string "nota hana. Vasaskrímsli í yfirliði\n"
+	.string "getur notað FALNA hreyfingu utan\p"
+	.string "bardaga.$"
 
 Help_Text_DefineEvolution::
-	.string "Among POKéMON, there are some that\n"
-	.string "undergo major changes (evolution) upon\l"
-	.string "growing to certain levels. Evolution\l"
-	.string "causes a POKéMON to alter form, change\l"
-	.string "its name, and perhaps change the moves\l"
-	.string "it may learn. Some POKéMON evolve\l"
-	.string "due to reasons other than leveling up.$"
+	.string "Meðal Vasaskrímsla eru sum sem ganga\n"
+	.string "í gegnum miklar breytingar\p"
+	.string "(þróun) þegar þau ná ákveðnum\n"
+	.string "stigum. Þróun veldur því að\p"
+	.string "Vasaskrímsli breytir lögun, nafni,\n"
+	.string "og kannski hreyfingum sem það getur\p"
+	.string "lært. Sum Vasaskrímsli þróast vegna\n"
+	.string "annarra ástæðna en stigahækkunar.$"
 
 Help_Text_DefineStatusProblem::
-	.string "Status problems include:\n"
-	.string "Sleep: Can't use moves.\l"
-	.string "Poison: Causes steady HP loss.\l"
-	.string "Paralysis: May prevent moves.\l"
-	.string "Burn: HP loss and lowers ATTACK.\l"
-	.string "Freeze: Can't use moves.\l"
-	.string "These can be healed with items, etc.$"
+	.string "Stöðuvandamál eru: Svefn: Getur ekki\n"
+	.string "notað hreyfingar. Eitur: Velur\p"
+	.string "stöðugt HP tap. Lömun: Getur hindrað\n"
+	.string "hreyfingar. Bruni: HP tap og\p"
+	.string "lækkar ÁRÁS. Frysting: Getur ekki\n"
+	.string "notað hreyfingar. Þetta er hægt að\p"
+	.string "lækna með\p"
+	.string "hlutum o.s.frv.$"
 
 Help_Text_DefinePokemon::
-	.string "POKéMON is a name given to describe\n"
-	.string "wondrous creatures that inhabit all\l"
-	.string "corners of this world.\l"
-	.string "People raise POKéMON to be their pets,\l"
-	.string "use them for battling, and so on.$"
+	.string "Vasaskrímsli er nafn sem gefið er\n"
+	.string "til að lýsa undraverðum verum sem\p"
+	.string "búa í öllum heimshornum. Fólk ræktar\n"
+	.string "Vasaskrímsli til að hafa þau sem\p"
+	.string "gæludýr, notar þau í bardaga, og svo\n"
+	.string "framvegis.$"
 
 Help_Text_DefineIDNo2::
-	.string "The ID No. is a special number assigned\n"
-	.string "specifically to you as a TRAINER.\l"
-	.string "Together with the OT name, the ID No.\l"
-	.string "is used to precisely identify the\l"
-	.string "Original TRAINER.\l"
-	.string "The ID No. does not change even if the\l"
-	.string "POKéMON is traded.$"
+	.string "Auðkennisnúmerið er sérstakt númer\n"
+	.string "sem er úthlutað sérstaklega þér sem\p"
+	.string "ÞJÁLFARA. Saman með OT nafninu er\n"
+	.string "Auðkennisnúmerið notað til að\p"
+	.string "þekkja nákvæmlega upprunalega\n"
+	.string "ÞJÁLFARANN. Auðkennisnúmerið\p"
+	.string "breytist\p"
+	.string "ekki jafnvel þótt Vasaskrímslinu sé\n"
+	.string "skipt.$"
 
 Help_Text_DefineMoney2::
-	.string "Whenever you win a battle against a\n"
-	.string "TRAINER, you are given prize money.\l"
-	.string "Save up your prize money so you can\l"
-	.string "enjoy shopping at POKéMON MARTS!$"
+	.string "Alltaf þegar þú vinnur bardaga gegn\n"
+	.string "ÞJÁLFARA, færðu verðlaunapeninga.\p"
+	.string "Safnaðu verðlaunapeningunum þínum\n"
+	.string "svo þú getir notið þess að versla\p"
+	.string "í Vasaskrímsli MARTS!$"
 
 Help_Text_DefineBadges2::
-	.string "This indicates the number of POKéMON\n"
-	.string "LEAGUE BADGES that you have won.\l"
-	.string "Earn BADGES by defeating GYM LEADERS\l"
-	.string "in various cities and towns.$"
+	.string "Þetta sýnir fjölda Vasaskrímsla-\n"
+	.string "DEILDAR-MERKJA sem þú hefur unnið.\p"
+	.string "Fáðu MERKI með því að sigra\n"
+	.string "SALARLEIÐTOGA í ýmsum borgum og\p"
+	.string "bæjum.$"
 
 Help_Text_TheHelpSystem::
-	.string "The HELP System$"
+	.string "HJÁLPARKERFIÐ$"
 
 Help_Text_TheGame::
-	.string "The game$"
+	.string "Leikurinn$"
 
 Help_Text_WirelessAdapter::
-	.string "Wireless Adapter$"
+	.string "Þráðlaus millistykki$"
 
 Help_Text_GameFundamentals1::
-	.string "Game fundamentals 1$"
+	.string "Grunnatriði leiksins 1$"
 
 Help_Text_GameFundamentals2::
-	.string "Game fundamentals 2$"
+	.string "Grunnatriði leiksins 2$"
 
 Help_Text_GameFundamentals3::
-	.string "Game fundamentals 3$"
+	.string "Grunnatriði leiksins 3$"
 
 Help_Text_WhatArePokemon::
-	.string "What are POKéMON?$"
+	.string "Hvað eru Vasaskrímsli?$"
 
 Help_Text_DescTheHelpSystem::
-	.string "The help messages change depending on\n"
-	.string "how much you have progressed in the\l"
-	.string "game. They are designed to support you\l"
-	.string "when you need them. If there is\l"
-	.string "anything that you don't understand,\l"
-	.string "please look up the HELP System!$"
+	.string "Hjálparskilaboðin breytast eftir því\n"
+	.string "hversu langt þú hefur komist í\p"
+	.string "leiknum. Þau eru hönnuð til að\n"
+	.string "styðja þig þegar þú þarft á þeim að\p"
+	.string "halda. Ef\p"
+	.string "það er eitthvað sem þú skilur ekki,\n"
+	.string "vinsamlegast skoðaðu HJÁLPAR-\p"
+	.string "kerfið!$"
 
 Help_Text_DescTheGame::
-	.string "You become the main character to\n"
-	.string "explore the world of POKéMON!\l"
-	.string "By talking to people and solving\l"
-	.string "mysteries, new paths will open to you.\l"
-	.string "Strive for the goal together with your\l"
-	.string "wonderful POKéMON!$"
+	.string "Þú verður aðalpersónan til að kanna\n"
+	.string "heim Vasaskrímsla!\p"
+	.string "Með því að tala við fólk og leysa\n"
+	.string "dulúðir munu nýjar leiðir opnast\p"
+	.string "þér. Leitastu við markmiðið saman\n"
+	.string "með yndislegu Vasaskrímslunum þínum!$"
 
 Help_Text_DescWirelessAdapter::
-	.string "This game communicates over a wireless\n"
-	.string "link using the Wireless Adapter.\p"
-	.string "Go wireless anywhere, anytime, and\n"
-	.string "with anybody!\p"
-	.string "Try playing with the Wireless Adapter\n"
-	.string "always attached!$"
+	.string "Þessi leikur samskiptir yfir\n"
+	.string "þráðlausa tengingu með þráðlausa\p"
+	.string "millistykkinu.\p"
+	.string "Vertu þráðlaus hvar sem er, hvenær\n"
+	.string "sem er, og með hverjum sem er!\p"
+	.string "Reyndu að spila með þráðlausa\n"
+	.string "millistykkið alltaf tengt!$"
 
 Help_Text_DescGameFundamentals1::
-	.string "Visit every city and town, travel every\n"
-	.string "road, explore every cave, and face\l"
-	.string "every challenge as you strive to\l"
-	.string "become the greatest TRAINER of\l"
-	.string "POKéMON!$"
+	.string "Heimsóttu hverja borg og bæ,\n"
+	.string "ferðastu hvern veg, skoðaðu hvern\p"
+	.string "helli, og\p"
+	.string "horfðu frammi fyrir hverri áskorun\n"
+	.string "þegar þú leitast við að verða\p"
+	.string "mesti ÞJÁLFARI Vasaskrímsla!$"
 
 Help_Text_DescGameFundamentals2::
-	.string "On your adventure, you will be faced\n"
-	.string "with many obstacles. Every obstacle\l"
-	.string "can be overcome by doing something\l"
-	.string "or by solving mysteries. Some obstacles\l"
-	.string "are affected by something that happens\l"
-	.string "far away.$"
+	.string "Í ævintýri þínu muntu standa frammi\n"
+	.string "fyrir mörgum hindrunum. Hver hindrun\p"
+	.string "er hægt að yfirstíga með því að gera\n"
+	.string "eitthvað eða með því að leysa gátur.\p"
+	.string "Sumar\p"
+	.string "hindranir eru fyrir áhrifum af\n"
+	.string "einhverju sem gerist langt í burtu.$"
 
 Help_Text_DescGameFundamentals3::
-	.string "Some of the obstacles in your way can\n"
-	.string "be removed once your POKéMON learn\l"
-	.string "specific moves.$"
+	.string "Sumar hindranir á vegi þínum er hægt\n"
+	.string "að fjarlægja þegar Vasaskrímslin þín\p"
+	.string "læra ákveðnar hreyfingar.$"
 
 Help_Text_DescWhatArePokemon::
-	.string "POKéMON are wondrous creatures that\n"
-	.string "are shrouded in mystery. You may meet\l"
-	.string "them all over the world…in tall\l"
-	.string "grass, caves, the sea, and more.\l"
-	.string "They appear to grow obedient to the\l"
-	.string "TRAINERS that caught them.$"
+	.string "Vasaskrímsli eru undraverðar verur\n"
+	.string "sem eru huldar dulúð. Þú gætir\p"
+	.string "hitt þau um allan heim… í háu grasi,\n"
+	.string "í hellum, sjónum og víðar. Þau\p"
+	.string "virðast hlýða ÞJÁLFURUM sem fanga\n"
+	.string "þau.$"
 
 Help_Text_UsingTypeMatchupList::
-	.string "Using the Type Matchup List$"
+	.string "Að nota tegundarviðmiðunarlistann$"
 
 Help_Text_OwnMoveDark::
-	.string "Own move type: DARK$"
+	.string "Eigin hreyfingartegund: MYRKUR$"
 
 Help_Text_OwnPokemonDark::
-	.string "Own POKéMON type: DARK$"
+	.string "Eigin Vasaskrímsla tegund: MYRKUR$"
 
 Help_Text_OwnMoveRock::
-	.string "Own move type: ROCK$"
+	.string "Eigin hreyfingartegund: BERG$"
 
 Help_Text_OwnPokemonRock::
-	.string "Own POKéMON type: ROCK$"
+	.string "Eigin Vasaskrímsla tegund: STEINN$"
 
 Help_Text_OwnMovePsychic::
-	.string "Own move type: PSYCHIC$"
+	.string "Eigin hreyfingartegund: SÁLAR$"
 
 Help_Text_OwnPokemonPsychic::
-	.string "Own POKéMON type: PSYCHIC$"
+	.string "Eigin Vasaskrímsla tegund: HUGAR$"
 
 Help_Text_OwnMoveFighting::
-	.string "Own move type: FIGHTING$"
+	.string "Eigin hreyfingartegund: BERJAST$"
 
 Help_Text_OwnPokemonFighting::
-	.string "Own POKéMON type: FIGHTING$"
+	.string "Eigin Vasaskrímsla tegund: BARDAGI$"
 
 Help_Text_OwnMoveGrass::
-	.string "Own move type: GRASS$"
+	.string "Eigin hreyfingartegund: GRAS$"
 
 Help_Text_OwnPokemonGrass::
-	.string "Own POKéMON type: GRASS$"
+	.string "Eigin Vasaskrímsla tegund: GRAS$"
 
 Help_Text_OwnMoveGhost::
-	.string "Own move type: GHOST$"
+	.string "Eigin hreyfingartegund: DRAUGUR$"
 
 Help_Text_OwnPokemonGhost::
-	.string "Own POKéMON type: GHOST$"
+	.string "Eigin Vasaskrímsla tegund: DRAUGUR$"
 
 Help_Text_OwnMoveIce::
-	.string "Own move type: ICE$"
+	.string "Eigin hreyfingartegund: ÍS$"
 
 Help_Text_OwnPokemonIce::
-	.string "Own POKéMON type: ICE$"
+	.string "Eigin Vasaskrímsla tegund: ÍS$"
 
 Help_Text_OwnMoveGround::
-	.string "Own move type: GROUND$"
+	.string "Eigin hreyfingartegund: JÖRÐ$"
 
 Help_Text_OwnPokemonGround::
-	.string "Own POKéMON type: GROUND$"
+	.string "Eigin Vasaskrímsla tegund: JÖRÐ$"
 
 Help_Text_OwnMoveElectric::
-	.string "Own move type: ELECTRIC$"
+	.string "Eigin hreyfingartegund: RAFMAGN$"
 
 Help_Text_OwnPokemonElectric::
-	.string "Own POKéMON type: ELECTRIC$"
+	.string "Eigin Vasaskrímsla tegund: RAFMAGN$"
 
 Help_Text_OwnMovePoison::
-	.string "Own move type: POISON$"
+	.string "Eigin hreyfingartegund: EITUR$"
 
 Help_Text_OwnPokemonPoison::
-	.string "Own POKéMON type: POISON$"
+	.string "Eigin Vasaskrímsla tegund: EITUR$"
 
 Help_Text_OwnMoveDragon::
-	.string "Own move type: DRAGON$"
+	.string "Eigin hreyfingartegund: DREKI$"
 
 Help_Text_OwnPokemonDragon::
-	.string "Own POKéMON type: DRAGON$"
+	.string "Eigin Vasaskrímsla tegund: DREKI$"
 
 Help_Text_OwnMoveNormal::
-	.string "Own move type: NORMAL$"
+	.string "Eigin hreyfingartegund: VENJULEG$"
 
 Help_Text_OwnPokemonNormal::
-	.string "Own POKéMON type: NORMAL$"
+	.string "Eigin Vasaskrímsla tegund: VENJULEG$"
 
 Help_Text_OwnMoveSteel::
-	.string "Own move type: STEEL$"
+	.string "Eigin hreyfingartegund: STÁL$"
 
 Help_Text_OwnPokemonSteel::
-	.string "Own POKéMON type: STEEL$"
+	.string "Eigin Vasaskrímsla tegund: STÁL$"
 
 Help_Text_OwnMoveFlying::
-	.string "Own move type: FLYING$"
+	.string "Eigin hreyfingartegund: FLJÚGANDI$"
 
 Help_Text_OwnPokemonFlying::
-	.string "Own POKéMON type: FLYING$"
+	.string "Eigin Vasaskrímsla tegund: FLUG$"
 
 Help_Text_OwnMoveFire::
-	.string "Own move type: FIRE$"
+	.string "Eigin hreyfingartegund: ELDUR$"
 
 Help_Text_OwnPokemonFire::
-	.string "Own POKéMON type: FIRE$"
+	.string "Eigin Vasaskrímsla tegund: ELDUR$"
 
 Help_Text_OwnMoveWater::
-	.string "Own move type: WATER$"
+	.string "Eigin hreyfingartegund: VATN$"
 
 Help_Text_OwnPokemonWater::
-	.string "Own POKéMON type: WATER$"
+	.string "Eigin Vasaskrímsla tegund: VATN$"
 
 Help_Text_OwnMoveBug::
-	.string "Own move type: BUG$"
+	.string "Eigin hreyfingartegund: SKORDÝR$"
 
 Help_Text_OwnPokemonBug::
-	.string "Own POKéMON type: BUG$"
+	.string "Eigin Vasaskrímsla tegund: SKORDÝR$"
 
 Help_Text_HowToUseTypeMatchupList::
-	.string "Depending on the matchup of the\n"
-	.string "move type and the target POKéMON's\l"
-	.string "type, the move's effectiveness varies:\l"
-	.string "{CIRCLE_DOT}: Super effective!\l"
-	.string "{TRIANGLE}: Not very effective\l"
-	.string "{BIG_MULT_X}: Not effective at all\l"
-	.string "(No changes for other matchups.)$"
+	.string "Það fer eftir samsvörun\n"
+	.string "hreyfingartegundar og tegundar\p"
+	.string "Vasaskrímslisins sem er\p"
+	.string "skotmark, virkni hreyfingarinnar er\n"
+	.string "mismunandi: {CIRCLE_DOT}: Ofur\p"
+	.string "virkt! {TRIANGLE}: Ekki mjög virkt\n"
+	.string "{BIG_MULT_X}: Alls ekki virkt\p"
+	.string "(Engar breytingar fyrir aðrar\n"
+	.string "samsvöranir.)$"
 
 Help_Text_TypeMatchupOwnMoveDark::
-	.string "Effect on the opposing POKéMON:\p"
-	.string "   {CIRCLE_DOT}: PSYCHIC, GHOST\p"
-	.string "   {TRIANGLE}: FIGHTING, DARK, STEEL$"
+	.string "Áhrif á andstætt Vasaskrímsli:\p"
+	.string "{CIRCLE_DOT}: HUGAR, DRAUG\p"
+	.string "{TRIANGLE}: BARDAG, MYRKUR, STÁL$"
 
 Help_Text_TypeMatchupOwnPokemonDark::
-	.string "Effect of foe's move on own POKéMON:\p"
-	.string "   {CIRCLE_DOT}: FIGHTING, BUG\p"
-	.string "   {TRIANGLE}: GHOST, DARK\p"
-	.string "   {BIG_MULT_X}: PSYCHIC$"
+	.string "Áhrif árásar óvinar á eigið\n"
+	.string "Vasaskrímsli:\p"
+	.string "{CIRCLE_DOT}: BARDAG, SKORDÝ\p"
+	.string "{TRIANGLE}: DRAUG, MYRKUR\p"
+	.string "{BIG_MULT_X}: HUGAR$"
 
 Help_Text_TypeMatchupOwnMoveRock::
-	.string "Effect on the opposing POKéMON:\p"
-	.string "   {CIRCLE_DOT}: FIRE, ICE, FLYING, BUG\p"
-	.string "   {TRIANGLE}: FIGHTING, GROUND, STEEL$"
+	.string "Áhrif á andstætt Vasaskrímsli:\p"
+	.string "{CIRCLE_DOT}: ELDUR, ÍS, FLUG,\n"
+	.string "SKORDÝ\p"
+	.string "{TRIANGLE}: BARDAG, JÖRÐ, STÁL$"
 
 Help_Text_TypeMatchupOwnPokemonRock::
-	.string "Effect of foe's move on own POKéMON:\p"
-	.string "   {CIRCLE_DOT}: WATER, GRASS, FIGHTING,\n"
-	.string "       GROUND, STEEL\p"
-	.string "   {TRIANGLE}: NORMAL, FIRE, POISON, FLYING$"
+	.string "Áhrif árásar óvinar á eigið\n"
+	.string "Vasaskrímsli:\p"
+	.string "{CIRCLE_DOT}: VATN, GRAS, BARDAG,\n"
+	.string "JÖRÐ, STÁL\p"
+	.string "{TRIANGLE}: VENJL., ELDUR, EITUR,\n"
+	.string "FLUG$"
 
 Help_Text_TypeMatchupOwnMovePsychic::
-	.string "Effect on the opposing POKéMON:\p"
-	.string "   {CIRCLE_DOT}: FIGHTING, POISON\p"
-	.string "   {TRIANGLE}: PSYCHIC, STEEL\p"
-	.string "   {BIG_MULT_X}: DARK$"
+	.string "Áhrif á andstætt Vasaskrímsli:\p"
+	.string "{CIRCLE_DOT}: BARDAG, EITUR\p"
+	.string "{TRIANGLE}: HUGAR, STÁL\p"
+	.string "{BIG_MULT_X}: MYRKUR$"
 
 Help_Text_TypeMatchupOwnPokemonPsychic::
-	.string "Effect of foe's move on own POKéMON:\p"
-	.string "   {CIRCLE_DOT}: BUG, GHOST, DARK\p"
-	.string "   {TRIANGLE}: FIGHTING, PSYCHIC$"
+	.string "Áhrif árásar óvinar á eigið\n"
+	.string "Vasaskrímsli:\p"
+	.string "{CIRCLE_DOT}: SKORDÝ, DRAUG, MYRKUR\p"
+	.string "{TRIANGLE}: BARDAG, HUGAR$"
 
 Help_Text_TypeMatchupOwnMoveFighting::
-	.string "Effect on the opposing POKéMON:\p"
-	.string "   {CIRCLE_DOT}: NORMAL, ICE, ROCK, DARK, STEEL\p"
-	.string "   {TRIANGLE}: POISON, FLYING, PSYCHIC, BUG\p"
-	.string "   {BIG_MULT_X}: GHOST$"
+	.string "Áhrif á andstætt Vasaskrímsli:\p"
+	.string "{CIRCLE_DOT}: VENJL., ÍS, STEINN,\n"
+	.string "MYRKUR, STÁL\p"
+	.string "{TRIANGLE}: EITUR, FLUG, HUGAR,\n"
+	.string "SKORDÝ\p"
+	.string "{BIG_MULT_X}: DRAUG$"
 
 Help_Text_TypeMatchupOwnPokemonFighting::
-	.string "Effect of foe's move on own POKéMON:\p"
-	.string "   {CIRCLE_DOT}: FLYING, PSYCHIC\p"
-	.string "   {TRIANGLE}: BUG, ROCK, DARK$"
+	.string "Áhrif árásar óvinar á eigið\n"
+	.string "Vasaskrímsli:\p"
+	.string "{CIRCLE_DOT}: FLUG, HUGAR\p"
+	.string "{TRIANGLE}: SKORDÝ, STEINN, MYRKUR$"
 
 Help_Text_TypeMatchupOwnMoveGrass::
-	.string "Effect on the opposing POKéMON:\p"
-	.string "   {CIRCLE_DOT}: WATER, GROUND, ROCK\p"
-	.string "   {TRIANGLE}: FIRE, GRASS, POISON, FLYING,\n"
-	.string "       BUG, DRAGON, STEEL$"
+	.string "Áhrif á Vasaskrímsli andstæðingsins:\p"
+	.string "{CIRCLE_DOT}: VATN, JÖRÐ, STEINN\p"
+	.string "{TRIANGLE}: ELDUR, GRAS, EITUR,\n"
+	.string "FLUG, SKORDÝR, DREKI, STÁL$"
 
 Help_Text_TypeMatchupOwnPokemonGrass::
-	.string "Effect of foe's move on own POKéMON:\p"
-	.string "   {CIRCLE_DOT}: FIRE, ICE, POISON, FLYING, BUG\p"
-	.string "   {TRIANGLE}: WATER, ELECTRIC, GRASS, GROUND$"
+	.string "Áhrif árásar óvinar á eigið\n"
+	.string "Vasaskrímsli:\p"
+	.string "{CIRCLE_DOT}: ELDUR, ÍS, EITUR,\n"
+	.string "FLUG, SKORDÝR\p"
+	.string "{TRIANGLE}: VATN, RAFMAGN, GRAS,\n"
+	.string "JÖRÐ$"
 
 Help_Text_TypeMatchupOwnMoveGhost::
-	.string "Effect on the opposing POKéMON:\p"
-	.string "   {CIRCLE_DOT}: PSYCHIC, GHOST\p"
-	.string "   {TRIANGLE}: DARK, STEEL\p"
-	.string "   {BIG_MULT_X}: NORMAL$"
+	.string "Áhrif á Vasaskrímsli andstæðingsins:\p"
+	.string "{CIRCLE_DOT}: HUGAR, DRAUGUR\p"
+	.string "{TRIANGLE}: MYRKUR, STÁL\p"
+	.string "{BIG_MULT_X}: VENJULEG$"
 
 Help_Text_TypeMatchupOwnPokemonGhost::
-	.string "Effect of foe's move on own POKéMON:\p"
-	.string "   {CIRCLE_DOT}: GHOST, DARK\p"
-	.string "   {TRIANGLE}: POISON, BUG\p"
-	.string "   {BIG_MULT_X}: NORMAL, FIGHTING$"
+	.string "Áhrif árásar óvinar á eigið\n"
+	.string "Vasaskrímsli:\p"
+	.string "{CIRCLE_DOT}: DRAUGUR, MYRKUR\p"
+	.string "{TRIANGLE}: EITUR, SKORDÝR\p"
+	.string "{BIG_MULT_X}: VENJULEG, BARDAGI$"
 
 Help_Text_TypeMatchupOwnMoveIce::
-	.string "Effect on the opposing POKéMON:\p"
-	.string "   {CIRCLE_DOT}: GRASS, GROUND, FLYING, DRAGON\p"
-	.string "   {TRIANGLE}: FIRE, WATER, ICE, STEEL$"
+	.string "Áhrif á Vasaskrímsli andstæðingsins:\p"
+	.string "{CIRCLE_DOT}: GRAS, JÖRÐ, FLUG,\n"
+	.string "DREKI\p"
+	.string "{TRIANGLE}: ELDUR, VATN, ÍS, STÁL$"
 
 Help_Text_TypeMatchupOwnPokemonIce::
-	.string "Effect of foe's move on own POKéMON:\p"
-	.string "   {CIRCLE_DOT}: FIRE, FIGHTING, ROCK, STEEL\p"
-	.string "   {TRIANGLE}: ICE$"
+	.string "Áhrif árásar óvinar á eigið\n"
+	.string "Vasaskrímsli:\p"
+	.string "{CIRCLE_DOT}: ELDUR, BARDAGI,\n"
+	.string "STEINN, STÁL\p"
+	.string "{TRIANGLE}: ÍS$"
 
 Help_Text_TypeMatchupOwnMoveGround::
-	.string "Effect on the opposing POKéMON:\p"
-	.string "   {CIRCLE_DOT}: FIRE, ELECTRIC, POISON, ROCK,\n"
-	.string "       STEEL\p"
-	.string "   {TRIANGLE}: GRASS, BUG\n"
-	.string "   {BIG_MULT_X}: FLYING$"
+	.string "Áhrif á Vasaskrímsli andstæðingsins:\p"
+	.string "{CIRCLE_DOT}: ELDUR, RAFMAGN, EITUR,\n"
+	.string "STEINN, STÁL\p"
+	.string "{TRIANGLE}: GRAS, SKORDÝR\n"
+	.string "{BIG_MULT_X}: FLUG$"
 
 Help_Text_TypeMatchupOwnPokemonGround::
-	.string "Effect of foe's move on own POKéMON:\p"
-	.string "   {CIRCLE_DOT}: WATER, GRASS, ICE\p"
-	.string "   {TRIANGLE}: POISON, ROCK\p"
-	.string "   {BIG_MULT_X}: ELECTRIC$"
+	.string "Áhrif árásar óvinar á eigið\n"
+	.string "Vasaskrímsli:\p"
+	.string "{CIRCLE_DOT}: VATN, GRAS, ÍS\p"
+	.string "{TRIANGLE}: EITUR, STEINN\p"
+	.string "{BIG_MULT_X}: RAFMAGN$"
 
 Help_Text_TypeMatchupOwnMoveElectric::
-	.string "Effect on the opposing POKéMON:\p"
-	.string "   {CIRCLE_DOT}: WATER, FLYING\p"
-	.string "   {TRIANGLE}: ELECTRIC, GRASS, DRAGON\p"
-	.string "   {BIG_MULT_X}: GROUND$"
+	.string "Áhrif á Vasaskrímsli andstæðingsins:\p"
+	.string "{CIRCLE_DOT}: VATN, FLUG\p"
+	.string "{TRIANGLE}: RAFMAGN, GRAS, DREKI\p"
+	.string "{BIG_MULT_X}: JÖRÐ$"
 
 Help_Text_TypeMatchupOwnPokemonElectric::
-	.string "Effect of foe's move on own POKéMON:\p"
-	.string "   {CIRCLE_DOT}: GROUND\p"
-	.string "   {TRIANGLE}: ELECTRIC, FLYING, STEEL$"
+	.string "Áhrif árásar óvinar á eigið\n"
+	.string "Vasaskrímsli:\p"
+	.string "{CIRCLE_DOT}: JÖRÐ\p"
+	.string "{TRIANGLE}: RAFMAGN, FLUG, STÁL$"
 
 Help_Text_TypeMatchupOwnMovePoison::
-	.string "Effect on the opposing POKéMON:\p"
-	.string "   {CIRCLE_DOT}: GRASS\p"
-	.string "   {TRIANGLE}: POISON, GROUND, ROCK, GHOST\p"
-	.string "   {BIG_MULT_X}: STEEL$"
+	.string "Áhrif á Vasaskrímsli andstæðingsins:\p"
+	.string "{CIRCLE_DOT}: GRAS\p"
+	.string "{TRIANGLE}: EITUR, JÖRÐ, STEINN,\n"
+	.string "DRAUGUR\p"
+	.string "{BIG_MULT_X}: STÁL$"
 
 Help_Text_TypeMatchupOwnPokemonPoison::
-	.string "Effect of foe's move on own POKéMON:\p"
-	.string "   {CIRCLE_DOT}: GROUND, PSYCHIC\p"
-	.string "   {TRIANGLE}: GRASS, FIGHTING, POISON, BUG$"
+	.string "Áhrif árásar óvinar á eigið\n"
+	.string "Vasaskrímsli:\p"
+	.string "{CIRCLE_DOT}: JÖRÐ, HUGAR\p"
+	.string "{TRIANGLE}: GRAS, BARDAGI, EITUR,\n"
+	.string "SKORDÝR$"
 
 Help_Text_TypeMatchupOwnMoveDragon::
-	.string "Effect on the opposing POKéMON:\p"
-	.string "   {CIRCLE_DOT}: DRAGON\p"
-	.string "   {TRIANGLE}: STEEL$"
+	.string "Áhrif á Vasaskrímsli andstæðingsins:\p"
+	.string "{CIRCLE_DOT}: DREKI\p"
+	.string "{TRIANGLE}: STÁL$"
 
 Help_Text_TypeMatchupOwnPokemonDragon::
-	.string "Effect of foe's move on own POKéMON:\p"
-	.string "   {CIRCLE_DOT}: ICE, DRAGON\p"
-	.string "   {TRIANGLE}: FIRE, WATER, ELECTRIC, GRASS$"
+	.string "Áhrif árásar óvinar á eigið\n"
+	.string "Vasaskrímsli:\p"
+	.string "{CIRCLE_DOT}: ÍS, DREKI\p"
+	.string "{TRIANGLE}: ELDUR, VATN, RAFMAGN,\n"
+	.string "GRAS$"
 
 Help_Text_TypeMatchupOwnMoveNormal::
-	.string "Effect on the opposing POKéMON:\p"
-	.string "   {TRIANGLE}: ROCK, STEEL\p"
-	.string "   {BIG_MULT_X}: GHOST$"
+	.string "Áhrif á Vasaskrímsli andstæðingsins:\p"
+	.string "{TRIANGLE}: STEINN, STÁL\p"
+	.string "{BIG_MULT_X}: DRAUGUR$"
 
 Help_Text_TypeMatchupOwnPokemonNormal::
-	.string "Effect of foe's move on own POKéMON:\p"
-	.string "   {CIRCLE_DOT}: FIGHTING\p"
-	.string "   {BIG_MULT_X}: GHOST$"
+	.string "Áhrif árásar óvinar á eigið\n"
+	.string "Vasaskrímsli:\p"
+	.string "{CIRCLE_DOT}: BARDAGI\p"
+	.string "{BIG_MULT_X}: DRAUGUR$"
 
 Help_Text_TypeMatchupOwnMoveSteel::
-	.string "Effect on the opposing POKéMON:\p"
-	.string "   {CIRCLE_DOT}: ICE, ROCK\p"
-	.string "   {TRIANGLE}: FIRE, WATER, ELECTRIC, STEEL$"
+	.string "Áhrif á Vasaskrímsli andstæðingsins:\p"
+	.string "{CIRCLE_DOT}: ÍS, STEINN\p"
+	.string "{TRIANGLE}: ELDUR, VATN, RAFMAGN,\n"
+	.string "STÁL$"
 
 Help_Text_TypeMatchupOwnPokemonSteel::
-	.string "Effect of foe's move on own POKéMON:\p"
-	.string "   {CIRCLE_DOT}: FIRE, FIGHTING, GROUND\n"
-	.string "   {TRIANGLE}: NORMAL, GRASS, ICE, FLYING,\l"
-	.string "       PSYCHIC, BUG, ROCK, GHOST,\l"
-	.string "       DRAGON, DARK, STEEL\l"
-	.string "   {BIG_MULT_X}: POISON$"
+	.string "Áhrif árásar óvinar á eigið\n"
+	.string "Vasaskrímsli:\p"
+	.string "{CIRCLE_DOT}: ELDUR, BARDAGI, JÖRÐ\n"
+	.string "{TRIANGLE}: VENJULEG, GRAS, ÍS,\p"
+	.string "FLUG, HUGAR, SKORDÝR, STEINN,\n"
+	.string "DRAUGUR, DREKI, MYRKUR, STÁL\p"
+	.string "{BIG_MULT_X}:\p"
+	.string "EITUR$"
 
 Help_Text_TypeMatchupOwnMoveFlying::
-	.string "Effect on the opposing POKéMON:\p"
-	.string "   {CIRCLE_DOT}: GRASS, FIGHTING, BUG\p"
-	.string "   {TRIANGLE}: ELECTRIC, ROCK, STEEL$"
+	.string "Áhrif á Vasaskrímsli andstæðingsins:\p"
+	.string "{CIRCLE_DOT}: GRAS, BARDAGI, SKORDÝR\p"
+	.string "{TRIANGLE}: RAFMAGN, STEINN, STÁL$"
 
 Help_Text_TypeMatchupOwnPokemonFlying::
-	.string "Effect of foe's move on own POKéMON:\p"
-	.string "   {CIRCLE_DOT}: ELECTRIC, ICE, ROCK\p"
-	.string "   {TRIANGLE}: GRASS, FIGHTING, BUG\p"
-	.string "   {BIG_MULT_X}: GROUND$"
+	.string "Áhrif árásar óvinar á eigið\n"
+	.string "Vasaskrímsli:\p"
+	.string "{CIRCLE_DOT}: RAFMAGN, ÍS, STEINN\p"
+	.string "{TRIANGLE}: GRAS, BARDAGI, SKORDÝR\p"
+	.string "{BIG_MULT_X}: JÖRÐ$"
 
 Help_Text_TypeMatchupOwnMoveFire::
-	.string "Effect on the opposing POKéMON:\p"
-	.string "   {CIRCLE_DOT}: GRASS, ICE, BUG, STEEL\p"
-	.string "   {TRIANGLE}: FIRE, WATER, ROCK, DRAGON$"
+	.string "Áhrif á Vasaskrímsli andstæðingsins:\p"
+	.string "{CIRCLE_DOT}: GRAS, ÍS, SKORDÝR,\n"
+	.string "STÁL\p"
+	.string "{TRIANGLE}: ELDUR, VATN, STEINN,\n"
+	.string "DREKI$"
 
 Help_Text_TypeMatchupOwnPokemonFire::
-	.string "Effect of foe's move on own POKéMON:\p"
-	.string "   {CIRCLE_DOT}: WATER, GROUND, ROCK\p"
-	.string "   {TRIANGLE}: FIRE, GRASS, ICE, BUG, STEEL$"
+	.string "Áhrif árásar óvinar á eigið\n"
+	.string "Vasaskrímsli:\p"
+	.string "{CIRCLE_DOT}: VATN, JÖRÐ, STEINN\p"
+	.string "{TRIANGLE}: ELDUR, GRAS, ÍS,\n"
+	.string "SKORDÝR, STÁL$"
 
 Help_Text_TypeMatchupOwnMoveWater::
-	.string "Effect on the opposing POKéMON:\p"
-	.string "   {CIRCLE_DOT}: FIRE, GROUND, ROCK\p"
-	.string "   {TRIANGLE}: WATER, GRASS, DRAGON$"
+	.string "Áhrif á Vasaskrímsli andstæðingsins:\p"
+	.string "{CIRCLE_DOT}: ELDUR, JÖRÐ, STEINN\p"
+	.string "{TRIANGLE}: VATN, GRAS, DREKI$"
 
 Help_Text_TypeMatchupOwnPokemonWater::
-	.string "Effect of foe's move on own POKéMON:\p"
-	.string "   {CIRCLE_DOT}: ELECTRIC, GRASS\p"
-	.string "   {TRIANGLE}: FIRE, WATER, ICE, STEEL$"
+	.string "Áhrif árásar óvinar á eigið\n"
+	.string "Vasaskrímsli:\p"
+	.string "{CIRCLE_DOT}: RAFMAGN, GRAS\p"
+	.string "{TRIANGLE}: ELDUR, VATN, ÍS, STÁL$"
 
 Help_Text_TypeMatchupOwnMoveBug::
-	.string "Effect on the opposing POKéMON:\p"
-	.string "   {CIRCLE_DOT}: GRASS, PSYCHIC, DARK\p"
-	.string "   {TRIANGLE}: FIRE, FIGHTING, POISON,\n"
-	.string "       FLYING, GHOST, STEEL$"
+	.string "Áhrif á Vasaskrímsli andstæðingsins:\p"
+	.string "{CIRCLE_DOT}: GRAS, HUGAR, MYRKUR\p"
+	.string "{TRIANGLE}: ELDUR, BARDAGI, EITUR,\n"
+	.string "FLUG, DRAUGUR, STÁL$"
 
 Help_Text_TypeMatchupOwnPokemonBug::
-	.string "Effect of foe's move on own POKéMON:\p"
-	.string "   {CIRCLE_DOT}: FIRE, FLYING, ROCK\p"
-	.string "   {TRIANGLE}: GRASS, FIGHTING, GROUND$"
-
+	.string "Áhrif árásar óvinar á eigið\n"
+	.string "Vasaskrímsli:\p"
+	.string "{CIRCLE_DOT}: ELDUR, FLUG, STEINN\p"
+	.string "{TRIANGLE}: GRAS, BARDAGI, JÖRÐ$"

@@ -1,156 +1,161 @@
 SixIsland_PatternBush_Text_BethanyIntro::
-    .string "I'm curious, how do you raise your\n"
-    .string "POKéMON?$"
+    .string "Ég er forvitin, hvernig elurðu upp\n"
+    .string "Vasaskrímslin þín?$"
 
 SixIsland_PatternBush_Text_BethanyDefeat::
-    .string "You raise your POKéMON with a\n"
-    .string "whole lot of love!$"
+    .string "Þú elur Vasaskrímslin þín upp með\n"
+    .string "heilmikilli ást!$"
 
 SixIsland_PatternBush_Text_BethanyPostBattle::
-    .string "In the same way your mother raised\n"
-    .string "you full of love, you should raise\l"
-    .string "your POKéMON.$"
+    .string "Á sama hátt og mamma þín ól þig upp\n"
+    .string "með ást, ættirðu að ala\p"
+    .string "Vasaskrímslin þín upp.$"
 
 SixIsland_PatternBush_Text_AllisonIntro::
-    .string "I'm working to preserve the natural\n"
-    .string "ecology of POKéMON here.$"
+    .string "Ég vinn að því að varðveita\n"
+    .string "náttúrulegt vistkerfi Vasaskrímsla\p"
+    .string "hér.$"
 
 SixIsland_PatternBush_Text_AllisonDefeat::
-    .string "Oh, for someone so young, you are\n"
-    .string "tremendous!$"
+    .string "Ó, fyrir einhvern svona ungan, ertu\n"
+    .string "frábær!$"
 
 SixIsland_PatternBush_Text_AllisonPostBattle::
-    .string "I'm not saying that you shouldn't\n"
-    .string "catch POKéMON.\p"
-    .string "I just want people to raise their\n"
-    .string "POKéMON responsibly.$"
+    .string "Ég er ekki að segja að fólk eigi\n"
+    .string "ekki að fanga Vasaskrímsli.\p"
+    .string "Ég vil bara að fólk ali\n"
+    .string "Vasaskrímslin sín upp af ábyrgð.$"
 
 SixIsland_PatternBush_Text_GarretIntro::
-    .string "I caught a BUG POKéMON that lives\n"
-    .string "only around here!$"
+    .string "Ég fangaði SKORDÝRA Vasaskrímsli sem\n"
+    .string "lifir aðeins hér í kring!$"
 
 SixIsland_PatternBush_Text_GarretDefeat::
-    .string "Heheh…\n"
-    .string "Isn't my POKéMON awesome?$"
+    .string "Heheh… Isn't my Vasaskrímsli\n"
+    .string "awesome?$"
 
 SixIsland_PatternBush_Text_GarretPostBattle::
-    .string "There's a girl near the BUSH who\n"
-    .string "measures HERACROSS for TRAINERS.$"
+    .string "Það er stelpa nálægt BUSH sem mælir\n"
+    .string "HORNUXI fyrir TRAINERS.$"
 
 SixIsland_PatternBush_Text_JonahIntro::
-    .string "You know, it just doesn't feel right\n"
-    .string "if I don't use BUG POKéMON.$"
+    .string "Veistu, mér finnst þetta bara ekki\n"
+    .string "rétt ef ég nota ekki SKORDÝRA\p"
+    .string "Vasaskrímsli.$"
 
 SixIsland_PatternBush_Text_JonahDefeat::
-    .string "It's okay, losing is a fun part of\n"
-    .string "POKéMON's appeal, too.$"
+    .string "Það er allt í lagi, að tapa er líka\n"
+    .string "skemmtilegur hluti af aðdráttarafli\p"
+    .string "Vasaskrímsla.$"
 
 SixIsland_PatternBush_Text_JonahPostBattle::
-    .string "By the way, “appeal” is a weird\n"
-    .string "word, if you think about it.\p"
-    .string "Like, is it like an orange peel?\n"
-    .string "Or like a ringing bell?$"
+    .string "Annars er orðið 'aðdráttarafl'\n"
+    .string "svolítið skrítið þegar maður hugsar\p"
+    .string "út í það.\p"
+    .string "Er það eins og maður dragi eitthvað\n"
+    .string "að sér? Eða er það bara eitthvað\p"
+    .string "flott?$"
 
 SixIsland_PatternBush_Text_VanceIntro::
-    .string "Yeah, yeah, yeah!\n"
-    .string "Look at all the BUG POKéMON!$"
+    .string "Já, já, já! Sjáðu öll SKORDÝRA\n"
+    .string "Vasaskrímslin!$"
 
 SixIsland_PatternBush_Text_VanceDefeat::
-    .string "I got beat while I was still busy\n"
-    .string "celebrating!$"
+    .string "Ég var sigraður á meðan ég var enn\n"
+    .string "upptekinn við að fagna!$"
 
 SixIsland_PatternBush_Text_VancePostBattle::
-    .string "I'm going to bring my little brother\n"
-    .string "here next time.$"
+    .string "Ég ætla að koma með litla bróður\n"
+    .string "minn hingað næst.$"
 
 SixIsland_PatternBush_Text_NashIntro::
-    .string "Look, look! There are funny\n"
-    .string "patterns on the ground.$"
+    .string "Sjáðu, sjáðu! Það eru fyndin mynstur\n"
+    .string "á jörðinni.$"
 
 SixIsland_PatternBush_Text_NashDefeat::
-    .string "Super awesome!$"
+    .string "Ofur frábært!$"
 
 SixIsland_PatternBush_Text_NashPostBattle::
-    .string "The funny patterns on the ground…\p"
-    .string "They look like the patterns on my\n"
-    .string "grandpa's clothes.$"
+    .string "Fyndnu mynstrin á jörðinni…\p"
+    .string "Þau líta út eins og mynstrin á fötum\n"
+    .string "afa míns.$"
 
 SixIsland_PatternBush_Text_CordellIntro::
-    .string "I bet you think I'm just some guy,\n"
-    .string "don't you, eh?$"
+    .string "Ég veðja að þú heldur að ég sé bara\n"
+    .string "einhver gaur, er það ekki, ha?$"
 
 SixIsland_PatternBush_Text_CordellDefeat::
-    .string "I bet you think I'm weak,\n"
-    .string "don't you, eh?$"
+    .string "Ég veðja að þú heldur að ég sé\n"
+    .string "veikur, er það ekki, ha?$"
 
 SixIsland_PatternBush_Text_CordellPostBattle::
-    .string "Ayup, you townies come around all\n"
-    .string "so dandy with a hat that flashy…\p"
-    .string "How about giving me that?$"
+    .string "Jájá, þið bæjarbúarnir mætið\nalltaf\n"
+    .string "svo fín með svona\p"
+    .string "glæsilegan\nhatt…\n\nHvernig væri að\n"
+    .string "gefa mér hann?$"
 
 SixIsland_PatternBush_Text_DaliaIntro::
-    .string "Take a deep breath.\n"
-    .string "Isn't the air delicious?$"
+    .string "Dragðu djúpt andann. Er loftið ekki\n"
+    .string "ljúffengt?$"
 
 SixIsland_PatternBush_Text_DaliaDefeat::
-    .string "If you'd like, I can teach you how\n"
-    .string "to breathe properly.$"
+    .string "Ef þú vilt, get ég kennt þér hvernig\n"
+    .string "á að anda rétt.$"
 
 SixIsland_PatternBush_Text_DaliaPostBattle::
-    .string "First, exhale.\n"
-    .string "Blow everything out.\p"
-    .string "When you can't exhale anymore,\n"
-    .string "inhale the clean air!\p"
-    .string "Isn't it refreshing?$"
+    .string "Fyrst, andaðu frá þér. Blástu öllu\n"
+    .string "út.\p"
+    .string "Þegar þú getur ekki andað frá þér\n"
+    .string "meira, andaðu að þér hreinu lofti!\p"
+    .string "Er það ekki hressandi?$"
 
 SixIsland_PatternBush_Text_JoanaIntro::
-    .string "I love BUG POKéMON.\n"
-    .string "That's why I'm here all the time.\p"
-    .string "Am I the only girl like that?$"
+    .string "Ég elska SKORDÝRA Vasaskrímsli. Þess\n"
+    .string "vegna er ég hér allan tímann.\p"
+    .string "Er ég eina stelpan sem er svona?$"
 
 SixIsland_PatternBush_Text_JoanaDefeat::
-    .string "I lost, but I'm still laughing.\n"
-    .string "Am I the only girl like that?$"
+    .string "Ég tapaði, en ég er enn að hlæja. Er\n"
+    .string "ég eina stelpan svona?$"
 
 SixIsland_PatternBush_Text_JoanaPostBattle::
-    .string "I'm going to keep on collecting\n"
-    .string "BUG POKéMON.\p"
-    .string "Am I the only girl like that?$"
+    .string "Ég ætla að halda áfram að safna\n"
+    .string "SKORDÝRA Vasaskrímslum.\p"
+    .string "Er ég eina stelpan sem er svona?$"
 
 SixIsland_PatternBush_Text_RileyIntro::
-    .string "This is a good spot.\n"
-    .string "I'll pitch my tent here.$"
+    .string "Þetta er góður staður. Ég ætla að\n"
+    .string "setja upp tjaldið mitt hér.$"
 
 SixIsland_PatternBush_Text_RileyDefeat::
-    .string "Wimped out…$"
+    .string "Varaðist…$"
 
 SixIsland_PatternBush_Text_RileyPostBattle::
-    .string "I'm going to observe the night sky\n"
-    .string "here.$"
+    .string "Ég ætla að fylgjast með\n"
+    .string "næturhimninum hér.$"
 
 SixIsland_PatternBush_Text_MarcyIntro::
-    .string "Oh, yuck!\n"
-    .string "I think a bug stung me!$"
+    .string "Ó, fyndið! Ég held að skordýr hafi\n"
+    .string "stungið mig!$"
 
 SixIsland_PatternBush_Text_MarcyDefeat::
-    .string "It wasn't a bug.\n"
-    .string "I cut my shin on some grass.$"
+    .string "Það var ekki skordýr. Ég skar\n"
+    .string "sköflunginn minn á einhverju grasi.$"
 
 SixIsland_PatternBush_Text_MarcyPostBattle::
-    .string "A little cut like that…\n"
-    .string "A little spit's enough to cure it!$"
+    .string "Svona lítil rispa… Smá munnvatn\n"
+    .string "dugar til að lækna hana!$"
 
 SixIsland_PatternBush_Text_LaytonIntro::
-    .string "Have you noticed something odd\n"
-    .string "about these parts?$"
+    .string "Hefurðu tekið eftir einhverju\n"
+    .string "undarlegu við þessa staði?$"
 
 SixIsland_PatternBush_Text_LaytonDefeat::
-    .string "Have you taken a good look around\n"
-    .string "your feet?$"
+    .string "Hefurðu skoðað vel í kringum fæturna\n"
+    .string "á þér?$"
 
 SixIsland_PatternBush_Text_LaytonPostBattle::
-    .string "There are places here in PATTERN\n"
-    .string "BUSH where grass won't grow.\p"
-    .string "What could be the cause of such\n"
-    .string "a phenomenon?$"
-
+    .string "Það eru staðir hér í PATTERN BUSH\n"
+    .string "þar sem gras vex ekki.\p"
+    .string "Hver gæti verið orsök slíks\n"
+    .string "fyrirbæris?$"

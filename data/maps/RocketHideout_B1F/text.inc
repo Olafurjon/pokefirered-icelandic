@@ -1,53 +1,50 @@
 RocketHideout_B1F_Text_Grunt1Intro::
-    .string "Who are you?\n"
-    .string "How did you get here?$"
+    .string "Hver ert þú? Hvernig komst þú hingað?$"
 
 RocketHideout_B1F_Text_Grunt1Defeat::
-    .string "Oww!\n"
-    .string "Beaten!$"
+    .string "Ái! Sigraður!$"
 
 RocketHideout_B1F_Text_Grunt1PostBattle::
-    .string "Blast it… You're dissing TEAM\n"
-    .string "ROCKET, aren't you?$"
+    .string "Fjárinn… Þú ert að móðga\n"
+    .string "ROCKET-GENGIÐ, er það ekki?$"
 
 RocketHideout_B1F_Text_Grunt2Intro::
-    .string "You broke into TEAM ROCKET's\n"
-    .string "operation? What nerve!$"
+    .string "Þú braust inn í aðgerð\n"
+    .string "ROCKET-GENGISINS? Þvílíkt frekja!$"
 
 RocketHideout_B1F_Text_Grunt2Defeat::
-    .string "Boom!$"
+    .string "Búmm!$"
 
 RocketHideout_B1F_Text_Grunt2PostBattle::
-    .string "You're not going to get away with\n"
-    .string "this, brat!$"
+    .string "Þú kemst ekki upp með þetta,\n"
+    .string "krakki!$"
 
 RocketHideout_B1F_Text_Grunt3Intro::
-    .string "Intruder alert!$"
+    .string "Viðvörun! Innbrotsþjófur!$"
 
 RocketHideout_B1F_Text_Grunt3Defeat::
-    .string "I can't do it!$"
+    .string "Ég get þetta ekki!$"
 
 RocketHideout_B1F_Text_Grunt3PostBattle::
-    .string "SILPH SCOPE? Humph!\n"
-    .string "I don't know where it is.$"
+    .string "SILPH SCOPE? Hmpf! Ég veit ekki\n"
+    .string "hvar það er.$"
 
 RocketHideout_B1F_Text_Grunt4Intro::
-    .string "Why did you come here?$"
+    .string "Af hverju komst þú hingað?$"
 
 RocketHideout_B1F_Text_Grunt4Defeat::
-    .string "This won't do!$"
+    .string "Þetta gengur ekki!$"
 
 RocketHideout_B1F_Text_Grunt4PostBattle::
-    .string "Okay, I'll talk…\n"
-    .string "Take the elevator to see my BOSS.$"
+    .string "Allt í lagi, ég tala… Taktu lyftuna\n"
+    .string "til að hitta FORINGJANN minn.$"
 
 RocketHideout_B1F_Text_Grunt5Intro::
-    .string "Are you lost, you little mouse?$"
+    .string "Ertu villtur, litla mús?$"
 
 RocketHideout_B1F_Text_Grunt5Defeat::
-    .string "Why…?$"
+    .string "Af hverju…?$"
 
 RocketHideout_B1F_Text_Grunt5PostBattle::
-    .string "Uh-oh, that ruckus somehow opened\n"
-    .string "the door!$"
-
+    .string "Æi nei, þessi hávaði opnaði einhvern\n"
+    .string "veginn dyrnar!$"

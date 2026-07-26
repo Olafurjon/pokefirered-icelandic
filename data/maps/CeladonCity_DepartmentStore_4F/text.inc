@@ -1,18 +1,19 @@
 CeladonCity_DepartmentStore_4F_Text_GettingPokeDollAsPresent::
-    .string "I'm getting a present for my\n"
-    .string "girlfriend.\p"
-    .string "I guess a POKé DOLL will be it.\n"
-    .string "It's the popular thing.$"
+    .string "Ég er að kaupa gjöf handa kærustunni\n"
+    .string "minni.\p"
+    .string "Ég held að VASa DÚKKA verði fyrir\n"
+    .string "valinu. Hún er vinsæl núna.$"
 
 CeladonCity_DepartmentStore_4F_Text_CanRunAwayWithPokeDoll::
-    .string "I heard something useful.\p"
-    .string "If a wild POKéMON appears, you can\n"
-    .string "distract it with a POKé DOLL.\p"
-    .string "You can run away while the wild\n"
-    .string "POKéMON is distracted.$"
+    .string "Ég heyrði gagnlegt leyndarmál.\p"
+    .string "Ef villt vasaskrímsli birtist\n"
+    .string "geturðu dreift athygli þess með\p"
+    .string "VASa DÚKKU.\p"
+    .string "Þú getur flúið á meðan villta\n"
+    .string "vasaskrímslið er annars hugar.$"
 
 CeladonCity_DepartmentStore_4F_Text_FloorSign::
-    .string "Express yourself with gifts!\n"
-    .string "4F: WISE MAN GIFTS\p"
-    .string "Evolution Special!\n"
-    .string "Element STONES on sale now!$"
+    .string "Tjáðu þig með gjöfum! 4F: GJAFIR FRÁ\n"
+    .string "VITRINGUM\p"
+    .string "Sértilboð fyrir þróun!\n"
+    .string "ÞRÓUNARSTEINAR á útsölu núna!$"

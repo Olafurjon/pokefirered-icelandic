@@ -1,23 +1,21 @@
 CeladonCity_DepartmentStore_5F_Text_ExplainStatEnhancers::
-    .string "POKéMON stat enhancers can be\n"
-    .string "bought only here.\p"
-    .string "HP UP increases the base HP of a\n"
-    .string "POKéMON.\p"
-    .string "CALCIUM raises the base SP. ATK\n"
-    .string "stat of one POKéMON.\p"
-    .string "ZINC boosts the base SP. DEF stat\n"
-    .string "of one POKéMON.\p"
-    .string "CARBOS enhances the base SPEED\n"
-    .string "stat.$"
+    .string "Hér fást tölfræðibætar fyrir\n"
+    .string "vasaskrímsli, eingöngu á þessum\p"
+    .string "stað.\p"
+    .string "HP UP eykur grunn-HP hjá\n"
+    .string "vasaskrímsli.\p"
+    .string "CALCIUM hækkar grunn-SP. ATK\n"
+    .string "tölfræði eins vasaskrímslis.\p"
+    .string "ZINC bætir grunn-SP. DEF tölfræði\n"
+    .string "eins vasaskrímslis.\p"
+    .string "CARBOS eykur grunn-HRAÐA tölfræðina.$"
 
 CeladonCity_DepartmentStore_5F_Text_HereForStatEnhancers::
-    .string "I'm here for POKéMON stat\n"
-    .string "enhancers.\p"
-    .string "PROTEIN increases the base ATTACK\n"
-    .string "power.\p"
-    .string "IRON increases the base DEFENSE\n"
-    .string "stat.$"
+    .string "Ég er hier til að kaupa tölfræðibæta\n"
+    .string "fyrir vasaskrímsli.\p"
+    .string "PROTEIN eykur grunn-ÁRÁSARKRAFT.\p"
+    .string "IRON eykur grunn-VARNARTÖLFRÆÐI.$"
 
 CeladonCity_DepartmentStore_5F_Text_Drugstore::
-    .string "5F: DRUGSTORE$"
+    .string "5F: LYFJABÚÐ$"
 

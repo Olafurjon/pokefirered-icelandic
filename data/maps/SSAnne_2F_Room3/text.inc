@@ -1,12 +1,11 @@
 SSAnne_2F_Room3_Text_SeenMonsFerryPeople::
-    .string "Ah, yes, I have seen some POKéMON\n"
-    .string "ferry people across the water!$"
+    .string "Ah, já, ég hef séð nokkur\n"
+    .string "vasaskrímsli ferja fólk yfir vatnið!$"
 
 SSAnne_2F_Room3_Text_SomeTreesCanBeCutDown::
-    .string "Small trees can be chopped down\n"
-    .string "using the move CUT.\p"
-    .string "But remember this!\n"
-    .string "CUT is an HM technique.\p"
-    .string "Once learned, it is not so easily\n"
-    .string "discarded.$"
+    .string "Lítil tré má höggva niður með\n"
+    .string "hreyfingunni CUT.\p"
+    .string "En mundu þetta! CUT er HM tækni.\p"
+    .string "Þegar hún hefur lærst er ekki\n"
+    .string "auðvelt að losa sig við hana.$"
 

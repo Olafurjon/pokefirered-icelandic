@@ -53,6 +53,14 @@
 #define CHAR_EQUALS            0x35
 #define CHAR_SEMICOLON         0x36
 #define CHAR_BARD_WORD_DELIMIT 0x37 // Empty space to separate words in Bard's song
+#define CHAR_THORN             0x38
+#define CHAR_thorn             0x39
+#define CHAR_AE                0x3A
+#define CHAR_ae                0x3B
+#define CHAR_ETH               0x3C
+#define CHAR_eth               0x3D
+#define CHAR_Y_ACUTE           0x3E
+#define CHAR_y_ACUTE           0x3F
 //
 #define CHAR_EMPTY_RECT        0x50
 #define CHAR_INV_QUESTION_MARK 0x51

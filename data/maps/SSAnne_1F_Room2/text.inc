@@ -1,31 +1,29 @@
 SSAnne_1F_Room2_Text_TylerIntro::
-    .string "I love POKéMON!\n"
-    .string "Do you?$"
+    .string "Ég elska vasaskrímsli! Gerir þú það?$"
 
 SSAnne_1F_Room2_Text_TylerDefeat::
-    .string "Wow! \n"
-    .string "You're great!$"
+    .string "Vá! Þú ert frábær!$"
 
 SSAnne_1F_Room2_Text_TylerPostBattle::
-    .string "Listen, listen!\n"
-    .string "Let me be your friend, okay?\p"
-    .string "Then we can trade POKéMON and\n"
-    .string "do stuff.$"
+    .string "Heyrðu, heyrðu! Leyfðu mér að vera\n"
+    .string "vinur þinn, allt í lagi?\p"
+    .string "Þá getum við skipt á vasaskrímslum\n"
+    .string "og gert allskonar.$"
 
 SSAnne_1F_Room2_Text_AnnIntro::
-    .string "I collected these POKéMON\n"
-    .string "from all around the world!$"
+    .string "Ég safnaði þessum vasaskrímslum frá\n"
+    .string "öllum heimshornum!$"
 
 SSAnne_1F_Room2_Text_AnnDefeat::
-    .string "Oh, no!\n"
-    .string "I went around the world for these!$"
+    .string "Ó, nei! Ég fór um allan heim fyrir\n"
+    .string "þau!$"
 
 SSAnne_1F_Room2_Text_AnnPostBattle::
-    .string "You hurt my poor POKéMON!\p"
-    .string "I demand that you heal them at a\n"
-    .string "POKéMON CENTER!$"
+    .string "Þú meiddir greyið vasaskrímslin mín!\p"
+    .string "Ég krefst þess að þú læknir þau í\n"
+    .string "vasaskrímslamiðstöð!$"
 
 SSAnne_1F_Room2_Text_CruisingAroundWorld::
-    .string "We are cruising around the world,\n"
-    .string "my children and I.$"
+    .string "Við erum í siglingu um heiminn, ég\n"
+    .string "og börnin mín.$"
 

@@ -1,81 +1,79 @@
 SilphCo_5F_Text_RocketsInUproarAboutIntruder::
-    .string "TEAM ROCKET is in an uproar over\n"
-    .string "some intruder.\p"
-    .string "That's you, right?$"
+    .string "ROCKET-GENGIÐ er í uppnámi út af\n"
+    .string "einhverjum innbrotsþjófi.\p"
+    .string "Það ert þú, ekki satt?$"
 
 SilphCo_5F_Text_YoureOurHeroThankYou::
-    .string "TEAM ROCKET took off!\n"
-    .string "You're our hero! Thank you!$"
+    .string "ROCKET-GENGIÐ flúði! Þú ert\n"
+    .string "hetjan okkar! Takk fyrir!$"
 
 SilphCo_5F_Text_Grunt1Intro::
-    .string "I heard a kid was wandering\n"
-    .string "around.$"
+    .string "Ég heyrði að krakki væri á ráfi.$"
 
 SilphCo_5F_Text_Grunt1Defeat::
-    .string "Boom!$"
+    .string "Búmm!$"
 
 SilphCo_5F_Text_Grunt1PostBattle::
-    .string "It's not smart to pick a fight with\n"
-    .string "TEAM ROCKET!$"
+    .string "Það er ekki gáfulegt að hefja slag\n"
+    .string "við ROCKET-GENGIÐ!$"
 
 SilphCo_5F_Text_BeauIntro::
-    .string "We study POKé BALL technology on\n"
-    .string "this floor.$"
+    .string "Við rannsökum VASA BOLTA-tækni á\n"
+    .string "þessari hæð.$"
 
 SilphCo_5F_Text_BeauDefeat::
-    .string "Dang!\n"
-    .string "Blast it!$"
+    .string "Ansans! Fjárinn!$"
 
 SilphCo_5F_Text_BeauPostBattle::
-    .string "We worked on the ultimate POKé\n"
-    .string "BALL which would catch anything.$"
+    .string "Við unnum að fullkomnum VASA BOLTA\n"
+    .string "sem gæti fangað hvað sem er.$"
 
 SilphCo_5F_Text_DaltonIntro::
-    .string "Whaaat?\p"
-    .string "There shouldn't be any children\n"
-    .string "here!$"
+    .string "Hvað?\p"
+    .string "Það eiga engin börn að vera\n"
+    .string "hér!$"
 
 SilphCo_5F_Text_DaltonDefeat::
-    .string "Oh, goodness!$"
+    .string "Ó, góði minn!$"
 
 SilphCo_5F_Text_DaltonPostBattle::
-    .string "You're only on 5F.\n"
-    .string "It's a long way to my BOSS!$"
+    .string "Þú ert bara á 5H. Það er langt\n"
+    .string "til FORINGJANS míns!$"
 
 SilphCo_5F_Text_Grunt2Intro::
-    .string "Show TEAM ROCKET a little respect!$"
+    .string "Sýndu ROCKET-GENGINU smá virðingu!$"
 
 SilphCo_5F_Text_Grunt2Defeat::
-    .string "Cough…\n"
-    .string "Cough…$"
+    .string "Hóst… Hóst…$"
 
 SilphCo_5F_Text_Grunt2PostBattle::
-    .string "Which reminds me.\p"
-    .string "KOFFING evolves into WEEZING!$"
+    .string "Sem minnir mig á…\p"
+    .string "KÍGILDI þróast í PÚSTASKRÁP!$"
 
 SilphCo_5F_Text_PorygonFirstVRMon::
-    .string "It's a POKéMON REPORT!\p"
-    .string "POKéMON LAB created PORYGON,\n"
-    .string "the first virtual-reality POKéMON.$"
+    .string "It's a Vasaskrímsli REPORT!\p"
+    .string "Vasaskrímsli LAB created GRAFÍKJA,\n"
+    .string "fyrsta sýndarveruleika-\p"
+    .string "Vasaskrímsli.$"
 
 SilphCo_5F_Text_Over350TechniquesConfirmed::
-    .string "It's a POKéMON REPORT!\p"
-    .string "Over 350 POKéMON techniques have\n"
-    .string "been confirmed.$"
+    .string "It's a Vasaskrímsli REPORT!\p"
+    .string "Yfir 350 Vasaskrímsla-brögð\n"
+    .string "hafa verið staðfest.$"
 
 SilphCo_5F_Text_SomeMonsEvolveWhenTraded::
-    .string "It's a POKéMON REPORT!\p"
-    .string "Some POKéMON have been confirmed\n"
-    .string "to evolve when they are traded.$"
+    .string "It's a Vasaskrímsli REPORT!\p"
+    .string "Staðfest hefur verið að sum\n"
+    .string "Vasaskrímsli þróast þegar þau eru\p"
+    .string "skipst á þeim.$"
 
 SilphCo_5F_Text_FloorSign::
-    .string "SILPH CO. HEAD OFFICE\n"
-    .string "5F$"
+    .string "SILPH CO. HÖFUÐSKRIFSTOFA 5H$"
 
 SilphCo_5F_Text_RocketBossLookingForStrongMons::
-    .string "Those thugs that took over our\n"
-    .string "building…\p"
-    .string "Their BOSS said he was looking for\n"
-    .string "strong POKéMON.\p"
-    .string "I hope our PRESIDENT managed to\n"
-    .string "avoid trouble…$"
+    .string "Þessir bófar sem tóku yfir\n"
+    .string "bygginguna okkar…\p"
+    .string "FORINGI þeirra sagðist leita að\n"
+    .string "sterkum Vasaskrímslum.\p"
+    .string "Ég vona að FORSTJÓRINN okkar hafi\n"
+    .string "forðast vandræði…$"

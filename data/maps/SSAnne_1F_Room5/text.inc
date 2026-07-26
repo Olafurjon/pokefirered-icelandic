@@ -1,12 +1,11 @@
 SSAnne_1F_Room5_Text_ArthurIntro::
-    .string "You insolent pup!\n"
-    .string "How dare you barge in!$"
+    .string "Þú ósvífni hvolpur! Hvernig vogarðu\n"
+    .string "þér að ruddast inn!$"
 
 SSAnne_1F_Room5_Text_ArthurDefeat::
-    .string "Humph! You rude child!\n"
-    .string "You have no sense of courtesy!$"
+    .string "Hmph! Þú ókurteisa barn! Þú hefur\n"
+    .string "enga háttvísi!$"
 
 SSAnne_1F_Room5_Text_ArthurPostBattle::
-    .string "I wish to be left alone!\n"
-    .string "Get out!$"
+    .string "I wish to be left alone! Get out!$"
 

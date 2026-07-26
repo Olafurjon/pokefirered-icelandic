@@ -1,101 +1,95 @@
 ThreeIsland_BondBridge_Text_NikkiIntro::
-    .string "The salty tang of the sea…\n"
-    .string "It tickles my heart.$"
+    .string "Salt angan hafsins… Hún kitlar\n"
+    .string "hjartað mitt.$"
 
 ThreeIsland_BondBridge_Text_NikkiDefeat::
-    .string "…Sniff, sniff…\n"
-    .string "Something smells unpleasant…$"
+    .string "…Sniff, sniff… Something smells\n"
+    .string "unpleasant…$"
 
 ThreeIsland_BondBridge_Text_NikkiPostBattle::
-    .string "Perhaps that reek is your sweaty\n"
-    .string "POKéMON's body odor…$"
+    .string "Kannski er þessi fýla líkamslyktin\n"
+    .string "af sveittu Vasaskrímslunum þínum…$"
 
 ThreeIsland_BondBridge_Text_VioletIntro::
-    .string "Where are you off to in such\n"
-    .string "a hurry?$"
+    .string "Hvert ertu að fara í svona miklum\n"
+    .string "flýti?$"
 
 ThreeIsland_BondBridge_Text_VioletDefeat::
-    .string "You're raising some wonderful\n"
-    .string "POKéMON.$"
+    .string "Þú ert að ala upp dásamleg\n"
+    .string "Vasaskrímsli.$"
 
 ThreeIsland_BondBridge_Text_VioletPostBattle::
-    .string "If you keep going this way, you'll\n"
-    .string "eventually reach BERRY FOREST.$"
+    .string "Ef þú heldur áfram þessa leið nærðu\n"
+    .string "að lokum BERJA SKÓGI.$"
 
 ThreeIsland_BondBridge_Text_AmiraIntro::
-    .string "My mommy said that I can't swim\n"
-    .string "without my float ring.$"
+    .string "Mamma mín sagði að ég geti ekki synt\n"
+    .string "án flotbaugsins míns.$"
 
 ThreeIsland_BondBridge_Text_AmiraDefeat::
-    .string "Waaah!\n"
-    .string "Waaah!$"
+    .string "Vááá! Vááá!$"
 
 ThreeIsland_BondBridge_Text_AmiraPostBattle::
-    .string "This year, I'm going to finally\n"
-    .string "learn how to swim!$"
+    .string "Í ár ætla ég loksins að læra að\n"
+    .string "synda!$"
 
 ThreeIsland_BondBridge_Text_AlexisIntro::
-    .string "Yay, yay!\n"
-    .string "POKéMON!$"
+    .string "Yay, yay! Vasaskrímsli!$"
 
 ThreeIsland_BondBridge_Text_AlexisDefeat::
-    .string "What happens now?$"
+    .string "Hvað gerist núna?$"
 
 ThreeIsland_BondBridge_Text_AlexisPostBattle::
-    .string "Did I just win?\n"
-    .string "Or did I lose?$"
+    .string "Vann ég bara? Eða tapaði ég?$"
 
 ThreeIsland_BondBridge_Text_TishaIntro::
-    .string "Oh, no, don't come here!\n"
-    .string "Please, stay away from me!$"
+    .string "Ó, nei, ekki koma hingað!\n"
+    .string "Vinsamlegast, haltu þér frá mér!$"
 
 ThreeIsland_BondBridge_Text_TishaDefeat::
-    .string "Okay, you've won!\n"
-    .string "Now will you please go away?$"
+    .string "Allt í lagi, þú hefur unnið! Viltu\n"
+    .string "núna vinsamlegast fara?$"
 
 ThreeIsland_BondBridge_Text_TishaPostBattle::
-    .string "A POKéMON bit through my \n"
-    .string "swimsuit.\p"
-    .string "I can't get out of the water!$"
+    .string "Vasaskrímsli beit í gegnum sundfötin\n"
+    .string "mín.\p"
+    .string "Ég kemst ekki upp úr vatninu!$"
 
 ThreeIsland_BondBridge_Text_JoyIntro::
-    .string "JOY: We'll teach you what our\n"
-    .string "favorite POKéMON is!$"
+    .string "JOY: Við kennum þér hvað uppáhalds\n"
+    .string "Vasaskrímslið okkar er!$"
 
 ThreeIsland_BondBridge_Text_JoyDefeat::
-    .string "JOY: Ohh…\n"
-    .string "MEG!$"
+    .string "JOY: Ohh… MEG!$"
 
 ThreeIsland_BondBridge_Text_JoyPostBattle::
-    .string "JOY: Wasn't that fun?\n"
-    .string "I hope we can battle again!$"
+    .string "JOY: Var þetta ekki skemmtilegt? Ég\n"
+    .string "vona að við getum barist aftur!$"
 
 ThreeIsland_BondBridge_Text_JoyNotEnoughMons::
-    .string "JOY: I really want to battle with\n"
-    .string "MEG.\p"
-    .string "One POKéMON isn't enough.$"
+    .string "JOY: Mig langar virkilega að berjast\n"
+    .string "með MEG.\p"
+    .string "Eitt Vasaskrímsli er ekki nóg.$"
 
 ThreeIsland_BondBridge_Text_MegIntro::
-    .string "MEG: We'll show you our favorite\n"
-    .string "POKéMON.$"
+    .string "MEG: Við sýnum þér uppáhalds\n"
+    .string "Vasaskrímslið okkar.$"
 
 ThreeIsland_BondBridge_Text_MegDefeat::
-    .string "MEG: Ohh…\n"
-    .string "JOY!$"
+    .string "MEG: Ohh… JOY!$"
 
 ThreeIsland_BondBridge_Text_MegPostBattle::
-    .string "MEG: JOY, wasn't that fun?$"
+    .string "MEG: JOY, var þetta ekki\n"
+    .string "skemmtilegt?$"
 
 ThreeIsland_BondBridge_Text_MegNotEnoughMons::
-    .string "MEG: I want to battle together\n"
-    .string "with JOY.\p"
-    .string "One POKéMON isn't enough.$"
+    .string "MEG: Ég vil berjast saman með JOY.\p"
+    .string "Eitt Vasaskrímsli er ekki nóg.$"
 
 ThreeIsland_BondBridge_Text_BerryForestAhead::
-    .string "BERRY FOREST AHEAD$"
+    .string "BERJASKÓGUR FRAMUNDAN$"
 
 ThreeIsland_BondBridge_Text_BondBridgeSign::
-    .string "BOND BRIDGE\n"
-    .string "Please be quiet when crossing.\p"
-    .string "BERRY FOREST AHEAD$"
-
+    .string "BOND BRÚ Vinsamlegast hafið hljótt\n"
+    .string "þegar þið farið yfir.\p"
+    .string "BERJA SKÓGUR FRAMUNDAN$"

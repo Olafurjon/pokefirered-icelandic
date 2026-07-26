@@ -1,10 +1,8 @@
 @ Unused
 Text_ItemfinderResponding::
-	.string "おッ！　ダウジングマシンが\n"
-	.string "はんのう　してるぞ！\p"
-	.string "ましたに　どうぐが　うまってる！\n"
-	.string "‥‥‥$"
+	.string "おッ！ ダウジングマシンが はんのう してるぞ！\p"
+	.string "ましたに どうぐが うまってる！ ‥‥‥$"
 
 Text_DugUpItemFromGround::
-	.string "{PLAYER} dug up one {STR_VAR_2}\n"
-	.string "from deep in the ground.$"
+	.string "{PLAYER} gróf upp einn {STR_VAR_2}\n"
+	.string "djúpt úr jörðinni.$"

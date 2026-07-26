@@ -1,20 +1,20 @@
 VermilionCity_House3_Text_PidgeyFlyLetterToSaffron::
-    .string "I'm getting my PIDGEY to fly a\n"
-    .string "letter to SAFFRON in the north.$"
+    .string "Ég læt DÚFUTETUR minn fljúga með\n"
+    .string "bréf til SAFFRON í norðri.$"
 
 VermilionCity_House3_Text_Pidgey::
-    .string "PIDGEY: Kurukkoo!$"
+    .string "DÚFUTETUR: Kurukkoo!$"
 
 VermilionCity_House3_Text_DearPippiLetter::
-    .string "Dear PIPPI,\n"
-    .string "I hope to see you soon.\p"
-    .string "I heard SAFFRON has problems with\n"
-    .string "TEAM ROCKET.\p"
-    .string "VERMILION appears to be safe.$"
+    .string "Kæra PIPPI, ég vona að ég sjái þig\n"
+    .string "brátt.\p"
+    .string "Ég heyrði að SAFFRON ætti í\n"
+    .string "vandræðum með ROCKET-GENGIÐ.\p"
+    .string "VERMILION virðist vera örugg.$"
 
 VermilionCity_House3_Text_SendMyPidgeyToUnionRoom::
-    .string "I want to exchange MAIL with all\n"
-    .string "sorts of people.\p"
-    .string "I send my PIDGEY to a UNION ROOM\n"
-    .string "to exchange MAIL for me.$"
+    .string "Ég vil skiptast á BRÉFUM við alls\n"
+    .string "konar fólk.\p"
+    .string "Ég sendi DÚFUTETUR minn í UNION ROOM\n"
+    .string "til að skipta á BRÉFUM fyrir mig.$"
 

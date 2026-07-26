@@ -1,22 +1,25 @@
 CeruleanCity_House2_Text_RocketsStoleTMForDig::
-    .string "Those miserable ROCKETS!\p"
-    .string "Look what they've done to my\n"
-    .string "house!\p"
-    .string "They stole a TM for teaching\n"
-    .string "POKéMON how to DIG holes!\p"
-    .string "I was going to use it on a\n"
-    .string "MANKEY or a SANDSHREW…\p"
-    .string "That cost me a bundle, it did!$"
+    .string "Þessir ömurlegu ROCKETAR!\p"
+    .string "Sjáðu hvað þeir hafa gert við húsið\n"
+    .string "mitt!\p"
+    .string "Þeir stálu TM-i sem kennir\n"
+    .string "vasaskrímslum að grafa holur með\p"
+    .string "DIG!\p"
+    .string "Ég ætlaði að nota það á SKAPKÖTT eða\n"
+    .string "SANDSNJÁLD...\p"
+    .string "Þetta kostaði mig skildinginn!$"
 
 CeruleanCity_House2_Text_TeachDiglettDigWithoutTM::
-    .string "I figure what's lost is lost.\p"
-    .string "I decided to teach DIGLETT how to\n"
-    .string "DIG without a TM.$"
+    .string "Ég hugsa að það sem er glatað sé\n"
+    .string "glatað.\p"
+    .string "Ég ákvað að kenna GRAFLARA að nota\n"
+    .string "DIG án TM.$"
 
 CeruleanCity_House2_Text_TeamRocketTryingToDigIntoNoGood::
-    .string "TEAM ROCKET must be trying to DIG\n"
-    .string "their way into no good!$"
+    .string "ROCKET-GENGIÐ hlýtur að vera að\n"
+    .string "grafa sig inn í eitthvað misjafnt!$"
 
 CeruleanCity_House2_Text_TeamRocketLeftWayOut::
-    .string "TEAM ROCKET left a way out!$"
+    .string "ROCKET-GENGIÐ skildi eftir\n"
+    .string "útgönguleið!$"
 

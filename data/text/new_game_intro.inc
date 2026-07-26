@@ -1,17 +1,17 @@
 gOtherText_NewName::
-    .string "NEW NAME$"
+    .string "NÝTT NAFN$"
 
 gNameChoice_Green::
-    .string "GREEN$"
+    .string "GRÆNN$"
 
 gNameChoice_Red::
-    .string "RED$"
+    .string "RAUÐUR$"
 
 gNameChoice_Leaf::
-    .string "LEAF$"
+    .string "LAUF$"
 
 gNameChoice_Fire::
-    .string "FIRE$"
+    .string "ELDUR$"
 
 gNameChoice_Gary::
     .string "GARY$"
@@ -125,119 +125,116 @@ gNameChoice_Suzi::
     .string "SUZI$"
 
 gControlsGuide_Text_Intro::
-    .string "The various buttons will be explained in\n"
-    .string "the order of their importance.$"
+    .string "Hér eru hnapparnir útskýrðir\n"
+    .string "í mikilvægustu röð.$"
 
 gControlsGuide_Text_DPad::
-    .string "Moves the main character.\n"
-    .string "Also used to choose various data\n"
-    .string "headings.$"
+    .string "Færir persónuna. Einnig\n"
+    .string "notað til að velja atriði.$"
 
 gControlsGuide_Text_AButton::
-    .string "Used to confirm a choice, check\n"
-    .string "things, chat, and scroll text.$"
+    .string "Staðfestir val og skoðar hluti,\n"
+    .string "spjallar og flettir texta.$"
 
 gControlsGuide_Text_BButton::
-    .string "Used to exit, cancel a choice,\n"
-    .string "and cancel a mode.$"
+    .string "Hættir, fer til baka eða\n"
+    .string "fellir val úr gildi.$"
 
 gControlsGuide_Text_StartButton::
-    .string "Press this button to open the\n"
-    .string "MENU.$"
+    .string "Ýttu á þennan hnapp til að opna\n"
+    .string "VALMYND.$"
 
 gControlsGuide_Text_SelectButton::
-    .string "Used to shift items and to use\n"
-    .string "a registered item.$"
+    .string "Færir hluti og notar\n"
+    .string "skráðan hlut.$"
 
 gControlsGuide_Text_LRButtons::
-    .string "If you need help playing the\n"
-    .string "game, or on how to do things,\n"
-    .string "press the L or R Button.$"
+    .string "Vantar þig hjálp við leikinn\n"
+    .string "eða hvað á að gera?\p"
+    .string "Ýttu þá á L eða R.$"
 
 gOakSpeech_Text_AskPlayerGender::
-    .string "Now tell me. Are you a boy?\n"
-    .string "Or are you a girl?$"
+    .string "Segðu mér. Ertu strákur\n"
+    .string "eða stelpa?$"
 
 gPikachuIntro_Text_Page1::
-    .string "In the world which you are about to\n"
-    .string "enter, you will embark on a grand\n"
-    .string "adventure with you as the hero.\n"
-    .string "\n"
-    .string "Speak to people and check things\n"
-    .string "wherever you go, be it towns, roads,\n"
-    .string "or caves. Gather information and\n"
-    .string "hints from every source.$"
+    .string "Í heiminum sem bíður þín\n"
+    .string "ferð þú í stórt ævintýri,\p"
+    .string "með þig sem hetju. Talaðu\n"
+    .string "við fólk og skoðaðu allt,\p"
+    .string "í bæjum, á leiðum og í\n"
+    .string "hellum. Safnaðu vísbendingum.$"
 
 gPikachuIntro_Text_Page2::
-    .string "New paths will open to you by helping\n"
-    .string "people in need, overcoming challenges,\n"
-    .string "and solving mysteries.\n"
-    .string "\n"
-    .string "At times, you will be challenged by\n"
-    .string "others and attacked by wild creatures.\n"
-    .string "Be brave and keep pushing on.$"
+    .string "Nýjar leiðir opnast þegar\n"
+    .string "þú hjálpar fólki í vanda,\p"
+    .string "sigrar áskoranir og leysir\n"
+    .string "leyndardóma. Stundum munu\p"
+    .string "aðrir skora á þig og villtar\n"
+    .string "verur ráðast á þig.\p"
+    .string "Vertu hugrakkur og haltu áfram.$"
 
 gPikachuIntro_Text_Page3::
-    .string "Through your adventure, we hope\n"
-    .string "that you will interact with all sorts\n"
-    .string "of people and achieve personal growth.\n"
-    .string "That is our biggest objective.\n"
-    .string "\n"
-    .string "Press the A Button, and let your\n"
-    .string "adventure begin!$"
+    .string "Í ævintýrinu vonum við að\n"
+    .string "þú kynnist alls kyns fólki\p"
+    .string "og þroskist sjálfur. Það er\n"
+    .string "stærsta markmið okkar.\p"
+    .string "Ýttu á A og láttu ævintýrið\n"
+    .string "byrja!$"
 
 gOakSpeech_Text_WelcomeToTheWorld::
-    .string "Hello, there!\n"
-    .string "Glad to meet you!\p"
-    .string "Welcome to the world of POKéMON!\p"
-    .string "My name is OAK.\p"
-    .string "People affectionately refer to me\n"
-    .string "as the POKéMON PROFESSOR.\p$"
+    .string "Halló! Gaman að hitta þig!\p"
+    .string "Velkomin í heim Vasaskrímsla!\p"
+    .string "Ég heiti EIK.\p"
+    .string "Fólk kallar mig oft\n"
+    .string "Vasaskrímsla-prófessor.$"
 
 gOakSpeech_Text_ThisWorld::
-    .string "This world…$"
+    .string "Þessi heimur…$"
 
 gOakSpeech_Text_IsInhabitedFarAndWide::
-    .string "…is inhabited far and wide by\n"
-    .string "creatures called POKéMON.\p$"
+    .string "…er víða byggður verum\n"
+    .string "sem kallast Vasaskrímsli.$"
 
 gOakSpeech_Text_IStudyPokemon::
-    .string "For some people, POKéMON are pets.\n"
-    .string "Others use them for battling.\p"
-    .string "As for myself…\p"
-    .string "I study POKéMON as a profession.\p$"
+    .string "Sumir hafa Vasaskrímsli sem\n"
+    .string "gæludýr. Aðrir nota þau til\p"
+    .string "baráttu.\p"
+    .string "Sjálfur rannsaka ég\n"
+    .string "Vasaskrímsli.$"
 
 gOakSpeech_Text_TellMeALittleAboutYourself::
-    .string "But first, tell me a little about\n"
-    .string "yourself.\p$"
+    .string "En fyrst, segðu mér aðeins frá\n"
+    .string "sjálfum þér.$"
 
 gOakSpeech_Text_YourNameWhatIsIt::
-    .string "Let's begin with your name.\n"
-    .string "What is it?\p$"
+    .string "Byrjum á nafninu þínu.\n"
+    .string "Hvað heitirðu?$"
 
 gOakSpeech_Text_SoYourNameIsPlayer::
-    .string "Right…\n"
-    .string "So your name is {PLAYER}.$"
+    .string "Rétt... Þú heitir {PLAYER}.$"
 
 gOakSpeech_Text_WhatWasHisName::
-    .string "This is my grandson.\p"
-    .string "He's been your rival since you both\n"
-    .string "were babies.\p"
-    .string "…Erm, what was his name now?$"
+    .string "Þetta er barnabarnið mitt.\p"
+    .string "Hann hefur verið keppinautur\n"
+    .string "þinn frá barnæsku.\p"
+    .string "Æ, hvað hét hann aftur?$"
 
 gOakSpeech_Text_YourRivalsNameWhatWasIt::
-    .string "Your rival's name, what was it now?$"
+    .string "Hvað hét keppinautur\n"
+    .string "þinn aftur?$"
 
 gOakSpeech_Text_ConfirmRivalName::
-    .string "…Er, was it {RIVAL}?$"
+    .string "Æ, var það {RIVAL}?$"
 
 gOakSpeech_Text_RememberRivalsName::
-    .string "That's right! I remember now!\n"
-    .string "His name is {RIVAL}!\p$"
+    .string "Já, rétt! Nú man ég! Hann heitir\n"
+    .string "{RIVAL}!$"
 
 gOakSpeech_Text_LetsGo::
     .string "{PLAYER}!\p"
-    .string "Your very own POKéMON legend is\n"
-    .string "about to unfold!\p"
-    .string "A world of dreams and adventures\n"
-    .string "with POKéMON awaits! Let's go!$"
+    .string "Þín eigin Vasaskrímsla-saga\n"
+    .string "er að hefjast!\p"
+    .string "Heimur drauma og ævintýra\n"
+    .string "með Vasaskrímslum bíður!\p"
+    .string "Af stað!$"

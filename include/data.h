@@ -18,7 +18,7 @@ struct MonCoords
 #define GET_MON_COORDS_WIDTH(size)((size >> 4) * 8)
 #define GET_MON_COORDS_HEIGHT(size)((size & 0xF) * 8)
 
-extern const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1];
+extern const u8 gSpeciesNames[][SPECIES_NAME_LENGTH + 1];
 extern const u8 gMoveNames[][MOVE_NAME_LENGTH + 1];
 
 extern const u8 gTrainerClassNames[][13];

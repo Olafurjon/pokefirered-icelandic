@@ -1,11 +1,12 @@
 SSAnne_B1F_Room3_Text_DylanIntro::
-    .string "I like feisty kids like you!$"
+    .string "Mér líkar við fjöruga krakka eins og\n"
+    .string "þig!$"
 
 SSAnne_B1F_Room3_Text_DylanDefeat::
-    .string "Argh!\n"
-    .string "Lost it!$"
+    .string "Argh! Lost it!$"
 
 SSAnne_B1F_Room3_Text_DylanPostBattle::
-    .string "Sea POKéMON live in deep water.\n"
-    .string "You'll need a ROD to fish them up!$"
+    .string "Sjávarvasaskrímsli búa í djúpu\n"
+    .string "vatni. Þú þarft STÖNG til að veiða\p"
+    .string "þau upp!$"
 

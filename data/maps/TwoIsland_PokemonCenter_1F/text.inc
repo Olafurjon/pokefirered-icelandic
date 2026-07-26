@@ -1,14 +1,13 @@
 TwoIsland_PokemonCenter_1F_Text_HaveYouVisitedGameCorner::
-    .string "Have you visited the GAME CORNER\n"
-    .string "already?\p"
-    .string "It's no good to go alone.\n"
-    .string "You have to take a friend along.$"
+    .string "Hefurðu heimsótt LEIKJAHORNIÐ nú\n"
+    .string "þegar?\p"
+    .string "Það er ekki gott að fara ein/n. Þú\n"
+    .string "þarft að taka vin með.$"
 
 TwoIsland_PokemonCenter_1F_Text_OldLadyLivesOutOnCape::
-    .string "Not many people live on\n"
-    .string "TWO ISLAND.\p"
-    .string "There is this old lady who lives\n"
-    .string "out on the cape.\p"
-    .string "She's been there since I don't know\n"
-    .string "when.$"
+    .string "Ekki margir búa á ANNARRI EYJU.\p"
+    .string "Það er gömul kona sem býr úti á\n"
+    .string "tanganum.\p"
+    .string "Hún hefur verið þar frá því enginn\n"
+    .string "man hvenær.$"
 

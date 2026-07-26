@@ -1,162 +1,159 @@
 Route8_Text_AidanIntro::
-    .string "You look good at POKéMON, but how\n"
-    .string "is your chemistry grade?$"
+    .string "Þú virðist góð/ur í Vasaskrímslum,\n"
+    .string "en hvernig gengur þér í efnafræði?$"
 
 Route8_Text_AidanDefeat::
-    .string "Ow!\n"
-    .string "Meltdown!$"
+    .string "Ó! Bráðnun!$"
 
 Route8_Text_AidanPostBattle::
-    .string "I am better at school than this!$"
+    .string "Ég er betri í skóla en þessu!$"
 
 Route8_Text_StanIntro::
-    .string "All right!\n"
-    .string "Let's play a game!$"
+    .string "Allt í lagi! Spilum leik!$"
 
 Route8_Text_StanDefeat::
-    .string "Drat!\n"
-    .string "Came up short!$"
+    .string "Helvítis! Kom upp stutt!$"
 
 Route8_Text_StanPostBattle::
-    .string "Things didn't work today.$"
+    .string "Hlutirnir gengu ekki í dag.$"
 
 Route8_Text_GlennIntro::
-    .string "You should be informed.\n"
-    .string "You need strategy to win at this!$"
+    .string "Þú ættir að vera upplýstur. Þú þarft\n"
+    .string "stefnu til að vinna í þessu!$"
 
 Route8_Text_GlennDefeat::
-    .string "It's not logical!$"
+    .string "Það er ekki rökrétt!$"
 
 Route8_Text_GlennPostBattle::
-    .string "Go with GRIMER first…and…\n"
-    .string "…and…then…$"
+    .string "Byrja á DRULLUPOLL… og… og svo…$"
 
 Route8_Text_PaigeIntro::
-    .string "I like NIDORAN, so I collect them!$"
+    .string "Mér líkar við NIDORAN, svo ég safna\n"
+    .string "þeim!$"
 
 Route8_Text_PaigeDefeat::
-    .string "Why?\n"
-    .string "Why??$"
+    .string "Af hverju? Af hverju??$"
 
 Route8_Text_PaigePostBattle::
-    .string "When POKéMON grow up, they get\n"
+    .string "When Vasaskrímsli grow up, they get\n"
     .string "ugly! They shouldn't evolve.$"
 
 Route8_Text_LeslieIntro::
-    .string "School is fun, but so are POKéMON.$"
+    .string "Skólinn er skemmtilegur, en\n"
+    .string "Vasaskrímsli líka.$"
 
 Route8_Text_LeslieDefeat::
-    .string "You made it clear to me that\n"
-    .string "I should stick with school.$"
+    .string "Þú gerðir mér ljóst að ég ætti að\n"
+    .string "halda mig við skólann.$"
 
 Route8_Text_LesliePostBattle::
-    .string "I was planning on getting some\n"
-    .string "fresh air for a change, but…\p"
-    .string "We're stuck here because of the\n"
-    .string "gates at SAFFRON.$"
+    .string "Ég ætlaði að fá mér ferskt loft til\n"
+    .string "tilbreytingar, en…\p"
+    .string "Við erum föst hér vegna hliðanna við\n"
+    .string "SAFFRON.$"
 
 Route8_Text_AndreaIntro::
-    .string "MEOWTH is so cute, meow, meow,\n"
-    .string "meow!$"
+    .string "MJÁGJARN er svo sætur, mjá, mjá,\n"
+    .string "mjá!$"
 
 Route8_Text_AndreaDefeat::
-    .string "Meeeeyow!$"
+    .string "Mjááá!$"
 
 Route8_Text_AndreaPostBattle::
-    .string "I think PIDGEY and RATTATA are\n"
-    .string "cute, too!$"
+    .string "Mér finnst DÚFUTETUR og ROTTÓTTUR\n"
+    .string "líka sæt!$"
 
 Route8_Text_MeganIntro::
-    .string "We must look silly standing here\n"
-    .string "like this.$"
+    .string "Við hljótum að líta kjánalega út\n"
+    .string "standandi svona hér.$"
 
 Route8_Text_MeganDefeat::
-    .string "Look what you did to my poor, cute\n"
-    .string "POKéMON!$"
+    .string "Sjáðu hvað þú gerðir við fátæku,\n"
+    .string "sætu Vasaskrímslin mín!$"
 
 Route8_Text_MeganPostBattle::
-    .string "SAFFRON's gatekeeper won't let us\n"
-    .string "go through.\p"
-    .string "I know he's doing his job, but I\n"
-    .string "think he's mean.$"
+    .string "Hliðvörður SAFFRON leyfir okkur ekki\n"
+    .string "að komast í gegn.\p"
+    .string "Ég veit að hann er að sinna starfi\n"
+    .string "sínu, en ég held að hann sé vondur.$"
 
 Route8_Text_RichIntro::
-    .string "I'm a rambling, gaming dude!$"
+    .string "Ég er ráfandi, spilandi gaur!$"
 
 Route8_Text_RichDefeat::
-    .string "Missed the big chance!$"
+    .string "Missti af stóra tækifærinu!$"
 
 Route8_Text_RichPostBattle::
-    .string "Playing games and POKéMON are like\n"
-    .string "eating peanuts! I just can't stop!$"
+    .string "Leikir og Vasaskrímsli eru eins og\n"
+    .string "hnetur! Ég get bara ekki hætt!$"
 
 Route8_Text_JuliaIntro::
-    .string "What's a cute, round, and fluffy\n"
-    .string "POKéMON?$"
+    .string "Hvaða Vasaskrímsli er sætt,\n"
+    .string "kringlótt og loðið?$"
 
 Route8_Text_JuliaDefeat::
     .string "Stop!\p"
-    .string "Don't be so mean to my CLEFAIRY!$"
+    .string "Don't be so mean to my BLEIKÁLFUR!$"
 
 Route8_Text_JuliaPostBattle::
-    .string "I read that CLEFAIRY evolves when\n"
-    .string "it's exposed to a MOON STONE.\p"
-    .string "I read that in a POKéMON JOURNAL.\n"
-    .string "I wonder if it's true?$"
+    .string "Ég las að BLEIKÁLFUR þróist þegar\n"
+    .string "hann verður fyrir áhrifum\p"
+    .string "TUNLSTEINS.\p"
+    .string "Ég las það í Vasaskrímsla-BLAÐI.\n"
+    .string "Ætli það sé satt?$"
 
 Route8_Text_UndergroundPathSign::
-    .string "UNDERGROUND PATH\n"
-    .string "CELADON CITY - LAVENDER TOWN$"
+    .string "JARÐGÖNG CELADON BORG - LAVENDER BÆR$"
 
 Route8_Text_EliIntro::
-    .string "ELI: Twin power is fantastic.\n"
-    .string "Did you know?$"
+    .string "ELI: Tvíburakraftur er frábær.\n"
+    .string "Vissirðu það?$"
 
 Route8_Text_EliDefeat::
-    .string "ELI: But…\n"
-    .string "We used our twin power…$"
+    .string "ELI: En… Við notuðum tvíburakraftinn\n"
+    .string "okkar…$"
 
 Route8_Text_EliPostBattle::
-    .string "ELI: I caught my POKéMON with\n"
-    .string "ANNE!$"
+    .string "ELI: Ég fangaði Vasaskrímslin mín\n"
+    .string "með ANNE!$"
 
 Route8_Text_EliNotEnoughMons::
-    .string "ELI: We can't battle if you don't\n"
-    .string "have two POKéMON.$"
+    .string "ELI: Við getum ekki barist ef þú ert\n"
+    .string "ekki með tvö Vasaskrímsli.$"
 
 Route8_Text_AnneIntro::
-    .string "ANNE: We'll shock you with our twin\n"
-    .string "power!$"
+    .string "ANNE: Við munum sjokkera þig með\n"
+    .string "tvíburar krafti okkar!$"
 
 Route8_Text_AnneDefeat::
-    .string "ANNE: Our twin power…$"
+    .string "ANNE: Tvíburakraftur okkar…$"
 
 Route8_Text_AnnePostBattle::
-    .string "ANNE: I'm raising POKéMON with\n"
-    .string "ELI.$"
+    .string "ANNE: Ég er að ala upp Vasaskrímsli\n"
+    .string "með ELI.$"
 
 Route8_Text_AnneNotEnoughMons::
-    .string "ANNE: Hi, hi! Let's battle!\n"
-    .string "But bring two POKéMON.$"
+    .string "ANNE: Hæ, hæ! Berjumst! En komdu með\n"
+    .string "tvö Vasaskrímsli.$"
 
 Route8_Text_RicardoIntro::
-    .string "My bike's acting up, man.$"
+    .string "Hjólið mitt er að stríða mér, maður.$"
 
 Route8_Text_RicardoDefeat::
-    .string "Aww, man.\n"
-    .string "I'm not into this.$"
+    .string "Æ, maður. Ég er ekki hrifinn af\n"
+    .string "þessu.$"
 
 Route8_Text_RicardoPostBattle::
-    .string "I got grass caught up in my\n"
-    .string "spokes, man.$"
+    .string "Ég fékk gras fast í svasas mínum,\n"
+    .string "maður.$"
 
 Route8_Text_JarenIntro::
-    .string "Clear the way, or I'll run you\n"
-    .string "down!$"
+    .string "Ryðjið brautina, eða ég keyri yfir\n"
+    .string "ykkur!$"
 
 Route8_Text_JarenDefeat::
-    .string "You for real, kid?$"
+    .string "Ertu í alvöru, krakki?$"
 
 Route8_Text_JarenPostBattle::
-    .string "Don't think you're all special and\n"
-    .string "all just because of this.$"
+    .string "Ekki halda að þú sért eitthvað\n"
+    .string "sérstakur bara vegna þessa.$"

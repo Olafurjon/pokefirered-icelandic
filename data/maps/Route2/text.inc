@@ -1,7 +1,6 @@
 Route2_Text_RouteSign::
-    .string "ROUTE 2\n"
-    .string "VIRIDIAN CITY - PEWTER CITY$"
+    .string "LEIÐ 2 VIRIDIAN BORG - PEWTER BORG$"
 
 Route2_Text_DiglettsCave::
-    .string "DIGLETT'S CAVE$"
+    .string "GRAFLARAHELLIR$"
 

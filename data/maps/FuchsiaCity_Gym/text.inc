@@ -1,156 +1,145 @@
 FuchsiaCity_Gym_Text_KogaIntro::
     .string "KOGA: Fwahahaha!\p"
-    .string "A mere child like you dares to\n"
-    .string "challenge me?\p"
-    .string "The very idea makes me shiver\n"
-    .string "with mirth!\p"
-    .string "Very well, I shall show you true\n"
-    .string "terror as a ninja master.\p"
-    .string "Poison brings steady doom.\n"
-    .string "Sleep renders foes helpless.\p"
-    .string "Despair to the creeping horror of\n"
-    .string "POISON-type POKéMON!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
+    .string "Barn eins og þú dirfist að skora á\n"
+    .string "mig?\p"
+    .string "Tilfinningin ein fær mig til að\n"
+    .string "skjálfa af gleði!\p"
+    .string "Jæja þá, ég sýni þér sannan hrylling\n"
+    .string "ninjameistara.\p"
+    .string "Eitur færir stöðugan dauða. Svefn\n"
+    .string "gerir óvini varnarlausa.\p"
+    .string "Örvæntu yfir lævísum hryllingi\n"
+    .string "EITUR-gerðar\p"
+    .string "Vasaskrímsla!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
 
 FuchsiaCity_Gym_Text_KogaDefeat::
-    .string "Humph!\n"
-    .string "You have proven your worth!\p"
-    .string "Here!\n"
-    .string "Take the SOULBADGE!$"
+    .string "Humph! Þú hefur sannað gildi þitt!\p"
+    .string "Hér! Taktu SOULBADGE!$"
 
 FuchsiaCity_Gym_Text_KogaPostBattle::
-    .string "When afflicted by TOXIC, a POKéMON\n"
-    .string "suffers more and more.\p"
-    .string "It suffers worsening damage as the\n"
-    .string "battle wears on!\p"
-    .string "It will surely terrorize foes!$"
+    .string "Þegar Vasaskrímsli verður fyrir\n"
+    .string "EITRUN versnar líðan þess sífellt.\p"
+    .string "Skaðinn eykst eftir því sem\n"
+    .string "bardaginn dregst á langinn!\p"
+    .string "Það mun hræða óvini!$"
 
 FuchsiaCity_Gym_Text_KogaExplainSoulBadge::
-    .string "Now that you have the SOULBADGE,\n"
-    .string "the DEFENSE of your POKéMON rises.\p"
-    .string "It also lets you SURF outside of\n"
-    .string "battle.\p"
-    .string "Ah!\n"
-    .string "Take this, too!$"
+    .string "Nú þegar þú hefur SÁLARMERKIÐ hækkar\n"
+    .string "VÖRN Vasaskrímsla þinna.\p"
+    .string "Það leyfir þér líka að BRIMMA utan\n"
+    .string "bardaga.\p"
+    .string "Ah! Taktu þetta líka!$"
 
 FuchsiaCity_Gym_Text_ReceivedTM06FromKoga::
-    .string "{PLAYER} received TM06\n"
-    .string "from KOGA.$"
+    .string "{PLAYER} fékk TM06 frá KOGA.$"
 
 FuchsiaCity_Gym_Text_KogaExplainTM06::
-    .string "Sealed within that TM06 lies\n"
+    .string "Innsiglað í þeirri TM06 liggur\n"
     .string "TOXIC!\p"
-    .string "It is a secret technique dating\n"
-    .string "back some four hundred years.$"
+    .string "Þetta er leyndartækni sem á rætur\n"
+    .string "sínar að rekja fjögur hundruð ár\p"
+    .string "aftur í tímann.$"
 
 FuchsiaCity_Gym_Text_MakeSpaceForThis::
-    .string "Make space for this, child!$"
+    .string "Gerðu pláss fyrir þetta, barn!$"
 
 FuchsiaCity_Gym_Text_KaydenIntro::
-    .string "Strength isn't the key for POKéMON.\n"
-    .string "Do you understand this?\p"
-    .string "POKéMON is about strategy!\p"
-    .string "I'll show you how strategy can\n"
-    .string "beat brute strength.$"
+    .string "Styrkur er ekki lykillinn að\n"
+    .string "Vasaskrímslum. Skilurðu það?\p"
+    .string "Vasaskrímsli snúast um taktík!\p"
+    .string "Ég sýni þér hvernig taktík sigrar\n"
+    .string "hráan styrk.$"
 
 FuchsiaCity_Gym_Text_KaydenDefeat::
-    .string "What?\n"
-    .string "Extraordinary!$"
+    .string "Hvað? Ótrúlegt!$"
 
 FuchsiaCity_Gym_Text_KaydenPostBattle::
-    .string "So, you mix brawn with brains?\n"
-    .string "Good strategy!\p"
-    .string "That's remarkable for a child\n"
-    .string "TRAINER.$"
+    .string "Svo þú blandar saman krafti og viti?\n"
+    .string "Góð taktík!\p"
+    .string "Það er merkilegt hjá ungum ÞJÁLFARA.$"
 
 FuchsiaCity_Gym_Text_KirkIntro::
-    .string "I was a magician once upon a time.\p"
-    .string "But I dreamt of becoming a ninja,\n"
-    .string "so I joined this GYM.$"
+    .string "Ég var töframaður einu sinni.\p"
+    .string "En ég dreymdi um að verða ninja, svo\n"
+    .string "ég gekk í þennan SALUR.$"
 
 FuchsiaCity_Gym_Text_KirkDefeat::
-    .string "I'm done for!$"
+    .string "Ég er búinn!$"
 
 FuchsiaCity_Gym_Text_KirkPostBattle::
-    .string "Even though I've lost, I will keep\n"
-    .string "training according to the teachings\l"
-    .string "of KOGA, my ninja master.$"
+    .string "Jafnvel þó ég hafi tapað, mun ég\n"
+    .string "halda áfram að æfa samkvæmt\p"
+    .string "kenningum\p"
+    .string "KOGA, ninja meistarans míns.$"
 
 FuchsiaCity_Gym_Text_NateIntro::
-    .string "Let's see you beat my special\n"
-    .string "techniques!$"
+    .string "Sjáum hvort þú getir sigrað\n"
+    .string "sérstakar tækni mínar!$"
 
 FuchsiaCity_Gym_Text_NateDefeat::
-    .string "You had me fooled!$"
+    .string "Þú blekktir mig!$"
 
 FuchsiaCity_Gym_Text_NatePostBattle::
-    .string "I like poison and sleep techniques,\n"
-    .string "as they linger after battle!$"
+    .string "Mér líkar við eitur- og svefntækni,\n"
+    .string "þar sem þær endast eftir bardaga!$"
 
 FuchsiaCity_Gym_Text_PhilIntro::
-    .string "Stop right there!\p"
-    .string "The famed invisible walls of\n"
-    .string "FUCHSIA GYM have you frustrated?$"
+    .string "Stoppaðu strax!\p"
+    .string "Hefurðu orðið pirraður á hinum frægu\n"
+    .string "ósýnilegu veggjum FUCHSIA SALUR?$"
 
 FuchsiaCity_Gym_Text_PhilDefeat::
-    .string "Whoa!\n"
-    .string "You've got it!$"
+    .string "Vá! Þú hefur það!$"
 
 FuchsiaCity_Gym_Text_PhilPostBattle::
-    .string "You impressed me!\n"
-    .string "Here's a hint!\p"
-    .string "Look very closely for gaps in the\n"
-    .string "invisible walls!$"
+    .string "Þú heillaðir mig! Hér er vísbending!\p"
+    .string "Leitaðu mjög vel að eyðum í\n"
+    .string "ósýnilegu veggjunum!$"
 
 FuchsiaCity_Gym_Text_EdgarIntro::
-    .string "I also study the way of the ninja\n"
-    .string "with Master KOGA!\p"
-    .string "Ninja have a long history of using\n"
-    .string "animals!$"
+    .string "Ég læri líka ninjaleiðina með\n"
+    .string "Meistara KOGA!\p"
+    .string "Ninjar hafa langa sögu í notkun\n"
+    .string "dýra!$"
 
 FuchsiaCity_Gym_Text_EdgarDefeat::
-    .string "Awoo!$"
+    .string "Áúú!$"
 
 FuchsiaCity_Gym_Text_EdgarPostBattle::
-    .string "I still have much to learn.$"
+    .string "Ég hef enn mikið að læra.$"
 
 FuchsiaCity_Gym_Text_ShawnIntro::
-    .string "Master KOGA comes from a long line\n"
-    .string "of ninjas.\p"
-    .string "What did you descend from?$"
+    .string "Meistari KOGA kemur úr langri ætt\n"
+    .string "ninja.\p"
+    .string "Hvaðan ert þú kominn?$"
 
 FuchsiaCity_Gym_Text_ShawnDefeat::
-    .string "You're more skilled than I'd\n"
-    .string "thought!$"
+    .string "Þú ert færari en ég hefði haldið!$"
 
 FuchsiaCity_Gym_Text_ShawnPostBattle::
-    .string "Where there is light, there is\n"
-    .string "shadow!\p"
-    .string "Light and shadow!\n"
-    .string "Which do you choose?$"
+    .string "Þar sem er ljós, þar er skuggi!\p"
+    .string "Ljós og skuggi! Hvort velurðu?$"
 
 FuchsiaCity_Gym_Text_GymGuyAdvice::
-    .string "Yo!\n"
-    .string "Champ in the making!\p"
-    .string "FUCHSIA GYM is a tricked-up place.\n"
-    .string "It's riddled with invisible walls!\p"
-    .string "KOGA might appear close, but he's\n"
-    .string "blocked off.\p"
-    .string "You have to find gaps in the walls\n"
-    .string "to reach him.$"
+    .string "Hæ! Verðandi meistari!\p"
+    .string "FUCHSIA SALUR er flókinn staður.\n"
+    .string "Hann er fullur af ósýnilegum\p"
+    .string "veggjum!\p"
+    .string "KOGA gæti virst nálægur, en hann er\n"
+    .string "lokaður af.\p"
+    .string "Þú verður að finna eyður í veggjunum\n"
+    .string "til að ná til hans.$"
 
 FuchsiaCity_Gym_Text_GymGuyPostVictory::
-    .string "It's amazing how ninja can terrify,\n"
-    .string "even now!$"
+    .string "Það er ótrúlegt hvernig ninjar geta\n"
+    .string "hrætt, ennþá!$"
 
 FuchsiaCity_Gym_Text_GymStatue::
-    .string "FUCHSIA POKéMON GYM\n"
-    .string "LEADER: KOGA\p"
-    .string "WINNING TRAINERS:\n"
-    .string "{RIVAL}$"
+    .string "FUCHSIA Vasaskrímslasalur LEIÐTOGI:\n"
+    .string "KOGA\p"
+    .string "SIGURÞJÁLFARAR: {RIVAL}$"
 
 FuchsiaCity_Gym_Text_GymStatuePlayerWon::
-    .string "FUCHSIA POKéMON GYM\n"
-    .string "LEADER: KOGA\p"
-    .string "WINNING TRAINERS:\n"
-    .string "{RIVAL}, {PLAYER}$"
-
+    .string "FUCHSIA Vasaskrímslasalur LEIÐTOGI:\n"
+    .string "KOGA\p"
+    .string "SIGURÞJÁLFARAR: {RIVAL}, {PLAYER}$"

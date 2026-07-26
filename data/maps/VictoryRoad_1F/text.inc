@@ -1,22 +1,21 @@
 VictoryRoad_1F_Text_NaomiIntro::
-    .string "I wonder if you are good enough\n"
-    .string "for me?$"
+    .string "Ég velti því fyrir mér hvort þú sért\n"
+    .string "nógu fær fyrir mig?$"
 
 VictoryRoad_1F_Text_NaomiDefeat::
-    .string "I lost out…$"
+    .string "Ég tapaði…$"
 
 VictoryRoad_1F_Text_NaomiPostBattle::
-    .string "I never wanted to lose to anybody,\n"
-    .string "especially to a younger kid…$"
+    .string "Ég vildi aldrei tapa fyrir neinum,\n"
+    .string "síst af öllu yngra barni…$"
 
 VictoryRoad_1F_Text_RolandoIntro::
-    .string "I can see you're good.\n"
-    .string "Let me see exactly how good!$"
+    .string "Ég sé að þú ert fær. Leyfðu mér að\n"
+    .string "sjá nákvæmlega hversu fær!$"
 
 VictoryRoad_1F_Text_RolandoDefeat::
-    .string "I had a chance…$"
+    .string "Ég átti möguleika…$"
 
 VictoryRoad_1F_Text_RolandoPostBattle::
-    .string "Tch!\n"
-    .string "I concede, you are better than I!$"
-
+    .string "Tsk! Ég viðurkenni það, þú ert\n"
+    .string "betri en ég!$"

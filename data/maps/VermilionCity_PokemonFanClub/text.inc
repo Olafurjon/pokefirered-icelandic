@@ -1,96 +1,98 @@
 VermilionCity_PokemonFanClub_Text_AdmirePikachusTail::
-    .string "Won't you admire my PIKACHU's\n"
-    .string "adorable tail?$"
+    .string "Viltu ekki dást að yndislega halanum\n"
+    .string "á LEIFTURSKO mínum?$"
 
 VermilionCity_PokemonFanClub_Text_PikachuTwiceAsCute::
-    .string "Humph!\p"
-    .string "My PIKACHU is twice as cute as\n"
-    .string "that one!$"
+    .string "Hmph!\p"
+    .string "LEIFTURSKO minn er tvöfalt sætari en\n"
+    .string "þessi!$"
 
 VermilionCity_PokemonFanClub_Text_AdoreMySeel::
-    .string "I just adore my SEEL!\n"
-    .string "It's so lovable!\p"
-    .string "It squeals, “Kyuuuh,” when I\n"
-    .string "hug it!$"
+    .string "Ég dýrka KÓPANGA minn! Hann er svo\n"
+    .string "elskulegur!\p"
+    .string "Hann tístir, Kyuuuh, þegar ég knúsa\n"
+    .string "hann!$"
 
 VermilionCity_PokemonFanClub_Text_SeelFarMoreAttractive::
-    .string "Oh, dear!\p"
-    .string "My SEEL is far more attractive.\n"
-    .string "By double, I would say.$"
+    .string "Ó, kæri minn!\p"
+    .string "KÓPANGI minn er miklu fallegri.\n"
+    .string "Tvöfalt fallegri, myndi ég segja.$"
 
 VermilionCity_PokemonFanClub_Text_Pikachu::
-    .string "PIKACHU: Chu! Pikachu!$"
+    .string "LEIFTURSKO: Chu! Pikachu!$"
 
 VermilionCity_PokemonFanClub_Text_Seel::
-    .string "SEEL: Kyuoo!$"
+    .string "KÓPANGI: Kyuoo!$"
 
 VermilionCity_PokemonFanClub_Text_DidYouComeToHearAboutMyMons::
-    .string "I chair the POKéMON Fan Club!\p"
-    .string "I raise more than a hundred\n"
-    .string "POKéMON!\p"
-    .string "I'm very fussy when it comes to\n"
-    .string "POKéMON! I surely am!\p"
-    .string "So…\p"
-    .string "Did you come visit to hear about\n"
-    .string "my POKéMON?$"
+    .string "Ég er formaður\n"
+    .string "Vasaskrímsla-aðdáendaklúbbsins!\p"
+    .string "Ég ala upp meira en hundrað\n"
+    .string "vasaskrímsli!\p"
+    .string "Ég er mjög vandlátur þegar kemur að\n"
+    .string "vasaskrímslum! Sannarlega!\p"
+    .string "Svo...\p"
+    .string "Komstu í heimsókn til að heyra um\n"
+    .string "vasaskrímslin mín?$"
 
 VermilionCity_PokemonFanClub_Text_ChairmansStory::
-    .string "Good!\n"
-    .string "Then listen up!\p"
-    .string "My favorite RAPIDASH…\p"
-    .string "It's…cute…lovely…smart… \n"
-    .string "plus…amazing…you think so?…\l"
-    .string "oh yes…it's…stunning…\l"
-    .string "kindly…love it!\p"
-    .string "Hug it…when…sleeping…warm\n"
-    .string "and cuddly…spectacular…\l"
-    .string "ravishing…\l"
-    .string "…Oops! Look at the time!\l"
-    .string "I kept you too long!\p"
-    .string "Thanks for hearing me out!\n"
-    .string "I want you to have this!$"
+    .string "Gott! Hlustaðu þá!\p"
+    .string "Uppáhalds ELDKLÁRINN minn...\p"
+    .string "Hann er... sætur... yndislegur...\n"
+    .string "klár... og... magnaður... finnst þér\p"
+    .string "ekki?... ó já... hann er...\n"
+    .string "stórkostlegur... blíður... ég elska\p"
+    .string "hann!\p"
+    .string "Knúsa hann... þegar hann sefur...\n"
+    .string "hlýr og mjúkur... glæsilegur...\p"
+    .string "hrífandi... ...Úps! Sjáðu hvað\n"
+    .string "klukkan er orðin! Ég hélt þér of\p"
+    .string "lengi!\p"
+    .string "Takk fyrir að hlusta á mig! Ég vil\n"
+    .string "að þú fáir þetta!$"
 
 VermilionCity_PokemonFanClub_Text_ReceivedBikeVoucherFromChairman::
-    .string "{PLAYER} received a BIKE VOUCHER\n"
-    .string "from the CHAIRMAN.$"
+    .string "{PLAYER} fékk REIÐHJÓLSMIÐA frá\n"
+    .string "FORMANNINUM.$"
 
 VermilionCity_PokemonFanClub_Text_ExplainBikeVoucher::
-    .string "Take that BIKE VOUCHER to the\n"
-    .string "BIKE SHOP in CERULEAN CITY.\p"
-    .string "Exchange that for a BICYCLE\n"
-    .string "free of charge!\p"
-    .string "Don't worry, my favorite FEAROW\n"
-    .string "will FLY me anywhere I need to go.\p"
-    .string "So, I have no need for a BICYCLE.\p"
-    .string "I hope you like cycling!$"
+    .string "Farðu með REIÐHJÓLSMIÐANN í\n"
+    .string "HJÓLABÚÐINA í CERULEAN BORG.\p"
+    .string "Skiptu honum fyrir REIÐHJÓL, alveg\n"
+    .string "ókeypis!\p"
+    .string "Ekki hafa áhyggjur, uppáhalds\n"
+    .string "GEIGHEGRINN minn getur FLY mig hvert\p"
+    .string "sem ég þarf að fara.\p"
+    .string "Þannig að ég þarf ekkert REIÐHJÓL.\p"
+    .string "Ég vona að þér líki að hjóla!$"
 
 VermilionCity_PokemonFanClub_Text_ComeBackToHearStory::
-    .string "Oh. Come back when you want to\n"
-    .string "hear my story!$"
+    .string "Ó. Komdu aftur þegar þú vilt heyra\n"
+    .string "söguna mína!$"
 
 VermilionCity_PokemonFanClub_Text_DidntComeToSeeAboutMonsAgain::
-    .string "Hello, {PLAYER}!\p"
-    .string "Did you come see me about my\n"
-    .string "POKéMON again?\p"
-    .string "No?\n"
-    .string "Too bad!$"
+    .string "Halló, {PLAYER}!\p"
+    .string "Komstu aftur til að heyra um\n"
+    .string "vasaskrímslin mín?\p"
+    .string "Nei? Verst!$"
 
 VermilionCity_PokemonFanClub_Text_MakeRoomForThis::
-    .string "Make room for this!$"
+    .string "Gerðu pláss fyrir þetta!$"
 
 VermilionCity_PokemonFanClub_Text_ChairmanVeryVocalAboutPokemon::
-    .string "Our CHAIRMAN is very vocal about\n"
-    .string "POKéMON.$"
+    .string "FORMANNINUM okkar verður tíðrætt um\n"
+    .string "vasaskrímsli.$"
 
 VermilionCity_PokemonFanClub_Text_ListenPolitelyToOtherTrainers::
-    .string "Let's all listen politely to other\n"
-    .string "TRAINERS!$"
+    .string "Við skulum öll hlusta kurteislega á\n"
+    .string "aðra ÞJÁLFARA!$"
 
 VermilionCity_PokemonFanClub_Text_SomeoneBragsBragBack::
-    .string "If someone brags, brag right back!$"
+    .string "Ef einhver montar sig, montaðu þig\n"
+    .string "þá á móti!$"
 
 VermilionCity_PokemonFanClub_Text_ChairmanReallyAdoresHisMons::
-    .string "Our CHAIRMAN really does adore his\n"
-    .string "POKéMON.\p"
-    .string "But the person who is most liked by\n"
-    .string "POKéMON is DAISY, I think.$"
+    .string "FORMANNINUM okkar þykir sannarlega\n"
+    .string "vænt um vasaskrímslin sín.\p"
+    .string "En manneskjan sem vasaskrímslum\n"
+    .string "líkar best við er DAISY, held ég.$"

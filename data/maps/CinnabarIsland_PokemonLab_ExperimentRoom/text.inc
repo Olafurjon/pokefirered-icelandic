@@ -1,77 +1,77 @@
 Text_MetronomeTeach::
-    .string "Tch-tch-tch!\n"
-    .string "I'll teach you a nifty move.\p"
-    .string "Teach it to a POKéMON, and watch\n"
-    .string "the fun unfold!\p"
-    .string "It's a move called METRONOME.\n"
-    .string "Does it strike your fancy?$"
+    .string "Tsk-tsk-tsk! Ég skal kenna þér\n"
+    .string "snjalla hreyfingu.\p"
+    .string "Kenndu hana vasaskrímsli og horfðu á\n"
+    .string "fjörið hefjast!\p"
+    .string "Hún heitir TAKTMÆLIR. Líst þér á\n"
+    .string "hana?$"
 
 Text_MetronomeDeclined::
-    .string "I tell you, it's a lot of fun!$"
+    .string "Ég segi þér, þetta er mjög\n"
+    .string "skemmtilegt!$"
 
 Text_MetronomeWhichMon::
-    .string "Okay!\n"
-    .string "Which POKéMON should I teach?$"
+    .string "Allt í lagi! Hvaða vasaskrímsli á ég\n"
+    .string "að kenna?$"
 
 Text_MetronomeTaught::
-    .string "Tch-tch-tch!\n"
-    .string "That's the sound of a METRONOME.\p"
-    .string "It tweaks your POKéMON's brain into\n"
-    .string "using moves it doesn't even know.$"
+    .string "Tsk-tsk-tsk! Svona hljómar\n"
+    .string "TAKTMÆLIR.\p"
+    .string "Hann potar í heilann á\n"
+    .string "vasaskrímslinu og lætur það nota\p"
+    .string "hreyfingar sem það kann ekki einu\n"
+    .string "sinni.$"
 
 CinnabarIsland_PokemonLab_ExperimentRoom_Text_HaveYouAFossilForMe::
-    .string "Hiya!\p"
-    .string "I am important doctor.\n"
-    .string "Yes, very much so, indeed.\p"
-    .string "Here, I study rare POKéMON fossils.\n"
-    .string "All the time, I study.\p"
-    .string "You!\n"
-    .string "Have you a fossil for me?$"
+    .string "Hæ!\p"
+    .string "Ég er mikilvægur læknir. Já, mjög\n"
+    .string "mikilvægur, sannarlega.\p"
+    .string "Hér rannsaka ég sjaldgæfa\n"
+    .string "vasaskrímslasteingervinga. Allan\p"
+    .string "tímann rannsaka ég.\p"
+    .string "Þú! Ertu með steingerving handa mér?$"
 
 CinnabarIsland_PokemonLab_ExperimentRoom_Text_NoIsTooBad::
-    .string "No!\n"
-    .string "Is too bad!$"
+    .string "Nei! Það er of slæmt!$"
 
 @ Unused
 CinnabarIsland_PokemonLab_ExperimentRoom_Text_TakesTimeGoForWalkJP::
-    .string "ちょっと　じかん　かかるよ！\p"
-    .string "そこらへんを　すこし\n"
-    .string "ブラブラ　してくると　よろしー！$"
+    .string "Þetta tekur smá tíma!\p"
+    .string "Farðu og röltaðu aðeins um\n"
+    .string "nágrennið!$"
 
 CinnabarIsland_PokemonLab_ExperimentRoom_Text_FossilMonBackToLife::
-    .string "You late.\n"
-    .string "Where were you?\p"
-    .string "Your fossil is back to life!\n"
-    .string "It was {STR_VAR_1} like I think!$"
+    .string "Þú seinn. Hvar varstu?\p"
+    .string "Steingervingurinn þinn lifir aftur!\n"
+    .string "Það var {STR_VAR_1}, eins og ég\p"
+    .string "hélt!$"
 
 CinnabarIsland_PokemonLab_ExperimentRoom_Text_ReceivedMonFromDoctor::
-    .string "{PLAYER} received the {STR_VAR_1}\n"
-    .string "from the doctor.$"
+    .string "{PLAYER} fékk {STR_VAR_1} frá\n"
+    .string "lækninum.$"
 
 @ Unused
 CinnabarIsland_PokemonLab_ExperimentRoom_Text_NoRoomForPokemon::
-    .string "ポケモン　いっぱいで　もてないね！$"
+    .string "Þú ert með of mörg vasaskrímsli!$"
 
 CinnabarIsland_PokemonLab_ExperimentRoom_Text_ThatFossilIsOfMonMakeItLiveAgain::
-    .string "Oh!\n"
-    .string "That is {STR_VAR_2}, it is!\p"
-    .string "It is fossil of {STR_VAR_1},\n"
-    .string "a POKéMON that is already extinct!\p"
-    .string "My Resurrection Machine will make\n"
-    .string "that POKéMON live again!$"
+    .string "Ó! Þetta er {STR_VAR_2}, það er það!\p"
+    .string "Þetta er steingervingur af\n"
+    .string "{STR_VAR_1}, vasaskrímsli sem er\p"
+    .string "þegar útdautt!\p"
+    .string "Upprisuvélin mín mun láta þetta\n"
+    .string "vasaskrímsli lifa aftur!$"
 
 @ TODO: Resolve text dump error below?
 CinnabarIsland_PokemonLab_ExperimentRoom_Text_HandedFossilToWeirdDoctor::
-    .string "So!\n"
-    .string "You hurry and give me that!\p"
-    .string "{FONT_NORMAL}{PLAYER} handed over the\n"
-    .string "{STR_VAR_2} to the weird doctor.$"
+    .string "Svo! Flýttu þér og gefðu mér þetta!\p"
+    .string "{FONT_NORMAL}{PLAYER} afhenti\n"
+    .string "skrýtna lækninum {STR_VAR_2}.$"
 
 CinnabarIsland_PokemonLab_ExperimentRoom_Text_TakesTimeGoForWalk::
-    .string "I take a little time!\n"
-    .string "You go for walk a little while!$"
+    .string "Ég tek smá tíma! Þú ferð í göngutúr\n"
+    .string "á meðan!$"
 
 CinnabarIsland_PokemonLab_ExperimentRoom_Text_YouComeAgain::
-    .string "Aiyah!\n"
-    .string "You come again!$"
+    .string "Aiyah! Þú kemur aftur!$"
 

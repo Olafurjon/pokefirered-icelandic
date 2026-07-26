@@ -1,28 +1,27 @@
 SafariZone_SecretHouse_Text_CongratsYouveWon::
-    .string "Ah! Finally!\p"
-    .string "You're the first person to reach\n"
-    .string "the SECRET HOUSE!\p"
-    .string "Although I made a campaign\n"
-    .string "for our grand opening,\p"
-    .string "I was getting worried that no one\n"
-    .string "would win our campaign prize.\p"
-    .string "Congratulations!\n"
-    .string "You have won!$"
+    .string "Ah! Loksins!\p"
+    .string "Þú ert fyrsta manneskjan til að ná\n"
+    .string "til LEYNDARHÚSSINS!\p"
+    .string "Þótt ég hafi gert herferð fyrir\n"
+    .string "okkar stórkostlegu opnun,\p"
+    .string "var ég farinn að hafa áhyggjur af\n"
+    .string "því að enginn myndi vinna\p"
+    .string "herferðarverðlaunin okkar.\p"
+    .string "Til hamingju! Þú hefur unnið!$"
 
 SafariZone_SecretHouse_Text_ReceivedHM03FromAttendant::
-    .string "{PLAYER} received HM03\n"
-    .string "from the attendant!$"
+    .string "{PLAYER} fékk HM03 frá þjóninum!$"
 
 SafariZone_SecretHouse_Text_ExplainSurf::
-    .string "HM03 is SURF.\p"
-    .string "POKéMON will be able to ferry you\n"
-    .string "across water using it.\p"
-    .string "And, this HM isn't disposable, so\n"
-    .string "you can use it over and over.\p"
-    .string "You're super lucky for winning this\n"
-    .string "fabulous prize!$"
+    .string "HM03 er BRIM.\p"
+    .string "Vasaskrímsli getur flutt þig yfir\n"
+    .string "vatn með henni.\p"
+    .string "Og þessi HM eyðist ekki, svo þú\n"
+    .string "getur notað hana aftur og aftur.\p"
+    .string "Þú ert ofboðslega heppin/n að vinna\n"
+    .string "þessi frábæru verðlaun!$"
 
 SafariZone_SecretHouse_Text_DontHaveRoomForPrize::
-    .string "You don't have room for this\n"
-    .string "fabulous prize!$"
+    .string "Þú hefur ekki pláss fyrir þessi\n"
+    .string "frábæru verðlaun!$"
 

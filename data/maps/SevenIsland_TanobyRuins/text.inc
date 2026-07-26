@@ -1,52 +1,52 @@
 SevenIsland_TanobyRuins_Text_BrandonIntro::
-    .string "Do you know anything about this\n"
-    .string "stone chamber?$"
+    .string "Veistu eitthvað um þetta\n"
+    .string "steinherbergi?$"
 
 SevenIsland_TanobyRuins_Text_BrandonDefeat::
-    .string "That was uncalled for.\n"
-    .string "You didn't have to be so rough.$"
+    .string "Þetta var óþarfi. Þú þurftir ekki að\n"
+    .string "vera svona harkaleg/ur.$"
 
 SevenIsland_TanobyRuins_Text_BrandonPostBattle::
-    .string "The TANOBY RUINS date back at\n"
-    .string "least 1,500 years.\p"
-    .string "But it's a baffling mystery as to\n"
-    .string "why it was built in the first place.$"
+    .string "TANOBY-RÚSTIRNAR eru a.m.k. 1.500\n"
+    .string "ára gamlar.\p"
+    .string "En það er enn ráðgáta hvers vegna\n"
+    .string "þær voru byggðar.$"
 
 SevenIsland_TanobyRuins_Text_BenjaminIntro::
-    .string "A mystic POKéMON is said to sleep\n"
-    .string "inside here.$"
+    .string "Sagt er að dulrænt Vasaskrímsli sofi\n"
+    .string "hér inni.$"
 
 SevenIsland_TanobyRuins_Text_BenjaminDefeat::
-    .string "I'm not much good in battle.$"
+    .string "Ég er ekki mjög góður í bardaga.$"
 
 SevenIsland_TanobyRuins_Text_BenjaminPostBattle::
-    .string "I hear there are other ruins like\n"
-    .string "the one here.\p"
-    .string "Might they be the resting places\n"
-    .string "of other mystic POKéMON?$"
+    .string "Ég heyri að til séu aðrar rústir\n"
+    .string "eins og þessar.\p"
+    .string "Gætu þær verið hvílustaðir annarra\n"
+    .string "dulrænna Vasaskrímsla?$"
 
 SevenIsland_TanobyRuins_Text_EdnaIntro::
-    .string "CLIFFORD is teaching me how to\n"
-    .string "paint.$"
+    .string "CLIFFORD er að kenna mér að mála.$"
 
 SevenIsland_TanobyRuins_Text_EdnaDefeat::
-    .string "We might get in trouble for being\n"
-    .string "noisy here.$"
+    .string "Við gætum lent í vandræðum fyrir að\n"
+    .string "vera hávær hér.$"
 
 SevenIsland_TanobyRuins_Text_EdnaPostBattle::
-    .string "I said that I wanted to paint an\n"
-    .string "old building.\p"
-    .string "So CLIFFORD brought me here.$"
+    .string "Ég sagðist vilja mála gamla\n"
+    .string "byggingu.\p"
+    .string "Þess vegna kom CLIFFORD með mig\n"
+    .string "hingað.$"
 
 SevenIsland_TanobyRuins_Text_CliffordIntro::
-    .string "Today, in addition to our lesson,\n"
-    .string "we came to see the chamber.$"
+    .string "Í dag komum við, auk kennslunnar,\n"
+    .string "til að skoða hólfið.$"
 
 SevenIsland_TanobyRuins_Text_CliffordDefeat::
-    .string "My, how extraordinary.$"
+    .string "Mín, hversu óvenjulegt.$"
 
 SevenIsland_TanobyRuins_Text_CliffordPostBattle::
-    .string "Ah, so you are studying POKéMON\n"
-    .string "on your own…\p"
-    .string "Yes, you certainly are quite the\n"
-    .string "extraordinary person, indeed.$"
+    .string "Ah, svo þú ert að rannsaka\n"
+    .string "Vasaskrímsli upp á eigin spýtur…\p"
+    .string "Já, þú ert sannarlega óvenjuleg\n"
+    .string "manneskja.$"

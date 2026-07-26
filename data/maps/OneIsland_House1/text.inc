@@ -1,9 +1,9 @@
 OneIsland_House1_Text_GazeUponVolcanoOnSunnyDays::
-    .string "On sunny days, I step out and gaze\n"
-    .string "upon the volcano.\p"
-    .string "That's my daily routine.$"
+    .string "Á sólríkum dögum geng ég út og horfi\n"
+    .string "á eldfjallið.\p"
+    .string "Það er mín daglega rútína.$"
 
 OneIsland_House1_Text_LastTimeMtEmberErupted::
-    .string "Let me think… When was the last\n"
-    .string "time MT. EMBER erupted?$"
+    .string "Leyfðu mér að hugsa… Hvenær gaus MT.\n"
+    .string "EMBER síðast?$"
 

@@ -1,75 +1,74 @@
 CinnabarIsland_Text_DoorIsLocked::
-    .string "The door is locked…$"
+    .string "Hurðin er læst...$"
 
 CinnabarIsland_Text_BlaineLivedHereSinceBeforeLab::
-    .string "CINNABAR GYM's BLAINE is quite the\n"
-    .string "odd fellow.\p"
-    .string "He's lived on the island since way\n"
-    .string "before the LAB was built.$"
+    .string "BLAINE úr CINNABAR SAL er ansi\n"
+    .string "sérkennilegur náungi.\p"
+    .string "Hann hefur búið á eyjunni síðan\n"
+    .string "löngu áður en rannsóknarstofan var\p"
+    .string "byggð.$"
 
 CinnabarIsland_Text_ScientistsExperimentInMansion::
-    .string "Scientists conduct experiments \n"
-    .string "in the burned-out building.\p"
-    .string "You know, the one they call the\n"
-    .string "POKéMON MANSION.$"
+    .string "Vísindamenn gera tilraunir í brunna\n"
+    .string "húsinu.\p"
+    .string "Þú veist, húsinu sem þeir kalla\n"
+    .string "VASASKRÍMSLAHERRASETRIÐ.$"
 
 CinnabarIsland_Text_IslandSign::
-    .string "CINNABAR ISLAND\n"
-    .string "The Fiery Town of Burning Desire$"
+    .string "CINNABAR EYJA Eldheitur bær\n"
+    .string "brennandi þráar$"
 
 CinnabarIsland_Text_PokemonLab::
-    .string "POKéMON LAB$"
+    .string "VASASKRÍMSLARANNSÓKNARSTOFA$"
 
 CinnabarIsland_Text_GymSign::
-    .string "CINNABAR ISLAND POKéMON GYM\n"
-    .string "LEADER: BLAINE\l"
-    .string "The Hotheaded Quiz Master!$"
+    .string "CINNABAR EYJU VASASKRÍMSLA-SALUR\n"
+    .string "SALSTJÓRI: BLAINE Eldheiti\p"
+    .string "spurningameistarinn!$"
 
 CinnabarIsland_Text_HeyIfItIsntPlayer::
-    .string "Huh?\n"
-    .string "Hey, if it isn't {PLAYER}!$"
+    .string "Ha? Heyrðu, er þetta ekki {PLAYER}!$"
 
 CinnabarIsland_Text_ComeWithMeToOneIsland::
-    .string "Look, it's me, BILL.\n"
-    .string "Long time no see!\p"
-    .string "I hope you're still using my\n"
-    .string "PC system.\p"
-    .string "Well, listen, since we met up here,\n"
-    .string "how about spending time with me?\p"
-    .string "There's this little island in the far\n"
-    .string "south called ONE ISLAND.\p"
-    .string "A friend invited me, so I'm on my\n"
-    .string "way out there.\p"
-    .string "How about it?\n"
-    .string "Do you feel like coming with me?$"
+    .string "Sjáðu, þetta er ég, BILL. Langt\n"
+    .string "síðan síðast!\p"
+    .string "Ég vona að þú sért enn að nota\n"
+    .string "tölvukerfið mitt.\p"
+    .string "Heyrðu, fyrst við hittumst hér,\n"
+    .string "hvernig væri að koma með mér?\p"
+    .string "Það er lítil eyja langt í suðri sem\n"
+    .string "heitir ONE ISLAND.\p"
+    .string "Vinur minn bauð mér þangað, svo ég\n"
+    .string "er á leiðinni.\p"
+    .string "Hvað segirðu? Langar þig að koma\n"
+    .string "með?$"
 
 CinnabarIsland_Text_AllRightLetsGo::
-    .string "All right, then.\n"
-    .string "Let's go!$"
+    .string "Allt í lagi þá. Förum!$"
 
 CinnabarIsland_Text_IllBeWaitingInPokeCenter::
-    .string "What, are you too busy?\p"
-    .string "Well, all right.\n"
-    .string "The boat hasn't arrived yet anyway.\p"
-    .string "I'll be waiting at the POKéMON\n"
-    .string "CENTER over there.\p"
-    .string "Come see me when you're done with\n"
-    .string "your business here.$"
+    .string "Hvað, ertu of upptekinn?\p"
+    .string "Jæja, allt í lagi. Báturinn er hvort\n"
+    .string "eð er ekki kominn enn.\p"
+    .string "Ég bíð í VASASKRÍMSLAMIÐSTÖÐINNI\n"
+    .string "þarna.\p"
+    .string "Komdu til mín þegar þú ert búinn með\n"
+    .string "erindin þín hér.$"
 
 CinnabarIsland_Text_MyPalsBoatArrived::
-    .string "Looks like my pal's boat arrived,\n"
-    .string "too.\p"
-    .string "He sent it specially here to\n"
-    .string "CINNABAR to pick me up.$"
+    .string "Svo virðist sem bátur vinar míns sé\n"
+    .string "líka kominn.\p"
+    .string "Hann sendi hann sérstaklega hingað\n"
+    .string "til CINNABAR að sækja mig.$"
 
 CinnabarIsland_Text_IfYouHaveTriPassYouCanGoAgain::
-    .string "Hey, wasn't that a long cruise?\p"
-    .string "My buddy CELIO seemed to enjoy\n"
-    .string "your company.\p"
-    .string "I'm sure he'd welcome you if you\n"
-    .string "were to visit him again.\p"
-    .string "If you have a TRI-PASS, you can\n"
-    .string "always take a ferry there from\l"
-    .string "VERMILION PORT.\p"
-    .string "All right, thanks for your company!$"
+    .string "Heyrðu, var þetta ekki löng sigling?\p"
+    .string "Félagi minn CELIO virtist njóta\n"
+    .string "félagsskapar þíns.\p"
+    .string "Ég er viss um að hann tæki vel á\n"
+    .string "móti þér ef þú heimsækir hann aftur.\p"
+    .string "Ef þú ert með ÞRÍPASSA geturðu\n"
+    .string "alltaf tekið ferju þangað frá\p"
+    .string "VERMILION HÖFN.\p"
+    .string "Jæja, takk fyrir félagsskapinn!$"
 

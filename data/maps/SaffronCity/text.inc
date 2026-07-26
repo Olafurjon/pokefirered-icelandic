@@ -1,115 +1,113 @@
 SaffronCity_Text_WhatDoYouWantGetLost::
-    .string "What do you want?\n"
-    .string "Get lost!$"
+    .string "Hvað viltu? Farðu!$"
 
 SaffronCity_Text_BossTakeTownForTeamRocket::
-    .string "BOSS said he'll take this town\n"
-    .string "in the name of TEAM ROCKET!$"
+    .string "YFIRMAÐURINN sagði að hann myndi\n"
+    .string "taka þennan bæ fyrir ROCKET-GENGIÐ!$"
 
 SaffronCity_Text_DontGetDefiantOrIllHurtYou::
-    .string "Don't get defiant!\n"
-    .string "Or I'll have to hurt you!$"
+    .string "Ekki vera þrjóskur! Annars verð ég\n"
+    .string "að meiða þig!$"
 
 SaffronCity_Text_SaffronBelongsToTeamRocket::
-    .string "SAFFRON belongs to TEAM ROCKET!$"
+    .string "SAFFRON tilheyrir ROCKET-GENGINU!$"
 
 SaffronCity_Text_CriminalLifeMakesMeFeelAlive::
-    .string "My life as a criminal makes me feel\n"
-    .string "so alive!$"
+    .string "Líf mitt sem glæpamaður lætur mér\n"
+    .string "líða svo lifandi!$"
 
 SaffronCity_Text_WatchWhereYoureWalking::
-    .string "Ow!\n"
-    .string "Watch where you're walking!$"
+    .string "Æ! Passaðu þig hvar þú gengur!$"
 
 SaffronCity_Text_WeCanExploitMonsAroundWorld::
-    .string "With SILPH under control, we can\n"
-    .string "exploit POKéMON around the world!\p"
-    .string "We'll get stinking rich, yeahah!$"
+    .string "Með SILPH á okkar valdi getum við\n"
+    .string "arðrænt Vasaskrímsli um allan heim!\p"
+    .string "Við verðum moldrík, jáhá!$"
 
 SaffronCity_Text_YouBeatTeamRocket::
-    .string "You beat TEAM ROCKET all alone?\n"
-    .string "That's amazing!$"
+    .string "Þú sigraðir ROCKET-GENGIÐ einn? Það\n"
+    .string "er ótrúlegt!$"
 
 SaffronCity_Text_SafeToGoOutAgain::
-    .string "Yeah! TEAM ROCKET is gone!\n"
-    .string "It's safe to go out again!$"
+    .string "Já! ROCKET-GENGIÐ er farið! Það er\n"
+    .string "óhætt að fara út aftur!$"
 
 SaffronCity_Text_PeopleComingBackToSaffron::
-    .string "People fled from here in droves\n"
-    .string "when those ROCKETS came.\p"
-    .string "They should be flocking back to\n"
-    .string "SAFFRON now.$"
+    .string "Fólk flúði héðan í hrönnum þegar\n"
+    .string "þessir ROCKETS komu.\p"
+    .string "Þeir ættu að streyma aftur til\n"
+    .string "SAFFRON núna.$"
 
 SaffronCity_Text_FlewHereOnPidgeot::
-    .string "I flew here on my PIDGEOT when\n"
-    .string "I read about SILPH.\p"
-    .string "It's already over?\n"
-    .string "I missed the media action…$"
+    .string "Ég flaug hingað á DÚFNASTUR mínum\n"
+    .string "þegar ég frétti af SILPH.\p"
+    .string "Er þetta þegar búið? Ég missti af\n"
+    .string "öllu fjölmiðlafárinu…$"
 
 SaffronCity_Text_Pidgeot::
-    .string "PIDGEOT: Bi bibii!$"
+    .string "DÚFNASTUR: Bi bibii!$"
 
 SaffronCity_Text_SawRocketBossEscaping::
-    .string "I saw the ROCKET BOSS escaping\n"
-    .string "SILPH's building.$"
+    .string "Ég sá ROCKET YFIRMANNINN flýja\n"
+    .string "byggingu SILPH.$"
 
 SaffronCity_Text_ImASecurityGuard::
-    .string "I'm a security guard.\p"
-    .string "Suspicious kids I don't allow in!$"
+    .string "Ég er öryggisvörður.\p"
+    .string "Grunsamleg börn leyfi ég ekki inn!$"
 
 SaffronCity_Text_HesTakingASnooze::
-    .string "…\n"
-    .string "Snore…\p"
+    .string "… Snore…\p"
     .string "Hah! He's taking a snooze!$"
 
 SaffronCity_Text_CitySign::
-    .string "SAFFRON CITY\n"
-    .string "Shining, Golden Land of Commerce$"
+    .string "SAFFRON BORG Glitrandi, Gullna Land\n"
+    .string "Verslunar$"
 
 SaffronCity_Text_FightingDojo::
-    .string "FIGHTING DOJO$"
+    .string "BARDAGADÓJÓ$"
 
 SaffronCity_Text_GymSign::
-    .string "SAFFRON CITY POKéMON GYM\n"
-    .string "LEADER: SABRINA\l"
-    .string "The Master of PSYCHIC POKéMON!$"
+    .string "SAFFRON BORG Vasaskrímslasalur\n"
+    .string "LEIÐTOGI: SABRINA Meistari\p"
+    .string "HUGAR-Vasaskrímsla!$"
 
 SaffronCity_Text_FullHealCuresStatus::
-    .string "TRAINER TIPS\p"
-    .string "FULL HEAL cures all ailments like\n"
-    .string "burns, paralysis, poisoning,\l"
-    .string "freezing, and sleep.\p"
-    .string "It costs a bit more, but it's more\n"
-    .string "convenient than buying other items.$"
+    .string "ÞJÁLFARA RÁÐ\p"
+    .string "FULL HEAL læknar öll mein eins og\n"
+    .string "bruna, lömun, eitrun, frost og\p"
+    .string "svefn.\p"
+    .string "Það kostar aðeins meira, en er\n"
+    .string "þægilegra en að kaupa marga aðra\p"
+    .string "hluti.$"
 
 SaffronCity_Text_GreatBallImprovedCatchRate::
-    .string "TRAINER TIPS\p"
-    .string "The new GREAT BALL offers improved\n"
-    .string "catching rates.\p"
-    .string "Try it on those hard-to-catch\n"
-    .string "POKéMON.$"
+    .string "ÞJÁLFARA RÁÐ\p"
+    .string "Nýi STÓRBOLTINN gefur betri\n"
+    .string "fanglíkur.\p"
+    .string "Prófaðu hann á Vasaskrímsli sem er\n"
+    .string "erfitt að fanga.$"
 
 SaffronCity_Text_SilphCoSign::
-    .string "SILPH CO. OFFICE BUILDING$"
+    .string "SKRIFSTOFUBYGGING SILPH CO.$"
 
 SaffronCity_Text_MrPsychicsHouse::
-    .string "MR. PSYCHIC'S HOUSE$"
+    .string "HÚS HR. SÁLRÆNA$"
 
 SaffronCity_Text_SilphsLatestProduct::
-    .string "SILPH's latest product!\n"
-    .string "Release to be determined…$"
+    .string "SILPH's latest product! Release to\n"
+    .string "be determined…$"
 
 SaffronCity_Text_TrainerFanClubSign::
-    .string "POKéMON TRAINER FAN CLUB\p"
-    .string "Many TRAINERS have scribbled their\n"
-    .string "names on this sign.$"
+    .string "VASaSKRÍMSLAÞJÁLFARA AÐDÁENDAKLÚBBUR\p"
+    .string "Margir ÞJÁLFARAR hafa krotað nöfnin\n"
+    .string "sín á þetta skilti.$"
 
 SaffronCity_Text_HowCanClubNotRecognizeLance::
-    .string "This FAN CLUB…\n"
-    .string "No one here has a clue!\p"
-    .string "How could they not recognize\n"
-    .string "the brilliance that is LANCE?\p"
-    .string "He stands for justice!\n"
-    .string "He's cool, and yet passionate!\l"
-    .string "He's the greatest, LANCE!$"
+    .string "Þessi AÐDÁENDAKLÚBBUR… Enginn hér\n"
+    .string "hefur hugmynd!\p"
+    .string "Hvernig geta þau ekki séð snilldina\n"
+    .string "sem er LANCE?\p"
+    .string "Hann stendur fyrir réttlæti! Hann er\n"
+    .string "svalur, en samt eldheitur! Hann er\p"
+    .string "sá besti, LANCE!$"
 

@@ -1,45 +1,42 @@
 @ The 5 texts below are supposed to be in FourIsland_House1
 Text_BodySlamTeach::
-    .string "Ready?\n"
-    .string "Boing!\p"
-    .string "We're having a BODY SLAM match\n"
-    .string "to see who wimps out first.\p"
-    .string "If you were to join us, you'd be\n"
-    .string "squashed like a bug, though…\p"
-    .string "How about I teach BODY SLAM to\n"
-    .string "a POKéMON of yours instead?$"
+    .string "Tilbúinn? Boing!\p"
+    .string "Við erum í BODY SLAM keppni til að\n"
+    .string "sjá hver gefst fyrst upp.\p"
+    .string "Ef þú tækir þátt yrðirðu samt\n"
+    .string "kraminn eins og pöddur…\p"
+    .string "Hvernig væri að ég kenndi einu\n"
+    .string "Vasaskrímslinu þínu BODY SLAM í\p"
+    .string "staðinn?$"
 
 Text_BodySlamDeclined::
-    .string "Come again!\n"
-    .string "Boing!$"
+    .string "Komdu aftur! Boing!$"
 
 Text_BodySlamWhichMon::
-    .string "Which POKéMON wants to learn how\n"
-    .string "to BODY SLAM?$"
+    .string "Hvaða Vasaskrímsli vill læra BODY\n"
+    .string "SLAM?$"
 
 Text_BodySlamTaught::
-    .string "Boioing!$"
+    .string "Boing!$"
 
 FourIsland_House1_Text_FatMan::
-    .string "それ　ぼよーん！\n"
-    .string "おまえ　おもいなあー！$"
+    .string "それ ぼよーん！ おまえ おもいなあー！$"
 
 FourIsland_PokemonCenter_1F_Text_RareIceMonsInCave::
-    .string "There's a rare kind of ICE POKéMON\n"
-    .string "that lives in the cave.\p"
-    .string "We get a lot of visitors hoping to\n"
-    .string "see that POKéMON.$"
+    .string "Sjaldgæf ÍS-gerð Vasaskrímsla býr í\n"
+    .string "hellinum.\p"
+    .string "Við fáum marga gesti sem vonast til\n"
+    .string "að sjá það Vasaskrímsli.$"
 
 FourIsland_PokemonCenter_1F_Text_DayCarePeopleFoundEggBefore::
-    .string "Oh? A POKéMON EGG?\n"
-    .string "…I have no idea.\p"
-    .string "…Oh, wait. The DAY-CARE people\n"
-    .string "in town were saying something.\p"
-    .string "They said that they'd found EGGS\n"
-    .string "before on their property.$"
+    .string "Ha? Vasaskrímsla EGG? …Ég hef\nekki\n"
+    .string "hugmynd.\n\n…Ó, bíddu. Fólkið á\p"
+    .string "DAGHEIMILINU\ní bænum var að segja\n"
+    .string "eitthvað.\n\nÞau sögðust hafa fundið\p"
+    .string "EGG áður\ná lóðinni sinni.$"
 
 FourIsland_PokemonCenter_1F_Text_NewPokemonJournalHasntArrived::
-    .string "What's this?\p"
-    .string "The new POKéMON JOURNAL hasn't\n"
-    .string "arrived on this island?$"
+    .string "Hvað er þetta?\p"
+    .string "Nýja Vasaskrímsla-BLAÐIÐ hefur ekki\n"
+    .string "komið til þessarar eyju?$"
 

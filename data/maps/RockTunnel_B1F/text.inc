@@ -1,95 +1,91 @@
 RockTunnel_B1F_Text_SofiaIntro::
-    .string "Do you know how you can avoid\n"
-    .string "getting lost in the mountains?\p"
-    .string "You can bend twigs as trail\n"
-    .string "markers.$"
+    .string "Veistu hvernig þú getur forðast að\n"
+    .string "villast í fjöllunum?\p"
+    .string "Þú getur beygt greinar sem\n"
+    .string "leiðarmerki.$"
 
 RockTunnel_B1F_Text_SofiaDefeat::
-    .string "Ohhh!\n"
-    .string "I did my best!$"
+    .string "Óóó! Ég gerði mitt besta!$"
 
 RockTunnel_B1F_Text_SofiaPostBattle::
-    .string "I want to go home!$"
+    .string "Mig langar heim!$"
 
 RockTunnel_B1F_Text_DudleyIntro::
-    .string "Hahaha!\n"
-    .string "Can you beat my power?$"
+    .string "Hahaha! Geturðu sigrað kraftinn\n"
+    .string "minn?$"
 
 RockTunnel_B1F_Text_DudleyDefeat::
-    .string "Oops!\n"
-    .string "Outmuscled!$"
+    .string "Úps! Þú varst sterkari!$"
 
 RockTunnel_B1F_Text_DudleyPostBattle::
-    .string "I go for power because I hate\n"
-    .string "thinking.$"
+    .string "Ég vel kraft því ég hata að hugsa.$"
 
 RockTunnel_B1F_Text_CooperIntro::
-    .string "You have a POKéDEX?\n"
-    .string "I want one, too.$"
+    .string "Ertu með VasaDEX? Mig langar líka í\n"
+    .string "svoleiðis.$"
 
 RockTunnel_B1F_Text_CooperDefeat::
-    .string "Shoot!\n"
-    .string "I am so jealous!$"
+    .string "Skot! Ég er svo öfundsjúkur!$"
 
 RockTunnel_B1F_Text_CooperPostBattle::
-    .string "When you finish your POKéDEX,\n"
-    .string "can I have it?$"
+    .string "Þegar þú klárar VasaDEX-ið þitt, má\n"
+    .string "ég þá fá það?$"
 
 RockTunnel_B1F_Text_SteveIntro::
-    .string "Um… Do you know about POKéMON\n"
-    .string "cosplay?$"
+    .string "Umm... Veistu um\n"
+    .string "vasaskrímsla-búningaleik?$"
 
 RockTunnel_B1F_Text_SteveDefeat::
-    .string "Well, that's that.$"
+    .string "Jæja, þá er það það.$"
 
 RockTunnel_B1F_Text_StevePostBattle::
-    .string "POKéMON cosplay is dressing up as\n"
-    .string "POKéMON for fun.\p"
-    .string "CLEFAIRY is a favorite.$"
+    .string "Vasaskrímsla-búningaleikur er að\n"
+    .string "klæða sig eins og vasaskrímsli til\p"
+    .string "gamans.\p"
+    .string "BLEIKÁLFUR er vinsæll kostur.$"
 
 RockTunnel_B1F_Text_AllenIntro::
-    .string "My POKéMON techniques will leave\n"
-    .string "you crying!$"
+    .string "Vasaskrímslatæknin mín lætur þig\n"
+    .string "gráta!$"
 
 RockTunnel_B1F_Text_AllenDefeat::
-    .string "I give!\n"
-    .string "You're a better technician!$"
+    .string "Ég gefst upp! Þú ert betri\n"
+    .string "tæknimaður!$"
 
 RockTunnel_B1F_Text_AllenPostBattle::
-    .string "In mountains, you'll often find\n"
-    .string "ROCK-type POKéMON.$"
+    .string "Í fjöllum finnurðu oft STEIN-gerðar\n"
+    .string "vasaskrímsli.$"
 
 RockTunnel_B1F_Text_MarthaIntro::
-    .string "I don't often come here, but I will\n"
-    .string "battle you.$"
+    .string "Ég kem ekki oft hingað, en ég ætla\n"
+    .string "að berjast við þig.$"
 
 RockTunnel_B1F_Text_MarthaDefeat::
-    .string "Oh!\n"
-    .string "I lost!$"
+    .string "Ó! Ég tapaði!$"
 
 RockTunnel_B1F_Text_MarthaPostBattle::
-    .string "I like tiny POKéMON.\n"
-    .string "Big ones are too scary!$"
+    .string "Mér líkar við pínulítil\n"
+    .string "vasaskrímsli. Þau stóru eru of\p"
+    .string "ógnvekjandi!$"
 
 RockTunnel_B1F_Text_EricIntro::
-    .string "Hit me with your best shot!$"
+    .string "Skelltu þínu besta á mig!$"
 
 RockTunnel_B1F_Text_EricDefeat::
-    .string "Fired away!$"
+    .string "Skotið af!$"
 
 RockTunnel_B1F_Text_EricPostBattle::
-    .string "I'll raise my POKéMON to beat\n"
-    .string "yours, kid.$"
+    .string "Ég ala vasaskrímslin mín upp til að\n"
+    .string "sigra þín, krakki.$"
 
 RockTunnel_B1F_Text_WinstonIntro::
-    .string "I draw illustrations of POKéMON\n"
-    .string "when I'm home.$"
+    .string "Ég teikna myndir af vasaskrímslum\n"
+    .string "þegar ég er heima.$"
 
 RockTunnel_B1F_Text_WinstonDefeat::
-    .string "Whew…\n"
-    .string "I'm exhausted…$"
+    .string "Úff... Ég er örmagna...$"
 
 RockTunnel_B1F_Text_WinstonPostBattle::
-    .string "I'm an artist, not a fighter.\n"
-    .string "I'll go home to draw.$"
+    .string "Ég er listamaður, ekki bardagamaður.\n"
+    .string "Ég fer heim að teikna.$"
 

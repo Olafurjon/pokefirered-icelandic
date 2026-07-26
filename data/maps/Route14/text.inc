@@ -1,156 +1,150 @@
 Route14_Text_CarterIntro::
-    .string "You need to use TMs to teach good\n"
-    .string "moves to POKéMON.$"
+    .string "Þú þarft að nota TM til að kenna\n"
+    .string "Vasaskrímslum góðar hreyfingar.$"
 
 Route14_Text_CarterDefeat::
-    .string "Not good enough quite yet.$"
+    .string "Ekki nógu gott ennþá.$"
 
 Route14_Text_CarterPostBattle::
-    .string "You have some HMs, right? POKéMON\n"
-    .string "can't forget those moves easily.$"
+    .string "Þú átt einhver HM, ekki satt?\n"
+    .string "Vasaskrímsli gleyma slíkum\p"
+    .string "hreyfingum ekki auðveldlega.$"
 
 Route14_Text_MitchIntro::
-    .string "My bird POKéMON should be ready\n"
-    .string "for battle.$"
+    .string "Fugla-Vasaskrímslin mín ættu að vera\n"
+    .string "tilbúin í bardaga.$"
 
 Route14_Text_MitchDefeat::
-    .string "Not ready yet!$"
+    .string "Ekki tilbúinn ennþá!$"
 
 Route14_Text_MitchPostBattle::
-    .string "My bird POKéMON need to learn\n"
+    .string "My bird Vasaskrímsli need to learn\n"
     .string "better moves.$"
 
 Route14_Text_BeckIntro::
-    .string "They have TMs on sale at the\n"
-    .string "CELADON DEPT. STORE.\p"
-    .string "TMs aren't really rare, but not\n"
-    .string "many people have HMs.$"
+    .string "Þeir eru með TMs á útsölu í CELADON\n"
+    .string "DEPT. STORE.\p"
+    .string "TMs eru ekki mjög sjaldgæfir, en\n"
+    .string "ekki margir eiga HMs.$"
 
 Route14_Text_BeckDefeat::
-    .string "Aww, bummer!$"
+    .string "Aww, leiðinlegt!$"
 
 Route14_Text_BeckPostBattle::
-    .string "Try teaching POKéMON a move that's\n"
-    .string "the same type as it.\p"
-    .string "That apparently boosts the power\n"
-    .string "of the move.$"
+    .string "Reyndu að kenna Vasaskrímsli\n"
+    .string "hreyfingu sem er af sömu gerð og\p"
+    .string "það.\p"
+    .string "Það á víst að auka kraft\n"
+    .string "hreyfingarinnar.$"
 
 Route14_Text_MarlonIntro::
-    .string "Have you taught your bird POKéMON\n"
-    .string "how to FLY?\p"
-    .string "You'll be able to soar with it into\n"
-    .string "the sky!$"
+    .string "Hefurðu kennt fugla-Vasaskrímslinu\n"
+    .string "þínu að FLY?\p"
+    .string "Þá geturðu svifið með því upp í\n"
+    .string "himininn!$"
 
 Route14_Text_MarlonDefeat::
-    .string "Shot down in flames!$"
+    .string "Skotinn niður í logum!$"
 
 Route14_Text_MarlonPostBattle::
-    .string "Bird POKéMON are my one true love.\n"
-    .string "I don't want to raise anything else.$"
+    .string "Fugla-Vasaskrímsli eru mín eina\n"
+    .string "sanna ást. Ég vil ekki ala upp neitt\p"
+    .string "annað.$"
 
 Route14_Text_DonaldIntro::
-    .string "Have you heard the legend of the\n"
-    .string "winged mirages?$"
+    .string "Hefurðu heyrt söguna um vængjuðu\n"
+    .string "hillingarnar?$"
 
 Route14_Text_DonaldDefeat::
-    .string "Why?\n"
-    .string "Why'd I lose?$"
+    .string "Af hverju? Af hverju tapaði ég?$"
 
 Route14_Text_DonaldPostBattle::
-    .string "Well, the winged mirages are the\n"
-    .string "legendary bird POKéMON.\p"
-    .string "There are three of them: ARTICUNO,\n"
-    .string "ZAPDOS, and MOLTRES.$"
+    .string "Jæja, vængjuðu hillingarnar eru\n"
+    .string "goðsagnakenndu fugla-Vasaskrímslin.\p"
+    .string "Þau eru þrjú: ÉLJASKARFU, ÞÓRSHANI\n"
+    .string "og BLOSSAGAUK.$"
 
 Route14_Text_BennyIntro::
-    .string "I'm not into it, but okay.\n"
-    .string "Let's go!$"
+    .string "Ég er ekki hrifinn af því, en allt í\n"
+    .string "lagi. Förum!$"
 
 Route14_Text_BennyDefeat::
-    .string "I knew it!$"
+    .string "Ég vissi það!$"
 
 Route14_Text_BennyPostBattle::
-    .string "Winning, losing… It's insignificant\n"
-    .string "under this huge sky.$"
+    .string "Að vinna, tapa… Það er ómerkilegt\n"
+    .string "undir þessum risastóra himni.$"
 
 Route14_Text_LukasIntro::
-    .string "C'mon, c'mon.\n"
-    .string "Let's go, let's go, let's go!$"
+    .string "Komdu, komdu. Förum, förum, förum!$"
 
 Route14_Text_LukasDefeat::
-    .string "Arrg!\n"
-    .string "Lost! Get lost!$"
+    .string "Arrg! Tapaði! Hverfðu!$"
 
 Route14_Text_LukasPostBattle::
-    .string "What, what, what?\n"
-    .string "What do you want still?$"
+    .string "Hvað, hvað, hvað? Hvað viltu ennþá?$"
 
 Route14_Text_IsaacIntro::
-    .string "I need to burn some time.\n"
-    .string "Shut up and battle.$"
+    .string "Ég þarf að drepa tímann. Þegiðu og\n"
+    .string "berstu.$"
 
 Route14_Text_IsaacDefeat::
-    .string "What?\n"
-    .string "You!?$"
+    .string "Hvað? Þú!?$"
 
 Route14_Text_IsaacPostBattle::
-    .string "Raising POKéMON is a drag, man.$"
+    .string "Að ala upp Vasaskrímsli er\n"
+    .string "leiðinlegt, maður.$"
 
 Route14_Text_GeraldIntro::
-    .string "We ride out here because of the\n"
-    .string "wide-open spaces.$"
+    .string "Við hjólum hér vegna hinna opnu\n"
+    .string "svæða.$"
 
 Route14_Text_GeraldDefeat::
-    .string "Wipeout!$"
+    .string "Út af!$"
 
 Route14_Text_GeraldPostBattle::
-    .string "It's cool you made your POKéMON so\n"
-    .string "strong.\p"
-    .string "Might is right!\n"
-    .string "And you know it!$"
+    .string "Það er flott að þú gerðir\n"
+    .string "Vasaskrímslin þín svona sterk.\p"
+    .string "Máttur ræður! Og þú veist það!$"
 
 Route14_Text_MalikIntro::
-    .string "POKéMON battle?\n"
-    .string "Cool! Rumble!$"
+    .string "Vasaskrímsla bardagi? Svalt! Slagur!$"
 
 Route14_Text_MalikDefeat::
-    .string "Blown away!$"
+    .string "Fokið burt!$"
 
 Route14_Text_MalikPostBattle::
-    .string "You know who'd win, you and me\n"
-    .string "one-on-one!$"
+    .string "Þú veist hver myndi vinna, þú og ég\n"
+    .string "einn á móti einum!$"
 
 Route14_Text_RouteSign::
-    .string "ROUTE 14\n"
-    .string "West to FUCHSIA CITY$"
+    .string "LEIÐ 14 Vestur til FUCHSIA BORG$"
 
 Route14_Text_KiriIntro::
-    .string "KIRI: JAN, let's try really,\n"
-    .string "really hard together.$"
+    .string "KIRI: JAN, reynum virkilega,\n"
+    .string "virkilega hart saman.$"
 
 Route14_Text_KiriDefeat::
-    .string "KIRI: Whimper…\n"
-    .string "We lost, didn't we?$"
+    .string "KIRI: Whimper… We lost, didn't we?$"
 
 Route14_Text_KiriPostBattle::
-    .string "KIRI: Did we lose because of me?$"
+    .string "KIRI: Töpuðum við vegna mín?$"
 
 Route14_Text_KiriNotEnoughMons::
-    .string "KIRI: We can battle if you have\n"
-    .string "two POKéMON.$"
+    .string "KIRI: Við getum barist ef þú átt tvö\n"
+    .string "Vasaskrímsli.$"
 
 Route14_Text_JanIntro::
-    .string "JAN: KIRI, here we go!\n"
-    .string "We have to try hard!$"
+    .string "JAN: KIRI, hér förum við! Við verðum\n"
+    .string "að reyna hart!$"
 
 Route14_Text_JanDefeat::
-    .string "JAN: Eeeeh!\n"
-    .string "No fair!$"
+    .string "JAN: Eeeeh! Ósanngjarnt!$"
 
 Route14_Text_JanPostBattle::
-    .string "JAN: KIRI, don't cry!\n"
-    .string "We'll just try harder next time.$"
+    .string "JAN: KIRI, ekki gráta! Við reynum\n"
+    .string "bara harðar næst.$"
 
 Route14_Text_JanNotEnoughMons::
-    .string "JAN: You want to battle?\n"
-    .string "You don't have enough POKéMON.$"
+    .string "JAN: Viltu berjast? Þú átt ekki nóg\n"
+    .string "af Vasaskrímslum.$"

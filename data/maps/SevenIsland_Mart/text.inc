@@ -1,17 +1,18 @@
 SevenIsland_Mart_Text_MonHavePersonalitiesOfTheirOwn::
-    .string "POKéMON have personalities of their\n"
-    .string "own, just like people.\p"
-    .string "My PIKACHU has a HASTY nature,\n"
-    .string "so it grew to be a speedy POKéMON.$"
+    .string "Vasaskrímsli hafa eigin\n"
+    .string "persónuleika, alveg eins og fólk.\p"
+    .string "LEIFTURSKO mín er með HASTY eðli,\n"
+    .string "svo hún varð mjög hraðskreitt\p"
+    .string "Vasaskrímsli.$"
 
 SevenIsland_Mart_Text_PreparationsCompleteForRuins::
-    .string "Okay, preparations are complete\n"
-    .string "for me to explore the RUINS.$"
+    .string "Jæja, undirbúningurinn er búinn. Nú\n"
+    .string "kanna ég RÚSTIRNAR.$"
 
 SevenIsland_Mart_Text_NeedToFishOnSevenIsland::
-    .string "I need to fish on SEVEN ISLAND.\p"
-    .string "That will complete my fishing tour\n"
-    .string "of the SEVII ISLANDS.\p"
-    .string "I'd better stock up on some\n"
-    .string "POKé BALLS first, though.$"
+    .string "Ég þarf að fiska á SJÖUNDU EYJU.\p"
+    .string "Þá er veiðiferð minni um SEVII-EYJAR\n"
+    .string "lokið.\p"
+    .string "En fyrst þarf ég að birgja mig upp\n"
+    .string "af Vasa boltum.$"
 

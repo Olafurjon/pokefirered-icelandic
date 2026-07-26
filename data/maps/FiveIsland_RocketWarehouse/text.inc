@@ -1,137 +1,129 @@
 FiveIsland_RocketWarehouse_Text_ManyMonsLockedInPen::
-    .string "There are many POKéMON locked\n"
-    .string "away in the pen…$"
+    .string "Mörg Vasaskrímsli eru læst inni\n"
+    .string "í gerðinu…$"
 
 FiveIsland_RocketWarehouse_Text_PenUnlockedMonsFled::
-    .string "The pen door is unlocked.\n"
-    .string "The POKéMON appear to have fled.$"
+    .string "Dyrnar á gerðinu eru ólæstar.\n"
+    .string "Vasaskrímslin virðast hafa flúið.$"
 
 FiveIsland_RocketWarehouse_Text_Grunt2Intro::
-    .string "Did you come here knowing it's\n"
-    .string "TEAM ROCKET's WAREHOUSE?$"
+    .string "Komstu hingað vitandi að þetta er\n"
+    .string "VÖRUHÚS ROCKET-GENGISINS?$"
 
 FiveIsland_RocketWarehouse_Text_Grunt2Defeat::
-    .string "What do you think you're doing?!$"
+    .string "Hvað heldurðu að þú sért að gera?!$"
 
 FiveIsland_RocketWarehouse_Text_Grunt2PostBattle::
-    .string "TEAM ROCKET broke up?\n"
-    .string "What planet are you from?$"
+    .string "ROCKET-GENGIÐ hætti? Frá hvaða\n"
+    .string "plánetu kemur þú?$"
 
 FiveIsland_RocketWarehouse_Text_Grunt1Intro::
-    .string "Oh, now your POKéMON look strong.\n"
-    .string "You're willing to sell them?\p"
-    .string "Oh?\n"
-    .string "You wanted to battle?$"
+    .string "Ó, nú líta Vasaskrímslin þín út\n"
+    .string "fyrir að vera sterk. Viltu selja þau?\p"
+    .string "Ó? Vildirðu berjast?$"
 
 FiveIsland_RocketWarehouse_Text_Grunt1Defeat::
-    .string "Oh, but…\n"
-    .string "Too much!$"
+    .string "Ó, en… Of mikið!$"
 
 FiveIsland_RocketWarehouse_Text_Grunt1PostBattle::
-    .string "We can give you a great price.\n"
-    .string "Sell us your POKéMON!$"
+    .string "Við getum boðið frábært verð. Seldu\n"
+    .string "okkur Vasaskrímslin þín!$"
 
 FiveIsland_RocketWarehouse_Text_Grunt3Intro::
-    .string "I got word about you from the\n"
-    .string "others.\p"
-    .string "But there's no way a kid like you'd\n"
-    .string "know our BOSS GIOVANNI!$"
+    .string "Ég fékk fréttir af þér frá\n"
+    .string "hinum.\p"
+    .string "En það er engin leið að krakki eins\n"
+    .string "og þú þekki FORINGJANN okkar GIOVANNI!$"
 
 FiveIsland_RocketWarehouse_Text_Grunt3Defeat::
-    .string "Don't…you…dare…laugh…$"
+    .string "Ekki… dirfast… að… hlæja…$"
 
 FiveIsland_RocketWarehouse_Text_Grunt3PostBattle::
-    .string "Don't mess in the doings of adults,\n"
-    .string "you jumped-up pip-squeak!$"
+    .string "Ekki skipta þér af verkum fullorðinna,\n"
+    .string "þú montni smákrakki!$"
 
 FiveIsland_RocketWarehouse_Text_Admin1Intro::
-    .string "I don't know or care if what I'm\n"
-    .string "doing is right or wrong…\p"
-    .string "I just put my faith in GIOVANNI\n"
-    .string "and do as I am told.$"
+    .string "Ég veit ekki og kæri mig ekki um\n"
+    .string "hvort það sem ég geri sé rétt eða rangt…\p"
+    .string "Ég treysti bara GIOVANNI og geri\n"
+    .string "eins og mér er sagt.$"
 
 FiveIsland_RocketWarehouse_Text_Admin1Defeat::
-    .string "I…\n"
-    .string "I'm shattered…$"
+    .string "Ég… ég er brotin…$"
 
 FiveIsland_RocketWarehouse_Text_Admin1PostBattle::
-    .string "You're doing things according to\n"
-    .string "your beliefs and morals.\p"
-    .string "I understand now…$"
+    .string "Þú gerir hluti eftir eigin trú og\n"
+    .string "siðferði.\p"
+    .string "Ég skil það núna…$"
 
 FiveIsland_RocketWarehouse_Text_MadeItSoYouCanComeBackThrough::
-    .string "I've made it so you can come back\n"
-    .string "in through there.\p"
-    .string "Why don't you go get rested and\n"
-    .string "refreshed for what lies ahead?\p"
-    .string "The ADMIN after me outranks me\n"
-    .string "thoroughly as a TRAINER.\p"
-    .string "You'd better steel yourself for one\n"
-    .string "harsh challenge.$"
+    .string "Ég hef gert þér kleift að koma aftur\n"
+    .string "inn þarna í gegn.\p"
+    .string "Af hverju hvílirðu þig ekki og\n"
+    .string "safnar kröftum fyrir það sem bíður?\p"
+    .string "STJÓRNANDINN á eftir mér er miklu\n"
+    .string "ofar mér sem ÞJÁLFARI.\p"
+    .string "Þú skalt herða þig fyrir eina\n"
+    .string "harða áskorun.$"
 
 FiveIsland_RocketWarehouse_Text_Admin2Intro::
-    .string "That's quite enough of you \n"
-    .string "playing the hero, kid.\p"
-    .string "Spreading lies about how TEAM\n"
-    .string "ROCKET has disbanded…\p"
-    .string "It's such an obvious attempt to\n"
-    .string "cause confusion in our ranks.\p"
-    .string "Fortunately, we're not so ignorant\n"
-    .string "to fall for the lies of a child!\p"
-    .string "And now, I'll show you how scary\n"
-    .string "an angry adult can be!$"
+    .string "Nú er nóg komið af hetjuleiknum\n"
+    .string "þínum, krakki.\p"
+    .string "Að dreifa lygum um að ROCKET-GENGIÐ\n"
+    .string "hafi verið leyst upp…\p"
+    .string "Þetta er augljós tilraun til að\n"
+    .string "valda ruglingi í röðum okkar.\p"
+    .string "Sem betur fer erum við ekki svo\n"
+    .string "fáfróð að trúa lygum barns!\p"
+    .string "Og nú skal ég sýna þér hversu\n"
+    .string "ógnvekjandi reiður fullorðinn getur verið!$"
 
 FiveIsland_RocketWarehouse_Text_Admin2Defeat::
-    .string "Urgh…\n"
-    .string "You were too strong…\p"
-    .string "…\n"
-    .string "Th-that's GIOVANNI's BADGE!\p"
-    .string "So it's true?\n"
-    .string "TEAM ROCKET really has disbanded?$"
+    .string "Urgh… Þú varst of öflug…\p"
+    .string "… Þ-þetta er MERKIÐ hans GIOVANNI!\p"
+    .string "Svo það er satt? ROCKET-GENGIÐ hefur\n"
+    .string "í alvöru verið leyst upp?$"
 
 FiveIsland_RocketWarehouse_Text_Admin2PostBattle::
-    .string "We will abandon this WAREHOUSE…\p"
-    .string "But don't think this is over.\n"
-    .string "I won't let this be the end.\p"
-    .string "I will find GIOVANNI.\n"
-    .string "And I will resurrect TEAM ROCKET!\l"
-    .string "I will…\p"
-    .string "Until then, farewell!$"
+    .string "Við yfirgefum þetta VÖRUHÚS…\p"
+    .string "En ekki halda að þessu sé lokið.\n"
+    .string "Ég læt þetta ekki vera endinn.\p"
+    .string "Ég mun finna GIOVANNI. Og ég mun\n"
+    .string "endurvekja ROCKET-GENGIÐ! Ég mun…\p"
+    .string "Þangað til, bless!$"
 
 FiveIsland_RocketWarehouse_Text_ReportWithGraphsAndText::
-    .string "A report with graphs and text is on\n"
-    .string "the PC monitor.\p"
-    .string "“The Influence of Magnetic Waves\n"
-    .string "on POKéMON Evolution”…\p"
+    .string "Skýrsla með gröfum og texta er á\n"
+    .string "PC skjánum.\p"
+    .string "'Áhrif segulbylgna á þróun\n"
+    .string "Vasaskrímsla'…\p"
     .string "… … … … … …\p"
-    .string "It's too difficult to understand…$"
+    .string "Hún er of erfið til að skilja…$"
 
 FiveIsland_RocketWarehouse_Text_GideonIntro::
-    .string "I almost managed to sell the\n"
-    .string "SAPPHIRE for huge money…\p"
-    .string "Then, you just had to come along\n"
-    .string "and blow the whole deal apart!\p"
-    .string "Fufu… Fufufufu…\n"
-    .string "There's no forgiveness for you!$"
+    .string "Mér tókst næstum að selja\n"
+    .string "SAFÍRINN fyrir stórfé…\p"
+    .string "Svo varðst þú að birtast og\n"
+    .string "sprengja allan samninginn!\p"
+    .string "Fufu… Fufufufu… Þér verður ekki\n"
+    .string "fyrirgefið!$"
 
 FiveIsland_RocketWarehouse_Text_GideonDefeat::
-    .string "Gah! Darn!\n"
-    .string "Darn! Darn!$"
+    .string "Gah! Fjárinn! Fjárinn! Fjárinn!$"
 
 FiveIsland_RocketWarehouse_Text_GideonPostBattle::
-    .string "If I can't sell it, it's worthless!\n"
-    .string "Go ahead, take it!$"
+    .string "Ef ég get ekki selt hann er hann einskis virði!\n"
+    .string "Gjörðu svo vel, taktu hann!$"
 
 FiveIsland_RocketWarehouse_Text_GetLostLeaveMeBe::
-    .string "What do you want now?\n"
-    .string "Go on, get lost, leave me be.$"
+    .string "Hvað viltu núna? Farðu burt,\n"
+    .string "láttu mig í friði.$"
 
 FiveIsland_RocketWarehouse_Text_GiovannisKidHasRedHair::
-    .string "What, you again?\p"
-    .string "You… You're not GIOVANNI's kid,\n"
-    .string "are you?\p"
-    .string "No, that can't be right!\n"
-    .string "GIOVANNI's kid has red hair.\p"
-    .string "You don't have any reasons for\n"
-    .string "bugging me. Leave me alone!$"
-
+    .string "Hvað, þú aftur?\p"
+    .string "Þú… Þú ert ekki barnið hans GIOVANNI,\n"
+    .string "er það?\p"
+    .string "Nei, það getur ekki verið rétt!\n"
+    .string "Barn GIOVANNI er með rautt hár.\p"
+    .string "Þú hefur enga ástæðu til að angra\n"
+    .string "mig. Láttu mig í friði!$"

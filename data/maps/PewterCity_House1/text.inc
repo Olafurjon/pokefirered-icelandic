@@ -1,15 +1,16 @@
 PewterCity_House1_Text_Nidoran::
-    .string "NIDORAN♂: Bowbow!$"
+    .string "NÁLDUR♂: Voffvoff!$"
 
 PewterCity_House1_Text_NidoranSit::
-    .string "NIDORAN, sit!$"
+    .string "NÁLDUR, sestu!$"
 
 PewterCity_House1_Text_TradeMonsAreFinicky::
-    .string "Our POKéMON's an outsider, so it's\n"
-    .string "finicky and hard to handle.\p"
-    .string "An outsider is a POKéMON that you\n"
-    .string "get in a trade.\p"
-    .string "It grows fast, but it may ignore an\n"
-    .string "unskilled TRAINER in battle.\p"
-    .string "If only we had some BADGES…$"
+    .string "Vasaskrímslið okkar er\n"
+    .string "utanaðkomandi, svo það er\p"
+    .string "dutlungafullt og erfitt í meðförum.\p"
+    .string "Utanaðkomandi vasaskrímsli er eitt\n"
+    .string "sem þú færð í skiptum.\p"
+    .string "Það vex hratt, en gæti hunsað\n"
+    .string "óreyndan ÞJÁLFARA í bardaga.\p"
+    .string "Ef við bara ættum einhver MERKI...$"
 

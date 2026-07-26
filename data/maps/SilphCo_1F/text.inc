@@ -1,14 +1,12 @@
 SilphCo_1F_Text_WelcomePresidentInBoardroom::
-    .string "Welcome.\p"
-    .string "The PRESIDENT is in the boardroom\n"
-    .string "on 11F.$"
+    .string "Velkomin/n.\p"
+    .string "FORSETINN er í stjórnarherberginu á\n"
+    .string "11H.$"
 
 @ Tentative translation. Unknown origin
 SilphCo_1F_Text_DestroyedWontBeFixedForWhile::
-    .string "めちゃめちゃに　こわされてる\n"
-    .string "とうぶん　なおりそうに　ない‥$"
+    .string "めちゃめちゃに こわされてる とうぶん なおりそうに ない‥$"
 
 SilphCo_1F_Text_FloorSign::
-    .string "SILPH CO. HEAD OFFICE\n"
-    .string "1F$"
+    .string "SILPH CO. HEAD OFFICE 1F$"
 

@@ -1,34 +1,33 @@
 SilphCo_3F_Text_WhatAmIToDo::
-    .string "I work for SILPH CO.\n"
-    .string "What am I to do?$"
+    .string "Ég vinn hjá SILPH CO. Hvað á ég að\n"
+    .string "gera?$"
 
 SilphCo_3F_Text_YouAndYourMonsSavedUs::
-    .string "{PLAYER}!\n"
-    .string "You and your POKéMON saved us!$"
+    .string "{PLAYER}! Þú og Vasaskrímslin þín\n"
+    .string "björguðuð okkur!$"
 
 SilphCo_3F_Text_GruntIntro::
-    .string "Quit messing with us, kid!$"
+    .string "Hættu að angra okkur, krakki!$"
 
 SilphCo_3F_Text_GruntDefeat::
-    .string "I give up!$"
+    .string "Ég gefst upp!$"
 
 SilphCo_3F_Text_GruntPostBattle::
-    .string "A hint? You can open doors with\n"
-    .string "a CARD KEY!$"
+    .string "Vísbending? Þú getur opnað dyr með\n"
+    .string "KORTALYKLI!$"
 
 SilphCo_3F_Text_JoseIntro::
-    .string "I support TEAM ROCKET more than\n"
-    .string "I support SILPH CO.!$"
+    .string "Ég styð ROCKET-GENGIÐ meira en ég\n"
+    .string "styð SILPH CO.!$"
 
 SilphCo_3F_Text_JoseDefeat::
-    .string "You really got me!$"
+    .string "Þú náðir mér svo sannarlega!$"
 
 SilphCo_3F_Text_JosePostBattle::
     .string "Humph…\p"
-    .string "TEAM ROCKET said that if I helped\n"
-    .string "them, they'd let me study POKéMON.$"
+    .string "ROCKET-GENGIÐ sagði að ef ég hjálpaði\n"
+    .string "þeim myndu þeir leyfa mér að rannsaka\p"
+    .string "Vasaskrímsli.$"
 
 SilphCo_3F_Text_FloorSign::
-    .string "SILPH CO. HEAD OFFICE\n"
-    .string "3F$"
-
+    .string "SILPH CO. HÖFUÐSKRIFSTOFA 3H$"

@@ -1,78 +1,74 @@
 SilphCo_6F_Text_RocketsTookOverBuilding::
-    .string "The ROCKETS came and took over\n"
-    .string "the building!$"
+    .string "ROCKET-GENGIÐ kom og tók yfir\n"
+    .string "bygginguna!$"
 
 SilphCo_6F_Text_BetterGetBackToWork::
-    .string "Well, better get back to work.$"
+    .string "Jæja, best að fara aftur að vinna.$"
 
 SilphCo_6F_Text_HelpMePlease::
-    .string "Oh dear, oh dear.\n"
-    .string "Help me, please!$"
+    .string "Ó nei, ó nei. Hjálpaðu mér, vinsamlegast!$"
 
 SilphCo_6F_Text_WeGotEngaged::
-    .string "We got engaged.\n"
-    .string "Heheh!$"
+    .string "Við trúlofuðum okkur. Heheh!$"
 
 SilphCo_6F_Text_ThatManIsSuchACoward::
-    .string "That man next to me…\n"
-    .string "He's such a coward!$"
+    .string "Maðurinn við hliðina á mér… Hann er\n"
+    .string "þvílíkur hugleysingi!$"
 
 SilphCo_6F_Text_NeedsMeToLookAfterHim::
-    .string "He's so helpless, he needed\n"
-    .string "someone like me to look after him.$"
+    .string "Hann er svo bjargarlaus að hann\n"
+    .string "þurfti einhvern eins og mig til að gæta hans.$"
 
 SilphCo_6F_Text_RocketsTryingToConquerWorld::
-    .string "TEAM ROCKET is trying to conquer\n"
-    .string "the world with POKéMON.$"
+    .string "ROCKET-GENGIÐ reynir að leggja\n"
+    .string "heiminn undir sig með Vasaskrímslum.$"
 
 SilphCo_6F_Text_RocketsRanAwayBecauseOfYou::
-    .string "TEAM ROCKET ran away, and it's all\n"
-    .string "because of you!$"
+    .string "ROCKET-GENGIÐ flúði, og það er allt\n"
+    .string "þér að þakka!$"
 
 SilphCo_6F_Text_TargetedSilphForOurMonProducts::
-    .string "They must have targeted SILPH for\n"
-    .string "our POKéMON products.$"
+    .string "Þeir hljóta að hafa ráðist á SILPH\n"
+    .string "vegna Vasaskrímsla-varanna okkar.$"
 
 SilphCo_6F_Text_ComeWorkForSilphWhenYoureOlder::
-    .string "Come work for SILPH when you\n"
-    .string "get older.$"
+    .string "Komdu að vinna hjá SILPH þegar þú\n"
+    .string "verður eldri.$"
 
 SilphCo_6F_Text_Grunt1Intro::
-    .string "I am one of the four ROCKET\n"
-    .string "BROTHERS!$"
+    .string "Ég er einn af fjórum\n"
+    .string "ROCKET-BRÆÐRUM!$"
 
 SilphCo_6F_Text_Grunt1Defeat::
-    .string "Flame out!$"
+    .string "Eldurinn slokknaði!$"
 
 SilphCo_6F_Text_Grunt1PostBattle::
-    .string "No matter!\n"
-    .string "My brothers will avenge me!$"
+    .string "Skiptir engu! Bræður mínir munu\n"
+    .string "hefna mín!$"
 
 SilphCo_6F_Text_TaylorIntro::
-    .string "That rotten PRESIDENT!\p"
-    .string "Serves him right for shipping me\n"
-    .string "off to the TIKSI BRANCH!\p"
-    .string "That's why TEAM ROCKET came after\n"
-    .string "us, I'm sure of it!$"
+    .string "Þessi rotni FORSTJÓRI!\p"
+    .string "Mátulegt á hann fyrir að senda mig\n"
+    .string "í TIKSI ÚTIBÚIÐ!\p"
+    .string "Þess vegna kom ROCKET-GENGIÐ á\n"
+    .string "eftir okkur, ég er viss um það!$"
 
 SilphCo_6F_Text_TaylorDefeat::
-    .string "Shoot!$"
+    .string "Skotinn!$"
 
 SilphCo_6F_Text_TaylorPostBattle::
-    .string "TIKSI BRANCH?\n"
-    .string "It's in Russian no-man's-land!$"
+    .string "TIKSI ÚTIBÚIÐ? Það er á rússnesku\n"
+    .string "engimannslandi!$"
 
 SilphCo_6F_Text_Grunt2Intro::
-    .string "You dare betray TEAM ROCKET?$"
+    .string "Þorirðu að svíkja ROCKET-GENGIÐ?$"
 
 SilphCo_6F_Text_Grunt2Defeat::
-    .string "You traitor!$"
+    .string "Svikari!$"
 
 SilphCo_6F_Text_Grunt2PostBattle::
-    .string "If you stand for justice, you\n"
-    .string "betray us bad guys!$"
+    .string "Ef þú stendur með réttlætinu, þá\n"
+    .string "svíkurðu okkur vondu kallana!$"
 
 SilphCo_6F_Text_FloorSign::
-    .string "SILPH CO. HEAD OFFICE\n"
-    .string "6F$"
-
+    .string "SILPH CO. HÖFUÐSKRIFSTOFA 6H$"

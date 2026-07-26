@@ -11,16 +11,13 @@ Test_EventScript_CoordEvent::
 	end
 
 Test_Text_WelcomeToWorldOfPokemon::
-	.string "テストよう　メッセージです！\n"
-	.string "ポケモンの　せかいへ　ようこそ！$"
+	.string "テストよう メッセージです！ ポケモンの せかいへ ようこそ！$"
 
 Test_Text_ThisIsASignpost::
-	.string "テストよう　メッセージです！\n"
-	.string "かんばん　です$"
+	.string "テストよう メッセージです！ かんばん です$"
 
 Test_Text_ThisIsACoordEvent::
-	.string "テストよう　メッセージです！\n"
-	.string "ざひょう　チェックの　イベントです$"
+	.string "テストよう メッセージです！ ざひょう チェックの イベントです$"
 
 	.align 2
 Test_Text_Empty::

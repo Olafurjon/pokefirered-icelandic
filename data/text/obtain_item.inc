@@ -1,47 +1,43 @@
 Text_ObtainedTheX::
-	.string "Obtained the {STR_VAR_2}!$"
+	.string "Fékkst {STR_VAR_2}!$"
 
 Text_BagIsFull::
-	.string "The BAG is full…$"
+	.string "TASKAN er full…$"
 
 Text_PutItemAway::
-	.string "{PLAYER} put the {STR_VAR_2}\n"
-	.string "in the {STR_VAR_3}.$"
+	.string "{PLAYER} setti {STR_VAR_2} í\n"
+	.string "{STR_VAR_3}.$"
 
 Text_FoundOneItem::
-	.string "{PLAYER} found one {STR_VAR_2}!$"
+	.string "{PLAYER} fann einn {STR_VAR_2}!$"
 
 Text_TooBadBagFull::
-	.string "Too bad!\n"
-	.string "The BAG is full…$"
+	.string "Æi! TASKAN er full…$"
 
 Text_FoundXCoins::
-	.string "{PLAYER} found\n"
-	.string "{STR_VAR_1} {STR_VAR_2}!$"
+	.string "{PLAYER} fann {STR_VAR_1}\n"
+	.string "{STR_VAR_2}!$"
 
 Text_PutCoinsAwayInCoinCase::
-	.string "{PLAYER} put the COINS away in\n"
-	.string "the COIN CASE.$"
+	.string "{PLAYER} setti MYNTIR í MYNTVESKI.$"
 
 Text_CoinCaseIsFull::
-	.string "Too bad!\n"
-	.string "The COIN CASE is full…$"
+	.string "Æi! MYNTVESKIÐ er fullt…$"
 
 Text_NothingToPutThemIn::
-	.string "Too bad!\n"
-	.string "There's nothing to put them in…$"
+	.string "Æi! Þú hefur ekkert til að setja\n"
+	.string "þetta í…$"
 
 Text_FoundXItems::
-	.string "{PLAYER} found\n"
-	.string "{STR_VAR_1} {STR_VAR_2}(s)!$"
+	.string "{PLAYER} fann {STR_VAR_1}\n"
+	.string "{STR_VAR_2}!$"
 
 Text_ObtainedTheDecor::
-	.string "Obtained the {STR_VAR_2}!$"
+	.string "Fékkst {STR_VAR_2}!$"
 
 Text_NoRoomForAnotherDecor::
-	.string "Too bad! There's no room left for\n"
-	.string "another {STR_VAR_2}…$"
+	.string "Of slæmt! Það er ekkert pláss eftir\n"
+	.string "fyrir annað {STR_VAR_2}…$"
 
 Text_DecorTransferredToPC::
-	.string "The {STR_VAR_2} was transferred\n"
-	.string "to the PC.$"
+	.string "{STR_VAR_2} var flutt í tölvuna.$"

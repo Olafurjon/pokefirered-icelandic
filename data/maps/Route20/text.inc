@@ -1,120 +1,121 @@
 Route20_Text_BarryIntro::
-    .string "The water is shallow here.\n"
-    .string "There are many people swimming.$"
+    .string "Vatnið er grunnt hér. Margt fólk er\n"
+    .string "að synda.$"
 
 Route20_Text_BarryDefeat::
-    .string "Splash!$"
+    .string "Skvamp!$"
 
 Route20_Text_BarryPostBattle::
-    .string "I wish I could ride my POKéMON.\n"
-    .string "I bet you're not tired.$"
+    .string "Ég vildi að ég gæti riðið\n"
+    .string "vasaskrímslinu mínu. Ég veðja að þú\p"
+    .string "sért ekki þreyttur.$"
 
 Route20_Text_ShirleyIntro::
-    .string "SEAFOAM is a quiet getaway.\n"
-    .string "I'm vacationing here.$"
+    .string "SEAFOAM er kyrrlátur felustaður. Ég\n"
+    .string "er í fríi hér.$"
 
 Route20_Text_ShirleyDefeat::
-    .string "Quit it!$"
+    .string "Hættu þessu!$"
 
 Route20_Text_ShirleyPostBattle::
-    .string "There's a huge cavern underneath\n"
-    .string "this island.$"
+    .string "Það er risastór hellir undir þessari\n"
+    .string "eyju.$"
 
 Route20_Text_TiffanyIntro::
-    .string "I love floating with the fishes\n"
-    .string "here among the waves.$"
+    .string "Ég elska að fljóta með fiskunum hér\n"
+    .string "á öldunum.$"
 
 Route20_Text_TiffanyDefeat::
-    .string "Yowch!$"
+    .string "Ái!$"
 
 Route20_Text_TiffanyPostBattle::
-    .string "Want to float with me?$"
+    .string "Viltu fljóta með mér?$"
 
 Route20_Text_IreneIntro::
-    .string "Are you on vacation, too?$"
+    .string "Ertu líka í fríi?$"
 
 Route20_Text_IreneDefeat::
-    .string "No mercy at all!$"
+    .string "Engin miskunn!$"
 
 Route20_Text_IrenePostBattle::
-    .string "SEAFOAM used to be a single island\n"
-    .string "in the distant past.$"
+    .string "SEAFOAM var ein stór eyja í\n"
+    .string "fjarlægri fortíð.$"
 
 Route20_Text_DeanIntro::
-    .string "Check out my buff physique!$"
+    .string "Skoðaðu stælta skrokkinn minn!$"
 
 Route20_Text_DeanDefeat::
-    .string "Wimpy!$"
+    .string "Aumingjalegt!$"
 
 Route20_Text_DeanPostBattle::
-    .string "I should've been buffing up my\n"
-    .string "POKéMON, not me!$"
+    .string "Ég hefði átt að styrkja\n"
+    .string "vasaskrímslin mín, ekki sjálfan mig!$"
 
 Route20_Text_DarrinIntro::
-    .string "Why are you riding a POKéMON?\n"
-    .string "Can't you swim?$"
+    .string "Af hverju ríðurðu vasaskrímsli?\n"
+    .string "Kanntu ekki að synda?$"
 
 Route20_Text_DarrinDefeat::
-    .string "Ouch!\n"
-    .string "Torpedoed!$"
+    .string "Ái! Torpedó!$"
 
 Route20_Text_DarrinPostBattle::
-    .string "Riding a POKéMON sure looks fun!$"
+    .string "Það lítur sannarlega skemmtilega út\n"
+    .string "að ríða vasaskrímsli!$"
 
 Route20_Text_RogerIntro::
-    .string "I rode my bird POKéMON here.$"
+    .string "Ég reið fugla-vasaskrímslinu mínu\n"
+    .string "hingað.$"
 
 Route20_Text_RogerDefeat::
-    .string "Oh, no!\n"
-    .string "Now what am I to do?$"
+    .string "Ó, nei! Hvað á ég nú að gera?$"
 
 Route20_Text_RogerPostBattle::
-    .string "My birds are exhausted.\n"
-    .string "They can't FLY me back!$"
+    .string "Fuglarnir mínir eru örmagna. Þeir\n"
+    .string "geta ekki flogið mér til baka!$"
 
 Route20_Text_NoraIntro::
-    .string "My boyfriend gave me big pearls.$"
+    .string "Kærastinn minn gaf mér stórar\n"
+    .string "perlur.$"
 
 Route20_Text_NoraDefeat::
-    .string "Oh, no!\n"
-    .string "My pearls were in them!$"
+    .string "Ó, nei! Perlurnar mínar voru í þeim!$"
 
 Route20_Text_NoraPostBattle::
-    .string "Will my pearls grow bigger inside\n"
-    .string "CLOYSTER?$"
+    .string "Munu perlurnar mínar stækka inni í\n"
+    .string "VÍGULKERI?$"
 
 Route20_Text_MissyIntro::
-    .string "I swam here from CINNABAR ISLAND.\n"
-    .string "It wasn't easy, I tell you.$"
+    .string "Ég synti hingað frá CINNABAR EYJU.\n"
+    .string "Það var ekki auðvelt, segi ég þér.$"
 
 Route20_Text_MissyDefeat::
-    .string "I'm so disappointed!$"
+    .string "Ég er svo vonsvikin!$"
 
 Route20_Text_MissyPostBattle::
-    .string "POKéMON have taken over an\n"
-    .string "abandoned mansion on CINNABAR.\p"
-    .string "They call it the POKéMON MANSION\n"
-    .string "now.$"
+    .string "Vasaskrímsli hafa lagt undir sig\n"
+    .string "yfirgefið herrasetur á CINNABAR.\p"
+    .string "Þau kalla það\n"
+    .string "VASASKRÍMSLAHERRASETRIÐ núna.$"
 
 Route20_Text_MelissaIntro::
-    .string "CINNABAR, in the west, has a LAB\n"
-    .string "for POKéMON.\p"
-    .string "My daddy works there.$"
+    .string "CINNABAR í vestri er með\n"
+    .string "rannsóknarstofu fyrir vasaskrímsli.\p"
+    .string "Pabbi minn vinnur þar.$"
 
 Route20_Text_MelissaDefeat::
-    .string "Wait!\n"
-    .string "You're supposed to wait!$"
+    .string "Bíddu! Þú átt að bíða!$"
 
 Route20_Text_MelissaPostBattle::
-    .string "CINNABAR is a volcanic island.\p"
-    .string "I heard it rose out of the sea\n"
-    .string "when a volcano erupted.$"
+    .string "CINNABAR er eldfjallaeyja.\p"
+    .string "Ég heyrði að hún hafi risið úr\n"
+    .string "sjónum þegar eldfjall gaus.$"
 
 Route20_Text_SeafoamIslands::
-    .string "SEAFOAM ISLANDS$"
+    .string "SEAFOAM EYJAR$"
 
 Route20_Text_MistyTrainsHere::
-    .string "Strong TRAINERS and WATER POKéMON\n"
-    .string "are common sights in these parts.\p"
-    .string "They say that MISTY of the\n"
-    .string "CERULEAN GYM trains here.$"
+    .string "Sterkir ÞJÁLFARAR og\n"
+    .string "VATNS-vasaskrímsli sjást oft hér um\p"
+    .string "slóðir.\p"
+    .string "Þeir segja að MISTY úr CERULEAN SAL\n"
+    .string "æfi hér.$"

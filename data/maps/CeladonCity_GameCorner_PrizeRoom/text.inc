@@ -1,37 +1,39 @@
 CeladonCity_GameCorner_PrizeRoom_Text_FancyThatPorygon::
-    .string "I sure do fancy that PORYGON!\n"
-    .string "But, it's hard to win at slots!$"
+    .string "Mér líst ansi vel á þessa GRAFÍKJU!\n"
+    .string "En það er erfitt að vinna í\p"
+    .string "spilakössunum!$"
 
 CeladonCity_GameCorner_PrizeRoom_Text_RakedItInToday::
-    .string "Gahaha! I raked it in today!\n"
-    .string "If only every day were like this…$"
+    .string "Gahaha! Ég rakaði inn vinninga í\n"
+    .string "dag! Ef bara hver dagur væri\p"
+    .string "svona...$"
 
 CeladonCity_GameCorner_PrizeRoom_Text_CoinCaseRequired::
-    .string "A COIN CASE is required…$"
+    .string "PENINGAVESKI er nauðsynlegt...$"
 
 CeladonCity_GameCorner_PrizeRoom_Text_WeExchangeCoinsForPrizes::
-    .string "We exchange your COINS for prizes.$"
+    .string "Við skiptum PENINGUM fyrir vinninga.$"
 
 CeladonCity_GameCorner_PrizeRoom_Text_WhichPrize::
-    .string "Which prize would you like?$"
+    .string "Hvaða vinning viltu?$"
 
 CeladonCity_GameCorner_PrizeRoom_Text_HereYouGo::
-    .string "はい どうぞ$"
+    .string "Gjörðu svo vel.$"
 
 CeladonCity_GameCorner_PrizeRoom_Text_YouWantPrize::
-    .string "So, you want the {STR_VAR_1}?$"
+    .string "Þannig að þú vilt {STR_VAR_1}?$"
 
 CeladonCity_GameCorner_PrizeRoom_Text_YouWantTM::
-    .string "Okay, a TM of {STR_VAR_2}\n"
-    .string "is what you want?$"
+    .string "Allt í lagi, þú vilt TM með\n"
+    .string "{STR_VAR_2}?$"
 
 CeladonCity_GameCorner_PrizeRoom_Text_NeedMoreCoins::
-    .string "Sorry, you'll need more COINS\n"
-    .string "than that.$"
+    .string "Því miður, þú þarft fleiri PENINGA\n"
+    .string "en það.$"
 
 CeladonCity_GameCorner_PrizeRoom_Text_OopsNotEnoughRoom::
-    .string "おきゃくさん もう もてないよ$"
+    .string "Þú getur ekki borið meira, vinur.$"
 
 CeladonCity_GameCorner_PrizeRoom_Text_OhFineThen::
-    .string "あっ そう$"
+    .string "Jæja, þá það.$"
 

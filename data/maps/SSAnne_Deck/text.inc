@@ -1,35 +1,36 @@
 SSAnne_Deck_Text_ShipDepartingSoon::
-    .string "The party's over.\n"
-    .string "The ship will be departing soon.$"
+    .string "Veislan er búin. Skipið leggur\n"
+    .string "fljótlega af stað.$"
 
 SSAnne_Deck_Text_ScrubbingDecksHardWork::
-    .string "Whew!\n"
-    .string "Scrubbing decks is hard work!$"
+    .string "Úff! Það er erfiðisvinna að skrúbba\n"
+    .string "dekk!$"
 
 SSAnne_Deck_Text_FeelSeasick::
-    .string "Urf… I feel ill…\p"
-    .string "I got seasick, so I stepped out to\n"
-    .string "get some air…$"
+    .string "Urr... mér líður illa...\p"
+    .string "Ég varð sjóveikur, svo ég fór út til\n"
+    .string "að fá loft...$"
 
 SSAnne_Deck_Text_EdmondIntro::
-    .string "Hey, matey!\p"
-    .string "Let's do a little jig!$"
+    .string "Hæ, félagi!\p"
+    .string "Dansum smá!$"
 
 SSAnne_Deck_Text_EdmondDefeat::
-    .string "You're impressive!$"
+    .string "Þú ert tilkomumikill!$"
 
 SSAnne_Deck_Text_EdmondPostBattle::
-    .string "How many kinds of POKéMON do you\n"
-    .string "think there are in this big world?$"
+    .string "Hversu margar gerðir vasaskrímsla\n"
+    .string "heldurðu að séu í þessum stóra\p"
+    .string "heimi?$"
 
 SSAnne_Deck_Text_TrevorIntro::
-    .string "Ahoy, there!\n"
-    .string "Are you seasick?$"
+    .string "Ahoy! Ertu sjóveikur?$"
 
 SSAnne_Deck_Text_TrevorDefeat::
-    .string "I was just careless!$"
+    .string "Ég var bara kærulaus!$"
 
 SSAnne_Deck_Text_TrevorPostBattle::
-    .string "My pa said there are 100 kinds of\n"
-    .string "POKéMON. I think there are more.$"
+    .string "Pabbi minn sagði að til væru 100\n"
+    .string "gerðir vasaskrímsla. Ég held að þær\p"
+    .string "séu fleiri.$"
 

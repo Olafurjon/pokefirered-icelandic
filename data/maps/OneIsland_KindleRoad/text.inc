@@ -1,164 +1,162 @@
 OneIsland_KindleRoad_Text_MariaIntro::
-    .string "The weather's gorgeous!\n"
-    .string "Perfect for a battle!$"
+    .string "Veðrið er dásamlegt! Fullkomið fyrir\n"
+    .string "bardaga!$"
 
 OneIsland_KindleRoad_Text_MariaDefeat::
-    .string "Aiyeeeeh!$"
+    .string "Aíííí!$"
 
 OneIsland_KindleRoad_Text_MariaPostBattle::
-    .string "Please don't splash my face!\n"
-    .string "You'll ruin the makeup.$"
+    .string "Vinsamlegast ekki skvetta á andlitið\n"
+    .string "á mér! Þú munt eyðileggja farðann.$"
 
 OneIsland_KindleRoad_Text_AbigailIntro::
-    .string "I'm beginning to get a sunburn…$"
+    .string "Ég er farin að fá sólbruna…$"
 
 OneIsland_KindleRoad_Text_AbigailDefeat::
-    .string "Oh, you're so awful.$"
+    .string "Ó, þú ert svo hræðilegur.$"
 
 OneIsland_KindleRoad_Text_AbigailPostBattle::
-    .string "I like that cap you have.\n"
-    .string "Maybe I should wear one, too…$"
+    .string "Mér líkar við húfuna þína. Kannski\n"
+    .string "ætti ég líka að vera með eina…$"
 
 OneIsland_KindleRoad_Text_FinnIntro::
-    .string "Seen from here, MT. EMBER towers\n"
-    .string "into the sky.$"
+    .string "Séð héðan, rís MT. EMBER hátt til\n"
+    .string "himins.$"
 
 OneIsland_KindleRoad_Text_FinnDefeat::
-    .string "Well, aren't you tough?$"
+    .string "Jæja, ertu ekki harður?$"
 
 OneIsland_KindleRoad_Text_FinnPostBattle::
-    .string "The sky is immense around these\n"
-    .string "parts.$"
+    .string "Himinninn er gríðarstór hér í kring.$"
 
 OneIsland_KindleRoad_Text_GarrettIntro::
-    .string "I took a break from swimming,\n"
-    .string "only to have you challenge me?$"
+    .string "Ég tók mér pásu frá sundi, bara til\n"
+    .string "að þú ögraðir mér?$"
 
 OneIsland_KindleRoad_Text_GarrettDefeat::
-    .string "Hey, what the…\n"
-    .string "You're good, you!$"
+    .string "Ha, hvað… Þú ert góður!$"
 
 OneIsland_KindleRoad_Text_GarrettPostBattle::
-    .string "Instead of using SURF all the time,\n"
-    .string "you should swim some.$"
+    .string "Í stað þess að nota SURF alltaf,\n"
+    .string "ættirðu að synda aðeins.$"
 
 OneIsland_KindleRoad_Text_TommyIntro::
-    .string "Wait! Wait a second!\n"
-    .string "I think I've hooked a big one!$"
+    .string "Bíddu! Bíddu aðeins! Ég held að ég\n"
+    .string "hafi krækt í stóran!$"
 
 OneIsland_KindleRoad_Text_TommyDefeat::
-    .string "I've lost it all again…$"
+    .string "Ég hef misst allt aftur…$"
 
 OneIsland_KindleRoad_Text_TommyPostBattle::
-    .string "Not only did I lose, the big one\n"
-    .string "got away from me, too!$"
+    .string "Ég tapaði ekki bara, heldur slapp sá\n"
+    .string "stóri frá mér líka!$"
 
 OneIsland_KindleRoad_Text_SharonIntro::
-    .string "Could you help me out with my\n"
-    .string "training?$"
+    .string "Gætirðu hjálpað mér með þjálfunina\n"
+    .string "mína?$"
 
 OneIsland_KindleRoad_Text_SharonDefeat::
-    .string "You were a cut above me.$"
+    .string "Þú varst mér fremri.$"
 
 OneIsland_KindleRoad_Text_SharonPostBattle::
-    .string "It's clear that you're skilled.\n"
-    .string "I like you!$"
+    .string "Það er ljóst að þú ert fær. Mér\n"
+    .string "líkar við þig!$"
 
 OneIsland_KindleRoad_Text_TanyaIntro::
-    .string "There isn't a day in which we don't\n"
-    .string "train!$"
+    .string "Það er enginn dagur sem við\n"
+    .string "þjálfumst ekki!$"
 
 OneIsland_KindleRoad_Text_TanyaDefeat::
-    .string "I'm such a fool!$"
+    .string "Ég er svo mikið fífl!$"
 
 OneIsland_KindleRoad_Text_TanyaPostBattle::
-    .string "I'll train even harder from now on!$"
+    .string "Ég mun þjálfa mig enn harðar héðan í\n"
+    .string "frá!$"
 
 OneIsland_KindleRoad_Text_SheaIntro::
-    .string "Every morning, before breakfast,\n"
-    .string "I swim around this island.$"
+    .string "Á hverjum morgni, fyrir morgunmat,\n"
+    .string "syndi ég umhverfis þessa eyju.$"
 
 OneIsland_KindleRoad_Text_SheaDefeat::
-    .string "Gasp…\n"
-    .string "Gasp…$"
+    .string "Más… Más…$"
 
 OneIsland_KindleRoad_Text_SheaPostBattle::
-    .string "I lost because I'm pooped from all\n"
-    .string "the running I did…$"
+    .string "Ég tapaði vegna þess að ég er\n"
+    .string "uppgefinn af öllu hlaupinu sem ég\p"
+    .string "tók…$"
 
 OneIsland_KindleRoad_Text_HughIntro::
-    .string "Dress appropriately for battle!\n"
-    .string "Lose that frivolous outfit!$"
+    .string "Klæddu þig viðeigandi fyrir bardaga!\n"
+    .string "Losnaðu við þennan léttúðuga búning!$"
 
 OneIsland_KindleRoad_Text_HughDefeat::
-    .string "Why me?!$"
+    .string "Af hverju ég?!$"
 
 OneIsland_KindleRoad_Text_HughPostBattle::
-    .string "Even martial artists are becoming\n"
-    .string "fashion conscious these days…$"
+    .string "Jafnvel bardagalistamenn eru að\n"
+    .string "verða meðvitaðir um tísku þessa\p"
+    .string "dagana…$"
 
 OneIsland_KindleRoad_Text_BryceIntro::
-    .string "You know, everything tastes great\n"
-    .string "when you're out in the wild.$"
+    .string "Veistu, allt bragðast vel þegar þú\n"
+    .string "ert úti í náttúrunni.$"
 
 OneIsland_KindleRoad_Text_BryceDefeat::
-    .string "Awww, blown!$"
+    .string "Awww, búið!$"
 
 OneIsland_KindleRoad_Text_BrycePostBattle::
-    .string "The water in volcanic regions is\n"
-    .string "delicious.$"
+    .string "Vatnið á eldfjallasvæðum er\n"
+    .string "ljúffengt.$"
 
 OneIsland_KindleRoad_Text_ClaireIntro::
-    .string "My lunch filled us up, so will you\n"
-    .string "battle us for some exercise?$"
+    .string "Hádegismaturinn minn fyllti okkur,\n"
+    .string "svo viltu berjast við okkur til að\p"
+    .string "hreyfa þig?$"
 
 OneIsland_KindleRoad_Text_ClaireDefeat::
-    .string "That made me all sweaty.$"
+    .string "Það gerði mig alveg sveitta.$"
 
 OneIsland_KindleRoad_Text_ClairePostBattle::
-    .string "What should I do?\n"
-    .string "I feel famished again.$"
+    .string "Hvað á ég að gera? Ég er orðinn\n"
+    .string "svangur aftur.$"
 
 OneIsland_KindleRoad_Text_KiaIntro::
-    .string "KIA: My big brother and I make\n"
-    .string "an awesome combination!$"
+    .string "KIA: Stóri bróðir minn og ég erum\n"
+    .string "frábær samsetning!$"
 
 OneIsland_KindleRoad_Text_KiaDefeat::
-    .string "KIA: Huh?!\n"
-    .string "I can't believe it!$"
+    .string "KIA: Ha?! Ég trúi því ekki!$"
 
 OneIsland_KindleRoad_Text_KiaPostBattle::
-    .string "KIA: How could there be anyone\n"
-    .string "better than my big brother?$"
+    .string "KIA: Hvernig gæti nokkur verið betri\n"
+    .string "en stóri bróðir minn?$"
 
 OneIsland_KindleRoad_Text_KiaNotEnoughMons::
-    .string "KIA: If you want to battle with\n"
-    .string "us, you have to bring at least two\l"
-    .string "POKéMON with you.$"
+    .string "KIA: Ef þú vilt berjast við okkur,\n"
+    .string "þarftu að hafa að minnsta kosti tvö\p"
+    .string "Vasaskrímsli með þér.$"
 
 OneIsland_KindleRoad_Text_MikIntro::
-    .string "MIK: Together with KIA, I'm afraid\n"
-    .string "of nothing!$"
+    .string "MIK: Saman með KIA, er ég hræddur\n"
+    .string "við ekkert!$"
 
 OneIsland_KindleRoad_Text_MikDefeat::
-    .string "MIK: Whoa!\n"
-    .string "That's too much!$"
+    .string "MIK: Vá! Þetta er of mikið!$"
 
 OneIsland_KindleRoad_Text_MikPostBattle::
-    .string "MIK: How could my combination\n"
-    .string "with KIA fail?$"
+    .string "MIK: Hvernig gat samsetning mín með\n"
+    .string "KIA mistekist?$"
 
 OneIsland_KindleRoad_Text_MikNotEnoughMons::
-    .string "MIK: Hey, do you want to battle\n"
-    .string "with us two?\p"
-    .string "Bring two or more POKéMON with\n"
-    .string "you, then.$"
+    .string "MIK: Hey, viltu berjast við okkur\n"
+    .string "tvö?\p"
+    .string "Komdu þá með tvö eða fleiri\n"
+    .string "Vasaskrímsli.$"
 
 OneIsland_KindleRoad_Text_RouteSign::
-    .string "This is KINDLE ROAD.\p"
-    .string "Go straight for MT. EMBER.$"
+    .string "Þetta er KINDLE ROAD.\p"
+    .string "Farið beint á MT. EMBER.$"
 
 OneIsland_KindleRoad_Text_EmberSpaSign::
-    .string "Light the Fire in Your Heart!\n"
-    .string "EMBER SPA$"
-
+    .string "Kveiktu eldinn í hjarta þínu! EMBER\n"
+    .string "SPA$"

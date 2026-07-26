@@ -1,167 +1,164 @@
 CeladonCity_GameCorner_Text_TryPokemonPrinter::
-	.string "It's a POKéMON PRINTER!\p"
-	.string "It can put a print of your POKéMON\n"
-	.string "on the back of your TRAINER CARD.\p"
-	.string "It costs only ¥50.\n"
-	.string "Would you like to try it?$"
+	.string "Þetta er Vasaskrímsla-PRENTARI!\p"
+	.string "Hann getur sett mynd af\n"
+	.string "Vasaskrímslinu þínu aftan á\p"
+	.string "ÞJÁLFARAKORTIÐ.\p"
+	.string "Það kostar aðeins ¥50. Viltu\n"
+	.string "prófa?$"
 
 CeladonCity_GameCorner_Text_DontHaveEnoughMoney::
-	.string "You don't have enough money.$"
+	.string "Þú átt ekki nægan pening.$"
 
 CeladonCity_GameCorner_Text_ChoosePrintType::
-	.string "Please choose the print type.$"
+	.string "Veldu tegund prentunar.$"
 
 CeladonCity_GameCorner_Text_BigSmileForPhoto::
-	.string "A big smile for the photo, please!\n"
-	.string "Three… Two… One…\p"
-	.string "Flash!$"
+	.string "Breitt bros fyrir myndina, takk!\n"
+	.string "Þrír… Tveir… Einn…\p"
+	.string "Bloss!$"
 
 CeladonCity_GameCorner_Text_PrintIsReadyCheckTrainerCard::
-	.string "Your POKéMON print is ready!\n"
-	.string "Check your TRAINER CARD.$"
+	.string "Vasaskrímsla-myndin er tilbúin!\n"
+	.string "Athugaðu ÞJÁLFARAKORTIÐ þitt.$"
 
 FourIsland_House2_Text_WishICouldShowOffStickers::
-	.string "Giggle…\n"
-	.string "I collected a ton of STICKERS.\l"
-	.string "I wish I could show them off…$"
+	.string "Híhí… Ég safnaði fullt af\n"
+	.string "LÍMMIÐUM. Ég vildi að ég gæti sýnt\p"
+	.string "þá…$"
 
 FourIsland_House2_Text_GiveYouStickerIfYouBrag::
-	.string "Oh, excellent!\n"
-	.string "You've come to the right place!\p"
-	.string "Look, look! See? See?\n"
-	.string "These are my STICKERS!\l"
-	.string "Look how many I got!\p"
-	.string "I bet you want some.\n"
-	.string "I bet you do!\p"
-	.string "I'll give a STICKER if you can tell\n"
-	.string "me something awesome about\l"
-	.string "yourself.\p"
-	.string "What will you brag about?$"
+	.string "Ó, frábært! Þú komst á réttan\n"
+	.string "stað!\p"
+	.string "Sjáðu, sjáðu! Sérðu? Þetta eru\n"
+	.string "LÍMMIÐARNIR mínir! Sjáðu hvað ég á marga!\p"
+	.string "Ég veðja að þú vilt nokkra. Alveg örugglega!\p"
+	.string "Ég gef þér LÍMMIÐA ef þú segir mér\n"
+	.string "eitthvað stórkostlegt um þig.\p"
+	.string "Af hverju ætlarðu að monta þig?$"
 
 FourIsland_House2_Text_BragAboutSomethingForMe::
-	.string "Brag about something for me.\n"
-	.string "I'll give you a STICKER.$"
+	.string "Montaðu þig af einhverju fyrir mig.\n"
+	.string "Ég gef þér LÍMMIÐA.$"
 
 FourIsland_House2_Text_BragAboutWhatToday::
-	.string "Oh, hi!\n"
-	.string "Here comes the braggart.\p"
-	.string "What are you going to brag about\n"
-	.string "today?$"
+	.string "Ó, hæ! Hér kemur montarinn.\p"
+	.string "Af hverju ætlarðu að monta þig\n"
+	.string "í dag?$"
 
 FourIsland_House2_Text_WowHoFLowest::
-	.string "Oh, wow, you made it into the\n"
-	.string "HALL OF FAME.\p"
-	.string "That's pretty good, yup!\n"
-	.string "I'll give you one of these.$"
+	.string "Ó, vá, þú komst í\n"
+	.string "FRÆGÐARHÖLLINA.\p"
+	.string "Það er nokkuð gott, já! Ég gef\n"
+	.string "þér einn af þessum.$"
 
 FourIsland_House2_Text_WowHoFLow::
-	.string "Oh, wow, you've entered the\n"
-	.string "HALL OF FAME often!\p"
-	.string "That's impressive, yup!\n"
-	.string "I'll give you one of these.$"
+	.string "Ó, vá, þú hefur oft komist í\n"
+	.string "FRÆGÐARHÖLLINA!\p"
+	.string "Það er glæsilegt, já! Ég gef\n"
+	.string "þér einn af þessum.$"
 
 FourIsland_House2_Text_WowHoFHigh::
-	.string "Whoa! You've made it into the\n"
-	.string "HALL OF FAME that often?\l"
-	.string "That's seriously incredible, yup!\p"
-	.string "You own the POKéMON LEAGUE!\n"
-	.string "I'll give you one of these.$"
+	.string "Vá! Hefurðu komist svona oft í\n"
+	.string "FRÆGÐARHÖLLINA? Það er alveg\p"
+	.string "ótrúlegt, já!\p"
+	.string "Þú átt VASASKRÍMSLADEILDINA!\n"
+	.string "Ég gef þér einn af þessum.$"
 
 FourIsland_House2_Text_WowHoFHighest::
-	.string "No way! You've gone into the\n"
-	.string "HALL OF FAME that many times?\p"
-	.string "You're beyond incredible, yup!\n"
-	.string "That's it, I have to give you this.$"
+	.string "Ótrúlegt! Hefurðu farið svona oft í\n"
+	.string "FRÆGÐARHÖLLINA?\p"
+	.string "Þú ert handan alls ótrúlegs, já!\n"
+	.string "Nú verð ég að gefa þér þetta.$"
 
 FourIsland_House2_Text_HoFStickerApplied::
-	.string "The HALL OF FAME STICKER was\n"
-	.string "applied to the TRAINER CARD.$"
+	.string "FRÆGÐARHALLAR-LÍMMIÐINN var settur\n"
+	.string "á ÞJÁLFARAKORTIÐ.$"
 
 FourIsland_House2_Text_ComeBackWithBetterStoryHoF::
 	.string "Hmm…\p"
-	.string "Come back with a better story next\n"
-	.string "time, okay?$"
+	.string "Komdu aftur með betri sögu næst,\n"
+	.string "allt í lagi?$"
 
 FourIsland_House2_Text_LivingLegendHoF::
-	.string "Oh, no, no can do.\p"
-	.string "You're practically a living legend.\n"
-	.string "I have no SITCKERS left to give.$"
+	.string "Ó, nei, það gengur ekki.\p"
+	.string "Þú ert nánast lifandi goðsögn.\n"
+	.string "Ég á enga LÍMMIÐA eftir til að gefa.$"
 
 FourIsland_House2_Text_WowEggsLowest::
-	.string "Oh, wow, there are POKéMON EGGS?\n"
-	.string "I didn't know that!\p"
-	.string "That's pretty good, yup!\n"
-	.string "I'll give you one of these.$"
+	.string "Ó, vá, eru til Vasaskrímsla-\n"
+	.string "EGG? Það vissi ég ekki!\p"
+	.string "Það er nokkuð gott, já! Ég gef\n"
+	.string "þér einn af þessum.$"
 
 FourIsland_House2_Text_WowEggsLow::
-	.string "You've hatched that many EGGS?\n"
-	.string "You really must like them!\p"
-	.string "That's impressive, yup!\n"
-	.string "I'll give you one of these.$"
+	.string "Hefurðu klakið svona mörgum EGGJUM?\n"
+	.string "Þér hlýtur virkilega að líka við þau!\p"
+	.string "Það er glæsilegt, já! Ég gef\n"
+	.string "þér einn af þessum.$"
 
 FourIsland_House2_Text_WowEggsHigh::
-	.string "Whoa! You've hatched a whole\n"
-	.string "bunch of EGGS!\p"
-	.string "You're an EGG-hatching machine!\n"
-	.string "I'll give you one of these.$"
+	.string "Vá! Þú hefur klakið heilan helling\n"
+	.string "af EGGJUM!\p"
+	.string "Þú ert EGGJA-klakvél! Ég gef\n"
+	.string "þér einn af þessum.$"
 
 FourIsland_House2_Text_WowEggsHighest::
-	.string "Wh… You hatched that many EGGS?\p"
-	.string "What's behind your love of EGGS?\n"
-	.string "It's beyond incredible, yup!\p"
-	.string "You're too awesome, I tell you.\n"
-	.string "That's it, I have to give you this.$"
+	.string "Hv… Klaktirðu svona mörgum EGGJUM?\p"
+	.string "Hvað liggur að baki ást þinni á EGGJUM?\n"
+	.string "Það er handan alls ótrúlegs, já!\p"
+	.string "Þú ert of mögnuð manneskja, segi ég.\n"
+	.string "Nú verð ég að gefa þér þetta.$"
 
 FourIsland_House2_Text_EggStickerApplied::
-	.string "The EGG STICKER was applied\n"
-	.string "to the TRAINER CARD.$"
+	.string "EGGJA-LÍMMIÐINN var settur á\n"
+	.string "ÞJÁLFARAKORTIÐ.$"
 
 FourIsland_House2_Text_ComeBackWithBetterStoryEggs::
 	.string "Hmm…\p"
-	.string "Come back with a better story next\n"
-	.string "time, okay?$"
+	.string "Komdu aftur með betri sögu næst,\n"
+	.string "allt í lagi?$"
 
 FourIsland_House2_Text_LivingLegendEggs::
-	.string "Oh, no, no can do.\p"
-	.string "You're practically a living legend.\n"
-	.string "I have no SITCKERS left to give.$"
+	.string "Ó, nei, það gengur ekki.\p"
+	.string "Þú ert nánast lifandi goðsögn.\n"
+	.string "Ég á enga LÍMMIÐA eftir til að gefa.$"
 
 FourIsland_House2_Text_WowLinkWinsLowest::
-	.string "Oh, wow, you've had success\n"
-	.string "link battling?\p"
-	.string "You're pretty strong, yup!\n"
-	.string "I'll give you one of these.$"
+	.string "Ó, vá, hefurðu náð árangri í\n"
+	.string "tengibardögum?\p"
+	.string "Þú ert nokkuð sterk manneskja, já!\n"
+	.string "Ég gef þér einn af þessum.$"
 
 FourIsland_House2_Text_WowLinkWinsLow::
-	.string "You've beaten your friends a lot\n"
-	.string "link battling, huh?\p"
-	.string "You're impressively strong, yup!\n"
-	.string "I'll give you one of these.$"
+	.string "Þú hefur oft sigrað vini þína í\n"
+	.string "tengibardögum, ha?\p"
+	.string "Þú ert glæsilega sterk manneskja, já!\n"
+	.string "Ég gef þér einn af þessum.$"
 
 FourIsland_House2_Text_WowLinkWinsHigh::
-	.string "Whoa! You've beaten your friends\n"
-	.string "a frightful number of times.\p"
-	.string "Have you lost friends over this?\n"
-	.string "I'll give you one of these.$"
+	.string "Vá! Þú hefur sigrað vini þína\n"
+	.string "ógnarlega oft.\p"
+	.string "Hefurðu misst vini út af þessu?\n"
+	.string "Ég gef þér einn af þessum.$"
 
 FourIsland_House2_Text_WowLinkWinsHighest::
-	.string "Wh… Wickedly whoa!\n"
-	.string "You've won mind-blowingly often!\p"
-	.string "It just knocks me out thinking\n"
-	.string "about how tough you are.\p"
-	.string "You're the stuff of nightmares!\n"
-	.string "That's it, I have to give you this.$"
+	.string "Hv… svakalegt vá! Þú hefur unnið\n"
+	.string "ótrúlega oft!\p"
+	.string "Mér svimar bara við að hugsa um\n"
+	.string "hversu hörð manneskja þú ert.\p"
+	.string "Þú ert efni í martraðir!\n"
+	.string "Nú verð ég að gefa þér þetta.$"
 
 FourIsland_House2_Text_VictoryStickerApplied::
-	.string "The VICTORY STICKER was applied\n"
-	.string "to the TRAINER CARD.$"
+	.string "SIGUR-LÍMMIÐINN var settur á\n"
+	.string "ÞJÁLFARAKORTIÐ.$"
 
 FourIsland_House2_Text_ComeBackWithBetterStoryLinkWins::
 	.string "Hmm…\p"
-	.string "Come back with a better story next\n"
-	.string "time, okay?$"
+	.string "Komdu aftur með betri sögu næst,\n"
+	.string "allt í lagi?$"
 
 FourIsland_House2_Text_LivingLegendLinkWins::
-	.string "Oh, no, no can do.\p"
-	.string "You're practically a living legend.\n"
-	.string "I have no SITCKERS left to give.$"
+	.string "Ó, nei, það gengur ekki.\p"
+	.string "Þú ert nánast lifandi goðsögn.\n"
+	.string "Ég á enga LÍMMIÐA eftir til að gefa.$"

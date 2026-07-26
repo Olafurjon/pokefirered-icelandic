@@ -1,45 +1,39 @@
 SilphCo_4F_Text_CantYouSeeImHiding::
-    .string "Sssh!\n"
-    .string "Can't you see I'm hiding?$"
+    .string "Suss! Sérðu ekki að ég er í felum?$"
 
 SilphCo_4F_Text_TeamRocketIsGone::
-    .string "Huh?\n"
-    .string "TEAM ROCKET is gone?$"
+    .string "Ha? Er ROCKET-GENGIÐ farið?$"
 
 SilphCo_4F_Text_Grunt1Intro::
-    .string "TEAM ROCKET has taken control\n"
-    .string "of SILPH CO.!$"
+    .string "ROCKET-GENGIÐ hefur tekið yfir\n"
+    .string "SILPH CO.!$"
 
 SilphCo_4F_Text_Grunt1Defeat::
     .string "Arrgh!$"
 
 SilphCo_4F_Text_Grunt1PostBattle::
-    .string "Fwahahaha!\n"
-    .string "My BOSS has been after this place!$"
+    .string "Fwahahaha! FORINGINN minn hefur\n"
+    .string "verið á eftir þessum stað!$"
 
 SilphCo_4F_Text_RodneyIntro::
-    .string "My POKéMON is my loyal servant.$"
+    .string "Vasaskrímslið mitt er tryggur þjónn minn.$"
 
 SilphCo_4F_Text_RodneyDefeat::
-    .string "Darn!\n"
-    .string "You weak POKéMON!$"
+    .string "Fjárinn! Veika Vasaskrímslið þitt!$"
 
 SilphCo_4F_Text_RodneyPostBattle::
-    .string "The doors are electronically\n"
-    .string "locked.\p"
-    .string "It takes a CARD KEY to open the\n"
-    .string "doors here.$"
+    .string "Dyrnar eru raflæstar.\p"
+    .string "Það þarf KORTALYKIL til að opna\n"
+    .string "dyrnar hér.$"
 
 SilphCo_4F_Text_Grunt2Intro::
-    .string "Intruder spotted!$"
+    .string "Innbrotsþjófur sést!$"
 
 SilphCo_4F_Text_Grunt2Defeat::
-    .string "Who are you?$"
+    .string "Hver ert þú?$"
 
 SilphCo_4F_Text_Grunt2PostBattle::
-    .string "I better tell the BOSS on 11F!$"
+    .string "Ég ætti að segja FORINGJANUM á 11H!$"
 
 SilphCo_4F_Text_FloorSign::
-    .string "SILPH CO. HEAD OFFICE\n"
-    .string "4F$"
-
+    .string "SILPH CO. HÖFUÐSKRIFSTOFA 4H$"

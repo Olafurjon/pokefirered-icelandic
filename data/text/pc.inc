@@ -1,17 +1,17 @@
 Text_BootedUpPC::
-	.string "{PLAYER} booted up the PC.$"
+	.string "{PLAYER} ræsti tölvuna.$"
 
 Text_AccessWhichPC::
-	.string "Which PC should be accessed?$"
+	.string "Hvaða tölvu á að opna?$"
 
 Text_AccessedSomeonesPC::
-	.string "Accessed Someone's PC.$"
+	.string "Opnaði tölvu einhvers.$"
 
 Text_OpenedPkmnStorage::
-	.string "POKéMON Storage System opened.$"
+	.string "Vasaskrímsli Storage System opened.$"
 
 Text_AccessedPlayersPC::
-	.string "Accessed {PLAYER}'s PC.$"
+	.string "Opnaði tölvu {PLAYER}.$"
 
 Text_AccessedBillsPC::
-	.string "Accessed BILL's PC.$"
+	.string "Opnaði tölvu BILL.$"

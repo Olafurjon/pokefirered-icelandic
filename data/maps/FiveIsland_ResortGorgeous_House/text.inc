@@ -1,68 +1,66 @@
 FiveIsland_ResortGorgeous_House_Text_PleaseHearMyWish::
-    .string "SELPHY: Oh?\n"
-    .string "Do I know you from somewhere?\p"
-    .string "Oh, but that doesn't matter.\p"
-    .string "I am exquisitely bored.\n"
-    .string "Please, hear my wish.$"
+    .string "SELPHY: Ó? Þekki ég þig einhvers\n"
+    .string "staðar frá?\p"
+    .string "Ó, en það skiptir ekki máli.\p"
+    .string "Mér leiðist óskaplega. Viltu hlusta\n"
+    .string "á ósk mína?$"
 
 FiveIsland_ResortGorgeous_House_Text_WishToSeeMonPlease::
-    .string "I wish to see a POKéMON.\n"
-    .string "A darling {STR_VAR_1}.\p"
-    .string "I want to see one right away.\n"
-    .string "Please, make my wish come true.$"
+    .string "Mig langar að sjá Vasaskrímsli.\n"
+    .string "Yndislegt {STR_VAR_1}.\p"
+    .string "Ég vil sjá það strax. Gerðu ósk mína\n"
+    .string "að veruleika.$"
 
 FiveIsland_ResortGorgeous_House_Text_OhImTiredOfWaiting::
-    .string "SELPHY: Oh, I'm tired of this.\n"
-    .string "I'm tired of waiting for you.\p"
-    .string "I'll forgive you this time, but\n"
-    .string "please don't fail me next time.$"
+    .string "SELPHY: Ó, ég er orðin þreytt á\n"
+    .string "þessu. Ég er þreytt á að bíða eftir\p"
+    .string "þér.\p"
+    .string "Ég fyrirgefi þér í þetta sinn, en\n"
+    .string "vinsamlegast bregðstu mér ekki næst.$"
 
 FiveIsland_ResortGorgeous_House_Text_MonYouCaughtForMeThankYou::
-    .string "SELPHY: Oh, hello, there.\p"
-    .string "Oh, my gracious. That must be the\n"
-    .string "{STR_VAR_1} you caught for me.\p"
-    .string "Giggle…\n"
-    .string "I see a resemblance to you.\p"
-    .string "Thank you so kindly.\p"
-    .string "… …  … …  … …\n"
-    .string "Is something the matter?\p"
-    .string "You may leave.\p"
-    .string "… …  … …  … …\n"
-    .string "Oh, fine. I understand now.\p"
-    .string "SEBASTIAN!\n"
-    .string "I need you here this instant!$"
+    .string "SELPHY: Ó, sæll.\p"
+    .string "Ó, minn guð. Þetta hlýtur að vera\n"
+    .string "{STR_VAR_1} sem þú fangaðir fyrir\p"
+    .string "mig.\p"
+    .string "Hehe… Ég sé líkindi með ykkur.\p"
+    .string "Þakka þér kærlega.\p"
+    .string "… … … … … … Er eitthvað að?\p"
+    .string "Þú mátt fara.\p"
+    .string "… … … … … … Ó, jæja. Ég skil það\n"
+    .string "núna.\p"
+    .string "SEBASTIAN! Ég þarf þig hingað strax!$"
 
 FiveIsland_ResortGorgeous_House_Text_ButlerYesMyLady::
-    .string "Butler: Yes, my lady.$"
+    .string "Þjónn: Já, frú mín.$"
 
 FiveIsland_ResortGorgeous_House_Text_SelphyGiveTokenOfAppreciation::
-    .string "SELPHY: See to it that this person\n"
-    .string "is given a token of appreciation.$"
+    .string "SELPHY: Sjáðu til þess að þessi\n"
+    .string "aðili fái þakklætisvott.$"
 
 FiveIsland_ResortGorgeous_House_Text_ButlerIShallDoAsYouBid::
-    .string "Butler: I shall do as you bid,\n"
-    .string "my lady.$"
+    .string "Ráðsmaður: Ég mun gera eins og þú\n"
+    .string "biður um, frú mín.$"
 
 FiveIsland_ResortGorgeous_House_Text_ButlerPleaseAcceptThisAsHerThanks::
-    .string "Butler: I sincerely thank you for\n"
-    .string "pleasing Lady SELPHY.\p"
-    .string "Please accept this as her thanks…$"
+    .string "Þjónn: Ég þakka þér innilega fyrir\n"
+    .string "að gleðja frú SELPHY.\p"
+    .string "Vinsamlegast þiggðu þetta sem\n"
+    .string "þakklæti hennar…$"
 
 FiveIsland_ResortGorgeous_House_Text_ButlerBagAppearsToBeFull::
-    .string "Butler: Your BAG appears to be\n"
-    .string "unfortunately full.$"
+    .string "Þjónn: TASKAN þín virðist því miður\n"
+    .string "vera full.$"
 
 FiveIsland_ResortGorgeous_House_Text_OhHowDisappointing::
-    .string "Oh…\n"
-    .string "How disappointing.$"
+    .string "Oh… How disappointing.$"
 
 FiveIsland_ResortGorgeous_House_Text_SelphyWishYouBestOfLuck::
-    .string "SELPHY: I wish you the best of\n"
-    .string "luck.$"
+    .string "SELPHY: Ég óska þér alls hins besta.$"
 
 FiveIsland_ResortGorgeous_House_Text_LadySelphySmileHasBrillianceOfSun::
-    .string "Butler: The smile of Lady SELPHY\n"
-    .string "has the brilliance of the sun.\p"
-    .string "Please, I beg you to bring joy\n"
-    .string "to Lady SELPHY.$"
+    .string "Ráðsmaður: Bros frú SELPHY hefur\n"
+    .string "birtu sólarinnar.\p"
+    .string "Vinsamlegast, ég bið þig að færa frú\n"
+    .string "SELPHY gleði.$"
 

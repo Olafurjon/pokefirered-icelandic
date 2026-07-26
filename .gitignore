@@ -67,3 +67,13 @@ build-cmake-*/
 .cache/
 CMakeLists.txt
 compile_commands.json
+__pycache__/
+tools/icelandic/__pycache__/
+
+# Icelandic localization working artifacts.
+docs/superpowers/
+graphics/title_screen/experiments/
+graphics/title_screen/rollback_vasaskrimsli_title_test/
+translation_reports/*
+!translation_reports/README.md
+!translation_reports/terminology_suspects-current.csv

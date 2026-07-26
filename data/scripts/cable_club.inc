@@ -1289,466 +1289,432 @@ TwoIsland_JoyfulGameCorner_EventScript_ShowDodrioBerryPickingRecords::
 	end
 
 CableClub_Text_WelcomeWhichCableClubService::
-	.string "Welcome to the POKéMON CABLE\n"
-	.string "CLUB.\p"
-	.string "Which of our services do you wish\n"
-	.string "to use?$"
+	.string "Velkomin í VASaSKRÍMSLI SNÚRU\n"
+	.string "KLÚBBINN.\p"
+	.string "Hvaða þjónustu okkar viltu nota?$"
 
 CableClub_Text_WhichService::
-	.string "Which of our services do you wish\n"
-	.string "to use?$"
+	.string "Hvaða þjónustu okkar viltu nýta þér?$"
 
 CableClub_Text_TradeMonsUsingLinkCable::
-	.string "Trade POKéMON with another player\n"
-	.string "using a GBA Game Link cable.$"
+	.string "Skiptu Vasaskrímslum við annan\n"
+	.string "leikmann með því að nota GBA Game\p"
+	.string "Link snúru.$"
 
 CableClub_Text_BattleUsingLinkCable::
-	.string "You may battle another TRAINER\n"
-	.string "using a GBA Game Link cable.$"
+	.string "Þú getur barist við annan ÞJÁLFARA\n"
+	.string "með því að nota GBA Game Link snúru.$"
 
 @ Unused, translated in Emerald
 CableClub_Text_CloseThisMenu::
-	.string "おわります$"
+	.string "Loka valmynd$"
 
 CableClub_Text_NeedTwoMonsForDoubleBattle::
-	.string "For a DOUBLE BATTLE, you must\n"
-	.string "have at least two POKéMON.$"
+	.string "Fyrir TVÍBARDAGA þarftu að hafa að\n"
+	.string "minnsta kosti tvö Vasaskrímsli.$"
 
 CableClub_Text_NeedTwoMonsToTrade::
-	.string "For trading, you must have at\n"
-	.string "least two POKéMON with you.$"
+	.string "Fyrir skipti, verður þú að hafa að\n"
+	.string "minnsta kosti tvö Vasaskrímsli með\p"
+	.string "þér.$"
 
 CableClub_Text_CantTradeEnigmaBerry::
-	.string "A POKéMON holding the {STR_VAR_1}\n"
-	.string "BERRY can't be traded.$"
+	.string "Vasaskrímsli sem heldur á\n"
+	.string "{STR_VAR_1} BERI er ekki hægt að\p"
+	.string "skipta.$"
 
 CableClub_Text_PleaseWaitBCancel::
-	.string "Please wait.\n"
-	.string "… … B Button: Cancel$"
+	.string "Vinsamlegast bíddu. … … B hnappur:\n"
+	.string "Hætta við$"
 
 CableClub_Text_WhenAllPlayersReadyAConfirmBCancel::
-	.string "When all players are ready…\n"
-	.string "A Button: Confirm\l"
-	.string "B Button: Cancel$"
+	.string "Þegar allir leikmenn eru tilbúnir… A\n"
+	.string "hnappur: Staðfesta B hnappur: Hætta\p"
+	.string "við$"
 
 CableClub_Text_StartLinkWithXPlayersAConfirmBCancel::
-	.string "Start link with {STR_VAR_1} players.\n"
-	.string "A Button: Confirm\l"
-	.string "B Button: Cancel$"
+	.string "Hefja tengingu með {STR_VAR_1}\n"
+	.string "leikmönnum. A takki: Staðfesta B\p"
+	.string "takki: Hætta við$"
 
 CableClub_Text_AwaitingLinkupBCancel::
-	.string "Awaiting linkup…\n"
-	.string "… … B Button: Cancel$"
+	.string "Bíð eftir tengingu… … … B hnappur:\n"
+	.string "Hætta við$"
 
 @ Unused, translated in Emerald
 CableClub_Text_OkayToSaveProgress::
-	.string "はじめる　まえに　レポートを\n"
-	.string "かきますが　よろしいですか？$"
+	.string "はじめる まえに レポートを かきますが よろしいですか？$"
 
 CableClub_Text_PleaseEnter::
-	.string "Please enter.$"
+	.string "Vinsamlegast komið inn.$"
 
 CableClub_Text_DirectYouToYourRoom::
-	.string "I'll direct you to your room now.$"
+	.string "Ég mun vísa þér á herbergið þitt\n"
+	.string "núna.$"
 
 CableClub_Text_SomeoneIsNotReadyToLink::
-	.string "Someone is not ready to link.\p"
-	.string "Please come back after everyone\n"
-	.string "has made preparations.$"
+	.string "Einhver er ekki tilbúinn til að\n"
+	.string "tengjast.\p"
+	.string "Vinsamlegast komdu aftur eftir að\n"
+	.string "allir hafa gert undirbúning.$"
 
 CableClub_Text_LinkErrorPleaseReset::
-	.string "Sorry, we have a link error…\n"
-	.string "Please reset and try again.$"
+	.string "Því miður, við höfum tengivillu…\n"
+	.string "Vinsamlegast endurræstu og reyndu\p"
+	.string "aftur.$"
 
 CableClub_Text_PlayersMadeDifferentSelections::
-	.string "The link partners appear to have\n"
-	.string "made different selections.$"
+	.string "Tengiaðilarnir virðast hafa valið\n"
+	.string "mismunandi valkosti.$"
 
 CableClub_Text_PleaseVisitAgain::
-	.string "Please do visit again.$"
+	.string "Vinsamlegast komið aftur.$"
 
 CableClub_Text_IncorrectNumberOfParticipants::
-	.string "The number of participants is\n"
-	.string "incorrect.$"
+	.string "Fjöldi þátttakenda er rangur.$"
 
 CableClub_Text_CantSingleBattleWithXPlayers::
-	.string "The SINGLE BATTLE Mode can't be\n"
-	.string "played by {STR_VAR_1} players.$"
+	.string "EINBARDAGA-hamurinn er ekki hægt að\n"
+	.string "spila með {STR_VAR_1} leikmönnum.$"
 
 CableClub_Text_CantDoubleBattleWithXPlayers::
-	.string "The DOUBLE BATTLE Mode can't be\n"
-	.string "played by {STR_VAR_1} players.$"
+	.string "TVÍBARDAGA-hamurinn er ekki hægt að\n"
+	.string "spila með {STR_VAR_1} leikmönnum.$"
 
 CableClub_Text_NeedFourPlayers::
-	.string "There must be four players to play\n"
-	.string "this Battle Mode.$"
+	.string "Það verða að vera fjórir leikmenn\n"
+	.string "til að spila þennan bardagaham.$"
 
 CableClub_Text_PleaseConfirmNumberAndRestart::
-	.string "Please confirm the number of\n"
-	.string "players and start again.$"
+	.string "Vinsamlegast staðfestu fjölda\n"
+	.string "leikmanna og byrjaðu aftur.$"
 
 Text_TerminateLinkIfYouLeaveRoom::
-	.string "The link will be terminated if you\n"
-	.string "leave the room. Is that okay?$"
+	.string "Tengingin verður rofin ef þú ferð úr\n"
+	.string "herberginu. Er það í lagi?$"
 
 Text_TerminateLinkConfirmation::
-	.string "Terminating link…\n"
-	.string "You will be escorted out of\l"
-	.string "the room. Please wait.$"
+	.string "Rýf tengingu… Þér verður fylgt út úr\n"
+	.string "herberginu. Vinsamlegast bíddu.$"
 
 Text_TrainerTooBusyToNotice::
-	.string "This TRAINER is too busy to\n"
-	.string "notice…$"
+	.string "Þessi ÞJÁLFARI er of upptekinn til\n"
+	.string "að taka eftir…$"
 
 Text_LookedAtPlayersTrainerCard::
 	.string "Score! Got to look at {STR_VAR_1}'s\n"
-	.string "TRAINER CARD!$"
+	.string "ÞJÁLFARAKORT!$"
 
 Text_LookedAtPlayersTrainerCardColored::
-	.string "Score! Got to look at {STR_VAR_1}'s\n"
-	.string "TRAINER CARD!\p"
-	.string "It's a {STR_VAR_2} card!$"
+	.string "Frábært! Fékk að skoða ÞJÁLFARAKORT\n"
+	.string "{STR_VAR_1}!\p"
+	.string "Þetta er {STR_VAR_2} kort!$"
 
 Text_TakeSeatStartBattle::
-	.string "Please take your seat and start\n"
-	.string "your battle.$"
+	.string "Vinsamlegast sestu niður og byrjaðu\n"
+	.string "bardagann þinn.$"
 
 Text_TakeSeatStartTrade::
-	.string "Please take your seat and start\n"
-	.string "your trade.$"
+	.string "Vinsamlegast sestu niður og byrjaðu\n"
+	.string "viðskiptin þín.$"
 
 @ Unused, leftover from RS
 RecordCorner_Text_ThanksForComing::
-	.string "ごりよう　ありがとう　ございました$"
+	.string "ごりよう ありがとう ございました$"
 
 CableClub_Text_TrainerCardDataOverwritten::
-	.string "The TRAINER CARD data will\n"
-	.string "be overwritten.$"
+	.string "Gögnin á ÞJÁLFARAKORTINU verða\n"
+	.string "yfirskrifuð.$"
 
 CableClub_Text_HopeToSeeYouAgain::
-	.string "I hope to see you again!$"
+	.string "Ég vona að sjá þig aftur!$"
 
 CableClub_Text_NotSetUpForFarAwayRegion::
-	.string "I'm awfully sorry.\p"
-	.string "We're not set up to conduct trades\n"
-	.string "with TRAINERS far away in another\l"
-	.string "region yet…$"
+	.string "Mér þykir þetta hræðilega leitt.\p"
+	.string "Við erum ekki ennþá búnir að setja\n"
+	.string "upp kerfi til að framkvæma skipti\p"
+	.string "við ÞJÁLFARA langt í burtu í öðru\n"
+	.string "svæði…$"
 
 CableClub_Text_OtherTrainerNotReady::
-	.string "The other TRAINER is not ready.$"
+	.string "Hinn ÞJÁLFARINN er ekki tilbúinn.$"
 
 CableClub_Text_YouHaveAMonThatCantBeTaken::
-	.string "You have at least one POKéMON\n"
-	.string "that can't be taken.$"
+	.string "Þú átt að minnsta kosti eitt\n"
+	.string "Vasaskrímsli sem ekki er hægt að\p"
+	.string "taka.$"
 
 CableClub_Text_AdapterNotConnected::
-	.string "The Wireless Adapter is not\n"
-	.string "connected properly.$"
+	.string "Þráðlausi millistykkið er ekki tengt\n"
+	.string "rétt.$"
 
 CableClub_Text_ParticipantsStepUpToCounter::
-	.string "Participants are asked to step up\n"
-	.string "to the reception counter.$"
+	.string "Þátttakendur eru beðnir um að koma\n"
+	.string "að móttökuborðinu.$"
 
 @ Unused, translated in Emerald
 CableClub_Text_Hello::
-	.string "こんにちは！$"
+	.string "Halló!$"
 
 @ Unused, translated in Emerald
 CableClub_Text_PleaseWait::
-	.string "しょうしょう　おまちください$"
+	.string "しょうしょう おまちください$"
 
 CableClub_Text_YouMayTradeHere::
-	.string "You may trade your POKéMON here\n"
-	.string "with another TRAINER.$"
+	.string "Þú getur skipt Vasaskrímslum þínum\n"
+	.string "hér með öðrum ÞJÁLFARA.$"
 
 CableClub_Text_YouMayBattleHere::
-	.string "You may battle with your friends\n"
-	.string "here.$"
+	.string "Þú getur barist við vini þína hér.$"
 
 CableClub_Text_CanMakeBerryPowder::
-	.string "Two to five TRAINERS can make\n"
-	.string "BERRY POWDER together.$"
+	.string "Tveir til fimm ÞJÁLFARAR geta búið\n"
+	.string "til BERJADUFT saman.$"
 
 @ Unused, Record Mix nopped
 CableClub_Text_CanMixRecords::
-	.string "ワイヤレス　クラブでの\n"
-	.string "あそびかたを　せつめいします$"
+	.string "ワイヤレス クラブでの あそびかたを せつめいします$"
 
 CableClub_Text_CancelSelectedItem::
-	.string "Cancels the selected MENU item.$"
+	.string "Hættir við valinn hlut í VALMYND.$"
 
 @ Unused, translated in Emerald
 CableClub_Text_WhichBattleMode::
-	.string "どちらの　しょうぶに　しますか？$"
+	.string "どちらの しょうぶに しますか？$"
 
 @ Unused, translated in Emerald
 CableClub_Text_ReturnsToPreviousStep::
-	.string "ひとつ　まえに　もどります$"
+	.string "ひとつ まえに もどります$"
 
 CableClub_Text_NeedBerryForBerryCrush::
-	.string "To use the BERRY CRUSH service,\n"
-	.string "you must have at least one BERRY.$"
+	.string "Til að nota BERJAKVÖRNINA þarftu að\n"
+	.string "hafa að minnsta kosti eitt BER.$"
 
 CableClub_Text_NeedTwoMonsForUnionRoom::
-	.string "To enter the UNION ROOM, you must\n"
-	.string "have at least two POKéMON.$"
+	.string "Til að fara inn í SAMBANDSHERBERGIÐ\n"
+	.string "þarftu að hafa að minnsta kosti tvö\p"
+	.string "Vasaskrímsli.$"
 
 CableClub_Text_NoEnigmaBerryInUnionRoom::
-	.string "No POKéMON holding the {STR_VAR_1}\n"
-	.string "BERRY may enter the UNION ROOM.$"
+	.string "Ekkert Vasaskrímsli sem heldur á\n"
+	.string "{STR_VAR_1} má fara inn í\p"
+	.string "SAMBANDSHERBERGIÐ.$"
 
 CableClub_Text_UnionRoomAdapterNotConnected::
-	.string "This is the POKéMON WIRELESS CLUB\n"
-	.string "UNION ROOM.\p"
-	.string "Unfortunately, your Wireless\n"
-	.string "Adapter is not connected properly.\p"
-	.string "Please do come again.$"
+	.string "Þetta er SAMBANDSHERBERGI\n"
+	.string "Vasaskrímsla ÞRÁÐLAUSA KLÚBBSINS.\p"
+	.string "Því miður er þráðlausa millistykkið\n"
+	.string "ekki rétt tengt.\p"
+	.string "Komdu aftur síðar.$"
 
 @ Unused, translated in Emerald
 CableClub_Text_OhExcuseMe::
-	.string "あ‥‥\n"
-	.string "おきゃくさま！$"
+	.string "あ‥‥ おきゃくさま！$"
 
 Text_PlayerIsPlayingRightNowGoForIt::
-	.string "It appears as if {STR_VAR_1} is playing\n"
-	.string "right now.\l"
-	.string "Go for it!$"
+	.string "Það virðist sem {STR_VAR_1} sé að\n"
+	.string "spila núna. Áfram með þig!$"
 
 Text_DescribeWhichGame::
-	.string "I can explain game rules to you,\n"
-	.string "if you'd like.\p"
-	.string "Which game should I describe?$"
+	.string "Ég get útskýrt leikreglur fyrir þér,\n"
+	.string "ef þú vilt.\p"
+	.string "Hvaða leik á ég að lýsa?$"
 
 Text_PokemonJumpInfo::
-	.string "“POKéMON JUMP”\p"
-	.string "Make your POKéMON skip the\n"
-	.string "VINE WHIP rope with the A Button.\p"
-	.string "Only mini POKéMON around 28 inches\n"
-	.string "or less may participate.\p"
-	.string "POKéMON that only swim, burrow, or\n"
-	.string "fly are not good at jumping.\p"
-	.string "As a result, those POKéMON may not\n"
-	.string "participate.\p"
-	.string "Good things happen if everyone\n"
-	.string "jumps in time.$"
+	.string "'VASASKRÍMSLA STÖKK'\p"
+	.string "Láttu Vasaskrímslið þitt hoppa yfir\n"
+	.string "VINE WHIP reipið með A takkanum.\p"
+	.string "Aðeins lítil Vasaskrímsli, um 28\n"
+	.string "tommur eða minna, mega taka þátt.\p"
+	.string "Vasaskrímsli sem aðeins synda, grafa\n"
+	.string "eða fljúga eru ekki góð í að hoppa.\p"
+	.string "Þess vegna mega þau Vasaskrímsli\n"
+	.string "ekki taka þátt.\p"
+	.string "Góðir hlutir gerast ef allir hoppa í\n"
+	.string "takt.$"
 
 Text_DodrioBerryPickingInfo::
-	.string "“DODRIO BERRY-PICKING”\p"
-	.string "Command DODRIO's three heads to\n"
-	.string "catch falling BERRIES.\p"
-	.string "Press right, up, or left on the\n"
-	.string "{PLUS} Control Pad to move the heads.\p"
-	.string "To play this game, you must have\n"
-	.string "a DODRIO.$"
+	.string "'ÞRÍTRANA BERJATÍNSLA'\p"
+	.string "Stýrðu þremur höfðum ÞRÍTRANA til að\n"
+	.string "grípa fallandi BER.\p"
+	.string "Ýttu til hægri, upp eða vinstri á\n"
+	.string "{PLUS} stýripúðanum til að hreyfa\p"
+	.string "höfuðin.\p"
+	.string "Til að spila leikinn verður þú að\n"
+	.string "eiga ÞRÍTRANA.$"
 
 Text_TalkToManToPlay::
-	.string "If you want to play a game,\n"
-	.string "please tell the man beside me.$"
+	.string "Ef þú vilt spila leik, vinsamlegast\n"
+	.string "talaðu við manninn við hliðina á\p"
+	.string "mér.$"
 
 Text_WelcomeCanYouWait::
-	.string "Hi, welcome!\n"
-	.string "You can play games over the\l"
-	.string "Wireless Communication System.\p"
-	.string "Can you wait just a little bit?$"
+	.string "Hæ, velkomin! Þú getur spilað leiki\n"
+	.string "í gegnum Þráðlausa samskiptakerfið.\p"
+	.string "Geturðu beðið smá?$"
 
 CableClub_Text_ComeAgain::
-	.string "All right, come again!$"
+	.string "Allt í lagi, komið aftur!$"
 
 Text_AdapterNotConnectedMinigame::
-	.string "The Wireless Adapter isn't\n"
-	.string "connected.\p"
-	.string "Come back when it's hooked up!$"
+	.string "Þráðlausi millistykkið er ekki\n"
+	.string "tengt.\p"
+	.string "Komdu aftur þegar það er tengt!$"
 
 Text_PlayWhichGame::
-	.string "All right, which game did you want\n"
-	.string "to play?$"
+	.string "Allt í lagi, hvaða leik vildirðu\n"
+	.string "spila?$"
 
 Text_EnterWhichPokemon::
-	.string "Which POKéMON would you like to\n"
-	.string "enter?$"
+	.string "Hvaða Vasaskrímsli viltu senda inn?$"
 
 Text_AllGoodToGo::
-	.string "Okay, you're all good to go.\n"
-	.string "Don't let the others beat you!$"
+	.string "Allt í lagi, þú ert tilbúinn. Ekki\n"
+	.string "láta hina sigra þig!$"
 
 @ Unused, translated in Emerald
 Text_LeavingDoComeAgain::
-	.string "きょうは　けえるのか？\n"
-	.string "またこいよ！$"
+	.string "きょうは けえるのか？ またこいよ！$"
 
 EventScript_ExplainPokemonJumpRequirements::
-	.string "It doesn't look like you have any\n"
-	.string "POKéMON that you can enter…\p"
-	.string "Would you like me to explain what\n"
-	.string "kinds of POKéMON can enter?$"
+	.string "Það lítur ekki út fyrir að þú eigir\n"
+	.string "Vasaskrímsli sem þú getur skráð…\p"
+	.string "Viltu að ég útskýri hvaða tegundir\n"
+	.string "Vasaskrímsla geta tekið þátt?$"
 
 Text_ShortJumpingPokemonAllowed::
-	.string "“POKéMON JUMP” is open to POKéMON\n"
-	.string "around 28 inches or less.\p"
-	.string "What you can't enter are those\n"
-	.string "POKéMON that can't jump.\p"
-	.string "You know, like POKéMON that only\n"
-	.string "swim, burrow, or fly.\p"
-	.string "That's all you need to know.$"
+	.string "'VASASKRÍMSLA STÖKK' er opið fyrir\n"
+	.string "Vasaskrímsli um 28 tommur eða\p"
+	.string "minna.\p"
+	.string "Þú getur ekki skráð þau Vasaskrímsli\n"
+	.string "sem geta ekki hoppað.\p"
+	.string "Þú veist, eins og Vasaskrímsli sem\n"
+	.string "aðeins synda, grafa eða fljúga.\p"
+	.string "Þetta er allt sem þú þarft að vita.$"
 
 Text_OnlyDodrioAllowed::
-	.string "“DODRIO BERRY-PICKING”…\n"
-	.string "Well, the name says it all.\p"
-	.string "You have to have a DODRIO to play\n"
-	.string "this game.$"
+	.string "'ÞRÍTRANA BERJATÍNSLA'… Ja, nafnið\n"
+	.string "segir eiginlega allt.\p"
+	.string "Þú verður að eiga ÞRÍTRANA til að\n"
+	.string "spila þennan leik.$"
 
 @ Unused, translated in Emerald
 Text_RetryFromStartPlease::
-	.string "もういちど　はじめから\n"
-	.string "やりなおして　みて　くれ$"
+	.string "もういちど はじめから やりなおして みて くれ$"
 
 CableClub_Text_WelcomeWhichDirectCornerRoom::
-	.string "Welcome to the POKéMON WIRELESS\n"
-	.string "CLUB DIRECT CORNER.\p"
-	.string "You may interact directly with\n"
-	.string "your friends here.\p"
-	.string "Which room would you like to\n"
-	.string "enter?$"
+	.string "Velkomin(n) í Vasaskrímsla ÞRÁÐLAUSA\n"
+	.string "KLÚBBINN DIRECT CORNER.\p"
+	.string "Þú getur átt beint samskipti við\n"
+	.string "vini þína hér.\p"
+	.string "Hvaða herbergi viltu fara inn í?$"
 
 CableClub_Text_TradePokemon::
-	.string "Would you like to trade POKéMON?$"
+	.string "Viltu skipta Vasaskrímslum?$"
 
 CableClub_Text_PlayWhichBattleMode::
-	.string "Which Battle Mode would you like\n"
-	.string "to play?$"
+	.string "Hvaða bardagaham viltu spila?$"
 
 CableClub_Text_UseBerryCrush::
-	.string "Would you like to use the\n"
-	.string "BERRY CRUSH System?$"
+	.string "Viltu nota BERJAKVÖRNINA?$"
 
 CableClub_Text_ExplainBattleModes::
-	.string "There are three Battle Modes.\p"
-	.string "SINGLE BATTLE is for two TRAINERS\n"
-	.string "with one or more POKéMON each.\p"
-	.string "Each TRAINER can have one POKéMON\n"
-	.string "in battle at a time.\p"
-	.string "DOUBLE BATTLE is for two TRAINERS\n"
-	.string "with two or more POKéMON each.\p"
-	.string "Each TRAINER will send out two\n"
-	.string "POKéMON in battle at a time.\p"
-	.string "MULTI BATTLE is for four TRAINERS\n"
-	.string "with one or more POKéMON each.\p"
-	.string "Each TRAINER can have one POKéMON\n"
-	.string "in battle at a time.$"
+	.string "Það eru þrír bardagahamir.\p"
+	.string "EINBARDAGI er fyrir tvo ÞJÁLFARA með\n"
+	.string "eitt eða fleiri Vasaskrímsli.\p"
+	.string "Hvor ÞJÁLFARI getur haft eitt\n"
+	.string "Vasaskrímsli í bardaga í einu.\p"
+	.string "TVÍBARDAGI er fyrir tvo ÞJÁLFARA með\n"
+	.string "tvö eða fleiri Vasaskrímsli.\p"
+	.string "Hvor ÞJÁLFARI sendir út tvö\n"
+	.string "Vasaskrímsli í einu.\p"
+	.string "FJÖLBARDAGI er fyrir fjóra ÞJÁLFARA\n"
+	.string "í tveimur liðum.$"
 
 CableClub_Text_ChooseGroupLeaderOfTwo::
-	.string "Please decide which of you two\n"
-	.string "will become the LEADER.\p"
-	.string "The other player must then choose\n"
-	.string "“JOIN GROUP.”$"
+	.string "Vinsamlegast ákveðið hvor ykkar\n"
+	.string "tveggja verður LEIÐTOGINN.\p"
+	.string "Hinn leikmaðurinn verður þá að velja\n"
+	.string "'JOIN GROUP.'$"
 
 CableClub_Text_ChooseGroupLeaderOfFour::
-	.string "Please decide which of you four\n"
-	.string "will become the GROUP LEADER.\p"
-	.string "The other players must then choose\n"
-	.string "“JOIN GROUP.”$"
+	.string "Vinsamlegast ákveðið hver ykkar\n"
+	.string "fjögurra verður HÓPLEIÐTOGINN.\p"
+	.string "Hinir leikmennirnir verða þá að\n"
+	.string "velja 'JOIN GROUP.'$"
 
 CableClub_Text_ChooseGroupLeader::
-	.string "Please decide which of you will\n"
-	.string "become the GROUP LEADER.\p"
-	.string "The other players must then choose\n"
-	.string "“JOIN GROUP.”$"
+	.string "Vinsamlegast ákveðið hver ykkar\n"
+	.string "verður HÓPLEIÐTOGINN.\p"
+	.string "Hinir leikmennirnir verða þá að\n"
+	.string "velja 'JOIN GROUP.'$"
 
 CableClub_Text_WelcomeUnionRoomEnter::
-	.string "Welcome to the POKéMON WIRELESS\n"
-	.string "CLUB UNION ROOM.\p"
-	.string "You may interact directly with\n"
-	.string "other TRAINERS here, some of\l"
-	.string "whom you may not even know.\p"
-	.string "Would you like to enter the ROOM?$"
+	.string "Velkomin(n) í SAMBANDSHERBERGI\n"
+	.string "Vasaskrímsla ÞRÁÐLAUSA KLÚBBSINS.\p"
+	.string "Hér geturðu haft bein samskipti við\n"
+	.string "aðra ÞJÁLFARA, jafnvel þá sem þú\p"
+	.string "þekkir ekki.\p"
+	.string "Viltu fara inn?$"
 
 CableClub_Text_UnionRoomInfo::
-	.string "The TRAINERS in the UNION ROOM\n"
-	.string "will be those players around you\l"
-	.string "who have also entered the ROOM.\p"
-	.string "You may do all sorts of things\n"
-	.string "here, such as exchanging greetings.\p"
-	.string "You may enter two POKéMON up to\n"
-	.string "Lv. 30 for a one-on-one battle.\p"
-	.string "You may take part in a chat with\n"
-	.string "two to five people.\p"
-	.string "Or, you may register a POKéMON for\n"
-	.string "trade.\p"
-	.string "Would you like to enter the ROOM?$"
+	.string "ÞJÁLFARARNIR í SAMBANDSHERBERGINU\n"
+	.string "eru leikmenn í kringum þig sem hafa\p"
+	.string "líka farið þangað inn.\p"
+	.string "Þú getur gert ýmislegt hér, eins og\n"
+	.string "að skiptast á kveðjum.\p"
+	.string "Þú getur skráð tvö Vasaskrímsli allt\n"
+	.string "að Lv. 30 fyrir einn á móti einum\p"
+	.string "bardaga.\p"
+	.string "Þú getur líka spjallað við tvo til\n"
+	.string "fimm leikmenn, eða skipt og barist.$"
 
 CableClub_Text_EnjoyUnionRoom::
-	.string "I hope you enjoy your time in\n"
-	.string "the UNION ROOM.$"
+	.string "Ég vona að þú njótir tímans í\n"
+	.string "SAMBANDSHERBERGINU.$"
 
 CableClub_Text_FirstTimeRightThisWay::
-	.string "Hello!\n"
-	.string "My name is TEALA.\p"
-	.string "This must be your first time\n"
-	.string "up here.\p"
-	.string "I'll show you how the Wireless\n"
-	.string "Communication System works.\p"
-	.string "First, I need to show you this\n"
-	.string "floor of our POKéMON CENTER.\p"
-	.string "Right this way, please.$"
+	.string "Halló! Ég heiti TEALA.\p"
+	.string "Þetta hlýtur að vera í fyrsta skipti\n"
+	.string "þitt hér uppi.\p"
+	.string "Ég mun sýna þér hvernig þráðlausa\n"
+	.string "samskiptakerfið virkar.\p"
+	.string "Fyrst þarf ég að sýna þér þessa hæð\n"
+	.string "í Vasaskrímsla MIÐSTÖÐINNI okkar.\p"
+	.string "Þessa leið, vinsamlegast.$"
 
 CableClub_Text_ExplainWirelessClubFirstTime::
-	.string "On the top floor, there are two\n"
-	.string "rooms.\p"
-	.string "First, the room on the left.\n"
-	.string "It's the UNION ROOM.\p"
-	.string "You may link up with TRAINERS\n"
-	.string "around you who have also entered\l"
-	.string "the UNION ROOM.\p"
-	.string "With them, you may do things like\n"
-	.string "chat, battle, and trade.\p"
-	.string "Second, the room on the right is\n"
-	.string "the DIRECT CORNER.\p"
-	.string "You may trade or battle POKéMON\n"
-	.string "with your friends in this room.\p"
-	.string "If the Wireless Adapter isn't\n"
-	.string "connected, you may still link up\l"
-	.string "using a GBA Game Link cable.\p"
-	.string "If that is the case, you must go\n"
-	.string "to the DIRECT CORNER.\p"
-	.string "I hope you enjoy the Wireless \n"
-	.string "Communication System.$"
+	.string "Á efstu hæðinni eru tvö herbergi.\p"
+	.string "Fyrst er herbergið til vinstri. Það\n"
+	.string "er SAMBANDSHERBERGIÐ.\p"
+	.string "Þar geturðu tengst ÞJÁLFURUM í\n"
+	.string "kringum þig sem hafa líka farið inn.\p"
+	.string "Með þeim geturðu spjallað, barist og\n"
+	.string "skipt.\p"
+	.string "Herbergið til hægri er BEINHORN. Þar\n"
+	.string "geturðu skipt eða barist við\p"
+	.string "Vasaskrímsli við ákveðinn leikmann.$"
 
 CableClub_Text_AskAboutLinking::
-	.string "Hello, {PLAYER}!\p"
-	.string "It's me, TEALA, the POKéMON\n"
-	.string "CENTER 2F attendant.\p"
-	.string "Is there something you needed to\n"
-	.string "ask me about linking?$"
+	.string "Halló, {PLAYER}!\p"
+	.string "Það er ég, TEALA, starfsmaður á 2.\n"
+	.string "hæð Vasaskrímsla MIÐSTÖÐVARINNAR.\p"
+	.string "Var eitthvað sem þú þurftir að\n"
+	.string "spyrja mig um tengingar?$"
 
 CableClub_Text_ExplainWirelessClub::
-	.string "Let me explain how the POKéMON\n"
-	.string "WIRELESS CLUB works.\p"
-	.string "On this, the top floor, there are\n"
-	.string "two rooms.\p"
-	.string "First, the room on the left.\n"
-	.string "It's the UNION ROOM.\p"
-	.string "You may link up with TRAINERS\n"
-	.string "around you who have also entered\l"
-	.string "the UNION ROOM.\p"
-	.string "With them, you may do things like\n"
-	.string "chat, battle, and trade.\p"
-	.string "Second, the room on the right is\n"
-	.string "the DIRECT CORNER.\p"
-	.string "You may trade or battle POKéMON\n"
-	.string "with your friends in this room.\p"
-	.string "Sometimes, you may not be able to\n"
-	.string "find your friends in the UNION ROOM\l"
-	.string "or the DIRECT CORNER.\p"
-	.string "In that case, please move closer\n"
-	.string "to your friends.\p"
-	.string "If the Wireless Adapter isn't\n"
-	.string "connected, you may still link up\l"
-	.string "using a GBA Game Link cable.\p"
-	.string "If that is the case, you must go\n"
-	.string "to the DIRECT CORNER.\p"
-	.string "I hope you enjoy the Wireless \n"
-	.string "Communication System.$"
+	.string "Leyfðu mér að útskýra hvernig\n"
+	.string "Vasaskrímsla ÞRÁÐLAUSI KLÚBBURINN\p"
+	.string "virkar.\p"
+	.string "Á efstu hæðinni eru tvö herbergi.\p"
+	.string "Til vinstri er SAMBANDSHERBERGIÐ.\n"
+	.string "Þar geturðu tengst ÞJÁLFURUM í\p"
+	.string "kringum þig sem hafa líka farið inn.\p"
+	.string "Með þeim geturðu spjallað, barist og\n"
+	.string "skipt.\p"
+	.string "Til hægri er BEINHORN fyrir beinar\n"
+	.string "tengingar við ákveðinn leikmann.$"
 
 CableClub_Text_HopeYouEnjoyWirelessSystem::
-	.string "I hope you enjoy the Wireless\n"
-	.string "Communication System.$"
+	.string "Ég vona að þú njótir Þráðlausa\n"
+	.string "samskiptakerfisins.$"

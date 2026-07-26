@@ -32,10 +32,10 @@ MysteryEventScript_StampCard::
 	end
 
 sText_MysteryGiftStampCard:
-	.string "Thank you for using the STAMP CARD\n"
-	.string "System.\p"
-	.string "You have {STR_VAR_1} more to collect to\n"
-	.string "fill your STAMP CARD.$"
+	.string "Takk fyrir að nota\n"
+	.string "STIMPILKORTAKERFIÐ.\p"
+	.string "Þú þarft {STR_VAR_1} í viðbót til að\n"
+	.string "fylla STIMPILKORTIÐ.$"
 
 MysteryEventScript_SurfPichu::
 	setvaddress MysteryEventScript_SurfPichu
@@ -98,17 +98,14 @@ SurfPichu_Slot5:
 	return
 
 sText_MysteryGiftEgg:
-	.string "Thank you for using the MYSTERY\n"
-	.string "GIFT System.\p"
-	.string "From the POKéMON CENTER we\n"
-	.string "have a gift - a POKéMON EGG!\p"
-	.string "Please raise it with love and\n"
-	.string "kindness.$"
+	.string "Oh, your party appears to be full.\p"
+	.string "Please come see me after storing a\n"
+	.string "Vasaskrímsli on a PC.$"
 
 sText_FullParty:
 	.string "Oh, your party appears to be full.\p"
-	.string "Please come see me after storing\n"
-	.string "a POKéMON on a PC.$"
+	.string "Please come see me after storing a\n"
+	.string "Vasaskrímsli on a PC.$"
 
 MysteryEventScript_VisitingTrainer::
 	setvaddress MysteryEventScript_VisitingTrainer
@@ -132,32 +129,28 @@ MysteryEventScript_VisitingTrainerArrived:
 	end
 
 sText_MysteryGiftVisitingTrainer:
-	.string "Thank you for using the MYSTERY\n"
-	.string "GIFT System.\p"
-	.string "By holding this WONDER CARD, you\n"
-	.string "may take part in a survey at a\l"
-	.string "POKéMON MART.\p"
-	.string "Use these surveys to invite\n"
-	.string "TRAINERS to the SEVII ISLANDS.\p"
-	.string "…Let me give you a secret\n"
-	.string "password for a survey:\p"
-	.string "“GIVE ME\n"
-	.string "AWESOME TRAINER”\p"
-	.string "Write that in on a survey and send\n"
-	.string "it to the WIRELESS\l"
-	.string "COMMUNICATION SYSTEM.$"
-
-sText_MysteryGiftVisitingTrainer_2:
-	.string "Thank you for using the MYSTERY\n"
-	.string "GIFT System.\p"
-	.string "A TRAINER has arrived in the SEVII\n"
+	.string "Thank you for using the MYSTERY GIFT\n"
+	.string "System.\p"
+	.string "A ÞJÁLFARI has arrived in the SEVII\n"
 	.string "ISLANDS looking for you.\p"
-	.string "We hope you will enjoy\n"
-	.string "battling the visiting TRAINER.\p"
+	.string "We hope you will enjoy battling the\n"
+	.string "visiting ÞJÁLFARI.\p"
 	.string "You may invite other TRAINERS by\n"
 	.string "entering other passwords.\p"
-	.string "Try looking for other passwords\n"
-	.string "that may work.$"
+	.string "Try looking for other passwords that\n"
+	.string "may work.$"
+
+sText_MysteryGiftVisitingTrainer_2:
+	.string "Thank you for using the MYSTERY GIFT\n"
+	.string "System.\p"
+	.string "A ÞJÁLFARI has arrived in the SEVII\n"
+	.string "ISLANDS looking for you.\p"
+	.string "We hope you will enjoy battling the\n"
+	.string "visiting ÞJÁLFARI.\p"
+	.string "You may invite other TRAINERS by\n"
+	.string "entering other passwords.\p"
+	.string "Try looking for other passwords that\n"
+	.string "may work.$"
 
 MysteryEventScript_BattleCard::
 	setvaddress MysteryEventScript_BattleCard
@@ -185,25 +178,20 @@ MysteryEventScript_BattleCardInfo:
 	end
 
 sText_MysteryGiftBattleCountCard:
-	.string "Thank you for using the MYSTERY\n"
-	.string "GIFT System.\p"
-	.string "Your BATTLE COUNT CARD keeps\n"
-	.string "track of your battle record against\l"
-	.string "TRAINERS with the same CARD.\p"
-	.string "Look for and battle TRAINERS who\n"
-	.string "have the same CARD as you.\p"
-	.string "You may check the overall rankings\n"
-	.string "by reading the NEWS.\p"
-	.string "Please do give it a try!$"
+	.string "Takk fyrir að nota LEYNIGJAFAKERFIÐ.\p"
+	.string "Til hamingju!\p"
+	.string "Þú vannst verðlaun fyrir að vinna\n"
+	.string "þrjá bardaga!\p"
+	.string "Við vonum að þetta hvetji þig til\n"
+	.string "fleiri bardaga.$"
 
 sText_MysteryGiftBattleCountCard_2:
-	.string "Thank you for using the MYSTERY\n"
-	.string "GIFT System.\p"
-	.string "Congratulations!\p"
-	.string "You have won a prize for winning\n"
-	.string "three battles!\p"
-	.string "We hope you will be inspired to\n"
-	.string "battle some more.$"
+	.string "Takk fyrir að nota LEYNIGJAFAKERFIÐ.\p"
+	.string "Til hamingju!\p"
+	.string "Þú vannst verðlaun fyrir að vinna\n"
+	.string "þrjá bardaga!\p"
+	.string "Við vonum að þetta hvetji þig til\n"
+	.string "fleiri bardaga.$"
 
 MysteryEventScript_AuroraTicket::
 	setvaddress MysteryEventScript_AuroraTicket
@@ -242,26 +230,28 @@ AuroraTicket_Obtained:
 	end
 
 sText_AuroraTicket1:
-	.string "Thank you for using the MYSTERY\n"
-	.string "GIFT System.\p"
-	.string "You must be {PLAYER}.\n"
-	.string "There is a ticket here for you.$"
+	.string "Ó, fyrirgefðu, {PLAYER}. KEY ITEMS\n"
+	.string "HÓLFIÐ í TÖSKUNNI þinni er fullt.\p"
+	.string "Vinsamlegast geymdu eitthvað á\n"
+	.string "tölvunni þinni, komdu svo aftur.$"
 
 sText_AuroraTicket2:
-	.string "It appears to be for use at the\n"
-	.string "VERMILION CITY port.\p"
-	.string "Why not give it a try and see what\n"
-	.string "it is about?$"
+	.string "Ó, fyrirgefðu, {PLAYER}. KEY ITEMS\n"
+	.string "HÓLFIÐ í TÖSKUNNI þinni er fullt.\p"
+	.string "Vinsamlegast geymdu eitthvað á\n"
+	.string "tölvunni þinni, komdu svo aftur.$"
 
 sText_AuroraTicketGot:
-	.string "Thank you for using the MYSTERY\n"
-	.string "GIFT System.$"
+	.string "Ó, fyrirgefðu, {PLAYER}. KEY ITEMS\n"
+	.string "HÓLFIÐ í TÖSKUNNI þinni er fullt.\p"
+	.string "Vinsamlegast geymdu eitthvað á\n"
+	.string "tölvunni þinni, komdu svo aftur.$"
 
 sText_AuroraTicketNoPlace:
-	.string "Oh, I'm sorry, {PLAYER}. Your BAG's\n"
-	.string "KEY ITEMS POCKET is full.\p"
-	.string "Please store something on your PC,\n"
-	.string "then come back for this.$"
+	.string "Ó, fyrirgefðu, {PLAYER}. KEY ITEMS\n"
+	.string "HÓLFIÐ í TÖSKUNNI þinni er fullt.\p"
+	.string "Vinsamlegast geymdu eitthvað á\n"
+	.string "tölvunni þinni, komdu svo aftur.$"
 
 MysteryEventScript_MysticTicket::
 	setvaddress MysteryEventScript_MysticTicket
@@ -301,26 +291,28 @@ MysticTicket_Obtained:
 	end
 
 sText_MysticTicket2:
-	.string "Thank you for using the MYSTERY\n"
-	.string "GIFT System.\p"
-	.string "You must be {PLAYER}.\n"
-	.string "There is a ticket here for you.$"
+	.string "Ó, fyrirgefðu, {PLAYER}. KEY ITEMS\n"
+	.string "HÓLFIÐ í TÖSKUNNI þinni er fullt.\p"
+	.string "Vinsamlegast geymdu eitthvað á\n"
+	.string "tölvunni þinni, komdu svo aftur.$"
 
 sText_MysticTicket1:
-	.string "It appears to be for use at the\n"
-	.string "VERMILION CITY port.\p"
-	.string "Why not give it a try and see what\n"
-	.string "it is about?$"
+	.string "Ó, fyrirgefðu, {PLAYER}. KEY ITEMS\n"
+	.string "HÓLFIÐ í TÖSKUNNI þinni er fullt.\p"
+	.string "Vinsamlegast geymdu eitthvað á\n"
+	.string "tölvunni þinni, komdu svo aftur.$"
 
 sText_MysticTicketGot:
-	.string "Thank you for using the MYSTERY\n"
-	.string "GIFT System.$"
+	.string "Ó, fyrirgefðu, {PLAYER}. KEY ITEMS\n"
+	.string "HÓLFIÐ í TÖSKUNNI þinni er fullt.\p"
+	.string "Vinsamlegast geymdu eitthvað á\n"
+	.string "tölvunni þinni, komdu svo aftur.$"
 
 sText_MysticTicketNoPlace:
-	.string "Oh, I'm sorry, {PLAYER}. Your BAG's\n"
-	.string "KEY ITEMS POCKET is full.\p"
-	.string "Please store something on your PC,\n"
-	.string "then come back for this.$"
+	.string "Ó, fyrirgefðu, {PLAYER}. KEY ITEMS\n"
+	.string "HÓLFIÐ í TÖSKUNNI þinni er fullt.\p"
+	.string "Vinsamlegast geymdu eitthvað á\n"
+	.string "tölvunni þinni, komdu svo aftur.$"
 
 MysteryEventScript_AlteringCave::
 	setvaddress MysteryEventScript_AlteringCave
@@ -337,11 +329,11 @@ MysteryEventScript_AlteringCave_:
 	end
 
 sText_MysteryGiftAlteringCave:
-	.string "Thank you for using the MYSTERY\n"
-	.string "GIFT System.\p"
-	.string "Recently, there have been rumors\n"
-	.string "of rare POKéMON appearances.\p"
-	.string "The rumors are about ALTERING\n"
-	.string "CAVE on OUTCAST ISLAND.\p"
-	.string "Why not visit there and check if\n"
-	.string "the rumors are indeed true?$"
+	.string "Thank you for using the MYSTERY GIFT\n"
+	.string "System.\p"
+	.string "Recently, there have been rumors of\n"
+	.string "rare Vasaskrímsli appearances.\p"
+	.string "The rumors are about ALTERING CAVE\n"
+	.string "on OUTCAST ISLAND.\p"
+	.string "Why not visit there and check if the\n"
+	.string "rumors are indeed true?$"

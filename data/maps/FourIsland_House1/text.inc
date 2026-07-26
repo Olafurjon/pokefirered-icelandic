@@ -2,25 +2,21 @@
 @ Theres also an unused JP version of that text in this file instead
 
 JPText_BodySlamTeach::
-    .string "そーれ　ぼよーん！\n"
-    .string "どっちが　さきに　へたばるか？\l"
-    .string "のしかかり　しょうぶ　してるんだ\p"
-    .string "きみは　なかまに　はいったら\n"
-    .string "つぶれそうだな‥\l"
-    .string "かわりに　きみの　ポケモンに\l"
-    .string "のしかかり　おしえて　やろっか？$"
+    .string "そーれ ぼよーん！ どっちが さきに へたばるか？ のしかかり しょうぶ\n"
+    .string "してるんだ\p"
+    .string "きみは なかまに はいったら つぶれそうだな‥ かわりに きみの\n"
+    .string "ポケモンに のしかかり おしえて やろっか？$"
 
 JPText_BodySlamDeclined::
-    .string "また　おいで　ぼよーん！$"
+    .string "また おいで ぼよーん！$"
 
 JPText_BodySlamWhichMon::
-    .string "どの　ポケモンに\n"
-    .string "おしえたい　かい？$"
+    .string "どの ポケモンに おしえたい かい？$"
 
 JPText_BodySlamTaught::
-    .string "ぼよよーん！$"
+    .string "Boing!$"
 
 FourIsland_House1_Text_YoureAwfullyHeavy::
-    .string "There! Boing!\n"
-    .string "You're awfully heavy!$"
+    .string "Þarna! Boing! Þú ert ótrúlega\n"
+    .string "þungur!$"
 

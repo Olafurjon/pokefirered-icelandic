@@ -1,19 +1,20 @@
 CeladonCity_DepartmentStore_2F_Text_SuperRepelMorePowerfulRepel::
-    .string "SUPER REPEL keeps weak POKéMON at\n"
-    .string "bay…\p"
-    .string "Hmm, it's a more powerful REPEL.$"
+    .string "ÖFLUGT FÆLNIREYSI heldur veikum\n"
+    .string "vasaskrímslum í skefjum…\p"
+    .string "Hmm, þetta er kraftmeira en\n"
+    .string "venjulegt FÆLNIREYSI.$"
 
 CeladonCity_DepartmentStore_2F_Text_BuyReviveForLongOutings::
-    .string "For long outings, you should buy\n"
-    .string "REVIVE.$"
+    .string "Fyrir langar ferðir er gott að kaupa\n"
+    .string "LÍFGUNARLYF.$"
 
 CeladonCity_DepartmentStore_2F_Text_FloorSign::
-    .string "Top-Grade Items for TRAINERS!\p"
-    .string "2F: TRAINER'S MARKET$"
+    .string "Úrvalsvarningur fyrir ÞJÁLFARA!\p"
+    .string "2F: ÞJÁLFARAMARKAÐUR$"
 
 CeladonCity_DepartmentStore_2F_Text_LanceComesToBuyCapes::
-    .string "We have a customer, LANCE, who\n"
-    .string "occasionally comes.\p"
-    .string "He always buys capes.\p"
-    .string "I wonder… Does he have many\n"
-    .string "identical capes at home?$"
+    .string "Við eigum viðskiptavin, LANCE, sem\n"
+    .string "kemur stundum.\p"
+    .string "Hann kaupir alltaf skikkjur.\p"
+    .string "Ég velti fyrir mér... á hann margar\n"
+    .string "alveg eins skikkjur heima?$"

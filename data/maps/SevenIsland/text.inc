@@ -1,38 +1,36 @@
 Text_SwordsDanceTeach::
-    .string "Not many people come out here.\p"
-    .string "If I train here, I'm convinced that\n"
-    .string "I'll get stronger and stronger.\p"
-    .string "Yep, stronger and stronger…\p"
-    .string "How would you like to learn a move\n"
-    .string "like that? It's SWORDS DANCE.$"
+    .string "Það koma ekki margir hingað út.\p"
+    .string "Ef ég æfi hér, er ég viss um að\n"
+    .string "ég verð sterkari og sterkari.\p"
+    .string "Já, sterkari og sterkari…\p"
+    .string "Viltu læra slíka árás?\n"
+    .string "Hún er SWORDS DANCE.$"
 
 Text_SwordsDanceDeclined::
-    .string "Well, that's fine, too.$"
+    .string "Jæja, það er líka í lagi.$"
 
 Text_SwordsDanceWhichMon::
-    .string "All right, pick which POKéMON\n"
-    .string "I should teach it to.$"
+    .string "Allt í lagi, veldu hvaða\n"
+    .string "Vasaskrímsli ég á að kenna þetta.$"
 
 Text_SwordsDanceTaught::
-    .string "If only we could keep getting\n"
-    .string "stronger and stronger, eh?$"
+    .string "Ef við gætum bara alltaf orðið\n"
+    .string "sterkari og sterkari, ha?$"
 
 SevenIsland_Text_IslandSign::
-    .string "SEVEN ISLAND\n"
-    .string "Quest Island of Infinity$"
+    .string "SJÖ EYJA Leitar eyja Óendanleikans$"
 
 SevenIsland_Text_IslandsMadeInSevenDays::
-    .string "These islands are called the SEVII\n"
-    .string "ISLANDS because there are seven.\p"
-    .string "…Or at least that's what the young\n"
-    .string "people believe.\p"
-    .string "The truth is, these islands are so\n"
-    .string "named because they are said to\l"
-    .string "have been made in seven days.$"
+    .string "Þessar eyjar eru kallaðar SEVII\n"
+    .string "ISLANDS því þær eru sjö.\p"
+    .string "…Eða að minnsta kosti trúa unga\n"
+    .string "fólkið því.\p"
+    .string "Sannleikurinn er sá að nafnið kemur\n"
+    .string "af því að sagt er að eyjarnar hafi\p"
+    .string "verið skapaðar á sjö dögum.$"
 
 SevenIsland_Text_IslandVirtuallyUntouched::
-    .string "This island has been left virtually\n"
-    .string "untouched in its natural state.\p"
-    .string "It could be a little difficult to\n"
-    .string "hike around because of that.$"
-
+    .string "Þessi eyja hefur nánast haldist\n"
+    .string "ósnortin í náttúrulegu ástandi.\p"
+    .string "Þess vegna getur verið dálítið\n"
+    .string "erfitt að ganga hér um.$"

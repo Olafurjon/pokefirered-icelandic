@@ -1,190 +1,180 @@
 CinnabarIsland_Gym_Text_BlaineIntro::
     .string "Hah!\p"
-    .string "I am BLAINE, the red-hot LEADER\n"
-    .string "of CINNABAR GYM!\p"
-    .string "My fiery POKéMON are all rough\n"
-    .string "and ready with intense heat!\p"
-    .string "They incinerate all challengers!\p"
-    .string "Hah!\n"
-    .string "You better have BURN HEAL!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
+    .string "Ég er BLAINE, eldheiti SALSTJÓRINN í\n"
+    .string "CINNABAR SAL!\p"
+    .string "Eldheitu vasaskrímslin mín eru öll\n"
+    .string "grimm og tilbúin með brennandi hita!\p"
+    .string "Þau brenna alla áskorendur til ösku!\p"
+    .string "Hah! Þú ættir að hafa\n"
+    .string "BRUNALYF!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
 
 CinnabarIsland_Gym_Text_BlaineDefeat::
-    .string "I have burned down to nothing!\n"
-    .string "Not even ashes remain!\p"
-    .string "You have earned the VOLCANOBADGE.$"
+    .string "Ég hef brunnið niður í ekkert! Ekki\n"
+    .string "einu sinni aska er eftir!\p"
+    .string "Þú hefur unnið ELDFJALLSMERKIÐ.$"
 
 CinnabarIsland_Gym_Text_FireBlastIsUltimateFireMove::
-    .string "FIRE BLAST is the ultimate fire\n"
-    .string "technique.\p"
-    .string "Don't waste it on WATER POKéMON.$"
+    .string "ELDGOS er fullkomna eldtæknin.\p"
+    .string "Ekki eyða henni á\n"
+    .string "VATNS-vasaskrímsli.$"
 
 CinnabarIsland_Gym_Text_ExplainVolcanoBadge::
     .string "Hah!\p"
-    .string "The VOLCANOBADGE heightens the\n"
-    .string "SPECIAL stats of your POKéMON.\p"
-    .string "Here, you can have this, too!$"
+    .string "ELDFJALLSMERKIÐ hækkar SPECIAL tölur\n"
+    .string "vasaskrímslanna þinna.\p"
+    .string "Hér, þú mátt fá þetta líka!$"
 
 CinnabarIsland_Gym_Text_ReceivedTM38FromBlaine::
-    .string "{PLAYER} received TM38\n"
-    .string "from BLAINE.$"
+    .string "{PLAYER} fékk TM38 frá BLAINE.$"
 
 CinnabarIsland_Gym_Text_BlainePostBattle::
-    .string "TM38 contains FIRE BLAST.\n"
-    .string "Teach it to FIRE-type POKéMON.\p"
-    .string "VULPIX or CHARMELEON would be\n"
-    .string "ideal for that move.$"
+    .string "TM38 inniheldur ELDGOS. Kenndu það\n"
+    .string "ELD-gerðar vasaskrímslum.\p"
+    .string "HALATÓFA eða KAMELDLJÓN væru\n"
+    .string "fullkomin fyrir þessa hreyfingu.$"
 
 CinnabarIsland_Gym_Text_MakeSpaceForThis::
-    .string "Make space for this, child!$"
+    .string "Búðu til pláss fyrir þetta, barn!$"
 
 CinnabarIsland_Gym_Text_ErikIntro::
-    .string "Do you know how hot POKéMON fire\n"
-    .string "breath can get?$"
+    .string "Veistu hversu heitur eldandinn hjá\n"
+    .string "vasaskrímslum getur orðið?$"
 
 CinnabarIsland_Gym_Text_ErikDefeat::
-    .string "Yow!\n"
-    .string "Hot, hot, hot!$"
+    .string "Ái! Heitt, heitt, heitt!$"
 
 CinnabarIsland_Gym_Text_ErikPostBattle::
-    .string "Fire, or to be more precise,\n"
-    .string "combustion…\p"
-    .string "…Oxygen in the air…\n"
-    .string "Blah, blah, blah, blah…$"
+    .string "Eldur, eða nánar tiltekið bruni...\p"
+    .string "...Súrefni í loftinu... Bla, bla,\n"
+    .string "bla, bla...$"
 
 CinnabarIsland_Gym_Text_QuinnIntro::
-    .string "I was a thief, but I went straight\n"
-    .string "as a TRAINER.$"
+    .string "Ég var þjófur, en gerðist\n"
+    .string "heiðarlegur sem ÞJÁLFARI.$"
 
 CinnabarIsland_Gym_Text_QuinnDefeat::
-    .string "I surrender!$"
+    .string "Ég gefst upp!$"
 
 CinnabarIsland_Gym_Text_QuinnPostBattle::
-    .string "I get this uncontrollable urge to\n"
-    .string "steal other people's POKéMON.$"
+    .string "Ég fæ óstöðvandi löngun til að stela\n"
+    .string "vasaskrímslum annarra.$"
 
 CinnabarIsland_Gym_Text_AveryIntro::
-    .string "I've studied POKéMON thoroughly.\n"
-    .string "You can't win!$"
+    .string "Ég hef rannsakað vasaskrímsli í\n"
+    .string "þaula. Þú getur ekki unnið!$"
 
 CinnabarIsland_Gym_Text_AveryDefeat::
-    .string "Waah!\n"
-    .string "My studies were insufficient!$"
+    .string "Váá! Rannsóknir mínar dugðu ekki!$"
 
 CinnabarIsland_Gym_Text_AveryPostBattle::
-    .string "My theories are too complicated\n"
-    .string "for you to understand.$"
+    .string "Kenningar mínar eru of flóknar til\n"
+    .string "að þú skiljir þær.$"
 
 CinnabarIsland_Gym_Text_RamonIntro::
-    .string "I like using FIRE-type POKéMON.\n"
-    .string "I just do.$"
+    .string "Mér líkar að nota ELD-gerðar\n"
+    .string "vasaskrímsli. Bara þannig er það.$"
 
 CinnabarIsland_Gym_Text_RamonDefeat::
-    .string "Too hot to handle!$"
+    .string "Of heitt til að höndla!$"
 
 CinnabarIsland_Gym_Text_RamonPostBattle::
-    .string "I wish there were a thief POKéMON.\n"
-    .string "I'd use that!$"
+    .string "Ég vildi að til væri\n"
+    .string "þjófa-vasaskrímsli. Ég myndi nota\p"
+    .string "það!$"
 
 CinnabarIsland_Gym_Text_DerekIntro::
-    .string "I know why BLAINE became a\n"
-    .string "TRAINER.$"
+    .string "Ég veit af hverju BLAINE varð\n"
+    .string "ÞJÁLFARI.$"
 
 CinnabarIsland_Gym_Text_DerekDefeat::
-    .string "Ow!$"
+    .string "Ái!$"
 
 CinnabarIsland_Gym_Text_DerekPostBattle::
-    .string "Our LEADER, BLAINE, became lost\n"
-    .string "in the mountains but good.\p"
-    .string "Night fell when a fiery bird\n"
-    .string "POKéMON appeared.\p"
-    .string "Its light allowed BLAINE to find\n"
-    .string "his way down safely.$"
+    .string "SALSTJÓRINN okkar, BLAINE, villtist\n"
+    .string "einu sinni í fjöllunum.\p"
+    .string "Nótt skall á þegar eldheitt\n"
+    .string "fugla-vasaskrímsli birtist.\p"
+    .string "Ljósið frá því leyfði BLAINE að\n"
+    .string "finna örugga leið niður.$"
 
 CinnabarIsland_Gym_Text_DustyIntro::
-    .string "I've been to many GYMS, but this\n"
-    .string "one best suits my style.$"
+    .string "Ég hef komið í marga SALI, en þessi\n"
+    .string "passar best við minn stíl.$"
 
 CinnabarIsland_Gym_Text_DustyDefeat::
-    .string "Yowza!\n"
-    .string "Too hot!$"
+    .string "Vá! Of heitt!$"
 
 CinnabarIsland_Gym_Text_DustyPostBattle::
-    .string "PONYTA, NINETALES…\n"
-    .string "Those are popular FIRE POKéMON.$"
+    .string "LOGALD, NÍRÓFA... Þau eru vinsæl\n"
+    .string "ELD-vasaskrímsli.$"
 
 CinnabarIsland_Gym_Text_ZacIntro::
-    .string "Fire is weak against H2O.$"
+    .string "Eldur er veikur gegn H2O.$"
 
 CinnabarIsland_Gym_Text_ZacDefeat::
-    .string "Oh!\n"
-    .string "Snuffed out!$"
+    .string "Ó! Slökktur!$"
 
 CinnabarIsland_Gym_Text_ZacPostBattle::
-    .string "Water beats fire, of course.\p"
-    .string "But fire melts ice, so the FIRE\n"
-    .string "type beats ICE-type POKéMON.$"
+    .string "Vatn sigrar eld, auðvitað.\p"
+    .string "En eldur bræðir ís, svo ELD-gerðin\n"
+    .string "sigrar ÍS-gerðar vasaskrímsli.$"
 
 CinnabarIsland_Gym_Text_GymGuyAdvice::
-    .string "Yo!\n"
-    .string "Champ in the making!\p"
-    .string "The hotheaded BLAINE is a FIRE\n"
-    .string "POKéMON pro.\p"
-    .string "Douse his spirits with water!\p"
-    .string "You'd better take some\n"
-    .string "BURN HEALS, too.$"
+    .string "Jæja! Verðandi meistari!\p"
+    .string "Eldheiti BLAINE er sérfræðingur í\n"
+    .string "ELD-vasaskrímslum.\p"
+    .string "Slökktu baráttuvilja hans með vatni!\p"
+    .string "Þú ættir líka að taka BRUNALYF.$"
 
 CinnabarIsland_Gym_Text_GymGuyPostVictory::
-    .string "{PLAYER}!\n"
-    .string "You beat that firebrand!$"
+    .string "{PLAYER}! Þú sigraðir þennan\n"
+    .string "eldhaus!$"
 
 CinnabarIsland_Gym_Text_GymStatue::
-    .string "CINNABAR POKéMON GYM\n"
-    .string "LEADER: BLAINE\p"
-    .string "WINNING TRAINERS:\n"
-    .string "{RIVAL}$"
+    .string "CINNABAR VASASKRÍMSLA-SALUR\n"
+    .string "SALSTJÓRI: BLAINE\p"
+    .string "SIGRANDI ÞJÁLFARAR: {RIVAL}$"
 
 CinnabarIsland_Gym_Text_GymStatuePlayerWon::
-    .string "CINNABAR POKéMON GYM\n"
-    .string "LEADER: BLAINE\p"
-    .string "WINNING TRAINERS:\n"
-    .string "{RIVAL}, {PLAYER}$"
+    .string "CINNABAR VASASKRÍMSLA-SALUR\n"
+    .string "SALSTJÓRI: BLAINE\p"
+    .string "SIGRANDI ÞJÁLFARAR: {RIVAL},\n"
+    .string "{PLAYER}$"
 
 CinnabarIsland_Gym_Text_PokemonQuizRules::
-    .string "POKéMON Quiz!\p"
-    .string "Get it right, and the door opens to\n"
-    .string "the next room.\p"
-    .string "Get it wrong, and face a TRAINER!\p"
-    .string "If you want to conserve your\n"
-    .string "POKéMON for the GYM LEADER…\p"
-    .string "Then get it right!\n"
-    .string "Here we go!$"
+    .string "Vasaskrímsla-spurningakeppni!\p"
+    .string "Svaraðu rétt og dyrnar opnast í\n"
+    .string "næsta herbergi.\p"
+    .string "Svaraðu rangt og mættu ÞJÁLFARA!\p"
+    .string "Ef þú vilt spara vasaskrímslin þín\n"
+    .string "fyrir SALSTJÓRANN...\p"
+    .string "Þá skaltu svara rétt! Byrjum!$"
 
 CinnabarIsland_Gym_Text_QuizQuestion1::
-    .string "CATERPIE evolves into METAPOD?$"
+    .string "Þróast LIRFINGUR í PÚPISTI?$"
 
 CinnabarIsland_Gym_Text_QuizQuestion2::
-    .string "There are nine certified POKéMON\n"
-    .string "LEAGUE BADGES?$"
+    .string "Eru níu opinber VASASKRÍMSLADEILDAR\n"
+    .string "MERKI?$"
 
 CinnabarIsland_Gym_Text_QuizQuestion3::
-    .string "POLIWAG evolves three times?$"
+    .string "Þróast POTTGORMUR þrisvar?$"
 
 CinnabarIsland_Gym_Text_QuizQuestion4::
-    .string "Are electric moves effective\n"
-    .string "against GROUND-type POKéMON?$"
+    .string "Virka rafmagnshreyfingar vel á\n"
+    .string "JARÐ-gerðar vasaskrímsli?$"
 
 CinnabarIsland_Gym_Text_QuizQuestion5::
-    .string "POKéMON of the same kind and level\n"
-    .string "are not identical?$"
+    .string "Eru vasaskrímsli af sömu tegund og\n"
+    .string "sama stigi ekki eins?$"
 
 CinnabarIsland_Gym_Text_QuizQuestion6::
-    .string "TM28 contains TOMBSTONY?$"
+    .string "Inniheldur TM28 GRAFSTEIN?$"
 
 CinnabarIsland_Gym_Text_CorrectGoOnThrough::
-    .string "You're absolutely correct!\p"
-    .string "Go on through!$"
+    .string "Þú hefur algjörlega rétt fyrir þér!\p"
+    .string "Haltu áfram inn!$"
 
 CinnabarIsland_Gym_Text_SorryBadCall::
-    .string "Sorry!\n"
-    .string "Bad call!$"
+    .string "Fyrirgefðu! Rangt svar!$"
 

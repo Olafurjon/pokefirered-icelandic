@@ -1,24 +1,20 @@
 SixIsland_DottedHole_SapphireRoom_Text_FoundSapphire::
-    .string "{PLAYER} found a SAPPHIRE!$"
+    .string "{PLAYER} fann SAFÍR!$"
 
 SixIsland_DottedHole_SapphireRoom_Text_IWasRightInTailingYou::
-    .string "Fufu… Fufufufu…\n"
-    .string "I guessed right.\p"
-    .string "I was right in tailing you!$"
+    .string "Fufu… Fufufufu… Ég giskaði rétt.\p"
+    .string "Það var rétt hjá mér að elta þig!$"
 
 SixIsland_DottedHole_SapphireRoom_Text_SellToTeamRocketTellPassword::
-    .string "I knew that there was a SAPPHIRE\n"
-    .string "here, so it belongs to me!\p"
-    .string "I'll sell it to TEAM ROCKET for\n"
-    .string "serious money.\p"
-    .string "…D-don't glare at me like that!\p"
-    .string "If you want it back, why don't you\n"
-    .string "go get it after I sell it?\p"
-    .string "I'll even tell you one of the\n"
-    .string "passwords to TEAM ROCKET's\l"
-    .string "WAREHOUSE.\p"
-    .string "The WAREHOUSE password I know is\n"
-    .string "“Yes, nah, CHANSEY.”\p"
-    .string "I'm done.\n"
-    .string "Don't think badly of me!$"
+    .string "Ég vissi að hér væri SAFÍR, svo hann\n"
+    .string "tilheyrir mér!\p"
+    .string "Ég sel hann ROCKET-GENGINU fyrir\n"
+    .string "fullt af peningum.\p"
+    .string "…E-ekki stara svona á mig!\p"
+    .string "Ef þú vilt hann aftur, farðu þá að\n"
+    .string "ná í hann!\p"
+    .string "Ég skal meira að segja segja þér\n"
+    .string "lykilorðið að ROCKET-GEYMSLUNNI.\p"
+    .string "Annað lykilorðið er: 'Já, nei,\n"
+    .string "SÆLEGG.'$"
 

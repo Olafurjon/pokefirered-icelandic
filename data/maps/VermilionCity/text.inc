@@ -1,131 +1,133 @@
 VermilionCity_Text_GrimerMultipliesInSludge::
-    .string "We're careful about pollution here.\p"
-    .string "We've heard GRIMER multiplies in\n"
-    .string "toxic sludge.$"
+    .string "Við gætum vel að mengun hér.\p"
+    .string "Við höfum heyrt að DRULLUPOLL fjölgi\n"
+    .string "sér í eitruðum eðju.$"
 
 VermilionCity_Text_DidYouSeeSSAnneInHarbor::
-    .string "Did you see the S.S. ANNE moored\n"
-    .string "in the harbor?$"
+    .string "Sástu S.S. ANNE liggja við akkeri í\n"
+    .string "höfninni?$"
 
 VermilionCity_Text_SSAnneHasDepartedForYear::
-    .string "So, the S.S. ANNE has departed?\p"
-    .string "She'll be back in VERMILION about\n"
-    .string "this time next year.$"
+    .string "Jæja, S.S. ANNE er farin?\p"
+    .string "Hún verður aftur í VERMILION um\n"
+    .string "þetta leyti á næsta ári.$"
 
 VermilionCity_Text_BuildingOnThisLand::
-    .string "I'm putting up a building on this\n"
-    .string "plot of land. I own it all.\p"
-    .string "My POKéMON is tamping the land\n"
-    .string "to lay the foundation.$"
+    .string "Ég er að reisa byggingu á þessari\n"
+    .string "lóð. Ég á hana alla.\p"
+    .string "Vasaskrímslið mitt þjappar\n"
+    .string "jarðveginn undir grunninn.$"
 
 VermilionCity_Text_Machop::
-    .string "MACHOP: Guoh! Gogogoh!$"
+    .string "ÞREKANGI: Guoh! Gogogoh!$"
 
 VermilionCity_Text_MachopStompingLandFlat::
-    .string "A MACHOP is stomping the land flat.$"
+    .string "ÞREKANGI stappar jarðveginn flatan.$"
 
 VermilionCity_Text_SSAnneVisitsOnceAYear::
-    .string "The S.S. ANNE is a famous luxury\n"
-    .string "cruise ship.\p"
-    .string "It visits VERMILION once a year.$"
+    .string "S.S. ANNE er frægt lúxus-\n"
+    .string "skemmtiferðaskip.\p"
+    .string "Hún kemur til VERMILION einu sinni á\n"
+    .string "ári.$"
 
 VermilionCity_Text_CitySign::
-    .string "VERMILION CITY\n"
-    .string "The Port of Exquisite Sunsets$"
+    .string "VERMILION BORG Höfnin þar sem\n"
+    .string "sólarlagið glóir$"
 
 VermilionCity_Text_SnorlaxBlockingRoute12::
-    .string "NOTICE!\p"
-    .string "ROUTE 12 may be blocked off by a\n"
-    .string "sleeping POKéMON.\p"
-    .string "Detour through ROCK TUNNEL to\n"
-    .string "LAVENDER TOWN.\p"
-    .string "VERMILION POLICE$"
+    .string "TILKYNNING!\p"
+    .string "VEGUR 12 gæti verið lokuð af sofandi\n"
+    .string "vasaskrímsli.\p"
+    .string "Farðu hjáleið um ROCK TUNNEL til\n"
+    .string "LAVENDER BORGAR.\p"
+    .string "VERMILION LÖGREGLAN$"
 
 VermilionCity_Text_PokemonFanClubSign::
-    .string "POKéMON FAN CLUB\n"
-    .string "All POKéMON fans welcome!$"
+    .string "VASASKRÍMSLA AÐDÁENDAKLÚBBUR Allir\n"
+    .string "aðdáendur vasaskrímsla velkomnir!$"
 
 VermilionCity_Text_GymSign::
-    .string "VERMILION CITY POKéMON GYM\n"
-    .string "LEADER: LT. SURGE\l"
-    .string "The Lightning American!$"
+    .string "VERMILION BORG VASASKRÍMSLA-SALUR\n"
+    .string "SALSTJÓRI: LT. SURGE Eldingamaðurinn\p"
+    .string "frá Ameríku!$"
 
 VermilionCity_Text_VermilionHarbor::
-    .string "VERMILION HARBOR$"
+    .string "VERMILION HÖFN$"
 
 VermilionCity_Text_WelcomeToTheSSAnne::
-    .string "Welcome to the S.S. ANNE!$"
+    .string "Velkomin um borð í S.S. ANNE!$"
 
 VermilionCity_Text_DoYouHaveATicket::
-    .string "Welcome to the S.S. ANNE!\p"
-    .string "Excuse me, do you have a ticket?$"
+    .string "Velkomin um borð í S.S. ANNE!\p"
+    .string "Afsakið, ertu með miða?$"
 
 VermilionCity_Text_FlashedSSTicket::
-    .string "{FONT_NORMAL}{PLAYER} flashed the S.S. TICKET!\p"
-    .string "{FONT_MALE}Great!\n"
-    .string "Welcome to the S.S. ANNE!$"
+    .string "{FONT_NORMAL}{PLAYER} sýndi S.S.\n"
+    .string "MIÐANN!\p"
+    .string "{FONT_MALE}Frábært! Velkomin um borð\n"
+    .string "í S.S. ANNE!$"
 
 VermilionCity_Text_DontHaveNeededSSTicket::
-    .string "{FONT_NORMAL}{PLAYER} doesn't have the needed\n"
-    .string "S.S. TICKET.\p"
-    .string "{FONT_MALE}Sorry!\p"
-    .string "You need a ticket to get aboard.$"
+    .string "{FONT_NORMAL}{PLAYER} er ekki með\n"
+    .string "nauðsynlega S.S. MIÐANN.\p"
+    .string "{FONT_MALE}Afsakið!\p"
+    .string "Þú þarft miða til að fara um borð.$"
 
 VermilionCity_Text_TheShipSetSail::
-    .string "The ship set sail.$"
+    .string "Skipið lagði úr höfn.$"
 
 VermilionCity_Text_BoardSeagallopTriPass::
-    .string "Ah, you have a TRI-PASS.\p"
-    .string "Would you like to board\n"
-    .string "a SEAGALLOP ferry?$"
+    .string "Ah, þú ert með ÞRÍPASSA.\p"
+    .string "Viltu fara um borð í SEAGALLOP\n"
+    .string "ferju?$"
 
 VermilionCity_Text_Seagallop7Departing::
-    .string "Okay, everything's in order.\p"
-    .string "SEAGALLOP HI-SPEED 7 will be\n"
-    .string "departing immediately.$"
+    .string "Allt í lagi, allt er í röð og reglu.\p"
+    .string "SEAGALLOP HI-SPEED 7 leggur strax af\n"
+    .string "stað.$"
 
 VermilionCity_Text_BoardSeagallopRainbowPass::
-    .string "Ah, you have a RAINBOW PASS.\p"
-    .string "Would you like to board\n"
-    .string "a SEAGALLOP ferry?$"
+    .string "Ah, þú ert með REGNBOGAPASSA.\p"
+    .string "Viltu fara um borð í SEAGALLOP\n"
+    .string "ferju?$"
 
 VermilionCity_Text_OhMysticTicketTakeYouToNavelRock::
-    .string "Oh! That's a MYSTICTICKET!\n"
-    .string "Now that is rare.\p"
-    .string "We'll be happy to take you to\n"
-    .string "NAVEL ROCK anytime.$"
+    .string "Ó! Þetta er MYSTICMIÐI! Hann er\n"
+    .string "sannarlega sjaldgæfur.\p"
+    .string "Við flytjum þig glöð til NAVEL ROCK\n"
+    .string "hvenær sem er.$"
 
 VermilionCity_Text_OhAuroraTicketTakeYouToBirthIsland::
-    .string "Oh! That's an AURORATICKET!\n"
-    .string "Now that is rare.\p"
-    .string "We'll be happy to take you to\n"
-    .string "BIRTH ISLAND anytime.$"
+    .string "Ó! Þetta er AURORAMIÐI! Hann er\n"
+    .string "sannarlega sjaldgæfur.\p"
+    .string "Við flytjum þig glöð til BIRTH\n"
+    .string "ISLAND hvenær sem er.$"
 
 VermilionCity_Text_BoardSeagallopFerry::
-    .string "Would you like to board\n"
-    .string "a SEAGALLOP ferry?$"
+    .string "Viltu fara um borð í SEAGALLOP\n"
+    .string "ferju?$"
 
 VermilionCity_Text_Seagallop10Departing::
-    .string "Okay, everything's in order for you\n"
-    .string "to board a special ferry.\p"
-    .string "SEAGALLOP HI-SPEED 10 will be\n"
-    .string "departing immediately.$"
+    .string "Allt í lagi, allt er klárt fyrir þig\n"
+    .string "til að fara um borð í sérferju.\p"
+    .string "SEAGALLOP HI-SPEED 10 leggur strax\n"
+    .string "af stað.$"
 
 VermilionCity_Text_Seagallop12Departing::
-    .string "Okay, everything's in order for you\n"
-    .string "to board a special ferry.\p"
-    .string "SEAGALLOP HI-SPEED 12 will be\n"
-    .string "departing immediately.$"
+    .string "Allt í lagi, allt er klárt fyrir þig\n"
+    .string "til að fara um borð í sérferju.\p"
+    .string "SEAGALLOP HI-SPEED 12 leggur strax\n"
+    .string "af stað.$"
 
 VermilionCity_Text_Route2AideHasPackageForYou::
-    .string "Oh, hello, {PLAYER}!\n"
-    .string "How are you doing?\p"
-    .string "It's me, one of PROF. OAK's AIDES.\p"
-    .string "Did you meet the other AIDE?\p"
-    .string "He had a package from PROF. OAK\n"
-    .string "for you, {PLAYER}.\p"
-    .string "He said he'd look for you around\n"
-    .string "ROUTE 2, {PLAYER}.\p"
-    .string "If you're in the ROUTE 2 area,\n"
-    .string "please look for him.$"
+    .string "Ó, halló, {PLAYER}! Hvernig gengur?\p"
+    .string "Þetta er ég, einn af AÐSTOÐARMÖNNUM\n"
+    .string "Prófessor EIK.\p"
+    .string "Hittirðu hinn AÐSTOÐARMANNINN?\p"
+    .string "Hann var með pakka frá Prófessor EIK\n"
+    .string "handa þér, {PLAYER}.\p"
+    .string "Hann sagðist leita að þér í kringum\n"
+    .string "VEGUR 2, {PLAYER}.\p"
+    .string "Ef þú ert á VEGUR 2 svæðinu,\n"
+    .string "vinsamlegast leitaðu að honum.$"
 

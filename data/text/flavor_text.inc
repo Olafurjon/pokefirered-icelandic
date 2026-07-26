@@ -1,122 +1,121 @@
 @ Flavor text for interacting with various background objects
 
 Text_Bookshelf::
-	.string "It's crammed full of POKéMON\n"
-	.string "books.$"
+	.string "Hún er troðfull af\n"
+	.string "Vasaskrímslabókum.$"
 
 Text_NothingButPokemonBooks::
-	.string "ほんだなに　ならんでいるのは\n"
-	.string "ポケモンの　ほん　ばかりだ$"
+	.string "Í bókahillunni eru bara\n"
+	.string "Vasaskrímslabækur.$"
 
 Text_ATownMap::
-	.string "A TOWN MAP.$"
+	.string "BÆJARKORT.$"
 
 Text_PokeMartShelf::
-	.string "Wow!\n"
-	.string "Tons of POKéMON stuff!$"
+	.string "Vá! Fullt af Vasaskrímsladóti!$"
 
 Text_DishesPlatesNeatlyLinedUp::
-	.string "Dishes and plates are neatly\n"
-	.string "lined up.$"
+	.string "Diskar og plötur eru snyrtilega\n"
+	.string "raðaðar upp.$"
 
 Text_Kitchen::
-	.string "It smells delicious!\n"
-	.string "Somebody's been cooking here.$"
+	.string "Það lyktar dásamlega! Einhver hefur\n"
+	.string "verið að elda hér.$"
 
 Text_Dresser::
-	.string "It's a nicely made dresser.\n"
-	.string "It will hold a lot of stuff.$"
+	.string "Þetta er vönduð kommóða. Hún getur\n"
+	.string "geymt mikið af dóti.$"
 
 Text_Snacks::
-	.string "There's a pile of snacks here.$"
+	.string "Hér er hrúga af snakki.$"
 
 Text_PokemartSign::
-	.string "All your item needs fulfilled!\n"
-	.string "POKéMON MART$"
+	.string "Allt sem þig vantar!\n"
+	.string "Vasaskrímsla-BÚÐ$"
 
 Text_PokecenterSign::
-	.string "Heal Your POKéMON!\n"
-	.string "POKéMON CENTER$"
+	.string "Læknaðu Vasaskrímslin þín!\n"
+	.string "Vasaskrímsla-SETUR$"
 
 Text_Indigo_UltimateGoal::
 	.string "INDIGO PLATEAU\p"
-	.string "The ultimate goal of TRAINERS!\n"
-	.string "POKéMON LEAGUE HQ$"
+	.string "Lokamark ÞJÁLFARA!\n"
+	.string "HÖFUÐSTÖÐVAR Vasaskrímsladeildar$"
 
 Text_Indigo_HighestAuthority::
 	.string "INDIGO PLATEAU\p"
-	.string "The highest POKéMON authority!\n"
-	.string "POKéMON LEAGUE HQ$"
+	.string "Æðsta yfirvald Vasaskrímsla!\n"
+	.string "HÖFUÐSTÖÐVAR Vasaskrímsladeildar$"
 
 Text_Food::
-	.string "It should be packed with all kinds\n"
-	.string "of delicious things to eat.$"
+	.string "Það ætti að vera fullt af alls kyns\n"
+	.string "ljúffengum hlutum til að borða.$"
 
 Text_Blueprints::
-	.string "It's a blueprint of some sort.\n"
-	.string "It's filled with diagrams and text.$"
+	.string "Þetta er einhvers konar teikning.\n"
+	.string "Hún er full af skýringarmyndum og\p"
+	.string "texta.$"
 
 Text_Painting::
-	.string "It's a pretty picture of a POKéMON.\n"
-	.string "It looks like it's feeling good.$"
+	.string "Þetta er falleg mynd af\n"
+	.string "Vasaskrímsli. Það virðist\p"
+	.string "líða vel.$"
 
 Text_PowerPlantMachine::
-	.string "What could this machine be?\n"
-	.string "Better not mess around with it!$"
+	.string "Hvað gæti þessi vél verið? Betra að\n"
+	.string "fikta ekki í henni!$"
 
 Text_Telephone::
-	.string "It's a telephone.\n"
-	.string "Better not use it.$"
+	.string "Þetta er sími. Betra að nota hann\n"
+	.string "ekki.$"
 
 Text_Computer::
-	.string "It's all complicated words and\n"
-	.string "numbers that make no sense…$"
+	.string "Þetta eru allt flókin orð og tölur\n"
+	.string "sem eru óskiljanleg…$"
 
 Text_AdvertisingPoster::
-	.string "It's an advertising poster about\n"
-	.string "all kinds of products.$"
+	.string "Þetta er auglýsingaplakat um alls\n"
+	.string "konar vörur.$"
 
 Text_TastyFood::
-	.string "Oh, that smells tasty!\n"
-	.string "It might get the stomach growling!$"
+	.string "Ó, þetta lyktar girnilega! Það gæti\n"
+	.string "látið magann kurra!$"
 
 Text_TrashBin::
-	.string "Inside this…\n"
-	.string "……\p"
-	.string "There's nothing here!$"
+	.string "Inni í þessu… ……\p"
+	.string "Það er ekkert hér!$"
 
 Text_Cup::
-	.string "It's a cup with a POKéMON mark\n"
-	.string "on it.$"
+	.string "Þetta er bolli með Vasaskrímsla-\n"
+	.string "merki á sér.$"
 
 Text_PolishedWindow::
-	.string "The window is very well polished.$"
+	.string "Glugginn er mjög vel pússaður.$"
 
 Text_BeautifulSkyWindow::
-	.string "Outside the window…\p"
-	.string "The sky looks fantastically\n"
-	.string "beautiful.$"
+	.string "Fyrir utan gluggann…\p"
+	.string "Himinninn lítur stórkostlega fagur\n"
+	.string "út.$"
 
 Text_BlinkingLights::
-	.string "Lights in different colors are\n"
-	.string "flashing on and off.$"
+	.string "Ljós í mismunandi litum eru að\n"
+	.string "blikka á og af.$"
 
 Text_NeatlyLinedUpTools::
-	.string "All sorts of tools are lined up\n"
-	.string "neatly.$"
+	.string "Alls kyns verkfæri eru snyrtilega\n"
+	.string "raðað upp.$"
 
 Text_ImpressiveMachine::
-	.string "It's a machine of some sort.\n"
-	.string "It sure is impressive.$"
+	.string "Þetta er einhvers konar vél. Hún er\n"
+	.string "vissulega áhrifamikil.$"
 
 Text_VideoGame::
-	.string "It's the latest video game!\n"
-	.string "It sure looks fun!$"
+	.string "Þetta er nýjasti tölvuleikurinn!\n"
+	.string "Hann lítur vissulega skemmtilega út!$"
 
 Text_Burglary::
-	.string "There are obvious signs of burglary\n"
-	.string "here…$"
+	.string "Hér eru augljós merki um innbrot…$"
 
 Text_PlayerFacingTVScreen::
-	.string "There's a POKéMON on TV!\n"
-	.string "It looks like it's having fun.$"
+	.string "Það er Vasaskrímsli í sjónvarpinu!\n"
+	.string "Það virðist skemmta sér vel.$"

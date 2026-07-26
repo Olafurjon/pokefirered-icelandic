@@ -1,14 +1,14 @@
 CeruleanCity_Mart_Text_RepelWorksOnWeakMons::
-    .string "REPEL not only keeps bugs away,\n"
-    .string "it also works on weak POKéMON.\p"
-    .string "Put your strongest POKéMON at the\n"
-    .string "left of the POKéMON LIST.\p"
-    .string "If your first POKéMON is strong,\n"
-    .string "REPEL's effect is boosted.$"
+    .string "REPEL heldur ekki bara pöddum frá,\n"
+    .string "það virkar líka á veik vasaskrímsli.\p"
+    .string "Settu sterkasta vasaskrímslið þitt\n"
+    .string "fremst á vasaskrímsla-LISTANN.\p"
+    .string "Ef fyrsta vasaskrímslið þitt er\n"
+    .string "sterkt verður áhrif REPEL meiri.$"
 
 CeruleanCity_Mart_Text_DoYouKnowAboutRareCandy::
-    .string "Do you know about RARE CANDY?\n"
-    .string "They don't sell it in shops.\p"
-    .string "I think it makes POKéMON grow\n"
-    .string "very quickly all of a sudden.$"
+    .string "Veistu um RARE CANDY? Það er ekki\n"
+    .string "selt í búðum.\p"
+    .string "Ég held að það láti vasaskrímsli\n"
+    .string "vaxa mjög hratt allt í einu.$"
 

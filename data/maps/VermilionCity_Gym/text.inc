@@ -1,140 +1,133 @@
 VermilionCity_Gym_Text_LtSurgeIntro::
-    .string "Hey, kid! What do you think you're\n"
-    .string "doing here?\p"
-    .string "You won't live long in combat!\n"
-    .string "Not with your puny power!\p"
-    .string "I tell you, kid, electric POKéMON\n"
-    .string "saved me during the war!\p"
-    .string "They zapped my enemies into\n"
-    .string "paralysis!\p"
-    .string "The same as I'll do to you!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
+    .string "Hey, krakki! Hvað heldurðu að þú\n"
+    .string "sért að gera hér?\p"
+    .string "Þú lifir ekki lengi í bardaga! Ekki\n"
+    .string "með þennan vesæla kraft!\p"
+    .string "Ég segi þér, krakki, rafmagns-\n"
+    .string "vasaskrímsli björguðu mér í\p"
+    .string "stríðinu!\p"
+    .string "Þau lömuðu óvini mína með raflosti!\p"
+    .string "Ég geri það sama við\n"
+    .string "þig!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
 
 VermilionCity_Gym_Text_LtSurgePostBattle::
-    .string "A little word of advice, kid!\p"
-    .string "Electricity is sure powerful!\p"
-    .string "But, it's useless against GROUND-\n"
-    .string "type POKéMON!$"
+    .string "Smá ráð, krakki!\p"
+    .string "Rafmagn er sannarlega öflugt!\p"
+    .string "En það gagnast ekkert gegn\n"
+    .string "JARÐAR-gerðar vasaskrímslum!$"
 
 VermilionCity_Gym_Text_ExplainThunderBadgeTakeThis::
-    .string "The THUNDERBADGE cranks up your\n"
-    .string "POKéMON's SPEED!\p"
-    .string "It also lets your POKéMON FLY\n"
-    .string "lightning-quick anytime, kid!\p"
-    .string "You're special, kid!\n"
-    .string "Take this!$"
+    .string "ÞRUMUMERKIÐ hækkar SPEED hjá\n"
+    .string "vasaskrímslunum þínum!\p"
+    .string "Það leyfir vasaskrímslunum þínum\n"
+    .string "líka að nota FLY eldingarhratt\p"
+    .string "hvenær sem er, krakki!\p"
+    .string "Þú ert sérstakur, krakki! Taktu\n"
+    .string "þetta!$"
 
 VermilionCity_Gym_Text_ReceivedTM34FromLtSurge::
-    .string "{PLAYER} received TM34\n"
-    .string "from LT. SURGE.$"
+    .string "{PLAYER} fékk TM34 frá LT. SURGE.$"
 
 VermilionCity_Gym_Text_ExplainTM34::
-    .string "TM34 contains SHOCK WAVE!\p"
-    .string "Teach it to an ELECTRIC POKéMON!$"
+    .string "TM34 inniheldur ÁFALLABYLGJU!\p"
+    .string "Kenndu hana rafmagns-vasaskrímsli!$"
 
 VermilionCity_Gym_Text_MakeRoomInYourBag::
-    .string "Yo, kid, make room in your BAG!$"
+    .string "Yo, krakki, gerðu pláss í TÖSKUNNI!$"
 
 VermilionCity_Gym_Text_LtSurgeDefeat::
-    .string "Now that's a shocker!\p"
-    .string "You're the real deal, kid!\p"
-    .string "Fine, then, take the THUNDERBADGE!$"
+    .string "Nú er ég lostinn!\p"
+    .string "Þú ert alvöru efni, krakki!\p"
+    .string "Jæja þá, taktu ÞRUMUMERKIÐ!$"
 
 VermilionCity_Gym_Text_TuckerIntro::
-    .string "When I was in the Army, LT. SURGE\n"
-    .string "was my strict CO.\p"
-    .string "He was a hard taskmaster.$"
+    .string "Þegar ég var í hernum var LT. SURGE\n"
+    .string "strangur yfirforingi minn.\p"
+    .string "Hann var harður húsbóndi.$"
 
 VermilionCity_Gym_Text_TuckerDefeat::
-    .string "Stop!\n"
-    .string "You're very good!$"
+    .string "Hættu! Þú ert mjög góður!$"
 
 VermilionCity_Gym_Text_TuckerPostBattle::
-    .string "It's not easy opening that door.\p"
-    .string "LT. SURGE was always famous for\n"
-    .string "his cautious nature in the Army.$"
+    .string "Það er ekki auðvelt að opna þessa\n"
+    .string "hurð.\p"
+    .string "LT. SURGE var alltaf frægur fyrir\n"
+    .string "varkára eðlið sitt í hernum.$"
 
 VermilionCity_Gym_Text_BailyIntro::
-    .string "I'm a lightweight, but I'm good\n"
-    .string "with electricity!\p"
-    .string "That's why I joined this GYM.$"
+    .string "Ég er léttavigtarmaður, en ég er\n"
+    .string "góður með rafmagn!\p"
+    .string "Þess vegna gekk ég í þennan SAL.$"
 
 VermilionCity_Gym_Text_BailyDefeat::
-    .string "Fried!$"
+    .string "Steiktur!$"
 
 VermilionCity_Gym_Text_BailyPostBattle::
     .string "Okay, I'll talk!\p"
-    .string "LT. SURGE said he hid door\n"
-    .string "switches inside something.$"
+    .string "LT. SURGE said he hid door switches\n"
+    .string "inside something.$"
 
 VermilionCity_Gym_Text_DwayneIntro::
-    .string "This is no place for kids!\n"
-    .string "Not even if you're good!$"
+    .string "Þetta er enginn staður fyrir krakka!\n"
+    .string "Ekki einu sinni ef þú ert góður!$"
 
 VermilionCity_Gym_Text_DwayneDefeat::
-    .string "Wow!\n"
-    .string "Surprised me!$"
+    .string "Vá! Þú kom mér á óvart!$"
 
 VermilionCity_Gym_Text_DwaynePostBattle::
-    .string "LT. SURGE installed the traps in\n"
-    .string "the GYM himself.\p"
-    .string "He set up double locks everywhere.\n"
-    .string "Let me give you a hint.\p"
-    .string "When you open the first lock, the\n"
-    .string "second lock is right next to it.$"
+    .string "LT. SURGE setti gildrurnar í SALNUM\n"
+    .string "upp sjálfur.\p"
+    .string "Hann setti tvöfalda lása alls\n"
+    .string "staðar. Ég skal gefa þér\p"
+    .string "vísbendingu.\p"
+    .string "Þegar þú opnar fyrsta lásinn er\n"
+    .string "annar lásinn rétt hjá honum.$"
 
 VermilionCity_Gym_Text_GymGuyAdvice::
-    .string "Yo!\n"
-    .string "Champ in the making!\p"
-    .string "LT. SURGE has a nickname.\p"
-    .string "People refer to him as the\n"
-    .string "Lightning American!\p"
-    .string "He's an expert on electric\n"
-    .string "POKéMON.\p"
-    .string "BIRD/WATER-type POKéMON match\n"
-    .string "poorly against the ELECTRIC type.\p"
-    .string "Beware of paralysis, too.\p"
-    .string "LT. SURGE is very cautious.\p"
-    .string "He's locked himself in, so it won't\n"
-    .string "be easy getting to him.$"
+    .string "Yo! Verðandi meistari!\p"
+    .string "LT. SURGE hefur gælunafn.\p"
+    .string "Fólk kallar hann Eldingamanninn frá\n"
+    .string "Ameríku!\p"
+    .string "Hann er sérfræðingur í rafmagns-\n"
+    .string "vasaskrímslum.\p"
+    .string "FLUG/VATNS-gerðar vasaskrímsli\n"
+    .string "standa illa gegn RAFMAGNS gerðinni.\p"
+    .string "Varastu lömun líka.\p"
+    .string "LT. SURGE er mjög varkár.\p"
+    .string "Hann hefur læst sig inni, svo það\n"
+    .string "verður ekki auðvelt að komast til\p"
+    .string "hans.$"
 
 VermilionCity_Gym_Text_GymGuyPostVictory::
-    .string "Whew!\n"
-    .string "That match was electric!$"
+    .string "Úff! Þessi bardagi var rafmagnaður!$"
 
 VermilionCity_Gym_Text_GymStatue::
-    .string "VERMILION POKéMON GYM\n"
-    .string "LEADER: LT. SURGE\p"
-    .string "WINNING TRAINERS:\n"
-    .string "{RIVAL}$"
+    .string "VERMILION VASASKRÍMSLA-SALUR\n"
+    .string "SALSTJÓRI: LT. SURGE\p"
+    .string "SIGURÞJÁLFARAR: {RIVAL}$"
 
 VermilionCity_Gym_Text_GymStatuePlayerWon::
-    .string "VERMILION POKéMON GYM\n"
-    .string "LEADER: LT. SURGE\p"
-    .string "WINNING TRAINERS:\n"
-    .string "{RIVAL}, {PLAYER}$"
+    .string "VERMILION VASASKRÍMSLA-SALUR\n"
+    .string "SALSTJÓRI: LT. SURGE\p"
+    .string "SIGURÞJÁLFARAR: {RIVAL}, {PLAYER}$"
 
 VermilionCity_Gym_Text_NopeOnlyTrashHere::
-    .string "Nope!\n"
-    .string "There's only trash here.$"
+    .string "Nei! Hér er bara rusl.$"
 
 VermilionCity_Gym_Text_SwitchUnderTrashFirstLockOpened::
-    .string "Hey! There's a switch under the\n"
-    .string "trash! Turn it on!\p"
-    .string "The first electric lock opened!$"
+    .string "Hey! Það er rofi undir ruslinu!\n"
+    .string "Kveiktu á honum!\p"
+    .string "Fyrsti raflásinn opnaðist!$"
 
 VermilionCity_Gym_Text_AnotherSwitchInTrash::
-    .string "ガサゴソ‥！\n"
-    .string "おっと！　ゴミばこの　そこに\l"
-    .string "また　スイッチが　あった！\l"
-    .string "おして　みよう！　‥　ポチッとな$"
+    .string "ガサゴソ‥！ おっと！ ゴミばこの そこに また スイッチが あった！\n"
+    .string "おして みよう！ ‥ ポチッとな$"
 
 VermilionCity_Gym_Text_SecondLockOpened::
-    .string "The second electric lock opened!\n"
-    .string "The motorized door opened!$"
+    .string "Annar raflásinn opnaðist! Vélknúna\n"
+    .string "hurðin opnaðist!$"
 
 VermilionCity_Gym_Text_OnlyTrashLocksWereReset::
-    .string "Nope!\n"
-    .string "There's only trash here.\p"
-    .string "Hey!\n"
-    .string "The electric locks were reset!$"
+    .string "Neibb! Hér er bara rusl.\p"
+    .string "Hey! Raflásarnir endurstilltust!$"
 

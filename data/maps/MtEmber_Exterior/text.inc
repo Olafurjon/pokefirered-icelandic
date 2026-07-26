@@ -1,144 +1,136 @@
 Text_ExplosionTeach::
-    .string "Can you imagine?\n"
-    .string "If this volcano were to erupt?\p"
-    .string "The explosion would be the end of\n"
-    .string "us. How terrifying is that?\p"
-    .string "While we're terrified, would you\n"
-    .string "like me to teach EXPLOSION?$"
+    .string "Geturðu ímyndað þér? Ef þetta\n"
+    .string "eldfjall myndi gjósa?\p"
+    .string "Sprengingin myndi verða endirinn á\n"
+    .string "okkur. Hversu hræðilegt er það?\p"
+    .string "Meðan við erum skelfingu lostin,\n"
+    .string "viltu að ég kenni þér SPRENGINGU?$"
 
 Text_ExplosionDeclined::
-    .string "Yeah, you're right.\n"
-    .string "It is too terrifying.$"
+    .string "Já, þú hefur rétt fyrir þér. Það er\n"
+    .string "of hræðilegt.$"
 
 Text_ExplosionWhichMon::
-    .string "You're terribly brave!\p"
-    .string "Which POKéMON should I teach\n"
+    .string "Þú ert hrikalega hugrakkur!\p"
+    .string "Hvaða Vasaskrímsli á ég að kenna\n"
     .string "EXPLOSION?$"
 
 Text_ExplosionTaught::
-    .string "Using EXPLOSION while on this\n"
-    .string "volcano…\p"
-    .string "What a terrifying thrill!$"
+    .string "Að nota SPRENGINGU á þessu\n"
+    .string "eldfjalli…\p"
+    .string "Þvílík skelfileg spenna!$"
 
 @ Below 4 are unused JP versions of the above texts
 Text_ExplosionTeachJP::
-    .string "こ　この　かざんが\n"
-    .string "もし　だいばくはつ　したら\l"
-    .string "お　おれら　ひとたまりも\l"
-    .string "ないなあ　‥ブルブル！\p"
-    .string "こ　こわい　ついでに\n"
-    .string "だいばくはつ　でも　おぼえてみる？$"
+    .string "こ この かざんが もし だいばくはつ したら お おれら ひとたまりも\n"
+    .string "ないなあ ‥ブルブル！\p"
+    .string "こ こわい ついでに だいばくはつ でも おぼえてみる？$"
 
 Text_ExplosionDeclinedJP::
-    .string "や　やっぱ　こわいもんな\n"
-    .string "ブルブル$"
+    .string "や やっぱ こわいもんな ブルブル$"
 
 Text_ExplosionWhichMonJP::
-    .string "つ　つよきだね！\n"
-    .string "じゃあ　どの　ポケモンに　する？$"
+    .string "つ つよきだね！ じゃあ どの ポケモンに する？$"
 
 Text_ExplosionTaughtJP::
-    .string "かざんで　だいばくはつを‥\n"
-    .string "す　すごい　スリル！$"
+    .string "かざんで だいばくはつを‥ す すごい スリル！$"
 
 MtEmber_Exterior_Text_WellTryDiggingHere::
-    .string "Over here.\n"
-    .string "We'll try digging here.\p"
-    .string "That treasure the ADMINS've been\n"
-    .string "talking about should be here.$"
+    .string "Hérna. Við reynum að grafa hér.\p"
+    .string "Þessi fjársjóður sem STJÓRNENDURNIR\n"
+    .string "hafa verið að tala um ætti að vera\p"
+    .string "hér.$"
 
 MtEmber_Exterior_Text_YoureInTheWayGetLost::
-    .string "What the…?\n"
-    .string "You're in the way. Get lost.$"
+    .string "Hvað í…? Þú ert fyrir. Farðu.$"
 
 MtEmber_Exterior_Text_PunchedThroughAtLast::
-    .string "Whew, punched through at last.\n"
-    .string "Let's go treasure hunting!$"
+    .string "Púff, loksins komist í gegn. Förum í\n"
+    .string "fjársjóðsleit!$"
 
 MtEmber_Exterior_Text_WhatsPasswordAgain::
-    .string "Any treasure we find, we haul back\n"
-    .string "to the WAREHOUSE, understood?\p"
-    .string "…Oh, and what're the passwords?\n"
-    .string "At the ROCKET WAREHOUSE, I mean.$"
+    .string "Allan fjársjóð sem við finnum förum\n"
+    .string "við með aftur í VÖRUHÚSIÐ, skilið?\p"
+    .string "…Ó, og hver eru lykilorðin? Ég meina\n"
+    .string "að ROCKET WAREHOUSE.$"
 
 MtEmber_Exterior_Text_FirstPasswordGoldeen::
-    .string "What, you forgot the password?\n"
-    .string "There're actually two.\p"
-    .string "The first one's “GOLDEEN need\n"
-    .string "log.”\p"
-    .string "And the second one is…$"
+    .string "Hvað, gleymdirðu lykilorðinu? Þau\n"
+    .string "eru reyndar tvö.\p"
+    .string "Það fyrra er 'BLEIKHYRNA þarf\n"
+    .string "staur.'\p"
+    .string "Og það seinna er…$"
 
 MtEmber_Exterior_Text_SnoopsBeenListeningIn::
-    .string "Hey!\n"
-    .string "This snoop's been listening in!$"
+    .string "Hey! Þessi njósnari hefur verið að\n"
+    .string "hlusta!$"
 
 MtEmber_Exterior_Text_Grunt1Intro::
-    .string "You've been eavesdropping on us,\n"
-    .string "haven't you?$"
+    .string "Þú hefur verið að hlera okkur, er\n"
+    .string "það ekki?$"
 
 MtEmber_Exterior_Text_Grunt1Defeat::
-    .string "Huh, what?$"
+    .string "Ha, hvað?$"
 
 MtEmber_Exterior_Text_Grunt1PostBattle::
-    .string "Why'd you have to win?$"
+    .string "Af hverju þurftirðu að vinna?$"
 
 MtEmber_Exterior_Text_Grunt2Intro::
-    .string "Trying to horn in on our treasure?\n"
-    .string "Don't bet on it!$"
+    .string "Að reyna að troða þér inn á\n"
+    .string "fjársjóðinn okkar? Ekki veðja á það!$"
 
 MtEmber_Exterior_Text_Grunt2Defeat::
-    .string "Wait!\n"
-    .string "But how?$"
+    .string "Wait! But how?$"
 
 MtEmber_Exterior_Text_Grunt2PostBattle::
-    .string "Develop amnesia conveniently and\n"
-    .string "forget everything you heard!$"
+    .string "Fáðu minnisleysi á þægilegan hátt og\n"
+    .string "gleymdu öllu sem þú heyrðir!$"
 
 MtEmber_Exterior_Text_WellRegroupDontStepInsideThere::
-    .string "What a setback…\n"
-    .string "We'll have to regroup.\p"
-    .string "You! Don't even think about taking\n"
-    .string "a step inside here!\p"
-    .string "If you know what's good for you,\n"
-    .string "don't even think about this!$"
+    .string "Þvílíkt áfall… Við þurfum að\n"
+    .string "endurhópa okkur.\p"
+    .string "Þú! Ekki láta þér detta í hug að\n"
+    .string "stíga fæti hér inn!\p"
+    .string "Ef þú veist hvað þér er fyrir bestu,\n"
+    .string "ekki einu sinni hugsa um það!$"
 
 MtEmber_Exterior_Text_LoganIntro::
-    .string "An active volcano is one that's\n"
-    .string "erupting, or about to.$"
+    .string "Virkt eldfjall er eitt sem er að\n"
+    .string "gjósa, eða er að fara að gjósa.$"
 
 MtEmber_Exterior_Text_LoganDefeat::
-    .string "Whew… That was hot!\n"
-    .string "Sweat's erupting from me!$"
+    .string "Úff… Þetta var heitt! Svitinn gýs út\n"
+    .string "úr mér!$"
 
 MtEmber_Exterior_Text_LoganPostBattle::
-    .string "They say there're over 1,500\n"
-    .string "active volcanoes in the world.\p"
-    .string "Just thinking about them makes me\n"
-    .string "feel all hot and gooey inside!$"
+    .string "Þeir segja að það séu yfir 1.500\n"
+    .string "virk eldfjöll í heiminum.\p"
+    .string "Bara að hugsa um þau lætur mig finna\n"
+    .string "fyrir hita og klístri innra með mér!$"
 
 MtEmber_Exterior_Text_BethIntro::
-    .string "Do you know how caves form inside\n"
-    .string "volcanoes?$"
+    .string "Veistu hvernig hellar myndast inni í\n"
+    .string "eldfjöllum?$"
 
 MtEmber_Exterior_Text_BethDefeat::
-    .string "Atchah!\n"
-    .string "You're shockingly good!$"
+    .string "Atchah! Þú ert ótrúlega góður!$"
 
 MtEmber_Exterior_Text_BethPostBattle::
-    .string "When lava at the surface of magma\n"
-    .string "hardens, and the magma inside flows\l"
-    .string "out, caverns are left behind.$"
+    .string "Þegar hraun á yfirborði kviku\n"
+    .string "herðist, og kvikan inni flæðir\p"
+    .string "út, verða eftir hellar.$"
 
 MtEmber_Exterior_Text_JocelynIntro::
-    .string "I've been in training so I can mend\n"
-    .string "my broken heart…\p"
-    .string "It toughened me up physically at\n"
-    .string "least! Hi-yah!$"
+    .string "Ég hef verið í þjálfun svo ég geti\n"
+    .string "lagað brotið hjarta mitt…\p"
+    .string "Það styrkti mig líkamlega að minnsta\n"
+    .string "kosti! Hi-yah!$"
 
 MtEmber_Exterior_Text_JocelynDefeat::
-    .string "I think I tried to overdo it…$"
+    .string "Ég held að ég hafi reynt að ofgera\n"
+    .string "mér…$"
 
 MtEmber_Exterior_Text_JocelynPostBattle::
-    .string "The way you battle, it reminds me\n"
-    .string "of the guy who dumped me…$"
+    .string "Bardagastíllinn þinn minnir mig á\n"
+    .string "gaurnum sem henti mér…$"
 

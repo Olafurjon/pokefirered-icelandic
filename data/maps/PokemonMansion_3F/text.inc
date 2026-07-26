@@ -1,35 +1,35 @@
 PokemonMansion_Text_PressSecretSwitchJP::
-    .string "ひみつの　スイッチが　ある！\p"
-    .string "おして　みますか？$"
+    .string "Leynirofi!\p"
+    .string "Ýta á hann?$"
 
 PokemonMansion_Text_LetsTryIt::
-    .string "おしてみよう！　‥ポチッとな$"
+    .string "Prófum það! ...Smell!$"
 
 PokemonMansion_Text_GaveUpOnPressingSwitch::
-    .string "おすのは　あきらめた$"
+    .string "Hættir við að ýta á rofann.$"
 
 PokemonMansion_1F_Text_SimonIntro::
-    .string "This place is, like, huge!$"
+    .string "Þessi staður er, sko, risastór!$"
 
 PokemonMansion_1F_Text_SimonDefeat::
-    .string "Ayah!$"
+    .string "Aí!$"
 
 PokemonMansion_1F_Text_SimonPostBattle::
-    .string "I wonder where my partner went.$"
+    .string "Ég velti fyrir mér hvert félagi minn\n"
+    .string "fór.$"
 
 PokemonMansion_1F_Text_BraydonIntro::
-    .string "My mentor once lived here.$"
+    .string "Leiðbeinandi minn bjó einu sinni\n"
+    .string "hér.$"
 
 PokemonMansion_1F_Text_BraydonDefeat::
-    .string "Whew!\n"
-    .string "Overwhelming!$"
+    .string "Úff! Yfirþyrmandi!$"
 
 PokemonMansion_1F_Text_BraydonPostBattle::
-    .string "So, you're stuck?\n"
-    .string "Try jumping off over there!$"
+    .string "Svo þú ert fastur? Prófaðu að\n"
+    .string "stökkva niður þarna!$"
 
 PokemonMansion_1F_Text_MewGaveBirthToMewtwo::
-    .string "Diary: Feb. 6\n"
-    .string "MEW gave birth.\p"
-    .string "We named the newborn MEWTWO.$"
+    .string "Dagbók: 6. feb. MÝTA fæddi af sér.\p"
+    .string "Við nefndum nýburann TVÍMÝTU.$"
 

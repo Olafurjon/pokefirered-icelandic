@@ -1,100 +1,99 @@
 Route24_Text_JustEarnedFabulousPrize::
-    .string "Congratulations! You beat our\n"
-    .string "five contest TRAINERS!\p"
-    .string "You just earned a fabulous prize!$"
+    .string "Til hamingju! Þú sigraðir fimm\n"
+    .string "keppnis-ÞJÁLFARANA okkar!\p"
+    .string "Þú vannst stórkostleg verðlaun!$"
 
 Route24_Text_ReceivedNuggetFromMysteryTrainer::
-    .string "{PLAYER} received a NUGGET\n"
-    .string "from the mystery TRAINER!$"
+    .string "{PLAYER} fékk GULLKLUMP frá\n"
+    .string "dularfulla ÞJÁLFARANUM!$"
 
 Route24_Text_YouDontHaveAnyRoom::
-    .string "You don't have any room!$"
+    .string "Þú hefur ekkert pláss!$"
 
 Route24_Text_JoinTeamRocket::
-    .string "By the way, how would you like to\n"
-    .string "join TEAM ROCKET?\p"
-    .string "We're a group of professional\n"
-    .string "criminals specializing in POKéMON!\p"
-    .string "Want to join?\p"
-    .string "Are you sure?\p"
-    .string "Come on, join us!\p"
-    .string "I'm telling you to join!\p"
-    .string "…Okay, you need convincing!\p"
-    .string "I'll make you an offer you can't\n"
-    .string "refuse!$"
+    .string "Að öðru leyti, hvernig litist þér á\n"
+    .string "að ganga í ROCKET-GENGIÐ?\p"
+    .string "Við erum hópur atvinnuglæpamanna sem\n"
+    .string "sérhæfir sig í vasaskrímslum!\p"
+    .string "Viltu ganga í liðið?\p"
+    .string "Ertu viss?\p"
+    .string "Komdu nú, gakktu til liðs við okkur!\p"
+    .string "Ég segi þér að ganga í liðið!\p"
+    .string "...Allt í lagi, þú þarft\n"
+    .string "sannfæringu!\p"
+    .string "Ég geri þér tilboð sem þú getur ekki\n"
+    .string "hafnað!$"
 
 Route24_Text_RocketDefeat::
-    .string "Arrgh!\n"
-    .string "You are good!$"
+    .string "Arrgh! Þú ert góður!$"
 
 Route24_Text_YoudBecomeTopRocketLeader::
-    .string "With your ability, you'd become\n"
-    .string "a top leader in TEAM ROCKET.\p"
-    .string "Come on, think of the opportunity!\n"
-    .string "Don't let this chance go to waste.$"
+    .string "Með hæfileikum þínum gætirðu orðið\n"
+    .string "toppleiðtogi í ROCKET-GENGINU.\p"
+    .string "Komdu nú, hugsaðu um tækifærið! Ekki\n"
+    .string "láta þetta fara til spillis.$"
 
 Route24_Text_ShaneIntro::
-    .string "I saw your feat from the grass!$"
+    .string "Ég sá afrekið þitt úr grasinu!$"
 
 Route24_Text_ShaneDefeat::
-    .string "I thought not!$"
+    .string "Ég hélt það ekki!$"
 
 Route24_Text_ShanePostBattle::
-    .string "I hid because the people on the\n"
-    .string "bridge frightened me.$"
+    .string "Ég faldi mig því fólkið á brúnni\n"
+    .string "hræddi mig.$"
 
 Route24_Text_EthanIntro::
-    .string "Okay! I'm No. 5!\n"
-    .string "I'll stomp you!$"
+    .string "Allt í lagi! Ég er nr. 5! Ég stappa\n"
+    .string "þig niður!$"
 
 Route24_Text_EthanDefeat::
-    .string "Whoa!\n"
-    .string "Too much!$"
+    .string "Vá! Of mikið!$"
 
 Route24_Text_EthanPostBattle::
-    .string "I did my best. I have no regrets!$"
+    .string "Ég gerði mitt besta. Ég sé ekki\n"
+    .string "eftir neinu!$"
 
 Route24_Text_ReliIntro::
-    .string "I'm No. 4!\n"
-    .string "Getting tired?$"
+    .string "Ég er nr. 4! Ertu orðinn þreyttur?$"
 
 Route24_Text_ReliDefeat::
-    .string "I lost, too!$"
+    .string "Ég tapaði líka!$"
 
 Route24_Text_ReliPostBattle::
-    .string "I did my best, so I've no regrets!$"
+    .string "Ég gerði mitt besta, svo ég sé ekki\n"
+    .string "eftir neinu!$"
 
 Route24_Text_TimmyIntro::
-    .string "Here's No. 3!\n"
-    .string "I won't be easy!$"
+    .string "Hér kemur nr. 3! Ég verð ekki\n"
+    .string "auðveldur!$"
 
 Route24_Text_TimmyDefeat::
-    .string "Ow!\n"
-    .string "Stomped flat!$"
+    .string "Ái! Flattur út!$"
 
 Route24_Text_TimmyPostBattle::
-    .string "I did my best. I have no regrets!$"
+    .string "Ég gerði mitt besta. Ég sé ekki\n"
+    .string "eftir neinu!$"
 
 Route24_Text_AliIntro::
-    .string "I'm second!\n"
-    .string "Now it's serious!$"
+    .string "Ég er númer tvö! Nú er alvara!$"
 
 Route24_Text_AliDefeat::
-    .string "How could I lose?$"
+    .string "Hvernig gat ég tapað?$"
 
 Route24_Text_AliPostBattle::
-    .string "I did my best. I have no regrets!$"
+    .string "Ég gerði mitt besta. Ég sé ekki\n"
+    .string "eftir neinu!$"
 
 Route24_Text_CaleIntro::
-    .string "People call this the NUGGET\n"
-    .string "BRIDGE!\p"
-    .string "Beat us five TRAINERS and win\n"
-    .string "a fabulous prize!\p"
-    .string "Think you got what it takes?$"
+    .string "Fólk kallar þetta GULLBRÚNA!\p"
+    .string "Sigraðu okkur fimm ÞJÁLFARA og\n"
+    .string "vinndu frábær verðlaun!\p"
+    .string "Heldurðu að þú getir það?$"
 
 Route24_Text_CaleDefeat::
-    .string "Whoo!\n"
-    .string "Good stuff!$"
+    .string "Úhú! Vel gert!$"
 
 Route24_Text_CalePostBattle::
-    .string "I did my best. I have no regrets!$"
+    .string "Ég gerði mitt besta. Ég sé ekki\n"
+    .string "eftir neinu!$"

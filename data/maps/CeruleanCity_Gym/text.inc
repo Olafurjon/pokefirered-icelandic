@@ -1,92 +1,90 @@
 CeruleanCity_Gym_Text_MistyIntro::
-    .string "Hi, you're a new face!\p"
-    .string "Only those TRAINERS who have a\n"
-    .string "policy about POKéMON can turn pro.\p"
-    .string "What is your approach when you\n"
-    .string "catch and train POKéMON?\p"
-    .string "My policy is an all-out offensive\n"
-    .string "with WATER-type POKéMON!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
+    .string "Hæ, nýtt andlit!\p"
+    .string "Aðeins þeir ÞJÁLFARAR sem hafa\n"
+    .string "stefnu um vasaskrímsli geta orðið\p"
+    .string "atvinnumenn.\p"
+    .string "Hver er þín nálgun þegar þú nærð og\n"
+    .string "þjálfar vasaskrímsli?\p"
+    .string "Mín stefna er sókn af fullum krafti\n"
+    .string "með VATNS-gerðar\p"
+    .string "vasaskrímslum!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
 
 CeruleanCity_Gym_Text_ExplainTM03::
-    .string "TM03 teaches WATER PULSE.\p"
-    .string "Use it on an aquatic POKéMON!$"
+    .string "TM03 kennir VATNSBYLGJU.\p"
+    .string "Notaðu hana á vatnavasaskrímsli!$"
 
 CeruleanCity_Gym_Text_ExplainCascadeBadge::
-    .string "The CASCADEBADGE makes all\n"
-    .string "POKéMON up to Lv. 30 obey.\p"
-    .string "That includes even outsiders you\n"
-    .string "got in trades.\p"
-    .string "There's more. You can now use CUT\n"
-    .string "anytime, even out of battle.\p"
-    .string "You can CUT down small trees to\n"
-    .string "open new pathways.\p"
-    .string "You can also have my favorite TM.$"
+    .string "FOSSMERKIÐ lætur öll vasaskrímsli\n"
+    .string "upp að Lv. 30 hlýða.\p"
+    .string "Það gildir líka um þau sem þú færð í\n"
+    .string "skiptum.\p"
+    .string "Og fleira: nú geturðu notað CUT\n"
+    .string "hvenær sem er, jafnvel utan bardaga.\p"
+    .string "Þú getur notað CUT til að fella\n"
+    .string "lítil tré og opna nýjar leiðir.\p"
+    .string "Þú mátt líka fá uppáhalds TM-ið\n"
+    .string "mitt.$"
 
 CeruleanCity_Gym_Text_ReceivedTM03FromMisty::
-    .string "{PLAYER} received TM03\n"
-    .string "from MISTY.$"
+    .string "{PLAYER} fékk TM03 frá MISTY.$"
 
 CeruleanCity_Gym_Text_BetterMakeRoomForThis::
-    .string "You better make room for this!$"
+    .string "Þú þarft að gera pláss fyrir þetta!$"
 
 CeruleanCity_Gym_Text_MistyDefeat::
-    .string "Wow!\n"
-    .string "You're too much!\p"
-    .string "All right!\p"
-    .string "You can have the CASCADEBADGE to\n"
-    .string "show you beat me.$"
+    .string "Vá! Þú ert alltof góður!\p"
+    .string "Allt í lagi!\p"
+    .string "Þú mátt fá FOSSMERKIÐ til marks um\n"
+    .string "að þú hafir sigrað mig.$"
 
 CeruleanCity_Gym_Text_DianaIntro::
-    .string "What? You?\n"
-    .string "I'm more than good enough for you!\p"
-    .string "MISTY won't have to be bothered.$"
+    .string "Hvað? Þú? Ég duga meira en vel fyrir\n"
+    .string "þig!\p"
+    .string "MISTY þarf ekki að hafa fyrir þessu.$"
 
 CeruleanCity_Gym_Text_DianaDefeat::
-    .string "You overwhelmed me!$"
+    .string "Þú kaffærðir mig!$"
 
 CeruleanCity_Gym_Text_DianaPostBattle::
-    .string "You have to face other TRAINERS\n"
-    .string "to see how good you really are.$"
+    .string "Þú verður að mæta öðrum ÞJÁLFURUM\n"
+    .string "til að sjá hversu góður þú ert.$"
 
 CeruleanCity_Gym_Text_LuisIntro::
-    .string "Splash!\p"
-    .string "I'm first up!\n"
-    .string "Let's do it!$"
+    .string "Skvamp!\p"
+    .string "Ég er fyrstur! Byrjum!$"
 
 CeruleanCity_Gym_Text_LuisDefeat::
-    .string "That can't be!$"
+    .string "Það getur ekki verið!$"
 
 CeruleanCity_Gym_Text_LuisPostBattle::
-    .string "MISTY is a TRAINER who's going to\n"
-    .string "keep improving.\p"
-    .string "She won't lose to someone like you!$"
+    .string "MISTY er ÞJÁLFARI sem á eftir að\n"
+    .string "halda áfram að bæta sig.\p"
+    .string "Hún tapar ekki fyrir einhverjum eins\n"
+    .string "og þér!$"
 
 CeruleanCity_Gym_Text_GymGuyAdvice::
-    .string "Yo!\n"
-    .string "Champ in the making!\p"
-    .string "Let me give you some advice!\p"
-    .string "The LEADER, MISTY, is a pro who\n"
-    .string "uses WATER-type POKéMON.\p"
-    .string "You can drain all their water with\n"
-    .string "GRASS-type POKéMON.\p"
-    .string "Or, you might use ELECTRIC-type\n"
-    .string "POKéMON and zap them!$"
+    .string "Yo! Verðandi meistari!\p"
+    .string "Leyfðu mér að gefa þér ráð!\p"
+    .string "SALSTJÓRINN, MISTY, er atvinnukona\n"
+    .string "sem notar VATNS-gerðar vasaskrímsli.\p"
+    .string "Þú getur sogið allt vatnið úr þeim\n"
+    .string "með GRAS-gerðar vasaskrímslum.\p"
+    .string "Eða þú getur notað RAFMAGNS-gerðar\n"
+    .string "vasaskrímsli og lostið þau!$"
 
 CeruleanCity_Gym_Text_WeMakePrettyGoodTeam::
-    .string "You beat MISTY!\n"
-    .string "See, what'd I tell ya?\p"
-    .string "You and me, kid, we make a pretty\n"
-    .string "darn-good team!$"
+    .string "Þú vannst MISTY! Sérðu, hvað sagði\n"
+    .string "ég?\p"
+    .string "Við tvö, krakki, erum ansi gott\n"
+    .string "teymi!$"
 
 CeruleanCity_Gym_Text_GymStatue::
-    .string "CERULEAN POKéMON GYM\n"
-    .string "LEADER: MISTY\p"
-    .string "WINNING TRAINERS:\n"
-    .string "{RIVAL}$"
+    .string "CERULEAN VASASKRÍMSLA-SALUR\n"
+    .string "SALSTJÓRI: MISTY\p"
+    .string "SIGURÞJÁLFARAR: {RIVAL}$"
 
 CeruleanCity_Gym_Text_GymStatuePlayerWon::
-    .string "CERULEAN POKéMON GYM\n"
-    .string "LEADER: MISTY\p"
-    .string "WINNING TRAINERS:\n"
-    .string "{RIVAL}, {PLAYER}$"
+    .string "CERULEAN VASASKRÍMSLA-SALUR\n"
+    .string "SALSTJÓRI: MISTY\p"
+    .string "SIGURÞJÁLFARAR: {RIVAL}, {PLAYER}$"
 

@@ -1,20 +1,19 @@
 SafariZone_West_Text_RestHouse::
-    .string "REST HOUSE$"
+    .string "HVÍLDARHÚS$"
 
 SafariZone_West_Text_PleaseFindWardensLostTeeth::
-    .string "REQUEST NOTICE\p"
-    .string "Please find the SAFARI WARDEN's\n"
-    .string "lost GOLD TEETH.\l"
-    .string "They're around here somewhere.\p"
-    .string "Reward offered!\n"
-    .string "Contact: WARDEN$"
+    .string "BEIÐNI\p"
+    .string "Finndu týndu GULLTENNUR\n"
+    .string "SAFARI-VARÐARINS. Þær eru hér\p"
+    .string "einhvers staðar.\p"
+    .string "Verðlaun í boði! Hafðu samband:\n"
+    .string "VÖRÐUR$"
 
 SafariZone_West_Text_SearchForSecretHouse::
-    .string "TRAINER TIPS\p"
-    .string "Zone Exploration Campaign!\n"
-    .string "The Search for the SECRET HOUSE!$"
+    .string "ÞJÁLFARA RÁÐ\p"
+    .string "Svæðakönnunarherferð! Leitin að\n"
+    .string "LEYNIHÚSINU!$"
 
 SafariZone_West_Text_AreaSign::
-    .string "AREA 3\n"
-    .string "EAST: CENTER AREA$"
+    .string "SVÆÐI 3 AUSTUR: MIÐSVÆÐI$"
 

@@ -1,5 +1,6 @@
 ThreeIsland_House3_Text_WantedToLiveSomewhereQuiet::
-    .string "I bought this house because I\n"
-    .string "wanted to live somewhere quiet.\p"
-    .string "Today, I think I'll go out fishing.$"
+    .string "Ég keypti þetta hús því mig langaði\n"
+    .string "að búa á rólegum stað.\p"
+    .string "Í dag held ég að ég fari út að\n"
+    .string "fiska.$"
 

@@ -1,19 +1,16 @@
 ThreeIsland_PokemonCenter_1F_Text_PCNetworkCanLinkWithKanto::
-    .string "Hey, did you hear the news?\p"
-    .string "The PC network here can now link\n"
-    .string "with PCs in KANTO.\p"
-    .string "I don't know how that came about,\n"
-    .string "but it's fantastic!$"
+    .string "Hey, heyrðirðu fréttirnar?\p"
+    .string "Tölvukerfið hér getur nú tengst\n"
+    .string "tölvum í KANTO.\p"
+    .string "Ég veit ekki hvernig það gerðist, en\n"
+    .string "það er frábært!$"
 
 ThreeIsland_PokemonCenter_1F_Text_ImpossibleToSurfBetweenIslands::
-    .string "It's impossible to SURF between the\n"
-    .string "islands around these parts.\p"
-    .string "The tides are too fast and\n"
-    .string "treacherous.$"
+    .string "Það er ómögulegt að SURFA á milli\n"
+    .string "eyjanna hér í kring.\p"
+    .string "Flóðið er of hratt og hættulegt.$"
 
 ThreeIsland_PokemonCenter_1F_Text_AlwaysBerriesInBerryForest::
-    .string "Let's crush BERRIES!\n"
-    .string "…That'd be wasting BERRIES?\p"
-    .string "You can always find some BERRIES\n"
-    .string "on the ground in BERRY FOREST.$"
-
+    .string "Mölvum BER! …Væri það sóun á BERJUM?\p"
+    .string "Þú finnur alltaf BER á jörðinni í\n"
+    .string "BERJA SKÓGI.$"

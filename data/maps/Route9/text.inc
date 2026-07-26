@@ -1,106 +1,100 @@
 Route9_Text_AliciaIntro::
-    .string "You have POKéMON with you!\n"
-    .string "You're mine!$"
+    .string "Þú ert með vasaskrímsli með þér! Þú\n"
+    .string "ert mín!$"
 
 Route9_Text_AliciaDefeat::
-    .string "You deceived me…$"
+    .string "Þú blekktir mig...$"
 
 Route9_Text_AliciaPostBattle::
-    .string "The tunnel coming up is pitch-black\n"
-    .string "inside.\p"
-    .string "You'll need FLASH to get through\n"
-    .string "there.$"
+    .string "Göngin framundan eru kolniðamyrk að\n"
+    .string "innan.\p"
+    .string "Þú þarft LEIFTUR til að komast í\n"
+    .string "gegnum þau.$"
 
 Route9_Text_ChrisIntro::
-    .string "Who's that walking there with those\n"
-    .string "good-looking POKéMON?$"
+    .string "Hver gengur þarna með þessi flottu\n"
+    .string "vasaskrímsli?$"
 
 Route9_Text_ChrisDefeat::
-    .string "Out like a light!$"
+    .string "Slökktur eins og ljós!$"
 
 Route9_Text_ChrisPostBattle::
-    .string "Keep walking!$"
+    .string "Haltu áfram að ganga!$"
 
 Route9_Text_DrewIntro::
-    .string "I'm taking the ROCK TUNNEL to\n"
-    .string "go to LAVENDER…$"
+    .string "Ég fer um ROCK TUNNEL til að komast\n"
+    .string "til LAVENDER...$"
 
 Route9_Text_DrewDefeat::
-    .string "Can't measure up…$"
+    .string "Ég stóðst ekki samanburð...$"
 
 Route9_Text_DrewPostBattle::
-    .string "Are you off to ROCK TUNNEL, too?$"
+    .string "Ertu líka á leið í ROCK TUNNEL?$"
 
 Route9_Text_CaitlinIntro::
-    .string "Don't you dare patronize me!$"
+    .string "Ekki voga þér að líta niður á mig!$"
 
 Route9_Text_CaitlinDefeat::
-    .string "No!\n"
-    .string "You're too much.$"
+    .string "Nei! Þú ert of mikið.$"
 
 Route9_Text_CaitlinPostBattle::
-    .string "You're obviously talented.\n"
-    .string "Good luck to you!$"
+    .string "Þú ert augljóslega hæfileikaríkur.\n"
+    .string "Gangi þér vel!$"
 
 Route9_Text_JeremyIntro::
-    .string "Bwahaha!\n"
-    .string "Great! I was bored, eh!$"
+    .string "Bwahaha! Frábært! Mér leiddist, ha!$"
 
 Route9_Text_JeremyDefeat::
-    .string "Keep it coming, eh!\p"
-    .string "Oh wait.\n"
-    .string "I'm out of POKéMON!$"
+    .string "Haltu þessu áfram, ha!\p"
+    .string "Ó bíddu. Ég er uppiskroppa með\n"
+    .string "vasaskrímsli!$"
 
 Route9_Text_JeremyPostBattle::
-    .string "You sure had guts standing up to\n"
-    .string "me there, eh?$"
+    .string "Þú hafðir greinilega kjark til að\n"
+    .string "standa uppi í hárinu á mér, ha?$"
 
 Route9_Text_BriceIntro::
-    .string "Hahaha!\n"
-    .string "Aren't you a little toughie!$"
+    .string "Hahaha! Ertu ekki svolítið harður af\n"
+    .string "þér!$"
 
 Route9_Text_BriceDefeat::
-    .string "What's that?$"
+    .string "Hvað er þetta?$"
 
 Route9_Text_BricePostBattle::
-    .string "Hahaha!\n"
-    .string "Kids should be tough!$"
+    .string "Hahaha! Krakkar eiga að vera harðir!$"
 
 Route9_Text_BrentIntro::
-    .string "I got up early every day to raise\n"
-    .string "my POKéMON from cocoons!$"
+    .string "Ég vaknaði snemma á hverjum degi til\n"
+    .string "að ala vasaskrímslin mín úr púpunum!$"
 
 Route9_Text_BrentDefeat::
-    .string "WHAT?\p"
-    .string "What a total waste of time!$"
+    .string "HVAÐ?\p"
+    .string "Hvílík tímasóun!$"
 
 Route9_Text_BrentPostBattle::
-    .string "I have to collect more than bugs\n"
-    .string "to get stronger…$"
+    .string "Ég þarf að safna fleiru en pöddum\n"
+    .string "til að verða sterkari...$"
 
 Route9_Text_AlanIntro::
-    .string "Hahahaha!\n"
-    .string "Bring it on!$"
+    .string "Hahahaha! Komdu með það!$"
 
 Route9_Text_AlanDefeat::
-    .string "Hahahaha!\n"
-    .string "You beat me fair!$"
+    .string "Hahahaha! Þú vannst mig heiðarlega!$"
 
 Route9_Text_AlanPostBattle::
-    .string "Hahahaha!\n"
-    .string "Us hearty guys always laugh!$"
+    .string "Hahahaha! Við hraustu gaurarnir\n"
+    .string "hlæjum alltaf!$"
 
 Route9_Text_ConnerIntro::
-    .string "Go, my super BUG POKéMON!$"
+    .string "Áfram, ofur PÖDDU-vasaskrímslin mín!$"
 
 Route9_Text_ConnerDefeat::
-    .string "My bugs…$"
+    .string "Pöddurnar mínar...$"
 
 Route9_Text_ConnerPostBattle::
-    .string "If you don't like BUG POKéMON,\n"
-    .string "you bug me!$"
+    .string "Ef þér líkar ekki við\n"
+    .string "PÖDDU-vasaskrímsli, þá pirrarðu mig!$"
 
 Route9_Text_RouteSign::
-    .string "ROUTE 9\n"
-    .string "CERULEAN CITY - ROCK TUNNEL$"
+    .string "LEIÐ 9 CERULEAN BORG - BERGJARGÖNG$"
 

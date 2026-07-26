@@ -1,22 +1,22 @@
 SafariZone_West_Text_KogaPatrolsSafariEverySoOften::
-    .string "The SAFARI ZONE's huge, wouldn't\n"
-    .string "you say?\p"
-    .string "FUCHSIA's GYM LEADER, KOGA, \n"
-    .string "patrols the grounds every so often.\p"
-    .string "Thanks to him, we can play here\n"
-    .string "knowing that we're safe.$"
+    .string "SAFARI SVÆÐIÐ er risastórt, er það\n"
+    .string "ekki?\p"
+    .string "SALARLEIÐTOGINN KOGA í FUCHSIA fer\n"
+    .string "um svæðið öðru hverju.\p"
+    .string "Honum að þakka getum við leikið\n"
+    .string "okkur hér í öruggu skjóli.$"
 
 SafariZone_West_Text_RocksMakeMonRunButEasierCatch::
-    .string "Tossing ROCKS at POKéMON might\n"
-    .string "make them run, but they'll be\l"
-    .string "easier to catch.$"
+    .string "Að kasta STEINUM í Vasaskrímsli\n"
+    .string "getur fengið þau til að flýja, en þá\p"
+    .string "verður auðveldara að fanga þau.$"
 
 SafariZone_West_Text_BaitMakesMonStickAround::
-    .string "Using BAIT will make POKéMON more\n"
-    .string "likely to stick around if they get\l"
-    .string "busy eating.$"
+    .string "Ef þú notar BEITU eru Vasaskrímsli\n"
+    .string "líklegri til að halda kyrru fyrir ef\p"
+    .string "þau byrja að éta.$"
 
 SafariZone_West_Text_HikedLotsDidntSeeMonIWanted::
     .string "I hiked a lot, but I didn't see any\n"
-    .string "POKéMON I wanted.$"
+    .string "Vasaskrímsli I wanted.$"
 

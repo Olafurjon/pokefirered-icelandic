@@ -1,126 +1,125 @@
 PalletTown_RivalsHouse_Text_HiBrothersAtLab::
-    .string "DAISY: Hi, {PLAYER}!\p"
-    .string "My brother, {RIVAL}, is out at\n"
-    .string "Grandpa's LAB.$"
+    .string "DAISY: Hæ, {PLAYER}!\p"
+    .string "Bróðir minn, {RIVAL}, er úti á\n"
+    .string "rannsóknarstofu afa.$"
 
 PalletTown_RivalsHouse_Text_HeardYouBattledRival::
-    .string "DAISY: {PLAYER}, I heard you had\n"
-    .string "a battle against {RIVAL}.\p"
-    .string "I wish I'd seen that!$"
+    .string "DAISY: {PLAYER}, ég heyrði að þú\n"
+    .string "hefðir átt í bardaga gegn {RIVAL}.\p"
+    .string "Ég vildi að ég hefði séð það!$"
 
 PalletTown_RivalsHouse_Text_ErrandForGrandpaThisWillHelp::
-    .string "Grandpa asked you to run an\n"
-    .string "errand?\p"
-    .string "Gee, that's lazy of him.\n"
-    .string "Here, this will help you.$"
+    .string "Afi bað þig um að ganga erinda?\p"
+    .string "Jæja, þetta er letilegt af honum.\n"
+    .string "Hér mun þetta hjálpa þér.$"
 
 PalletTown_RivalsHouse_Text_ReceivedTownMapFromDaisy::
-    .string "{PLAYER} received a TOWN MAP\n"
-    .string "from DAISY.$"
+    .string "{PLAYER} fékk BÆJARKORT frá DAISY.$"
 
 PalletTown_RivalsHouse_Text_DontHaveSpaceForThis::
-    .string "You don't have space for this in\n"
-    .string "your BAG.$"
+    .string "Þú hefur ekki pláss fyrir þetta í\n"
+    .string "TÖSKUNNI þinni.$"
 
 PalletTown_RivalsHouse_Text_ExplainTownMap::
-    .string "You can use the TOWN MAP to find\n"
-    .string "out where you are, or check the\l"
-    .string "names of places.$"
+    .string "Þú getur notað BÆJARKORTIÐ til að\n"
+    .string "finna út hvar þú ert, eða athuga\p"
+    .string "nöfn staða.$"
 
 PalletTown_RivalsHouse_Text_PleaseGiveMonsRest::
-    .string "DAISY: Just like people, POKéMON\n"
-    .string "are living things.\p"
-    .string "When they get tired, please give\n"
-    .string "them a rest.$"
+    .string "DAISY: Rétt eins og fólk er\n"
+    .string "VASaSKRÍMSLI lifandi verur.\p"
+    .string "Þegar þeir verða þreyttir,\n"
+    .string "vinsamlegast gefðu þeim hvíld.$"
 
 PalletTown_RivalsHouse_Text_ItsBigMapOfKanto::
-    .string "It's a big map of the KANTO region.\n"
-    .string "Now this would be useful!$"
+    .string "Það er stórt kort af KANTO svæðinu.\n"
+    .string "Nú væri þetta gagnlegt!$"
 
 PalletTown_RivalsHouse_Text_ShelvesCrammedFullOfBooks::
-    .string "The shelves are crammed full of\n"
-    .string "books on POKéMON.$"
+    .string "Hillurnar eru fullar af bókum á\n"
+    .string "VASaSKRÍMSLI.$"
 
 PalletTown_RivalsHouse_Text_LikeMeToGroomMon::
-    .string "DAISY: Hi, {PLAYER}!\n"
-    .string "Good timing.\p"
-    .string "I'm about to have some tea.\n"
-    .string "Would you like to join me?\p"
-    .string "Oh, but look.\n"
-    .string "Your POKéMON are a little dirty.\p"
-    .string "Would you like me to groom one?$"
+    .string "DAISY: Hæ, {PLAYER}! Góð\n"
+    .string "tímasetning.\p"
+    .string "Ég er að fara að fá mér te. Viltu\n"
+    .string "vera með mér?\p"
+    .string "Ó, en sjáðu. VASaSKRÍMSLI þínir eru\n"
+    .string "svolítið óhreinir.\p"
+    .string "Viltu að ég snyrti einn?$"
 
 PalletTown_RivalsHouse_Text_DontNeedAnyGrooming::
-    .string "You don't need any grooming done?\n"
-    .string "Okay, we'll just have tea.$"
+    .string "Þarftu enga snyrtingu? Allt í lagi,\n"
+    .string "við fáum okkur bara te.$"
 
 PalletTown_RivalsHouse_Text_GroomWhichOne::
-    .string "Which one should I groom?$"
+    .string "Hvorn ætti ég að snyrta?$"
 
 PalletTown_RivalsHouse_Text_LookingNiceInNoTime::
-    .string "DAISY: Okay, I'll get it looking\n"
-    .string "nice in no time.$"
+    .string "DAISY: Allt í lagi, ég læt það líta\n"
+    .string "vel út á skömmum tíma.$"
 
 PalletTown_RivalsHouse_Text_ThereYouGoAllDone::
 #ifdef BUGFIX @ The localizers missed what should be a textcolor change in the localizations.
-    .string "{COLOR DARK_GRAY}{STR_VAR_1} looks dreamily content…\p"
-    .string "{COLOR RED}DAISY: There you go! All done.\n"
+    .string "Sjáðu? Lítur það ekki vel út?\p"
+    .string "Giggle… Þetta er svo sætur\n"
+    .string "VASaSKRÍMSLI.$"
 #else @ In the JP games, gender-based text used a different font instead of different colors.
-    .string "{FONT_NORMAL}{STR_VAR_1} looks dreamily content…\p"
-    .string "{FONT_FEMALE}DAISY: There you go! All done.\n"
+    .string "Sjáðu? Lítur það ekki vel út?\p"
+    .string "Giggle… Þetta er svo sætur\n"
+    .string "VASaSKRÍMSLI.$"
 #endif
-    .string "See? Doesn't it look nice?\p"
-    .string "Giggle…\n"
-    .string "It's such a cute POKéMON.$"
+    .string "Sjáðu? Lítur það ekki vel út?\p"
+    .string "Giggle… Þetta er svo sætur\n"
+    .string "VASaSKRÍMSLI.$"
 
 PalletTown_RivalsHouse_Text_CantGroomAnEgg::
-    .string "Oh, sorry. I honestly can't\n"
-    .string "groom an EGG.$"
+    .string "Æ, því miður. Ég get satt að segja\n"
+    .string "ekki snyrt EGG.$"
 
 PalletTown_RivalsHouse_Text_MayISeeFirstMon::
-    .string "DAISY: Your POKéMON grow to love\n"
-    .string "you if you raise them with love.\p"
-    .string "For example, {PLAYER}, may I see\n"
-    .string "your first POKéMON?$"
+    .string "DAISY: VASaSKRÍMSLI þín stækkar að\n"
+    .string "elska þig ef þú elur þá upp með ást.\p"
+    .string "Til dæmis, {PLAYER}, má ég sjá\n"
+    .string "fyrsta VASaSKRÍMSLI þinn?$"
 
 PalletTown_RivalsHouse_Text_CouldntLoveYouMore::
-    .string "It couldn't possibly love you\n"
-    .string "any more than it does now.\p"
-    .string "Your POKéMON is happy beyond\n"
-    .string "words.$"
+    .string "Það gæti ekki mögulega elskað þig\n"
+    .string "meira en það gerir núna.\p"
+    .string "VASaSKRÍMSLI þinn er ánægður án\n"
+    .string "orða.$"
 
 PalletTown_RivalsHouse_Text_ItLooksVeryHappy::
-    .string "It looks very happy.\p"
-    .string "I wish {RIVAL} could see this and\n"
-    .string "learn something from it.$"
+    .string "Það lítur mjög ánægjulegt út.\p"
+    .string "Ég vildi að {RIVAL} gæti séð þetta\n"
+    .string "og lært eitthvað af því.$"
 
 PalletTown_RivalsHouse_Text_ItsQuiteFriendly::
-    .string "It's quite friendly with you.\n"
-    .string "Keep being good to it!$"
+    .string "Það er frekar vingjarnlegt við þig.\n"
+    .string "Haltu áfram að vera góður við það!$"
 
 PalletTown_RivalsHouse_Text_ItsWarmingUpToYou::
-    .string "It's warming up to you.\n"
-    .string "Trust must be growing between you.$"
+    .string "Það fer að hitna hjá þér. Traust\n"
+    .string "hlýtur að vaxa á milli ykkar.$"
 
 PalletTown_RivalsHouse_Text_NotFamiliarWithYouYet::
-    .string "It's not quite familiar with you\n"
-    .string "yet.\p"
-    .string "POKéMON are all quite wary when\n"
-    .string "you first get them.$"
+    .string "Það er ekki alveg kunnugt um þig\n"
+    .string "ennþá.\p"
+    .string "VASaSKRÍMSLI eru allir nokkuð á\n"
+    .string "varðbergi þegar þú færð þá fyrst.$"
 
 PalletTown_RivalsHouse_Text_DontLikeWayItGlaresAtYou::
-    .string "{PLAYER}, I don't like the way it\n"
-    .string "glares at you.\p"
-    .string "Could you try being a little nicer\n"
-    .string "to it?$"
+    .string "{PLAYER}, mér líkar ekki hvernig það\n"
+    .string "horfir á þig.\p"
+    .string "Gætirðu prófað að vera aðeins fínni\n"
+    .string "við það?$"
 
 PalletTown_RivalsHouse_Text_WhyWouldMonHateYouSoMuch::
-    .string "…Um, it's not easy for me to say\n"
-    .string "this, but…\p"
-    .string "Is there some reason why your\n"
-    .string "POKéMON would hate you so much?$"
+    .string "…Um, það er ekki auðvelt fyrir mig\n"
+    .string "að segja þetta, en…\p"
+    .string "Er einhver ástæða fyrir því að\n"
+    .string "VASaSKRÍMSLI þinn myndi hata þig\p"
+    .string "svona mikið?$"
 
 PalletTown_RivalsHouse_Text_LovelyAndSweetClefairy::
-    .string "“The lovely and sweet\n"
-    .string "CLEFAIRY”$"
-
+    .string "'Hinn yndislegi og ljúfi BLEIKÁLFUR'$"

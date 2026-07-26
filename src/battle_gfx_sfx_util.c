@@ -683,7 +683,11 @@ void HandleSpeciesGfxDataChange(u8 battlerAtk, u8 battlerDef, u8 transformType)
         Free(buffer);
         gSprites[gBattlerSpriteIds[battlerAtk]].y = GetBattlerSpriteDefault_Y(battlerAtk);
         StartSpriteAnim(&gSprites[gBattlerSpriteIds[battlerAtk]], gBattleMonForms[battlerAtk]);
-        SetMonData(&gEnemyParty[gBattlerPartyIndexes[battlerAtk]], MON_DATA_NICKNAME, gSpeciesNames[targetSpecies]);
+        {
+            u8 nickname[POKEMON_NAME_LENGTH + 1];
+            GetSpeciesNickname(nickname, targetSpecies);
+            SetMonData(&gEnemyParty[gBattlerPartyIndexes[battlerAtk]], MON_DATA_NICKNAME, nickname);
+        }
         UpdateNickInHealthbox(gHealthboxSpriteIds[battlerAtk], &gEnemyParty[gBattlerPartyIndexes[battlerAtk]]);
         TryAddPokeballIconToHealthbox(gHealthboxSpriteIds[battlerAtk], 1);
     }

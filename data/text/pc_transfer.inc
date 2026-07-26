@@ -1,39 +1,36 @@
 Text_MonSentToBoxInSomeonesPC::
-    .string "{STR_VAR_2} was transferred to\n"
-    .string "Someone's PC.\p"
-    .string "It was placed in \n"
-    .string "BOX “{STR_VAR_1}.”$"
+    .string "{STR_VAR_2} var sent í tölvu\n"
+    .string "Einhvers.\p"
+    .string "Það var sett í KASSA '{STR_VAR_1}.'$"
 
 Text_MonSentToBoxInBillsPC::
-    .string "{STR_VAR_2} was transferred to\n"
-    .string "BILL'S PC.\p"
-    .string "It was placed in \n"
-    .string "BOX “{STR_VAR_1}.”$"
+    .string "{STR_VAR_2} var sent í tölvu BILL.\p"
+    .string "Það var sett í KASSA '{STR_VAR_1}.'$"
 
 Text_MonSentToBoxSomeonesBoxFull::
-    .string "BOX “{STR_VAR_3}” on\n"
-    .string "Someone's PC was full.\p"
-    .string "{STR_VAR_2} was transferred to\n"
-    .string "BOX “{STR_VAR_1}.”$"
+    .string "KASSI '{STR_VAR_3}' í tölvu Einhvers\n"
+    .string "var fullur.\p"
+    .string "{STR_VAR_2} var sent í KASSA\n"
+    .string "'{STR_VAR_1}.'$"
 
 Text_MonSentToBoxBillsBoxFull::
-    .string "BOX “{STR_VAR_3}” on\n"
-    .string "BILL'S PC was full.\p"
-    .string "{STR_VAR_2} was transferred to\n"
-    .string "BOX “{STR_VAR_1}.”$"
+    .string "KASSI '{STR_VAR_3}' í tölvu BILL var\n"
+    .string "fullur.\p"
+    .string "{STR_VAR_2} var sent í KASSA\n"
+    .string "'{STR_VAR_1}.'$"
 
 Text_PlayerObtainedTheMon::
-    .string "{PLAYER} obtained\n"
-    .string "the {STR_VAR_1}!$"
+    .string "{PLAYER} fékk {STR_VAR_1}!$"
 
 @ Unused. Translated below
 @ You cannot carry any more Pokemon, so {STR_VAR_2} was sent to PC Box {STR_VAR_1}!
 Text_MonSentToBoxInPC::
-    .string "ポケモンを　もちきれないので\n"
-    .string "パソコンの　ボックス“{STR_VAR_1}”　に\l"
-    .string "{STR_VAR_2}を　てんそうした！$"
+    .string "ポケモンを もちきれないので パソコンの\n"
+    .string "ボックス'{STR_VAR_1}' に {STR_VAR_2}を\p"
+    .string "てんそうした！$"
 
 Text_NoMoreRoomForPokemon::
-    .string "There's no more room for POKéMON!\p"
-    .string "The POKéMON BOXES are full and\n"
+    .string "There's no more room for\n"
+    .string "Vasaskrímsli!\p"
+    .string "The Vasaskrímsli BOXES are full and\n"
     .string "can't accept any more!$"

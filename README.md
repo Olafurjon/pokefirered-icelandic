@@ -1,16 +1,70 @@
-# Pokémon FireRed and LeafGreen
+# Pokefirered Icelandic / Vasaskrímsli
 
-This is a decompilation of English Pokémon FireRed and LeafGreen.
+This is an Icelandic localization and gameplay-friendly fork of the English
+Pokemon FireRed/LeafGreen decompilation.
 
-It builds the following ROM images:
+The project goal is a playable Icelandic FireRed ROM with Icelandic dialogue,
+menus, item names, move names, species names, graphics, fonts, and supporting
+quality-of-life changes where they make the game work better as a standalone
+Icelandic release.
 
-* [**pokefirered.gba**](https://datomatic.no-intro.org/?page=show_record&s=23&n=1616) `sha1: 41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc`
-* [**pokeleafgreen.gba**](https://datomatic.no-intro.org/?page=show_record&s=23&n=1617) `sha1: 574fa542ffebb14be69902d1d36f1ec0a4afd71e`
-* [**pokefirered_rev1.gba**](https://datomatic.no-intro.org/?page=show_record&s=23&n=1672) `sha1: dd5945db9b930750cb39d00c84da8571feebf417`
-* [**pokeleafgreen_rev1.gba**](https://datomatic.no-intro.org/index.php?page=show_record&s=23&n=1668) `sha1: 7862c67bdecbe21d1d69ce082ce34327e1c6ed5e`
-* [**pokefirered_switch.gba**](https://datomatic.no-intro.org/index.php?page=show_record&s=23&n=x550) `sha1: baa452d0b24629dd7782cfc07a8984085dde1311`
-* [**pokeleafgreen_switch.gba**](https://datomatic.no-intro.org/index.php?page=show_record&s=23&n=x551) `sha1: 62b9fc77549dbc67032eb6cbd0ea6ad3b825690f`
+## Project Rules
 
-To set up the repository, see [INSTALL.md](INSTALL.md).
+- Do not commit ROMs, save states, baseroms, generated ELF/MAP files, or other
+  copyrighted binary dumps.
+- Build artifacts such as `*.gba`, `*.elf`, `*.map`, `*.sgm`, and `build/` are
+  ignored by git.
+- Keep translation terminology consistent with
+  `docs/icelandic_translation_reference.md`.
+- Preserve visible capitalization patterns where possible. For example,
+  `POKeMON` becomes `VASaSKRIMSLI` in stylized all-caps contexts.
+- Use Icelandic inflection in dialogue, even when the glossary term is listed
+  in nominative form.
 
-For contacts and other pret projects, see [pret.github.io](https://pret.github.io/).
+## Build
+
+Set up the repository as described in `INSTALL.md`, then build the modern ROM:
+
+```sh
+make modern -j$(nproc)
+```
+
+On Windows with WSL installed, run:
+
+```powershell
+wsl make modern -j8
+```
+
+The output ROM is generated locally as `pokefirered_modern.gba`.
+
+## Translation Workflow
+
+Useful files:
+
+- `docs/icelandic_translation_reference.md` - approved terms, species names,
+  style rules, and gameplay localization notes.
+- `translation_reports/` - generated queues, validation reports, and applied
+  translation batches.
+- `tools/icelandic/` - helper scripts for extracting, validating, applying, and
+  checking Icelandic text.
+
+Before submitting a change, run:
+
+```powershell
+python tools\icelandic\check_terms.py --root .
+wsl make modern -j8
+```
+
+## Current Gameplay Tweaks
+
+- Trade-only evolutions are available without trading.
+- Trade-with-item evolutions happen by leveling up while holding the original
+  trade item. The item is consumed when evolution starts.
+
+## Upstream
+
+This project is based on the pret FireRed/LeafGreen decompilation:
+
+https://github.com/pret/pokefirered
+
+For setup details and upstream documentation, see `INSTALL.md`.

@@ -1,41 +1,38 @@
 SevenIsland_TrainerTower_Text_DarioIntro::
-    .string "I sensed your approach.$"
+    .string "Ég skynjaði nálgun þína.$"
 
 SevenIsland_TrainerTower_Text_DarioDefeat::
-    .string "Give up…$"
+    .string "Gefstu upp…$"
 
 SevenIsland_TrainerTower_Text_DarioPostBattle::
-    .string "In your future, I sense that you\n"
-    .string "will meet many others.\p"
-    .string "I think you will be linked to each\n"
-    .string "other by a strange power.$"
+    .string "Í framtíð þinni skynja ég að þú munt\n"
+    .string "hitta marga aðra.\p"
+    .string "Ég held að þið verðið tengd saman af\n"
+    .string "undarlegum krafti.$"
 
 SevenIsland_TrainerTower_Text_RodetteIntro::
-    .string "Somewhere on this island, peculiar\n"
-    .string "POKéMON are sleeping.$"
+    .string "Einhvers staðar á þessari eyju sofa\n"
+    .string "sérkennileg Vasaskrímsli.$"
 
 SevenIsland_TrainerTower_Text_RodetteDefeat::
-    .string "What an amazing TRAINER!$"
+    .string "What an amazing ÞJÁLFARI!$"
 
 SevenIsland_TrainerTower_Text_RodettePostBattle::
-    .string "Somewhere on this island, peculiar\n"
-    .string "POKéMON are sleeping.\p"
-    .string "Could it be that they're waiting\n"
-    .string "for you?$"
+    .string "Einhvers staðar á þessari eyju sofa\n"
+    .string "sérkennileg Vasaskrímsli.\p"
+    .string "Gæti verið að þau bíði eftir þér?$"
 
 SevenIsland_TrainerTower_Text_TrainerTowerSign::
-    .string "TRAINER TOWER ENTRANCE\n"
-    .string "Rise to the Challenge, TRAINERS!$"
+    .string "INNGANGUR ÞJÁLFARATURNS Taktu\n"
+    .string "áskoruninni, ÞJÁLFARAR!$"
 
 SevenIsland_TrainerTower_Text_TrainerTowerAhead::
-    .string "TRAINER TOWER AHEAD$"
+    .string "ÞJÁLFARI TOWER AHEAD$"
 
 @ Unused text perhaps indicating Trainer Tower was planned to be unlocked by something
 SevenIsland_TrainerTower_Text_LooksLikeTrainerTowerIsClosed::
-    .string "トレーナータワーには\n"
-    .string "いまは　はいれない　みたい‥$"
+    .string "トレーナータワーには いまは はいれない みたい‥$"
 
 SevenIsland_TrainerTower_Text_TrainerTowerIsOpenLetsGoIn::
-    .string "トレーナータワーが　あいてる！\n"
-    .string "さっそく　はいってみよう！$"
+    .string "トレーナータワーが あいてる！ さっそく はいってみよう！$"
 

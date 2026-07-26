@@ -1,47 +1,48 @@
 TwoIsland_House_Text_TeachMonMoveForMushroom::
-    .string "I'm the POKéMON MOVE MANIAC.\p"
-    .string "I know every single move that\n"
-    .string "POKéMON learn growing up.\p"
-    .string "I'm also a mushroom maniac.\p"
-    .string "Bring me two TINYMUSHROOMS,\n"
-    .string "or one BIG MUSHROOM.\p"
-    .string "If you do that for me, I'll teach\n"
-    .string "a move to one POKéMON.$"
+    .string "Ég er HREYFINGASJÚKUR Vasaskrímsla.\p"
+    .string "Ég þekki hverja einustu hreyfingu\n"
+    .string "sem Vasaskrímsli læra þegar þau\p"
+    .string "vaxa.\p"
+    .string "Ég er líka sveppasjúkur.\p"
+    .string "Komdu með tvo TINYMUSHROOMS eða einn\n"
+    .string "BIG MUSHROOM.\p"
+    .string "Ef þú gerir það fyrir mig kenni ég\n"
+    .string "Vasaskrímsli hreyfingu.$"
 
 TwoIsland_House_Text_WantMeToTeachMove::
-    .string "Sniff, sniff…\n"
-    .string "Hm! You smell of MUSHROOMS!\p"
-    .string "Do you want me to teach a move\n"
-    .string "to a POKéMON of yours?$"
+    .string "Sniff, sniff… Hm! Þú lyktar af\n"
+    .string "SVEPPUM!\p"
+    .string "Viltu að ég kenni einu\n"
+    .string "Vasaskrímslinu þínu hreyfingu?$"
 
 TwoIsland_House_Text_TutorWhichMon::
-    .string "Which POKéMON needs tutoring?$"
+    .string "Hvaða Vasaskrímsli þarf kennslu?$"
 
 TwoIsland_House_Text_TeachWhichMove::
-    .string "Which move should I teach?$"
+    .string "Hvaða hreyfingu á ég að kenna?$"
 
 TwoIsland_House_Text_NoMoveICanTeachThatMon::
-    .string "Sorry…\p"
-    .string "It doesn't appear as if I have a\n"
-    .string "move I can teach that POKéMON.$"
+    .string "Fyrirgefðu…\p"
+    .string "Það virðist ekki vera nein hreyfing\n"
+    .string "sem ég get kennt þessu Vasaskrímsli.$"
 
 TwoIsland_House_Text_IllNeedMushroomOrTwo::
-    .string "Then, I'll need a MUSHROOM or two.\n"
-    .string "What are you going to give me?$"
+    .string "Þá þarf ég einn eða tvo SVEPPI. Hvað\n"
+    .string "ætlarðu að gefa mér?$"
 
 TwoIsland_House_Text_HandedOverTwoTinyMushrooms::
-    .string "{PLAYER} handed over two\n"
-    .string "TINYMUSHROOMS in exchange.$"
+    .string "{PLAYER} afhenti tvo TINYMUSHROOMS í\n"
+    .string "staðinn.$"
 
 TwoIsland_House_Text_HandedOverOneBigMushroom::
-    .string "{PLAYER} handed over one\n"
-    .string "BIG MUSHROOM in exchange.$"
+    .string "{PLAYER} afhenti einn STÓRAN SVEPP í\n"
+    .string "skiptum.$"
 
 TwoIsland_House_Text_NeedMushroomOrTwoToLearnMove::
-    .string "If your POKéMON need to learn a\n"
-    .string "move, I need a MUSHROOM or two.$"
+    .string "Ef Vasaskrímslið þitt þarf að læra\n"
+    .string "hreyfingu þarf ég SVEPP eða tvo.$"
 
 TwoIsland_House_Text_CantTeachAnEgg::
-    .string "Hunh? There isn't a single move\n"
-    .string "that I can teach an EGG.$"
+    .string "Ha? Það er ekki ein einasta hreyfing\n"
+    .string "sem ég get kennt EGGI.$"
 

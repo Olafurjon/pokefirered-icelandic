@@ -1,33 +1,29 @@
 PokemonTower_4F_Text_PaulaIntro::
-    .string "Ghost! No!\n"
-    .string "Kwaaah!$"
+    .string "Ghost! No! Kwaaah!$"
 
 PokemonTower_4F_Text_PaulaDefeat::
-    .string "Where is the ghost?$"
+    .string "Hvar er draugurinn?$"
 
 PokemonTower_4F_Text_PaulaPostBattle::
-    .string "I must have been dreaming…$"
+    .string "Ég hlýt að hafa verið að dreyma…$"
 
 PokemonTower_4F_Text_LaurelIntro::
-    .string "Be cursed with me!\n"
-    .string "Kwaaah!$"
+    .string "Vertu bölvaður með mér! Kwaaah!$"
 
 PokemonTower_4F_Text_LaurelDefeat::
-    .string "What!$"
+    .string "Hvað!$"
 
 PokemonTower_4F_Text_LaurelPostBattle::
-    .string "We can't determine the identity of\n"
-    .string "the ghosts…$"
+    .string "Við getum ekki ákvarðað hverjir\n"
+    .string "draugarnir eru…$"
 
 PokemonTower_4F_Text_JodyIntro::
-    .string "Huhuhu…\n"
-    .string "Beat me not!$"
+    .string "Huhuhu… Ekki berja mig!$"
 
 PokemonTower_4F_Text_JodyDefeat::
-    .string "Huh?\n"
-    .string "Who? What?$"
+    .string "Huh? Who? What?$"
 
 PokemonTower_4F_Text_JodyPostBattle::
-    .string "May the departed POKéMON rest in\n"
-    .string "peace…$"
+    .string "Megi horfin Vasaskrímsli hvíla í\n"
+    .string "friði…$"
 

@@ -1,357 +1,355 @@
 PalletTown_ProfessorOaksLab_Text_RivalGrampsIsntAround::
-    .string "{RIVAL}: What, it's only {PLAYER}?\n"
-    .string "Gramps isn't around.$"
+    .string "{RIVAL}: Hvað, það er bara {PLAYER}?\n"
+    .string "Afi er ekki hér.$"
 
 PalletTown_ProfessorOaksLab_Text_RivalFedUpWithWaiting::
-    .string "{RIVAL}: Gramps!\n"
-    .string "I'm fed up with waiting!$"
+    .string "{RIVAL}: Afi! Ég er orðinn leiður\n"
+    .string "á að bíða!$"
 
 PalletTown_ProfessorOaksLab_Text_RivalNoFairWhatAboutMe::
-    .string "{RIVAL}: Hey! Gramps! No fair!\n"
-    .string "What about me?$"
+    .string "{RIVAL}: Ha! Afi! Þetta er ekkert\n"
+    .string "sanngjarnt! Hvað með mig?$"
 
 PalletTown_ProfessorOaksLab_Text_RivalGoChoosePlayer::
-    .string "{RIVAL}: Heh, I don't need to be\n"
-    .string "greedy like you. I'm mature!\p"
-    .string "Go ahead and choose, {PLAYER}!$"
+    .string "{RIVAL}: Heh, ég þarf ekki að vera\n"
+    .string "gráðugur eins og þú. Ég er\p"
+    .string "þroskaður!\p"
+    .string "Farðu á undan og veldu, {PLAYER}!$"
 
 PalletTown_ProfessorOaksLab_Text_RivalIllTakeThisOneThen::
-    .string "{RIVAL}: I'll take this one, then!$"
+    .string "{RIVAL}: Ég tek þennan, þá!$"
 
 PalletTown_ProfessorOaksLab_Text_RivalReceivedMonFromOak::
-    .string "{RIVAL} received the {STR_VAR_1}\n"
-    .string "from PROF. OAK!$"
+    .string "{RIVAL} fékk {STR_VAR_1} frá PRÓF.\n"
+    .string "EIK!$"
 
 PalletTown_ProfessorOaksLab_Text_RivalMyMonLooksTougher::
-    .string "{RIVAL}: My POKéMON looks a lot\n"
-    .string "tougher than yours.$"
+    .string "{RIVAL}: VASaSKRÍMSLIÐ mitt lítur\n"
+    .string "miklu sterkari út en þitt.$"
 
 PalletTown_ProfessorOaksLab_Text_RivalLetsCheckOutMons::
-    .string "{RIVAL}: Wait, {PLAYER}!\n"
-    .string "Let's check out our POKéMON!\p"
-    .string "Come on, I'll take you on!$"
+    .string "{RIVAL}: Bíddu, {PLAYER}! Við skulum\n"
+    .string "kíkja á VASaSKRÍMSLI okkar!\p"
+    .string "Komdu, ég tek þig!$"
 
 PalletTown_ProfessorOaksLab_Text_RivalDefeat::
-    .string "WHAT?\n"
-    .string "Unbelievable!\l"
-    .string "I picked the wrong POKéMON!$"
+    .string "HA? Ótrúlegt! Ég valdi rangt\n"
+    .string "VASaSKRÍMSLI!$"
 
 @ Also used for early Route 22 battle
 Text_RivalVictory::
-    .string "{RIVAL}: Yeah!\n"
-    .string "Am I great or what?$"
+    .string "{RIVAL}: Já! Er ég frábær eða hvað?$"
 
 PalletTown_ProfessorOaksLab_Text_RivalGoToughenMyMon::
-    .string "{RIVAL}: Okay! I'll make my\n"
-    .string "POKéMON battle to toughen it up!\p"
-    .string "{PLAYER}! Gramps!\n"
-    .string "Smell you later!$"
+    .string "{RIVAL}: Allt í lagi! Ég mun berjast\n"
+    .string "með VASaSKRÍMSLIÐ mitt til að herða\p"
+    .string "það!\p"
+    .string "{PLAYER}! Afi! Sjáumst seinna!$"
 
 PalletTown_ProfessorOaksLab_Text_RivalGramps::
-    .string "{RIVAL}: Gramps!$"
+    .string "{RIVAL}: Afi!$"
 
 PalletTown_ProfessorOaksLab_Text_RivalWhatDidYouCallMeFor::
-    .string "{RIVAL}: I almost forgot!\n"
-    .string "What did you call me for?$"
+    .string "{RIVAL}: Ég gleymdi næstum! Til\n"
+    .string "hvers hringdirðu í mig?$"
 
 PalletTown_ProfessorOaksLab_Text_RivalLeaveItToMeGramps::
-    .string "{RIVAL}: All right, Gramps!\n"
-    .string "Leave it all to me!$"
+    .string "{RIVAL}: Allt í lagi, afi! Leyfðu\n"
+    .string "mér það allt!$"
 
 PalletTown_ProfessorOaksLab_Text_RivalTellSisNotToGiveYouMap::
-    .string "{PLAYER}, I hate to say it, but you\n"
-    .string "won't be necessary for this.\p"
-    .string "I know! I'll borrow a TOWN MAP\n"
-    .string "from my sis!\p"
-    .string "I'll tell her not to lend you one,\n"
-    .string "{PLAYER}! Hahaha!\p"
-    .string "Don't bother coming around to\n"
-    .string "my place after this!$"
+    .string "{PLAYER}, ég hata að segja það, en\n"
+    .string "þú verður ekki nauðsynlegur fyrir\p"
+    .string "þetta.\p"
+    .string "Ég veit! Ég fæ lánað BÆJARKORT hjá\n"
+    .string "systur minni!\p"
+    .string "Ég skal segja henni að lána þér\n"
+    .string "ekki, {PLAYER}! Hahaha!\p"
+    .string "Nenni ekki að koma til mín eftir\n"
+    .string "þetta!$"
 
 PalletTown_ProfessorOaksLab_Text_OakThreeMonsChooseOne::
-    .string "OAK: {RIVAL}?\n"
-    .string "Let me think…\p"
-    .string "Oh, that's right, I told you to\n"
-    .string "come! Just wait!\p"
-    .string "Here, {PLAYER}.\p"
-    .string "There are three POKéMON here.\p"
+    .string "EIK: {RIVAL}? Leyfðu mér að hugsa…\p"
+    .string "Ó, það er rétt, ég sagði þér að\n"
+    .string "koma! Bíddu bara!\p"
+    .string "Hér, {PLAYER}.\p"
+    .string "Það eru þrjú VASaSKRÍMSLI hér.\p"
     .string "Haha!\p"
-    .string "The POKéMON are held inside\n"
-    .string "these POKé BALLS.\p"
-    .string "When I was young, I was a serious\n"
-    .string "POKéMON TRAINER.\p"
-    .string "But now, in my old age, I have\n"
-    .string "only these three left.\p"
-    .string "You can have one.\n"
-    .string "Go on, choose!$"
+    .string "VASaSKRÍMSLI eru geymd inni í þessum\n"
+    .string "VASA BOLTUM.\p"
+    .string "Þegar ég var ungur var ég alvöru\n"
+    .string "VASaSKRÍMSLAÞJÁLFARI.\p"
+    .string "En nú á ég bara þrjú eftir. Þú mátt\n"
+    .string "fá eitt. Veldu!$"
 
 PalletTown_ProfessorOaksLab_Text_OakBePatientRival::
-    .string "OAK: Be patient, {RIVAL}.\n"
-    .string "You can have one, too!$"
+    .string "EIK: Vertu þolinmóður, {RIVAL}. Þú\n"
+    .string "getur líka fengið einn!$"
 
 PalletTown_ProfessorOaksLab_Text_OakWhichOneWillYouChoose::
-    .string "OAK: Now, {PLAYER}.\p"
-    .string "Inside those three POKé BALLS are\n"
-    .string "POKéMON.\p"
-    .string "Which one will you choose for\n"
-    .string "yourself?$"
+    .string "EIK: Nú, {PLAYER}.\p"
+    .string "Í þessum þremur VASA BOLTUM eru\n"
+    .string "VASaSKRÍMSLI.\p"
+    .string "Hvaða félaga velur þú?$"
 
 PalletTown_ProfessorOaksLab_Text_OakHeyDontGoAwayYet::
-    .string "OAK: Hey!\n"
-    .string "Don't go away yet!$"
+    .string "EIK: Hæ! Ekki fara í burtu ennþá!$"
 
 PalletTown_ProfessorOaksLab_Text_OakChoosingCharmander::
-    .string "Ah! CHARMANDER is your choice.\n"
-    .string "You should raise it patiently.\p"
-    .string "So, {PLAYER}, you're claiming the\n"
-    .string "FIRE POKéMON CHARMANDER?$"
+    .string "Ah! GLÓÐMANDRA er valið þitt.\n"
+    .string "Þjálfaðu hann af þolinmæði.\p"
+    .string "Svo, {PLAYER}, viltu velja ELDUR\n"
+    .string "VASaSKRÍMSLIÐ GLÓÐMÖNDRU?$"
 
 PalletTown_ProfessorOaksLab_Text_OakChoosingSquirtle::
-    .string "Hm! SQUIRTLE is your choice.\n"
-    .string "It's one worth raising.\p"
-    .string "So, {PLAYER}, you've decided on the\n"
-    .string "WATER POKéMON SQUIRTLE?$"
+    .string "Hm! SPRAUTILL er valið þitt.\n"
+    .string "Hann á eftir að reynast vel.\p"
+    .string "Svo, {PLAYER}, viltu velja VATN\n"
+    .string "VASaSKRÍMSLIÐ SPRAUTIL?$"
 
 PalletTown_ProfessorOaksLab_Text_OakChoosingBulbasaur::
-    .string "I see! BULBASAUR is your choice.\n"
-    .string "It's very easy to raise.\p"
-    .string "So, {PLAYER}, you want to go with\n"
-    .string "the GRASS POKéMON BULBASAUR?$"
+    .string "Ég sé! LAUKEÐLA er valið þitt.\n"
+    .string "Hún er auðveld í þjálfun.\p"
+    .string "Svo, {PLAYER}, viltu velja GRAS\n"
+    .string "VASaSKRÍMSLIÐ LAUKEÐLU?$"
 
 PalletTown_ProfessorOaksLab_Text_OakThisMonIsEnergetic::
-    .string "This POKéMON is really quite\n"
-    .string "energetic!$"
+    .string "Þetta VASaSKRÍMSLI er í raun ansi\n"
+    .string "orkumikill!$"
 
 PalletTown_ProfessorOaksLab_Text_ReceivedMonFromOak::
-    .string "{PLAYER} received the {STR_VAR_1}\n"
-    .string "from PROF. OAK!$"
+    .string "{PLAYER} fékk {STR_VAR_1} frá PRÓF.\n"
+    .string "EIK!$"
 
 PalletTown_ProfessorOaksLab_Text_OakCanReachNextTownWithMon::
-    .string "OAK: If a wild POKéMON appears,\n"
-    .string "your POKéMON can battle it.\p"
-    .string "With it at your side, you should be\n"
-    .string "able to reach the next town.$"
+    .string "EIK: Ef villtur VASaSKRÍMSLI birtist\n"
+    .string "getur VASaSKRÍMSLI þinn barist við\p"
+    .string "það.\p"
+    .string "Með hann við hliðina ættirðu að geta\n"
+    .string "náð næsta bæ.$"
 
 PalletTown_ProfessorOaksLab_Text_OakBattleMonForItToGrow::
-    .string "OAK: {PLAYER}, raise your young\n"
-    .string "POKéMON by making it battle.\p"
-    .string "It has to battle for it to grow.$"
+    .string "EIK: {PLAYER}, ala upp unga\n"
+    .string "VASaSKRÍMSLI með því að láta hann\p"
+    .string "berjast.\p"
+    .string "Það þarf að berjast fyrir því að það\n"
+    .string "vaxi.$"
 
 PalletTown_ProfessorOaksLab_Text_OakHaveSomethingForMe::
-    .string "OAK: Oh, {PLAYER}!\n"
-    .string "How is my old POKéMON?\p"
-    .string "Well, it seems to be growing more\n"
-    .string "attached to you.\p"
-    .string "You must be talented as a POKéMON\n"
-    .string "TRAINER.\p"
-    .string "What's that?\n"
-    .string "You have something for me?$"
+    .string "EIK: Ó, {PLAYER}! Hvernig er gamla\n"
+    .string "VASaSKRÍMSLI minn?\p"
+    .string "Jæja, það virðist vera að festast\n"
+    .string "meira við þig.\p"
+    .string "Þú verður að vera hæfileikaríkur sem\n"
+    .string "VASaSKRÍMSLI ÞJÁLFARI.\p"
+    .string "Hvað er það? Ertu með eitthvað handa\n"
+    .string "mér?$"
 
 PalletTown_ProfessorOaksLab_Text_DeliveredOaksParcel::
-    .string "{PLAYER} delivered OAK'S PARCEL.$"
+    .string "{PLAYER} afhenti PAKKA EIKS.$"
 
 PalletTown_ProfessorOaksLab_Text_OakCustomBallIOrdered::
-    .string "Ah! \n"
-    .string "It's the custom POKé BALL!\p"
-    .string "I had it on order.\n"
-    .string "Thank you!$"
+    .string "Ah! Það er sérsniðinn VASA BOLTI!\p"
+    .string "Ég var með það á pöntun. Þakka þér\n"
+    .string "fyrir!$"
 
 PalletTown_ProfessorOaksLab_Text_OakHaveRequestForYouTwo::
-    .string "OAK: Oh, right!\n"
-    .string "I have a request for you two.$"
+    .string "EIK: Ó, rétt! Ég er með beiðni fyrir\n"
+    .string "ykkur tvö.$"
 
 PalletTown_ProfessorOaksLab_Text_OakPokedexOnDesk::
-    .string "On the desk there is my invention,\n"
-    .string "the POKéDEX!\p"
-    .string "It automatically records data on\n"
-    .string "POKéMON you've seen or caught.\p"
-    .string "It's a high-tech encyclopedia!$"
+    .string "Á skrifborðinu er uppfinningin mín,\n"
+    .string "VasaDEX!\p"
+    .string "Það skráir sjálfkrafa gögn á\n"
+    .string "VASaSKRÍMSLI sem þú hefur séð eða\p"
+    .string "fangað.\p"
+    .string "Það er hátækni alfræðiorðabók!$"
 
 PalletTown_ProfessorOaksLab_Text_OakTakeTheseWithYou::
-    .string "OAK: {PLAYER} and {RIVAL}.\n"
-    .string "Take these with you.$"
+    .string "EIK: {PLAYER} og {RIVAL}. Taktu\n"
+    .string "þessar með þér.$"
 
 PalletTown_ProfessorOaksLab_Text_ReceivedPokedexFromOak::
-    .string "{PLAYER} received the POKéDEX\n"
-    .string "from PROF. OAK.$"
+    .string "{PLAYER} fékk VasaDEX frá Prófessor\n"
+    .string "EIK.$"
 
 PalletTown_ProfessorOaksLab_Text_OakCatchMonsForDataTakeThese::
-    .string "OAK: You can't get detailed data\n"
-    .string "on POKéMON by just seeing them.\p"
-    .string "You must catch them to obtain\n"
-    .string "complete data.\p"
-    .string "So, here are some tools for\n"
-    .string "catching wild POKéMON.$"
+    .string "EIK: Þú getur ekki fengið nákvæmar\n"
+    .string "upplýsingar um VASaSKRÍMSLI með því\p"
+    .string "að sjá þau.\p"
+    .string "Þú verður að fanga þau til að fá\n"
+    .string "fullkomin gögn.\p"
+    .string "Svo, hér eru nokkur tæki til að\n"
+    .string "fanga villt VASaSKRÍMSLI.$"
 
 PalletTown_ProfessorOaksLab_Text_ReceivedFivePokeBalls::
-    .string "{PLAYER} received five POKé BALLS.$"
+    .string "{PLAYER} fékk fimm VASA BOLTA.$"
 
 PalletTown_ProfessorOaksLab_Text_OakExplainCatching::
-    .string "When a wild POKéMON appears,\n"
-    .string "it's fair game.\p"
-    .string "Just throw a POKé BALL at it and\n"
-    .string "try to catch it!\p"
-    .string "This won't always work, however.\p"
-    .string "A healthy POKéMON can escape.\n"
-    .string "You have to be lucky!$"
+    .string "Þegar villtur VASaSKRÍMSLI birtist\n"
+    .string "er það sanngjarn leikur.\p"
+    .string "Hentu bara VASA BOLTI í það og\n"
+    .string "reyndu að fanga það!\p"
+    .string "Þetta mun þó ekki alltaf virka.\p"
+    .string "Heilbrigt VASaSKRÍMSLI getur\n"
+    .string "sloppið. Þú verður að vera heppinn!$"
 
 PalletTown_ProfessorOaksLab_Text_OakCompleteMonGuideWasMyDream::
-    .string "To make a complete guide on all\n"
-    .string "the POKéMON in the world…\p"
-    .string "That was my dream!\p"
-    .string "But, I'm too old.\n"
-    .string "I can't get the job done.\p"
-    .string "So, I want you two to fulfill my\n"
-    .string "dream for me.\p"
-    .string "Get moving, you two.\p"
-    .string "This is a great undertaking in\n"
-    .string "POKéMON history!$"
+    .string "Til að búa til heildarhandbók um\n"
+    .string "alla VASaSKRÍMSLI í heiminum ...\p"
+    .string "Það var draumurinn minn!\p"
+    .string "En ég er of gamall. Ég get ekki\n"
+    .string "unnið verkið.\p"
+    .string "Svo ég vil að þið tvö uppfyllið\n"
+    .string "drauminn minn fyrir mig.\p"
+    .string "Farðu að hreyfa þig, þið tvö.\p"
+    .string "Þetta er frábært verkefni í sögu\n"
+    .string "VASaSKRÍMSLI!$"
 
 PalletTown_ProfessorOaksLab_Text_OakMonsAroundWorldWait::
-    .string "POKéMON around the world wait for\n"
-    .string "you, {PLAYER}!$"
+    .string "VASaSKRÍMSLI um allan heim bíða\n"
+    .string "eftir þér, {PLAYER}!$"
 
 PalletTown_ProfessorOaksLab_Text_OakAddedNothingToPokedex::
-    .string "Ah, {PLAYER}!\n"
-    .string "How is your POKéDEX shaping up?\p"
-    .string "{RIVAL} has already caught some\n"
-    .string "POKéMON and added to the data.\p"
-    .string "So, {PLAYER}, let's have a look at\n"
-    .string "your POKéDEX.\p"
-    .string "…What's the matter?\n"
-    .string "You've added no new data at all.\p"
-    .string "I'll give you these, so do try a\n"
-    .string "little harder.$"
+    .string "Ah, {PLAYER}! Hvernig er VasaDEX\n"
+    .string "þinn að mótast?\p"
+    .string "{RIVAL} hefur þegar náð nokkrum\n"
+    .string "VASaSKRÍMSLI og bætt við gögnin.\p"
+    .string "Svo, {PLAYER}, skulum kíkja á\n"
+    .string "VasaDEX. þinn\p"
+    .string "…Hvað er að? Þú hefur alls ekki bætt\n"
+    .string "við nýjum gögnum.\p"
+    .string "Ég skal gefa þér þessar, svo reyndu\n"
+    .string "aðeins betur.$"
 
 PalletTown_ProfessorOaksLab_Text_OakComeSeeMeSometime::
-    .string "OAK: Come see me sometime.\p"
-    .string "After all, I want to know how your\n"
-    .string "POKéDEX is coming along.$"
+    .string "EIK: Komdu og hittu mig einhvern\n"
+    .string "tíma.\p"
+    .string "Eftir allt saman vil ég vita hvernig\n"
+    .string "VasaDEX þinn kemur.$"
 
 PalletTown_ProfessorOaksLab_Text_BlankEncyclopedia::
-    .string "It's like an encyclopedia, but the\n"
-    .string "pages are blank.$"
+    .string "Þetta er eins og alfræðiorðabók, en\n"
+    .string "síðurnar eru auðar.$"
 
 PalletTown_ProfessorOaksLab_Text_ThoseArePokeBalls::
-    .string "Those are POKé BALLS.\n"
-    .string "They contain POKéMON!$"
+    .string "Þetta eru VASA BOLTAR. Þeir\n"
+    .string "innihalda VASaSKRÍMSLI!$"
 
 PalletTown_ProfessorOaksLab_Text_OaksLastMon::
-    .string "That's PROF. OAK's last POKéMON.$"
+    .string "Það er síðasta VASaSKRÍMSLIÐ frá\n"
+    .string "EIK.$"
 
 PalletTown_ProfessorOaksLab_Text_PressStartToOpenMenu::
-    .string "Press START to open the MENU!$"
+    .string "Ýttu á START til að opna VALMYND!$"
 
 PalletTown_ProfessorOaksLab_Text_SaveOptionInMenu::
-    .string "The SAVE option is on the MENU.\n"
-    .string "Use it regularly.$"
+    .string "VISTA-valkosturinn er í VALMYND.\n"
+    .string "Notaðu hann reglulega.$"
 
 PalletTown_ProfessorOaksLab_Text_AllMonTypesHaveStrongAndWeakPoints::
-    .string "All POKéMON types have strong and\n"
-    .string "weak points against others.$"
+    .string "Allar VASaSKRÍMSLI gerðir hafa\n"
+    .string "sterka og veika punkta gegn öðrum.$"
 
 PalletTown_ProfessorOaksLab_Text_EmailMessage::
-    .string "There's an e-mail message here.\p"
+    .string "Það er tölvupóstur hér.\p"
     .string "…\p"
-    .string "Finally!\n"
-    .string "The ultimate TRAINERS of the\l"
-    .string "POKéMON LEAGUE are ready to\l"
-    .string "take on all comers!\p"
-    .string "Bring your best POKéMON and see\n"
-    .string "how you rate as a TRAINER!\p"
-    .string "POKéMON LEAGUE HQ\n"
-    .string "INDIGO PLATEAU\p"
-    .string "PROF. OAK, please visit us!\n"
-    .string "…$"
+    .string "Loksins! Sterkustu ÞJÁLFARAR\n"
+    .string "VASaSKRÍMSLADEILDARINNAR eru\p"
+    .string "tilbúnir að taka á móti öllum!\p"
+    .string "Komdu með besta VASaSKRÍMSLIÐ þitt\n"
+    .string "og sjáðu hvar þú stendur sem\p"
+    .string "ÞJÁLFARI!\p"
+    .string "VASaSKRÍMSLADEILD HQ INDIGO PLATEAU\p"
+    .string "Prófessor EIK, vinsamlegast kíktu\n"
+    .string "við!$"
 
 PalletTown_ProfessorOaksLab_Text_StudyAsOaksAide::
-    .string "I study POKéMON as PROF. OAK's\n"
-    .string "AIDE.$"
+    .string "Ég rannsaka VASaSKRÍMSLI sem\n"
+    .string "aðstoðarmaður Prófessor EIK.$"
 
 PalletTown_ProfessorOaksLab_Text_DaisyWillGroomMons::
-    .string "Hi, {PLAYER}. I bet you've become\n"
-    .string "good friends with your POKéMON.\p"
-    .string "By the way, did you know about\n"
-    .string "DAISY?\p"
-    .string "If you show DAISY your POKéMON,\n"
-    .string "she can tell how much it likes you.\p"
-    .string "Occasionally, she will even groom\n"
-    .string "a POKéMON for you.\p"
-    .string "This is a secret, so please don't\n"
-    .string "tell anyone.$"
+    .string "Hæ, {PLAYER}. Ég veðja að þú sért\n"
+    .string "orðin/n góður vinur VASaSKRÍMSLISINS\p"
+    .string "þíns.\p"
+    .string "Annars, vissirðu af DAISY?\p"
+    .string "Ef þú sýnir DAISY VASaSKRÍMSLIÐ þitt\n"
+    .string "getur hún sagt hversu mikið því\p"
+    .string "líkar við þig.\p"
+    .string "Stundum snyrtir hún jafnvel\n"
+    .string "VASaSKRÍMSLI fyrir þig!$"
 
 PalletTown_ProfessorOaksLab_Text_OakIsGoingToHaveRadioShow::
-    .string "PROF. OAK is going to have his own\n"
-    .string "radio show soon.\p"
-    .string "The program will be called PROF.\n"
-    .string "OAK's POKéMON SEMINAR.$"
+    .string "Prófessor EIK fær bráðum sinn eigin\n"
+    .string "útvarpsþátt.\p"
+    .string "Þátturinn heitir Prófessors EIKS\n"
+    .string "VASaSKRÍMSLANÁMSKEIÐ.$"
 
 PalletTown_ProfessorOaksLab_Text_OakIsAuthorityOnMons::
-    .string "PROF. OAK may not look like much,\n"
-    .string "but he's the authority on POKéMON.\p"
-    .string "Many POKéMON TRAINERS hold him in\n"
-    .string "high regard.$"
+    .string "Prófessor EIK lítur kannski ekki út\n"
+    .string "fyrir það, en hann er helsti\p"
+    .string "sérfræðingurinn um VASaSKRÍMSLI.\p"
+    .string "Margir VASaSKRÍMSLAÞJÁLFARAR bera\n"
+    .string "mikla virðingu fyrir honum.$"
 
 PalletTown_ProfessorOaksLab_Text_OakFavorToAskYouPlayer::
-    .string "Ah, now this is excellent!\p"
-    .string "{PLAYER}, I have another important\n"
-    .string "favor to ask of you.\p"
-    .string "I need you to listen closely.$"
+    .string "Ah, nú er þetta frábært!\p"
+    .string "{PLAYER}, ég hef annan mikilvægan\n"
+    .string "greiða að biðja þig um.\p"
+    .string "Ég þarf að hlusta vel.$"
 
 PalletTown_ProfessorOaksLab_Text_OakSightingsOfRareMons::
-    .string "Recently, there have been sightings\n"
-    .string "of many rare POKéMON species.\p"
-    .string "I'm talking about POKéMON that\n"
-    .string "have never been seen in KANTO.\p"
-    .string "I would love to go see things for\n"
-    .string "myself, but I'm much too old.\p"
-    .string "Since I can't do it, {PLAYER}, I'd\n"
-    .string "like you to go in my place.$"
+    .string "Nýlega hafa sést margar sjaldgæfar\n"
+    .string "VASaSKRÍMSLI tegundir.\p"
+    .string "Ég er að tala um VASaSKRÍMSLI sem\n"
+    .string "hafa aldrei sést í KANTO.\p"
+    .string "Ég myndi elska að fara að skoða\n"
+    .string "hlutina sjálfur, en ég er allt of\p"
+    .string "gamall.\p"
+    .string "Þar sem ég get það ekki, {PLAYER},\n"
+    .string "vil ég að þú farir í minn stað.$"
 
 PalletTown_ProfessorOaksLab_Text_RivalJustLetMeHandleEverything::
-    .string "{RIVAL}: Hey, I heard that!\p"
-    .string "Gramps, what's with favoring\n"
-    .string "{PLAYER} over me all the time?\p"
-    .string "I went and collected more POKéMON,\n"
-    .string "and faster, too.\p"
-    .string "You should just let me handle\n"
-    .string "everything.$"
+    .string "{RIVAL}: Hey, ég heyrði það!\p"
+    .string "Afi, hvað er að því að hygla\n"
+    .string "{PLAYER} fram yfir mig allan tímann?\p"
+    .string "Ég fór og safnaði meira\n"
+    .string "VASaSKRÍMSLI, og hraðar líka.\p"
+    .string "Þú ættir bara að leyfa mér að sjá um\n"
+    .string "allt.$"
 
 PalletTown_ProfessorOaksLab_Text_OakNeedYourHelpTooNeedToSeePokedexes::
-    .string "OAK: I know, I know.\n"
-    .string "Of course I need your help, too.\p"
-    .string "Now, I need to see both your\n"
-    .string "POKéDEXES.$"
+    .string "EIK: Ég veit, ég veit. Auðvitað þarf\n"
+    .string "ég líka hjálp þína.\p"
+    .string "Nú þarf ég að sjá bæði VasaDEXIN.$"
 
 PalletTown_ProfessorOaksLab_Text_OakTookBothPokedexUnits::
-    .string "PROF. OAK took both POKéDEX\n"
-    .string "units.$"
+    .string "Prófessor EIK tók báðar VasaDEX\n"
+    .string "einingarnar.$"
 
 PalletTown_ProfessorOaksLab_Text_OakNowTheseUnitsCanRecordMoreData::
-    .string "… … …  … … …\p"
-    .string "… … …  … … …\p"
-    .string "…And that's done!\p"
-    .string "Now these units can record data on\n"
-    .string "a lot more POKéMON.$"
+    .string "… … … … … …\p"
+    .string "… … … … … …\p"
+    .string "…Og það er búið!\p"
+    .string "Nú geta þessar einingar skráð gögn á\n"
+    .string "miklu fleiri VASaSKRÍMSLI.$"
 
 PalletTown_ProfessorOaksLab_Text_PlayersPokedexWasUpgraded::
-    .string "{PLAYER}'s POKéDEX was upgraded!$"
+    .string "VasaDEX frá {PLAYER} var uppfærður!$"
 
 PalletTown_ProfessorOaksLab_Text_OakMustReallyWorkToFillPokedex::
-    .string "Now, {PLAYER} and {RIVAL}!\p"
-    .string "This time, you really must work\n"
-    .string "towards filling your POKéDEXES.\p"
-    .string "I urge you to make them the best\n"
-    .string "and the most complete of all time!\p"
-    .string "Truly, this is a monumentally great\n"
-    .string "undertaking in POKéMON history!$"
+    .string "Nú, {PLAYER} og {RIVAL}!\p"
+    .string "Að þessu sinni verður þú virkilega\n"
+    .string "að vinna að því að fylla VasaDEXES.\p"
+    .string "þinn\p"
+    .string "Ég hvet þig til að gera þá bestu og\n"
+    .string "fullkomnustu allra tíma!\p"
+    .string "Sannarlega, þetta er stórkostlegt\n"
+    .string "verkefni í sögu VASaSKRÍMSLI!$"
 
 PalletTown_ProfessorOaksLab_Text_RivalIllCompleteThePokedex::
-    .string "{RIVAL}: Gramps, calm down.\n"
-    .string "Don't get so excited.\p"
-    .string "I'll get the POKéDEX completed,\n"
-    .string "don't you worry about a thing.\p"
-    .string "I think I'll try looking around\n"
-    .string "ONE ISLAND first…\p"
-    .string "Anyways, I'm outta here!$"
-
+    .string "{RIVAL}: Afi, rólegur. Vertu ekki\n"
+    .string "svona æstur.\p"
+    .string "Ég klára VasaDEX, engar áhyggjur.\p"
+    .string "Ég held ég skoði ONE EYJU fyrst…\p"
+    .string "Allavega, ég er farinn!$"

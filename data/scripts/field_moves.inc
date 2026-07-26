@@ -45,16 +45,16 @@ EventScript_DontCutTree::
 	end
 
 Text_CutTreeDown::
-	.string "This tree looks like it can be CUT\n"
-	.string "down!\p"
-	.string "Would you like to CUT it?$"
+	.string "Þetta tré lítur út fyrir að hægt sé\n"
+	.string "að HÖGGVA það niður!\p"
+	.string "Viltu HÖGGVA það?$"
 
 Text_MonUsedMove::
-	.string "{STR_VAR_1} used {STR_VAR_2}!$"
+	.string "{STR_VAR_1} notaði {STR_VAR_2}!$"
 
 Text_TreeCanBeCutDown::
-	.string "This tree looks like it can be CUT\n"
-	.string "down!$"
+	.string "Þetta tré lítur út fyrir að hægt sé\n"
+	.string "að HÖGGVA það niður!$"
 
 EventScript_RockSmash::
 	goto_if_questlog EventScript_ReleaseEnd
@@ -109,12 +109,13 @@ EventScript_DontSmashRock::
 	end
 
 Text_UseRockSmash::
-	.string "This rock appears to be breakable.\n"
-	.string "Would you like to use ROCK SMASH?$"
+	.string "Þessi steinn virðist vera brotlegur.\n"
+	.string "Viltu nota ROCK SMASH?$"
 
 Text_MonMaySmashRock::
-	.string "It's a rugged rock, but a POKéMON\n"
-	.string "may be able to smash it.$"
+	.string "It's a rugged rock, but a\n"
+	.string "Vasaskrímsli may be able to smash\p"
+	.string "it.$"
 
 EventScript_StrengthBoulder::
 	goto_if_questlog EventScript_ReleaseEnd
@@ -158,22 +159,24 @@ EventScript_DontUseStrength::
 	end
 
 Text_UseStrength::
-	.string "It's a big boulder, but a POKéMON\n"
-	.string "may be able to push it aside.\p"
+	.string "It's a big boulder, but a\n"
+	.string "Vasaskrímsli may be able to push it\p"
+	.string "aside.\p"
 	.string "Would you like to use STRENGTH?$"
 
 Text_MonUsedStrengthCanMoveBoulders::
-	.string "{STR_VAR_1} used STRENGTH!\p"
-	.string "{STR_VAR_1}'s STRENGTH made it\n"
-	.string "possible to move boulders around!$"
+	.string "{STR_VAR_1} notaði STRENGTH!\p"
+	.string "STRENGTH frá {STR_VAR_1} gerði það\n"
+	.string "mögulegt að færa stóra steina!$"
 
 Text_MonMayPushBoulder::
-	.string "It's a big boulder, but a POKéMON\n"
-	.string "may be able to push it aside.$"
+	.string "It's a big boulder, but a\n"
+	.string "Vasaskrímsli may be able to push it\p"
+	.string "aside.$"
 
 Text_StrengthMadeMovingBouldersPossible::
-	.string "STRENGTH made it possible to move\n"
-	.string "boulders around.$"
+	.string "STRENGTH gerði það mögulegt að færa\n"
+	.string "stóra steina.$"
 
 EventScript_Waterfall::
 	goto_if_questlog EventScript_ReleaseEnd
@@ -197,15 +200,15 @@ EventScript_EndWaterfall:
 	end
 
 Text_WallOfWaterCrashingDown::
-	.string "A wall of water is crashing down\n"
-	.string "with a mighty roar.$"
+	.string "Vatnsveggur skellur niður með miklum\n"
+	.string "dyn.$"
 
 Text_UseWaterfall::
-	.string "It's a large waterfall.\n"
-	.string "Would you like to use WATERFALL?$"
+	.string "Þetta er stór foss. Viltu nota\n"
+	.string "WATERFALL?$"
 
 Text_MonUsedWaterfall::
-	.string "{STR_VAR_1} used WATERFALL.$"
+	.string "{STR_VAR_1} notaði WATERFALL.$"
 
 @ Unused leftover from R/S
 EventScript_DeepWater::
@@ -255,31 +258,32 @@ EventScript_EndSurface:
 	end
 
 Text_MonMayGoUnderwater::
-	.string "The sea is deep here. A POKéMON\n"
-	.string "may be able to go underwater.$"
+	.string "Sjórinn er djúpur hér. Vasaskrímsli\n"
+	.string "gæti kafað undir yfirborðið.$"
 
 Text_SeaIsDeepUseDive::
-	.string "The sea is deep here.\n"
-	.string "Would you like to use DIVE?$"
+	.string "Sjórinn er djúpur hér. Viltu nota\n"
+	.string "DIVE?$"
 
 Text_MonUsedDive::
-	.string "{STR_VAR_1} used DIVE.$"
+	.string "{STR_VAR_1} notaði DIVE.$"
 
 Text_MonMaySurface::
 	.string "Light is filtering down from above.\n"
-	.string "A POKéMON may be able to surface.$"
+	.string "A Vasaskrímsli may be able to\p"
+	.string "surface.$"
 
 Text_LightFilteringUseDive::
-	.string "Light is filtering down from above.\n"
-	.string "Would you like to use DIVE?$"
+	.string "Ljós síast niður að ofan. Viltu nota\n"
+	.string "DIVE?$"
 
 Text_DiveCantBeUsedHere::
-	.string "There is an obstacle above.\n"
-	.string "DIVE can't be used here.$"
+	.string "Það er hindrun fyrir ofan. DIVE er\n"
+	.string "ekki hægt að nota hér.$"
 
 EventScript_FailSweetScent::
 	msgbox Text_LooksLikeNothingHere, MSGBOX_SIGN
 	end
 
 Text_LooksLikeNothingHere::
-	.string "Looks like there's nothing here…$"
+	.string "Svo virðist sem ekkert sé hér…$"

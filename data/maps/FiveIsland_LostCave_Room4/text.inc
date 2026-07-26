@@ -1,12 +1,12 @@
 FiveIsland_LostCave_Room4_Text_LauraIntro::
-    .string "I think there is a mysterious power\n"
-    .string "at work in this cave.$"
+    .string "Ég held að það sé dularfullur\n"
+    .string "kraftur að verki í þessum helli.$"
 
 FiveIsland_LostCave_Room4_Text_LauraDefeat::
-    .string "If you don't go into the right\n"
-    .string "tunnel, you won't get ahead.$"
+    .string "Ef þú ferð ekki inn í réttu göngin\n"
+    .string "kemstu ekki áfram.$"
 
 FiveIsland_LostCave_Room4_Text_LauraPostBattle::
-    .string "Earlier, a lady went into the caves\n"
-    .string "ahead.$"
+    .string "Fyrr í dag fór kona inn í hellana á\n"
+    .string "undan.$"
 

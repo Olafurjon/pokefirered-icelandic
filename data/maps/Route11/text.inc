@@ -1,113 +1,106 @@
 Route11_Text_HugoIntro::
-    .string "Win, lose, or draw!$"
+    .string "Vinna, tapa eða jafntefli!$"
 
 Route11_Text_HugoDefeat::
-    .string "Atcha!\n"
-    .string "Didn't go my way!$"
+    .string "Atcha! Þetta fór ekki eins og ég\n"
+    .string "vildi!$"
 
 Route11_Text_HugoPostBattle::
-    .string "POKéMON is life!\n"
-    .string "And to live is to play games!$"
+    .string "Vasaskrímsli eru lífið! Og að lifa\n"
+    .string "er að spila leiki!$"
 
 Route11_Text_JasperIntro::
-    .string "Competition!\n"
-    .string "I can't get enough!$"
+    .string "Keppni! Ég fæ aldrei nóg!$"
 
 Route11_Text_JasperDefeat::
-    .string "I had a chance!$"
+    .string "Ég átti möguleika!$"
 
 Route11_Text_JasperPostBattle::
-    .string "You can't be a coward in the world\n"
-    .string "of POKéMON!$"
+    .string "Þú mátt ekki vera huglaus í heimi\n"
+    .string "vasaskrímsla!$"
 
 Route11_Text_EddieIntro::
-    .string "Let's go, but don't cheat!$"
+    .string "Byrjum, en ekki svindla!$"
 
 Route11_Text_EddieDefeat::
-    .string "Huh?\n"
-    .string "That's not right!$"
+    .string "Ha? Þetta er ekki rétt!$"
 
 Route11_Text_EddiePostBattle::
-    .string "I did my best.\n"
-    .string "I have no regrets.$"
+    .string "Ég gerði mitt besta. Ég sé ekki\n"
+    .string "eftir neinu.$"
 
 Route11_Text_BraxtonIntro::
-    .string "Careful!\n"
-    .string "I'm laying down some cables!$"
+    .string "Varlega! Ég er að leggja kapla!$"
 
 Route11_Text_BraxtonDefeat::
-    .string "That was electric!$"
+    .string "Þetta var rafmagnað!$"
 
 Route11_Text_BraxtonPostBattle::
-    .string "Spread the word to save energy!$"
+    .string "Dreifðu boðskapnum um að spara orku!$"
 
 Route11_Text_DillonIntro::
-    .string "I just became a TRAINER.\n"
-    .string "But, I think I can win.$"
+    .string "Ég varð nýlega ÞJÁLFARI. En ég held\n"
+    .string "að ég geti unnið.$"
 
 Route11_Text_DillonDefeat::
-    .string "My POKéMON couldn't win…\n"
-    .string "Haven't they grown enough?$"
+    .string "Vasaskrímslin mín gátu ekki unnið...\n"
+    .string "Hafa þau ekki vaxið nóg?$"
 
 Route11_Text_DillonPostBattle::
-    .string "What now?\n"
-    .string "Leave me alone!$"
+    .string "Hvað nú? Láttu mig í friði!$"
 
 Route11_Text_DirkIntro::
-    .string "Fwahaha!\n"
-    .string "I have never lost!$"
+    .string "Fwahaha! Ég hef aldrei tapað!$"
 
 Route11_Text_DirkDefeat::
-    .string "My first loss!$"
+    .string "Fyrsta tapið mitt!$"
 
 Route11_Text_DirkPostBattle::
-    .string "You were just lucky, that's all.$"
+    .string "Þú varst bara heppinn, það er allt.$"
 
 Route11_Text_DarianIntro::
-    .string "I have never won before…$"
+    .string "Ég hef aldrei unnið áður...$"
 
 Route11_Text_DarianDefeat::
-    .string "I saw this coming…$"
+    .string "Ég sá þetta fyrir...$"
 
 Route11_Text_DarianPostBattle::
-    .string "I was unlucky, as always.$"
+    .string "Ég var óheppinn, eins og alltaf.$"
 
 Route11_Text_YasuIntro::
-    .string "I'm the best in my class.\n"
-    .string "I train every morning.$"
+    .string "Ég er bestur í bekknum mínum. Ég æfi\n"
+    .string "á hverjum morgni.$"
 
 Route11_Text_YasuDefeat::
-    .string "Darn!\n"
-    .string "My POKéMON need to be stronger!$"
+    .string "Fjandinn! Vasaskrímslin mín þurfa að\n"
+    .string "verða sterkari!$"
 
 Route11_Text_YasuPostBattle::
-    .string "There's a fat POKéMON that comes\n"
-    .string "down from the mountains.\p"
-    .string "I bet it'd be strong if you can\n"
-    .string "catch it.$"
+    .string "Það er feitlagið vasaskrímsli sem\n"
+    .string "kemur niður úr fjöllunum.\p"
+    .string "Ég veðja að það væri sterkt ef þú\n"
+    .string "næðir því.$"
 
 Route11_Text_BernieIntro::
-    .string "Watch out for live wires!$"
+    .string "Varastu spennusetta víra!$"
 
 Route11_Text_BernieDefeat::
-    .string "Whoa!\n"
-    .string "You spark plug!$"
+    .string "Vá! Þú litla kveikjukerti!$"
 
 Route11_Text_BerniePostBattle::
-    .string "Well, better get back to work.$"
+    .string "Jæja, best að fara aftur að vinna.$"
 
 Route11_Text_DaveIntro::
-    .string "I raised my POKéMON carefully.\n"
-    .string "They should be ready by now!$"
+    .string "Ég ól vasaskrímslin mín vandlega\n"
+    .string "upp. Þau ættu að vera tilbúin núna!$"
 
 Route11_Text_DaveDefeat::
-    .string "Bye-bye!\n"
-    .string "Thank you, and good-bye!$"
+    .string "Bæ-bæ! Takk fyrir og bless!$"
 
 Route11_Text_DavePostBattle::
-    .string "Tch…\n"
-    .string "I better go find stronger ones!$"
+    .string "Tsk... Ég ætti að fara og finna\n"
+    .string "sterkari.$"
 
 Route11_Text_DiglettsCave::
-    .string "DIGLETT'S CAVE$"
+    .string "GRAFLARAHELLIR$"
 

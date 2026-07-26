@@ -1,130 +1,127 @@
 @ Same as Hoenn's day-care text, used by the Four Island Day-Care. Unused text translated in Emerald
 
 DayCare_Text_ImDaycareManSpeakToMyWife::
-	.string "I'm the DAY-CARE MAN.\p"
-	.string "I help take care of the precious\n"
-	.string "POKéMON of TRAINERS.\p"
-	.string "If you'd like me to raise your\n"
-	.string "POKéMON, have a word with my wife.$"
+	.string "Ég er DAGGÆSLUMAÐURINN.\p"
+	.string "Ég hjálpa til við að annast dýrmæt\n"
+	.string "Vasaskrímsli ÞJÁLFARA.\p"
+	.string "Ef þú vilt að ég ali upp\n"
+	.string "Vasaskrímslið þitt skaltu tala við\p"
+	.string "konuna mína.$"
 
 DayCare_Text_DoYouWantEgg::
-	.string "Ah, it's you!\p"
-	.string "We were raising your POKéMON, and\n"
-	.string "my goodness, were we surprised!\p"
-	.string "Your POKéMON had an EGG!\p"
-	.string "We don't know how it got there,\n"
-	.string "but your POKéMON had it.\p"
-	.string "You do want it, yes?$"
+	.string "Ah, þetta ert þú!\p"
+	.string "Við vorum að ala upp Vasaskrímslið\n"
+	.string "þitt, og svei mér, við urðum hissa!\p"
+	.string "Vasaskrímslið þitt var með EGG!\p"
+	.string "Við vitum ekki hvernig það komst\n"
+	.string "þangað, en það var með það.\p"
+	.string "Þú vilt það, er það ekki?$"
 
 DayCare_Text_YourMonIsDoingFine::
-	.string "Ah, it's you! Good to see you.\n"
-	.string "Your {STR_VAR_1}'s doing fine.$"
+	.string "Ah, þetta ert þú! Gaman að sjá þig.\n"
+	.string "{STR_VAR_1} hefur það gott.$"
 
 DayCare_Text_IllKeepIt::
-	.string "Well then, I'll keep it.\n"
-	.string "Thanks!$"
+	.string "Jæja þá, ég geymi það. Takk!$"
 
 DayCare_Text_YouHaveNoRoomForIt::
-	.string "You have no room for it…\n"
-	.string "Come back when you've made room.$"
+	.string "Þú hefur ekki pláss fyrir það… Komdu\n"
+	.string "aftur þegar þú hefur búið til pláss.$"
 
 DayCare_Text_ReceivedEgg::
-	.string "{PLAYER} received the EGG from\n"
-	.string "the DAY-CARE MAN.$"
+	.string "{PLAYER} fékk EGGIÐ frá\n"
+	.string "DAGGÆSLUMANNINUM.$"
 
 DayCare_Text_TakeGoodCareOfIt::
-	.string "Take good care of it.$"
+	.string "Farðu vel með það.$"
 
 DayCare_Text_SeeWifeIfYouWantToPickUpMon::
-	.string "ポケモンを　ひきとりたい　ときは\n"
-	.string "ばさんに　いって　おくれ$"
+	.string "Talaðu við konuna mína ef þú vilt\n"
+	.string "sækja Vasaskrímslið þitt.$"
 
 DayCare_Text_YourMonsAreDoingFine::
-	.string "Ah, it's you! Your {STR_VAR_1} and\n"
-	.string "{STR_VAR_2} are doing fine.$"
+	.string "Ah, þetta ert þú! {STR_VAR_1} og\n"
+	.string "{STR_VAR_2} hafa það gott.$"
 
 DayCare_Text_IWillKeepDoYouWantIt::
-	.string "I really will keep it.\n"
-	.string "You do want this, yes?$"
+	.string "Ég mun virkilega geyma það. Þú vilt\n"
+	.string "þetta, er það ekki?$"
 
 DayCare_Text_WouldYouLikeUsToRaiseMon::
-	.string "I'm the DAY-CARE LADY.\p"
-	.string "We can raise POKéMON for you.\p"
-	.string "Would you like us to raise one?$"
+	.string "Ég er DAGGÆSLUKONAN.\p"
+	.string "Við getum alið upp Vasaskrímsli fyrir þig.\p"
+	.string "Viltu að við alum eitt upp?$"
 
 DayCare_Text_WhichMonShouldWeRaise::
-	.string "Which POKéMON should we raise for\n"
-	.string "you?$"
+	.string "Hvaða Vasaskrímsli eigum við að ala\n"
+	.string "upp fyrir þig?$"
 
 DayCare_Text_WellRaiseYourMon::
-	.string "Fine, we'll raise your {STR_VAR_1}\n"
-	.string "for a while.\p"
-	.string "Come back for it later.$"
+	.string "Gott, við alum upp {STR_VAR_1}\n"
+	.string "um stund.\p"
+	.string "Komdu aftur seinna að sækja það.$"
 
 DayCare_Text_WeCanRaiseOneMore::
-	.string "We can raise two of your POKéMON.\p"
-	.string "Would you like us to raise one\n"
-	.string "more POKéMON for you?$"
+	.string "Við getum alið upp tvö af\n"
+	.string "Vasaskrímslunum þínum.\p"
+	.string "Viltu að við alum upp eitt\n"
+	.string "Vasaskrímsli í viðbót fyrir þig?$"
 
 DayCare_Text_HusbandWasLookingForYou::
-	.string "My husband was looking for you.$"
+	.string "Maðurinn minn var að leita að þér.$"
 
 DayCare_Text_FineThenComeAgain::
-	.string "Oh, fine, then.\n"
-	.string "Come again.$"
+	.string "Ó, allt í lagi þá. Komdu aftur.$"
 
 DayCare_Text_NotEnoughMoney::
-	.string "You don't have enough money…$"
+	.string "Þú átt ekki nægan pening…$"
 
 DayCare_Text_TakeOtherOneBackToo::
-	.string "Will you take back the other one,\n"
-	.string "too?$"
+	.string "Viltu taka hitt líka til baka?$"
 
 DayCare_Text_ComeAgain::
-	.string "Fine.\n"
-	.string "Come again.$"
+	.string "Gott. Komdu aftur.$"
 
 DayCare_Text_GoodToSeeYou::
-	.string "Ah, it's you!\n"
-	.string "Good to see you.\p"
-	.string "Your POKéMON can only be doing\n"
-	.string "good!$"
+	.string "Ah, þetta ert þú! Gaman að sjá þig.\p"
+	.string "Vasaskrímslið þitt getur varla haft\n"
+	.string "það betra!$"
 
 DayCare_Text_YourMonHasGrownXLevels::
-	.string "By level, your {STR_VAR_1} has\n"
-	.string "grown by {STR_VAR_2}.$"
+	.string "{STR_VAR_1} hefur hækkað um\n"
+	.string "{STR_VAR_2} stig.$"
 
 DayCare_Text_YourPartyIsFull::
-	.string "Your POKéMON party is full.\n"
-	.string "Make room, then come see me.$"
+	.string "Vasaskrímslahópurinn þinn er fullur.\n"
+	.string "Búðu til pláss og komdu svo til mín.$"
 
 DayCare_Text_TakeBackWhichMon::
-	.string "どっちの　ポケモンを　ひきとるかい？$"
+	.string "Hvort Vasaskrímslið viltu taka til baka?$"
 
 DayCare_Text_ItWillCostX::
-	.string "If you want your {STR_VAR_1} back,\n"
-	.string "it will cost ¥{STR_VAR_2}.$"
+	.string "Ef þú vilt fá {STR_VAR_1} aftur\n"
+	.string "kostar það ¥{STR_VAR_2}.$"
 
 DayCare_Text_HeresYourMon::
-	.string "Perfect!\n"
-	.string "Here's your POKéMON.$"
+	.string "Fullkomið! Hér er Vasaskrímslið þitt.$"
 
 DayCare_Text_TookBackMon::
-	.string "{PLAYER} took back {STR_VAR_1} from\n"
-	.string "the DAY-CARE LADY.$"
+	.string "{PLAYER} tók {STR_VAR_1} til baka frá\n"
+	.string "DAGGÆSLUKONUNNI.$"
 
 DayCare_Text_YouHaveJustOneMon::
-	.string "Oh? But you have just one\n"
-	.string "POKéMON.\p"
-	.string "Come back another time.$"
+	.string "Ó? En þú ert bara með eitt\n"
+	.string "Vasaskrímsli.\p"
+	.string "Komdu aftur síðar.$"
 
 DayCare_Text_TakeYourMonBack::
-	.string "Will you take your POKéMON back?$"
+	.string "Viltu taka Vasaskrímslið þitt\n"
+	.string "til baka?$"
 
 DayCare_Text_WhatWillYouBattleWith::
-	.string "If you leave me that POKéMON,\n"
-	.string "what will you battle with?\p"
-	.string "Come back another time.$"
+	.string "Ef þú skilur þetta Vasaskrímsli eftir,\n"
+	.string "með hverju ætlarðu að berjast?\p"
+	.string "Komdu aftur síðar.$"
 
 DayCare_Text_Huh::
-	.string "Huh?$"
+	.string "Ha?$"

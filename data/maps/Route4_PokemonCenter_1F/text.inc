@@ -1,54 +1,55 @@
 Route4_PokemonCenter_1F_Text_CanHaveSixMonsWithYou::
-    .string "Okay, set six POKé BALLS in my\n"
-    .string "belt…\p"
-    .string "Yeah, that'll do it. At most, you\n"
-    .string "can have six POKéMON with you.$"
+    .string "Allt í lagi, sex VASA BOLTAR á\n"
+    .string "beltið...\p"
+    .string "Já, þetta ætti að duga. Þú getur\n"
+    .string "mest haft sex vasaskrímsli með þér.$"
 
 Route4_PokemonCenter_1F_Text_TeamRocketAttacksCerulean::
-    .string "TEAM ROCKET attacks CERULEAN\n"
-    .string "citizens…\p"
-    .string "Not a day goes by without TEAM\n"
-    .string "ROCKET being in the news.$"
+    .string "ROCKET-GENGIÐ ræðst á borgara í\n"
+    .string "CERULEAN...\p"
+    .string "Það líður ekki dagur án þess að\n"
+    .string "ROCKET-GENGIÐ sé í fréttunum.$"
 
 Route4_PokemonCenter_1F_Text_LaddieBuyMagikarpForJust500::
-    .string "MAN: Hello there, laddie!\n"
-    .string "Have I got a deal just for you!\p"
-    .string "I'll let you have a secret POKéMON\n"
-    .string "- a MAGIKARP - for just ¥500!\p"
-    .string "So, you'll buy it, am I right?$"
+    .string "MAÐUR: Sæll, strákur! Ég er með\n"
+    .string "tilboð handa þér!\p"
+    .string "Ég læt þig fá leynilegt vasaskrímsli\n"
+    .string "- GREYSLEPPA - fyrir aðeins ¥500!\p"
+    .string "Þú kaupir það, ekki satt?$"
 
 Route4_PokemonCenter_1F_Text_SweetieBuyMagikarpForJust500::
-    .string "MAN: Hello there, sweetie pie!\n"
-    .string "Have I got a deal just for you!\p"
-    .string "I'll let you have a secret POKéMON\n"
-    .string "- a MAGIKARP - for just ¥500!\p"
-    .string "So, you'll buy it, am I right?$"
+    .string "MAÐUR: Sæl, elskan! Ég er með tilboð\n"
+    .string "handa þér!\p"
+    .string "Ég læt þig fá leynilegt vasaskrímsli\n"
+    .string "- GREYSLEPPA - fyrir aðeins ¥500!\p"
+    .string "Þú kaupir það, ekki satt?$"
 
 Route4_PokemonCenter_1F_Text_PaidOutrageouslyForMagikarp::
-    .string "{PLAYER} paid an outrageous ¥500\n"
-    .string "and bought the MAGIKARP…$"
+    .string "{PLAYER} greiddi fáránlegar ¥500 og\n"
+    .string "keypti GREYSLEPPA...$"
 
 Route4_PokemonCenter_1F_Text_OnlyDoingThisAsFavorToYou::
-    .string "No? You say no? I'm only doing this\n"
-    .string "as a favor to you!$"
+    .string "Nei? Segirðu nei? Ég geri þetta bara\n"
+    .string "sem greiða fyrir þig!$"
 
 Route4_PokemonCenter_1F_Text_NoRoomForMorePokemon::
-    .string "There's no more room for any more\n"
-    .string "POKéMON, it looks like.$"
+    .string "Það virðist ekki vera pláss fyrir\n"
+    .string "fleiri vasaskrímsli.$"
 
 Route4_PokemonCenter_1F_Text_YoullNeedMoreMoney::
-    .string "You'll need more money than that!$"
+    .string "Þú þarft meiri peninga en það!$"
 
 Route4_PokemonCenter_1F_Text_IDontGiveRefunds::
-    .string "MAN: Well, I don't give refunds.\n"
-    .string "You knew what you were getting!$"
+    .string "MAÐUR: Jæja, ég endurgreiði ekki. Þú\n"
+    .string "vissir hvað þú varst að fá!$"
 
 Route4_PokemonCenter_1F_Text_ShouldStoreMonsUsingPC::
-    .string "Sometimes, you'll have too many\n"
-    .string "POKéMON with you to add any more.\p"
-    .string "In that case, you should just\n"
-    .string "store some using any PC.$"
+    .string "Stundum ertu með of mörg\n"
+    .string "vasaskrímsli til að bæta fleirum\p"
+    .string "við.\p"
+    .string "Þá ættirðu bara að geyma nokkur með\n"
+    .string "hvaða PC sem er.$"
 
 Route4_PokemonCenter_1F_Text_ItsANewspaper::
-    .string "It's a newspaper.$"
+    .string "Þetta er dagblað.$"
 

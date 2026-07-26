@@ -1,40 +1,39 @@
 Route18_Text_WiltonIntro::
-    .string "I always check every grassy area\n"
-    .string "for new POKéMON.$"
+    .string "Ég skoða alltaf hvert graslendi\n"
+    .string "eftir nýjum vasaskrímslum.$"
 
 Route18_Text_WiltonDefeat::
-    .string "Tch!$"
+    .string "Tsk!$"
 
 Route18_Text_WiltonPostBattle::
-    .string "I wish I had a BIKE!$"
+    .string "Ég vildi að ég ætti HJÓL!$"
 
 Route18_Text_RamiroIntro::
-    .string "Kurukkoo!\n"
-    .string "How do you like my birdcall?$"
+    .string "Kurukkoo! Hvernig líst þér á\n"
+    .string "fuglakallið mitt?$"
 
 Route18_Text_RamiroDefeat::
-    .string "I had to bug you!$"
+    .string "Ég varð að angra þig!$"
 
 Route18_Text_RamiroPostBattle::
-    .string "I collect sea POKéMON on weekends\n"
-    .string "because the sea is so close.$"
+    .string "Ég safna sjó-vasaskrímslum um helgar\n"
+    .string "því sjórinn er svo nálægt.$"
 
 Route18_Text_JacobIntro::
-    .string "This is my turf!\n"
-    .string "Get out of here!$"
+    .string "Þetta er mitt svæði! Komdu þér\n"
+    .string "héðan!$"
 
 Route18_Text_JacobDefeat::
-    .string "Darn!$"
+    .string "Fjandinn!$"
 
 Route18_Text_JacobPostBattle::
-    .string "This is my fave area for catching\n"
-    .string "POKéMON.$"
+    .string "Þetta er uppáhaldssvæðið mitt til að\n"
+    .string "ná vasaskrímslum.$"
 
 Route18_Text_RouteSign::
-    .string "ROUTE 18\n"
-    .string "CELADON CITY - FUCHSIA CITY$"
+    .string "LEIÐ 18 CELADON BORG - FUCHSIA BORG$"
 
 Route18_Text_CyclingRoadSign::
-    .string "CYCLING ROAD\n"
-    .string "No pedestrians permitted!$"
+    .string "HJÓLAVEGUR Gangandi vegfarendur\n"
+    .string "bannaðir!$"
 

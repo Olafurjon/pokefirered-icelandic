@@ -1,5 +1,6 @@
 Route15_WestEntrance_1F_Text_OaksAideCameByHere::
-    .string "Are you the kid who's working on\n"
-    .string "a POKéDEX?\p"
-    .string "PROF. OAK's AIDE came by here.$"
+    .string "Ertu krakkinn sem er að vinna að\n"
+    .string "VasaDEX?\p"
+    .string "AÐSTOÐARMAÐUR Prófessor EIK kom\n"
+    .string "hingað.$"
 

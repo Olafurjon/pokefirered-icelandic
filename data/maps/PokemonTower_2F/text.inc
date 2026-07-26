@@ -1,38 +1,33 @@
 PokemonTower_2F_Text_RivalIntro::
-    .string "{RIVAL}: Hey, {PLAYER}!\n"
-    .string "What brings you here?\l"
-    .string "Is your POKéMON dead?\p"
-    .string "Hey! It's alive!\p"
-    .string "I can at least make them faint!\n"
-    .string "Let's go!$"
+    .string "{RIVAL}: Hey, {PLAYER}! Hvað færir\n"
+    .string "þig hingað? Er Vasaskrímslið þitt\p"
+    .string "dautt?\p"
+    .string "Hey! Það er lifandi!\p"
+    .string "Ég get að minnsta kosti látið þau\n"
+    .string "líða út af! Byrjum!$"
 
 PokemonTower_2F_Text_RivalDefeat::
-    .string "What?\n"
-    .string "You stinker!\p"
-    .string "I took it easy on you, too!$"
+    .string "Hvað? Þú skítur!\p"
+    .string "Ég tók því rólega með þér líka!$"
 
 @ Unused. Translated below
 @ Aw, man! They really kicked the bucket! Weak! Do them a favor and raise them more properly.
 PokemonTower_2F_Text_RivalVictory::
-    .string "{RIVAL}“あーあ‥！\n"
-    .string "ほんとに　くたばっちまったぞ！\l"
-    .string "よわいなー！\l"
-    .string "もっと　ちゃんと　そだてて　やれよ$"
+    .string "{RIVAL}'あーあ‥！ ほんとに くたばっちまったぞ！ よわいなー！\n"
+    .string "もっと ちゃんと そだてて やれよ$"
 
 PokemonTower_2F_Text_RivalPostBattle::
-    .string "How's your POKéDEX coming?\n"
-    .string "I just caught a CUBONE!\p"
-    .string "I can't find the bigger MAROWAK.\n"
-    .string "Where could they be?\p"
-    .string "I bet there aren't any left!\p"
-    .string "Well, I better get going.\n"
-    .string "I've got a lot to accomplish,\l"
-    .string "unlike you.\p"
-    .string "Smell ya later!$"
+    .string "Hvernig gengur með VasaDEX? Ég var\n"
+    .string "að fanga BEINFARA!\p"
+    .string "Ég finn ekki stærri HNAUSKÚPU. Hvar\n"
+    .string "gætu þær verið?\p"
+    .string "Ég veðja að það eru engar eftir!\p"
+    .string "Jæja, ég ætti að fara. Ég hef margt\n"
+    .string "að gera, ólíkt þér.\p"
+    .string "Sjáumst seinna!$"
 
 PokemonTower_2F_Text_SilphScopeCouldUnmaskGhosts::
-    .string "Even we could not identify the\n"
-    .string "wayward ghosts.\p"
-    .string "A SILPH SCOPE might be able to\n"
-    .string "unmask them.$"
+    .string "Jafnvel við gátum ekki borið kennsl\n"
+    .string "á villandi draugana.\p"
+    .string "SILPH SCOPE gæti afhjúpað þá.$"
 

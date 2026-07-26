@@ -1,14 +1,15 @@
 VermilionCity_Mart_Text_TeamRocketAreWickedPeople::
-    .string "There are wicked people who will\n"
-    .string "use POKéMON for criminal acts.\p"
-    .string "TEAM ROCKET traffics in rare\n"
-    .string "POKéMON, for example.\p"
-    .string "They also abandon POKéMON that\n"
-    .string "they consider unpopular or useless.\p"
-    .string "That's the sort of horrid people\n"
-    .string "they are, TEAM ROCKET.$"
+    .string "Það er til illt fólk sem notar\n"
+    .string "vasaskrímsli í glæpsamlegum verkum.\p"
+    .string "ROCKET-GENGIÐ verslar til dæmis með\n"
+    .string "sjaldgæf vasaskrímsli.\p"
+    .string "Þau yfirgefa líka vasaskrímsli sem\n"
+    .string "þeim finnst óvinsæl eða gagnslaus.\p"
+    .string "Svona hræðilegt fólk eru þau,\n"
+    .string "ROCKET-GENGIÐ.$"
 
 VermilionCity_Mart_Text_MonsGoodOrBadDependingOnTrainer::
-    .string "I think POKéMON can be good or\n"
-    .string "bad. It depends on the TRAINER.$"
+    .string "Ég held að vasaskrímsli geti verið\n"
+    .string "góð eða slæm. Það fer eftir\p"
+    .string "ÞJÁLFARANUM.$"
 

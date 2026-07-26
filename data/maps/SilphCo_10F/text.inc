@@ -1,33 +1,30 @@
 SilphCo_10F_Text_GruntIntro::
-    .string "Welcome to 10F!\n"
-    .string "So good of you to join me!$"
+    .string "Velkomin á 10H! Fallegt af þér að\n"
+    .string "slást í för með mér!$"
 
 SilphCo_10F_Text_GruntDefeat::
-    .string "I'm stunned!$"
+    .string "Ég er steinhissa!$"
 
 SilphCo_10F_Text_GruntPostBattle::
-    .string "Nice try, but the boardroom is up\n"
-    .string "one more floor.$"
+    .string "Góð tilraun, en stjórnarherbergið er\n"
+    .string "einni hæð ofar.$"
 
 SilphCo_10F_Text_TravisIntro::
-    .string "Enough of your silly games!$"
+    .string "Nóg af þessum kjánalegu leikjum!$"
 
 SilphCo_10F_Text_TravisDefeat::
-    .string "No continues left!$"
+    .string "Engin framhöld eftir!$"
 
 SilphCo_10F_Text_TravisPostBattle::
-    .string "Are you satisfied with beating me?\n"
-    .string "Then go on home!$"
+    .string "Ertu sátt við að hafa sigrað mig?\n"
+    .string "Farðu þá heim!$"
 
 SilphCo_10F_Text_WaaaImScared::
-    .string "Waaaaa!\n"
-    .string "I'm scared!$"
+    .string "Vaaaa! Ég er hrædd!$"
 
 SilphCo_10F_Text_KeepMeCryingASecret::
-    .string "About me crying…\n"
-    .string "Please keep it a secret.$"
+    .string "Varðandi grátinn minn… Hafðu það\n"
+    .string "leyndarmál, vinsamlegast.$"
 
 SilphCo_10F_Text_FloorSign::
-    .string "SILPH CO. HEAD OFFICE\n"
-    .string "10F$"
-
+    .string "SILPH CO. HÖFUÐSKRIFSTOFA 10H$"

@@ -1,19 +1,17 @@
 SevenIsland_PokemonCenter_1F_Text_EventsDependingOnConnections::
-    .string "On this island, different events\n"
-    .string "occur depending on connections.\p"
-    .string "What are those connections?\p"
-    .string "They are for you to discover on\n"
-    .string "your own.$"
+    .string "Á þessari eyju gerast ólíkir\n"
+    .string "atburðir eftir tengingum.\p"
+    .string "Hvaða tengingum?\p"
+    .string "Það þarftu að uppgötva sjálf/ur.$"
 
 SevenIsland_PokemonCenter_1F_Text_DidYouRideSeagallopHere::
-    .string "Did you ride a SEAGALLOP ferry\n"
-    .string "to get here?\p"
-    .string "There are at least ten of those\n"
-    .string "high-speed ships.\p"
-    .string "I don't know where they all go,\n"
-    .string "though.$"
+    .string "Tókstu SEAGALLOP-ferju hingað?\p"
+    .string "Það eru að minnsta kosti tíu svona\n"
+    .string "hraðskip.\p"
+    .string "Ég veit samt ekki hvert þau fara\n"
+    .string "öll.$"
 
 SevenIsland_PokemonCenter_1F_Text_CheckOutTrainerTower::
-    .string "If you're confident, you should\n"
-    .string "check out TRAINER TOWER.$"
+    .string "Ef þú ert örugg/ur með þig ættirðu\n"
+    .string "að skoða ÞJÁLFARATURNINN.$"
 

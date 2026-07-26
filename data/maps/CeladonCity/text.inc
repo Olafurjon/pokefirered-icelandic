@@ -1,114 +1,111 @@
 CeladonCity_Text_GotMyKoffingInCinnabar::
-    .string "I got my KOFFING in CINNABAR.\p"
-    .string "It's usually nice, but it breathes\n"
-    .string "poison when it's angry.$"
+    .string "Ég fékk KÍGILDIÐ mitt í CINNABAR.\p"
+    .string "Það er venjulega gæft, en andar frá\n"
+    .string "sér eitri þegar það reiðist.$"
 
 CeladonCity_Text_GymIsGreatFullOfWomen::
-    .string "Heheh! This GYM is great!\n"
-    .string "It's full of women!$"
+    .string "Heheh! Þessi SALUR er frábær! Hann\n"
+    .string "er fullur af konum!$"
 
 CeladonCity_Text_GameCornerIsBadForCitysImage::
-    .string "CELADON takes pride in its efforts\n"
-    .string "to keep the city beautiful.\p"
-    .string "That's why the new GAME CORNER is\n"
-    .string "bad for our city's image.$"
+    .string "CELADON leggur metnað í að halda\n"
+    .string "borginni fallegri.\p"
+    .string "Þess vegna spillir nýi SPILASALURINN\n"
+    .string "fyrir ímynd borgarinnar.$"
 
 CeladonCity_Text_BlewItAllAtSlots::
-    .string "Moan…\n"
-    .string "I blew it all at the slots!\p"
-    .string "I knew I should have cashed in my\n"
-    .string "COINS for prizes!$"
+    .string "Urr… Ég klúðraði öllu í\n"
+    .string "spilakössunum!\p"
+    .string "Ég vissi að ég hefði átt að skipta\n"
+    .string "PENINGUNUM mínum út fyrir vinninga!$"
 
 CeladonCity_Text_MyTrustedPalPoliwrath::
-    .string "This is my trusted pal, POLIWRATH.\p"
-    .string "It evolved from a POLIWHIRL when\n"
-    .string "I used a WATER STONE.$"
+    .string "Þetta er trausti vinur minn,\n"
+    .string "SPÍRALOFSI.\p"
+    .string "Hann þróaðist úr HRINGEKLI þegar ég\n"
+    .string "notaði VATNSSTEIN.$"
 
 CeladonCity_Text_Poliwrath::
-    .string "POLIWRATH: Ribi ribit!$"
+    .string "SPÍRALOFSI: Ribi ribit!$"
 
 CeladonCity_Text_GetLostOrIllPunchYou::
-    .string "What are you staring at?\n"
-    .string "Get lost, or I'll punch you.$"
+    .string "Hvað ertu að glápa á? Farðu í burtu,\n"
+    .string "annars slæ ég þig.$"
 
 CeladonCity_Text_KeepOutOfTeamRocketsWay::
-    .string "Keep out of TEAM ROCKET's way!$"
+    .string "Haltu þig frá ROCKET-GENGINU!$"
 
 CeladonCity_Text_ExplainXAccuracyDireHit::
-    .string "TRAINER TIPS\p"
-    .string "X ACCURACY boosts the accuracy of\n"
-    .string "techniques.\p"
-    .string "DIRE HIT jacks up the likelihood\n"
-    .string "of critical hits.\p"
-    .string "Get your items at the CELADON\n"
-    .string "DEPT. STORE!$"
+    .string "ÞJÁLFARA RÁÐ\p"
+    .string "X ACCURACY eykur nákvæmni bragða.\p"
+    .string "DIRE HIT hækkar líkurnar á rothöggi.\p"
+    .string "Kauptu hlutina þína í\n"
+    .string "CELADON-STÓRVERSLUN!$"
 
 CeladonCity_Text_CitySign::
-    .string "CELADON CITY\n"
-    .string "The City of Rainbow Dreams$"
+    .string "CELADON BORG Borg regnbogadrauma$"
 
 CeladonCity_Text_GymSign::
-    .string "CELADON CITY POKéMON GYM\n"
-    .string "LEADER: ERIKA\l"
-    .string "The Nature-Loving Princess!$"
+    .string "CELADON BORGAR VASASKRÍMSLA-SALUR\p"
+    .string "SALSTJÓRI: ERIKA Prinsessan sem\n"
+    .string "elskar náttúruna!$"
 
 CeladonCity_Text_MansionSign::
-    .string "CELADON MANSION$"
+    .string "CELADON STÓRHÝSI$"
 
 CeladonCity_Text_DeptStoreSign::
-    .string "Find what you need at the\n"
-    .string "CELADON DEPT. STORE!$"
+    .string "Finndu það sem þig vantar í CELADON\n"
+    .string "VÖRUHÚSINU!$"
 
 CeladonCity_Text_GuardSpecProtectsFromStatus::
-    .string "TRAINER TIPS\p"
-    .string "GUARD SPEC. protects POKéMON\n"
-    .string "from status-reduction moves during\l"
-    .string "battle.\p"
-    .string "Get your items at the\n"
-    .string "CELADON DEPT. STORE!$"
+    .string "ÞJÁLFARA RÁÐ\p"
+    .string "GUARD SPEC. verndar vasaskrímsli\n"
+    .string "gegn brögðum sem lækka stöður í\p"
+    .string "bardaga.\p"
+    .string "Kauptu hlutina þína í\n"
+    .string "CELADON-STÓRVERSLUN!$"
 
 CeladonCity_Text_PrizeExchangeSign::
-    .string "COINS exchanged for prizes!\n"
-    .string "PRIZE EXCHANGE$"
+    .string "PENINGUM skipt fyrir vinninga!\n"
+    .string "VINNINGASKIPTI$"
 
 CeladonCity_Text_GameCornerSign::
-    .string "ROCKET GAME CORNER\n"
-    .string "The playground for grown-ups!$"
+    .string "ROCKET-SPILASALUR Leikvöllur\n"
+    .string "fullorðna fólksins!$"
 
 CeladonCity_Text_ScaldedTongueOnTea::
-    .string "Aaaagh, ow…\n"
-    .string "I scalded my tongue!\p"
-    .string "This nice old lady in the MANSION\n"
-    .string "gave me some TEA.\p"
-    .string "But it was boiling hot!\n"
-    .string "Gotta cool it to drink it.$"
+    .string "Aaaagh, ás… Ég brenndi á mér\n"
+    .string "tunguna!\p"
+    .string "Þessi indæla gamla kona í STÓRHÝSINU\n"
+    .string "gaf mér TE.\p"
+    .string "En það var sjóðandi heitt! Verð að\n"
+    .string "kæla það til að drekka það.$"
 
 Text_SoftboiledTeach::
-    .string "Hello, there!\p"
-    .string "I've seen you about, but I never\n"
-    .string "had a chance to chat.\p"
-    .string "It must be good luck that brought\n"
-    .string "us together finally.\p"
-    .string "I'd like to celebrate by teaching\n"
-    .string "you the move SOFTBOILED.$"
+    .string "Hæ þarna!\p"
+    .string "Ég hef séð þig á ferli en aldrei\n"
+    .string "fengið tækifæri til að spjalla.\p"
+    .string "Það hlýtur að vera heppnin sem\n"
+    .string "loksins leiddi okkur saman.\p"
+    .string "Ég vil fagna því með því að kenna\n"
+    .string "þér bragðið MJÚKSOÐIÐ.$"
 
 Text_SoftboiledDeclined::
-    .string "I'll always be keeping an eye out\n"
-    .string "for you.\p"
-    .string "I hope we can chat again.$"
+    .string "Ég mun alltaf fylgjast með þér.\p"
+    .string "Ég vona að við getum spjallað aftur.$"
 
 Text_SoftboiledWhichMon::
-    .string "So, who's the POKéMON that gets\n"
-    .string "the chance to learn SOFTBOILED?$"
+    .string "Jæja, hvaða vasaskrímsli á að fá\n"
+    .string "tækifæri til að læra MJÚKSOÐIÐ?$"
 
 Text_SoftboiledTaught::
-    .string "I wish you the best of luck!$"
+    .string "Ég óska þér alls hins besta!$"
 
 CeladonCity_Text_SomeoneStoleSilphScope::
-    .string "Oh, what am I to do…\p"
-    .string "Someone stole our SILPH SCOPE.\p"
-    .string "The thief came running this way,\n"
-    .string "I'm sure of it.\p"
-    .string "But I lost sight of him!\n"
-    .string "Where'd he go?$"
+    .string "Ó, hvað á ég að gera...\p"
+    .string "Einhver stal SILPH SCOPE okkar.\p"
+    .string "Þjófurinn hljóp þessa leið, ég er\n"
+    .string "viss um það.\p"
+    .string "En ég missti sjónar á honum! Hvert\n"
+    .string "fór hann?$"
 

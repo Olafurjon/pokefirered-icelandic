@@ -1,102 +1,100 @@
 SixIsland_WaterPath_Text_RoseIntro::
-    .string "I let a pleasant breeze lead me\n"
-    .string "all the way here.$"
+    .string "Ég lét notalega gola leiða mig alla\n"
+    .string "leið hingað.$"
 
 SixIsland_WaterPath_Text_RoseDefeat::
-    .string "Giggle… You're so cute when you're\n"
-    .string "determined.$"
+    .string "Hlátur… Þú ert svo sætur þegar þú\n"
+    .string "ert ákveðinn.$"
 
 SixIsland_WaterPath_Text_RosePostBattle::
-    .string "I want to go to the woods over\n"
-    .string "there, but…\p"
-    .string "There are lots of BUG POKéMON.\n"
-    .string "They scare me a little.$"
+    .string "Mig langar að fara í skóginn þarna,\n"
+    .string "en…\p"
+    .string "Þar eru fullt af SKORDÝRA\n"
+    .string "Vasaskrímslum. Þau hræða mig\p"
+    .string "svolítið.$"
 
 SixIsland_WaterPath_Text_EdwardIntro::
-    .string "I'm practicing in secret so no one\n"
-    .string "can see me.$"
+    .string "Ég er að æfa mig í leyni svo enginn\n"
+    .string "sjáir mig.$"
 
 SixIsland_WaterPath_Text_EdwardDefeat::
-    .string "Nobody saw me losing, right?$"
+    .string "Enginn sá mig tapa, er það?$"
 
 SixIsland_WaterPath_Text_EdwardPostBattle::
-    .string "As a performer, I don't want people\n"
-    .string "to know about the effort I put in.$"
+    .string "Sem listamaður vil ég ekki að fólk\n"
+    .string "viti um vinnuna sem ég legg í þetta.$"
 
 SixIsland_WaterPath_Text_SamirIntro::
-    .string "What, you're suggesting that you're\n"
-    .string "sick of seeing SWIMMERS like me?\p"
-    .string "Aww, don't be hatin'!$"
+    .string "Hvað, ertu að gefa í skyn að þú sért\n"
+    .string "þreyttur á að sjá SUNDMENN eins og\p"
+    .string "mig?\p"
+    .string "Aww, ekki vera með hatur!$"
 
 SixIsland_WaterPath_Text_SamirDefeat::
-    .string "Oh, no, no, no.$"
+    .string "Ó, nei, nei, nei.$"
 
 SixIsland_WaterPath_Text_SamirPostBattle::
-    .string "I couldn't lift the stigma of being\n"
-    .string "a SWIMMER…$"
+    .string "Ég gat ekki losnað við stimpilinn að\n"
+    .string "vera SUNDMAÐUR…$"
 
 SixIsland_WaterPath_Text_DeniseIntro::
-    .string "My boyfriend's always busy, so I\n"
-    .string "come swimming by myself.$"
+    .string "Kærastinn minn er alltaf upptekinn,\n"
+    .string "svo ég kem að synda ein.$"
 
 SixIsland_WaterPath_Text_DeniseDefeat::
-    .string "Awww, I knew this would happen!$"
+    .string "Awww, ég vissi að þetta myndi\n"
+    .string "gerast!$"
 
 SixIsland_WaterPath_Text_DenisePostBattle::
-    .string "When I can't be with my boyfriend,\n"
-    .string "I spend time with the POKéMON he\l"
-    .string "gave me.$"
+    .string "Þegar ég get ekki verið með\n"
+    .string "kærastanum mínum eyði ég tíma með\p"
+    .string "Vasaskrímslinu sem hann gaf mér.$"
 
 SixIsland_WaterPath_Text_EarlIntro::
-    .string "Tell me, where are the mountains\n"
-    .string "around these parts?$"
+    .string "Segðu mér, hvar eru fjöllin hér um\n"
+    .string "kring?$"
 
 SixIsland_WaterPath_Text_EarlDefeat::
-    .string "I lost my way while I was busy\n"
-    .string "battling!$"
+    .string "Ég týndi leiðinni á meðan ég var\n"
+    .string "upptekinn við að berjast!$"
 
 SixIsland_WaterPath_Text_EarlPostBattle::
-    .string "Aren't there any mountains around\n"
-    .string "these parts?$"
+    .string "Eru engin fjöll hér um kring?$"
 
 SixIsland_WaterPath_Text_MiuIntro::
-    .string "MIU: Hello, POKéMON!\n"
-    .string "It's time to play!$"
+    .string "MIU: Hello, Vasaskrímsli! It's time\n"
+    .string "to play!$"
 
 SixIsland_WaterPath_Text_MiuDefeat::
-    .string "MIU: Oh, no!\n"
-    .string "Mommy!$"
+    .string "MIU: Ó, nei! Mamma!$"
 
 SixIsland_WaterPath_Text_MiuPostBattle::
-    .string "MIU: It makes me all sad inside\n"
-    .string "when we lose…$"
+    .string "MIU: It makes me all sad inside when\n"
+    .string "we lose…$"
 
 SixIsland_WaterPath_Text_MiuNotEnoughMons::
-    .string "MIU: MIA and I are TWINS.\n"
-    .string "We want to battle together.$"
+    .string "MIU: MIA og ég erum TVÍBURAR. Við\n"
+    .string "viljum berjast saman.$"
 
 SixIsland_WaterPath_Text_MiaIntro::
-    .string "MIA: Hello, POKéMON!\n"
-    .string "It's time to battle!$"
+    .string "MIA: Halló, Vasaskrímsli! Það er\n"
+    .string "kominn bardagatími!$"
 
 SixIsland_WaterPath_Text_MiaDefeat::
-    .string "MIA: You're mean!\n"
-    .string "You're bad for winning!$"
+    .string "MIA: Þú ert vondur! Þú ert vondur\n"
+    .string "fyrir að vinna!$"
 
 SixIsland_WaterPath_Text_MiaPostBattle::
-    .string "MIA: Ohh…\n"
-    .string "I'm sorry, my POKéMON…$"
+    .string "MIA: Ohh… I'm sorry, my\n"
+    .string "Vasaskrímsli…$"
 
 SixIsland_WaterPath_Text_MiaNotEnoughMons::
-    .string "MIA: Oh, you only have one\n"
-    .string "POKéMON?\p"
-    .string "Don't you feel lonesome?$"
+    .string "MIA: Ó, ertu bara með eitt\n"
+    .string "Vasaskrímsli?\p"
+    .string "Finnst þér það ekki einmanalegt?$"
 
 SixIsland_WaterPath_Text_WantedUltimateHorn::
-    .string "Wanted!\n"
-    .string "The Ultimate Horn!$"
+    .string "Óskað eftir! Fullkomna horninu!$"
 
 SixIsland_WaterPath_Text_RouteSign::
-    .string "WATER PATH\n"
-    .string "Leads to RUIN VALLEY$"
-
+    .string "VATNALEIÐ Leiðir til RUIN VALLEY$"

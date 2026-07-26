@@ -1,20 +1,20 @@
 CeladonCity_House1_Text_SlotsReelInTheDough::
     .string "Hehehe!\p"
-    .string "The slots just reel in the dough,\n"
-    .string "big-time!$"
+    .string "Spilakassarnir moka inn peningum,\n"
+    .string "heldur betur!$"
 
 CeladonCity_House1_Text_ShippedMonsAsSlotPrizes::
-    .string "CHIEF!\p"
-    .string "We just shipped two thousand\n"
-    .string "more POKéMON as slot prizes\l"
-    .string "again today!$"
+    .string "FORINGI!\p"
+    .string "Við sendum aftur tvö þúsund\n"
+    .string "vasaskrímsli í vinninga fyrir\p"
+    .string "spilakassana í dag!$"
 
 CeladonCity_House1_Text_DontTouchGameCornerPoster::
-    .string "Don't touch the poster at the GAME\n"
-    .string "CORNER!\p"
-    .string "There's no secret switch behind it!$"
+    .string "Ekki snerta veggspjaldið í\n"
+    .string "SPILASALNUM!\p"
+    .string "Það er enginn leynirofi bak við það!$"
 
 @ Text for the replaced altars in the rocket chiefs house / celadon mansion
 @ In English RB, this is westernized as "It's a sculpture of DIGLETT.", and is removed altogether in FRLG
 Text_ItsABuddhistAltar::
-    .string "ぶつだん　だ‥$"
+    .string "Þetta er búddískt altari...$"

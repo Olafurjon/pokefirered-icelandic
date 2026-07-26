@@ -1,93 +1,94 @@
 SevenIsland_SevaultCanyon_Entrance_Text_MiahIntro::
-    .string "Kyahaha!\n"
-    .string "I'll flick you away effortlessly!$"
+    .string "Kyahaha! Ég feyki þér auðveldlega\n"
+    .string "burt!$"
 
 SevenIsland_SevaultCanyon_Entrance_Text_MiahDefeat::
-    .string "Tch!\n"
-    .string "Too strong for me!$"
+    .string "Tsk! Þú ert of sterk/ur!$"
 
 SevenIsland_SevaultCanyon_Entrance_Text_MiahPostBattle::
-    .string "What's that?\n"
-    .string "I don't act the way I look?\p"
-    .string "Heh, that's a part of my strategy!$"
+    .string "Hvað? Haga ég mér ekki eins og ég\n"
+    .string "lít út?\p"
+    .string "Heh, það er hluti af aðferðinni\n"
+    .string "minni!$"
 
 SevenIsland_SevaultCanyon_Entrance_Text_MasonIntro::
-    .string "Howdy!\n"
-    .string "Are you a member of my fan club?$"
+    .string "Sæl/l! Ertu í aðdáendaklúbbnum\n"
+    .string "mínum?$"
 
 SevenIsland_SevaultCanyon_Entrance_Text_MasonDefeat::
-    .string "Oh, so you're not a fan…\p"
-    .string "Well, I can change that.\n"
-    .string "Let me sing for you!$"
+    .string "Ó, svo þú ert ekki aðdáandi…\p"
+    .string "Jæja, ég get breytt því. Leyfðu mér\n"
+    .string "að syngja fyrir þig!$"
 
 SevenIsland_SevaultCanyon_Entrance_Text_MasonPostBattle::
-    .string "Lalalah…\n"
-    .string "My POKéMON, I send them out,\l"
-    .string "all the girls scream and shout!$"
+    .string "Lalalah… Vasaskrímslin mín, ég sendi\n"
+    .string "þau út, allar stelpurnar æpa og\p"
+    .string "hrópa!$"
 
 SevenIsland_SevaultCanyon_Entrance_Text_NicolasIntro::
-    .string "This island is too spread out…\n"
-    .string "It's not easy patrolling the place.$"
+    .string "Þessi eyja er svo víðfeðm… Það er\n"
+    .string "ekki auðvelt að vakta svæðið.$"
 
 SevenIsland_SevaultCanyon_Entrance_Text_NicolasDefeat::
-    .string "Uh-huh…$"
+    .string "Uh-huh...$"
 
 SevenIsland_SevaultCanyon_Entrance_Text_NicolasPostBattle::
-    .string "TRAINERS like you from cities,\n"
-    .string "they sure are tough.\p"
-    .string "You'll be headed for the TOWER,\n"
-    .string "won't you?$"
+    .string "ÞJÁLFARAR eins og þú úr borgum eru\n"
+    .string "greinilega sterkir.\p"
+    .string "Þú ert á leið í TURNINN, er það\n"
+    .string "ekki?$"
 
 SevenIsland_SevaultCanyon_Entrance_Text_MadelineIntro::
     .string "I punish people who abuse\n"
-    .string "POKéMON!$"
+    .string "Vasaskrímsli!$"
 
 SevenIsland_SevaultCanyon_Entrance_Text_MadelineDefeat::
-    .string "You don't seem to be a problem\n"
-    .string "TRAINER.$"
+    .string "Þú virðist ekki vera\n"
+    .string "vandræða-ÞJÁLFARI.$"
 
 SevenIsland_SevaultCanyon_Entrance_Text_MadelinePostBattle::
-    .string "If you treat your POKéMON with\n"
-    .string "kindness, they'll understand.$"
+    .string "Ef þú kemur vel fram við\n"
+    .string "Vasaskrímslin þín skilja þau þig.$"
 
 SevenIsland_SevaultCanyon_Entrance_Text_EveIntro::
-    .string "EVE: I'll team up with JON and\n"
-    .string "battle together.$"
+    .string "EVE: Ég mun taka höndum saman með\n"
+    .string "JON og berjast saman.$"
 
 SevenIsland_SevaultCanyon_Entrance_Text_EveDefeat::
-    .string "EVE: Me and JON, we lost.\n"
-    .string "Ehehe.$"
+    .string "EVE: Ég og JON töpuðum. Ehehe.$"
 
 SevenIsland_SevaultCanyon_Entrance_Text_EvePostBattle::
-    .string "EVE: I'm going to work harder with\n"
+    .string "EVE: Ég ætla að vinna harðar með\n"
     .string "JON.$"
 
 SevenIsland_SevaultCanyon_Entrance_Text_EveNotEnoughMons::
-    .string "EVE: I want to team up with JON\n"
-    .string "when I battle you.\p"
-    .string "Come back with two POKéMON, okay?$"
+    .string "EVE: Ég vil vera í liði með JON\n"
+    .string "þegar ég berst við þig.\p"
+    .string "Komdu aftur með tvö Vasaskrímsli,\n"
+    .string "allt í lagi?$"
 
 SevenIsland_SevaultCanyon_Entrance_Text_JonIntro::
-    .string "JON: When I'm with EVE, it feels\n"
-    .string "like we could never lose.$"
+    .string "JON: Þegar ég er með EVE, finnst mér\n"
+    .string "eins og við gætum aldrei tapað.$"
 
 SevenIsland_SevaultCanyon_Entrance_Text_JonDefeat::
-    .string "JON: When I'm with EVE,\n"
-    .string "it doesn't feel like I've lost!$"
+    .string "JON: Þegar ég er með EVE finni ég\n"
+    .string "ekki fyrir tapi!$"
 
 SevenIsland_SevaultCanyon_Entrance_Text_JonPostBattle::
-    .string "JON: When I'm with EVE, I feel\n"
-    .string "giddy whether I win or lose.\p"
-    .string "It's magical!$"
+    .string "JON: Þegar ég er með EVE verð ég\n"
+    .string "ringlaður hvort sem ég vinn eða\p"
+    .string "tapa.\p"
+    .string "Það er töfrum líkast!$"
 
 SevenIsland_SevaultCanyon_Entrance_Text_JonNotEnoughMons::
-    .string "JON: If it's with EVE, I'll be\n"
-    .string "happy to battle with you.\p"
-    .string "So, I'd like to make it a\n"
-    .string "two-on-two battle, if I may.$"
+    .string "JON: Ef EVE er með, berst ég glaður\n"
+    .string "við þig.\p"
+    .string "Því vil ég hafa þetta tveir gegn\n"
+    .string "tveimur, ef má.$"
 
 SevenIsland_SevaultCanyon_Entrance_Text_RouteSign::
-    .string "SEVAULT CANYON ENTRANCE\p"
-    .string "TRAINERS are asked to refrain from\n"
-    .string "damaging plants in the CANYON.$"
+    .string "INNGANGUR AÐ SEVAULT CANYON\p"
+    .string "ÞJÁLFARAR eru beðnir um að forðast\n"
+    .string "að skemma plöntur í CANYON.$"
 

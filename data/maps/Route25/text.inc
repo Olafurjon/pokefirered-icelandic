@@ -1,119 +1,118 @@
 Route25_Text_JoeyIntro::
-    .string "Local TRAINERS come here to\n"
-    .string "practice.$"
+    .string "ÞJÁLFARAR hér í nágrenninu koma\n"
+    .string "hingað að æfa sig.$"
 
 Route25_Text_JoeyDefeat::
-    .string "You're decent.$"
+    .string "Þú ert sæmilegur.$"
 
 Route25_Text_JoeyPostBattle::
-    .string "All POKéMON have weaknesses.\n"
-    .string "Even the strongest ones.\p"
-    .string "That's why it's best to raise\n"
-    .string "POKéMON of different types.$"
+    .string "Öll vasaskrímsli hafa veikleika.\n"
+    .string "Jafnvel þau sterkustu.\p"
+    .string "Þess vegna er best að þjálfa\n"
+    .string "vasaskrímsli af ólíkum gerðum.$"
 
 Route25_Text_DanIntro::
-    .string "Dad took me to a great party on\n"
-    .string "the S.S. ANNE at VERMILION CITY.$"
+    .string "Pabbi fór með mig í frábært partí á\n"
+    .string "S.S. ANNE í VERMILION BORG.$"
 
 Route25_Text_DanDefeat::
-    .string "I'm not mad!$"
+    .string "Ég er ekki reiður!$"
 
 Route25_Text_DanPostBattle::
-    .string "On the S.S. ANNE, I saw TRAINERS\n"
-    .string "from around the world.$"
+    .string "Á S.S. ANNE sá ég ÞJÁLFARA frá öllum\n"
+    .string "heiminum.$"
 
 Route25_Text_FlintIntro::
-    .string "I'm a cool guy.\n"
-    .string "I've got a girlfriend!$"
+    .string "Ég er svalur gaur. Ég á kærustu!$"
 
 Route25_Text_FlintDefeat::
-    .string "Aww, darn…$"
+    .string "Æ, bölvað...$"
 
 Route25_Text_FlintPostBattle::
-    .string "Oh, well.\n"
-    .string "My girlfriend will cheer me up.$"
+    .string "Jæja. Kærastan mín hressir mig við.$"
 
 Route25_Text_KelseyIntro::
-    .string "Hi!\n"
-    .string "My boyfriend is cool!$"
+    .string "Hæ! Kærastinn minn er svalur!$"
 
 Route25_Text_KelseyDefeat::
-    .string "My conditioning isn't the best…$"
+    .string "Formið mitt er ekki upp á það\n"
+    .string "besta...$"
 
 Route25_Text_KelseyPostBattle::
-    .string "I wish my boyfriend was as good\n"
-    .string "as you.$"
+    .string "Ég vildi að kærastinn minn væri jafn\n"
+    .string "góður og þú.$"
 
 Route25_Text_ChadIntro::
-    .string "I had this feeling…\n"
-    .string "I knew I had to battle you!$"
+    .string "Ég fékk þessa tilfinningu... Ég\n"
+    .string "vissi að ég þyrfti að berjast við\p"
+    .string "þig!$"
 
 Route25_Text_ChadDefeat::
-    .string "I knew I'd lose, too!$"
+    .string "Ég vissi líka að ég myndi tapa!$"
 
 Route25_Text_ChadPostBattle::
-    .string "If your POKéMON gets confused,\n"
-    .string "switch it out.\p"
-    .string "That's a good tactic.$"
+    .string "Ef vasaskrímslið þitt ruglast skaltu\n"
+    .string "skipta því út.\p"
+    .string "Það er góð aðferð.$"
 
 Route25_Text_HaleyIntro::
-    .string "My friend has many cute POKéMON.\n"
-    .string "I'm so jealous!$"
+    .string "Vinkona mín á mörg sæt vasaskrímsli.\n"
+    .string "Ég er svo öfundsjúk!$"
 
 Route25_Text_HaleyDefeat::
-    .string "I'm not so jealous!$"
+    .string "Ég er ekkert svo öfundsjúk!$"
 
 Route25_Text_HaleyPostBattle::
-    .string "You came from MT. MOON?\n"
-    .string "May I have a CLEFAIRY?$"
+    .string "Komstu frá MT. MOON? Má ég fá\n"
+    .string "BLEIKÁLF?$"
 
 Route25_Text_FranklinIntro::
-    .string "I just got down from MT. MOON,\n"
-    .string "but I've still got gas in the tank!$"
+    .string "Ég var að koma niður af MT. MOON, en\n"
+    .string "ég á enn bensín á tanknum!$"
 
 Route25_Text_FranklinDefeat::
-    .string "You worked hard!$"
+    .string "Þú lagðir hart að þér!$"
 
 Route25_Text_FranklinPostBattle::
-    .string "Drat!\n"
-    .string "A ZUBAT bit me back in that cave.$"
+    .string "Fjandinn! BLAKILDI beit mig þarna\n"
+    .string "inni í hellinum.$"
 
 Route25_Text_NobIntro::
-    .string "I'm off to see a POKéMANIAC's\n"
-    .string "collection at the cape.$"
+    .string "Ég er á leið að sjá safn hjá\n"
+    .string "SKRÍMSLASJÚKUM úti á höfðanum.$"
 
 Route25_Text_NobDefeat::
-    .string "You done got me, and real good,\n"
-    .string "too!$"
+    .string "Þú náðir mér, og það rækilega!$"
 
 Route25_Text_NobPostBattle::
-    .string "The POKéMANIAC sure lives up to\n"
-    .string "his name.\p"
-    .string "His collection includes many rare\n"
-    .string "species of POKéMON.$"
+    .string "SKRÍMSLASJÚKI gaurinn stendur svo\n"
+    .string "sannarlega undir nafninu.\p"
+    .string "Safnið hans inniheldur margar\n"
+    .string "sjaldgæfar tegundir vasaskrímsla.$"
 
 Route25_Text_WayneIntro::
-    .string "You're going to see BILL?\n"
-    .string "First, we battle!$"
+    .string "Þú ætlar að hitta BILL? Fyrst\n"
+    .string "berjumst við!$"
 
 Route25_Text_WayneDefeat::
-    .string "You're something.$"
+    .string "Þú ert nokkuð magnaður.$"
 
 Route25_Text_WaynePostBattle::
-    .string "The trail below is a shortcut to\n"
-    .string "CERULEAN CITY.$"
+    .string "Stígurinn fyrir neðan er stytting\n"
+    .string "til CERULEAN BORGAR.$"
 
 Route25_Text_SeaCottageSign::
-    .string "SEA COTTAGE\n"
-    .string "BILL lives here!$"
+    .string "SJÁVARHÚSIÐ BILL býr hér!$"
 
 Route25_Text_MistyHighHopesAboutThisPlace::
-    .string "This cape is a famous date spot.\p"
-    .string "MISTY, the GYM LEADER, has high\n"
-    .string "hopes about this place.$"
+    .string "Þessi höfði er frægur\n"
+    .string "stefnumótastaður.\p"
+    .string "MISTY, SALSTJÓRINN, bindur miklar\n"
+    .string "vonir við þennan stað.$"
 
 Route25_Text_AreYouHereAlone::
-    .string "Hello, are you here alone?\p"
-    .string "If you're out at CERULEAN's cape…\n"
-    .string "Well, it should be as a couple.$"
+    .string "Halló, ertu hér án fylgdar?\p"
+    .string "Ef þú ferð út á höfðann við\n"
+    .string "CERULEAN... Þá ætti það að vera í\p"
+    .string "pari.$"
 

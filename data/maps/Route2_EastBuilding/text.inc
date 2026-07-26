@@ -1,32 +1,31 @@
 Route2_EastBuilding_Text_GiveHM05IfSeen10Mons::
-    .string "Hi! Remember me?\n"
-    .string "I'm one of PROF. OAK's AIDES.\p"
-    .string "If your POKéDEX has complete data\n"
-    .string "on ten species, I'm supposed to\l"
-    .string "give you a reward.\p"
-    .string "PROF. OAK entrusted me with\n"
-    .string "HM05 for you.\p"
-    .string "So, {PLAYER}, let me ask you.\p"
-    .string "Have you gathered data on at least\n"
-    .string "ten kinds of POKéMON?$"
+    .string "Hæ! Manstu eftir mér? Ég er einn af\n"
+    .string "AÐSTOÐARMÖNNUM Prófessor EIK.\p"
+    .string "Ef VasaDEX-ið þitt er með full gögn\n"
+    .string "um tíu tegundir á ég að gefa þér\p"
+    .string "verðlaun.\p"
+    .string "Prófessor EIK fól mér HM05 handa\n"
+    .string "þér.\p"
+    .string "Svo, {PLAYER}, leyfðu mér að spyrja.\p"
+    .string "Hefurðu safnað gögnum um að minnsta\n"
+    .string "kosti tíu gerðir vasaskrímsla?$"
 
 Route2_EastBuilding_Text_GreatHereYouGo::
-    .string "Great! You have caught or owned\n"
-    .string "{STR_VAR_3} kinds of POKéMON!\p"
-    .string "Congratulations!\n"
-    .string "Here you go!$"
+    .string "Frábært! Þú hefur náð eða átt\n"
+    .string "{STR_VAR_3} gerðir vasaskrímsla!\p"
+    .string "Til hamingju! Gjörðu svo vel!$"
 
 Route2_EastBuilding_Text_ReceivedHM05FromAide::
-    .string "{PLAYER} received HM05\n"
-    .string "from the AIDE.$"
+    .string "{PLAYER} fékk HM05 frá\n"
+    .string "AÐSTOÐARMANNINUM.$"
 
 Route2_EastBuilding_Text_ExplainHM05::
-    .string "HM05 contains the hidden move\n"
-    .string "FLASH.\p"
-    .string "FLASH lights up even the darkest\n"
-    .string "of caves and dungeons.$"
+    .string "HM05 inniheldur földu hreyfinguna\n"
+    .string "LEIFTUR.\p"
+    .string "LEIFTUR lýsir upp jafnvel dimmustu\n"
+    .string "hella og dýflissur.$"
 
 Route2_EastBuilding_Text_CanGetThroughRockTunnel::
-    .string "Once a POKéMON learns FLASH, you\n"
-    .string "can get through ROCK TUNNEL.$"
+    .string "Þegar vasaskrímsli lærir LEIFTUR\n"
+    .string "kemstu í gegnum ROCK TUNNEL.$"
 

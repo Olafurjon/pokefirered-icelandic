@@ -1,56 +1,52 @@
 RocketHideout_B4F_Text_GiovanniIntro::
-    .string "So! I must say, I am impressed you\n"
-    .string "got here.\p"
-    .string "TEAM ROCKET captures POKéMON from\n"
-    .string "around the world.\p"
-    .string "They're important tools for keeping\n"
-    .string "our criminal enterprise going.\p"
-    .string "I am the leader, GIOVANNI!\p"
-    .string "For your insolence, you will feel a\n"
-    .string "world of pain!$"
+    .string "Jæja! Ég verð að segja að ég er\n"
+    .string "hrifinn af því að þú komst hingað.\p"
+    .string "ROCKET-GENGIÐ fangar Vasaskrímsli\n"
+    .string "víðs vegar að úr heiminum.\p"
+    .string "Þau eru mikilvæg verkfæri til að\n"
+    .string "halda glæpastarfsemi okkar gangandi.\p"
+    .string "Ég er leiðtoginn, GIOVANNI!\p"
+    .string "Fyrir ósvífni þína færðu að finna\n"
+    .string "fyrir sársauka!$"
 
 RocketHideout_B4F_Text_GiovanniDefeat::
-    .string "WHAT!\n"
-    .string "This can't be!$"
+    .string "HVAÐ! Þetta getur ekki verið!$"
 
 RocketHideout_B4F_Text_GiovanniPostBattle::
-    .string "I see that you raise POKéMON with\n"
-    .string "utmost care.\p"
-    .string "A child like you would never\n"
-    .string "understand what I hope to achieve.\p"
-    .string "I shall step aside this time!\p"
-    .string "I hope we meet again…$"
+    .string "Ég sé að þú elur Vasaskrímsli upp\n"
+    .string "af mikilli umhyggju.\p"
+    .string "Barn eins og þú myndi aldrei skilja\n"
+    .string "hvað ég vonast til að ná fram.\p"
+    .string "Ég stíg til hliðar í þetta sinn!\p"
+    .string "Ég vona að við hittumst aftur…$"
 
 RocketHideout_B4F_Text_Grunt2Intro::
-    .string "I know you!\n"
-    .string "You ruined our plans at MT. MOON!$"
+    .string "Ég þekki þig! Þú eyðilagðir áætlanir\n"
+    .string "okkar á MT. MOON!$"
 
 RocketHideout_B4F_Text_Grunt2Defeat::
-    .string "Burned again!$"
+    .string "Brenndur aftur!$"
 
 RocketHideout_B4F_Text_Grunt2PostBattle::
-    .string "Do you have something against TEAM\n"
-    .string "ROCKET?$"
+    .string "Hefurðu eitthvað á móti\n"
+    .string "ROCKET-GENGINU?$"
 
 RocketHideout_B4F_Text_Grunt3Intro::
-    .string "How can you not see the beauty of\n"
-    .string "our evil?$"
+    .string "Hvernig sérðu ekki fegurðina í\n"
+    .string "illsku okkar?$"
 
 RocketHideout_B4F_Text_Grunt3Defeat::
-    .string "Ayaya!$"
+    .string "Æjæjæ!$"
 
 RocketHideout_B4F_Text_Grunt3PostBattle::
-    .string "BOSS!\n"
-    .string "I'm sorry I failed you!$"
+    .string "FORINGI! Fyrirgefðu að ég brást þér!$"
 
 RocketHideout_B4F_Text_Grunt1Intro::
-    .string "The elevator doesn't work?\n"
-    .string "Who has the LIFT KEY?$"
+    .string "Lyftan virkar ekki? Hver er með\n"
+    .string "LIFT LYKILINN?$"
 
 RocketHideout_B4F_Text_Grunt1Defeat::
-    .string "No!$"
+    .string "Nei!$"
 
 RocketHideout_B4F_Text_Grunt1PostBattle::
-    .string "Oh, no!\n"
-    .string "I dropped the LIFT KEY!$"
-
+    .string "Ó nei! Ég missti LIFT LYKILINN!$"

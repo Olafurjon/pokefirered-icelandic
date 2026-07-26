@@ -1,18 +1,17 @@
 SaffronCity_MrPsychicsHouse_Text_YouWantedThis::
-    .string "…Wait! Don't say a word!\p"
-    .string "You wanted this!$"
+    .string "…Bíddu! Ekki segja orð!\p"
+    .string "Þú vildir þetta!$"
 
 SaffronCity_MrPsychicsHouse_Text_ReceivedTM29FromMrPsychic::
-    .string "{PLAYER} received TM29\n"
-    .string "from MR. PSYCHIC.$"
+    .string "{PLAYER} fékk TM29 frá MR.\n"
+    .string "HUGAR.$"
 
 SaffronCity_MrPsychicsHouse_Text_ExplainTM29::
-    .string "You already know, don't you?\n"
-    .string "TM29 is PSYCHIC.\p"
-    .string "It's an attack that may also lower\n"
-    .string "the target's special stats.$"
+    .string "Þú veist það nú þegar, er það ekki?\n"
+    .string "TM29 er HUGAR.\p"
+    .string "Árásin getur líka lækkað sérstakar\n"
+    .string "tölur skotmarksins.$"
 
 SaffronCity_MrPsychicsHouse_Text_YouveNoRoom::
-    .string "Where do you plan to put this?\n"
-    .string "You've no room.$"
-
+    .string "Hvert ætlarðu að setja þetta? Þú\n"
+    .string "hefur ekkert pláss.$"

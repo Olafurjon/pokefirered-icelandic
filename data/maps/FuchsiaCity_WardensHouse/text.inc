@@ -1,65 +1,59 @@
 FuchsiaCity_WardensHouse_Text_HifFuffHefifoo::
     .string "WARDEN: Hif fuff hefifoo!\p"
-    .string "Ha lof ha feef ee hafahi ho.\n"
-    .string "Heff hee fwee!$"
+    .string "Ha lof ha feef ee hafahi ho. Heff\n"
+    .string "hee fwee!$"
 
 FuchsiaCity_WardensHouse_Text_AhHowheeHoHoo::
-    .string "Ah howhee ho hoo!\n"
-    .string "Eef ee hafahi ho!$"
+    .string "Ah howhee ho hoo! Eef ee hafahi ho!$"
 
 FuchsiaCity_WardensHouse_Text_HeOhayHeHaHoo::
-    .string "Ha?\n"
-    .string "He ohay heh ha hoo ee haheh!$"
+    .string "Ha? He ohay heh ha hoo ee haheh!$"
 
 FuchsiaCity_WardensHouse_Text_GaveGoldTeethToWarden::
-    .string "{PLAYER} gave the GOLD TEETH\n"
-    .string "to the WARDEN.$"
+    .string "{PLAYER} gaf VÖRÐINUM GULLTENNURNAR.$"
 
 FuchsiaCity_WardensHouse_Text_WardenPoppedInHisTeeth::
-    .string "The WARDEN popped in his teeth!$"
+    .string "WARDEN setti tennurnar í sig!$"
 
 FuchsiaCity_WardensHouse_Text_ThanksSonGiveYouSomething::
-    .string "WARDEN: Thanks, son!\n"
-    .string "You're a real lifesaver!\p"
-    .string "No one could understand a word\n"
-    .string "that I said, not a one!\p"
-    .string "I was too ashamed to show my face\n"
-    .string "around the OFFICE, even.\p"
-    .string "Let me give you something for your\n"
-    .string "trouble.$"
+    .string "VÖRÐUR: Takk, sonur! Þú ert\n"
+    .string "sannkallaður bjargvættur!\p"
+    .string "Enginn gat skilið orð af því sem ég\n"
+    .string "sagði, ekki eitt einasta!\p"
+    .string "Ég skammaðist mín of mikið til að\n"
+    .string "sýna mig við SKRIFSTOFUNA, jafnvel.\p"
+    .string "Leyfðu mér að gefa þér eitthvað\n"
+    .string "fyrir erfiðið.$"
 
 FuchsiaCity_WardensHouse_Text_ThanksLassieGiveYouSomething::
-    .string "WARDEN: Thank you, lassie!\n"
-    .string "You're a real lifesaver!\p"
-    .string "No one could understand a word\n"
-    .string "that I said, not a one!\p"
-    .string "I was too ashamed to show my face\n"
-    .string "around the OFFICE, even.\p"
-    .string "Let me give you something for your\n"
-    .string "trouble.$"
+    .string "VÖRÐUR: Takk, stelpa! Þú ert\n"
+    .string "sannkallaður bjargvættur!\p"
+    .string "Enginn gat skilið orð af því sem ég\n"
+    .string "sagði, ekki eitt einasta!\p"
+    .string "Ég skammaðist mín of mikið til að\n"
+    .string "sýna mig við SKRIFSTOFUNA, jafnvel.\p"
+    .string "Leyfðu mér að gefa þér eitthvað\n"
+    .string "fyrir erfiðið.$"
 
 FuchsiaCity_WardensHouse_Text_ReceivedHM04FromWarden::
-    .string "{PLAYER} received HM04\n"
-    .string "from the WARDEN.$"
+    .string "{PLAYER} fékk HM04 frá VÖRÐINUM.$"
 
 FuchsiaCity_WardensHouse_Text_ExplainStrength::
-    .string "WARDEN: Inside HM04 you'll find\n"
-    .string "STRENGTH.\p"
-    .string "It lets POKéMON move boulders when\n"
-    .string "you're outside of battle.\p"
-    .string "Oh yes, did you find the SECRET\n"
-    .string "HOUSE in the SAFARI ZONE?$"
+    .string "VÖRÐUR: Í HM04 finnurðu STYRK.\p"
+    .string "Hún leyfir Vasaskrímslum að færa\n"
+    .string "stór björg utan bardaga.\p"
+    .string "Ó já, fannstu LEYNIHÚSIÐ í SAFARI\n"
+    .string "SVÆÐINU?$"
 
 @ Unused
 FuchsiaCity_WardensHouse_Text_YouHaveTooMuchStuff::
-    .string "なんや　にもつ\n"
-    .string "いっぱいやんけ！$"
+    .string "なんや にもつ いっぱいやんけ！$"
 
 FuchsiaCity_WardensHouse_Text_MonPhotosFossilsOnDisplay::
-    .string "POKéMON photos and fossils are on\n"
-    .string "display.$"
+    .string "Myndir og steingervingar af\n"
+    .string "Vasaskrímslum eru til sýnis.$"
 
 FuchsiaCity_WardensHouse_Text_OldMonMerchandiseOnDisplay::
-    .string "Old POKéMON merchandise is on\n"
-    .string "display.$"
+    .string "Gamall Vasaskrímsla-varningur er til\n"
+    .string "sýnis.$"
 

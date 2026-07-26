@@ -1,49 +1,46 @@
 SilphCo_8F_Text_WonderIfSilphIsFinished::
-    .string "I wonder if SILPH is finished…$"
+    .string "Ég velti fyrir mér hvort SILPH sé búið…$"
 
 SilphCo_8F_Text_ThanksForSavingUs::
-    .string "Thanks for saving us!$"
+    .string "Takk fyrir að bjarga okkur!$"
 
 SilphCo_8F_Text_Grunt1Intro::
-    .string "That's as far as you'll go!$"
+    .string "Lengra kemstu ekki!$"
 
 SilphCo_8F_Text_Grunt1Defeat::
-    .string "Not enough grit!$"
+    .string "Ekki nægur kjarkur!$"
 
 SilphCo_8F_Text_Grunt1PostBattle::
-    .string "If you don't turn back…\n"
-    .string "I'll call for backup!$"
+    .string "Ef þú snýrð ekki við… kalla ég\n"
+    .string "á liðsauka!$"
 
 SilphCo_8F_Text_ParkerIntro::
-    .string "You're causing us problems!$"
+    .string "Þú ert að valda okkur vandræðum!$"
 
 SilphCo_8F_Text_ParkerDefeat::
-    .string "Huh?\n"
-    .string "I lost?$"
+    .string "Ha? Ég tapaði?$"
 
 SilphCo_8F_Text_ParkerPostBattle::
-    .string "So, what do you think of SILPH\n"
-    .string "BUILDING's maze?$"
+    .string "Svo, hvað finnst þér um völundarhús\n"
+    .string "SILPH-BYGGINGARINNAR?$"
 
 SilphCo_8F_Text_Grunt2Intro::
-    .string "I am one of the four ROCKET\n"
-    .string "BROTHERS!$"
+    .string "Ég er einn af fjórum\n"
+    .string "ROCKET-BRÆÐRUM!$"
 
 SilphCo_8F_Text_Grunt2Defeat::
-    .string "Whoo!\n"
-    .string "Oh, Brothers!$"
+    .string "Úff! Ó, bræður!$"
 
 SilphCo_8F_Text_Grunt2PostBattle::
-    .string "I'll leave you up to my brothers.$"
+    .string "Ég læt bræður mína um þig.$"
 
 SilphCo_8F_Text_FloorSign::
-    .string "SILPH CO. HEAD OFFICE\n"
-    .string "8F$"
+    .string "SILPH CO. HÖFUÐSKRIFSTOFA 8H$"
 
 SilphCo_8F_Text_ToRocketBossMonsAreTools::
-    .string "TEAM ROCKET's BOSS is terribly\n"
-    .string "cruel!\p"
-    .string "To him, POKéMON are just tools to\n"
-    .string "be used.\p"
-    .string "What will happen if that tyrant\n"
-    .string "takes over our company…$"
+    .string "FORINGI ROCKET-GENGISINS er\n"
+    .string "hræðilega grimmur!\p"
+    .string "Í hans augum eru Vasaskrímsli bara\n"
+    .string "verkfæri til að nota.\p"
+    .string "Hvað gerist ef þessi harðstjóri\n"
+    .string "tekur yfir fyrirtækið okkar…$"

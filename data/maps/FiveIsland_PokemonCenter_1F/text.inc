@@ -1,10 +1,10 @@
 FiveIsland_PokemonCenter_1F_Text_OnMyWayToPrepareMeal::
-    .string "I'm on my way to prepare a meal\n"
-    .string "for a certain high-society person.$"
+    .string "Ég er á leiðinni til að útbúa máltíð\n"
+    .string "fyrir ákveðna háttsetta persónu.$"
 
 FiveIsland_PokemonCenter_1F_Text_YoureOnQuestToCatchEveryMon::
-    .string "You're on a quest to catch every\n"
-    .string "single kind of POKéMON?\p"
-    .string "…How incredible. Please tell me if\n"
-    .string "you catch a strong one!$"
+    .string "Ertu í leiðangri til að fanga hverja\n"
+    .string "einustu tegund Vasaskrímsla?\p"
+    .string "…Hversu ótrúlegt. Láttu mig vita ef\n"
+    .string "þú fangar sterkt eitt!$"
 

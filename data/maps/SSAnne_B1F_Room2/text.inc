@@ -1,10 +1,11 @@
 SSAnne_B1F_Room2_Text_HueyIntro::
-    .string "Even us sailors have POKéMON, too!$"
+    .string "Jafnvel við sjómenn eigum líka\n"
+    .string "vasaskrímsli!$"
 
 SSAnne_B1F_Room2_Text_HueyDefeat::
-    .string "Okay, you're not bad.$"
+    .string "Allt í lagi, þú ert ekki slæmur.$"
 
 SSAnne_B1F_Room2_Text_HueyPostBattle::
-    .string "We caught all our POKéMON while\n"
-    .string "we were out at sea.$"
+    .string "Við náðum öllum vasaskrímslunum\n"
+    .string "okkar þegar við vorum úti á sjó.$"
 

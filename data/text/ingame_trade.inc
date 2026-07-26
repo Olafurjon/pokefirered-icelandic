@@ -1,60 +1,55 @@
 Trade_Text_LookingForMonWannaTradeForMon::
-	.string "I'm looking for the POKéMON\n"
+	.string "I'm looking for the Vasaskrímsli\n"
 	.string "{STR_VAR_1}!\p"
-	.string "Wanna trade one for my\n"
-	.string "{STR_VAR_2}?$"
+	.string "Wanna trade one for my {STR_VAR_2}?$"
 
 Trade_Text_AwwOhWell::
-	.string "Awww!\n"
-	.string "Oh, well…$"
+	.string "Awww! Oh, well…$"
 
 Trade_Text_WhatThatsNoMon::
-	.string "What?\n"
-	.string "That's no {STR_VAR_1}!$"
+	.string "Hvað? Þetta er ekki {STR_VAR_1}!$"
 
 Trade_Text_HeyThanks::
-	.string "Hey, thanks!$"
+	.string "Hey, takk!$"
 
 Trade_Text_IsntMyOldMonGreat::
-	.string "Isn't my old {STR_VAR_2} great?$"
+	.string "Er ekki gamla {STR_VAR_2} mín\n"
+	.string "frábær?$"
 
 Trade_Text_DoYouHaveMonWouldYouTradeForMon::
-	.string "Hello, there! Do you happen to\n"
-	.string "have a {STR_VAR_1}?\p"
-	.string "Would you agree to a trade for\n"
-	.string "my {STR_VAR_2}?$"
+	.string "Halló! Ertu nokkuð með {STR_VAR_1}?\p"
+	.string "Viltu skipta því fyrir {STR_VAR_2}?$"
 
 Trade_Text_WellIfYouDontWantTo::
-	.string "Well, if you don't want to…$"
+	.string "Jæja, ef þú vilt ekki…$"
 
 Trade_Text_ThisIsntMon::
-	.string "Hmmm?\n"
-	.string "This isn't a {STR_VAR_1}.\p"
-	.string "Think of me if you get one.$"
+	.string "Hmm? Þetta er ekki {STR_VAR_1}.\p"
+	.string "Mundu eftir mér ef þú færð slíkt.$"
 
 Trade_Text_Thanks::
-	.string "Thanks!$"
+	.string "Takk!$"
 
 Trade_Text_HasTradedMonGrownStronger::
-	.string "The {STR_VAR_2} that I traded you,\n"
-	.string "has it grown stronger?$"
+	.string "{STR_VAR_2} sem ég skipti við þig,\n"
+	.string "hefur hún orðið sterkari?$"
 
 Trade_Text_DoYouHaveMonWantToTradeForMon::
-	.string "Hi!\n"
-	.string "Do you have a {STR_VAR_1}?\p"
-	.string "Want to trade it for my\n"
-	.string "{STR_VAR_2}?$"
+	.string "Hæ! Ertu með {STR_VAR_1}?\p"
+	.string "Viltu skipta því fyrir {STR_VAR_2}?$"
 
 Trade_Text_ThatsTooBad::
-	.string "That's too bad.$"
+	.string "Það er of slæmt.$"
 
 Trade_Text_ThisIsNoMon::
-	.string "…This is no {STR_VAR_1}.\p"
-	.string "If you get one, trade it with me.$"
+	.string "…Þetta er ekki {STR_VAR_1}.\p"
+	.string "Ef þú færð einn, skiptu honum við\n"
+	.string "mig.$"
 
 Trade_Text_ThanksYoureAPal::
-	.string "Thanks, you're a pal!$"
+	.string "Takk, þú ert vinur!$"
 
 Trade_Text_HowIsMyOldMon::
-	.string "How is my old {STR_VAR_2}?\n"
-	.string "My {STR_VAR_1} is doing great!$"
+	.string "Hvernig hefur gamla {STR_VAR_2} það?\n"
+	.string "{STR_VAR_1} hjá mér hefur það\p"
+	.string "frábært!$"

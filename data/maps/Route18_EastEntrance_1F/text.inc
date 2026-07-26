@@ -1,11 +1,11 @@
 Route18_EastEntrance_1F_Text_NeedBicycleForCyclingRoad::
-    .string "You need a BICYCLE to go out on\n"
-    .string "CYCLING ROAD!$"
+    .string "Þú þarft REIÐHJÓL til að fara út á\n"
+    .string "HJÓLAVEG!$"
 
 Route18_EastEntrance_1F_Text_CyclingRoadAllUphillFromHere::
-    .string "CYCLING ROAD is all uphill from\n"
-    .string "here.$"
+    .string "HJÓLAVEGUR er allur upp í móti\n"
+    .string "héðan.$"
 
 Route18_EastEntrance_1F_Text_ExcuseMe::
-    .string "Excuse me!$"
+    .string "Afsakaðu!$"
 

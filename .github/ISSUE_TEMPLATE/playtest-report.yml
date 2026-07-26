@@ -1,0 +1,43 @@
+name: Playtest report
+description: Report a bug, text overflow, visual problem, or gameplay issue.
+title: "[Playtest]: "
+labels: ["playtest"]
+body:
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshot or clip
+      description: Drag in a screenshot or short clip if possible.
+  - type: input
+    id: build
+    attributes:
+      label: Build or ROM hash
+      placeholder: "Example: SHA1 40375EBA22E43F7E3DAB85BD7EA5E6291928B453"
+  - type: input
+    id: location
+    attributes:
+      label: Where did it happen?
+      placeholder: "Example: Viridian City Mart, first clerk dialogue"
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Issue type
+      options:
+        - English text remains
+        - Awkward Icelandic
+        - Text overflow or cutoff
+        - Font or glyph issue
+        - Battle/menu UI issue
+        - Gameplay/catchability issue
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: What happened, what should happen, and how to reproduce it.
+    validations:
+      required: true

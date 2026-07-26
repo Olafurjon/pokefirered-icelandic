@@ -1,67 +1,63 @@
 PalletTown_Text_OakDontGoOut::
-    .string "OAK: Hey! Wait!\n"
-    .string "Don't go out!$"
+    .string "EIK: Hæ! Bíddu! Ekki fara út!$"
 
 PalletTown_Text_OakGrassUnsafeNeedMon::
-    .string "OAK: It's unsafe!\n"
-    .string "Wild POKéMON live in tall grass!\p"
-    .string "You need your own POKéMON for\n"
-    .string "your protection.\p"
-    .string "I know!\n"
-    .string "Here, come with me!$"
+    .string "EIK: Það er hættulegt! VASaSKRÍMSLI\n"
+    .string "búa í háu grasi!\p"
+    .string "Þú þarft þitt eigið VASaSKRÍMSLI til\n"
+    .string "að vernda þig.\p"
+    .string "Ég veit! Komdu með mér!$"
 
 PalletTown_Text_RaisingMonsToo::
-    .string "I'm raising POKéMON, too.\p"
-    .string "When they get strong, they can\n"
-    .string "protect me.$"
+    .string "Ég er líka að hækka VASaSKRÍMSLI.\p"
+    .string "Þegar þeir verða sterkir geta þeir\n"
+    .string "verndað mig.$"
 
 PalletTown_Text_CanStoreItemsAndMonsInPC::
-    .string "Technology is incredible!\p"
-    .string "You can now store and recall items\n"
-    .string "and POKéMON as data via PC.$"
+    .string "Tæknin er ótrúleg!\p"
+    .string "Þú getur nú geymt og afturkallað\n"
+    .string "hluti og VASaSKRÍMSLI sem gögn í\p"
+    .string "gegnum Tölvu.$"
 
 PalletTown_Text_OakPokemonResearchLab::
-    .string "OAK POKéMON RESEARCH LAB$"
+    .string "VASaSKRÍMSLARANNSÓKNARSTOFA EIK$"
 
 PalletTown_Text_PlayersHouse::
-    .string "{PLAYER}'s house$"
+    .string "Hús {PLAYER}$"
 
 PalletTown_Text_RivalsHouse::
-    .string "{RIVAL}'s house$"
+    .string "Hús {RIVAL}$"
 
 PalletTown_Text_TownSign::
-    .string "PALLET TOWN\n"
-    .string "Shades of your journey await!$"
+    .string "PALLET BÆR Ný ferð bíður þín!$"
 
 PalletTown_Text_OakLetMeSeePokedex::
-    .string "OAK: Ah, {PLAYER}!\n"
-    .string "You're back, are you?\p"
-    .string "How much have you filled in your\n"
-    .string "POKéDEX?\p"
-    .string "May I see it?\p"
-    .string "Let's see…$"
+    .string "EIK: Ah, {PLAYER}! Þú ert kominn\n"
+    .string "aftur, er það?\p"
+    .string "Hversu mikið hefur þú fyllt í\n"
+    .string "VasaDEX þinn?\p"
+    .string "Má ég sjá það?\p"
+    .string "Við skulum sjá…$"
 
 PalletTown_Text_CaughtXPuttingInHonestEffort::
-    .string "You've caught {STR_VAR_2}…\p"
-    .string "Hm, it looks as if you're putting\n"
-    .string "in an honest effort.\p"
-    .string "When you manage to fill it some\n"
-    .string "more, come show me, please.$"
+    .string "Þú hefur náð {STR_VAR_2}…\p"
+    .string "Hm, það lítur út fyrir að þú sért að\n"
+    .string "leggja á þig heiðarlega tilraun.\p"
+    .string "Þegar þér tekst að fylla það meira,\n"
+    .string "komdu og sýndu mér, vinsamlegast.$"
 
 PalletTown_Text_CaughtXImpressiveFollowMe::
-    .string "You've caught… {STR_VAR_2}!?\n"
-    .string "Now, this is impressive!\p"
-    .string "There's something I wanted to ask\n"
-    .string "of you, {PLAYER}.\p"
-    .string "Come.\n"
-    .string "Follow me.$"
+    .string "Þú hefur lent í… {STR_VAR_2}!? Nú,\n"
+    .string "þetta er áhrifamikið!\p"
+    .string "Það er eitthvað sem ég vildi spyrja\n"
+    .string "þig, {PLAYER}.\p"
+    .string "Komdu. Fylgdu mér.$"
 
 PalletTown_Text_OakYouEnjoyingTraveling::
-    .string "OAK: Ah, {PLAYER}!\n"
-    .string "You seem to be enjoying traveling.\p"
-    .string "Knowing you, {PLAYER}, I can easily\n"
-    .string "imagine you going out to even more\l"
-    .string "exotic locales.\p"
-    .string "Good for you, good for you.\n"
-    .string "Hohoho.$"
+    .string "EIK: Ah, {PLAYER}! Þú virðist njóta\n"
+    .string "þess að ferðast.\p"
+    .string "Með því að þekkja þig, {PLAYER}, get\n"
+    .string "ég auðveldlega ímyndað mér að þú\p"
+    .string "farir út á enn framandi slóðir.\p"
+    .string "Gott hjá þér, gott hjá þér. Hohoho.$"
 

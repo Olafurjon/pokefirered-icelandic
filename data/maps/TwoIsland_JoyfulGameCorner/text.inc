@@ -1,113 +1,109 @@
 TwoIsland_JoyfulGameCorner_Text_WhereHasLostelleGottenTo::
-    .string "Now, where's LOSTELLE gotten to\n"
-    .string "today?\p"
-    .string "She always brings me lunch every\n"
-    .string "day right about now…$"
+    .string "Hvert skyldi LOSTELLE hafa farið í\n"
+    .string "dag?\p"
+    .string "Hún færir mér alltaf hádegismat um\n"
+    .string "þetta leyti…$"
 
 TwoIsland_JoyfulGameCorner_Text_PleaseHelpFindLostelle::
-    .string "Hm? You, there!\n"
-    .string "Are you a friend of LOSTELLE's?\p"
-    .string "Have you seen LOSTELLE around?\n"
-    .string "I don't know where she might be.\l"
-    .string "She should've been here long ago.\p"
-    .string "LOSTELLE's a cutie - she got my\n"
-    .string "looks - so what if someone…\p"
-    .string "What if something's happened to\n"
-    .string "my LOSTELLE?!\p"
-    .string "Please, help me find her!\n"
-    .string "Please go search THREE ISLAND!$"
+    .string "Hm? Þú þarna! Ertu vinur LOSTELLE?\p"
+    .string "Hefurðu séð LOSTELLE hér í kring? Ég\n"
+    .string "veit ekki hvar hún gæti verið. Hún\p"
+    .string "hefði átt að vera komin fyrir löngu.\p"
+    .string "LOSTELLE er krútt - hún fékk útlitið\n"
+    .string "frá mér - en hvað ef einhver…\p"
+    .string "Hvað ef eitthvað hefur komið fyrir\n"
+    .string "LOSTELLE mína?!\p"
+    .string "Vinsamlegast hjálpaðu mér að finna\n"
+    .string "hana! Leitaðu á THREE EYJU!$"
 
 TwoIsland_JoyfulGameCorner_Text_IsThisOnlyThreeIsland::
-    .string "Hah? What is this GAME CORNER?\n"
-    .string "How much sadder can this get?\p"
-    .string "Those clowns…\p"
-    .string "They said they'd be waiting on the\n"
-    .string "island, so where are they?\p"
-    .string "Hey, you! Is this the only THREE\n"
-    .string "ISLAND around here?$"
+    .string "Ha? Hvað er þetta fyrir\n"
+    .string "LEIKJAKRÓKUR? Getur þetta orðið\p"
+    .string "ömurlegra?\p"
+    .string "Þessir trúðar…\p"
+    .string "Þeir sögðust bíða á eyjunni, svo\n"
+    .string "hvar eru þeir?\p"
+    .string "Hey, þú! Er þetta eina THREE EYJAN\n"
+    .string "hér í kring?$"
 
 TwoIsland_JoyfulGameCorner_Text_ThisIsTwoIslandMoveIt::
-    .string "Try waking up before you crawl out\n"
-    .string "of bed, you punk.\p"
-    .string "This is TWO ISLAND!\p"
-    .string "Move it! Get your filthy motorbike\n"
-    .string "out of my place!$"
+    .string "Reyndu að vakna áður en þú skríður\n"
+    .string "upp úr rúminu, bjáni.\p"
+    .string "Þetta er TWO EYJA!\p"
+    .string "Hafðu þig! Fáðu skítuga mótorhjólið\n"
+    .string "þitt út úr staðnum mínum!$"
 
 TwoIsland_JoyfulGameCorner_Text_TheseIslandsAreConfusing::
-    .string "Huh…\n"
-    .string "Oh, oh, gotcha.\p"
-    .string "Tch…\n"
-    .string "These islands are confusing…$"
+    .string "Ha… Ó, ó, ég skil.\p"
+    .string "Tsk… Þessar eyjar eru ruglingslegar…$"
 
 TwoIsland_JoyfulGameCorner_Text_PunkScuffedUpMyFloor::
-    .string "Would you look at that?\n"
-    .string "That punk scuffed up my floor.$"
+    .string "Sjáðu þetta! Þessi óþokki rispaði\n"
+    .string "gólfið mitt.$"
 
 TwoIsland_JoyfulGameCorner_Text_PleaseGoToThreeIsland::
-    .string "Hey, but listen! I'm begging you,\n"
-    .string "you have to go to THREE ISLAND.\p"
-    .string "If anything were to happen to my\n"
-    .string "LOSTELLE…\p"
-    .string "My place is the house with the red\n"
-    .string "roof on THREE ISLAND.\p"
-    .string "She may just show up late here,\n"
-    .string "so I can't run off anywhere.\p"
-    .string "That's why I have to get you to do\n"
-    .string "me this big favor.$"
+    .string "Heyrðu samt! Ég grátbið þig, þú\n"
+    .string "verður að fara til THREE EYJU.\p"
+    .string "Ef eitthvað kæmi fyrir LOSTELLE\n"
+    .string "mína…\p"
+    .string "Húsið mitt er með rauðu þaki á THREE\n"
+    .string "EYJU.\p"
+    .string "Hún gæti bara komið seint hingað,\n"
+    .string "svo ég get ekki hlaupið neitt.\p"
+    .string "Þess vegna verð ég að biðja þig um\n"
+    .string "þennan stóra greiða.$"
 
 TwoIsland_JoyfulGameCorner_Text_NotRunningAnyGamesToday::
-    .string "I'm sorry.\n"
-    .string "We're not running any games today.$"
+    .string "Fyrirgefðu. Við erum ekki með neina\n"
+    .string "leiki í dag.$"
 
 TwoIsland_JoyfulGameCorner_Text_GetGamesGoingSoon::
-    .string "We'll get the games going soon\n"
-    .string "for you!$"
+    .string "Við komum leikjunum bráðum í gang\n"
+    .string "fyrir þig!$"
 
 TwoIsland_JoyfulGameCorner_Text_YouRescuedLostelle::
-    .string "So you rescued LOSTELLE?\n"
-    .string "How can I thank you?\p"
-    .string "LOSTELLE, darling, forgive me!\p"
-    .string "Daddy didn't know you were scared\n"
-    .string "and in trouble!$"
+    .string "Þú bjargaðir LOSTELLE? Hvernig get\n"
+    .string "ég þakkað þér?\p"
+    .string "LOSTELLE, elskan, fyrirgefðu!\p"
+    .string "Pabbi vissi ekki að þú værir hrædd\n"
+    .string "og í vanda!$"
 
 TwoIsland_JoyfulGameCorner_Text_LostelleItsOkayDaddy::
-    .string "LOSTELLE: It's okay, Daddy.\n"
-    .string "I got to be friends with {PLAYER}!$"
+    .string "LOSTELLE: Það er í lagi, pabbi. Ég\n"
+    .string "varð vinur {PLAYER}!$"
 
 TwoIsland_JoyfulGameCorner_Text_ThisIsForMe::
-    .string "Oh, what's that?\n"
-    .string "You're saying that this is for me?\p"
-    .string "How did you know that I love rare\n"
-    .string "rocks and gems?\p"
-    .string "You sure know how to make a guy\n"
-    .string "happy.$"
+    .string "Ó, hvað er þetta? Ertu að segja að\n"
+    .string "þetta sé handa mér?\p"
+    .string "Hvernig vissirðu að ég elska\n"
+    .string "sjaldgæfa steina og gimsteina?\p"
+    .string "Þú kannt sko að gleðja mann.$"
 
 TwoIsland_JoyfulGameCorner_Text_HandedMeteoriteToLostellesDaddy::
-    .string "{PLAYER} handed the METEORITE\n"
-    .string "to LOSTELLE's daddy.$"
+    .string "{PLAYER} afhenti pabba LOSTELLE\n"
+    .string "LOFTSTEININN.$"
 
 TwoIsland_JoyfulGameCorner_Text_OhThisIsFromBill::
-    .string "Oh, I see, this is from BILL!\n"
-    .string "You have to thank him for me!\p"
-    .string "You know, you've been fantastic.\n"
-    .string "I want you to have this.$"
+    .string "Ó, ég skil, þetta er frá BILL!\n"
+    .string "Þakkaðu honum fyrir mig!\p"
+    .string "Þú hefur verið frábær. Ég vil að þú\n"
+    .string "eigir þetta.$"
 
 TwoIsland_JoyfulGameCorner_Text_ReceivedMoonStoneFromLostellesDaddy::
-    .string "{PLAYER} received a MOON STONE\n"
-    .string "from LOSTELLE's daddy.$"
+    .string "{PLAYER} fékk TUNGLSTEIN frá pabba\n"
+    .string "LOSTELLE.$"
 
 TwoIsland_JoyfulGameCorner_Text_NotGoingToFitInBag::
-    .string "Your BAG's not going to fit another\n"
-    .string "thing…$"
+    .string "TASKAN þín rúmar ekki meira…$"
 
 TwoIsland_JoyfulGameCorner_Text_IllGetGameCornerRunning::
-    .string "All right, I'll get the GAME CORNER\n"
-    .string "running right away.\p"
-    .string "You have to come visit with a\n"
-    .string "friend.$"
+    .string "Allt í lagi, ég kem LEIKJAKRÓKNUM í\n"
+    .string "gang strax.\p"
+    .string "Þú verður að koma í heimsókn með\n"
+    .string "vini.$"
 
 TwoIsland_JoyfulGameCorner_Text_PleaseShowMeYouBeingCool::
-    .string "Listen, listen!\p"
-    .string "Please show me you being cool\n"
-    .string "again!$"
+    .string "Heyrðu, heyrðu!\p"
+    .string "Sýndu mér aftur hvað þú ert\n"
+    .string "flott/ur!$"
 

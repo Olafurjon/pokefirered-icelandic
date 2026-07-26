@@ -1,36 +1,35 @@
 @ Male and female text identical, differ (presumably) in JP
 Route12_NorthEntrance_2F_Text_TakeTMDontNeedAnymoreMale::
-    .string "My POKéMON's ashes are stored in\n"
-    .string "POKéMON TOWER.\p"
-    .string "You can have this TM.\n"
-    .string "I don't need it anymore…$"
+    .string "Aska Vasaskrímslisins míns er geymd\n"
+    .string "í Vasaskrímsla TOWER.\p"
+    .string "Þú mátt eiga þessa TM. Ég þarf hana\n"
+    .string "ekki lengur…$"
 
 Route12_NorthEntrance_2F_Text_TakeTMDontNeedAnymoreFemale::
-    .string "My POKéMON's ashes are stored in\n"
-    .string "POKéMON TOWER.\p"
-    .string "You can have this TM.\n"
-    .string "I don't need it anymore…$"
+    .string "Aska Vasaskrímslisins míns er geymd\n"
+    .string "í Vasaskrímsla TOWER.\p"
+    .string "Þú mátt eiga þessa TM. Ég þarf hana\n"
+    .string "ekki lengur…$"
 
 Route12_NorthEntrance_2F_Text_ReceivedTM27FromLittleGirl::
-    .string "{PLAYER} received TM27\n"
-    .string "from the little girl.$"
+    .string "{PLAYER} fékk TM27 frá lítilli\n"
+    .string "stelpu.$"
 
 Route12_NorthEntrance_2F_Text_ExplainTM27::
-    .string "TM27 is a move called RETURN…\p"
-    .string "If you treat your POKéMON good,\n"
-    .string "it will return your love by working\l"
-    .string "its hardest in battle.$"
+    .string "TM27 er hreyfing sem heitir RETURN…\p"
+    .string "Ef þú kemur vel fram við\n"
+    .string "Vasaskrímslið þitt endurgeldur það\p"
+    .string "ást þína með\p"
+    .string "að leggja sig allt fram í bardaga.$"
 
 Route12_NorthEntrance_2F_Text_DontHaveRoomForThis::
-    .string "You don't have room for this.$"
+    .string "Þú hefur ekki pláss fyrir þetta.$"
 
 Route12_NorthEntrance_2F_Text_TheresManFishing::
-    .string "Let's see what the binoculars have\n"
-    .string "to show…\p"
-    .string "There's a man fishing!$"
+    .string "Sjáum hvað sjónaukinn hefur að sýna…\p"
+    .string "Það er maður að veiða!$"
 
 Route12_NorthEntrance_2F_Text_ItsPokemonTower::
-    .string "Let's see what the binoculars have\n"
-    .string "to show…\p"
-    .string "It's POKéMON TOWER!$"
+    .string "Sjáum hvað sjónaukinn sýnir…\p"
+    .string "Það er Vasaskrímsla TOWER!$"
 

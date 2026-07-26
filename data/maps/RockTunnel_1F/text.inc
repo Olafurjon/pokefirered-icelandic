@@ -1,83 +1,82 @@
 RockTunnel_1F_Text_LennyIntro::
-    .string "This tunnel goes a long way, kid!$"
+    .string "Þessi göng ná langt, krakki!$"
 
 RockTunnel_1F_Text_LennyDefeat::
-    .string "Doh!\n"
-    .string "You win!$"
+    .string "Doh! Þú vinnur!$"
 
 RockTunnel_1F_Text_LennyPostBattle::
-    .string "Watch for ONIX.\n"
-    .string "They appear only occasionally.\p"
-    .string "High-level ones can put the\n"
-    .string "squeeze on you!$"
+    .string "Passaðu þig á GRÁNAMAÐKU. Þær\n"
+    .string "birtast bara öðru hvoru.\p"
+    .string "Þær á háu stigi geta kreist þig\n"
+    .string "rækilega!$"
 
 RockTunnel_1F_Text_OliverIntro::
-    .string "Hmm.\n"
-    .string "Maybe I'm lost in here…$"
+    .string "Hmm. Kannski er ég týndur hér\n"
+    .string "inni...$"
 
 RockTunnel_1F_Text_OliverDefeat::
-    .string "Ease up!\n"
-    .string "What am I doing?\l"
-    .string "Which way is out?$"
+    .string "Slakaðu á! Hvað er ég að gera? Hver\n"
+    .string "er leiðin út?$"
 
 RockTunnel_1F_Text_OliverPostBattle::
-    .string "That sleeping POKéMON on ROUTE 12\n"
-    .string "forced me to take this detour.$"
+    .string "Þetta sofandi vasaskrímsli á VEGUR\n"
+    .string "12 neyddi mig til að taka þessa\p"
+    .string "hjáleið.$"
 
 RockTunnel_1F_Text_LucasIntro::
-    .string "Outsiders like you need to show me\n"
-    .string "some respect!$"
+    .string "Utanaðkomandi eins og þú þurfa að\n"
+    .string "sýna mér smá virðingu!$"
 
 RockTunnel_1F_Text_LucasDefeat::
-    .string "I give!$"
+    .string "Ég gefst upp!$"
 
 RockTunnel_1F_Text_LucasPostBattle::
-    .string "You're talented enough to hike!$"
+    .string "Þú ert nógu hæfileikaríkur til að\n"
+    .string "ganga fjöll!$"
 
 RockTunnel_1F_Text_AshtonIntro::
-    .string "POKéMON fight!\n"
-    .string "Ready, go!$"
+    .string "Vasaskrímsli berjast! Tilbúin,\n"
+    .string "byrja!$"
 
 RockTunnel_1F_Text_AshtonDefeat::
-    .string "Game over!$"
+    .string "Leik lokið!$"
 
 RockTunnel_1F_Text_AshtonPostBattle::
-    .string "Oh well, I'll get a ZUBAT as I go!$"
+    .string "Jæja, ég næ mér í BLAKILDA á\n"
+    .string "leiðinni!$"
 
 RockTunnel_1F_Text_LeahIntro::
-    .string "Eek!\p"
-    .string "Don't try anything funny in the\n"
-    .string "dark!$"
+    .string "Ííík!\p"
+    .string "Ekki reyna neitt skrýtið í myrkrinu!$"
 
 RockTunnel_1F_Text_LeahDefeat::
-    .string "It was too dark…$"
+    .string "Það var of dimmt...$"
 
 RockTunnel_1F_Text_LeahPostBattle::
-    .string "I saw a MACHOP in this tunnel.$"
+    .string "Ég sá ÞREKANGA í þessum göngum.$"
 
 RockTunnel_1F_Text_DanaIntro::
-    .string "I came this far looking for wild\n"
-    .string "POKéMON.$"
+    .string "Ég kom alla þessa leið í leit að\n"
+    .string "villtum vasaskrímslum.$"
 
 RockTunnel_1F_Text_DanaDefeat::
-    .string "I'm out of POKéMON!$"
+    .string "Ég er uppiskroppa með vasaskrímsli!$"
 
 RockTunnel_1F_Text_DanaPostBattle::
-    .string "You looked cute and harmless.\n"
-    .string "Was I ever wrong!$"
+    .string "Þú leitst út fyrir að vera sætur og\n"
+    .string "meinlaus. Þar hafði ég heldur betur\p"
+    .string "rangt fyrir mér!$"
 
 RockTunnel_1F_Text_ArianaIntro::
-    .string "You have POKéMON!\n"
-    .string "Let's start!$"
+    .string "Þú ert með vasaskrímsli! Byrjum!$"
 
 RockTunnel_1F_Text_ArianaDefeat::
-    .string "You play hard!$"
+    .string "Þú spilar hart!$"
 
 RockTunnel_1F_Text_ArianaPostBattle::
-    .string "Whew!\n"
-    .string "I'm all sweaty now.$"
+    .string "Úff! Ég er orðin öll sveitt.$"
 
 RockTunnel_1F_Text_RouteSign::
-    .string "ROCK TUNNEL\n"
-    .string "CERULEAN CITY - LAVENDER TOWN$"
+    .string "ROCK TUNNEL CERULEAN BORG - LAVENDER\n"
+    .string "BORG$"
 

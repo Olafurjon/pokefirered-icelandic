@@ -1,59 +1,57 @@
 @ Unused
 FiveIsland_Meadow_Text_DoorNeedsTwoPasswords::
-    .string "とびらを　あけるには\n"
-    .string "パスワードが　2つ　いるようだ$"
+    .string "とびらを あけるには パスワードが 2つ いるようだ$"
 
 FiveIsland_Meadow_Text_EnteredPasswordAnotherNeeded::
-    .string "{PLAYER} entered a password.\p"
-    .string "“GOLDEEN need log.”\p"
-    .string "… …  … …  … …\p"
-    .string "Another password is needed to\n"
-    .string "open the door…$"
+    .string "{PLAYER} sló inn lykilorð.\p"
+    .string "'BLEIKHYRNA þarf staur.'\p"
+    .string "… … … … … …\p"
+    .string "Annað lykilorð þarf til að opna\n"
+    .string "dyrnar…$"
 
 FiveIsland_Meadow_Text_EnteredPasswordDoorOpened::
-    .string "{PLAYER} entered two passwords.\p"
-    .string "“GOLDEEN need log.”\n"
-    .string "“Yes, nah, CHANSEY.”\p"
-    .string "… …  … …  … …\p"
-    .string "The WAREHOUSE's door opened!$"
+    .string "{PLAYER} sló inn tvö lykilorð.\p"
+    .string "'BLEIKHYRNA þarf staur.' 'Já, nei,\n"
+    .string "SÆLEGG.'\p"
+    .string "… … … … … …\p"
+    .string "Dyrnar að VÖRUHÚSINU opnuðust!$"
 
 FiveIsland_Meadow_Text_WarehouseDoorAlreadyOpen::
-    .string "The WAREHOUSE's door is already\n"
-    .string "open.$"
+    .string "Hurð VÖRUHÚSSINS er nú þegar opinn.$"
 
 FiveIsland_Meadow_Text_Rocket1Intro::
-    .string "This area's strictly off-limits!\n"
-    .string "Out, out!$"
+    .string "Þetta svæði er stranglega bannað!\n"
+    .string "Út, út!$"
 
 FiveIsland_Meadow_Text_Rocket1Defeat::
-    .string "Is this for real?$"
+    .string "Er þetta í alvöru?$"
 
 FiveIsland_Meadow_Text_Rocket1PostBattle::
-    .string "You don't have any business here!\n"
-    .string "Go home!$"
+    .string "Þú átt ekkert erindi hingað! Farðu\n"
+    .string "heim!$"
 
 FiveIsland_Meadow_Text_Rocket2Intro::
-    .string "There's nothing past here except\n"
-    .string "our WAREHOUSE.\p"
-    .string "So what brings you here?$"
+    .string "Það er ekkert hérna fyrir utan\n"
+    .string "VÖRUHÚSIÐ okkar.\p"
+    .string "Svo hvað kemur þér hingað?$"
 
 FiveIsland_Meadow_Text_Rocket2Defeat::
-    .string "That wasn't supposed to happen…$"
+    .string "Það átti ekki að gerast…$"
 
 FiveIsland_Meadow_Text_Rocket2PostBattle::
-    .string "You're wanting to know what's inside\n"
-    .string "this WAREHOUSE?\p"
-    .string "It's better you didn't know.\n"
-    .string "For your own sake, I mean.$"
+    .string "Viltu vita hvað er inni í þessu\n"
+    .string "VÖRUHÚSI?\p"
+    .string "Það er betra að þú vitir það ekki.\n"
+    .string "Fyrir þinn eigin hag, meina ég.$"
 
 FiveIsland_Meadow_Text_Rocket3Intro::
-    .string "You'd be wasting time even if you\n"
-    .string "were to get by me.$"
+    .string "Þú værir að eyða tíma jafnvel þó þú\n"
+    .string "myndir komast framhjá mér.$"
 
 FiveIsland_Meadow_Text_Rocket3Defeat::
-    .string "Oh, that makes me furious!$"
+    .string "Ó, það gerir mig brjálaðan!$"
 
 FiveIsland_Meadow_Text_Rocket3PostBattle::
-    .string "You won't be able to get in without\n"
-    .string "the passwords anyway.$"
+    .string "Þú munt hvort sem er ekki komast inn\n"
+    .string "án lykilorðanna.$"
 

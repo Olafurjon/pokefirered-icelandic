@@ -1,93 +1,89 @@
 FiveIsland_ResortGorgeous_Text_DaisyIntro::
-    .string "With these hands, I will create\n"
-    .string "my victory!$"
+    .string "Með þessum höndum mun ég skapa sigur\n"
+    .string "minn!$"
 
 FiveIsland_ResortGorgeous_Text_DaisyDefeat::
-    .string "The shame of this…\n"
-    .string "I'm red-faced…$"
+    .string "Skömmin af þessu… Ég roðna…$"
 
 FiveIsland_ResortGorgeous_Text_DaisyPostBattle::
-    .string "Uh-oh, my paint tubes have\n"
-    .string "scattered everywhere!$"
+    .string "Úff, málningartúburnar mínar hafa\n"
+    .string "dreifst um allt!$"
 
 FiveIsland_ResortGorgeous_Text_CelinaIntro::
-    .string "Excuse me!\n"
-    .string "I'm trying to paint.\l"
-    .string "Please keep out of my sight!$"
+    .string "Afsakið! Ég er að reyna að mála.\n"
+    .string "Vinsamlegast haldið ykkur frá mér!$"
 
 FiveIsland_ResortGorgeous_Text_CelinaDefeat::
-    .string "This loss…\n"
-    .string "I feel like I'm whiting out…$"
+    .string "Þetta tap… Mér líður eins og ég sé\n"
+    .string "að líða út af…$"
 
 FiveIsland_ResortGorgeous_Text_CelinaPostBattle::
-    .string "GILLIAN?\n"
-    .string "Please tilt your head slightly…\l"
-    .string "There! That's the look I want!$"
+    .string "GILLIAN? Hallaðu höfðinu aðeins…\n"
+    .string "Svona! Þetta er svipurinn sem ég\p"
+    .string "vil!$"
 
 FiveIsland_ResortGorgeous_Text_RaynaIntro::
-    .string "Hmm…\n"
-    .string "The angle, it is not quite there…$"
+    .string "Hmm… Hornið er ekki alveg rétt…$"
 
 FiveIsland_ResortGorgeous_Text_RaynaDefeat::
-    .string "Oh…\n"
-    .string "My feelings, they are blue…$"
+    .string "Ó… Tilfinningar mínar eru bláar…$"
 
 FiveIsland_ResortGorgeous_Text_RaynaPostBattle::
-    .string "The sky and the sea…\n"
-    .string "They are so fickle.\p"
-    .string "Their changing expressions make\n"
-    .string "them difficult to capture.$"
+    .string "Himinninn og hafið… Þau eru svo\n"
+    .string "hverful.\p"
+    .string "Breytileg svipbrigði þeirra gera þau\n"
+    .string "erfið að fanga.$"
 
 FiveIsland_ResortGorgeous_Text_JackiIntro::
-    .string "I am visiting my friend's retreat,\n"
-    .string "if you must know.$"
+    .string "Ég er að heimsækja sumarbústað vinar\n"
+    .string "míns, ef þú verður að vita.$"
 
 FiveIsland_ResortGorgeous_Text_JackiDefeat::
-    .string "Oh, my, so strong.$"
+    .string "Ó, minn, svo sterkur.$"
 
 FiveIsland_ResortGorgeous_Text_JackiPostBattle::
-    .string "I find it pleasurable to leisurely\n"
-    .string "battle in the gentle sea breeze.$"
+    .string "Mér finnst það ánægjulegt að berjast\n"
+    .string "á rólegan hátt í mildri sjávargolu.$"
 
 FiveIsland_ResortGorgeous_Text_GillianIntro::
-    .string "I'm thinking of having a pool\n"
-    .string "made specially for POKéMON.$"
+    .string "Ég er að hugsa um að láta gera laug\n"
+    .string "sérstaklega fyrir Vasaskrímsli.$"
 
 FiveIsland_ResortGorgeous_Text_GillianDefeat::
-    .string "Oh, my goodness gracious!$"
+    .string "Ó, minn góður!$"
 
 FiveIsland_ResortGorgeous_Text_GillianPostBattle::
-    .string "A pool would be nice, but I must\n"
-    .string "say, a sun-room may be sublime.$"
+    .string "Sundlaug væri fín, en ég verð að\n"
+    .string "sjá, sólstofa gæti verið\p"
+    .string "stórkostleg.$"
 
 FiveIsland_ResortGorgeous_Text_DestinIntro::
-    .string "I'm a good runner.\n"
-    .string "I'm really fast!$"
+    .string "Ég er góður hlaupari. Ég er mjög\n"
+    .string "hraður!$"
 
 FiveIsland_ResortGorgeous_Text_DestinDefeat::
-    .string "Oops!\n"
-    .string "I rushed things!$"
+    .string "Úps! Ég flýtti mér of mikið!$"
 
 FiveIsland_ResortGorgeous_Text_DestinPostBattle::
-    .string "When I run with the wind, it feels\n"
-    .string "like I could fly!$"
+    .string "Þegar ég hleyp með vindinum, líður\n"
+    .string "mér eins og ég gæti flogið!$"
 
 FiveIsland_ResortGorgeous_Text_TobyIntro::
-    .string "I say, this marine life here at\n"
-    .string "this resort agrees with me.$"
+    .string "Ég segi, þetta sjávarlíf hér á\n"
+    .string "þessum dvalarstað hentar mér vel.$"
 
 FiveIsland_ResortGorgeous_Text_TobyDefeat::
-    .string "That's a shocker!\n"
-    .string "You must be joking.$"
+    .string "Þetta er áfall! Þú hlýtur að vera að\n"
+    .string "grínast.$"
 
 FiveIsland_ResortGorgeous_Text_TobyPostBattle::
-    .string "Getting so serious over this…\n"
-    .string "How nonsensical.$"
+    .string "Að taka þetta svona alvarlega…\n"
+    .string "Þvílík vitleysa.$"
 
 FiveIsland_ResortGorgeous_Text_SelphyThanksYouMayGoNow::
-    .string "SELPHY: Thank you.\p"
-    .string "You may go now.$"
+    .string "SELPHY: Takk fyrir.\p"
+    .string "Þú mátt fara núna.$"
 
 FiveIsland_ResortGorgeous_Text_SelphysHouse::
-    .string "SELPHY'S HOUSE$"
+    .string "HÚS SELPHY$"
 
