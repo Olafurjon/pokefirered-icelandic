@@ -40,6 +40,16 @@ wsl make modern -j8
 
 The output ROM is generated locally as `pokefirered_modern.gba`.
 
+## Saves And Emulator States
+
+Normal in-game saves should generally continue to work across updated builds.
+Use the game's internal save menu when playtesting.
+
+Emulator save states are less reliable after rebuilding the ROM. They can behave
+strangely or fail to resume correctly when text, graphics, maps, scripts, or
+engine code have changed. If something looks broken after loading a save state,
+try loading from an in-game save before reporting it as a bug.
+
 ## Translation Workflow
 
 Useful files:
