@@ -28,8 +28,8 @@ ViridianForest_Text_DougPostBattle::
     .string "veiða mér sterkari!$"
 
 ViridianForest_Text_SammyIntro::
-    .string "Hey, bíddu! Hver er flýtirinn? Af\n"
-    .string "hverju er svona brátt?$"
+    .string "Hey, bíddu! Hvar er eldurinn? Af\n"
+    .string "hverju liggur svona á?$"
 
 ViridianForest_Text_SammyDefeat::
     .string "Ég gefst upp! Þú ert góður í þessu!$"

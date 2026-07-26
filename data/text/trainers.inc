@@ -585,14 +585,15 @@ Route20_Text_DarrinRematchIntro::
 	.string "Hefurðu ekki lært að synda ennþá?$"
 
 Route20_Text_RogerRematchIntro::
-	.string "I rode my bird Vasaskrímsli here.$"
+	.string "Ég kom hingað á fugla-\n"
+	.string "Vasaskrímslinu mínu.$"
 
 Route20_Text_NoraRematchIntro::
 	.string "Kærastinn minn gaf mér stórar\n"
 	.string "perlur. Og þær hafa stækkað!$"
 
 Route20_Text_MissyRematchIntro::
-	.string "Ég synti hingað frá CINNABAR ISLAND.\n"
+	.string "Ég synti hingað frá CINNABAR EYJU.\n"
 	.string "Það var ekki auðvelt, eins og ég\p"
 	.string "sagði.$"
 
