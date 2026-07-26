@@ -50,10 +50,11 @@ RULES = [
     Rule("bag", re.compile(r"\bBAG\b|\bBag\b"), "TASKA / Taska"),
     Rule("attack", re.compile(r"\bATTACK\b|\bAttack\b"), "ÁRÁS / Árás"),
     Rule("tv", re.compile(r"\bTV\b"), "SJÓNVARP / sjónvarp"),
-    Rule("potion", re.compile(r"\bPOTION\b|\bPotion\b|\bDrykkur\b|\bDRYKKUR\b"), "SEYÐI / Seyði"),
+    Rule("potion", re.compile(r"\bPOTIONS?\b|\bPotions?\b|\bDrykkir?\b|\bDRYKKIR?\b"), "SEYÐI / Seyði"),
     Rule("cancel", re.compile(r"\bHATTA\b|\bHatta\b"), "HÆTTA / Hætta"),
     Rule("town-map", re.compile(r"BAJARKORT"), "BÆJARKORT"),
     Rule("safari-zone", re.compile(r"SAFARI\s+ZONE|Safari\s+Zone"), "SAFARI SVÆÐI / Safari svæði"),
+    Rule("cycling-road", re.compile(r"CYCLING\s+ROAD|Cycling\s+Road|cycling\s+road"), "HJÓLAVEGURINN"),
 ]
 
 

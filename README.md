@@ -64,9 +64,13 @@ Useful files:
 Before submitting a change, run:
 
 ```powershell
+python -m unittest tools.icelandic.test_translation_sanity
 python tools\icelandic\check_terms.py --root .
 wsl make modern -j8
 ```
+
+GitHub Actions runs the same translation tests, terminology check, and modern
+ROM build for pull requests and pushes to `main`.
 
 ## Current Gameplay Tweaks
 

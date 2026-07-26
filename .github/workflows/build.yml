@@ -3,11 +3,13 @@ name: Build Icelandic ROM
 on:
   push:
     branches:
-      - pokefirered-icelandic
+      - main
   pull_request:
+    branches:
+      - main
 
 jobs:
-  build-modern:
+  test-and-build-modern:
     runs-on: ubuntu-latest
     env:
       GAME_VERSION: FIRERED
@@ -15,6 +17,7 @@ jobs:
       GAME_REVISION: 0
       MODERN: 1
       COMPARE: 0
+      DEBIAN_FRONTEND: noninteractive
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -22,10 +25,11 @@ jobs:
       - name: Install dependencies
         run: |
           sudo apt update
-          sudo apt install -y gcc-arm-none-eabi binutils-arm-none-eabi libpng-dev python3
+          sudo apt install -y build-essential gcc-arm-none-eabi binutils-arm-none-eabi libpng-dev python3
 
-      - name: Check Icelandic terminology
+      - name: Run Icelandic translation tests
         run: |
+          python3 -m unittest tools.icelandic.test_translation_sanity
           python3 tools/icelandic/check_terms.py --root .
 
       - name: Build modern FireRed

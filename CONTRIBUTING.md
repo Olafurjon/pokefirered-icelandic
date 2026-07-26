@@ -39,9 +39,10 @@ intended to contain visible text.
 
 ## Before Opening A Pull Request
 
-Run the consistency checker:
+Run the translation tests and consistency checker:
 
 ```powershell
+python -m unittest tools.icelandic.test_translation_sanity
 python tools\icelandic\check_terms.py --root .
 ```
 
@@ -52,6 +53,9 @@ wsl make modern -j8
 ```
 
 If a visual issue is involved, include a screenshot and where it happened.
+
+Pull requests to `main` also run these checks in GitHub Actions, plus a modern
+ROM build.
 
 ## Manual Translation CSVs
 
