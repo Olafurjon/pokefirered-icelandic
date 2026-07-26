@@ -1,5 +1,5 @@
 PokemonTower_6F_Text_AngelicaIntro::
-    .string "Give…me… blood…$"
+    .string "Gefðu…mér… blóð…$"
 
 PokemonTower_6F_Text_AngelicaDefeat::
     .string "Stynj!$"
@@ -27,7 +27,7 @@ PokemonTower_6F_Text_JenniferPostBattle::
     .string "Hvað er að gerast hér?$"
 
 PokemonTower_6F_Text_BeGoneIntruders::
-    .string "Be gone… Intruders…$"
+    .string "Farið burt… Innbrotsfólk…$"
 
 PokemonTower_6F_Text_GhostWasCubonesMother::
     .string "Draugurinn var órólegur andi móður\n"
@@ -36,4 +36,3 @@ PokemonTower_6F_Text_GhostWasCubonesMother::
 PokemonTower_6F_Text_MothersSpiritWasCalmed::
     .string "Andi móðurinnar var róaður.\p"
     .string "Hann fór til framhaldslífsins…$"
-

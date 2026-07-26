@@ -22,7 +22,7 @@ SevenIsland_Text_IslandSign::
 
 SevenIsland_Text_IslandsMadeInSevenDays::
     .string "Þessar eyjar eru kallaðar SEVII\n"
-    .string "ISLANDS því þær eru sjö.\p"
+    .string "EYJAR því þær eru sjö.\p"
     .string "…Eða að minnsta kosti trúa unga\n"
     .string "fólkið því.\p"
     .string "Sannleikurinn er sá að nafnið kemur\n"

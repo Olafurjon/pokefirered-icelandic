@@ -53,7 +53,7 @@ FiveIsland_ResortGorgeous_House_Text_ButlerBagAppearsToBeFull::
     .string "vera full.$"
 
 FiveIsland_ResortGorgeous_House_Text_OhHowDisappointing::
-    .string "Oh… How disappointing.$"
+    .string "Ó… Þvílík vonbrigði.$"
 
 FiveIsland_ResortGorgeous_House_Text_SelphyWishYouBestOfLuck::
     .string "SELPHY: Ég óska þér alls hins besta.$"
@@ -63,4 +63,3 @@ FiveIsland_ResortGorgeous_House_Text_LadySelphySmileHasBrillianceOfSun::
     .string "birtu sólarinnar.\p"
     .string "Vinsamlegast, ég bið þig að færa frú\n"
     .string "SELPHY gleði.$"
-

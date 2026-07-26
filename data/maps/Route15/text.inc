@@ -69,13 +69,13 @@ Route15_Text_OliviaDefeat::
     .string "eða tap fyrir mér.$"
 
 Route15_Text_OliviaPostBattle::
-    .string "I love having my Vasaskrímsli greet\n"
-    .string "me when I get home.\p"
-    .string "It's so reassuring.$"
+    .string "Ég elska þegar Vasaskrímslin mín\n"
+    .string "taka á móti mér heima.\p"
+    .string "Það er svo hughreystandi.$"
 
 Route15_Text_ErnestIntro::
-    .string "Hey, kid! C'mon! I just got these\n"
-    .string "off some loser!$"
+    .string "Hey, krakki! Komdu! Ég fékk þetta\n"
+    .string "af einhverjum tapara!$"
 
 Route15_Text_ErnestDefeat::
     .string "Af hverju ekki?$"
@@ -143,7 +143,7 @@ Route15_Text_RonIntro::
     .string "þegar við töpum.$"
 
 Route15_Text_RonDefeat::
-    .string "RON: Oh, no, no… Sis, I'm sorry!$"
+    .string "RON: Ó, nei, nei… Systir, fyrirgefðu!$"
 
 Route15_Text_RonPostBattle::
     .string "RON: Ó, æ… Ég vildi að ég ætti góða\n"

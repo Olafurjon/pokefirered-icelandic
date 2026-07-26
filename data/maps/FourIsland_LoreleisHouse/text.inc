@@ -4,7 +4,7 @@ FourIsland_LoreleisHouse_Text_IfAnythingWereToHappenToIsland::
     .string "Ef eitthvað kæmi fyrir á eyjunni þar\n"
     .string "sem ég fæddist…\p"
     .string "Þá myndi ég ekki vita af því ef ég\n"
-    .string "væri í Vasaskrímsla LEAGUE.\p"
+    .string "væri í VASASKRÍMSLADEILDINNI.\p"
     .string "Ég velti fyrir mér hvort það gerði\n"
     .string "mig ábyrgðarlausa gagnvart heimili\p"
     .string "mínu…$"
@@ -16,7 +16,7 @@ FourIsland_LoreleisHouse_Text_IllReturnToLeagueInShortWhile::
     .string "Það þýðir að ég þarf ekki að vera\n"
     .string "hér allan tímann.\p"
     .string "Takk fyrir…\p"
-    .string "Ég sný aftur í Vasaskrímsla LEAGUE\n"
+    .string "Ég sný aftur í VASASKRÍMSLADEILDINA\n"
     .string "eftir stutta stund.$"
 
 FourIsland_LoreleisHouse_Text_WillDoWhatICanHereAndNow::
@@ -27,4 +27,3 @@ FourIsland_LoreleisHouse_Text_WillDoWhatICanHereAndNow::
 
 FourIsland_LoreleisHouse_Text_StuffedMonDollsGalore::
     .string "Stuffed Vasaskrímsli dolls galore!$"
-

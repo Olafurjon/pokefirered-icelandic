@@ -1,5 +1,5 @@
 OneIsland_Text_BillLetsGoSeeCelio::
-    .string "BILL: Hér erum við! Þetta er ONE\n"
+    .string "BILL: Hér erum við! Þetta er EIN\n"
     .string "EYJA.\p"
     .string "Það eru nokkrar eyjar hér í kring og\n"
     .string "þetta er ein þeirra.\p"
@@ -43,7 +43,7 @@ OneIsland_Text_HavePCLinkageWithHoenn::
     .string "fyrir barnabarn mitt!$"
 
 OneIsland_Text_IslandSign::
-    .string "EINN EYJA Vinir safnast saman á\n"
+    .string "EIN EYJA Vinir safnast saman á\n"
     .string "Hnúta Eyju$"
 
 OneIsland_Text_PokemonNetCenterSign::
@@ -57,4 +57,3 @@ OneIsland_Text_ReturnToCinnabar::
 OneIsland_Text_IsntWarmClimateHereGreat::
     .string "Hæ, ertu í skoðunarferð? Er ekki\n"
     .string "hlýja loftslagið hér frábært?$"
-

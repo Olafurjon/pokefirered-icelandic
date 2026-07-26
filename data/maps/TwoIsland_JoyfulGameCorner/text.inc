@@ -14,7 +14,7 @@ TwoIsland_JoyfulGameCorner_Text_PleaseHelpFindLostelle::
     .string "Hvað ef eitthvað hefur komið fyrir\n"
     .string "LOSTELLE mína?!\p"
     .string "Vinsamlegast hjálpaðu mér að finna\n"
-    .string "hana! Leitaðu á THREE EYJU!$"
+    .string "hana! Leitaðu á ÞRJÚ EYJU!$"
 
 TwoIsland_JoyfulGameCorner_Text_IsThisOnlyThreeIsland::
     .string "Ha? Hvað er þetta fyrir\n"
@@ -23,13 +23,13 @@ TwoIsland_JoyfulGameCorner_Text_IsThisOnlyThreeIsland::
     .string "Þessir trúðar…\p"
     .string "Þeir sögðust bíða á eyjunni, svo\n"
     .string "hvar eru þeir?\p"
-    .string "Hey, þú! Er þetta eina THREE EYJAN\n"
+    .string "Hey, þú! Er þetta eina ÞRJÚ EYJAN\n"
     .string "hér í kring?$"
 
 TwoIsland_JoyfulGameCorner_Text_ThisIsTwoIslandMoveIt::
     .string "Reyndu að vakna áður en þú skríður\n"
     .string "upp úr rúminu, bjáni.\p"
-    .string "Þetta er TWO EYJA!\p"
+    .string "Þetta er TVÖ EYJA!\p"
     .string "Hafðu þig! Fáðu skítuga mótorhjólið\n"
     .string "þitt út úr staðnum mínum!$"
 
@@ -43,10 +43,10 @@ TwoIsland_JoyfulGameCorner_Text_PunkScuffedUpMyFloor::
 
 TwoIsland_JoyfulGameCorner_Text_PleaseGoToThreeIsland::
     .string "Heyrðu samt! Ég grátbið þig, þú\n"
-    .string "verður að fara til THREE EYJU.\p"
+    .string "verður að fara til ÞRJÚ EYJU.\p"
     .string "Ef eitthvað kæmi fyrir LOSTELLE\n"
     .string "mína…\p"
-    .string "Húsið mitt er með rauðu þaki á THREE\n"
+    .string "Húsið mitt er með rauðu þaki á ÞRJÚ\n"
     .string "EYJU.\p"
     .string "Hún gæti bara komið seint hingað,\n"
     .string "svo ég get ekki hlaupið neitt.\p"
@@ -106,4 +106,3 @@ TwoIsland_JoyfulGameCorner_Text_PleaseShowMeYouBeingCool::
     .string "Heyrðu, heyrðu!\p"
     .string "Sýndu mér aftur hvað þú ert\n"
     .string "flott/ur!$"
-

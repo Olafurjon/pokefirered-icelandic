@@ -5,7 +5,7 @@ FiveIsland_WaterLabyrinth_Text_LetMeTakeLookAtMons::
     .string "Leyfðu mér að skoða þau. … … … … … …$"
 
 FiveIsland_WaterLabyrinth_Text_HmmISeeIsee::
-    .string "Ah, hmm… I see, I see…$"
+    .string "Ah, hmm… Ég skil, ég skil…$"
 
 FiveIsland_WaterLabyrinth_Text_TreatMonRightHaveThis::
     .string "Ó, glæsilegt. Þú kemur vel fram við\n"

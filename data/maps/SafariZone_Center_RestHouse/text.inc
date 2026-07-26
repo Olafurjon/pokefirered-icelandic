@@ -3,6 +3,5 @@ SafariZone_Center_Text_WhereDidErikGo::
     .string "ERIK?$"
 
 SafariZone_Center_Text_CatchingMonsAsGifts::
-    .string "I'm catching Vasaskrímsli to take\n"
-    .string "home as gifts.$"
-
+    .string "Ég er að fanga Vasaskrímsli til að\n"
+    .string "taka heim sem gjafir.$"

@@ -13,6 +13,11 @@ This document records approved terminology and style rules for the Icelandic ver
 | Pokemon Center | Vasaskrímslasetur | UI/system/location term. |
 | CENTER | SETUR | Standalone/location suffix context; do not use English `CENTER` in visible prose. |
 | Pokemon League | Vasaskrímsladeild | UI/system/location term. |
+| Elite Four | Elíta 4 / ELÍTA 4 | Use `ELÍTU 4` in genitive/dative prose. |
+| Pokemon Tower | Vasaskrímslaturn | Location term. |
+| Pokemon Mansion | Vasaskrímslaherrasetur | Location term. |
+| Pokemon Research Lab | Vasaskrímslarannsóknarstofa | Location term. |
+| Icefall Cave | Ísfallshellir | Location term. |
 | Pokedex / Pokédex | VasaDEX | Existing project convention. |
 | POKé DUDE | VASa GAURINN | Example phrase: `Það er ég, VASa GAURINN!` |
 | POKé DOLL | VASa DÚKKA | Use `VASa DÚKKU` in accusative context. |
@@ -32,7 +37,17 @@ This document records approved terminology and style rules for the Icelandic ver
 | CITY | BORG | Place suffix. |
 | ROUTE X | VEGUR X | Route names/signage. |
 | CYCLING ROAD | HJÓLAVEGURINN | Location term; inflect as `HJÓLAVEGINN`, `HJÓLAVEGINUM`. |
-| ISLAND | EYJA | Place suffix, e.g. `ONE EYJA`, `SEVII EYJAR`. |
+| ONE ISLAND | EIN EYJA | Sevii place name. Use `EIN EYJU` in dative/genitive prose if needed. |
+| TWO ISLAND | TVÖ EYJA | Sevii place name. Use `TVÖ EYJU` in dative/genitive prose if needed. |
+| THREE ISLAND | ÞRJÚ EYJA | Sevii place name. Use `ÞRJÚ EYJU` in dative/genitive prose if needed. |
+| FOUR ISLAND | FJÓR EYJA | Sevii place name. Use `FJÓR EYJU` in dative/genitive prose if needed. |
+| FIVE ISLAND | FIMM EYJA | Sevii place name. Use `FIMM EYJU` in dative/genitive prose if needed. |
+| SIX ISLAND | SEX EYJA | Sevii place name. Use `SEX EYJU` in dative/genitive prose if needed. |
+| SEVEN ISLAND | SJÖ EYJA | Sevii place name. Use `SJÖ EYJU` in dative/genitive prose if needed. |
+| ROCK TUNNEL | STEINA GÖNG | Location name; use `STEINA GÖNGUM`, `STEINA GÖNGIN` as needed. |
+| SEAFOAM ISLANDS | SJÁVARFROÐU EYJAR | Location name; singular/contextual form may use `SJÁVARFROÐU EYJA`. |
+| KINDLE ROAD | KYNDILVEGUR | Location name; localized for the fire/ember context. |
+| BOND BRIDGE | TENGIBRÚ | Location name. |
 | PALLET TOWN | PALLET BÆR | Location/banner name; use `PALLET BÆ`, `PALLET BÆJAR` etc. in inflected prose. |
 | BERRY | BER | Generic berry/item-family word in visible text. |
 | BERRY FOREST | BERJA SKÓGUR | Location term. Use `BERJA SKÓGI` in dative contexts. |

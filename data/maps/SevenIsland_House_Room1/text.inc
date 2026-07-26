@@ -41,7 +41,7 @@ SevenIsland_House_Room1_Text_SaveProgressBeforeBattle::
     .string "viltu vista leikinn þinn?$"
 
 SevenIsland_House_Room1_Text_DontHoldAnythingBack::
-    .string "All right. Don't hold anything back!$"
+    .string "Allt í lagi. Ekki halda aftur af þér!$"
 
 @ Unused
 SevenIsland_House_Room1_Text_StrVar1_1::
@@ -86,4 +86,3 @@ SevenIsland_House_Room1_Text_FeelYourDisappointment::
     .string "þau knýja þig til afreka.\p"
     .string "Gleymdu ekki þessum vonbrigðum, og\n"
     .string "tvöfaldaðu þjálfunina!$"
-

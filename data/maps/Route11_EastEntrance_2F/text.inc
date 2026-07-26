@@ -45,5 +45,4 @@ Route11_EastEntrance_2F_Text_RockTunnelGoodRouteToLavender::
     .string "Sjáum hvað sjónaukinn sýnir...\p"
     .string "Til að komast til LAVENDER BORGAR\n"
     .string "frá CERULEAN BORG...\p"
-    .string "ROCK TUNNEL virðist vera góð leið.$"
-
+    .string "STEINA GÖNG virðast vera góð leið.$"

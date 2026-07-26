@@ -68,7 +68,7 @@ Route19_Text_AnyaDefeat::
     .string "Ó! Ég tapaði!$"
 
 Route19_Text_AnyaPostBattle::
-    .string "Það er enn langt til SEAFOAM EYJA...\p"
+    .string "Það er enn langt til SJÁVARFROÐU EYJA...\p"
     .string "Mig langar aftur til FUCHSIA...$"
 
 Route19_Text_AliceIntro::
@@ -80,7 +80,7 @@ Route19_Text_AliceDefeat::
 
 Route19_Text_AlicePostBattle::
     .string "Kærastinn minn vildi synda til\n"
-    .string "SEAFOAM EYJA.$"
+    .string "SJÁVARFROÐU EYJA.$"
 
 Route19_Text_AxleIntro::
     .string "Ahoy, þarna! Þessi vötn eru varasöm!$"
@@ -106,7 +106,7 @@ Route19_Text_ConniePostBattle::
     .string "að hún héldi mér þurrum á vatninu.$"
 
 Route19_Text_RouteSign::
-    .string "SJÓLEIÐ 19 FUCHSIA BORG - SEAFOAM\n"
+    .string "SJÓLEIÐ 19 FUCHSIA BORG - SJÁVARFROÐU\n"
     .string "EYJAR$"
 
 Route19_Text_LiaIntro::

@@ -139,7 +139,7 @@ Route9_Text_ChrisRematchIntro::
 	.string "þessum fallegu Vasaskrímslum.$"
 
 Route9_Text_DrewRematchIntro::
-	.string "Ég er að fara í BERGGÖNGIN til\n"
+	.string "Ég er að fara í STEINA GÖNGIN til\n"
 	.string "LAVENDER…\p"
 	.string "En ég er stöðugt stoppaður af öllum\n"
 	.string "á leiðinni…$"
@@ -376,9 +376,9 @@ Route15_Text_BeckyRematchIntro::
 	.string "Ég ætla að reyna einu sinni enn!$"
 
 Route15_Text_EdwinRematchIntro::
-	.string "When I whistle, bird Vasaskrímsli\n"
-	.string "gather around.\p"
-	.string "They're amazingly cute!$"
+	.string "Þegar ég flauta safnast fugla-\n"
+	.string "Vasaskrímsli í kring.\p"
+	.string "Þau eru ótrúlega krúttleg!$"
 
 Route15_Text_ChesterRematchIntro::
 	.string "Hmm? Fuglarnir mínir skjálfa! Bíddu,\n"
@@ -469,8 +469,8 @@ Route17_Text_NikolasRematchIntro::
 	.string "alvarlega í dag!$"
 
 Route17_Text_ZeekRematchIntro::
-	.string "I leveled up my Vasaskrímsli, but it\n"
-	.string "absolutely won't evolve. Why?$"
+	.string "Ég hækkaði stigið á Vasaskrímslinu,\n"
+	.string "en það þróast alls ekki. Af hverju?$"
 
 Route17_Text_JamalRematchIntro::
 	.string "Gaah! Ég þarf virkilega að æfa og\n"
@@ -566,7 +566,7 @@ Route20_Text_BarryRematchIntro::
 
 Route20_Text_ShirleyRematchIntro::
 	.string "Ertu afbrýðisamur að ég sé í fríi á\n"
-	.string "SEAFOAM?$"
+	.string "SJÁVARFROÐA?$"
 
 Route20_Text_TiffanyRematchIntro::
 	.string "Ég elska að fljóta með fiskunum hér\n"
@@ -852,7 +852,7 @@ SixIsland_OutcastIsland_Text_TylorRematchIntro::
 
 SixIsland_OutcastIsland_Text_MymoRematchIntro::
 	.string "Andvarp… Andvarp…\p"
-	.string "Ég synti hingað frá höfn SIX ISLAND\n"
+	.string "Ég synti hingað frá höfn SEX EYJU\n"
 	.string "í einu lagi aftur.$"
 
 SixIsland_OutcastIsland_Text_NicoleRematchIntro::
@@ -945,8 +945,8 @@ SevenIsland_SevaultCanyon_Entrance_Text_NicolasRematchIntro::
 	.string "vakta staðinn er leiðinlegt…$"
 
 SevenIsland_SevaultCanyon_Entrance_Text_MadelineRematchIntro::
-	.string "I don't forgive people who abuse\n"
-	.string "Vasaskrímsli!$"
+	.string "Ég fyrirgef ekki fólki sem fer illa\n"
+	.string "með Vasaskrímsli!$"
 
 SevenIsland_SevaultCanyon_Entrance_Text_EveRematchIntro::
 	.string "EVE: Ég mun taka höndum saman við\n"

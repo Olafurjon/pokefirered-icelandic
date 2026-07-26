@@ -25,7 +25,7 @@ LavenderTown_House2_Text_FromNowOnShallBeKnownAsName::
     .string "heppinn!$"
 
 LavenderTown_House2_Text_ISeeComeVisitAgain::
-    .string "I see. Do come visit again.$"
+    .string "Ég skil. Endilega komdu aftur.$"
 
 LavenderTown_House2_Text_FromNowOnShallBeKnownAsSameName::
     .string "Búið! Héðan í frá skal þetta\n"
@@ -42,4 +42,3 @@ LavenderTown_House2_Text_TrulyImpeccableName::
 
 LavenderTown_House2_Text_ThatIsMerelyAnEgg::
     .string "Nú, nú. Þetta er bara EGG!$"
-

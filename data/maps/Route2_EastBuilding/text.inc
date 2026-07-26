@@ -27,5 +27,4 @@ Route2_EastBuilding_Text_ExplainHM05::
 
 Route2_EastBuilding_Text_CanGetThroughRockTunnel::
     .string "Þegar vasaskrímsli lærir LEIFTUR\n"
-    .string "kemstu í gegnum ROCK TUNNEL.$"
-
+    .string "kemstu í gegnum STEINA GÖNG.$"

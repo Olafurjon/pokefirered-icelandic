@@ -1,5 +1,5 @@
 PokemonTower_1F_Text_ErectedInMemoryOfDeadMons::
-    .string "Vasaskrímsla TOWER var reist til\n"
+    .string "VASASKRÍMSLATURN var reistur til\n"
     .string "minningar um Vasaskrímsli sem\p"
     .string "dóu.$"
 
@@ -25,4 +25,3 @@ PokemonTower_1F_Text_SenseSpiritsUpToMischief::
     .string "Ég er MIÐILL.\p"
     .string "Það eru andar að gera óþekkt. Ég\n"
     .string "skynja þá hátt í TURNINUM.$"
-

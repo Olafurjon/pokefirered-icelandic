@@ -9,8 +9,7 @@ LavenderTown_House1_Text_RocketsKilledCubonesMother::
     .string "flýja frá ROCKET-GENGINU.$"
 
 LavenderTown_House1_Text_GhostOfPokemonTowerIsGone::
-    .string "Draugurinn í Vasaskrímsla TOWER er\n"
+    .string "Draugurinn í VASASKRÍMSLATURNI er\n"
     .string "farinn!\p"
     .string "Einhver hlýtur að hafa sefað órólega\n"
     .string "önd hans!$"
-

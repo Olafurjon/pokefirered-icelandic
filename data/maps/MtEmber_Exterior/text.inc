@@ -80,7 +80,7 @@ MtEmber_Exterior_Text_Grunt2Intro::
     .string "fjársjóðinn okkar? Ekki veðja á það!$"
 
 MtEmber_Exterior_Text_Grunt2Defeat::
-    .string "Wait! But how?$"
+    .string "Bíddu! En hvernig?$"
 
 MtEmber_Exterior_Text_Grunt2PostBattle::
     .string "Fáðu minnisleysi á þægilegan hátt og\n"
@@ -133,4 +133,3 @@ MtEmber_Exterior_Text_JocelynDefeat::
 MtEmber_Exterior_Text_JocelynPostBattle::
     .string "Bardagastíllinn þinn minnir mig á\n"
     .string "gaurnum sem henti mér…$"
-

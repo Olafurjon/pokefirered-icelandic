@@ -35,8 +35,8 @@ Route8_Text_PaigeDefeat::
     .string "Af hverju? Af hverju??$"
 
 Route8_Text_PaigePostBattle::
-    .string "When Vasaskrímsli grow up, they get\n"
-    .string "ugly! They shouldn't evolve.$"
+    .string "Þegar Vasaskrímsli vaxa úr grasi\n"
+    .string "verða þau ljót! Þau ættu ekki að þróast.$"
 
 Route8_Text_LeslieIntro::
     .string "Skólinn er skemmtilegur, en\n"
@@ -93,7 +93,8 @@ Route8_Text_JuliaIntro::
 
 Route8_Text_JuliaDefeat::
     .string "Stop!\p"
-    .string "Don't be so mean to my BLEIKÁLFUR!$"
+    .string "Ekki vera svona vond/ur við\n"
+    .string "BLEIKÁLFUR minn!$"
 
 Route8_Text_JuliaPostBattle::
     .string "Ég las að BLEIKÁLFUR þróist þegar\n"

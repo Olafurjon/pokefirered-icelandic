@@ -1,5 +1,5 @@
 ThreeIsland_Text_IslandSign::
-    .string "ÞRÍEYJA Frændeyja fjölskyldu banda$"
+    .string "ÞRJÚ EYJA Frændeyja fjölskyldu banda$"
 
 ThreeIsland_Text_IslandBelongsToUs::
     .string "Hýjú!\p"
@@ -141,13 +141,13 @@ ThreeIsland_Text_LostelleWentOffTowardsBondBridge::
     .string "kosti um stund.\p"
     .string "…Fyrirgefðu? Ertu að leita að\n"
     .string "LOSTELLE?\p"
-    .string "LOSTELLE fór í átt að BOND BRÚ fyrir\n"
+    .string "LOSTELLE fór í átt að TENGIBRÚ fyrir\n"
     .string "nokkru.\p"
     .string "Þú finnur hana kannski ef þú ferð þá\n"
     .string "leið.$"
 
 ThreeIsland_Text_WouldntWantToSeeBikersHereAgain::
-    .string "ÞRÍEYJAN er í raun sú fjölmennasta\n"
+    .string "ÞRJÚ EYJAN er í raun sú fjölmennasta\n"
     .string "af eyjunum hér.\p"
     .string "Samt gæti hún verið minna syfjuð.\p"
     .string "En ég myndi ekki vilja sjá skúrka\n"
@@ -157,7 +157,7 @@ ThreeIsland_Text_WhenDodouEvolvesGoingToPlayGame::
     .string "Ég ætla að þjálfa PARFUGL minn í\n"
     .string "BERJA SKÓGI.\p"
     .string "Þegar hann þróast ætla ég að spila\n"
-    .string "leik á TWO EYJU.$"
+    .string "leik á TVÖ EYJU.$"
 
 ThreeIsland_Text_Doduo::
     .string "PARFUGL: Gigiih!$"

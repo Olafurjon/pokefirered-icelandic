@@ -17,6 +17,5 @@ SafariZone_West_Text_BaitMakesMonStickAround::
     .string "þau byrja að éta.$"
 
 SafariZone_West_Text_HikedLotsDidntSeeMonIWanted::
-    .string "I hiked a lot, but I didn't see any\n"
-    .string "Vasaskrímsli I wanted.$"
-
+    .string "Ég gekk heilmikið, en sá ekkert\n"
+    .string "Vasaskrímsli sem mig langaði í.$"

@@ -51,21 +51,21 @@ SilphCo_5F_Text_Grunt2PostBattle::
     .string "KÍGILDI þróast í PÚSTASKRÁP!$"
 
 SilphCo_5F_Text_PorygonFirstVRMon::
-    .string "It's a Vasaskrímsli REPORT!\p"
-    .string "Vasaskrímsli LAB created GRAFÍKJA,\n"
-    .string "fyrsta sýndarveruleika-\p"
-    .string "Vasaskrímsli.$"
+    .string "Þetta er Vasaskrímslaskýrsla!\p"
+    .string "VASASKRÍMSLARANNSÓKNARSTOFAN bjó\n"
+    .string "til GRAFÍKJA, fyrsta\p"
+    .string "sýndarveruleika-Vasaskrímslið.$"
 
 SilphCo_5F_Text_Over350TechniquesConfirmed::
-    .string "It's a Vasaskrímsli REPORT!\p"
+    .string "Þetta er Vasaskrímslaskýrsla!\p"
     .string "Yfir 350 Vasaskrímsla-brögð\n"
     .string "hafa verið staðfest.$"
 
 SilphCo_5F_Text_SomeMonsEvolveWhenTraded::
-    .string "It's a Vasaskrímsli REPORT!\p"
+    .string "Þetta er Vasaskrímslaskýrsla!\p"
     .string "Staðfest hefur verið að sum\n"
-    .string "Vasaskrímsli þróast þegar þau eru\p"
-    .string "skipst á þeim.$"
+    .string "Vasaskrímsli þróast þegar þeim er\p"
+    .string "skipt.$"
 
 SilphCo_5F_Text_FloorSign::
     .string "SILPH CO. HÖFUÐSKRIFSTOFA 5H$"

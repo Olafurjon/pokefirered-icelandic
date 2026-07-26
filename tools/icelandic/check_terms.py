@@ -55,6 +55,17 @@ RULES = [
     Rule("town-map", re.compile(r"BAJARKORT"), "BÆJARKORT"),
     Rule("safari-zone", re.compile(r"SAFARI\s+ZONE|Safari\s+Zone"), "SAFARI SVÆÐI / Safari svæði"),
     Rule("cycling-road", re.compile(r"CYCLING\s+ROAD|Cycling\s+Road|cycling\s+road"), "HJÓLAVEGURINN"),
+    Rule("rock-tunnel", re.compile(r"ROCK\s+TUNNEL|Rock\s+Tunnel|BERGGÖNG|STEINGÖNG"), "STEINA GÖNG"),
+    Rule("seafoam-islands", re.compile(r"SEAFOAM(?:\s+EYJ(?:A|AR))?|Seafoam(?:\s+Islands?)?|SJÁFROÐUEYJAR"), "SJÁVARFROÐU EYJA / SJÁVARFROÐU EYJAR"),
+    Rule("kindle-road", re.compile(r"KINDLE\s+ROAD|Kindle\s+Road|KINDLE\s+VEGUR"), "KYNDILVEGUR"),
+    Rule("bond-bridge", re.compile(r"BOND\s+BRIDGE|Bond\s+Bridge|BOND\s+BRÚ"), "TENGIBRÚ"),
+    Rule("sevii-one-island", re.compile(r"\bONE\s+(ISLAND|EYJA|EYJU|EYJAN)\b|\bEINN\s+EYJA\b|EINEY"), "EIN EYJA"),
+    Rule("sevii-two-island", re.compile(r"\bTWO\s+(ISLAND|EYJA|EYJU|EYJAN)\b|TVÍEY"), "TVÖ EYJA"),
+    Rule("sevii-three-island", re.compile(r"\bTHREE\s+(ISLAND|EYJA|EYJU|EYJAN)\b|ÞRÍEY"), "ÞRJÚ EYJA"),
+    Rule("sevii-four-island", re.compile(r"\bFOUR\s+(ISLAND|EYJA|EYJU|EYJAN)\b|FJÓREY"), "FJÓR EYJA"),
+    Rule("sevii-five-island", re.compile(r"\bFIVE\s+(ISLAND|EYJA|EYJU|EYJAN)\b|FIMMEY"), "FIMM EYJA"),
+    Rule("sevii-six-island", re.compile(r"\bSIX\s+(ISLAND|EYJA|EYJU|EYJAN)\b|SEXEY"), "SEX EYJA"),
+    Rule("sevii-seven-island", re.compile(r"\bSEVEN\s+(ISLAND|EYJA|EYJU|EYJAN)\b|SJÖEY"), "SJÖ EYJA"),
 ]
 
 

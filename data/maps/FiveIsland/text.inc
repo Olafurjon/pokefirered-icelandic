@@ -1,5 +1,5 @@
 FiveIsland_Text_IslandSign::
-    .string "FIVE EYJA Tímaeyja: Þar sem tíminn\n"
+    .string "FIMM EYJA Tímaeyja: Þar sem tíminn\n"
     .string "líður$"
 
 FiveIsland_Text_WeirdBuildingInMeadow::
@@ -14,4 +14,3 @@ FiveIsland_Text_BeenGettingBusierAroundHere::
     .string "hér um slóðir undanfarið.\p"
     .string "Mér hefur ekki gengið vel að veiða\n"
     .string "góðan fisk undanfarið heldur.$"
-

@@ -1,5 +1,5 @@
 PokemonTower_4F_Text_PaulaIntro::
-    .string "Ghost! No! Kwaaah!$"
+    .string "Draugur! Nei! Kwaaah!$"
 
 PokemonTower_4F_Text_PaulaDefeat::
     .string "Hvar er draugurinn?$"
@@ -21,9 +21,8 @@ PokemonTower_4F_Text_JodyIntro::
     .string "Huhuhu… Ekki berja mig!$"
 
 PokemonTower_4F_Text_JodyDefeat::
-    .string "Huh? Who? What?$"
+    .string "Ha? Hver? Hvað?$"
 
 PokemonTower_4F_Text_JodyPostBattle::
     .string "Megi horfin Vasaskrímsli hvíla í\n"
     .string "friði…$"
-

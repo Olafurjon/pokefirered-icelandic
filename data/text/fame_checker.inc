@@ -396,7 +396,7 @@ gFameCheckerFlavorTextOriginLocation_ProfOak3::
 	.string "VIRIDIAN-BORG$"
 
 gFameCheckerFlavorTextOriginLocation_ProfOak4::
-	.string "Vasaskrímsli LEAGUE$"
+	.string "VASASKRÍMSLADEILD$"
 
 gFameCheckerFlavorTextOriginLocation_ProfOak5::
 	.string "RANNSÓKNARSTOFA$"
@@ -417,7 +417,7 @@ gFameCheckerFlavorTextOriginLocation_Daisy4::
 	.string "CELADON-SETRIÐ$"
 
 gFameCheckerFlavorTextOriginLocation_Daisy5::
-	.string "FJÓREY$"
+	.string "FJÓR EYJA$"
 
 gFameCheckerFlavorTextOriginLocation_Brock0::
 	.string "PEWTER-BORG$"
@@ -447,7 +447,7 @@ gFameCheckerFlavorTextOriginLocation_Misty2::
 	.string "CERULEAN SALUR$"
 
 gFameCheckerFlavorTextOriginLocation_Misty3::
-	.string "SJÁFROÐUEYJAR$"
+	.string "SJÁVARFROÐU EYJAR$"
 
 gFameCheckerFlavorTextOriginLocation_Misty4::
 	.string "CERULEAN-HÖFÐI$"
@@ -513,7 +513,7 @@ gFameCheckerFlavorTextOriginLocation_Sabrina0::
 	.string "SAFFRON-BORG$"
 
 gFameCheckerFlavorTextOriginLocation_Sabrina1::
-	.string "ÞRÍEY$"
+	.string "ÞRJÚ EYJA$"
 
 gFameCheckerFlavorTextOriginLocation_Sabrina2::
 	.string "SAFFRON SALUR$"
@@ -546,28 +546,28 @@ gFameCheckerFlavorTextOriginLocation_Blaine5::
 	.string "GLÆSILEGT DVALARSVÆÐI$"
 
 gFameCheckerFlavorTextOriginLocation_Lorelei0::
-	.string "Vasaskrímsli LEAGUE$"
+	.string "VASASKRÍMSLADEILD$"
 
 gFameCheckerFlavorTextOriginLocation_Lorelei1::
-	.string "Vasaskrímsli LEAGUE$"
+	.string "VASASKRÍMSLADEILD$"
 
 gFameCheckerFlavorTextOriginLocation_Lorelei2::
-	.string "FJÓREY$"
+	.string "FJÓR EYJA$"
 
 gFameCheckerFlavorTextOriginLocation_Lorelei3::
-	.string "FIMMEY$"
+	.string "FIMM EYJA$"
 
 gFameCheckerFlavorTextOriginLocation_Lorelei4::
-	.string "FJÓREY$"
+	.string "FJÓR EYJA$"
 
 gFameCheckerFlavorTextOriginLocation_Lorelei5::
-	.string "FJÓREY$"
+	.string "FJÓR EYJA$"
 
 gFameCheckerFlavorTextOriginLocation_Bruno0::
-	.string "Vasaskrímsli LEAGUE$"
+	.string "VASASKRÍMSLADEILD$"
 
 gFameCheckerFlavorTextOriginLocation_Bruno1::
-	.string "Vasaskrímsli LEAGUE$"
+	.string "VASASKRÍMSLADEILD$"
 
 gFameCheckerFlavorTextOriginLocation_Bruno2::
 	.string "SAFFRON-BORG$"
@@ -576,13 +576,13 @@ gFameCheckerFlavorTextOriginLocation_Bruno3::
 	.string "GLÓÐARLAUGAR$"
 
 gFameCheckerFlavorTextOriginLocation_Bruno4::
-	.string "TVÍEY$"
+	.string "TVÖ EYJA$"
 
 gFameCheckerFlavorTextOriginLocation_Bruno5::
 	.string "SJÖHVOLFA GLJÚFUR$"
 
 gFameCheckerFlavorTextOriginLocation_Agatha0::
-	.string "Vasaskrímsli LEAGUE$"
+	.string "VASASKRÍMSLADEILD$"
 
 gFameCheckerFlavorTextOriginLocation_Agatha1::
 	.string "INDIGO-HÁSLÉTTA$"
@@ -591,19 +591,19 @@ gFameCheckerFlavorTextOriginLocation_Agatha2::
 	.string "INDIGO-HÁSLÉTTA$"
 
 gFameCheckerFlavorTextOriginLocation_Agatha3::
-	.string "SJÖEY$"
+	.string "SJÖ EYJA$"
 
 gFameCheckerFlavorTextOriginLocation_Agatha4::
-	.string "Vasaskrímsli LEAGUE$"
+	.string "VASASKRÍMSLADEILD$"
 
 gFameCheckerFlavorTextOriginLocation_Agatha5::
-	.string "SEXEY$"
+	.string "SEX EYJA$"
 
 gFameCheckerFlavorTextOriginLocation_Lance0::
-	.string "Vasaskrímsli LEAGUE$"
+	.string "VASASKRÍMSLADEILD$"
 
 gFameCheckerFlavorTextOriginLocation_Lance1::
-	.string "Vasaskrímsli LEAGUE$"
+	.string "VASASKRÍMSLADEILD$"
 
 gFameCheckerFlavorTextOriginLocation_Lance2::
 	.string "SAFFRON-BORG$"
@@ -627,19 +627,19 @@ gFameCheckerFlavorTextOriginLocation_Bill2::
 	.string "FUCHSIA-BORG$"
 
 gFameCheckerFlavorTextOriginLocation_Bill3::
-	.string "EINEY$"
+	.string "EIN EYJA$"
 
 gFameCheckerFlavorTextOriginLocation_Bill4::
-	.string "EINEY$"
+	.string "EIN EYJA$"
 
 gFameCheckerFlavorTextOriginLocation_Bill5::
-	.string "EINEY$"
+	.string "EIN EYJA$"
 
 gFameCheckerFlavorTextOriginLocation_MrFuji0::
 	.string "LAVENDER-BÆR$"
 
 gFameCheckerFlavorTextOriginLocation_MrFuji1::
-	.string "Vasaskrímsli TOWER$"
+	.string "VASASKRÍMSLATURN$"
 
 gFameCheckerFlavorTextOriginLocation_MrFuji2::
 	.string "LAVENDER-BÆR$"
@@ -971,7 +971,7 @@ PokemonJournal_Text_SpecialFeatureMisty::
 	.string "Sérstök grein: CERULEAN SALUR\n"
 	.string "LEIÐTOGI MISTY!\p"
 	.string "Sagt er að MISTY dýrki LORELEI úr\n"
-	.string "ELITE FOUR.$"
+	.string "ELÍTU 4.$"
 
 PokemonJournal_Text_SpecialFeatureLtSurge::
 	.string "VASASKRÍMSLA TÍMARIT\p"
@@ -1026,21 +1026,21 @@ PokemonJournal_Text_SpecialFeatureLorelei::
 
 PokemonJournal_Text_SpecialFeatureBruno::
 	.string "VASASKRÍMSLA TÍMARIT\p"
-	.string "Sérstök grein: BRUNO úr ELITE FOUR!\p"
-	.string "BRUNO gekk víst í ELITE FOUR vegna\n"
+	.string "Sérstök grein: BRUNO úr ELÍTU 4!\p"
+	.string "BRUNO gekk víst í ELÍTU 4 vegna\n"
 	.string "brennandi metnaðar síns til að\p"
 	.string "berjast við bestu ÞJÁLFARANA.$"
 
 PokemonJournal_Text_SpecialFeatureAgatha::
 	.string "VASASKRÍMSLA TÍMARIT\p"
-	.string "Sérstök grein: AGATHA úr ELITE FOUR!\p"
+	.string "Sérstök grein: AGATHA úr ELÍTU 4!\p"
 	.string "Á yngri árum voru AGATHA og PRÓF.\n"
 	.string "EIK keppinautar sem börðust\p"
 	.string "um yfirburði sem ÞJÁLFARAR.$"
 
 PokemonJournal_Text_SpecialFeatureLance::
 	.string "VASASKRÍMSLA TÍMARIT\p"
-	.string "Sérstök grein: LANCE úr ELITE FOUR!\p"
+	.string "Sérstök grein: LANCE úr ELÍTU 4!\p"
 	.string "Afi LANCE er talinn vera öldungur\n"
 	.string "frægrar ættar drekameistara.$"
 

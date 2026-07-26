@@ -55,7 +55,7 @@ FourIsland_IcefallCave_Back_Text_LoreleiWellDeepFreezeYou::
 FourIsland_IcefallCave_Back_Text_OkayRocketWareHouseFiveIsland::
     .string "Vááá! Allt í lagi! Ég tala!\p"
     .string "Vasaskrímslin eru í ROCKET\n"
-    .string "VÖRUHÚSINU á FIVE EYJU.\p"
+    .string "VÖRUHÚSINU á FIMM EYJU.\p"
     .string "Þarna! Ég sagði það! Við förum núna!\p"
     .string "…En ég efast um að þú komist nokkurn\n"
     .string "tíma inn í ROCKET VÖRUHÚSIÐ!\p"
@@ -68,4 +68,3 @@ FourIsland_IcefallCave_Back_Text_ThankYouThisIsAwful::
     .string "eyjum.\p"
     .string "Ég hafði ekki hugmynd um að þessir\n"
     .string "hræðilegu glæpamenn væru lausir hér…$"
-

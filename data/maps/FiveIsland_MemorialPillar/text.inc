@@ -7,7 +7,7 @@ FiveIsland_MemorialPillar_Text_MiloDefeat::
     .string "Ó, svo beitt!$"
 
 FiveIsland_MemorialPillar_Text_MiloPostBattle::
-    .string "Þú getur flogið héðan til FOUR EYJU.$"
+    .string "Þú getur flogið héðan til FJÓR EYJU.$"
 
 FiveIsland_MemorialPillar_Text_ChazIntro::
     .string "Ég er miðjubarn FUGLABRÆÐRANNA.\p"
@@ -91,4 +91,3 @@ FiveIsland_MemorialPillar_Text_HereLiesTectonix::
     .string "hlaðin upp sem varða.\p"
     .string "'Hér hvílir TECTONIX' er grafið á\n"
     .string "stórgrýti.$"
-
