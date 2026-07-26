@@ -1,3 +1,6 @@
+<img width="1979" height="1259" alt="image" src="https://github.com/user-attachments/assets/695f6854-3e3b-4b41-9da7-1d2f1d7bd6a4" />
+
+
 # Pokefirered Icelandic / Vasaskrímsli
 
 This is an Icelandic localization and gameplay-friendly fork of the English
