@@ -7,8 +7,8 @@ Route13_Text_SebastianDefeat::
     .string "samsetningin mín?$"
 
 Route13_Text_SebastianPostBattle::
-    .string "My Vasaskrímsli look happy even\n"
-    .string "though they lost.$"
+    .string "Vasaskrímslin mín virðast glöð þó\n"
+    .string "þau hafi tapað.$"
 
 Route13_Text_SusieIntro::
     .string "Mér er sagt að ég sé góð fyrir barn.$"
@@ -27,8 +27,8 @@ Route13_Text_ValerieDefeat::
     .string "Ekki nóg!$"
 
 Route13_Text_ValeriePostBattle::
-    .string "Þú fékkst þessa BADGES frá SALUR\n"
-    .string "LEIÐTOGAR. Ég veit það!$"
+    .string "Þú fékkst þessi MERKI frá\n"
+    .string "SALARLEIÐTOGUM. Ég veit það!$"
 
 Route13_Text_GwenIntro::
     .string "Krúttlegu Vasaskrímslin mín óska\n"

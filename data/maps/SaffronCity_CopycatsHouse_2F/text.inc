@@ -27,8 +27,8 @@ Text_MimicDeclined::
     .string "Líkar þér ekki við MIMIC?$"
 
 Text_MimicWhichMon::
-    .string "I really love MIMIC! Who's going to\n"
-    .string "learn it?$"
+    .string "Ég elska MIMIC! Hver á að læra\n"
+    .string "það?$"
 
 Text_MimicTaughtMale::
     .string "{PLAYER}: Hæ! Takk fyrir áðan!\p"
@@ -80,9 +80,10 @@ SaffronCity_CopycatsHouse_2F_Text_MarioWearingABucket::
 
 SaffronCity_CopycatsHouse_2F_Text_MySecrets::
     .string "…\p"
-    .string "My Secrets!\p"
-    .string "Skill: Mimicry! Hobby: Collecting\n"
-    .string "dolls! Favorite Vasaskrímsli:\p"
+    .string "Leyndarmálin mín!\p"
+    .string "Hæfileiki: Herming! Áhugamál:\n"
+    .string "Að safna dúkkum! Uppáhalds\p"
+    .string "Vasaskrímsli:\p"
     .string "BLEIKÁLFUR!$"
 
 SaffronCity_CopycatsHouse_2F_Text_HuhCantSee::

@@ -5,7 +5,7 @@ Trade_Text_LookingForMonWannaTradeForMon::
 	.string "{STR_VAR_2}?$"
 
 Trade_Text_AwwOhWell::
-	.string "Awww! Oh, well…$"
+	.string "Æi! Jæja…$"
 
 Trade_Text_WhatThatsNoMon::
 	.string "Hvað? Þetta er ekki {STR_VAR_1}!$"

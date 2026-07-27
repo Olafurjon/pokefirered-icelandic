@@ -77,6 +77,5 @@ RockTunnel_1F_Text_ArianaPostBattle::
     .string "Úff! Ég er orðin öll sveitt.$"
 
 RockTunnel_1F_Text_RouteSign::
-    .string "ROCK TUNNEL CERULEAN BORG - LAVENDER\n"
+    .string "STEINA GÖNG CERULEAN BORG - LAVENDER\n"
     .string "BORG$"
-

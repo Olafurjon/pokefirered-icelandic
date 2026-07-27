@@ -47,6 +47,5 @@ PokemonTower_7F_Text_MrFujiThankYouFollowMe::
     .string "Ég verð að þakka þér fyrir\n"
     .string "umhyggjuna.\p"
     .string "Fylgdu mér heim til mín, í\n"
-    .string "Vasaskrímsla HOUSE við rætur\p"
+    .string "VASASKRÍMSLAHÚS við rætur\p"
     .string "turnsins.$"
-

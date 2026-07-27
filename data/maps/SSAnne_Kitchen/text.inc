@@ -12,7 +12,8 @@ SSAnne_Kitchen_Text_SoBusyImDizzy::
 
 SSAnne_Kitchen_Text_PeelSpudsEveryDay::
     .string "Hum-de-hum-de-ho…\p"
-    .string "I peel spuds every day! Hum-hum…$"
+    .string "Ég flysja kartöflur á hverjum degi!\n"
+    .string "Hum-hum…$"
 
 SSAnne_Kitchen_Text_HearAboutSnorlaxItsAGlutton::
     .string "Heyrðirðu um HROTÞURS? Hann er\n"
@@ -22,8 +23,8 @@ SSAnne_Kitchen_Text_HearAboutSnorlaxItsAGlutton::
     .string "gerir!$"
 
 SSAnne_Kitchen_Text_OnlyGetToPeelOnions::
-    .string "Snivel… Sniff…\p"
-    .string "I only get to peel onions… Snivel…$"
+    .string "Snökt… Snökt…\p"
+    .string "Ég fæ bara að flysja lauk… Snökt…$"
 
 SSAnne_Kitchen_Text_IAmLeChefMainCourseIs::
     .string "Hrm! Sannarlega er ég le KOKKUR!\p"
@@ -42,4 +43,3 @@ SSAnne_Kitchen_Text_EelsAuBarbecue::
 SSAnne_Kitchen_Text_PrimeBeefsteak::
     .string "Fyrsta flokks nautasteik!\p"
     .string "En hef ég nóg af nautafille?$"
-

@@ -11,8 +11,8 @@ Route20_Text_BarryPostBattle::
     .string "sért ekki þreyttur.$"
 
 Route20_Text_ShirleyIntro::
-    .string "SEAFOAM er kyrrlátur felustaður. Ég\n"
-    .string "er í fríi hér.$"
+    .string "SJÁVARFROÐU EYJAR eru kyrrlátur\n"
+    .string "felustaður. Ég er í fríi hér.$"
 
 Route20_Text_ShirleyDefeat::
     .string "Hættu þessu!$"
@@ -38,7 +38,7 @@ Route20_Text_IreneDefeat::
     .string "Engin miskunn!$"
 
 Route20_Text_IrenePostBattle::
-    .string "SEAFOAM var ein stór eyja í\n"
+    .string "SJÁVARFROÐA var ein stór eyja í\n"
     .string "fjarlægri fortíð.$"
 
 Route20_Text_DeanIntro::
@@ -111,7 +111,7 @@ Route20_Text_MelissaPostBattle::
     .string "sjónum þegar eldfjall gaus.$"
 
 Route20_Text_SeafoamIslands::
-    .string "SEAFOAM EYJAR$"
+    .string "SJÁVARFROÐU EYJAR$"
 
 Route20_Text_MistyTrainsHere::
     .string "Sterkir ÞJÁLFARAR og\n"

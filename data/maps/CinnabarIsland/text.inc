@@ -37,7 +37,7 @@ CinnabarIsland_Text_ComeWithMeToOneIsland::
     .string "Heyrðu, fyrst við hittumst hér,\n"
     .string "hvernig væri að koma með mér?\p"
     .string "Það er lítil eyja langt í suðri sem\n"
-    .string "heitir ONE ISLAND.\p"
+    .string "heitir EIN EYJA.\p"
     .string "Vinur minn bauð mér þangað, svo ég\n"
     .string "er á leiðinni.\p"
     .string "Hvað segirðu? Langar þig að koma\n"
@@ -71,4 +71,3 @@ CinnabarIsland_Text_IfYouHaveTriPassYouCanGoAgain::
     .string "alltaf tekið ferju þangað frá\p"
     .string "VERMILION HÖFN.\p"
     .string "Jæja, takk fyrir félagsskapinn!$"
-

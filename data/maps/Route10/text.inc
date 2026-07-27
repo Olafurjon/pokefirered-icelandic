@@ -69,12 +69,11 @@ Route10_Text_CarolPostBattle::
     .string "vasaskrímsli með blómamynstri!$"
 
 Route10_Text_RockTunnelDetourToLavender::
-    .string "ROCK TUNNEL Hjáleið til LAVENDER\n"
+    .string "STEINA GÖNG Hjáleið til LAVENDER\n"
     .string "BORGAR$"
 
 Route10_Text_RockTunnel::
-    .string "STEINGÖNG$"
+    .string "STEINA GÖNG$"
 
 Route10_Text_PowerPlant::
     .string "ORKUVER$"
-

@@ -1,13 +1,13 @@
 @ Male and female text identical, differ (presumably) in JP
 Route12_NorthEntrance_2F_Text_TakeTMDontNeedAnymoreMale::
     .string "Aska Vasaskrímslisins míns er geymd\n"
-    .string "í Vasaskrímsla TOWER.\p"
+    .string "í VASASKRÍMSLATURNI.\p"
     .string "Þú mátt eiga þessa TM. Ég þarf hana\n"
     .string "ekki lengur…$"
 
 Route12_NorthEntrance_2F_Text_TakeTMDontNeedAnymoreFemale::
     .string "Aska Vasaskrímslisins míns er geymd\n"
-    .string "í Vasaskrímsla TOWER.\p"
+    .string "í VASASKRÍMSLATURNI.\p"
     .string "Þú mátt eiga þessa TM. Ég þarf hana\n"
     .string "ekki lengur…$"
 
@@ -31,5 +31,4 @@ Route12_NorthEntrance_2F_Text_TheresManFishing::
 
 Route12_NorthEntrance_2F_Text_ItsPokemonTower::
     .string "Sjáum hvað sjónaukinn sýnir…\p"
-    .string "Það er Vasaskrímsla TOWER!$"
-
+    .string "Það er VASASKRÍMSLATURN!$"

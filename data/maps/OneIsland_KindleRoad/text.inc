@@ -154,7 +154,7 @@ OneIsland_KindleRoad_Text_MikNotEnoughMons::
     .string "Vasaskrímsli.$"
 
 OneIsland_KindleRoad_Text_RouteSign::
-    .string "Þetta er KINDLE ROAD.\p"
+    .string "Þetta er KYNDILVEGUR.\p"
     .string "Farið beint á MT. EMBER.$"
 
 OneIsland_KindleRoad_Text_EmberSpaSign::

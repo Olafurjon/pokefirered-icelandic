@@ -26,11 +26,10 @@ CinnabarIsland_PokemonCenter_1F_Text_EvolutionCanWaitForNewMoves::
 
 CinnabarIsland_PokemonCenter_1F_Text_ReadyToSailToOneIsland::
     .string "BILL: Heyrðu, þú lést mig bíða!\n"
-    .string "Tilbúin/n að sigla til ONE EYJU?$"
+    .string "Tilbúin/n að sigla til EIN EYJU?$"
 
 CinnabarIsland_PokemonCenter_1F_Text_OhNotDoneYet::
     .string "Ó, ertu ekki alveg búinn enn?$"
 
 CinnabarIsland_PokemonCenter_1F_Text_LetsGo::
     .string "Jæja, þá er það komið. Förum!$"
-

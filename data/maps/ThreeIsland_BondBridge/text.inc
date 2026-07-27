@@ -90,6 +90,6 @@ ThreeIsland_BondBridge_Text_BerryForestAhead::
     .string "BERJASKÓGUR FRAMUNDAN$"
 
 ThreeIsland_BondBridge_Text_BondBridgeSign::
-    .string "BOND BRÚ Vinsamlegast hafið hljótt\n"
+    .string "TENGIBRÚ Vinsamlegast hafið hljótt\n"
     .string "þegar þið farið yfir.\p"
     .string "BERJA SKÓGUR FRAMUNDAN$"

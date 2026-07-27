@@ -1,5 +1,5 @@
 TwoIsland_Text_IslandSign::
-    .string "TVÍEYJA Gjafaeyja fyrir tvo$"
+    .string "TVÖ EYJA Gjafaeyja fyrir tvo$"
 
 TwoIsland_Text_JoyfulGameCornerSign::
     .string "Stökk og nart! Gleðilegur\n"
@@ -21,10 +21,10 @@ TwoIsland_Text_AddedMerchandiseForLostelle::
     .string "þakklátur ég er fyrir björgun þína á\p"
     .string "LOSTELLE.\p"
     .string "Þökk sé afreki þínu hafa íbúar\n"
-    .string "ÞRÍEYJU breytt viðhorfum sínum til\p"
+    .string "ÞRJÚ EYJU breytt viðhorfum sínum til\p"
     .string "KANTO fólks.\p"
     .string "Og ég er frá KANTO, skilurðu.\p"
-    .string "Íbúar ÞRÍEYJU hjálpuðu mér að bæta\n"
+    .string "Íbúar ÞRJÚ EYJU hjálpuðu mér að bæta\n"
     .string "við vöruúrvalið mitt.$"
 
 TwoIsland_Text_HopeYouGiveItYourBest::
@@ -56,7 +56,7 @@ TwoIsland_Text_BrunoCameToIslandWhileBack::
     .string "Hlustaðu, hlustaðu. Vissirðu?\p"
     .string "Frægur ÞJÁLFARI kom til eyjunnar\n"
     .string "fyrir stuttu.\p"
-    .string "Hann er einn af ELITE FOUR. Hann\n"
+    .string "Hann er einn úr ELÍTU 4. Hann\n"
     .string "heitir BRUNO.\p"
     .string "Hann fór vonsvikinn þegar hann komst\n"
     .string "að því að allt var uppselt.$"
@@ -79,4 +79,3 @@ TwoIsland_Text_HaveYouTriedJumpingGame::
     .string "Sum fara boing!\p"
     .string "Og sum fara boooooooing!\p"
     .string "Vissirðu það? Boing!$"
-

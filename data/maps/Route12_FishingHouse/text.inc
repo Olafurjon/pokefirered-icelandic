@@ -39,9 +39,9 @@ Route12_FishingHouse_Text_TryFishingBringMeMagikarp::
     .string "GREYSLEPPU ef þú færð eina!$"
 
 Route12_FishingHouse_Text_OhMagikarpAllowMeToSee::
-    .string "Oh? {PLAYER}? Why, if it isn't a\n"
+    .string "Ó? {PLAYER}? Þetta er þá\n"
     .string "GREYSLEPPA!\p"
-    .string "Allow me to see it, quick!$"
+    .string "Leyfðu mér að sjá hana, fljótt!$"
 
 Route12_FishingHouse_Text_WhoaXInchesTakeThis::
     .string "… … …Vá! {STR_VAR_2} tommur!\p"
@@ -84,4 +84,3 @@ Route12_FishingHouse_Text_BlankChartOfSomeSort::
     .string "Þetta er einhvers konar autt kort.\p"
     .string "Það hefur rými fyrir skráningu\n"
     .string "einhvers konar gagna.$"
-

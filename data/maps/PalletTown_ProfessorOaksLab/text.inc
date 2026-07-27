@@ -351,5 +351,5 @@ PalletTown_ProfessorOaksLab_Text_RivalIllCompleteThePokedex::
     .string "{RIVAL}: Afi, rólegur. Vertu ekki\n"
     .string "svona æstur.\p"
     .string "Ég klára VasaDEX, engar áhyggjur.\p"
-    .string "Ég held ég skoði ONE EYJU fyrst…\p"
+    .string "Ég held ég skoði EIN EYJU fyrst…\p"
     .string "Allavega, ég er farinn!$"

@@ -43,7 +43,7 @@ ViridianCity_School_Text_NotebookFourthPage::
     .string "Vasaskrímsla SALUR LEIÐTOGA.\p"
     .string "Gerðu það til að öðlast réttinn til\n"
     .string "að mæta…\p"
-    .string "ELITE FOUR í Vasaskrímsla DEILDINNI!$"
+    .string "ELÍTU 4 í VASASKRÍMSLADEILDINNI!$"
 
 ViridianCity_School_Text_TurnThePage::
     .string "Fletta blaðsíðu?$"

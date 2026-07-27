@@ -9,10 +9,9 @@ SaffronCity_PokemonCenter_1F_Text_SilphCoVictimOfFame::
 
 SaffronCity_PokemonCenter_1F_Text_GreatIfEliteFourCameBeatRockets::
     .string "Andvarp… Væri það ekki frábært?\p"
-    .string "Ef ELITE FOUR kæmu og klesstu\n"
+    .string "Ef ELÍTA 4 kæmi og klessti\n"
     .string "ROCKET-GENGIÐ?$"
 
 SaffronCity_PokemonCenter_1F_Text_TeamRocketTookOff::
     .string "ROCKET-GENGIÐ fór! Við getum farið\n"
     .string "út aftur í öruggu skjóli! Frábært!$"
-

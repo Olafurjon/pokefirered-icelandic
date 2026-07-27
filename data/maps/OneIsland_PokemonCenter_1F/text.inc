@@ -53,7 +53,7 @@ OneIsland_PokemonCenter_1F_Text_CanYouDeliverThisMeteoritePlayer::
     .string "aðeins?\p"
     .string "…Reyndar, gætirðu gert mér greiða?\p"
     .string "Eyjan við hliðina á þessari heitir\n"
-    .string "TWO EYJA.\p"
+    .string "TVÖ EYJA.\p"
     .string "Þar er gaur sem rekur LEIKJAKRÓK.\p"
     .string "Hann er veikur fyrir sjaldgæfum\n"
     .string "steinum og gimsteinum.\p"
@@ -65,13 +65,13 @@ OneIsland_PokemonCenter_1F_Text_AcceptedMeteoriteFromBill::
 
 OneIsland_PokemonCenter_1F_Text_CelioPleaseTakeThis::
     .string "CELIO: {PLAYER}, ef þú ert að fara\n"
-    .string "til TWO EYJU, taktu þetta með þér.$"
+    .string "til TVÖ EYJU, taktu þetta með þér.$"
 
 OneIsland_PokemonCenter_1F_Text_PassLetsYouTravelBetweenIslands::
     .string "Þetta er PASS fyrir ferjuþjónustuna\n"
     .string "á eyjunum hér.\p"
     .string "Hann leyfir þér að ferðast á milli\n"
-    .string "ONE, TWO og THREE EYJU.\p"
+    .string "EIN, TVÖ og ÞRJÚ EYJU.\p"
     .string "Ó, þú ættir að fá þetta líka.$"
 
 OneIsland_PokemonCenter_1F_Text_ReceivedExtraPageForTownMap::
@@ -128,7 +128,7 @@ OneIsland_PokemonCenter_1F_Text_BillYouveLearnedALot::
     .string "hefur lært mikið.$"
 
 OneIsland_PokemonCenter_1F_Text_CelioOhReallyEhehe::
-    .string "CELIO: Oh, really? Ehehe…$"
+    .string "CELIO: Ó, í alvöru? Ehehe…$"
 
 OneIsland_PokemonCenter_1F_Text_BillWeShouldHeadBackToKanto::
     .string "BILL: Jæja, þar hefurðu það. Ég er\n"
@@ -338,4 +338,3 @@ OneIsland_PokemonCenter_1F_Text_MachineLinkedWithKantoAndHoenn::
 
 OneIsland_PokemonCenter_1F_Text_ObtainedTriPass::
     .string "Fékk ÞRÍPASSA!$"
-

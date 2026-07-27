@@ -38,7 +38,7 @@ VermilionCity_Text_SnorlaxBlockingRoute12::
     .string "TILKYNNING!\p"
     .string "VEGUR 12 gæti verið lokuð af sofandi\n"
     .string "vasaskrímsli.\p"
-    .string "Farðu hjáleið um ROCK TUNNEL til\n"
+    .string "Farðu hjáleið um STEINA GÖNG til\n"
     .string "LAVENDER BORGAR.\p"
     .string "VERMILION LÖGREGLAN$"
 
@@ -130,4 +130,3 @@ VermilionCity_Text_Route2AideHasPackageForYou::
     .string "VEGUR 2, {PLAYER}.\p"
     .string "Ef þú ert á VEGUR 2 svæðinu,\n"
     .string "vinsamlegast leitaðu að honum.$"
-

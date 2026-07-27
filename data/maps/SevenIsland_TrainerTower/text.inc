@@ -15,7 +15,7 @@ SevenIsland_TrainerTower_Text_RodetteIntro::
     .string "sérkennileg Vasaskrímsli.$"
 
 SevenIsland_TrainerTower_Text_RodetteDefeat::
-    .string "What an amazing ÞJÁLFARI!$"
+    .string "Þvílíkur magnaður ÞJÁLFARI!$"
 
 SevenIsland_TrainerTower_Text_RodettePostBattle::
     .string "Einhvers staðar á þessari eyju sofa\n"
@@ -27,7 +27,7 @@ SevenIsland_TrainerTower_Text_TrainerTowerSign::
     .string "áskoruninni, ÞJÁLFARAR!$"
 
 SevenIsland_TrainerTower_Text_TrainerTowerAhead::
-    .string "ÞJÁLFARI TOWER AHEAD$"
+    .string "ÞJÁLFARATURN FRAMUNDAN$"
 
 @ Unused text perhaps indicating Trainer Tower was planned to be unlocked by something
 SevenIsland_TrainerTower_Text_LooksLikeTrainerTowerIsClosed::
@@ -35,4 +35,3 @@ SevenIsland_TrainerTower_Text_LooksLikeTrainerTowerIsClosed::
 
 SevenIsland_TrainerTower_Text_TrainerTowerIsOpenLetsGoIn::
     .string "トレーナータワーが あいてる！ さっそく はいってみよう！$"
-

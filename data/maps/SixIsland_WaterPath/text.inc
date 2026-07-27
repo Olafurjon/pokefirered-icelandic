@@ -28,7 +28,7 @@ SixIsland_WaterPath_Text_SamirIntro::
     .string "Hvað, ertu að gefa í skyn að þú sért\n"
     .string "þreyttur á að sjá SUNDMENN eins og\p"
     .string "mig?\p"
-    .string "Aww, ekki vera með hatur!$"
+    .string "Æi, ekki vera með svona leiðindi!$"
 
 SixIsland_WaterPath_Text_SamirDefeat::
     .string "Ó, nei, nei, nei.$"
@@ -62,15 +62,15 @@ SixIsland_WaterPath_Text_EarlPostBattle::
     .string "Eru engin fjöll hér um kring?$"
 
 SixIsland_WaterPath_Text_MiuIntro::
-    .string "MIU: Hello, Vasaskrímsli! It's time\n"
-    .string "to play!$"
+    .string "MIU: Halló, Vasaskrímsli! Nú er\n"
+    .string "kominn leiktími!$"
 
 SixIsland_WaterPath_Text_MiuDefeat::
     .string "MIU: Ó, nei! Mamma!$"
 
 SixIsland_WaterPath_Text_MiuPostBattle::
-    .string "MIU: It makes me all sad inside when\n"
-    .string "we lose…$"
+    .string "MIU: Ég verð alveg leið inni í mér\n"
+    .string "þegar við töpum…$"
 
 SixIsland_WaterPath_Text_MiuNotEnoughMons::
     .string "MIU: MIA og ég erum TVÍBURAR. Við\n"
@@ -85,8 +85,8 @@ SixIsland_WaterPath_Text_MiaDefeat::
     .string "fyrir að vinna!$"
 
 SixIsland_WaterPath_Text_MiaPostBattle::
-    .string "MIA: Ohh… I'm sorry, my\n"
-    .string "Vasaskrímsli…$"
+    .string "MIA: Óó… Fyrirgefðu,\n"
+    .string "Vasaskrímslið mitt…$"
 
 SixIsland_WaterPath_Text_MiaNotEnoughMons::
     .string "MIA: Ó, ertu bara með eitt\n"

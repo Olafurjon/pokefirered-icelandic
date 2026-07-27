@@ -88,7 +88,8 @@ Text_SubstituteTeach::
     .string "Vasaskrímslinu þínu STAÐGENGIL?$"
 
 Text_SubstituteDeclined::
-    .string "Oh, really? SUBSTITUTE seems so fun…$"
+    .string "Ó, í alvöru? STAÐGENGILL virðist\n"
+    .string "svo skemmtilegur…$"
 
 Text_SubstituteWhichMon::
     .string "Hvaða Vasaskrímsli vill læra\n"
@@ -103,4 +104,3 @@ FuchsiaCity_Text_MyFatherIsGymLeader::
     .string "bæjar.\p"
     .string "Ég æfi mig líka í að nota EITUR\n"
     .string "Vasaskrímsli, rétt eins og hann.$"
-

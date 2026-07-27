@@ -22,14 +22,14 @@ Route9_Text_ChrisPostBattle::
     .string "Haltu áfram að ganga!$"
 
 Route9_Text_DrewIntro::
-    .string "Ég fer um ROCK TUNNEL til að komast\n"
+    .string "Ég fer um STEINA GÖNG til að komast\n"
     .string "til LAVENDER...$"
 
 Route9_Text_DrewDefeat::
     .string "Ég stóðst ekki samanburð...$"
 
 Route9_Text_DrewPostBattle::
-    .string "Ertu líka á leið í ROCK TUNNEL?$"
+    .string "Ertu líka á leið í STEINA GÖNG?$"
 
 Route9_Text_CaitlinIntro::
     .string "Ekki voga þér að líta niður á mig!$"
@@ -96,5 +96,4 @@ Route9_Text_ConnerPostBattle::
     .string "PÖDDU-vasaskrímsli, þá pirrarðu mig!$"
 
 Route9_Text_RouteSign::
-    .string "LEIÐ 9 CERULEAN BORG - BERGJARGÖNG$"
-
+    .string "LEIÐ 9 CERULEAN BORG - STEINA GÖNG$"

@@ -55,5 +55,4 @@ Route22_Text_LateRivalVictory::
 	.string "もっと れんしゅう こいよ！ あははーッ！$"
 
 Route22_Text_LeagueGateSign::
-	.string "Vasaskrímsli LEAGUE Front Gate$"
-
+	.string "VASASKRÍMSLADEILDARHLIÐ$"

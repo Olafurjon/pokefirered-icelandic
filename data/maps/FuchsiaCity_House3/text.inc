@@ -29,5 +29,5 @@ FuchsiaCity_House3_Text_ComeAgainToForgetOtherMoves::
     .string "hreyfingar til að gleyma.$"
 
 FuchsiaCity_House3_Text_NoEggShouldKnowMoves::
-    .string "What? No EGG should know any moves.$"
-
+    .string "Hvað? Ekkert EGG ætti að kunna\n"
+    .string "hreyfingar.$"

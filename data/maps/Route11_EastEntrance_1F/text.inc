@@ -14,7 +14,6 @@ Route11_EastEntrance_1F_Text_ManInLavenderRatesNames::
 
 Route11_EastEntrance_1F_Text_RockTunnelToReachLavender::
     .string "Ef þú stefnir á LAVENDER BORG skaltu\n"
-    .string "fara um ROCK TUNNEL.\p"
-    .string "Þú kemst að ROCK TUNNEL frá CERULEAN\n"
+    .string "fara um STEINA GÖNG.\p"
+    .string "Þú kemst að STEINA GÖNGUM frá CERULEAN\n"
     .string "BORG.$"
-

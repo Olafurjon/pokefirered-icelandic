@@ -669,7 +669,7 @@
     },
     {
       "id": "MAPSEC_ROCK_TUNNEL",
-      "name": "BERGGÖNG",
+      "name": "STEINA GÖNG",
       "x": 0,
       "y": 0,
       "width": 1,
@@ -677,7 +677,7 @@
     },
     {
       "id": "MAPSEC_SEAFOAM_ISLANDS",
-      "name": "SEAFOAM EYJAR",
+      "name": "SJÁVARFROÐU EYJAR",
       "x": 0,
       "y": 0,
       "width": 1,
@@ -709,7 +709,7 @@
     },
     {
       "id": "MAPSEC_ONE_ISLAND",
-      "name": "ONE EYJA",
+      "name": "EIN EYJA",
       "x": 1,
       "y": 8,
       "width": 1,
@@ -717,7 +717,7 @@
     },
     {
       "id": "MAPSEC_TWO_ISLAND",
-      "name": "TWO EYJA",
+      "name": "TVÖ EYJA",
       "x": 9,
       "y": 9,
       "width": 1,
@@ -725,7 +725,7 @@
     },
     {
       "id": "MAPSEC_THREE_ISLAND",
-      "name": "THREE EYJA",
+      "name": "ÞRJÚ EYJA",
       "x": 18,
       "y": 12,
       "width": 1,
@@ -733,7 +733,7 @@
     },
     {
       "id": "MAPSEC_FOUR_ISLAND",
-      "name": "FOUR EYJA",
+      "name": "FJÓR EYJA",
       "x": 3,
       "y": 4,
       "width": 1,
@@ -741,7 +741,7 @@
     },
     {
       "id": "MAPSEC_FIVE_ISLAND",
-      "name": "FIVE EYJA",
+      "name": "FIMM EYJA",
       "x": 16,
       "y": 11,
       "width": 1,
@@ -749,7 +749,7 @@
     },
     {
       "id": "MAPSEC_SEVEN_ISLAND",
-      "name": "SEVEN EYJA",
+      "name": "SJÖ EYJA",
       "x": 5,
       "y": 8,
       "width": 1,
@@ -757,7 +757,7 @@
     },
     {
       "id": "MAPSEC_SIX_ISLAND",
-      "name": "SIX EYJA",
+      "name": "SEX EYJA",
       "x": 17,
       "y": 5,
       "width": 1,
@@ -765,7 +765,7 @@
     },
     {
       "id": "MAPSEC_KINDLE_ROAD",
-      "name": "KINDLE VEGUR",
+      "name": "KYNDILVEGUR",
       "x": 2,
       "y": 3,
       "width": 1,
@@ -789,7 +789,7 @@
     },
     {
       "id": "MAPSEC_BOND_BRIDGE",
-      "name": "BOND BRÚ",
+      "name": "TENGIBRÚ",
       "x": 13,
       "y": 12,
       "width": 4,

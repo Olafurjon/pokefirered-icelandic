@@ -16,7 +16,7 @@ LavenderTown_Text_TownKnownAsMonGraveSite::
 
 LavenderTown_Text_GhostsAppearedInTower::
     .string "Draugar birtust í Vasaskrímsla\n"
-    .string "TOWER.\p"
+    .string "TURNINUM.\p"
     .string "Ég held að þeir séu andar\n"
     .string "Vasaskrímsla sem ROCKETS\p"
     .string "drápu.$"
@@ -32,9 +32,8 @@ LavenderTown_Text_SilphScopeNotice::
 
 LavenderTown_Text_VolunteerPokemonHouse::
     .string "LAVENDER VOLUNTEER Vasaskrímsli\n"
-    .string "HOUSE$"
+    .string "HÚS$"
 
 LavenderTown_Text_PokemonTowerSign::
-    .string "Vasaskrímsla TOWER Sefar anda\n"
+    .string "VASASKRÍMSLATURN Sefar anda\n"
     .string "Vasaskrímsla$"
-
