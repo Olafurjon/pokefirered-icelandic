@@ -3,7 +3,7 @@ OneIsland_TreasureBeach_Text_AmaraIntro::
     .string "öldunum… Það er stórkostlegt.$"
 
 OneIsland_TreasureBeach_Text_AmaraDefeat::
-    .string "I lost… It feels awful.$"
+    .string "Ég tapaði… Það er hræðileg tilfinning.$"
 
 OneIsland_TreasureBeach_Text_AmaraPostBattle::
     .string "Sjórinn er notalega hlýr hér um\n"
@@ -14,4 +14,3 @@ OneIsland_TreasureBeach_Text_GoodThingsWashUpOnBeach::
     .string "strönd með sjávarstraumnum.\p"
     .string "Þess vegna kem ég oft hingað til að\n"
     .string "leita að strandgóssi.$"
-

@@ -104,7 +104,7 @@ SevenIsland_SevaultCanyon_Text_NyaIntro::
     .string "LEX!$"
 
 SevenIsland_SevaultCanyon_Text_NyaDefeat::
-    .string "NYA: Oh, no… I'm so sorry, I…$"
+    .string "NYA: Ó, nei… Fyrirgefðu, ég…$"
 
 SevenIsland_SevaultCanyon_Text_NyaPostBattle::
     .string "NYA: Ég held að ég þurfi miklu meiri\n"

@@ -63,9 +63,9 @@ VermilionCity_Gym_Text_BailyDefeat::
     .string "Steiktur!$"
 
 VermilionCity_Gym_Text_BailyPostBattle::
-    .string "Okay, I'll talk!\p"
-    .string "LT. SURGE said he hid door switches\n"
-    .string "inside something.$"
+    .string "Allt í lagi, ég segi frá!\p"
+    .string "LT. SURGE sagðist hafa falið\n"
+    .string "dyrarofa inni í einhverju.$"
 
 VermilionCity_Gym_Text_DwayneIntro::
     .string "Þetta er enginn staður fyrir krakka!\n"
@@ -130,4 +130,3 @@ VermilionCity_Gym_Text_SecondLockOpened::
 VermilionCity_Gym_Text_OnlyTrashLocksWereReset::
     .string "Neibb! Hér er bara rusl.\p"
     .string "Hey! Raflásarnir endurstilltust!$"
-

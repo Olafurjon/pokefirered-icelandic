@@ -62,8 +62,8 @@ Route6_Text_NancyRematchIntro::
 	.string "ókurteisa manneskja!$"
 
 Route6_Text_KeigoRematchIntro::
-	.string "I'm trying to find something good\n"
-	.string "það er ekki SKORDÝ Vasaskrímsli, en…$"
+	.string "Ég er að reyna að finna eitthvað\n"
+	.string "gott sem er ekki SKORDÝ Vasaskrímsli, en…$"
 
 Route6_Text_JeffRematchIntro::
 	.string "Ha? Viltu fara með mér aftur?$"
@@ -884,19 +884,19 @@ SixIsland_WaterPath_Text_EdwardRematchIntro::
 SixIsland_WaterPath_Text_SamirRematchIntro::
 	.string "Hvað, ertu orðinn þreyttur á að sjá\n"
 	.string "SUNDMENN eins og mig?\p"
-	.string "Aww, ekki vera hatursfullur! Berjist\n"
-	.string "við mig aftur.$"
+	.string "Æi, ekki vera með svona leiðindi!\n"
+	.string "Berjist við mig aftur.$"
 
 SixIsland_WaterPath_Text_DeniseRematchIntro::
-	.string "Sigh… My boyfriend's busy again…$"
+	.string "Andvarp… Kærastinn minn er aftur upptekinn…$"
 
 SixIsland_WaterPath_Text_EarlRematchIntro::
 	.string "Komdu, segðu mér, hvar eru fjöllin\n"
 	.string "hér í kring?$"
 
 SixIsland_WaterPath_Text_MiuRematchIntro::
-	.string "MIU: Hello, Vasaskrímsli! It's time\n"
-	.string "to play again!$"
+	.string "MIU: Halló, Vasaskrímsli! Nú er\n"
+	.string "aftur kominn leiktími!$"
 
 SixIsland_WaterPath_Text_MiaRematchIntro::
 	.string "MIA: Halló, Vasaskrímsli! Það er\n"

@@ -39,7 +39,7 @@ SevenIsland_SevaultCanyon_Entrance_Text_NicolasPostBattle::
     .string "ekki?$"
 
 SevenIsland_SevaultCanyon_Entrance_Text_MadelineIntro::
-    .string "I punish people who abuse\n"
+    .string "Ég refsa fólki sem fer illa með\n"
     .string "Vasaskrímsli!$"
 
 SevenIsland_SevaultCanyon_Entrance_Text_MadelineDefeat::
@@ -91,4 +91,3 @@ SevenIsland_SevaultCanyon_Entrance_Text_RouteSign::
     .string "INNGANGUR AÐ SEVAULT CANYON\p"
     .string "ÞJÁLFARAR eru beðnir um að forðast\n"
     .string "að skemma plöntur í CANYON.$"
-

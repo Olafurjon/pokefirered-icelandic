@@ -6,16 +6,16 @@ Route6_Text_RickyDefeat::
     .string "Ég get bara ekki unnið!$"
 
 Route6_Text_RickyPostBattle::
-    .string "Whisper… Whisper…$"
+    .string "Hvís… Hvís…$"
 
 Route6_Text_NancyIntro::
     .string "Afsakaðu! Þetta er einkasamtal!$"
 
 Route6_Text_NancyDefeat::
-    .string "Ugh! I hate losing.$"
+    .string "Úff! Ég hata að tapa.$"
 
 Route6_Text_NancyPostBattle::
-    .string "Whisper… Whisper…$"
+    .string "Hvís… Hvís…$"
 
 Route6_Text_KeigoIntro::
     .string "Það eru ekki margar pöddur hérna\n"
@@ -64,4 +64,3 @@ Route6_Text_ElijahPostBattle::
 Route6_Text_UndergroundPathSign::
     .string "JARÐGÖNG CERULEAN BORG - VERMILION\n"
     .string "BORG$"
-

@@ -18,8 +18,8 @@ Route14_Text_MitchDefeat::
     .string "Ekki tilbúinn ennþá!$"
 
 Route14_Text_MitchPostBattle::
-    .string "My bird Vasaskrímsli need to learn\n"
-    .string "better moves.$"
+    .string "Fugla-Vasaskrímslin mín þurfa að\n"
+    .string "læra betri hreyfingar.$"
 
 Route14_Text_BeckIntro::
     .string "Þeir eru með TMs á útsölu í CELADON\n"
@@ -28,7 +28,7 @@ Route14_Text_BeckIntro::
     .string "ekki margir eiga HMs.$"
 
 Route14_Text_BeckDefeat::
-    .string "Aww, leiðinlegt!$"
+    .string "Æi, leiðinlegt!$"
 
 Route14_Text_BeckPostBattle::
     .string "Reyndu að kenna Vasaskrímsli\n"
@@ -125,7 +125,7 @@ Route14_Text_KiriIntro::
     .string "virkilega hart saman.$"
 
 Route14_Text_KiriDefeat::
-    .string "KIRI: Whimper… We lost, didn't we?$"
+    .string "KIRI: Snökt… Við töpuðum, er það ekki?$"
 
 Route14_Text_KiriPostBattle::
     .string "KIRI: Töpuðum við vegna mín?$"

@@ -128,7 +128,7 @@ OneIsland_PokemonCenter_1F_Text_BillYouveLearnedALot::
     .string "hefur lært mikið.$"
 
 OneIsland_PokemonCenter_1F_Text_CelioOhReallyEhehe::
-    .string "CELIO: Oh, really? Ehehe…$"
+    .string "CELIO: Ó, í alvöru? Ehehe…$"
 
 OneIsland_PokemonCenter_1F_Text_BillWeShouldHeadBackToKanto::
     .string "BILL: Jæja, þar hefurðu það. Ég er\n"

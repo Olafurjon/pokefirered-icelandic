@@ -7,5 +7,4 @@ SSAnne_1F_Room5_Text_ArthurDefeat::
     .string "enga háttvísi!$"
 
 SSAnne_1F_Room5_Text_ArthurPostBattle::
-    .string "I wish to be left alone! Get out!$"
-
+    .string "Ég vil fá að vera í friði! Farðu út!$"
