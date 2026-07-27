@@ -1,5 +1,5 @@
 
-static const u8 sEasyChatWord_IChooseYou[] = _("I CHOOSE YOU");
+static const u8 sEasyChatWord_IChooseYou[] = _("ÉG VEL ÞIG");
 static const u8 sEasyChatWord_Gotcha[] = _("GOTCHA");
 static const u8 sEasyChatWord_Trade[] = _("TRADE");
 static const u8 sEasyChatWord_Sapphire[] = _("SAPPHIRE");
@@ -10,7 +10,7 @@ static const u8 sEasyChatWord_Center[] = _("SETUR");
 static const u8 sEasyChatWord_Egg[] = _("EGG");
 static const u8 sEasyChatWord_Link[] = _("LINK");
 static const u8 sEasyChatWord_SpAbility[] = _("SP. ABILITY");
-static const u8 sEasyChatWord_Trainer[] = _("TRAINER");
+static const u8 sEasyChatWord_Trainer[] = _("ÞJÁLFARI");
 static const u8 sEasyChatWord_Version[] = _("VERSION");
 static const u8 sEasyChatWord_Pokenav[] = _("POKéNAV");
 static const u8 sEasyChatWord_Pokemon[] = _("Vasaskrímsli");

@@ -60,6 +60,7 @@ This document records approved terminology and style rules for the Icelandic ver
 | SAFARI ZONE | SAFARI SVÆÐI | Location term. |
 | Network Machine | Net Vél | System/machine term. |
 | Storage System | Geymslukerfi | Use in prose; keep UI/system capitalization where needed. |
+| SEAGALLOP | Sæskjóti | Ferry/boat name. All-caps display `SÆSKJÓTI`. |
 | TM | TM | Keep item abbreviation. |
 | HM | HM | Keep item abbreviation. |
 | OLD ROD | GÖMUL STÖNG | Item/rod name. |

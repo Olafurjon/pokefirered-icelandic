@@ -52,7 +52,7 @@ static const u8 sEasyChatWord_Holiday[] = _("HOLIDAY");
 static const u8 sEasyChatWord_Plans[] = _("PLANS");
 static const u8 sEasyChatWord_Trendy[] = _("TRENDY");
 static const u8 sEasyChatWord_Vacation[] = _("VACATION");
-static const u8 sEasyChatWord_Look[] = _("LOOK");
+static const u8 sEasyChatWord_Look[] = _("HORFA");
 
 static const struct EasyChatWordInfo sEasyChatGroup_Hobbies[] = {
     {
