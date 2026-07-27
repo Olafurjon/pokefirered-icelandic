@@ -61,6 +61,7 @@ static void InitTeachyTvFromBag(void);
 static void Task_InitTeachyTvFromField(u8 taskId);
 static void Task_UseRepel(u8 taskId);
 static void RemoveUsedItem(void);
+static void CopyItemNameForUseMessage(u16 itemId, u8 *dest);
 static void Task_UsedBlackWhiteFlute(u8 taskId);
 static void ItemUseOnFieldCB_EscapeRope(u8 taskId);
 static void UseTownMapFromBag(void);
@@ -127,6 +128,8 @@ static const u8 sUnused[] = {
     0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
     0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
 };
+
+static const u8 sText_VasaBoltaAccusative[] = _("VASA BOLTA");
 
 static void (*const sExitCallbackByItemType[])(void) = {
     [ITEM_TYPE_PARTY_MENU - 1] = CB2_ShowPartyMenuForItemUse,
@@ -570,12 +573,20 @@ static void Task_UseRepel(u8 taskId)
     }
 }
 
+static void CopyItemNameForUseMessage(u16 itemId, u8 *dest)
+{
+    if (itemId == ITEM_POKE_BALL)
+        StringCopy(dest, sText_VasaBoltaAccusative);
+    else
+        CopyItemName(itemId, dest);
+}
+
 static void RemoveUsedItem(void)
 {
     RemoveBagItem(gSpecialVar_ItemId, 1);
     Pocket_CalculateNItemsAndMaxShowed(ItemId_GetPocket(gSpecialVar_ItemId));
     PocketCalculateInitialCursorPosAndItemsAbove(ItemId_GetPocket(gSpecialVar_ItemId));
-    CopyItemName(gSpecialVar_ItemId, gStringVar2);
+    CopyItemNameForUseMessage(gSpecialVar_ItemId, gStringVar2);
     StringExpandPlaceholders(gStringVar4, gText_PlayerUsedVar2);
 }
 
@@ -586,7 +597,7 @@ void FieldUseFunc_BlackWhiteFlute(u8 taskId)
     {
         FlagSet(FLAG_SYS_WHITE_FLUTE_ACTIVE);
         FlagClear(FLAG_SYS_BLACK_FLUTE_ACTIVE);
-        CopyItemName(gSpecialVar_ItemId, gStringVar2);
+        CopyItemNameForUseMessage(gSpecialVar_ItemId, gStringVar2);
         StringExpandPlaceholders(gStringVar4, gText_UsedVar2WildLured);
         gTasks[taskId].func = Task_UsedBlackWhiteFlute;
         gTasks[taskId].data[8] = 0;
@@ -595,7 +606,7 @@ void FieldUseFunc_BlackWhiteFlute(u8 taskId)
     {
         FlagSet(FLAG_SYS_BLACK_FLUTE_ACTIVE);
         FlagClear(FLAG_SYS_WHITE_FLUTE_ACTIVE);
-        CopyItemName(gSpecialVar_ItemId, gStringVar2);
+        CopyItemNameForUseMessage(gSpecialVar_ItemId, gStringVar2);
         StringExpandPlaceholders(gStringVar4, gText_UsedVar2WildRepelled);
         gTasks[taskId].func = Task_UsedBlackWhiteFlute;
         gTasks[taskId].data[8] = 0;
