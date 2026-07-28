@@ -5,7 +5,7 @@ SevenIsland_PokemonCenter_1F_Text_EventsDependingOnConnections::
     .string "Það þarftu að uppgötva sjálf/ur.$"
 
 SevenIsland_PokemonCenter_1F_Text_DidYouRideSeagallopHere::
-    .string "Tókstu SEAGALLOP-ferju hingað?\p"
+    .string "Tókstu SÆSKJÓTA-ferju hingað?\p"
     .string "Það eru að minnsta kosti tíu svona\n"
     .string "hraðskip.\p"
     .string "Ég veit samt ekki hvert þau fara\n"
@@ -14,4 +14,3 @@ SevenIsland_PokemonCenter_1F_Text_DidYouRideSeagallopHere::
 SevenIsland_PokemonCenter_1F_Text_CheckOutTrainerTower::
     .string "Ef þú ert örugg/ur með þig ættirðu\n"
     .string "að skoða ÞJÁLFARATURNINN.$"
-
