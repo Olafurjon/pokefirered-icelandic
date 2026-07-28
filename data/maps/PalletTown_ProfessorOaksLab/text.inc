@@ -241,7 +241,7 @@ PalletTown_ProfessorOaksLab_Text_OaksLastMon::
     .string "EIK.$"
 
 PalletTown_ProfessorOaksLab_Text_PressStartToOpenMenu::
-    .string "Ýttu á START til að opna VALMYND!$"
+    .string "Ýttu á START til að opna VALMYNDINA!$"
 
 PalletTown_ProfessorOaksLab_Text_SaveOptionInMenu::
     .string "VISTA-valkosturinn er í VALMYND.\n"

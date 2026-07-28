@@ -81,13 +81,28 @@ def patch_cell(cell: Image.Image, glyph: str) -> Image.Image:
         patch_ae(cell)
     elif glyph == "æ":
         if w <= 8:
-            hline(cell, 4, 7, 7)
-            hline(cell, 4, 7, 10)
-            vline(cell, 7, 7, 10)
+            clear_rect(cell, 0, 6, 7, 12)
+            paint_rows(cell, {
+                6: "31112...",
+                7: "12212...",
+                8: "11112...",
+                9: "12223...",
+                10: "21212...",
+                11: "32322...",
+                12: "33333...",
+            })
         else:
-            hline(cell, 6, 10, 7)
-            hline(cell, 6, 10, 10)
-            vline(cell, 10, 7, 10)
+            clear_rect(cell, 0, 6, 15, 13)
+            paint_rows(cell, {
+                6: "311112..........",
+                7: "122212..........",
+                8: "111112..........",
+                9: "122223..........",
+                10: "211212..........",
+                11: "322322..........",
+                12: "333333..........",
+                13: "333333..........",
+            })
     elif glyph == "Ð":
         hline(cell, 1, min(w - 5, 8), 7)
     elif glyph == "ð":
@@ -100,43 +115,48 @@ def patch_cell(cell: Image.Image, glyph: str) -> Image.Image:
     return cell
 
 
-def patch_ae(cell: Image.Image) -> Image.Image:
-    # Build Æ as a ligature, not as a separated A+E.  The E arms share the
-    # right stem of A so the in-game shadow still reads as one letter.
-    w = cell.width
-    if w <= 8:
-        clear_rect(cell, 0, 4, 7, 13)
-        rows = {
-            4: "#####...",
-            5: "#++#+...",
-            6: "#+.#....",
-            7: "#####...",
-            8: "#++#+...",
-            9: "#+.#....",
-            10: "#+.#....",
-            11: "++.#....",
-            12: "...####.",
-        }
-    else:
-        clear_rect(cell, 0, 3, 15, 14)
-        rows = {
-            3: ".########...",
-            4: "#++++#+++...",
-            5: "#+...#......",
-            6: "#+...#......",
-            7: "########....",
-            8: "#++++#+++...",
-            9: "#+...#......",
-            10: "#+...#......",
-            11: "++...#......",
-            12: ".....######.",
-        }
+def paint_rows(cell: Image.Image, rows: dict[int, str]) -> None:
     for y, row in rows.items():
         for x, value in enumerate(row):
-            if value == "#":
-                draw_pixel(cell, x, y, 1)
-            elif value == "+":
-                draw_pixel(cell, x, y, 2)
+            if value == ".":
+                cell.putpixel((x, y), 0)
+            elif value in {"0", "1", "2", "3"}:
+                cell.putpixel((x, y), int(value))
+
+
+def patch_ae(cell: Image.Image) -> Image.Image:
+    # Keep Æ/æ compact. The text engine advances from width tables, so wide
+    # ligatures bleed or leave odd gaps in battle/menu windows.
+    w = cell.width
+    if w <= 8:
+        clear_rect(cell, 0, 4, 7, 12)
+        rows = {
+            4: "31123...",
+            5: "12212...",
+            6: "12312...",
+            7: "11123...",
+            8: "12212...",
+            9: "12312...",
+            10: "12312...",
+            11: "22322...",
+            12: "33333...",
+        }
+    else:
+        clear_rect(cell, 0, 3, 15, 13)
+        rows = {
+            3: "311123..........",
+            4: "122212..........",
+            5: "123123..........",
+            6: "121233..........",
+            7: "111123..........",
+            8: "122123..........",
+            9: "123123..........",
+            10: "123312..........",
+            11: "223322..........",
+            12: "333333..........",
+            13: "333333..........",
+        }
+    paint_rows(cell, rows)
     return cell
 
 
