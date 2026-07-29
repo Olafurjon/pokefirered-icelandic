@@ -41,8 +41,10 @@ static EWRAM_DATA struct BattleMsgData *sBattleMsgDataPtr = NULL;
 static void ChooseMoveUsedParticle(u8 *textPtr);
 static void ChooseTypeOfMoveUsedString(u8 *textPtr);
 static void ExpandBattleTextBuffPlaceholders(const u8 *src, u8 *dst);
+static void CopyItemNameForUseMessage(u16 itemId, u8 *dst);
 
 static const u8 sText_Empty1[] = _("");
+static const u8 sText_VasaBoltaAccusative[] = _("VASA BOLTA");
 static const u8 sText_Trainer1LoseText[] = _("{B_TRAINER1_LOSE_TEXT}");
 static const u8 sText_Trainer2LoseText[] = _("{B_TRAINER2_LOSE_TEXT}");
 static const u8 sText_Trainer1RecallPkmn1[] = _("{B_TRAINER1_NAME}: {B_OPPONENT_MON1_NAME}, komdu til baka!");
@@ -410,14 +412,14 @@ const u8 sText_PkmnGoodComeBack[] = _("{B_BUFF1}, gott!\nKomdu til baka!");
 static const u8 sText_Trainer1WithdrewPkmn[] = _("{B_TRAINER1_CLASS} {B_TRAINER1_NAME}\nkallaði {B_BUFF1} til baka!");
 static const u8 sText_LinkTrainer1WithdrewPkmn[] = _("{B_LINK_OPPONENT1_NAME} kallaði\n{B_BUFF1} til baka!");
 static const u8 sText_LinkTrainer2WithdrewPkmn[] = _("{B_LINK_SCR_TRAINER_NAME} kallaði\n{B_BUFF1} til baka!");
-static const u8 sText_WildPkmnPrefix[] = _("Villt");
-static const u8 sText_FoePkmnPrefix[] = _("Óvinur");
-static const u8 sText_FoePkmnPrefix2[] = _("Óvinur");
-static const u8 sText_AllyPkmnPrefix[] = _("Bandam.");
-static const u8 sText_FoePkmnPrefix3[] = _("Óvinur");
-static const u8 sText_AllyPkmnPrefix2[] = _("Bandam.");
-static const u8 sText_FoePkmnPrefix4[] = _("Óvinur");
-static const u8 sText_AllyPkmnPrefix3[] = _("Bandam.");
+static const u8 sText_WildPkmnPrefix[] = _("Villt ");
+static const u8 sText_FoePkmnPrefix[] = _("Óvinur ");
+static const u8 sText_FoePkmnPrefix2[] = _("Óvinur ");
+static const u8 sText_AllyPkmnPrefix[] = _("Bandam. ");
+static const u8 sText_FoePkmnPrefix3[] = _("Óvinur ");
+static const u8 sText_AllyPkmnPrefix2[] = _("Bandam. ");
+static const u8 sText_FoePkmnPrefix4[] = _("Óvinur ");
+static const u8 sText_AllyPkmnPrefix3[] = _("Bandam. ");
 static const u8 sText_AttackerUsedX[] = _("{B_ATK_NAME_WITH_PREFIX} notaði\n{B_BUFF2}");
 static const u8 sText_ExclamationMark[] = _("!");
 static const u8 sText_ExclamationMark2[] = _("!");
@@ -472,7 +474,7 @@ static const u8 sText_ItAppearedCaught[] = _("Æi!\nÞað virtist vera veitt!");
 static const u8 sText_AarghAlmostHadIt[] = _("Æi!\nNæstum því náði því!");
 static const u8 sText_ShootSoClose[] = _("Sjitt!\nÞað var svo nálægt líka!");
 static const u8 sText_ItDodgedBall2[] = _("Það forðaðist boltann!\nÞetta næst líklega ekki!"); // Unused version of the Marowak ghost dodging text
-static const u8 sText_GotchaPkmnCaught[] = _("Gotcha!\n{B_OPPONENT_MON1_NAME} var veiddur!{WAIT_SE}{PLAY_BGM MUS_CAUGHT}");
+static const u8 sText_GotchaPkmnCaught[] = _("Náði þér!\n{B_OPPONENT_MON1_NAME} var veitt!{WAIT_SE}{PLAY_BGM MUS_CAUGHT}");
 static const u8 sText_GotchaPkmnCaught2[] = _("Náði þér!\n{B_OPPONENT_MON1_NAME} var veitt!{WAIT_SE}{PLAY_BGM MUS_CAUGHT}{PAUSE 127}");
 static const u8 sText_GiveNicknameCaptured[] = _("Gefa veiddu {B_OPPONENT_MON1_NAME}\ngælunafn?");
 static const u8 sText_PkmnSentToPC[] = _("{B_OPPONENT_MON1_NAME} var sent í\ntölvu {B_PC_CREATOR_NAME}.");
@@ -2008,13 +2010,13 @@ u32 BattleStringExpandPlaceholders(const u8 *src, u8 *dst)
                     }
                     else
                     {
-                        CopyItemName(gLastUsedItem, text);
+                        CopyItemNameForUseMessage(gLastUsedItem, text);
                         toCpy = text;
                     }
                 }
                 else
                 {
-                    CopyItemName(gLastUsedItem, text);
+                    CopyItemNameForUseMessage(gLastUsedItem, text);
                     toCpy = text;
                 }
                 break;
@@ -2202,6 +2204,14 @@ u32 BattleStringExpandPlaceholders(const u8 *src, u8 *dst)
     dst[dstId++] = *src;
 
     return dstId;
+}
+
+static void CopyItemNameForUseMessage(u16 itemId, u8 *dst)
+{
+    if (itemId == ITEM_POKE_BALL)
+        StringCopy(dst, sText_VasaBoltaAccusative);
+    else
+        CopyItemName(itemId, dst);
 }
 
 static void ExpandBattleTextBuffPlaceholders(const u8 *src, u8 *dst)

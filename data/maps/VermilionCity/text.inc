@@ -78,45 +78,45 @@ VermilionCity_Text_TheShipSetSail::
 
 VermilionCity_Text_BoardSeagallopTriPass::
     .string "Ah, þú ert með ÞRÍPASSA.\p"
-    .string "Viltu fara um borð í SEAGALLOP\n"
-    .string "ferju?$"
+    .string "Viltu fara um borð í SÆSKJÓTA\n"
+    .string "ferjuna?$"
 
 VermilionCity_Text_Seagallop7Departing::
     .string "Allt í lagi, allt er í röð og reglu.\p"
-    .string "SEAGALLOP HI-SPEED 7 leggur strax af\n"
+    .string "SÆSKJÓTI HRAÐFERJA 7 leggur strax af\n"
     .string "stað.$"
 
 VermilionCity_Text_BoardSeagallopRainbowPass::
     .string "Ah, þú ert með REGNBOGAPASSA.\p"
-    .string "Viltu fara um borð í SEAGALLOP\n"
-    .string "ferju?$"
+    .string "Viltu fara um borð í SÆSKJÓTA\n"
+    .string "ferjuna?$"
 
 VermilionCity_Text_OhMysticTicketTakeYouToNavelRock::
     .string "Ó! Þetta er MYSTICMIÐI! Hann er\n"
     .string "sannarlega sjaldgæfur.\p"
-    .string "Við flytjum þig glöð til NAVEL ROCK\n"
+    .string "Við flytjum þig glöð til NAVEL KLIPPU\n"
     .string "hvenær sem er.$"
 
 VermilionCity_Text_OhAuroraTicketTakeYouToBirthIsland::
     .string "Ó! Þetta er AURORAMIÐI! Hann er\n"
     .string "sannarlega sjaldgæfur.\p"
-    .string "Við flytjum þig glöð til BIRTH\n"
-    .string "ISLAND hvenær sem er.$"
+    .string "Við flytjum þig glöð til\n"
+    .string "FÆÐINGAREYJU hvenær sem er.$"
 
 VermilionCity_Text_BoardSeagallopFerry::
-    .string "Viltu fara um borð í SEAGALLOP\n"
-    .string "ferju?$"
+    .string "Viltu fara um borð í SÆSKJÓTA\n"
+    .string "ferjuna?$"
 
 VermilionCity_Text_Seagallop10Departing::
     .string "Allt í lagi, allt er klárt fyrir þig\n"
     .string "til að fara um borð í sérferju.\p"
-    .string "SEAGALLOP HI-SPEED 10 leggur strax\n"
+    .string "SÆSKJÓTI HRAÐFERJA 10 leggur strax\n"
     .string "af stað.$"
 
 VermilionCity_Text_Seagallop12Departing::
     .string "Allt í lagi, allt er klárt fyrir þig\n"
     .string "til að fara um borð í sérferju.\p"
-    .string "SEAGALLOP HI-SPEED 12 leggur strax\n"
+    .string "SÆSKJÓTI HRAÐFERJA 12 leggur strax\n"
     .string "af stað.$"
 
 VermilionCity_Text_Route2AideHasPackageForYou::

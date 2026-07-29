@@ -13,14 +13,14 @@ PewterCity_PokemonCenter_1F_Text_WhenJiggylypuffSingsMonsGetDrowsy::
     .string "...Ég líka... Hrot...$"
 
 PewterCity_PokemonCenter_1F_Text_TradingMyClefairyForPikachu::
-    .string "Mig langar virkilega í LEIFTURSKO,\n"
-    .string "svo ég ætla að skipta BLEIKÁLFUR\p"
-    .string "mínum fyrir LEIFTURSKO.$"
+    .string "Mig langar virkilega í\n"
+    .string "LEIFTURSKOTTA, svo ég ætla að\p"
+    .string "skipta BLEIKÁLFUR mínum fyrir\n"
+    .string "LEIFTURSKOTTA.$"
 
 PewterCity_PokemonCenter_1F_Text_TradingPikachuWithKid::
     .string "Ég er að skipta á vasaskrímslum við\n"
     .string "krakkann þarna.\p"
-    .string "Ég átti tvö LEIFTURSKO, svo mér\n"
+    .string "Ég átti tvö LEIFTURSKOTTA, svo mér\n"
     .string "fannst eins gott að skipta öðru\p"
     .string "þeirra.$"
-
