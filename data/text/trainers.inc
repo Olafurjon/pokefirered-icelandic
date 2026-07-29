@@ -244,7 +244,7 @@ Route12_Text_ChipRematchIntro::
 	.string "biðleikur.$"
 
 Route12_Text_JustinRematchIntro::
-	.string "Finn ennþá ekki MOON STONE… Hefur þú\n"
+	.string "Finn ennþá ekki TUNGLSTEIN… Hefur þú\n"
 	.string "fundið einn?$"
 
 Route12_Text_LucaRematchIntro::

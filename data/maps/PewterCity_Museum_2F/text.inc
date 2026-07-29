@@ -22,7 +22,7 @@ Text_SeismicTossTaught::
     .string "áfram.$"
 
 PewterCity_Museum_1F_Text_WhatsSpecialAboutMoonStone::
-    .string "MOON STONE, ha?\p"
+    .string "TUNGLSTEINN, ha?\p"
     .string "Hvað er svona sérstakt við hann?\n"
     .string "Hann lítur út eins og venjulegur\p"
     .string "steinn fyrir mér.$"
@@ -53,4 +53,4 @@ PewterCity_Museum_1F_Text_SpaceShuttle::
 
 PewterCity_Museum_1F_Text_MeteoriteThatFellOnMtMoon::
     .string "Loftsteinn sem féll á MT. MOON.\n"
-    .string "Talið er að hann sé MOON STONE.$"
+    .string "Talið er að hann sé TUNGLSTEINN.$"

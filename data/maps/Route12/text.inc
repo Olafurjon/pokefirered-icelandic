@@ -37,7 +37,7 @@ Route12_Text_ChipPostBattle::
     .string "Vasaskrímsli…$"
 
 Route12_Text_JustinIntro::
-    .string "Ég er að leita að MOON STONE.\n"
+    .string "Ég er að leita að TUNGLSTEINI.\n"
     .string "Hefurðu fundið einn?$"
 
 Route12_Text_JustinDefeat::
@@ -45,7 +45,7 @@ Route12_Text_JustinDefeat::
 
 Route12_Text_JustinPostBattle::
     .string "Ég hefði getað látið Vasaskrímslið\n"
-    .string "mitt þróast með MOON STONE.\p"
+    .string "mitt þróast með TUNGLSTEINI.\p"
     .string "Þá hefði ég unnið, ég veðja á það.$"
 
 Route12_Text_LucaIntro::
