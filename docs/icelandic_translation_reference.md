@@ -23,6 +23,7 @@ This document records approved terminology and style rules for the Icelandic ver
 | POKé DOLL | VASa DÚKKA | Use `VASa DÚKKU` in accusative context. |
 | POKéBLOCK | VASaKUBBUR | Use `VASaKUBB` after `gefa`; plural `VASaKUBBA`. |
 | POKéMANIAC | SKRÍMSLASJÚKUR | Trainer class display may use `SKRÍMSLASJ.` because of width/length limits. |
+| BUG CATCHER | PÖDDUVEIÐARI | Trainer class name; avoid over-limit `SKORDÝRAVEIÐARI`. |
 
 ## UI Terms
 
