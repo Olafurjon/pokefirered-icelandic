@@ -328,7 +328,7 @@ const u8 DecorDesc_CUTE_POSTER[] = _(
 
 const u8 DecorDesc_PIKA_POSTER[] = _(
     "A large poster with\n"
-        "a LEIFTURSKO and\n"
+        "a LEIFTURSKOTTA and\n"
         "STUÐSTÚFA print.");
 
 const u8 DecorDesc_LONG_POSTER[] = _(
@@ -353,7 +353,7 @@ const u8 DecorDesc_PICHU_DOLL[] = _(
         "or a desk.");
 
 const u8 DecorDesc_PIKACHU_DOLL[] = _(
-    "A LEIFTURSKO doll.\n"
+    "A LEIFTURSKOTTA doll.\n"
         "Place it on a mat\n"
         "or a desk.");
 
@@ -473,7 +473,7 @@ const u8 DecorDesc_SEEDOT_DOLL[] = _(
         "or a desk.");
 
 const u8 DecorDesc_PIKA_CUSHION[] = _(
-    "A LEIFTURSKO cushion.\n"
+    "A LEIFTURSKOTTA cushion.\n"
         "Place it on a mat\n"
         "or a desk.");
 

@@ -1,11 +1,11 @@
 VermilionCity_PokemonFanClub_Text_AdmirePikachusTail::
     .string "Viltu ekki dást að yndislega halanum\n"
-    .string "á LEIFTURSKO mínum?$"
+    .string "á LEIFTURSKOTTA minni?$"
 
 VermilionCity_PokemonFanClub_Text_PikachuTwiceAsCute::
     .string "Hmph!\p"
-    .string "LEIFTURSKO minn er tvöfalt sætari en\n"
-    .string "þessi!$"
+    .string "LEIFTURSKOTTA mín er tvöfalt\n"
+    .string "sætari en þessi!$"
 
 VermilionCity_PokemonFanClub_Text_AdoreMySeel::
     .string "Ég dýrka KÓPANGA minn! Hann er svo\n"
@@ -19,7 +19,7 @@ VermilionCity_PokemonFanClub_Text_SeelFarMoreAttractive::
     .string "Tvöfalt fallegri, myndi ég segja.$"
 
 VermilionCity_PokemonFanClub_Text_Pikachu::
-    .string "LEIFTURSKO: Chu! Pikachu!$"
+    .string "LEIFTURSKOTTA: Chu! Pikachu!$"
 
 VermilionCity_PokemonFanClub_Text_Seel::
     .string "KÓPANGI: Kyuoo!$"

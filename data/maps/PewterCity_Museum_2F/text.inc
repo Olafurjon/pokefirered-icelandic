@@ -39,14 +39,14 @@ PewterCity_Museum_1F_Text_RunningSpaceExhibitThisMonth::
     .string "geimsýningu.$"
 
 PewterCity_Museum_1F_Text_AskedDaddyToCatchPikachu::
-    .string "Mig langar í LEIFTURSKO! Það er svo\n"
-    .string "krúttlegt!\p"
-    .string "Ég bað pabba að ná LEIFTURSKO fyrir\n"
-    .string "mig!$"
+    .string "Mig langar í LEIFTURSKOTTA!\n"
+    .string "Það er svo krúttlegt!\p"
+    .string "Ég bað pabba að ná\n"
+    .string "LEIFTURSKOTTA fyrir mig!$"
 
 PewterCity_Museum_1F_Text_PikachuSoonIPromise::
-    .string "Já, þú færð LEIFTURSKO bráðum, ég\n"
-    .string "lofa!$"
+    .string "Já, þú færð LEIFTURSKOTTA\n"
+    .string "bráðum, ég lofa!$"
 
 PewterCity_Museum_1F_Text_SpaceShuttle::
     .string "Geimskutla$"
@@ -54,4 +54,3 @@ PewterCity_Museum_1F_Text_SpaceShuttle::
 PewterCity_Museum_1F_Text_MeteoriteThatFellOnMtMoon::
     .string "Loftsteinn sem féll á MT. MOON.\n"
     .string "Talið er að hann sé MOON STONE.$"
-
