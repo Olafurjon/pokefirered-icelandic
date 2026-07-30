@@ -7,8 +7,7 @@ CeruleanCity_Mart_Text_RepelWorksOnWeakMons::
     .string "sterkt verður áhrif REPEL meiri.$"
 
 CeruleanCity_Mart_Text_DoYouKnowAboutRareCandy::
-    .string "Veistu um RARE CANDY? Það er ekki\n"
+    .string "Veistu um OFUR NAMMI? Það er ekki\n"
     .string "selt í búðum.\p"
     .string "Ég held að það láti vasaskrímsli\n"
     .string "vaxa mjög hratt allt í einu.$"
-
