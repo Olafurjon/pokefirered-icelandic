@@ -1,9 +1,9 @@
 MtMoon_1F_Text_MarcosIntro::
-    .string "VÁ! Þú brá mér! ...Ó, þú ert bara\n"
+    .string "VÁ! Mér brá! ...Ó, þú ert bara\n"
     .string "krakki!$"
 
 MtMoon_1F_Text_MarcosDefeat::
-    .string "Vá! Þú brást mér aftur!$"
+    .string "Vá! Nú brá mér aftur!$"
 
 MtMoon_1F_Text_MarcosPostBattle::
     .string "Krakkar eins og þú ættu ekki að ráfa\n"

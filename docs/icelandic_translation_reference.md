@@ -71,6 +71,7 @@ This document records approved terminology and style rules for the Icelandic ver
 | SUPER POTION | GOTT SEYÐI | Healing item family. |
 | HYPER POTION | HYPERSEYÐI | Healing item family; compact name. |
 | MAX POTION | OFURSEYÐI | Healing item family; compact name. |
+| RARE CANDY | OFUR NAMMI | Level-up candy item; prefer this over `SJALDSÆLGÆTI`/`SJALD.SYKR`. |
 | Bubble | Búbblur | Move name; all-caps display `BÚBBLUR`. |
 
 ## Stats And Battle Terms
@@ -92,6 +93,7 @@ This document records approved terminology and style rules for the Icelandic ver
 | OAK's | EIKS | Possessive context. |
 | Gramps | Afi | Rival speaking to/about Professor Oak. |
 | BIRCH / Professor Birch | BIRKIR / Prófessor BIRKIR | Use Icelandic name for visible professor name. |
+| TEAM ROCKET | ROCKET-GENGI | Trainer class display uses `ROCKET-GENGI`; grunts use trainer name `ÞRJÓTUR`, admins use `YFIRMAÐUR`. |
 | Boulder Badge | Steinmerkið | Approved badge name. |
 | Fossil | Steingervingur / Gerving | Prefer full word in prose, short form where space is tight. |
 

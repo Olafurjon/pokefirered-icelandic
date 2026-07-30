@@ -1,0 +1,29 @@
+line,constant,current_text,reason
+7,TRAINER_CLASS_RS_RUIN_MANIAC,"RUIN MANIAC",english-display-name
+11,TRAINER_CLASS_RS_COOLTRAINER,"COOLTRAINER",english-display-name
+15,TRAINER_CLASS_RICH_BOY,"RICH BOY",english-display-name
+18,TRAINER_CLASS_RS_BLACK_BELT,"BLACK BELT",english-display-name
+21,TRAINER_CLASS_RS_CAMPER,"CAMPER",english-display-name
+22,TRAINER_CLASS_BUG_MANIAC,"BUG MANIAC",english-display-name
+29,TRAINER_CLASS_POKEFAN,"POKéFAN",english-display-name
+34,TRAINER_CLASS_TRIATHLETE,"TRIATHLETE",english-display-name
+36,TRAINER_CLASS_RS_BIRD_KEEPER,"BIRD KEEPER",english-display-name
+41,TRAINER_CLASS_RS_PICNICKER,"PICNICKER",english-display-name
+44,TRAINER_CLASS_BOARDER,"BOARDER",english-display-name
+49,TRAINER_CLASS_MAGMA_LEADER,"MAGMA LEADER",english-display-name
+53,TRAINER_CLASS_RS_HIKER,"HIKER",english-display-name
+57,TRAINER_CLASS_AQUA_ADMIN,"AQUA ADMIN",english-display-name
+58,TRAINER_CLASS_MAGMA_ADMIN,"MAGMA ADMIN",english-display-name
+63,TRAINER_CLASS_CAMPER,"CAMPER",english-display-name
+64,TRAINER_CLASS_PICNICKER,"PICNICKER",english-display-name
+67,TRAINER_CLASS_HIKER,"HIKER",english-display-name
+68,TRAINER_CLASS_BIKER,"BIKER",english-display-name
+69,TRAINER_CLASS_BURGLAR,"BURGLAR",english-display-name
+70,TRAINER_CLASS_ENGINEER,"ENGINEER",english-display-name
+73,TRAINER_CLASS_CUE_BALL,"CUE BALL",english-display-name
+79,TRAINER_CLASS_JUGGLER,"JUGGLER",english-display-name
+81,TRAINER_CLASS_BIRD_KEEPER,"BIRD KEEPER",english-display-name
+82,TRAINER_CLASS_BLACK_BELT,"BLACK BELT",english-display-name
+88,TRAINER_CLASS_COOLTRAINER,"COOLTRAINER",english-display-name
+101,TRAINER_CLASS_CRUSH_GIRL,"CRUSH GIRL",english-display-name
+106,TRAINER_CLASS_RUIN_MANIAC,"RUIN MANIAC",english-display-name
