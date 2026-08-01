@@ -871,7 +871,7 @@ SixIsland_OutcastIsland_Text_GebRematchIntro::
 SixIsland_GreenPath_Text_JaclynRematchIntro::
 	.string "…Ha?\p"
 	.string "Ég sé fyrir mér húsið mitt, en\n"
-	.string "FJARFLUTN. kemur mér alltaf hingað!$"
+	.string "FJARFLUTNINGUR kemur mér alltaf hingað!$"
 
 SixIsland_WaterPath_Text_RoseRematchIntro::
 	.string "Ó, halló. Kellega gola er að blása\n"

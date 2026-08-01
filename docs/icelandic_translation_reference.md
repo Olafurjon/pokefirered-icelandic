@@ -24,7 +24,7 @@ This document records approved terminology and style rules for the Icelandic ver
 | POKéBLOCK | VASaKUBBUR | Use `VASaKUBB` after `gefa`; plural `VASaKUBBA`. |
 | POKéMANIAC | SKRÍMSLASJÚKUR | Trainer class display may use `SKRÍMSLASJ.` because of width/length limits. |
 | BUG CATCHER | PÖDDUVEIÐARI | Trainer class name; avoid over-limit `SKORDÝRAVEIÐARI`. |
-| HIKER | GÖNGUMAÐUR | Trainer class display; fits the class-name length limit. |
+| HIKER | FJALLGÖNGUMAÐUR | Trainer class display; trainer-class name limit is expanded for Icelandic. |
 
 ## UI Terms
 
@@ -74,8 +74,8 @@ This document records approved terminology and style rules for the Icelandic ver
 | MAX POTION | OFURSEYÐI | Healing item family; compact name. |
 | RARE CANDY | OFUR NAMMI | Level-up candy item; prefer this over `SJALDSÆLGÆTI`/`SJALD.SYKR`. |
 | Bubble | Búbblur | Move name; all-caps display `BÚBBLUR`. |
-| Whirlwind | Hvirfilvind | Move name; all-caps display `HVIRFILVIND` because of move-name length limits. |
-| Teleport | Fjarflutn. | Move name; compact all-caps display `FJARFLUTN.` because of move-name length limits. |
+| Whirlwind | Hvirfilvindur | Move name; all-caps display `HVIRFILVINDUR`. |
+| Teleport | Fjarflutningur | Move name; all-caps display `FJARFLUTNINGUR`. |
 
 ## Stats And Battle Terms
 
