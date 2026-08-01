@@ -25,6 +25,15 @@ This document records approved terminology and style rules for the Icelandic ver
 | POKéMANIAC | SKRÍMSLASJÚKUR | Trainer class display may use `SKRÍMSLASJ.` because of width/length limits. |
 | BUG CATCHER | PÖDDUVEIÐARI | Trainer class name; avoid over-limit `SKORDÝRAVEIÐARI`. |
 | HIKER | FJALLGÖNGUMAÐUR | Trainer class display; trainer-class name limit is expanded for Icelandic. |
+| BIRD KEEPER | FUGLAVÖRÐUR | Trainer class display. |
+| BLACK BELT | SVARTBELTINGUR | Trainer class display. |
+| COOLTRAINER | FLOTTÞJÁLFARI | Trainer class display. |
+| RUIN MANIAC | RÚSTASJÚKUR | Trainer class display. |
+| CAMPER | TJALDARI | Trainer class display. |
+| PICNICKER | LAUTARFERÐARI | Trainer class display. |
+| BIKER | HJÓLARI | Trainer class display. |
+| BURGLAR | INNBROTSÞJÓFUR | Trainer class display. |
+| ENGINEER | VERKFRÆÐINGUR | Trainer class display. |
 
 ## UI Terms
 
@@ -73,9 +82,22 @@ This document records approved terminology and style rules for the Icelandic ver
 | HYPER POTION | HYPERSEYÐI | Healing item family; compact name. |
 | MAX POTION | OFURSEYÐI | Healing item family; compact name. |
 | RARE CANDY | OFUR NAMMI | Level-up candy item; prefer this over `SJALDSÆLGÆTI`/`SJALD.SYKR`. |
+| POKé FLUTE | VASA FLAUTA | Item name. |
+| BERRY JUICE | BERJASAFI | Item name. |
+| EXP. SHARE | REYNSLUDEILIR | Item name. |
+| SECRET KEY | LEYNDARLYKILL | Item name. |
+| CARD KEY | KORTALYKILL | Item name. |
+| LIFT KEY | LYFTULYKILL | Item name. |
+| BERRY POUCH | BERJAPOKI | Item name. |
+| MYSTIC TICKET | DULARMIÐI | Item name. |
 | Bubble | Búbblur | Move name; all-caps display `BÚBBLUR`. |
 | Whirlwind | Hvirfilvindur | Move name; all-caps display `HVIRFILVINDUR`. |
 | Teleport | Fjarflutningur | Move name; all-caps display `FJARFLUTNINGUR`. |
+| Aurora Beam | Norðurljósgeisli | Move name; all-caps display `NORÐURLJÓSGEISLI`. |
+| Thunder Wave | Þrumubylgja | Move name; all-caps display `ÞRUMUBYLGJA`. |
+| Hidden Power | Falinn kraftur | Move name; all-caps display `FALINN KRAFTUR`. |
+| Brick Break | Múrbrot | Move name; all-caps display `MÚRBROT`. |
+| Secret Power | Leynikraftur | Move name; all-caps display `LEYNIKRAFTUR`. |
 
 ## Stats And Battle Terms
 
@@ -524,7 +546,7 @@ Species display names may be up to 15 game characters; nickname/save data remain
 
 - Preserve source capitalization pattern when possible. If an all-caps source term is translated, use all-caps Icelandic unless the project has a stylized convention such as `VASaSKRÍMSLI`.
 - Do not translate internal C constants, enum values, script labels, flags, item IDs, or object graphics IDs. Translate only visible text.
-- Keep GBA text width in mind. Prefer short forms in menus, item names, trainer class names, and battle UI.
+- Keep GBA text width in mind, but do not shorten approved names unnecessarily. Prefer expanding local display buffers when that is safe over introducing awkward abbreviations.
 - Keep established game/system proper nouns when they are brand names or technical labels unless there is an approved Icelandic term.
 - For generated CSVs, keep placeholders and control tokens unchanged: `{PLAYER}`, `{RIVAL}`, `{STR_VAR_1}`, `\n`, `\p`, `$`, and similar tokens.
 - Use Icelandic inflection in dialogue, even when the glossary term is listed in nominative form.

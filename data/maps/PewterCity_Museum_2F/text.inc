@@ -6,7 +6,8 @@ Text_SeismicTossTeach::
     .string "En það ætti að hvetja okkur til að\n"
     .string "læra meira, ekki gefast upp.\p"
     .string "Það eina sem þú ættir að kasta...\p"
-    .string "Jæja, hvað með SEISMIC TOSS? Á ég að\n"
+    .string "Jæja, hvað með JARÐSKJÁLFTAKAST?\n"
+    .string "Á ég að\n"
     .string "kenna vasaskrímsli það?$"
 
 Text_SeismicTossDeclined::
@@ -14,8 +15,8 @@ Text_SeismicTossDeclined::
     .string "kemur aftur eftir því.$"
 
 Text_SeismicTossWhichMon::
-    .string "Hvaða vasaskrímsli vill læra SEISMIC\n"
-    .string "TOSS?$"
+    .string "Hvaða vasaskrímsli vill læra\n"
+    .string "JARÐSKJÁLFTAKAST?$"
 
 Text_SeismicTossTaught::
     .string "Ég vona að þú gefist ekki upp. Haltu\n"

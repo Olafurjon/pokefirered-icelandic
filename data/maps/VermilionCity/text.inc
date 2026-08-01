@@ -92,7 +92,7 @@ VermilionCity_Text_BoardSeagallopRainbowPass::
     .string "ferjuna?$"
 
 VermilionCity_Text_OhMysticTicketTakeYouToNavelRock::
-    .string "Ó! Þetta er MYSTICMIÐI! Hann er\n"
+    .string "Ó! Þetta er DULARMIÐI! Hann er\n"
     .string "sannarlega sjaldgæfur.\p"
     .string "Við flytjum þig glöð til NAVEL KLIPPU\n"
     .string "hvenær sem er.$"

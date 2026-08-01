@@ -952,11 +952,12 @@ Text_HavePokedexRated::
 	.string "Viltu láta meta VasaDEXið þitt?$"
 
 Text_ClosedLinkToProfOaksPC::
-	.string "Closed link to PROF. OAK's PC.$"
+	.string "Slökkti á tengingu við\n"
+	.string "tölvu Prófessors EIKS.$"
 
 Text_VoiceRangOutDontRunAway::
-	.string "Someone's voice rang out,\n"
-	.string "“Don't run away!”$"
+	.string "Rödd kallaði:\n"
+	.string "“Ekki hlaupa burt!”$"
 
 @ Uncear what the below unused JP texts were for
 Text_IdLikeToSeeRequest::

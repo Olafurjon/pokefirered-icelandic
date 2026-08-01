@@ -705,7 +705,7 @@
       "secondaryId": 0
     },
     {
-      "english": "BER JUICE",
+      "english": "BERJASAFI",
       "itemId": "ITEM_BERRY_JUICE",
       "price": 100,
       "holdEffect": "HOLD_EFFECT_RESTORE_HP",
@@ -769,7 +769,7 @@
       "secondaryId": 0
     },
     {
-      "english": "RED BROT",
+      "english": "RAUTT BROT",
       "itemId": "ITEM_RED_SHARD",
       "price": 200,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -785,7 +785,7 @@
       "secondaryId": 0
     },
     {
-      "english": "BLUE BROT",
+      "english": "BLÁTT BROT",
       "itemId": "ITEM_BLUE_SHARD",
       "price": 200,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -801,7 +801,7 @@
       "secondaryId": 0
     },
     {
-      "english": "YELLOW BROT",
+      "english": "GULT BROT",
       "itemId": "ITEM_YELLOW_SHARD",
       "price": 200,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -817,7 +817,7 @@
       "secondaryId": 0
     },
     {
-      "english": "GREEN BROT",
+      "english": "GRÆNT BROT",
       "itemId": "ITEM_GREEN_SHARD",
       "price": 200,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -2913,7 +2913,7 @@
       "secondaryId": 0
     },
     {
-      "english": "EXP DEILIR",
+      "english": "REYNSLUDEILIR",
       "itemId": "ITEM_EXP_SHARE",
       "price": 3000,
       "holdEffect": "HOLD_EFFECT_EXP_SHARE",
@@ -3473,7 +3473,7 @@
       "secondaryId": 0
     },
     {
-      "english": "SILK TREFILL",
+      "english": "SILKITREFILL",
       "itemId": "ITEM_SILK_SCARF",
       "price": 100,
       "holdEffect": "HOLD_EFFECT_NORMAL_POWER",
@@ -4065,7 +4065,7 @@
       "secondaryId": 0
     },
     {
-      "english": "RED TREFILL",
+      "english": "RAUÐUR TREFILL",
       "itemId": "ITEM_RED_SCARF",
       "price": 100,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -4081,7 +4081,7 @@
       "secondaryId": 0
     },
     {
-      "english": "BLUE TREFILL",
+      "english": "BLÁR TREFILL",
       "itemId": "ITEM_BLUE_SCARF",
       "price": 100,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -4097,7 +4097,7 @@
       "secondaryId": 0
     },
     {
-      "english": "PINK TREFILL",
+      "english": "BLEIKUR TREFILL",
       "itemId": "ITEM_PINK_SCARF",
       "price": 100,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -4113,7 +4113,7 @@
       "secondaryId": 0
     },
     {
-      "english": "GREEN TREFILL",
+      "english": "GRÆNN TREFILL",
       "itemId": "ITEM_GREEN_SCARF",
       "price": 100,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -4305,7 +4305,7 @@
       "secondaryId": 0
     },
     {
-      "english": "DEVON VARA",
+      "english": "DEVON-VARA",
       "itemId": "ITEM_DEVON_GOODS",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -5659,7 +5659,7 @@
       "secondaryId": 0
     },
     {
-      "english": "POKÉ FLUTE",
+      "english": "VASA FLAUTA",
       "itemId": "ITEM_POKE_FLUTE",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -5675,7 +5675,7 @@
       "secondaryId": 0
     },
     {
-      "english": "SECRET LYKILL",
+      "english": "LEYNDARLYKILL",
       "itemId": "ITEM_SECRET_KEY",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -5739,7 +5739,7 @@
       "secondaryId": 0
     },
     {
-      "english": "CARD LYKILL",
+      "english": "KORTALYKILL",
       "itemId": "ITEM_CARD_KEY",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -5755,7 +5755,7 @@
       "secondaryId": 0
     },
     {
-      "english": "LIFT LYKILL",
+      "english": "LYFTULYKILL",
       "itemId": "ITEM_LIFT_KEY",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -5899,7 +5899,7 @@
       "secondaryId": 0
     },
     {
-      "english": "BER POUCH",
+      "english": "BERJAPOKI",
       "itemId": "ITEM_BERRY_POUCH",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
@@ -5979,7 +5979,7 @@
       "secondaryId": 0
     },
     {
-      "english": "MYSTICMIÐI",
+      "english": "DULARMIÐI",
       "itemId": "ITEM_MYSTIC_TICKET",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
