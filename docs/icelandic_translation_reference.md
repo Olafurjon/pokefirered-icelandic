@@ -340,7 +340,7 @@ Species display names may be up to 15 game characters; nickname/save data remain
 | KINGDRA | Hylþengill | mapped from Vasaskrímsli |
 | PHANPY | Fílingur | mapped from Vasaskrímsli |
 | DONPHAN | Erkifantur | mapped from Vasaskrímsli |
-| PORYGON2 | Grafíkja2 | mapped from Vasaskrímsli; ASCII digit used for charmap support |
+| PORYGON2 | Grafíkja 2 | mapped from Vasaskrímsli |
 | STANTLER | Hvíslhjörtur | mapped from Vasaskrímsli |
 | SMEARGLE | Blikksill | mapped from Vasaskrímsli |
 | TYROGUE | Slegill | mapped from Vasaskrímsli |
