@@ -24,6 +24,7 @@ This document records approved terminology and style rules for the Icelandic ver
 | POKéBLOCK | VASaKUBBUR | Use `VASaKUBB` after `gefa`; plural `VASaKUBBA`. |
 | POKéMANIAC | SKRÍMSLASJÚKUR | Trainer class display may use `SKRÍMSLASJ.` because of width/length limits. |
 | BUG CATCHER | PÖDDUVEIÐARI | Trainer class name; avoid over-limit `SKORDÝRAVEIÐARI`. |
+| HIKER | GÖNGUMAÐUR | Trainer class display; fits the class-name length limit. |
 
 ## UI Terms
 
@@ -73,6 +74,8 @@ This document records approved terminology and style rules for the Icelandic ver
 | MAX POTION | OFURSEYÐI | Healing item family; compact name. |
 | RARE CANDY | OFUR NAMMI | Level-up candy item; prefer this over `SJALDSÆLGÆTI`/`SJALD.SYKR`. |
 | Bubble | Búbblur | Move name; all-caps display `BÚBBLUR`. |
+| Whirlwind | Hvirfilvind | Move name; all-caps display `HVIRFILVIND` because of move-name length limits. |
+| Teleport | Fjarflutn. | Move name; compact all-caps display `FJARFLUTN.` because of move-name length limits. |
 
 ## Stats And Battle Terms
 
@@ -84,6 +87,7 @@ This document records approved terminology and style rules for the Icelandic ver
 | SPECIAL | SÉR | Compact UI/stat shorthand. |
 | catch | fanga | Use for catching monsters. |
 | fishing / fish | veiða | Use only in fishing context. |
+| fast asleep | steinsefur | Battle status phrase; avoid `steinsofur`. |
 
 ## Names And Proper Nouns
 

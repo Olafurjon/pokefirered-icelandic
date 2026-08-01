@@ -11,12 +11,10 @@ line,constant,current_text,reason
 41,TRAINER_CLASS_RS_PICNICKER,"PICNICKER",english-display-name
 44,TRAINER_CLASS_BOARDER,"BOARDER",english-display-name
 49,TRAINER_CLASS_MAGMA_LEADER,"MAGMA LEADER",english-display-name
-53,TRAINER_CLASS_RS_HIKER,"HIKER",english-display-name
 57,TRAINER_CLASS_AQUA_ADMIN,"AQUA ADMIN",english-display-name
 58,TRAINER_CLASS_MAGMA_ADMIN,"MAGMA ADMIN",english-display-name
 63,TRAINER_CLASS_CAMPER,"CAMPER",english-display-name
 64,TRAINER_CLASS_PICNICKER,"PICNICKER",english-display-name
-67,TRAINER_CLASS_HIKER,"HIKER",english-display-name
 68,TRAINER_CLASS_BIKER,"BIKER",english-display-name
 69,TRAINER_CLASS_BURGLAR,"BURGLAR",english-display-name
 70,TRAINER_CLASS_ENGINEER,"ENGINEER",english-display-name
