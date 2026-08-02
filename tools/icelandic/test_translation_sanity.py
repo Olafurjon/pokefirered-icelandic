@@ -195,6 +195,18 @@ class GameplaySanityTests(unittest.TestCase):
 
         self.assertIn("#define SHINY_ODDS 64", pokemon_constants)
 
+    def test_core_type_names_are_icelandic(self) -> None:
+        battle_main = (self.root / "src" / "battle_main.c").read_text(encoding="utf-8")
+
+        for snippet in [
+            '[TYPE_NORMAL] = _("VENJL.")',
+            '[TYPE_FIRE] = _("ELDUR")',
+            '[TYPE_WATER] = _("VATN")',
+            '[TYPE_ELECTRIC] = _("RAFM")',
+            '[TYPE_GRASS] = _("GRAS")',
+        ]:
+            self.assertIn(snippet, battle_main)
+
 
 if __name__ == "__main__":
     unittest.main()
