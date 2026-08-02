@@ -75,10 +75,18 @@ ROM build for pull requests and pushes to `main`.
 ## Current Gameplay Tweaks
 
 - Trade-only evolutions are available without trading.
-- Trade-with-item evolutions happen by leveling up while holding the original
-  trade item. The item is consumed when evolution starts.
+- Trade-with-item evolutions now happen by using the original item directly from
+  the Bag.
+- Evolution items are renewable from the Celadon Department Store 4F shop.
+- Eevee evolves into Espeon with a Sun Stone and Umbreon with a Moon Stone.
+- Eevee is available as a rare grass encounter on Route 7 and Route 16.
 - The three first partner species are available as rare grass encounters:
   Laukeðla in Viridian Forest, Glóðmandra on Route 3, and Sprautill on Route 24.
+- The National Dex upgrade after the first Elite Four victory no longer requires
+  60 caught species or visiting One Island first.
+- TMs are reusable after being taught.
+- Running works indoors after receiving the Running Shoes.
+- Shiny odds are increased to 64/65536, roughly 1 in 1024.
 
 ## Upstream
 
