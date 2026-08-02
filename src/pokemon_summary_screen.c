@@ -109,6 +109,7 @@ static void CB2_RunPokemonSummaryScreen(void);
 static void PrintInfoPage(void);
 static void PrintSkillsPage(void);
 static void PrintMovesPage(void);
+static void PokeSum_PrintLocalizedFixedLabels(void);
 static void PokeSum_PrintMoveName(u8 i);
 static void PokeSum_PrintTrainerMemo(void);
 static void PokeSum_PrintExpPoints_NextLv(void);
@@ -145,7 +146,7 @@ struct PokemonSummaryScreenData
     u16 bg1TilemapBuffer[0x800];
     u16 bg2TilemapBuffer[0x800];
     u16 bg3TilemapBuffer[0x800];
-    u8 ALIGNED(4) windowIds[7];
+    u8 ALIGNED(4) windowIds[8];
 
     u8 ALIGNED(4) unk3008;
     u8 ALIGNED(4) ballIconSpriteId;
@@ -694,6 +695,7 @@ static const struct BgTemplate sBgTempaltes[] =
 #define POKESUM_WIN_LVL_NICK         2
 #define POKESUM_WIN_RIGHT_PANE       3
 #define POKESUM_WIN_TRAINER_MEMO     4
+#define POKESUM_WIN_LOCALIZED_LABELS 7
 
 #define POKESUM_WIN_INFO_3           3
 #define POKESUM_WIN_INFO_4           4
@@ -795,11 +797,11 @@ static const struct WindowTemplate sWindowTemplates_Info[] =
     [POKESUM_WIN_INFO_5 - 3] = {
         .bg = 0,
         .tilemapLeft = 0,
-        .tilemapTop = 0,
-        .width = 0,
-        .height = 0,
-        .paletteNum = 0,
-        .baseBlock = 0x0000
+        .tilemapTop = 13,
+        .width = 12,
+        .height = 1,
+        .paletteNum = 6,
+        .baseBlock = 0x015d
     },
     [POKESUM_WIN_INFO_6 - 3] = {
         .bg = 0,
@@ -844,11 +846,11 @@ static const struct WindowTemplate sWindowTemplates_Skills[] =
     [POKESUM_WIN_SKILLS_6 - 3] = {
         .bg = 0,
         .tilemapLeft = 0,
-        .tilemapTop = 0,
-        .width = 0,
-        .height = 0,
-        .paletteNum = 0,
-        .baseBlock = 0x0000
+        .tilemapTop = 12,
+        .width = 6,
+        .height = 7,
+        .paletteNum = 6,
+        .baseBlock = 0x0139
     },
 };
 
@@ -905,6 +907,46 @@ static const struct WindowTemplate sWindowTemplates_Dummy[] =
     },
 };
 
+static const struct WindowTemplate sWindowTemplates_LocalizedLabels[] =
+{
+    [PSS_PAGE_INFO] = {
+        .bg = 0,
+        .tilemapLeft = 14,
+        .tilemapTop = 1,
+        .width = 9,
+        .height = 14,
+        .paletteNum = 6,
+        .baseBlock = 0x01e4
+    },
+    [PSS_PAGE_SKILLS] = {
+        .bg = 0,
+        .tilemapLeft = 14,
+        .tilemapTop = 4,
+        .width = 9,
+        .height = 10,
+        .paletteNum = 6,
+        .baseBlock = 0x01e4
+    },
+    [PSS_PAGE_MOVES] = {
+        .bg = 255,
+        .tilemapLeft = 0,
+        .tilemapTop = 0,
+        .width = 0,
+        .height = 0,
+        .paletteNum = 0,
+        .baseBlock = 0
+    },
+    [PSS_PAGE_MOVES_INFO] = {
+        .bg = 255,
+        .tilemapLeft = 0,
+        .tilemapTop = 0,
+        .width = 0,
+        .height = 0,
+        .paletteNum = 0,
+        .baseBlock = 0
+    },
+};
+
 
 static const u8 sLevelNickTextColors[][3] =
 {
@@ -915,6 +957,24 @@ static const u8 sLevelNickTextColors[][3] =
     {0, 2, 3},
     {0, 11, 10},
 };
+
+static const u8 sText_SummaryLabel_No[] = _("NR");
+static const u8 sText_SummaryLabel_Name[] = _("NAFN");
+static const u8 sText_SummaryLabel_Type[] = _("GERÐ");
+static const u8 sText_SummaryLabel_Ot[] = _("ÞJ");
+static const u8 sText_SummaryLabel_IdNo[] = _("IDNR");
+static const u8 sText_SummaryLabel_Item[] = _("HLUT");
+static const u8 sText_SummaryLabel_Memo[] = _("MINNI");
+static const u8 sText_SummaryLabel_Attack[] = _("ÁRÁS");
+static const u8 sText_SummaryLabel_Defense[] = _("VÖRN");
+static const u8 sText_SummaryLabel_SpAttack[] = _("S.ÁR");
+static const u8 sText_SummaryLabel_SpDefense[] = _("S.VÖ");
+static const u8 sText_SummaryLabel_Speed[] = _("HRAÐI");
+static const u8 sText_SummaryLabel_Exp[] = _("REYN.");
+static const u8 sText_SummaryLabel_Ability[] = _("HÆFNI");
+static const u8 sText_SummaryLabel_Power[] = _("AFL");
+static const u8 sText_SummaryLabel_Accuracy[] = _("NÁKV.");
+static const u8 sText_SummaryLabel_Effect[] = _("ÁHRIF");
 
 static const u8 ALIGNED(4) sMultiBattlePartyOrder[] =
 {
@@ -2459,6 +2519,7 @@ static void PokeSum_PrintRightPaneText(void)
         break;
     }
 
+    PokeSum_PrintLocalizedFixedLabels();
     PutWindowTilemap(sMonSummaryScreen->windowIds[POKESUM_WIN_RIGHT_PANE]);
 }
 
@@ -2859,15 +2920,30 @@ static void PokeSum_PrintSelectedMoveStats(void)
         if (sMonSummaryScreen->mode != PSS_MODE_SELECT_MOVE && sMoveSelectionCursorPos == 4)
             return;
 
+        AddTextPrinterParameterized3(sMonSummaryScreen->windowIds[POKESUM_WIN_TRAINER_MEMO], FONT_SMALL,
+                                     5, 3,
+                                     sLevelNickTextColors[1], TEXT_SKIP_DRAW,
+                                     sText_SummaryLabel_Power);
+
         AddTextPrinterParameterized3(sMonSummaryScreen->windowIds[POKESUM_WIN_TRAINER_MEMO], FONT_NORMAL,
                                      57, 1,
                                      sLevelNickTextColors[0], TEXT_SKIP_DRAW,
                                      sMonSummaryScreen->summary.movePowerStrBufs[sMoveSelectionCursorPos]);
 
+        AddTextPrinterParameterized3(sMonSummaryScreen->windowIds[POKESUM_WIN_TRAINER_MEMO], FONT_SMALL,
+                                     5, 17,
+                                     sLevelNickTextColors[1], TEXT_SKIP_DRAW,
+                                     sText_SummaryLabel_Accuracy);
+
         AddTextPrinterParameterized3(sMonSummaryScreen->windowIds[POKESUM_WIN_TRAINER_MEMO], FONT_NORMAL,
                                      57, 15,
                                      sLevelNickTextColors[0], TEXT_SKIP_DRAW,
                                      sMonSummaryScreen->summary.moveAccuracyStrBufs[sMoveSelectionCursorPos]);
+
+        AddTextPrinterParameterized3(sMonSummaryScreen->windowIds[POKESUM_WIN_TRAINER_MEMO], FONT_SMALL,
+                                     5, 31,
+                                     sLevelNickTextColors[1], TEXT_SKIP_DRAW,
+                                     sText_SummaryLabel_Effect);
 
         AddTextPrinterParameterized4(sMonSummaryScreen->windowIds[POKESUM_WIN_TRAINER_MEMO], FONT_NORMAL,
                                      7, 42,
@@ -2875,6 +2951,49 @@ static void PokeSum_PrintSelectedMoveStats(void)
                                      sLevelNickTextColors[0], TEXT_SKIP_DRAW,
                                      gMoveDescriptionPointers[sMonSummaryScreen->moveIds[sMoveSelectionCursorPos] - 1]);
     }
+}
+
+static void PokeSum_PrintLocalizedFixedLabels(void)
+{
+    u8 windowId = sMonSummaryScreen->windowIds[POKESUM_WIN_LOCALIZED_LABELS];
+
+    if (windowId == 0xFF)
+        return;
+
+    FillWindowPixelBuffer(windowId, 0);
+
+    switch (sMonSummaryScreen->curPageIndex)
+    {
+    case PSS_PAGE_INFO:
+        FillWindowPixelBuffer(sMonSummaryScreen->windowIds[POKESUM_WIN_INFO_5], 0);
+        AddTextPrinterParameterized3(sMonSummaryScreen->windowIds[POKESUM_WIN_INFO_5], FONT_SMALL, 8, 0, sLevelNickTextColors[1], TEXT_SKIP_DRAW, sText_SummaryLabel_Memo);
+        PutWindowTilemap(sMonSummaryScreen->windowIds[POKESUM_WIN_INFO_5]);
+        CopyWindowToVram(sMonSummaryScreen->windowIds[POKESUM_WIN_INFO_5], 2);
+
+        AddTextPrinterParameterized3(windowId, FONT_SMALL, 21, 2, sLevelNickTextColors[1], TEXT_SKIP_DRAW, sText_SummaryLabel_No);
+        AddTextPrinterParameterized3(windowId, FONT_SMALL, 11, 18, sLevelNickTextColors[1], TEXT_SKIP_DRAW, sText_SummaryLabel_Name);
+        AddTextPrinterParameterized3(windowId, FONT_SMALL, 12, 34, sLevelNickTextColors[1], TEXT_SKIP_DRAW, sText_SummaryLabel_Type);
+        AddTextPrinterParameterized3(windowId, FONT_SMALL, 20, 50, sLevelNickTextColors[1], TEXT_SKIP_DRAW, sText_SummaryLabel_Ot);
+        AddTextPrinterParameterized3(windowId, FONT_SMALL, 12, 66, sLevelNickTextColors[1], TEXT_SKIP_DRAW, sText_SummaryLabel_IdNo);
+        AddTextPrinterParameterized3(windowId, FONT_SMALL, 12, 82, sLevelNickTextColors[1], TEXT_SKIP_DRAW, sText_SummaryLabel_Item);
+        break;
+    case PSS_PAGE_SKILLS:
+        FillWindowPixelBuffer(sMonSummaryScreen->windowIds[POKESUM_WIN_SKILLS_6], 0);
+        AddTextPrinterParameterized3(sMonSummaryScreen->windowIds[POKESUM_WIN_SKILLS_6], FONT_SMALL, 10, 2, sLevelNickTextColors[1], TEXT_SKIP_DRAW, sText_SummaryLabel_Exp);
+        AddTextPrinterParameterized3(sMonSummaryScreen->windowIds[POKESUM_WIN_SKILLS_6], FONT_SMALL, 8, 50, sLevelNickTextColors[1], TEXT_SKIP_DRAW, sText_SummaryLabel_Ability);
+        PutWindowTilemap(sMonSummaryScreen->windowIds[POKESUM_WIN_SKILLS_6]);
+        CopyWindowToVram(sMonSummaryScreen->windowIds[POKESUM_WIN_SKILLS_6], 2);
+
+        AddTextPrinterParameterized3(windowId, FONT_SMALL, 14, 2, sLevelNickTextColors[1], TEXT_SKIP_DRAW, sText_SummaryLabel_Attack);
+        AddTextPrinterParameterized3(windowId, FONT_SMALL, 15, 18, sLevelNickTextColors[1], TEXT_SKIP_DRAW, sText_SummaryLabel_Defense);
+        AddTextPrinterParameterized3(windowId, FONT_SMALL, 15, 34, sLevelNickTextColors[1], TEXT_SKIP_DRAW, sText_SummaryLabel_SpAttack);
+        AddTextPrinterParameterized3(windowId, FONT_SMALL, 15, 50, sLevelNickTextColors[1], TEXT_SKIP_DRAW, sText_SummaryLabel_SpDefense);
+        AddTextPrinterParameterized3(windowId, FONT_SMALL, 14, 66, sLevelNickTextColors[1], TEXT_SKIP_DRAW, sText_SummaryLabel_Speed);
+        break;
+    }
+
+    PutWindowTilemap(windowId);
+    CopyWindowToVram(windowId, 2);
 }
 
 static void PokeSum_PrintAbilityDataOrMoveTypes(void)
@@ -3166,6 +3285,8 @@ static void PokeSum_CreateWindows(void)
         default:
             break;
         }
+
+    sMonSummaryScreen->windowIds[POKESUM_WIN_LOCALIZED_LABELS] = AddWindow(&sWindowTemplates_LocalizedLabels[sMonSummaryScreen->curPageIndex]);
 }
 
 static void PokeSum_AddWindows(u8 curPageIndex)
@@ -3174,7 +3295,7 @@ static void PokeSum_AddWindows(u8 curPageIndex)
     u32 bgPriority1 = GetGpuReg(REG_OFFSET_BG1CNT) & 3;
     u32 bgPriority2 = GetGpuReg(REG_OFFSET_BG2CNT) & 3;
 
-    for (i = 0; i < 7; i++)
+    for (i = 0; i < 8; i++)
         sMonSummaryScreen->windowIds[i] = 0xff;
 
     if ((sMonSummaryScreen->pageFlipDirection == 1 && sMonSummaryScreen->curPageIndex != PSS_PAGE_MOVES_INFO)
@@ -3212,13 +3333,15 @@ static void PokeSum_AddWindows(u8 curPageIndex)
             sMonSummaryScreen->windowIds[i + 3] = AddWindow(&sWindowTemplates_Moves[i]);
             break;
         }
+
+    sMonSummaryScreen->windowIds[POKESUM_WIN_LOCALIZED_LABELS] = AddWindow(&sWindowTemplates_LocalizedLabels[curPageIndex]);
 }
 
 static void PokeSum_RemoveWindows(u8 curPageIndex)
 {
     u8 i;
 
-    for (i = 0; i < 7; i++)
+    for (i = 0; i < 8; i++)
         RemoveWindow(sMonSummaryScreen->windowIds[i]);
 
 }
