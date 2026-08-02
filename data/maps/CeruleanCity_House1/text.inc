@@ -31,7 +31,7 @@ CeruleanCity_House1_Text_ObeyLv30Cut::
     .string "bardaga.$"
 
 CeruleanCity_House1_Text_SpeedStatFly::
-    .string "SPEED gildi allra vasaskrímslanna\n"
+    .string "HRAÐI allra vasaskrímslanna\n"
     .string "þinna hækkar örlítið.\p"
     .string "Það leyfir þér líka að nota FLY utan\n"
     .string "bardaga.$"

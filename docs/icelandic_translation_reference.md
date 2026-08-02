@@ -108,6 +108,9 @@ This document records approved terminology and style rules for the Icelandic ver
 | DEFENSE / DEFEND | VÖRN | Stat name. |
 | SPEED | HRAÐI | Stat name. |
 | SPECIAL | SÉR | Compact UI/stat shorthand. |
+| Nature | Eðli | Summary page label; individual nature names are localized. |
+| INFO | UPPL. | Summary page tab, short for upplýsingar. |
+| SKILLS | HÆFNI | Summary page tab. |
 | catch | fanga | Use for catching monsters. |
 | fishing / fish | veiða | Use only in fishing context. |
 | fast asleep | steinsefur | Battle status phrase; avoid `steinsofur`. |

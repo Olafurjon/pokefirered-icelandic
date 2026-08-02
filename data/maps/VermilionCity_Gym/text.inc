@@ -17,7 +17,7 @@ VermilionCity_Gym_Text_LtSurgePostBattle::
     .string "JARÐAR-gerðar vasaskrímslum!$"
 
 VermilionCity_Gym_Text_ExplainThunderBadgeTakeThis::
-    .string "ÞRUMUMERKIÐ hækkar SPEED hjá\n"
+    .string "ÞRUMUMERKIÐ hækkar HRAÐA hjá\n"
     .string "vasaskrímslunum þínum!\p"
     .string "Það leyfir vasaskrímslunum þínum\n"
     .string "líka að nota FLY eldingarhratt\p"

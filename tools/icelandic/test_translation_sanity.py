@@ -19,12 +19,15 @@ class TerminologyScannerTests(unittest.TestCase):
             text_file.write_text(
                 'Test_Text::\n'
                 '\t.string "POKéMON CENTER sells POTIONS near CYCLING ROAD.$"\n'
-                '\t.string "Viltu fyllja formið? Við alum upp eggið. Gagnhögg!$"\n'
+                '\t.string "Viltu fyllja formið? Við alum upp eggið. Gagnhögg! SPEED!$"\n'
                 '\t.string "Storage System, SURF, VIRIDIAN FOREST, NIDORAN og SKORDÝ Vasaskrímsli.$"\n',
                 encoding="utf-8",
             )
+            nature_file = root / "src" / "data" / "text" / "nature_names.h"
+            nature_file.parent.mkdir(parents=True)
+            nature_file.write_text('static const u8 sQuirkyNatureName[] = _("QUIRKY");\n', encoding="utf-8")
 
-            rows = check_terms.scan_file(text_file, root)
+            rows = check_terms.scan_file(text_file, root) + check_terms.scan_file(nature_file, root)
             found = {row["rule"] for row in rows}
 
         self.assertIn("pokemon-term", found)
@@ -33,11 +36,13 @@ class TerminologyScannerTests(unittest.TestCase):
         self.assertIn("questionnaire-fill", found)
         self.assertIn("daycare-raise", found)
         self.assertIn("critical-hit", found)
+        self.assertIn("speed-stat", found)
         self.assertIn("storage-system", found)
         self.assertIn("surf", found)
         self.assertIn("viridian-forest", found)
         self.assertIn("nidoran-species", found)
         self.assertIn("bug-species-phrase", found)
+        self.assertIn("nature-name", found)
 
     def test_accepts_approved_icelandic_terms(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
