@@ -599,7 +599,7 @@ const u8 gSlowbroPokedexTextUnused[] = _("");
 const u8 gMagnemitePokedexText[] = _(
     "Notar andþyngdarafl til að vera í\n"
     "biðstöðu. Kemur fram fyrirvaralaust\n"
-    "og notar THUNDER WAVE og svipaðar\n"
+    "og notar ÞRUMUBYLGJU og svipaðar\n"
     "hreyfingar.");
 
 const u8 gMagnemitePokedexTextUnused[] = _("");

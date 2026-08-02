@@ -595,9 +595,9 @@ const u8 gSlowbroPokedexText[] = _(
 const u8 gSlowbroPokedexTextUnused[] = _("");
 
 const u8 gMagnemitePokedexText[] = _(
-    "It moves while constantly hovering.\n"
-    "It discharges THUNDER WAVE and so on\n"
-    "frá einingunum á hliðum þess.");
+    "Það svífur stöðugt um loftið.\n"
+    "Það sendir frá sér ÞRUMUBYLGJU og\n"
+    "slíkt frá einingunum á hliðum sér.");
 
 const u8 gMagnemitePokedexTextUnused[] = _("");
 
@@ -833,9 +833,9 @@ const u8 gTangelaPokedexText[] = _(
 const u8 gTangelaPokedexTextUnused[] = _("");
 
 const u8 gKangaskhanPokedexText[] = _(
-    "The female raises its offspring in a pouch\n"
-    "on its belly. It is skilled at attacking\n"
-    "notar COMET PUNCH.");
+    "Kvendýrið elur ungann í poka á\n"
+    "kviðnum. Það er snjallt að ráðast\n"
+    "á með HALASTJÖRNUHÖGGI.");
 
 const u8 gKangaskhanPokedexTextUnused[] = _("");
 

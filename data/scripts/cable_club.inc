@@ -1523,7 +1523,7 @@ Text_DescribeWhichGame::
 Text_PokemonJumpInfo::
 	.string "'VASASKRÍMSLA STÖKK'\p"
 	.string "Láttu Vasaskrímslið þitt hoppa yfir\n"
-	.string "VINE WHIP reipið með A takkanum.\p"
+	.string "VÍNVIÐARSVIPU-reipið með A takkanum.\p"
 	.string "Aðeins lítil Vasaskrímsli, um 28\n"
 	.string "tommur eða minna, mega taka þátt.\p"
 	.string "Vasaskrímsli sem aðeins synda, grafa\n"
