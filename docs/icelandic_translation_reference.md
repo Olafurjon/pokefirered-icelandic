@@ -90,6 +90,7 @@ This document records approved terminology and style rules for the Icelandic ver
 | LIFT KEY | LYFTULYKILL | Item name. |
 | BERRY POUCH | BERJAPOKI | Item name. |
 | MYSTIC TICKET | DULARMIÐI | Item name. |
+| Surf | Brim | Move/field move name; all-caps display `BRIM`, verb form `BRIMA`. |
 | Bubble | Búbblur | Move name; all-caps display `BÚBBLUR`. |
 | Whirlwind | Hvirfilvindur | Move name; all-caps display `HVIRFILVINDUR`. |
 | Teleport | Fjarflutningur | Move name; all-caps display `FJARFLUTNINGUR`. |
@@ -107,9 +108,19 @@ This document records approved terminology and style rules for the Icelandic ver
 | DEFENSE / DEFEND | VÖRN | Stat name. |
 | SPEED | HRAÐI | Stat name. |
 | SPECIAL | SÉR | Compact UI/stat shorthand. |
+| Nature | Eðli | Summary page label; individual nature names are localized. |
+| INFO | UPPL. | Summary page tab, short for upplýsingar. |
+| SKILLS | HÆFNI | Summary page tab. |
 | catch | fanga | Use for catching monsters. |
 | fishing / fish | veiða | Use only in fishing context. |
 | fast asleep | steinsefur | Battle status phrase; avoid `steinsofur`. |
+| critical hit | Gæfuhögg | Battle message; avoid `Gagnhögg`. |
+
+## Gameplay Tweaks
+
+| Change | Notes |
+| --- | --- |
+| First partner species in grass | Laukeðla appears rarely in Viridian Forest, Glóðmandra appears rarely on Route 3, and Sprautill appears rarely on Route 24. These are placed in rare encounter slots to make all first partners obtainable without trades or external saves while preserving the early-game feel. |
 
 ## Names And Proper Nouns
 

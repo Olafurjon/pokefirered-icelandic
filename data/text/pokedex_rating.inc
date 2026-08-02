@@ -95,8 +95,8 @@ PokedexRating_Text_LookForwardToFilledNationalDex::
 	.string "ÞJÓÐAR-VasaDEX-ið!$"
 
 PokedexRating_Text_YouveCompletedDex::
-	.string "Finally…\p"
-	.string "Þú hefur loksins fullklárað\n"
+	.string "Loksins…\p"
+	.string "Þú hefur fullklárað\n"
 	.string "VasaDEX-ið!\p"
 	.string "Það er stórfenglegt! Þetta er\n"
 	.string "sannarlega frábært afrek!$"

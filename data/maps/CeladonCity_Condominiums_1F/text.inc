@@ -31,7 +31,7 @@ CeladonCity_Condominiums_1F_Text_Clefairy::
     .string "BLEIKÁLFUR: Pí pípppí!$"
 
 CeladonCity_Condominiums_1F_Text_Nidoran::
-    .string "NIDORAN♀: Kja kjaó!$"
+    .string "NÁLDUR♀: Kja kjaó!$"
 
 CeladonCity_Condominiums_1F_Text_ManagersSuite::
     .string "CELADON STÓRHÝSI Íbúð stjórnanda$"

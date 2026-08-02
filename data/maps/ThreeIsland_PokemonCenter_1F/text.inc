@@ -6,7 +6,7 @@ ThreeIsland_PokemonCenter_1F_Text_PCNetworkCanLinkWithKanto::
     .string "það er frábært!$"
 
 ThreeIsland_PokemonCenter_1F_Text_ImpossibleToSurfBetweenIslands::
-    .string "Það er ómögulegt að SURFA á milli\n"
+    .string "Það er ómögulegt að BRIMA á milli\n"
     .string "eyjanna hér í kring.\p"
     .string "Flóðið er of hratt og hættulegt.$"
 

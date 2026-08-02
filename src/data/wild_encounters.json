@@ -618,7 +618,7 @@
               {
                 "min_level": 6,
                 "max_level": 6,
-                "species": "SPECIES_KAKUNA"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 5,
@@ -8456,7 +8456,7 @@
               {
                 "min_level": 7,
                 "max_level": 7,
-                "species": "SPECIES_JIGGLYPUFF"
+                "species": "SPECIES_CHARMANDER"
               }
             ]
           }
@@ -10864,7 +10864,7 @@
               {
                 "min_level": 12,
                 "max_level": 12,
-                "species": "SPECIES_ABRA"
+                "species": "SPECIES_SQUIRTLE"
               }
             ]
           },
@@ -13160,7 +13160,7 @@
               {
                 "min_level": 6,
                 "max_level": 6,
-                "species": "SPECIES_METAPOD"
+                "species": "SPECIES_BULBASAUR"
               },
               {
                 "min_level": 5,
@@ -20998,7 +20998,7 @@
               {
                 "min_level": 7,
                 "max_level": 7,
-                "species": "SPECIES_JIGGLYPUFF"
+                "species": "SPECIES_CHARMANDER"
               }
             ],
             "encounter_rate": 21
@@ -23406,7 +23406,7 @@
               {
                 "min_level": 12,
                 "max_level": 12,
-                "species": "SPECIES_ABRA"
+                "species": "SPECIES_SQUIRTLE"
               }
             ],
             "encounter_rate": 21

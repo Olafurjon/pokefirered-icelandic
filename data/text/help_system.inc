@@ -1374,7 +1374,7 @@ Help_Text_DefineSpDef::
 	.string "sérstakri árás óvinar.$"
 
 Help_Text_DefineSpeed::
-	.string "HRAÐI (SPEED) sýnir snerpu\n"
+	.string "HRAÐI sýnir snerpu\n"
 	.string "Vasaskrímslis. Ef þessi tala er\p"
 	.string "hærri\p"
 	.string "en hjá óvininum í bardaga getur\n"

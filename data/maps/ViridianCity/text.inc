@@ -37,7 +37,7 @@ ViridianCity_Text_GoShoppingInPewterOccasionally::
     .string "Ég fer stundum að versla í PEWTER\n"
     .string "BORG.\p"
     .string "Þá þarf ég að fara krókóttu leiðina\n"
-    .string "um VIRIDIAN FOREST.$"
+    .string "um VIRIDIAN SKÓG.$"
 
 ViridianCity_Text_ThisIsPrivateProperty::
     .string "Ég banna þér algjörlega að fara hér\n"

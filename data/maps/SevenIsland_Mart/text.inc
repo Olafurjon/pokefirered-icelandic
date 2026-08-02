@@ -1,7 +1,7 @@
 SevenIsland_Mart_Text_MonHavePersonalitiesOfTheirOwn::
     .string "Vasaskrímsli hafa eigin\n"
     .string "persónuleika, alveg eins og fólk.\p"
-    .string "LEIFTURSKOTTA mín er með HASTY\n"
+    .string "LEIFTURSKOTTA mín er með FLJÓTFÆRT\n"
     .string "eðli,\n"
     .string "svo hún varð mjög hraðskreitt\p"
     .string "Vasaskrímsli.$"

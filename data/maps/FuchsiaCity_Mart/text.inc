@@ -5,6 +5,5 @@ FuchsiaCity_Mart_Text_DontTheyHaveSafariZonePennants::
     .string "einu sinni til dagatöl?$"
 
 FuchsiaCity_Mart_Text_DidYouTryXSpeed::
-    .string "Prófaðirðu X SPEED? Það hraðar\n"
+    .string "Prófaðirðu X HRAÐA? Það hraðar\n"
     .string "Vasaskrímsli í bardaga.$"
-

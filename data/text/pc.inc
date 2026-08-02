@@ -8,7 +8,7 @@ Text_AccessedSomeonesPC::
 	.string "Opnaði tölvu einhvers.$"
 
 Text_OpenedPkmnStorage::
-	.string "Vasaskrímsli Storage System opened.$"
+	.string "Vasaskrímsla Geymslukerfi opnað.$"
 
 Text_AccessedPlayersPC::
 	.string "Opnaði tölvu {PLAYER}.$"

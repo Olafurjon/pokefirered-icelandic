@@ -88,7 +88,7 @@ ViridianCity_School_Text_ExplainFreeze::
     .string "Vasaskrímslið.$"
 
 ViridianCity_School_Text_ExplainParalysis::
-    .string "Lömun dregur úr SPEED og getur komað\n"
+    .string "Lömun dregur úr HRAÐA og getur komið\n"
     .string "í veg fyrir að Vasaskrímslið\p"
     .string "hreyfi sig.\p"
     .string "Lömun er eftir bardaga. Notaðu\n"

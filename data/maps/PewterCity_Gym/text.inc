@@ -50,7 +50,7 @@ PewterCity_Gym_Text_ExplainTM39::
     .string "þegar þú notar eitt.\p"
     .string "Annars... TM39 inniheldur STEINGRÖF.\p"
     .string "Það þeytir steinum í andstæðinginn\n"
-    .string "og lækkar SPEED.$"
+    .string "og lækkar HRAÐA.$"
 
 PewterCity_Gym_Text_BrockPostBattle::
     .string "Það eru alls kyns ÞJÁLFARAR í þessum\n"
@@ -116,4 +116,3 @@ PewterCity_Gym_Text_GymStatuePlayerWon::
     .string "BROCK\p"
     .string "SIGURSÆLIR ÞJÁLFARAR: {RIVAL},\n"
     .string "{PLAYER}$"
-
