@@ -28,7 +28,7 @@ Route8_Text_GlennPostBattle::
     .string "Byrja á DRULLUPOLL… og… og svo…$"
 
 Route8_Text_PaigeIntro::
-    .string "Mér líkar við NIDORAN, svo ég safna\n"
+    .string "Mér líkar við Náldur, svo ég safna\n"
     .string "þeim!$"
 
 Route8_Text_PaigeDefeat::

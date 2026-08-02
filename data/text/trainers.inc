@@ -16,7 +16,7 @@ VSSeeker_Text_TrainersNotReady::
 	.string "Bíðum til síðar.{PAUSE_UNTIL_PRESS}$"
 
 Route3_Text_ColtonRematchIntro::
-	.string "Hæ! Ég sá þig í VIRIDIAN FOREST!$"
+	.string "Hæ! Ég sá þig í VIRIDIAN SKÓGI!$"
 
 Route3_Text_BenRematchIntro::
 	.string "Hæ! Mér líkar við stuttbuxur! Þær\n"
@@ -63,7 +63,7 @@ Route6_Text_NancyRematchIntro::
 
 Route6_Text_KeigoRematchIntro::
 	.string "Ég er að reyna að finna eitthvað\n"
-	.string "gott sem er ekki SKORDÝ Vasaskrímsli, en…$"
+	.string "gott sem er ekki SKORDÝRA Vasaskrímsli, en…$"
 
 Route6_Text_JeffRematchIntro::
 	.string "Ha? Viltu fara með mér aftur?$"
@@ -89,7 +89,7 @@ Route8_Text_GlennRematchIntro::
 	.string "Ertu að fylgja ráðum mínum?$"
 
 Route8_Text_PaigeRematchIntro::
-	.string "Ég hef safnað mörgum NIDORAN. Ég vil\n"
+	.string "Ég hef safnað mörgum Náldrum. Ég vil\n"
 	.string "ekki að þau þróist, en…$"
 
 Route8_Text_LeslieRematchIntro::
@@ -165,7 +165,7 @@ Route9_Text_AlanRematchIntro::
 	.string "Hahahaha! Ég vinn að þessu sinni!$"
 
 Route9_Text_ConnerRematchIntro::
-	.string "Farðu og sigraðu, ofur SKORDÝ Vasaskrímslið mitt!$"
+	.string "Farðu og sigraðu, ofur SKORDÝRA Vasaskrímslið mitt!$"
 
 Route10_Text_MarkRematchIntro::
 	.string "Vá, komstu hingað aftur? Kannski\n"

@@ -37,7 +37,7 @@ OneIsland_KindleRoad_Text_GarrettDefeat::
     .string "Ha, hvað… Þú ert góður!$"
 
 OneIsland_KindleRoad_Text_GarrettPostBattle::
-    .string "Í stað þess að nota SURF alltaf,\n"
+    .string "Í stað þess að nota BRIM alltaf,\n"
     .string "ættirðu að synda aðeins.$"
 
 OneIsland_KindleRoad_Text_TommyIntro::

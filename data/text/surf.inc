@@ -3,8 +3,8 @@ Text_WantToSurf::
 	.string "BRIM?$"
 
 Text_UsedSurf::
-	.string "{STR_VAR_1} notaði SURF!$"
+	.string "{STR_VAR_1} notaði BRIM!$"
 
 Text_CurrentTooFast::
-	.string "Straumnum er allt of hratt! SURF\n"
-	.string "getur ekki verið notað hér…$"
+	.string "Straumurinn er allt of stríður! BRIM\n"
+	.string "virkar ekki hér…$"

@@ -49,7 +49,7 @@ CeruleanCity_House1_Text_ObeyLv50Strength::
 CeruleanCity_House1_Text_DefenseStatSurf::
     .string "DEFENSE gildi allra vasaskrímslanna\n"
     .string "þinna hækkar örlítið.\p"
-    .string "Það leyfir þér líka að nota SURF\n"
+    .string "Það leyfir þér líka að nota BRIM\n"
     .string "utan bardaga.$"
 
 CeruleanCity_House1_Text_ObeyLv70RockSmash::
@@ -70,4 +70,3 @@ CeruleanCity_House1_Text_SpStatsWaterfall::
 
 CeruleanCity_House1_Text_AllMonsWillObeyYou::
     .string "Öll vasaskrímsli hlýða þér!$"
-

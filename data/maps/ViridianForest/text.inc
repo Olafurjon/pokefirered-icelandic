@@ -57,7 +57,7 @@ ViridianForest_Text_CharlieDefeat::
     .string "Ó! Ég tapaði!$"
 
 ViridianForest_Text_CharliePostBattle::
-    .string "SKORDÝ Vasaskrímsli þróast hratt.\n"
+    .string "SKORDÝRA Vasaskrímsli þróast hratt.\n"
     .string "Þau eru ótrúlega skemmtileg!$"
 
 ViridianForest_Text_RanOutOfPokeBalls::

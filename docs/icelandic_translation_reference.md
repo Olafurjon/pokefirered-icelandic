@@ -90,6 +90,7 @@ This document records approved terminology and style rules for the Icelandic ver
 | LIFT KEY | LYFTULYKILL | Item name. |
 | BERRY POUCH | BERJAPOKI | Item name. |
 | MYSTIC TICKET | DULARMIÐI | Item name. |
+| Surf | Brim | Move/field move name; all-caps display `BRIM`, verb form `BRIMA`. |
 | Bubble | Búbblur | Move name; all-caps display `BÚBBLUR`. |
 | Whirlwind | Hvirfilvindur | Move name; all-caps display `HVIRFILVINDUR`. |
 | Teleport | Fjarflutningur | Move name; all-caps display `FJARFLUTNINGUR`. |
