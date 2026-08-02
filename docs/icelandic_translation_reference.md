@@ -110,6 +110,7 @@ This document records approved terminology and style rules for the Icelandic ver
 | catch | fanga | Use for catching monsters. |
 | fishing / fish | veiða | Use only in fishing context. |
 | fast asleep | steinsefur | Battle status phrase; avoid `steinsofur`. |
+| critical hit | Gæfuhögg | Battle message; avoid `Gagnhögg`. |
 
 ## Gameplay Tweaks
 

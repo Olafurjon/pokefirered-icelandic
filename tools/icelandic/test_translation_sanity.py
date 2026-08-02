@@ -18,7 +18,8 @@ class TerminologyScannerTests(unittest.TestCase):
             text_file.parent.mkdir(parents=True)
             text_file.write_text(
                 'Test_Text::\n'
-                '\t.string "POKéMON CENTER sells POTIONS near CYCLING ROAD.$"\n',
+                '\t.string "POKéMON CENTER sells POTIONS near CYCLING ROAD.$"\n'
+                '\t.string "Viltu fyllja formið? Við alum upp eggið. Gagnhögg!$"\n',
                 encoding="utf-8",
             )
 
@@ -28,6 +29,9 @@ class TerminologyScannerTests(unittest.TestCase):
         self.assertIn("pokemon-term", found)
         self.assertIn("potion", found)
         self.assertIn("cycling-road", found)
+        self.assertIn("questionnaire-fill", found)
+        self.assertIn("daycare-raise", found)
+        self.assertIn("critical-hit", found)
 
     def test_accepts_approved_icelandic_terms(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:

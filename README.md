@@ -77,6 +77,8 @@ ROM build for pull requests and pushes to `main`.
 - Trade-only evolutions are available without trading.
 - Trade-with-item evolutions happen by leveling up while holding the original
   trade item. The item is consumed when evolution starts.
+- The three first partner species are available as rare grass encounters:
+  Laukeðla in Viridian Forest, Glóðmandra on Route 3, and Sprautill on Route 24.
 
 ## Upstream
 

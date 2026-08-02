@@ -2,12 +2,12 @@ Text_MayIHelpYou::
 	.string "Hæ, þú! Get ég hjálpað þér?$"
 
 Text_FillOutQuestionnaire::
-	.string "Það er spurningalisti. Viltu fyllja\n"
+	.string "Þetta er spurningalisti. Viltu fylla\n"
 	.string "hann út?$"
 
 Text_QuestionnaireThankYou::
 	.string "Takk fyrir að gefa þér tíma til að\n"
-	.string "fyllja út spurningalistann okkar.\p"
+	.string "fylla út spurningalistann okkar.\p"
 	.string "Álit þitt verður notað til framtíðar\n"
 	.string "viðmiðunar.$"
 

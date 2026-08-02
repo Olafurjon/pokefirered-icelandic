@@ -50,21 +50,21 @@ DayCare_Text_IWillKeepDoYouWantIt::
 DayCare_Text_WouldYouLikeUsToRaiseMon::
 	.string "Ég er DAGGÆSLUKONAN.\p"
 	.string "Við getum alið upp Vasaskrímsli fyrir þig.\p"
-	.string "Viltu að við alum eitt upp?$"
+	.string "Viltu að við ölum eitt upp?$"
 
 DayCare_Text_WhichMonShouldWeRaise::
 	.string "Hvaða Vasaskrímsli eigum við að ala\n"
 	.string "upp fyrir þig?$"
 
 DayCare_Text_WellRaiseYourMon::
-	.string "Gott, við alum upp {STR_VAR_1}\n"
+	.string "Gott, við ölum upp {STR_VAR_1}\n"
 	.string "um stund.\p"
 	.string "Komdu aftur seinna að sækja það.$"
 
 DayCare_Text_WeCanRaiseOneMore::
 	.string "Við getum alið upp tvö af\n"
 	.string "Vasaskrímslunum þínum.\p"
-	.string "Viltu að við alum upp eitt\n"
+	.string "Viltu að við ölum upp eitt\n"
 	.string "Vasaskrímsli í viðbót fyrir þig?$"
 
 DayCare_Text_HusbandWasLookingForYou::
