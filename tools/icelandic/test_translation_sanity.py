@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import json
 import tempfile
 import unittest
 from pathlib import Path
@@ -59,6 +60,31 @@ class TerminologyScannerTests(unittest.TestCase):
             rows = check_terms.scan_file(map_file, root)
 
         self.assertEqual([], rows)
+
+
+class GameplaySanityTests(unittest.TestCase):
+    def test_first_partner_species_are_available_as_rare_grass_encounters(self) -> None:
+        root = Path(__file__).resolve().parents[2]
+        encounters_path = root / "src" / "data" / "wild_encounters.json"
+        data = json.loads(encounters_path.read_text(encoding="utf-8"))
+
+        expected = {
+            ("MAP_VIRIDIAN_FOREST", "SPECIES_BULBASAUR"),
+            ("MAP_ROUTE3", "SPECIES_CHARMANDER"),
+            ("MAP_ROUTE24", "SPECIES_SQUIRTLE"),
+        }
+        found: set[tuple[str, str]] = set()
+        for group in data["wild_encounter_groups"]:
+            for encounter in group["encounters"]:
+                land_mons = encounter.get("land_mons")
+                if land_mons is None:
+                    continue
+                for mon in land_mons["mons"]:
+                    pair = (encounter["map"], mon["species"])
+                    if pair in expected:
+                        found.add(pair)
+
+        self.assertEqual(expected, found)
 
 
 if __name__ == "__main__":

@@ -111,6 +111,12 @@ This document records approved terminology and style rules for the Icelandic ver
 | fishing / fish | veiða | Use only in fishing context. |
 | fast asleep | steinsefur | Battle status phrase; avoid `steinsofur`. |
 
+## Gameplay Tweaks
+
+| Change | Notes |
+| --- | --- |
+| First partner species in grass | Laukeðla appears rarely in Viridian Forest, Glóðmandra appears rarely on Route 3, and Sprautill appears rarely on Route 24. These are placed in rare encounter slots to make all first partners obtainable without trades or external saves while preserving the early-game feel. |
+
 ## Names And Proper Nouns
 
 | English | Icelandic | Notes |
