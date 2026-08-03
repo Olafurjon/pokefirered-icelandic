@@ -79,6 +79,6 @@ MtMoon_1F_Text_ZubatIsABloodsucker::
 
 MtMoon_1F_Text_BrockHelpsExcavateFossils::
     .string "Hæ, ég er að grafa eftir\n"
-    .string "steingervingum hér undir MT. MOON.\p"
+    .string "steingervingum hér undir MÁNAFJALLI.\p"
     .string "Stundum hjálpar BROCK úr\n"
     .string "PEWTER-SALNUM mér.$"

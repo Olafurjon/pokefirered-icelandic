@@ -401,7 +401,7 @@ TRANSLATIONS = {
     "CinnabarIsland_PokemonLab_ExperimentRoom_Text_YouComeAgain": t("Aiyah! Þú kemur aftur!"),
     "CinnabarIsland_PokemonLab_Lounge_Text_FoundFossilInMtMoon": t("""
         Ég fann þennan afar merkilega
-        steingerving inni í MT. MOON.
+        steingerving inni í MÁNAFJALLI.
 
         Ég held að hann sé af sjaldgæfu,
         forsögulegu vasaskrímsli.

@@ -94,8 +94,9 @@ SaffronCity_Text_MrPsychicsHouse::
     .string "HÚS HR. SÁLRÆNA$"
 
 SaffronCity_Text_SilphsLatestProduct::
-    .string "SILPH's latest product! Release to\n"
-    .string "be determined…$"
+    .string "Nýjasta vara SILPH!\p"
+    .string "Útgáfudagur verður tilkynntur\n"
+    .string "síðar…$"
 
 SaffronCity_Text_TrainerFanClubSign::
     .string "VASaSKRÍMSLAÞJÁLFARA AÐDÁENDAKLÚBBUR\p"
@@ -110,4 +111,3 @@ SaffronCity_Text_HowCanClubNotRecognizeLance::
     .string "Hann stendur fyrir réttlæti! Hann er\n"
     .string "svalur, en samt eldheitur! Hann er\p"
     .string "sá besti, LANCE!$"
-

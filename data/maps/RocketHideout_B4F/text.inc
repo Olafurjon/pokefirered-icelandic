@@ -22,7 +22,7 @@ RocketHideout_B4F_Text_GiovanniPostBattle::
 
 RocketHideout_B4F_Text_Grunt2Intro::
     .string "Ég þekki þig! Þú eyðilagðir áætlanir\n"
-    .string "okkar á MT. MOON!$"
+    .string "okkar á MÁNAFJALLI!$"
 
 RocketHideout_B4F_Text_Grunt2Defeat::
     .string "Brenndur aftur!$"

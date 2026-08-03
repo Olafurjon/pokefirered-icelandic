@@ -20,7 +20,8 @@ class TerminologyScannerTests(unittest.TestCase):
                 'Test_Text::\n'
                 '\t.string "POKéMON CENTER sells POTIONS near CYCLING ROAD.$"\n'
                 '\t.string "Viltu fyllja formið? Við alum upp eggið. Gagnhögg! SPEED!$"\n'
-                '\t.string "Storage System, SURF, VIRIDIAN FOREST, NIDORAN og SKORDÝ Vasaskrímsli.$"\n',
+                '\t.string "Storage System, SURF, VIRIDIAN FOREST, NIDORAN og SKORDÝ Vasaskrímsli.$"\n'
+                '\t.string "MT. MOON, MOONFJALL, ROCK SMASH og WATERFALL.$"\n',
                 encoding="utf-8",
             )
             nature_file = root / "src" / "data" / "text" / "nature_names.h"
@@ -39,6 +40,9 @@ class TerminologyScannerTests(unittest.TestCase):
         self.assertIn("speed-stat", found)
         self.assertIn("storage-system", found)
         self.assertIn("surf", found)
+        self.assertIn("mt-moon", found)
+        self.assertIn("rock-smash", found)
+        self.assertIn("waterfall", found)
         self.assertIn("viridian-forest", found)
         self.assertIn("nidoran-species", found)
         self.assertIn("bug-species-phrase", found)

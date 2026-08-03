@@ -90,8 +90,7 @@ Route3_Text_RobinDefeat::
     .string "Var það allt?$"
 
 Route3_Text_RobinPostBattle::
-    .string "VEGUR 4 er við rætur MT. MOON.$"
+    .string "VEGUR 4 er við rætur MÁNAFJALLS.$"
 
 Route3_Text_RouteSign::
-    .string "LEIÐ 3 MT. MOON FRAMUNDAN$"
-
+    .string "VEGUR 3 MÁNAFJALL FRAMUNDAN$"

@@ -45,7 +45,7 @@ TRANSLATIONS = {
         Það er orðrómurinn.
 
         Þau birtust eftir að TUNGLSTEINAR
-        féllu á MT. MOON.
+        féllu á MÁNAFJALLI.
     """),
     "PewterCity_Text_BrockOnlySeriousTrainerHere": t("""
         Það eru ekki margir alvarlegir
@@ -61,7 +61,7 @@ TRANSLATIONS = {
         Skoðaðirðu SAFNIÐ?
     """),
     "PewterCity_Text_WerentThoseFossilsAmazing": t("""
-        Voru steingervingarnir frá MT. MOON
+        Voru steingervingarnir frá MÁNAFJALLI
         ekki stórkostlegir?
     """),
     "PewterCity_Text_ReallyYouHaveToGo": t("""
@@ -97,7 +97,7 @@ TRANSLATIONS = {
         skora á BROCK!
     """),
     "PewterCity_Text_TrainerTipsEarningEXP": t("""
-        ÞJÁLFARARÁÐ
+        ÞJÁLFARA RÁÐ
 
         Öll vasaskrímsli sem birtast í
         bardaga, þó stutt sé, fá EXP stig.
@@ -107,7 +107,7 @@ TRANSLATIONS = {
 
         Þjófar hafa verið að stela
         steingervingum vasaskrímsla úr
-        MT. MOON.
+        MÁNAFJALLI.
 
         Vinsamlegast hafið samband við
         PEWTER-LÖGREGLUNA ef þið hafið
@@ -541,20 +541,20 @@ TRANSLATIONS = {
         mig!
     """),
     "PewterCity_Museum_1F_Text_PikachuSoonIPromise": t("""
-        Já, þú færð LEIFTURSKO bráðum,
+        Já, þú færð LEIFTURSKOTTA bráðum,
         ég lofa!
     """),
     "PewterCity_Museum_1F_Text_SpaceShuttle": t("""
         Geimskutla
     """),
     "PewterCity_Museum_1F_Text_MeteoriteThatFellOnMtMoon": t("""
-        Loftsteinn sem féll á MT. MOON.
-        Talið er að hann sé MOON STONE.
+        Loftsteinn sem féll á MÁNAFJALLI.
+        Talið er að hann sé TUNGLSTEINN.
     """),
     "PewterCity_PokemonCenter_1F_Text_TeamRocketMtMoonImOnPhone": t("""
         Hvað!?
 
-        ROCKET-GENGIÐ er á MT. MOON?
+        ROCKET-GENGIÐ er á MÁNAFJALLI?
         Ha?
 
         Ég er í símanum!

@@ -47,6 +47,7 @@ This document records approved terminology and style rules for the Icelandic ver
 | TOWN | BÆR | Place suffix, e.g. `PALLET BÆR`. |
 | CITY | BORG | Place suffix. |
 | ROUTE X | VEGUR X | Route names/signage. |
+| MT. MOON | MÁNAFJALL | Location name. Use `MÁNAFJALLS` after `til`/`við rætur` and `MÁNAFJALLI` after `á`, `frá`, `úr`, `af` and `undir`. Never use `MOONFJALL`. |
 | CYCLING ROAD | HJÓLAVEGURINN | Location term; inflect as `HJÓLAVEGINN`, `HJÓLAVEGINUM`. |
 | ONE ISLAND | EIN EYJA | Sevii place name. Use `EIN EYJU` in dative/genitive prose if needed. |
 | TWO ISLAND | TVÖ EYJA | Sevii place name. Use `TVÖ EYJU` in dative/genitive prose if needed. |
@@ -94,6 +95,8 @@ This document records approved terminology and style rules for the Icelandic ver
 | Bubble | Búbblur | Move name; all-caps display `BÚBBLUR`. |
 | Whirlwind | Hvirfilvindur | Move name; all-caps display `HVIRFILVINDUR`. |
 | Teleport | Fjarflutningur | Move name; all-caps display `FJARFLUTNINGUR`. |
+| Rock Smash | Grjótmölun | Move/field move name; all-caps display `GRJÓTMÖLUN`. |
+| Waterfall | Foss | Move/field move name; all-caps display `FOSS`. |
 | Aurora Beam | Norðurljósgeisli | Move name; all-caps display `NORÐURLJÓSGEISLI`. |
 | Thunder Wave | Þrumubylgja | Move name; all-caps display `ÞRUMUBYLGJA`. |
 | Hidden Power | Falinn kraftur | Move name; all-caps display `FALINN KRAFTUR`. |

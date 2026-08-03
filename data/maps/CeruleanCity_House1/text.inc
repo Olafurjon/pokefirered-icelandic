@@ -59,14 +59,14 @@ CeruleanCity_House1_Text_ObeyLv70RockSmash::
     .string "skiptum.\p"
     .string "Vasaskrímsli á hærri stigum verða þó\n"
     .string "óstýrilát í bardaga.\p"
-    .string "Það leyfir þér líka að nota ROCK\n"
-    .string "SMASH utan bardaga.$"
+    .string "Það leyfir þér líka að nota\n"
+    .string "GRJÓTMÖLUN utan bardaga.$"
 
 CeruleanCity_House1_Text_SpStatsWaterfall::
     .string "SP. ATK og SP. DEF gildi allra\n"
     .string "vasaskrímslanna þinna hækka örlítið.\p"
     .string "Það leyfir þér líka að nota\n"
-    .string "WATERFALL utan bardaga.$"
+    .string "FOSS utan bardaga.$"
 
 CeruleanCity_House1_Text_AllMonsWillObeyYou::
     .string "Öll vasaskrímsli hlýða þér!$"

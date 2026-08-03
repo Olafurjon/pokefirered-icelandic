@@ -53,5 +53,5 @@ PewterCity_Museum_1F_Text_SpaceShuttle::
     .string "Geimskutla$"
 
 PewterCity_Museum_1F_Text_MeteoriteThatFellOnMtMoon::
-    .string "Loftsteinn sem féll á MT. MOON.\n"
+    .string "Loftsteinn sem féll á MÁNAFJALLI.\n"
     .string "Talið er að hann sé TUNGLSTEINN.$"

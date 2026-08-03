@@ -644,7 +644,7 @@ static const struct DungeonMapInfo sDungeonInfo[] = {
         .desc = gText_RegionMap_AreaDesc_ViridianForest
     }, {
         .id = MAPSEC_MT_MOON,
-        .name = sMapsecName_MOONFJALL,
+        .name = sMapsecName_M__NAFJALL,
         .desc = gText_RegionMap_AreaDesc_MtMoon
     }, {
         .id = MAPSEC_DIGLETTS_CAVE,
