@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import re
 import tempfile
 import unittest
 from pathlib import Path
@@ -210,6 +211,18 @@ class GameplaySanityTests(unittest.TestCase):
             '[TYPE_GRASS] = _("GRAS")',
         ]:
             self.assertIn(snippet, battle_main)
+
+    def test_ability_names_fit_the_configured_buffer(self) -> None:
+        battle_main_header = (self.root / "include" / "battle_main.h").read_text(encoding="utf-8")
+        abilities_text = (self.root / "src" / "data" / "text" / "abilities.h").read_text(encoding="utf-8")
+
+        length_match = re.search(r"#define ABILITY_NAME_LENGTH (\d+)", battle_main_header)
+        self.assertIsNotNone(length_match)
+        max_length = int(length_match.group(1))
+        ability_names = re.findall(r"\[ABILITY_[A-Z0-9_]+\]\s*=\s*_\(\"([^\"]*)\"\)", abilities_text)
+
+        self.assertTrue(ability_names)
+        self.assertEqual([], [name for name in ability_names if len(name) > max_length])
 
 
 if __name__ == "__main__":

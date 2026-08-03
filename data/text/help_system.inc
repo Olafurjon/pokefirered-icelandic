@@ -1464,7 +1464,7 @@ Help_Text_DefinePower::
 	.string "er hægt að valda óvininum!$"
 
 Help_Text_DefineAccuracy::
-	.string "NÁKVÆMNI (ACCURACY) gefur til kynna\n"
+	.string "NÁKVÆMNI gefur til kynna\n"
 	.string "líkur á að hreyfingin hitti óvininn.\p"
 	.string "Því hærri sem þessi tala er, því\n"
 	.string "líklegra er að hreyfingin hitti\p"

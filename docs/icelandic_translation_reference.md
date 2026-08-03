@@ -48,6 +48,8 @@ This document records approved terminology and style rules for the Icelandic ver
 | CITY | BORG | Place suffix. |
 | ROUTE X | VEGUR X | Route names/signage. |
 | MT. MOON | MÁNAFJALL | Location name. Use `MÁNAFJALLS` after `til`/`við rætur` and `MÁNAFJALLI` after `á`, `frá`, `úr`, `af` and `undir`. Never use `MOONFJALL`. |
+| GREEN PATH | GRÆNN STÍGUR | Sevii location name. |
+| PATTERN BUSH | MYNSTURRUNNI | Sevii location name; use `MYNSTURRUNNA` in dative prose. |
 | CYCLING ROAD | HJÓLAVEGURINN | Location term; inflect as `HJÓLAVEGINN`, `HJÓLAVEGINUM`. |
 | ONE ISLAND | EIN EYJA | Sevii place name. Use `EIN EYJU` in dative/genitive prose if needed. |
 | TWO ISLAND | TVÖ EYJA | Sevii place name. Use `TVÖ EYJU` in dative/genitive prose if needed. |
@@ -118,6 +120,23 @@ This document records approved terminology and style rules for the Icelandic ver
 | fishing / fish | veiða | Use only in fishing context. |
 | fast asleep | steinsefur | Battle status phrase; avoid `steinsofur`. |
 | critical hit | Gæfuhögg | Battle message; avoid `Gagnhögg`. |
+
+## Ability Names
+
+| English | Icelandic |
+| --- | --- |
+| BATTLE ARMOR | ORUSTUBRYNJA |
+| SHADOW TAG | SKUGGAMERKI |
+| CLEAR BODY | TÆR LÍKAMI |
+| NATURAL CURE | SJÁLFLÆKNING |
+| INNER FOCUS | EINBEITING |
+| SOUNDPROOF | HLJÓÐHELDUR |
+| MARVEL SCALE | DULHREISTUR |
+| LIQUID OOZE | EITURSLÍM |
+| ROCK HEAD | STEINHAUS |
+| ARENA TRAP | VALLARGILDRA |
+| WHITE SMOKE | HVÍTUR REYKUR |
+| PURE POWER | HREINT AFL |
 
 ## Gameplay Tweaks
 

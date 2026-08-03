@@ -155,7 +155,7 @@ SixIsland_PatternBush_Text_LaytonDefeat::
     .string "á þér?$"
 
 SixIsland_PatternBush_Text_LaytonPostBattle::
-    .string "Það eru staðir hér í PATTERN BUSH\n"
+    .string "Það eru staðir hér í MYNSTURRUNNA\n"
     .string "þar sem gras vex ekki.\p"
     .string "Hver gæti verið orsök slíks\n"
     .string "fyrirbæris?$"
