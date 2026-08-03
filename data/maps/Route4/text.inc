@@ -3,7 +3,7 @@ Route4_Text_TrippedOverGeodude::
     .string "vasaskrímsli, AURGAUR!$"
 
 Route4_Text_CrissyIntro::
-    .string "Ég kom til MT. MOON í leit að\n"
+    .string "Ég kom til MÁNAFJALLS í leit að\n"
     .string "sveppavasaskrímslum.$"
 
 Route4_Text_CrissyDefeat::
@@ -16,10 +16,10 @@ Route4_Text_CrissyPostBattle::
     .string "Ég held ég hafi náð þeim öllum.$"
 
 Route4_Text_MtMoonEntrance::
-    .string "MT. MOON Gangainngangur$"
+    .string "MÁNAFJALL INNGANGUR$"
 
 Route4_Text_RouteSign::
-    .string "LEIÐ 4 MT. MOON - CERULEAN BORG$"
+    .string "VEGUR 4 MÁNAFJALL - CERULEAN BORG$"
 
 Text_MegaPunchTeach::
     .string "Högg af öskrandi hörku!\p"

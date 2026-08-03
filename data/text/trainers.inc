@@ -49,7 +49,7 @@ Route3_Text_RobinRematchIntro::
 
 Route4_Text_CrissyRematchIntro::
 	.string "Ég veiði alltaf sveppa Vasaskrímsli\n"
-	.string "á MT. MOON.$"
+	.string "á MÁNAFJALLI.$"
 
 Route6_Text_RickyRematchIntro::
 	.string "Ó! Þú ert þetta forvitna barn sem\n"
@@ -670,7 +670,7 @@ Route25_Text_HaleyRematchIntro::
 	.string "Ég er svo öfundsjúk!$"
 
 Route25_Text_FranklinRematchIntro::
-	.string "Ég þjálfaði mig bara á MT. MOON, en\n"
+	.string "Ég þjálfaði mig bara á MÁNAFJALLI,\n"
 	.string "ég á enn bensín á tanknum!$"
 
 Route25_Text_NobRematchIntro::

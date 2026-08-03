@@ -389,7 +389,7 @@ TRANSLATIONS = {
         Ég er svo öfundsjúk!
     """),
     "Route25_Text_HaleyPostBattle": t("""
-        Komstu frá MT. MOON?
+        Komstu frá MÁNAFJALLI?
         Má ég fá BLEIKÁLF?
     """),
     "Route25_Text_FranklinPostBattle": t("""

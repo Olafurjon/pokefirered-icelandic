@@ -110,7 +110,7 @@ EventScript_DontSmashRock::
 
 Text_UseRockSmash::
 	.string "Þessi steinn virðist vera brotlegur.\n"
-	.string "Viltu nota ROCK SMASH?$"
+	.string "Viltu nota GRJÓTMÖLUN?$"
 
 Text_MonMaySmashRock::
 	.string "It's a rugged rock, but a\n"
@@ -206,10 +206,10 @@ Text_WallOfWaterCrashingDown::
 
 Text_UseWaterfall::
 	.string "Þetta er stór foss. Viltu nota\n"
-	.string "WATERFALL?$"
+	.string "FOSS?$"
 
 Text_MonUsedWaterfall::
-	.string "{STR_VAR_1} notaði WATERFALL.$"
+	.string "{STR_VAR_1} notaði FOSS.$"
 
 @ Unused leftover from R/S
 EventScript_DeepWater::

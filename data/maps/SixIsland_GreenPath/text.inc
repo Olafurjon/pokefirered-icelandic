@@ -13,8 +13,9 @@ SixIsland_GreenPath_Text_JaclynPostBattle::
     .string "notað FJARFLUTNING rétt heim til mín!$"
 
 SixIsland_GreenPath_Text_LeftRouteSign::
-    .string "GREEN PATH PATTERN BUSH AHEAD$"
+    .string "GRÆNN STÍGUR\n"
+    .string "MYNSTURRUNNI FRAMUNDAN$"
 
 SixIsland_GreenPath_Text_RightRouteSign::
-    .string "GREEN PATH Think Green, Keep Nature\n"
-    .string "Clean!$"
+    .string "GRÆNN STÍGUR Hugsaðu grænt, haltu\n"
+    .string "náttúrunni hreinni!$"

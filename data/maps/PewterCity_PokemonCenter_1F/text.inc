@@ -1,6 +1,6 @@
 PewterCity_PokemonCenter_1F_Text_TeamRocketMtMoonImOnPhone::
     .string "Hvað!?\p"
-    .string "ROCKET-GENGIÐ er á MT. MOON? Ha?\p"
+    .string "ROCKET-GENGIÐ er á MÁNAFJALLI? Ha?\p"
     .string "Ég er í símanum! Hypjaðu þig!$"
 
 PewterCity_PokemonCenter_1F_Text_Jigglypuff::

@@ -23,7 +23,7 @@ PewterCity_Text_ClefairyCameFromMoon::
     .string "BLEIKÁLFUR kom frá tunglinu. Það er\n"
     .string "orðrómurinn.\p"
     .string "Þau birtust eftir að TUNGLSTEINAR\n"
-    .string "féllu á MT. MOON.$"
+    .string "féllu á MÁNAFJALLI.$"
 
 PewterCity_Text_BrockOnlySeriousTrainerHere::
     .string "Það eru ekki margir alvarlegir\n"
@@ -37,7 +37,7 @@ PewterCity_Text_DidYouCheckOutMuseum::
     .string "Skoðaðirðu SAFNIÐ?$"
 
 PewterCity_Text_WerentThoseFossilsAmazing::
-    .string "Voru steingervingarnir frá MT. MOON\n"
+    .string "Voru steingervingarnir frá MÁNAFJALLI\n"
     .string "ekki stórkostlegir?$"
 
 PewterCity_Text_ReallyYouHaveToGo::
@@ -76,8 +76,8 @@ PewterCity_Text_TrainerTipsEarningEXP::
 PewterCity_Text_CallPoliceIfInfoOnThieves::
     .string "TILKYNNING!\p"
     .string "Þjófar hafa verið að stela\n"
-    .string "steingervingum vasaskrímsla úr MT.\p"
-    .string "MOON.\p"
+    .string "steingervingum vasaskrímsla úr\p"
+    .string "MÁNAFJALLI.\p"
     .string "Vinsamlegast hafið samband við\n"
     .string "PEWTER-LÖGREGLUNA ef þið hafið\p"
     .string "upplýsingar.$"

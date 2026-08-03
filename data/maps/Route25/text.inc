@@ -63,12 +63,12 @@ Route25_Text_HaleyDefeat::
     .string "Ég er ekkert svo öfundsjúk!$"
 
 Route25_Text_HaleyPostBattle::
-    .string "Komstu frá MT. MOON? Má ég fá\n"
+    .string "Komstu frá MÁNAFJALLI? Má ég fá\n"
     .string "BLEIKÁLF?$"
 
 Route25_Text_FranklinIntro::
-    .string "Ég var að koma niður af MT. MOON, en\n"
-    .string "ég á enn bensín á tanknum!$"
+    .string "Ég var að koma niður af MÁNAFJALLI,\n"
+    .string "en ég á enn bensín á tanknum!$"
 
 Route25_Text_FranklinDefeat::
     .string "Þú lagðir hart að þér!$"
@@ -115,4 +115,3 @@ Route25_Text_AreYouHereAlone::
     .string "Ef þú ferð út á höfðann við\n"
     .string "CERULEAN... Þá ætti það að vera í\p"
     .string "pari.$"
-

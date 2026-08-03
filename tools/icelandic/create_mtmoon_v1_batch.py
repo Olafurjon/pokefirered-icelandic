@@ -105,7 +105,7 @@ TRANSLATIONS = {
     """),
     "MtMoon_1F_Text_BrockHelpsExcavateFossils": t("""
         Hæ, ég er að grafa eftir
-        steingervingum hér undir MT. MOON.
+        steingervingum hér undir MÁNAFJALLI.
 
         Stundum hjálpar BROCK úr
         PEWTER-SALNUM mér.

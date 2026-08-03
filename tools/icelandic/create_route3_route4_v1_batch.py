@@ -113,11 +113,11 @@ TRANSLATIONS = {
         Var það allt?
     """),
     "Route3_Text_RobinPostBattle": t("""
-        ROUTE 4 er við rætur MT. MOON.
+        VEGUR 4 er við rætur MÁNAFJALLS.
     """),
     "Route3_Text_RouteSign": t("""
-        ROUTE 3
-        MT. MOON FRAMUNDAN
+        VEGUR 3
+        MÁNAFJALL FRAMUNDAN
     """),
     "Route4_Text_TrippedOverGeodude": t("""
         Ái!
@@ -125,7 +125,7 @@ TRANSLATIONS = {
         AURGAUR!
     """),
     "Route4_Text_CrissyIntro": t("""
-        Ég kom til MT. MOON í leit að
+        Ég kom til MÁNAFJALLS í leit að
         sveppavasaskrímslum.
     """),
     "Route4_Text_CrissyDefeat": t("""
@@ -139,12 +139,12 @@ TRANSLATIONS = {
         Ég held ég hafi náð þeim öllum.
     """),
     "Route4_Text_MtMoonEntrance": t("""
-        MT. MOON
-        Gangainngangur
+        MÁNAFJALL
+        INNGANGUR
     """),
     "Route4_Text_RouteSign": t("""
-        ROUTE 4
-        MT. MOON - CERULEAN BORG
+        VEGUR 4
+        MÁNAFJALL - CERULEAN BORG
     """),
     "Text_MegaPunchTeach": t("""
         Högg af öskrandi hörku!

@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import re
 import tempfile
 import unittest
 from pathlib import Path
@@ -20,7 +21,8 @@ class TerminologyScannerTests(unittest.TestCase):
                 'Test_Text::\n'
                 '\t.string "POKéMON CENTER sells POTIONS near CYCLING ROAD.$"\n'
                 '\t.string "Viltu fyllja formið? Við alum upp eggið. Gagnhögg! SPEED!$"\n'
-                '\t.string "Storage System, SURF, VIRIDIAN FOREST, NIDORAN og SKORDÝ Vasaskrímsli.$"\n',
+                '\t.string "Storage System, SURF, VIRIDIAN FOREST, NIDORAN og SKORDÝ Vasaskrímsli.$"\n'
+                '\t.string "MT. MOON, MOONFJALL, ROCK SMASH og WATERFALL.$"\n',
                 encoding="utf-8",
             )
             nature_file = root / "src" / "data" / "text" / "nature_names.h"
@@ -39,6 +41,9 @@ class TerminologyScannerTests(unittest.TestCase):
         self.assertIn("speed-stat", found)
         self.assertIn("storage-system", found)
         self.assertIn("surf", found)
+        self.assertIn("mt-moon", found)
+        self.assertIn("rock-smash", found)
+        self.assertIn("waterfall", found)
         self.assertIn("viridian-forest", found)
         self.assertIn("nidoran-species", found)
         self.assertIn("bug-species-phrase", found)
@@ -206,6 +211,18 @@ class GameplaySanityTests(unittest.TestCase):
             '[TYPE_GRASS] = _("GRAS")',
         ]:
             self.assertIn(snippet, battle_main)
+
+    def test_ability_names_fit_the_configured_buffer(self) -> None:
+        battle_main_header = (self.root / "include" / "battle_main.h").read_text(encoding="utf-8")
+        abilities_text = (self.root / "src" / "data" / "text" / "abilities.h").read_text(encoding="utf-8")
+
+        length_match = re.search(r"#define ABILITY_NAME_LENGTH (\d+)", battle_main_header)
+        self.assertIsNotNone(length_match)
+        max_length = int(length_match.group(1))
+        ability_names = re.findall(r"\[ABILITY_[A-Z0-9_]+\]\s*=\s*_\(\"([^\"]*)\"\)", abilities_text)
+
+        self.assertTrue(ability_names)
+        self.assertEqual([], [name for name in ability_names if len(name) > max_length])
 
 
 if __name__ == "__main__":

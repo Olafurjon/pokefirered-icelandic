@@ -34,13 +34,13 @@ static const u8 sEasyChatWord_YeahYeah[] = _("JÁ, JÁ");
 static const u8 sEasyChatWord_ByeBye[] = _("BLESS BLESS");
 static const u8 sEasyChatWord_MeetYou[] = _("HITTA ÞIG");
 static const u8 sEasyChatWord_Hey[] = _("HÆ");
-static const u8 sEasyChatWord_Smell[] = _("SMELL");
-static const u8 sEasyChatWord_Listening[] = _("LISTENING");
-static const u8 sEasyChatWord_HooHah[] = _("HOO-HAH");
-static const u8 sEasyChatWord_Yahoo[] = _("YAHOO");
-static const u8 sEasyChatWord_Yo[] = _("YO");
+static const u8 sEasyChatWord_Smell[] = _("LYKT");
+static const u8 sEasyChatWord_Listening[] = _("HLUSTA");
+static const u8 sEasyChatWord_HooHah[] = _("HÚ-HÁ");
+static const u8 sEasyChatWord_Yahoo[] = _("JAHÚ");
+static const u8 sEasyChatWord_Yo[] = _("HÆ");
 static const u8 sEasyChatWord_ComeOver[] = _("KOMDU HINGAÐ");
-static const u8 sEasyChatWord_CountOn[] = _("COUNT ON");
+static const u8 sEasyChatWord_CountOn[] = _("TREYSTA Á");
 
 static const struct EasyChatWordInfo sEasyChatGroup_Greetings[] = {
     {

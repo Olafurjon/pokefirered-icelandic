@@ -1081,7 +1081,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_FARFETCHD] =
     {
-        .categoryName = _("WILD DUCK"),
+        .categoryName = _("VILLT ÖND"),
         .height = 8,
         .weight = 150,
         .description = gFarfetchdPokedexText,
@@ -1666,7 +1666,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_TAUROS] =
     {
-        .categoryName = _("WILD BULL"),
+        .categoryName = _("VILLT NAUT"),
         .height = 14,
         .weight = 884,
         .description = gTaurosPokedexText,
@@ -3304,7 +3304,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_SCEPTILE] =
     {
-        .categoryName = _("FOREST"),
+        .categoryName = _("SKÓGUR"),
         .height = 17,
         .weight = 522,
         .description = gSceptilePokedexText,
@@ -3746,7 +3746,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_VIGOROTH] =
     {
-        .categoryName = _("WILD MONKEY"),
+        .categoryName = _("VILLTUR API"),
         .height = 14,
         .weight = 465,
         .description = gVigorothPokedexText,
@@ -4825,7 +4825,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_BAGON] =
     {
-        .categoryName = _("ROCK HEAD"),
+        .categoryName = _("STEINHAUS"),
         .height = 6,
         .weight = 421,
         .description = gBagonPokedexText,

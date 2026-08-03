@@ -37,7 +37,7 @@ CeladonCity_Text_KeepOutOfTeamRocketsWay::
 
 CeladonCity_Text_ExplainXAccuracyDireHit::
     .string "ÞJÁLFARA RÁÐ\p"
-    .string "X ACCURACY eykur nákvæmni bragða.\p"
+    .string "X HITTNI eykur nákvæmni bragða.\p"
     .string "DIRE HIT hækkar líkurnar á rothöggi.\p"
     .string "Kauptu hlutina þína í\n"
     .string "CELADON-STÓRVERSLUN!$"
@@ -108,4 +108,3 @@ CeladonCity_Text_SomeoneStoleSilphScope::
     .string "viss um það.\p"
     .string "En ég missti sjónar á honum! Hvert\n"
     .string "fór hann?$"
-

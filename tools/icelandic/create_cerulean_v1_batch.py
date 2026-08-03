@@ -527,7 +527,7 @@ TRANSLATIONS = {
         Ég er ekkert svo öfundsjúk!
     """),
     "Route25_Text_FranklinIntro": t("""
-        Ég var að koma niður af MT. MOON, en
+        Ég var að koma niður af MÁNAFJALLI, en
         ég á enn bensín á tanknum!
     """),
     "Route25_Text_FranklinDefeat": t("""
