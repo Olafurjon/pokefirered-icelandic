@@ -37,8 +37,8 @@ TRANSLATIONS = {
         Enda er BILL heimsfrægur sem
         vasaskrímslaæðingur.
 
-        Hann fann líka upp geymslukerfið
-        fyrir vasaskrímsli á PC.
+        Hann fann líka upp tölvukerfið sem
+        geymir vasaskrímsli.
 
         Þar sem þú notar kerfið hans ættirðu
         að fara og þakka honum.
@@ -469,11 +469,10 @@ TRANSLATIONS = {
         Ó, hér, kannski dugar þetta.
     """),
     "Route25_SeaCottage_Text_CheckOutRareMonsOnPC": t("""
-        BILL: Viltu skoða nokkur af
-        sjaldgæfu vasaskrímslunum mínum á
-        PC-inum?
+        BILL: Viltu skoða sjaldgæfu
+        vasaskrímslin mín í tölvunni?
 
-        Endilega, skoðaðu PC-inn minn.
+        Endilega, skoðaðu tölvuna mína.
     """),
     "Route25_SeaCottage_Text_BillsFavoriteMonList": t("""
         Uppáhalds vasaskrímslalisti BILL!

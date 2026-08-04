@@ -94,7 +94,7 @@ FiveIsland_RocketWarehouse_Text_Admin2PostBattle::
 
 FiveIsland_RocketWarehouse_Text_ReportWithGraphsAndText::
     .string "Skýrsla með gröfum og texta er á\n"
-    .string "PC skjánum.\p"
+    .string "tölvuskjánum.\p"
     .string "'Áhrif segulbylgna á þróun\n"
     .string "Vasaskrímsla'…\p"
     .string "… … … … … …\p"

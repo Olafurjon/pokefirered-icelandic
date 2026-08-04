@@ -78,8 +78,8 @@ ViridianForest_Text_UseAntidoteForPoison::
 
 ViridianForest_Text_ContactOakViaPCToRatePokedex::
     .string "ÞJÁLFARA RÁÐ\p"
-    .string "Hafðu samband við Prófessor EIK í PC\n"
-    .string "til að fá VasaDEX metið!$"
+    .string "Notaðu tölvu til að ná sambandi við\n"
+    .string "Prófessor EIK og fá VasaDEX metið!$"
 
 ViridianForest_Text_CantCatchOwnedMons::
     .string "ÞJÁLFARA RÁÐ\p"

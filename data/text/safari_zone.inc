@@ -60,7 +60,7 @@ SafariZone_Text_PleaseEnjoyYourself::
 	.string "ぞんぶんに おたのしみ ください！ では いってらっしゃい！$"
 
 SafariZone_Text_ExcuseMeYourPCBoxIsFull::
-	.string "Afsakaðu! PC-KASSINN þinn er fullur.$"
+	.string "Afsakaðu! KASSINN þinn er fullur.$"
 
 SafariZone_Text_YouNeedPokeblockCase::
 	.string "あ！ おきゃくさん ポロックケースを おもちで ないですね？\p"
