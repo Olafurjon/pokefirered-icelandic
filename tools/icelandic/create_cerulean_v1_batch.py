@@ -571,10 +571,10 @@ TRANSLATIONS = {
     """),
     "Route25_SeaCottage_Text_RunCellSeparationOnPC": t("""
         Bíddu þar til ég er kominn inn í
-        TELEPORTER.
+        FJARFLUTNINGSTÆKIÐ.
 
-        Þegar ég er kominn inn skaltu fara í
-        PC-inn minn og keyra frumuskiljuna.
+        Þegar ég er kominn inn skaltu nota
+        tölvuna mína og ræsa frumuskiljuna.
     """),
     "Route25_SeaCottage_Text_NoPleaseChief": t("""
         Nei!?
@@ -621,11 +621,12 @@ TRANSLATIONS = {
         Farðu og skemmtu þér vel.
     """),
     "Route25_SeaCottage_Text_TeleporterIsDisplayed": t("""
-        TELEPORTER birtist á PC skjánum.
+        FJARFLUTNINGSTÆKIÐ birtist á
+        tölvuskjánum.
     """),
     "Route25_SeaCottage_Text_InitiatedTeleportersCellSeparator": t("""
-        {PLAYER} ræsti frumuskilju
-        TELEPORTER-sins.
+        {PLAYER} ræsti frumuskiljuna í
+        FJARFLUTNINGSTÆKINU.
     """),
 }
 

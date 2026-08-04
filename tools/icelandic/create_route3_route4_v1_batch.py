@@ -41,10 +41,10 @@ TRANSLATIONS = {
         Ég trúi þessu ekki!
     """),
     "Route3_Text_BenPostBattle": t("""
-        Notarðu PC í vasaskrímslamiðstöð til
+        Notarðu tölvu í vasaskrímslasetri til
         að geyma vasaskrímslin þín?
 
-        Hvert BOX rúmar allt að 30
+        Hver KASSI rúmar allt að 30
         vasaskrímsli.
     """),
     "Route3_Text_JaniceIntro": t("""
@@ -67,8 +67,8 @@ TRANSLATIONS = {
         unnið!
     """),
     "Route3_Text_GregPostBattle": t("""
-        Ef vasaskrímsla-BOX í PC fyllist
-        skaltu bara skipta yfir í annað BOX.
+        Ef KASSI í tölvunni fyllist skaltu
+        bara skipta yfir í annan KASSA.
     """),
     "Route3_Text_SallyIntro": t("""
         Þetta augnaráð sem þú gafst mér...
@@ -273,8 +273,8 @@ TRANSLATIONS = {
         Stundum ertu með of mörg
         vasaskrímsli til að bæta fleirum við.
 
-        Þá ættirðu bara að geyma nokkur með
-        hvaða PC sem er.
+        Þá skaltu geyma nokkur í hvaða
+        tölvu sem er.
     """),
     "Route4_PokemonCenter_1F_Text_ItsANewspaper": t("""
         Þetta er dagblað.

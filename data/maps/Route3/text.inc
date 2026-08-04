@@ -23,9 +23,9 @@ Route3_Text_BenDefeat::
     .string "Ég trúi þessu ekki!$"
 
 Route3_Text_BenPostBattle::
-    .string "Notarðu PC í vasaskrímslamiðstöð til\n"
+    .string "Notarðu tölvu í vasaskrímslasetri til\n"
     .string "að geyma vasaskrímslin þín?\p"
-    .string "Hvert BOX rúmar allt að 30\n"
+    .string "Hver KASSI rúmar allt að 30\n"
     .string "vasaskrímsli.$"
 
 Route3_Text_JaniceIntro::
@@ -47,8 +47,8 @@ Route3_Text_GregDefeat::
     .string "unnið!$"
 
 Route3_Text_GregPostBattle::
-    .string "Ef vasaskrímsla-BOX í PC fyllist\n"
-    .string "skaltu bara skipta yfir í annað BOX.$"
+    .string "Ef KASSI í tölvunni fyllist skaltu\n"
+    .string "bara skipta yfir í annan KASSA.$"
 
 Route3_Text_SallyIntro::
     .string "Þetta augnaráð sem þú gafst mér...\n"

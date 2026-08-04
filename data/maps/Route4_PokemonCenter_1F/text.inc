@@ -47,9 +47,8 @@ Route4_PokemonCenter_1F_Text_ShouldStoreMonsUsingPC::
     .string "Stundum ertu með of mörg\n"
     .string "vasaskrímsli til að bæta fleirum\p"
     .string "við.\p"
-    .string "Þá ættirðu bara að geyma nokkur með\n"
-    .string "hvaða PC sem er.$"
+    .string "Þá skaltu geyma nokkur í hvaða\n"
+    .string "tölvu sem er.$"
 
 Route4_PokemonCenter_1F_Text_ItsANewspaper::
     .string "Þetta er dagblað.$"
-
