@@ -43,8 +43,8 @@ CeruleanCity_House1_Text_ObeyLv50Strength::
     .string "skiptum.\p"
     .string "Vasaskrímsli á hærri stigum verða þó\n"
     .string "óstýrilát í bardaga.\p"
-    .string "Það leyfir þér líka að nota STYRKUR\n"
-    .string "utan bardaga.$"
+    .string "Þú getur líka notað hreyfinguna\n"
+    .string "STYRKUR utan bardaga.$"
 
 CeruleanCity_House1_Text_DefenseStatSurf::
     .string "DEFENSE gildi allra vasaskrímslanna\n"

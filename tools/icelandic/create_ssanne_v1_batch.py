@@ -321,8 +321,8 @@ TRANSLATIONS = {
         Félagi minn AFLGARPUR er
         ofursterkur!
 
-        Hann getur notað STYRKUR til að
-        færa stóra steina!
+        Hann kann hreyfinguna STYRKUR
+        og getur fært stóra steina!
     """),
     "SSAnne_CaptainsOffice_Text_CaptainIFeelSeasick": t("""
         SKIPSTJÓRI: Óaaargh...
@@ -340,19 +340,20 @@ TRANSLATIONS = {
         SKIPSTJÓRI: Úff! Takk fyrir!
         Mér líður miklu betur núna.
 
-        Viltu sjá leynilegu tæknina mína,
-        HÖGGVA?
+        Viltu sjá leynilegu tæknina
+        sem heitir HÖGGVA?
 
-        Ég gæti sýnt þér HÖGGVA ef ég
+        Ég gæti kennt þér HÖGGVA ef ég
         væri ekki svona veikur...
 
         Ég veit! Þú mátt fá þessa
         FÖLDU VÉL!
 
         Kenndu vasaskrímslinu þínu
-        HÖGGVA. Þá getur það höggvið
+        HÖGGVA.
 
-        tré hvenær sem er!
+        Þá getur það höggvið tré
+        hvenær sem er!
     """),
     "SSAnne_CaptainsOffice_Text_ObtainedHM01FromCaptain": t("""
         {PLAYER} fékk HM01 frá

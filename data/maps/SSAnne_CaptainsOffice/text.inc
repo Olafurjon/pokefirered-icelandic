@@ -10,15 +10,16 @@ SSAnne_CaptainsOffice_Text_RubbedCaptainsBack::
 SSAnne_CaptainsOffice_Text_ThankYouHaveHMForCut::
     .string "SKIPSTJÓRI: Úff! Takk fyrir!\n"
     .string "Mér líður miklu betur núna.\p"
-    .string "Viltu sjá leynilegu tæknina mína,\n"
-    .string "HÖGGVA?\p"
-    .string "Ég gæti sýnt þér HÖGGVA ef ég\n"
+    .string "Viltu sjá leynilegu tæknina\n"
+    .string "sem heitir HÖGGVA?\p"
+    .string "Ég gæti kennt þér HÖGGVA ef ég\n"
     .string "væri ekki svona veikur...\p"
     .string "Ég veit! Þú mátt fá þessa\n"
     .string "FÖLDU VÉL!\p"
     .string "Kenndu vasaskrímslinu þínu\n"
-    .string "HÖGGVA. Þá getur það höggvið\p"
-    .string "tré hvenær sem er!$"
+    .string "HÖGGVA.\p"
+    .string "Þá getur það höggvið tré\n"
+    .string "hvenær sem er!$"
 
 SSAnne_CaptainsOffice_Text_ObtainedHM01FromCaptain::
     .string "{PLAYER} fékk HM01 frá\n"

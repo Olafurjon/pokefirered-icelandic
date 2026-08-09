@@ -211,8 +211,8 @@ TRANSLATIONS = {
         Vasaskrímsli á hærri stigum verða þó
         óstýrilát í bardaga.
 
-        Það leyfir þér líka að nota STYRKUR
-        utan bardaga.
+        Þú getur líka notað hreyfinguna
+        STYRKUR utan bardaga.
     """),
     "CeruleanCity_House1_Text_DefenseStatSurf": t("""
         DEFENSE gildi allra vasaskrímslanna

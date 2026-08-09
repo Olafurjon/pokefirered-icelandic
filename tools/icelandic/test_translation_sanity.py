@@ -205,13 +205,23 @@ class GameplaySanityTests(unittest.TestCase):
         expected = [
             (
                 "data/scripts/field_moves.inc",
+                "Text_UseStrength",
+                "Þetta er stór steinn. Vasaskrímsli gæti fært hann.\n\nViltu nota hreyfinguna STYRKUR?",
+            ),
+            (
+                "data/scripts/field_moves.inc",
                 "Text_MonUsedStrengthCanMoveBoulders",
-                "{STR_VAR_1} notaði STYRKUR!\n\nNú er hægt að færa stóra steina!",
+                "{STR_VAR_1} notaði hreyfinguna STYRKUR!\n\nNú er hægt að færa stóra steina!",
             ),
             (
                 "data/scripts/field_moves.inc",
                 "Text_MonMayPushBoulder",
-                "Þetta er stór steinn, en Vasaskrímsli gæti kannski ýtt\n\nhonum til hliðar.",
+                "Þetta er stór steinn. Vasaskrímsli gæti fært hann.",
+            ),
+            (
+                "data/maps/CeladonCity_Gym/text.inc",
+                "CeladonCity_Gym_Text_ExplainRainbowBadgeTakeThis",
+                "RAINBOWBADGE mun láta vasaskrímsli allt að Lv. 50 hlýða.\n\nÞú getur líka notað hreyfinguna STYRKUR innan og utan bardaga.\n\nVinsamlegast taktu þetta líka með þér.",
             ),
             (
                 "data/text/pokedex_rating.inc",
@@ -231,7 +241,7 @@ class GameplaySanityTests(unittest.TestCase):
             (
                 "data/maps/SSAnne_CaptainsOffice/text.inc",
                 "SSAnne_CaptainsOffice_Text_ThankYouHaveHMForCut",
-                "SKIPSTJÓRI: Úff! Takk fyrir! Mér líður miklu betur núna.\n\nViltu sjá leynilegu tæknina mína, HÖGGVA?\n\nÉg gæti sýnt þér HÖGGVA ef ég væri ekki svona veikur...\n\nÉg veit! Þú mátt fá þessa FÖLDU VÉL!\n\nKenndu vasaskrímslinu þínu HÖGGVA. Þá getur það höggvið\n\ntré hvenær sem er!",
+                "SKIPSTJÓRI: Úff! Takk fyrir! Mér líður miklu betur núna.\n\nViltu sjá leynilegu tæknina sem heitir HÖGGVA?\n\nÉg gæti kennt þér HÖGGVA ef ég væri ekki svona veikur...\n\nÉg veit! Þú mátt fá þessa FÖLDU VÉL!\n\nKenndu vasaskrímslinu þínu HÖGGVA.\n\nÞá getur það höggvið tré hvenær sem er!",
             ),
             (
                 "data/maps/SSAnne_CaptainsOffice/text.inc",
@@ -247,6 +257,16 @@ class GameplaySanityTests(unittest.TestCase):
                 "data/maps/CeruleanCity_House1/text.inc",
                 "CeruleanCity_House1_Text_SpeedStatFly",
                 "HRAÐI allra vasaskrímslanna þinna hækkar örlítið.\n\nÞað leyfir þér líka að nota FLUG utan bardaga.",
+            ),
+            (
+                "data/maps/CeruleanCity_House1/text.inc",
+                "CeruleanCity_House1_Text_ObeyLv50Strength",
+                "Vasaskrímsli upp að Lv. 50 hlýða þér.\n\nÞað gildir líka um þau sem þú færð í skiptum.\n\nVasaskrímsli á hærri stigum verða þó óstýrilát í bardaga.\n\nÞú getur líka notað hreyfinguna STYRKUR utan bardaga.",
+            ),
+            (
+                "data/maps/SSAnne_B1F_Room5/text.inc",
+                "SSAnne_B1F_Room5_Text_MachokeHasStrengthToMoveRocks",
+                "Félagi minn AFLGARPUR er ofursterkur!\n\nHann kann hreyfinguna STYRKUR og getur fært stóra steina!",
             ),
         ]
 
