@@ -132,6 +132,29 @@ class GameplaySanityTests(unittest.TestCase):
         safe_batch = (self.root / "tools" / "icelandic" / "generate_safe_translation_batch.py").read_text(encoding="utf-8")
         self.assertIn('"SAFARI ZONE": "SAFARI SVÆÐI"', safe_batch)
 
+    def test_move_learning_and_forgetting_prompts_are_icelandic(self) -> None:
+        battle_messages = (self.root / "src" / "battle_message.c").read_text(encoding="utf-8")
+        shared_strings = (self.root / "src" / "strings.c").read_text(encoding="utf-8")
+
+        for snippet in [
+            'sText_TryToLearnMove1[] = _("{B_BUFF1} reynir að\\nlæra {B_BUFF2}.")',
+            'sText_TryToLearnMove2[] = _("En {B_BUFF1} getur ekki lært\\nmeira en fjögur brögð.")',
+            'sText_TryToLearnMove3[] = _("Eyða bragði til að búa\\ntil pláss fyrir {B_BUFF2}?")',
+            'sText_PkmnForgotMove[] = _("{B_BUFF1} gleymdi\\n{B_BUFF2}.")',
+            'sText_StopLearningMove[] = _("{PAUSE 32}Hætta að læra\\n{B_BUFF2}?")',
+        ]:
+            self.assertIn(snippet, battle_messages)
+
+        for snippet in [
+            'gText_PkmnNeedsToReplaceMove[] = _("{STR_VAR_1} vill læra hreyfinguna',
+            'gText_WhichMoveToForget[] = _("Hvaða hreyfingu á að gleyma?',
+            'gText_12PoofForgotMove[] = _("1, {PAUSE 0x0F}2, og',
+            'gText_MonIsTryingToLearnMove[] = _("{STR_VAR_1} er að reyna að læra',
+            'gText_GiveUpTryingToTeachNewMove[] = _("Gefast upp á að reyna að kenna nýja',
+            'gText_PokeSum_Controls_PickDelete[] = _("{DPAD_UPDOWN}VELJA {A_BUTTON}EYÐA")',
+        ]:
+            self.assertIn(snippet, shared_strings)
+
     def test_first_partner_species_are_available_as_rare_grass_encounters(self) -> None:
         encounters_path = self.root / "src" / "data" / "wild_encounters.json"
         data = json.loads(encounters_path.read_text(encoding="utf-8"))
