@@ -20,7 +20,7 @@ TRANSLATIONS = {
         sem aðeins er hægt að ná þar.
     """),
     "FuchsiaCity_Text_SafariZoneZooInFront": t("""
-        SAFARI ZONE er með dýragarð fyrir
+        SAFARI SVÆÐI er með dýragarð fyrir
         framan innganginn.
 
         Fyrir aftan er SAFARI-LEIKURINN þar
@@ -43,20 +43,20 @@ TRANSLATIONS = {
     """),
     "FuchsiaCity_Text_SafariZoneSign": t("""
         VASASKRÍMSLA-PARADÍS
-        SAFARI ZONE
+        SAFARI SVÆÐI
     """),
     "FuchsiaCity_Text_SafariGameSign": t("""
         SAFARI-LEIKUR
         VASASKRÍMSLI SEM ÞÚ GRÍPUR!
     """),
     "FuchsiaCity_Text_WardensHomeSign": t("""
-        SAFARI ZONE
+        SAFARI SVÆÐI
         HEIMILI VARÐARINS
     """),
     "FuchsiaCity_Text_SafariZoneOfficeSign": t("""
         VASASKRÍMSLA-PARADÍS!
-        Velkomin í SAFARI ZONE!
-        SKRIFSTOFA SAFARI ZONE
+        Velkomin í SAFARI SVÆÐI!
+        SKRIFSTOFA SAFARI SVÆÐI
     """),
     "FuchsiaCity_Text_GymSign": t("""
         FUCHSIA BORGAR VASASKRÍMSLA-SALUR
@@ -305,7 +305,7 @@ TRANSLATIONS = {
         SIGRANDI ÞJÁLFARAR: {RIVAL}, {PLAYER}
     """),
     "FuchsiaCity_House1_Text_WardenIsOldHasFalseTeeth": t("""
-        VÖRÐUR SAFARI ZONE er gamall, en hann
+        VÖRÐUR SAFARI SVÆÐI er gamall, en hann
         er enn mjög virkur.
 
         Allar tennurnar hans eru þó
@@ -410,7 +410,7 @@ TRANSLATIONS = {
     """),
     "FuchsiaCity_Mart_Text_DontTheyHaveSafariZonePennants": t("""
         Eiga þeir enga fána til að auglýsa
-        SAFARI ZONE?
+        SAFARI SVÆÐI?
 
         Hvað með pappírsluktir?
         Eru ekki einu sinni til dagatöl?
@@ -436,13 +436,13 @@ TRANSLATIONS = {
     """),
     "FuchsiaCity_PokemonCenter_1F_Text_VisitSafariZoneForPokedex": t("""
         Ef þú ert að vinna í VasaDEX skaltu
-        heimsækja SAFARI ZONE.
+        heimsækja SAFARI SVÆÐI.
 
         Þar fjölga sér alls konar sjaldgæf
         vasaskrímsli.
     """),
     "FuchsiaCity_SafariZone_Entrance_Text_WelcomeToSafariZone": t("""
-        Velkomin í SAFARI ZONE!
+        Velkomin í SAFARI SVÆÐI!
     """),
     "FuchsiaCity_SafariZone_Entrance_Text_PlaySafariGameFor500": t("""
         Fyrir aðeins ¥500 geturðu spilað
@@ -478,7 +478,7 @@ TRANSLATIONS = {
         Ekki nægir peningar!
     """),
     "FuchsiaCity_SafariZone_Entrance_Text_GoingToLeaveSafariZoneEarly": t("""
-        Ætlarðu að yfirgefa SAFARI ZONE
+        Ætlarðu að yfirgefa SAFARI SVÆÐI
         snemma?
     """),
     "FuchsiaCity_SafariZone_Entrance_Text_PleaseReturnSafariBalls": t("""
@@ -494,10 +494,10 @@ TRANSLATIONS = {
     """),
     "FuchsiaCity_SafariZone_Entrance_Text_FirstTimeAtSafariZone": t("""
         Hæ! Er þetta í fyrsta sinn sem þú
-        kemur í SAFARI ZONE?
+        kemur í SAFARI SVÆÐI?
     """),
     "FuchsiaCity_SafariZone_Entrance_Text_ExplainSafariZone": t("""
-        SAFARI ZONE hefur í raun fjögur svæði.
+        SAFARI SVÆÐI hefur í raun fjögur svæði.
 
         Á hverju svæði eru ólíkar tegundir
         vasaskrímsla, jafnvel sjaldgæfar.
@@ -547,7 +547,7 @@ TRANSLATIONS = {
         núna.
 
         Reyndu að komast í fjarlægasta hornið
-        á SAFARI ZONE.
+        á SAFARI SVÆÐI.
 
         Ef þér tekst það vinnurðu mjög
         hentug verðlaun.
@@ -694,13 +694,13 @@ TRANSLATIONS = {
     """),
     "SafariZone_East_Text_KeepAnyItemFoundOnSafari": t("""
         Þú mátt halda öllum hlutum sem þú
-        finnur í SAFARI ZONE.
+        finnur í SAFARI SVÆÐI.
 
         En tíminn rennur út ef þú reynir að
         ná þeim öllum í einu.
     """),
     "SafariZone_East_Text_PrizeInDeepestPartOfSafariZone": t("""
-        Farðu í dýpsta hluta SAFARI ZONE.
+        Farðu í dýpsta hluta SAFARI SVÆÐI.
         Þú vinnur verðlaun!
     """),
     "SafariZone_East_Text_MyEeveeEvolvedIntoFlareon": t("""
@@ -768,7 +768,7 @@ TRANSLATIONS = {
         AUSTUR: MIÐSVÆÐI
     """),
     "SafariZone_West_Text_KogaPatrolsSafariEverySoOften": t("""
-        SAFARI ZONE er risastór, finnst þér
+        SAFARI SVÆÐI er risastórt, finnst þér
         ekki?
 
         SALSTJÓRI FUCHSIA, KOGA, fer öðru

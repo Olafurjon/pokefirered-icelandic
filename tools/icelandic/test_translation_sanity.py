@@ -111,6 +111,27 @@ class GameplaySanityTests(unittest.TestCase):
         ]:
             self.assertIn(snippet, move_names)
 
+    def test_translation_generators_do_not_emit_legacy_field_terms(self) -> None:
+        generators = [
+            "create_cerulean_v1_batch.py",
+            "create_cerulean_cleanup_v1_batch.py",
+            "create_vermilion_v1_batch.py",
+            "create_ssanne_v1_batch.py",
+            "create_route11_diglett_route2_v1_batch.py",
+            "create_fuchsia_safari_v1_batch.py",
+        ]
+        pattern = re.compile(r"\b(?:CUT|FLY|STRENGTH|DIG|FLASH|SONICBOOM)\b|SAFARI ZONE")
+        offenders: list[str] = []
+        for filename in generators:
+            path = self.root / "tools" / "icelandic" / filename
+            if pattern.search(path.read_text(encoding="utf-8")):
+                offenders.append(filename)
+
+        self.assertEqual([], offenders)
+
+        safe_batch = (self.root / "tools" / "icelandic" / "generate_safe_translation_batch.py").read_text(encoding="utf-8")
+        self.assertIn('"SAFARI ZONE": "SAFARI SVÆÐI"', safe_batch)
+
     def test_first_partner_species_are_available_as_rare_grass_encounters(self) -> None:
         encounters_path = self.root / "src" / "data" / "wild_encounters.json"
         data = json.loads(encounters_path.read_text(encoding="utf-8"))

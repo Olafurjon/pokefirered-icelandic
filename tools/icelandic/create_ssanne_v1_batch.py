@@ -155,12 +155,12 @@ TRANSLATIONS = {
     """),
     "SSAnne_2F_Corridor_Text_RivalPostBattle": t("""
         {RIVAL}: Ég heyrði að það væri
-        CUT-meistari um borð.
+        HÖGGVA-meistari um borð.
 
         En hann var bara sjóveikur gamall
         maður!
 
-        CUT sjálft er mjög gagnlegt.
+        HÖGGVA sjálft er mjög gagnlegt.
         Já, það mun koma sér vel.
 
         Þú ættir líka að fara að hitta hann.
@@ -202,10 +202,10 @@ TRANSLATIONS = {
     """),
     "SSAnne_2F_Room3_Text_SomeTreesCanBeCutDown": t("""
         Lítil tré má höggva niður með
-        hreyfingunni CUT.
+        hreyfingunni HÖGGVA.
 
         En mundu þetta!
-        CUT er HM tækni.
+        HÖGGVA er HM tækni.
 
         Þegar hún hefur lærst er ekki auðvelt
         að losa sig við hana.
@@ -231,7 +231,7 @@ TRANSLATIONS = {
         Ó, hvað ég öfunda þig af þeim!
     """),
     "SSAnne_2F_Room5_Text_HaveYouGoneToSafariZone": t("""
-        Hefurðu farið í SAFARI ZONE í
+        Hefurðu farið í SAFARI SVÆÐI í
         FUCHSIA BORG?
 
         Þar eru margar gerðir af sjaldgæfum
@@ -250,9 +250,9 @@ TRANSLATIONS = {
     """),
     "SSAnne_3F_Corridor_Text_CaptainTeachesCutToMons": t("""
         SKIPSTJÓRINN okkar er sverðmeistari.
-        Hann er magnaður í CUT.
+        Hann er magnaður í HÖGGVA.
 
-        Þeir segja að hann kenni jafnvel CUT
+        Þeir segja að hann kenni jafnvel HÖGGVA
         til vasaskrímsla!
     """),
     "SSAnne_B1F_Room1_Text_PhillipIntro": t("""
@@ -320,7 +320,7 @@ TRANSLATIONS = {
     "SSAnne_B1F_Room5_Text_MachokeHasStrengthToMoveRocks": t("""
         Félagi minn AFLGARPUR er ofursterkur!
 
-        Hann hefur nægan STRENGTH til að færa
+        Hann hefur nægan STYRKUR til að færa
         stóra steina!
     """),
     "SSAnne_CaptainsOffice_Text_CaptainIFeelSeasick": t("""
@@ -339,24 +339,24 @@ TRANSLATIONS = {
         SKIPSTJÓRI: Úff! Takk fyrir!
         Mér líður miklu betur núna.
 
-        Viltu sjá leynilegu CUT tæknina mína?
+        Viltu sjá leynilegu HÖGGVA-tæknina mína?
 
-        Ég gæti sýnt þér dýrmætu CUT tæknina
+        Ég gæti sýnt þér dýrmætu HÖGGVA-tæknina
         mína ef ég væri ekki svona veikur...
 
         Ég veit!
         Þú mátt fá þetta!
         Þessa FÖLDU VÉL!
 
-        Kenndu vasaskrímslinu þínu CUT, og þú
-        getur séð það CUT-a hvenær sem er!
+        Kenndu vasaskrímslinu þínu HÖGGVA, og þú
+        getur séð það höggva hvenær sem er!
     """),
     "SSAnne_CaptainsOffice_Text_ObtainedHM01FromCaptain": t("""
         {PLAYER} fékk HM01 frá
         SKIPSTJÓRANUM!
     """),
     "SSAnne_CaptainsOffice_Text_ExplainCut": t("""
-        Með CUT geturðu höggvið niður lítil
+        Með HÖGGVA geturðu höggvið niður lítil
         tré.
 
         Af hverju prófarðu það ekki á trjánum
