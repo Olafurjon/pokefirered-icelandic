@@ -76,7 +76,8 @@ class TerminologyScannerTests(unittest.TestCase):
                 '\t.string "Viltu fyllja formið? Við alum upp eggið. Gagnhögg! SPEED!$"\n'
                 '\t.string "Storage System, SURF, VIRIDIAN FOREST, NIDORAN og SKORDÝ Vasaskrímsli.$"\n'
                 '\t.string "MT. MOON, MOONFJALL, ROCK SMASH og WATERFALL.$"\n'
-                '\t.string "CUT, FLY, STRENGTH, DIG, FLASH, SHOCK WAVE og SONICBOOM.$"\n',
+                '\t.string "CUT, FLY, STRENGTH, DIG, FLASH, SHOCK WAVE og SONICBOOM.$"\n'
+                '\t.string "TELEPORTER birtist á\\nPC skjánum.$"\n',
                 encoding="utf-8",
             )
             nature_file = root / "src" / "data" / "text" / "nature_names.h"
@@ -109,6 +110,8 @@ class TerminologyScannerTests(unittest.TestCase):
         self.assertIn("flash-move", found)
         self.assertIn("shock-wave-move", found)
         self.assertIn("sonic-boom-move", found)
+        self.assertIn("pc-computer", found)
+        self.assertIn("teleporter", found)
 
     def test_accepts_approved_icelandic_terms(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:

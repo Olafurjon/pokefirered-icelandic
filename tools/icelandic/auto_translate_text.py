@@ -39,7 +39,6 @@ PROTECTED_TERMS = [
     "EXP",
     "TM",
     "HM",
-    "PC",
     "ID",
     "LV",
     "ATTACK",

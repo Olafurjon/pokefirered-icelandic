@@ -24,9 +24,9 @@ Route25_SeaCottage_Text_ImBillHelpMeOutLady::
 
 Route25_SeaCottage_Text_RunCellSeparationOnPC::
     .string "Bíddu þar til ég er kominn inn í\n"
-    .string "TELEPORTER.\p"
-    .string "Þegar ég er kominn inn skaltu fara í\n"
-    .string "PC-inn minn og keyra frumuskiljuna.$"
+    .string "FJARFLUTNINGSTÆKIÐ.\p"
+    .string "Þegar ég er kominn inn skaltu nota\n"
+    .string "tölvuna mína og ræsa frumuskiljuna.$"
 
 Route25_SeaCottage_Text_NoPleaseChief::
     .string "Nei!? Vertu nú ekki svona kaldur!\p"
@@ -77,21 +77,20 @@ Route25_SeaCottage_Text_SSAnnePartyYouGoInstead::
     .string "fyrir mig? Farðu og skemmtu þér vel.$"
 
 Route25_SeaCottage_Text_CheckOutRareMonsOnPC::
-    .string "BILL: Viltu skoða nokkur af\n"
-    .string "sjaldgæfu vasaskrímslunum mínum á\p"
-    .string "PC-inum?\p"
-    .string "Endilega, skoðaðu PC-inn minn.$"
+    .string "BILL: Viltu skoða sjaldgæfu\n"
+    .string "vasaskrímslin mín í tölvunni?\p"
+    .string "Endilega, skoðaðu tölvuna mína.$"
 
 Route25_SeaCottage_Text_TeleporterIsDisplayed::
-    .string "TELEPORTER birtist á PC skjánum.$"
+    .string "FJARFLUTNINGSTÆKIÐ birtist á\n"
+    .string "tölvuskjánum.$"
 
 Route25_SeaCottage_Text_InitiatedTeleportersCellSeparator::
-    .string "{PLAYER} ræsti frumuskilju\n"
-    .string "TELEPORTER-sins.$"
+    .string "{PLAYER} ræsti frumuskiljuna í\n"
+    .string "FJARFLUTNINGSTÆKINU.$"
 
 Route25_SeaCottage_Text_BillsFavoriteMonList::
     .string "Uppáhalds vasaskrímslalisti BILL!$"
 
 Route25_SeaCottage_Text_SeeWhichMon::
     .string "Hvaða vasaskrímsli viltu sjá?$"
-

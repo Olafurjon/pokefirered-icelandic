@@ -74,6 +74,8 @@ This document records approved terminology and style rules for the Icelandic ver
 | SAFARI ZONE | SAFARI SVÆÐI | Location term. |
 | Network Machine | Net Vél | System/machine term. |
 | Storage System | Geymslukerfi | Use in prose; keep UI/system capitalization where needed. |
+| PC | TÖLVA | Computer context. Inflect naturally as `tölvan`, `tölvuna`, `í tölvunni`; do not retain the English abbreviation in visible text. |
+| TELEPORTER | FJARFLUTNINGSTÆKI | Bill's machine. Use `FJARFLUTNINGSTÆKIÐ`, `FJARFLUTNINGSTÆKINU` and `FJARFLUTNINGSTÆKISINS` as context requires. |
 | SEAGALLOP | Sæskjóti | Ferry/boat name. All-caps display `SÆSKJÓTI`. |
 | TM | TM | Keep item abbreviation. |
 | HM | HM | Keep item abbreviation. |
