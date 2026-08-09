@@ -69,6 +69,7 @@ CMakeLists.txt
 compile_commands.json
 __pycache__/
 tools/icelandic/__pycache__/
+.worktrees/
 
 # Icelandic localization working artifacts.
 docs/superpowers/
