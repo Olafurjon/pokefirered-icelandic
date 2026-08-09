@@ -10,7 +10,7 @@ Use the established Icelandic move names whenever the move itself is named:
 
 | English | Icelandic |
 | --- | --- |
-| CUT | SKURÐUR |
+| CUT | HÖGGVA |
 | FLY | FLUG |
 | STRENGTH | STYRKUR |
 | DIG | GRAFA |
@@ -19,7 +19,7 @@ Use the established Icelandic move names whenever the move itself is named:
 | WITHDRAW | SKELVÖRN |
 | SAFARI ZONE | SAFARI SVÆÐI |
 
-Move names do not replace ordinary Icelandic verbs. For example, a prompt may ask whether to use `SKURÐ`, while explanatory prose says that the player can `höggva niður lítil tré`. This keeps the move name recognizable without producing unnatural sentences.
+Use `HÖGGVA` consistently as both the move name and the action associated with removing small trees. Prompts and explanatory prose should be rewritten around the infinitive where needed, for example `Viltu höggva tréð?`, instead of inserting it into an unnatural phrase.
 
 ## Dialogue Changes
 
