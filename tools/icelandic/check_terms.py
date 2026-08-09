@@ -9,6 +9,7 @@ from pathlib import Path
 
 DEFAULT_INCLUDE = (
     "data/maps",
+    "data/scripts",
     "data/text",
     "src/data/text",
     "src/data/items.json",
@@ -63,6 +64,13 @@ RULES = [
     Rule("daycare-raise", re.compile(r"\balum\b|\bAlum\b"), "ölum / Ölum"),
     Rule("critical-hit", re.compile(r"Gagnhögg|GAGNHÖGG|gagnhögg"), "Gæfuhögg"),
     Rule("surf", re.compile(r"\bSURF(?:A)?\b"), "BRIM / BRIMA"),
+    Rule("cut-move", re.compile(r"\bCUT\b"), "HÖGGVA"),
+    Rule("fly-move", re.compile(r"\bFLY\b"), "FLUG"),
+    Rule("strength-move", re.compile(r"\bSTRENGTH\b"), "STYRKUR"),
+    Rule("dig-move", re.compile(r"\bDIG\b"), "GRAFA"),
+    Rule("flash-move", re.compile(r"\bFLASH\b"), "LEIFTUR"),
+    Rule("shock-wave-move", re.compile(r"\bSHOCK\s+WAVE\b"), "STUÐBYLGJA"),
+    Rule("sonic-boom-move", re.compile(r"\bSONICBOOM\b"), "HLJÓÐBYLGJA"),
     Rule("rock-smash", re.compile(r"\bROCK\s+SMASH\b"), "GRJÓTMÖLUN"),
     Rule("waterfall", re.compile(r"\bWATERFALL\b"), "FOSS"),
     Rule("nature-power", re.compile(r"\bNATURE\s+POWER\b"), "NÁTTÚRUKRAFTUR"),

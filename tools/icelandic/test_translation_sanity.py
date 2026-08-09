@@ -22,7 +22,8 @@ class TerminologyScannerTests(unittest.TestCase):
                 '\t.string "POKéMON CENTER sells POTIONS near CYCLING ROAD.$"\n'
                 '\t.string "Viltu fyllja formið? Við alum upp eggið. Gagnhögg! SPEED!$"\n'
                 '\t.string "Storage System, SURF, VIRIDIAN FOREST, NIDORAN og SKORDÝ Vasaskrímsli.$"\n'
-                '\t.string "MT. MOON, MOONFJALL, ROCK SMASH og WATERFALL.$"\n',
+                '\t.string "MT. MOON, MOONFJALL, ROCK SMASH og WATERFALL.$"\n'
+                '\t.string "CUT, FLY, STRENGTH, DIG, FLASH, SHOCK WAVE og SONICBOOM.$"\n',
                 encoding="utf-8",
             )
             nature_file = root / "src" / "data" / "text" / "nature_names.h"
@@ -48,6 +49,13 @@ class TerminologyScannerTests(unittest.TestCase):
         self.assertIn("nidoran-species", found)
         self.assertIn("bug-species-phrase", found)
         self.assertIn("nature-name", found)
+        self.assertIn("cut-move", found)
+        self.assertIn("fly-move", found)
+        self.assertIn("strength-move", found)
+        self.assertIn("dig-move", found)
+        self.assertIn("flash-move", found)
+        self.assertIn("shock-wave-move", found)
+        self.assertIn("sonic-boom-move", found)
 
     def test_accepts_approved_icelandic_terms(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
@@ -56,7 +64,8 @@ class TerminologyScannerTests(unittest.TestCase):
             text_file.parent.mkdir(parents=True)
             text_file.write_text(
                 'Test_Text::\n'
-                '\t.string "VASaSKRÍMSLI fá SEYÐI við HJÓLAVEGINN.$"\n',
+                '\t.string "VASaSKRÍMSLI fá SEYÐI við HJÓLAVEGINN.$"\n'
+                '\t.string "HÖGGVA, FLUG, STYRKUR, GRAFA, LEIFTUR, STUÐBYLGJA, HLJÓÐBYLGJA og SAFARI SVÆÐI.$"\n',
                 encoding="utf-8",
             )
 
