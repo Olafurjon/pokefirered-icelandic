@@ -14,6 +14,7 @@ Use the established Icelandic move names whenever the move itself is named:
 | FLY | FLUG |
 | STRENGTH | STYRKUR |
 | DIG | GRAFA |
+| FLASH | LEIFTUR |
 | SHOCK WAVE | STUÐBYLGJA |
 | SONICBOOM | HLJÓÐBYLGJA |
 | WITHDRAW | SKELVÖRN |
