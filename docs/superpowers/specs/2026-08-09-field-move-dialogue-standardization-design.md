@@ -35,6 +35,8 @@ The Cerulean Slowbro demonstration will be fully Icelandic:
 
 `SHOCK WAVE` will be renamed to `STUÐBYLGJA` in the canonical move-name table. Its existing description may continue to describe the attack as a rapid electrical wave.
 
+The move-learning and move-forgetting flows must remain fully Icelandic in battle, TM/HM use, evolution, and the summary-screen move picker. Focused regression coverage will assert the prompts for learning, replacing, forgetting, and deleting a move because the current source is already translated but an older ROM exposed English text.
+
 ## Source Of Truth
 
 Apply each correction in both places where applicable:
@@ -61,4 +63,4 @@ Before opening a pull request:
 
 ## Scope
 
-This change is limited to the reported field-move terminology, the Cerulean Slowbro sequence, Safari terminology, and the safeguards needed to keep those fixes stable. A broader rewrite of unrelated dialogue is outside this batch.
+This change is limited to the reported field-move terminology, the Cerulean Slowbro sequence, Safari terminology, move-learning and forgetting prompts, and the safeguards needed to keep those fixes stable. A broader rewrite of unrelated dialogue is outside this batch.

@@ -345,13 +345,82 @@ git commit -m "Keep translation generators aligned with move terms"
 
 ---
 
-### Task 5: Full Verification And Branch Review
+### Task 5: Protect Move-Learning And Forgetting Text
+
+**Files:**
+- Modify: `tools/icelandic/test_translation_sanity.py`
+- Verify: `src/battle_message.c`
+- Verify: `src/strings.c`
+
+**Interfaces:**
+- Consumes: battle-string, party-menu, evolution, TM/HM, and summary-screen text constants.
+- Produces: regression coverage proving the current ROM source has Icelandic prompts on every move-learning and forgetting path.
+
+- [ ] **Step 1: Add exact regression coverage for all learning paths**
+
+Add this method to `GameplaySanityTests`:
+
+```python
+def test_move_learning_and_forgetting_prompts_are_icelandic(self) -> None:
+    battle_messages = (self.root / "src" / "battle_message.c").read_text(encoding="utf-8")
+    shared_strings = (self.root / "src" / "strings.c").read_text(encoding="utf-8")
+
+    for snippet in [
+        'sText_TryToLearnMove1[] = _("{B_BUFF1} reynir að\\nlæra {B_BUFF2}.")',
+        'sText_TryToLearnMove2[] = _("En {B_BUFF1} getur ekki lært\\nmeira en fjögur brögð.")',
+        'sText_TryToLearnMove3[] = _("Eyða bragði til að búa\\ntil pláss fyrir {B_BUFF2}?")',
+        'sText_PkmnForgotMove[] = _("{B_BUFF1} gleymdi\\n{B_BUFF2}.")',
+        'sText_StopLearningMove[] = _("{PAUSE 32}Hætta að læra\\n{B_BUFF2}?")',
+    ]:
+        self.assertIn(snippet, battle_messages)
+
+    for snippet in [
+        'gText_PkmnNeedsToReplaceMove[] = _("{STR_VAR_1} vill læra hreyfinguna',
+        'gText_WhichMoveToForget[] = _("Hvaða hreyfingu á að gleyma?',
+        'gText_12PoofForgotMove[] = _("1, {PAUSE 0x0F}2, og',
+        'gText_MonIsTryingToLearnMove[] = _("{STR_VAR_1} er að reyna að læra',
+        'gText_GiveUpTryingToTeachNewMove[] = _("Gefast upp á að reyna að kenna nýja',
+        'gText_PokeSum_Controls_PickDelete[] = _("{DPAD_UPDOWN}VELJA {A_BUTTON}EYÐA")',
+    ]:
+        self.assertIn(snippet, shared_strings)
+```
+
+- [ ] **Step 2: Run the focused regression test**
+
+Run:
+
+```powershell
+python -m unittest tools.icelandic.test_translation_sanity.GameplaySanityTests.test_move_learning_and_forgetting_prompts_are_icelandic -v
+```
+
+Expected: PASS against the current translated source. If any assertion fails, translate that exact source constant without altering its placeholders or control codes, then rerun until it passes.
+
+- [ ] **Step 3: Search the active learning flow for English prompt fragments**
+
+Run:
+
+```powershell
+rg -n -i 'delete a move|make room for|which move|stop learning|give up trying|forgot move|trying to learn' src/battle_message.c src/strings.c
+```
+
+Expected: no English visible strings; source-code comments may remain English.
+
+- [ ] **Step 4: Commit the move-learning regression coverage**
+
+```powershell
+git add tools/icelandic/test_translation_sanity.py src/battle_message.c src/strings.c
+git commit -m "Protect Icelandic move learning prompts"
+```
+
+---
+
+### Task 6: Full Verification And Branch Review
 
 **Files:**
 - Verify: all files changed in Tasks 1-4
 
 **Interfaces:**
-- Consumes: scanner, tests, runtime strings, canonical names, and generators from Tasks 1-4.
+- Consumes: scanner, tests, runtime strings, canonical names, generators, and move-learning coverage from Tasks 1-5.
 - Produces: a buildable branch ready for pull-request review.
 
 - [ ] **Step 1: Run the full Python sanity suite**
