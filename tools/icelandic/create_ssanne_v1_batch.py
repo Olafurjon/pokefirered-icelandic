@@ -239,7 +239,7 @@ TRANSLATIONS = {
     """),
     "SSAnne_2F_Room5_Text_WeThinkSafariZoneIsAwesome": t("""
         Ég og pabbi minn höldum að SAFARI
-        ZONE sé frábært!
+        SVÆÐI sé frábært!
         Ég vildi að við gætum farið þangað
         aftur.
     """),

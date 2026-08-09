@@ -120,7 +120,7 @@ class GameplaySanityTests(unittest.TestCase):
             "create_route11_diglett_route2_v1_batch.py",
             "create_fuchsia_safari_v1_batch.py",
         ]
-        pattern = re.compile(r"\b(?:CUT|FLY|STRENGTH|DIG|FLASH|SONICBOOM)\b|SAFARI ZONE")
+        pattern = re.compile(r"\b(?:CUT|FLY|STRENGTH|DIG|FLASH|SONICBOOM)\b|SAFARI(?:\s|\\n)+ZONE")
         offenders: list[str] = []
         for filename in generators:
             path = self.root / "tools" / "icelandic" / filename

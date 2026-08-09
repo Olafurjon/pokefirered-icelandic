@@ -608,7 +608,7 @@ TRANSLATIONS = {
         stórgrýti þegar þú ert utan bardaga.
 
         Ó já, fannstu LEYNIHÚSIÐ í SAFARI
-        ZONE?
+        SVÆÐINU?
     """),
     "FuchsiaCity_WardensHouse_Text_YouHaveTooMuchStuff": t("""
         Þú ert með of mikið dót!
