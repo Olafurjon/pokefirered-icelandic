@@ -96,6 +96,21 @@ class GameplaySanityTests(unittest.TestCase):
     def setUpClass(cls) -> None:
         cls.root = Path(__file__).resolve().parents[2]
 
+    def test_reported_move_names_are_icelandic(self) -> None:
+        move_names = (self.root / "src" / "data" / "text" / "move_names.h").read_text(encoding="utf-8")
+
+        for snippet in [
+            '[MOVE_CUT]           = _("HÖGGVA")',
+            '[MOVE_FLY]           = _("FLUG")',
+            '[MOVE_STRENGTH]      = _("STYRKUR")',
+            '[MOVE_DIG]           = _("GRAFA")',
+            '[MOVE_FLASH]         = _("LEIFTUR")',
+            '[MOVE_SONIC_BOOM]    = _("HLJÓÐBYLGJA")',
+            '[MOVE_WITHDRAW]      = _("SKELVÖRN")',
+            '[MOVE_SHOCK_WAVE]    = _("STUÐBYLGJA")',
+        ]:
+            self.assertIn(snippet, move_names)
+
     def test_first_partner_species_are_available_as_rare_grass_encounters(self) -> None:
         encounters_path = self.root / "src" / "data" / "wild_encounters.json"
         data = json.loads(encounters_path.read_text(encoding="utf-8"))
