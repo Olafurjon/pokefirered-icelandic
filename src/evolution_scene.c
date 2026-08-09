@@ -651,8 +651,8 @@ static void Task_EvolutionScene(u8 taskId)
         return;
     }
 
-    // check if B Button was held, so the evolution gets stopped
-    if (gMain.heldKeys == B_BUTTON
+    // Require a fresh B press so carried or sticky input cannot cancel evolution.
+    if (JOY_NEW(B_BUTTON)
         && gTasks[taskId].tState == EVOSTATE_WAIT_CYCLE_MON_SPRITE
         && gTasks[sEvoGraphicsTaskId].isActive
         && gTasks[taskId].tBits & TASK_BIT_CAN_STOP)

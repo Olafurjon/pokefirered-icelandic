@@ -200,6 +200,15 @@ class GameplaySanityTests(unittest.TestCase):
 
         self.assertIn("#define SHINY_ODDS 64", pokemon_constants)
 
+    def test_evolution_cancel_requires_a_new_b_press(self) -> None:
+        evolution_scene = (self.root / "src" / "evolution_scene.c").read_text(encoding="utf-8")
+        start = evolution_scene.index("static void Task_EvolutionScene(u8 taskId)\n{")
+        end = evolution_scene.index("    switch (gTasks[taskId].tState)", start)
+        cancel_input = evolution_scene[start:end]
+
+        self.assertIn("JOY_NEW(B_BUTTON)", cancel_input)
+        self.assertNotIn("gMain.heldKeys == B_BUTTON", cancel_input)
+
     def test_core_type_names_are_icelandic(self) -> None:
         battle_main = (self.root / "src" / "battle_main.c").read_text(encoding="utf-8")
 
