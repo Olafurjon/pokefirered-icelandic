@@ -135,25 +135,78 @@ class GameplaySanityTests(unittest.TestCase):
     def test_move_learning_and_forgetting_prompts_are_icelandic(self) -> None:
         battle_messages = (self.root / "src" / "battle_message.c").read_text(encoding="utf-8")
         shared_strings = (self.root / "src" / "strings.c").read_text(encoding="utf-8")
+        fuchsia_move_deleter = (
+            self.root / "data" / "maps" / "FuchsiaCity_House3" / "text.inc"
+        ).read_text(encoding="utf-8")
 
-        for snippet in [
+        battle_definitions = [
+            'sText_PkmnLearnedMove[] = _("{B_BUFF1} lærði\\n{B_BUFF2}!{WAIT_SE}")',
             'sText_TryToLearnMove1[] = _("{B_BUFF1} reynir að\\nlæra {B_BUFF2}.")',
             'sText_TryToLearnMove2[] = _("En {B_BUFF1} getur ekki lært\\nmeira en fjögur brögð.")',
             'sText_TryToLearnMove3[] = _("Eyða bragði til að búa\\ntil pláss fyrir {B_BUFF2}?")',
             'sText_PkmnForgotMove[] = _("{B_BUFF1} gleymdi\\n{B_BUFF2}.")',
             'sText_StopLearningMove[] = _("{PAUSE 32}Hætta að læra\\n{B_BUFF2}?")',
-        ]:
-            self.assertIn(snippet, battle_messages)
+            'sText_DidNotLearnMove[] = _("{B_BUFF1} lærði ekki\\n{B_BUFF2}.")',
+            'sText_PkmnLearnedMove2[] = _("{B_ATK_NAME_WITH_PREFIX} lærði\\n{B_BUFF1}!")',
+        ]
+        for definition in battle_definitions:
+            self.assertIn(definition, battle_messages)
 
-        for snippet in [
-            'gText_PkmnNeedsToReplaceMove[] = _("{STR_VAR_1} vill læra hreyfinguna',
-            'gText_WhichMoveToForget[] = _("Hvaða hreyfingu á að gleyma?',
-            'gText_12PoofForgotMove[] = _("1, {PAUSE 0x0F}2, og',
-            'gText_MonIsTryingToLearnMove[] = _("{STR_VAR_1} er að reyna að læra',
-            'gText_GiveUpTryingToTeachNewMove[] = _("Gefast upp á að reyna að kenna nýja',
+        shared_definitions = [
+            'gText_PkmnLearnedMove3[] = _("{STR_VAR_1} lærði\\n{STR_VAR_2}!")',
+            'gText_PkmnNeedsToReplaceMove[] = _("{STR_VAR_1} vill læra hreyfinguna\\n{STR_VAR_2}.\\pHins vegar kann {STR_VAR_1} nú þegar\\nfjórar hreyfingar.\\pÁ að eyða hreyfingu og\\nskipta henni út fyrir {STR_VAR_2}?")',
+            'gText_StopLearningMove2[] = _("Hætta að reyna að kenna\\n{STR_VAR_2}?")',
+            'gText_MoveNotLearned[] = _("{STR_VAR_1} lærði ekki hreyfinguna\\n{STR_VAR_2}.{PAUSE_UNTIL_PRESS}")',
+            'gText_WhichMoveToForget[] = _("Hvaða hreyfingu á að gleyma?{PAUSE_UNTIL_PRESS}")',
+            'gText_12PoofForgotMove[] = _("1, {PAUSE 0x0F}2, og{PAUSE 0x0F}‥ {PAUSE 0x0F}‥ {PAUSE 0x0F}‥ {PAUSE 0x0F}{PLAY_SE SE_BALL_BOUNCE_1}Púff!\\p{STR_VAR_1} gleymdi hvernig á að\\nnota {STR_VAR_2}.\\pOg...{PAUSE_UNTIL_PRESS}")',
+            'gText_MonIsTryingToLearnMove[] = _("{STR_VAR_1} er að reyna að læra\\n{STR_VAR_2}.\\pEn {STR_VAR_1} getur ekki lært fleiri\\nen fjórar hreyfingar.\\pEyða eldri hreyfingu til að gera\\npláss fyrir {STR_VAR_2}?")',
+            'gText_MonLearnedMove[] = _("{STR_VAR_1} lærði\\n{STR_VAR_2}.")',
+            'gText_StopLearningMove[] = _("Hætta að læra {STR_VAR_2}?")',
+            'gText_1_2_and_Poof[] = _("{PAUSE 0x20}1, {PAUSE 0x0F}2, og {PAUSE 0x0F}‥ {PAUSE 0x0F}‥ {PAUSE 0x0F}‥ {PAUSE 0x0F}{PLAY_SE SE_BALL_BOUNCE_1}Púff!")',
+            'gText_MonForgotOldMoveAndMonLearnedNewMove[] = _("{STR_VAR_1} gleymdi {STR_VAR_3}.\\pOg‥\\p{STR_VAR_1}\\nlærði {STR_VAR_2}.")',
+            'gText_GiveUpTryingToTeachNewMove[] = _("Gefast upp á að reyna að kenna nýja\\nhreyfingu til {STR_VAR_1}?")',
+            'gText_WhichMoveShouldBeForgotten[] = _("Hvaða hreyfingu á að gleyma?")',
             'gText_PokeSum_Controls_PickDelete[] = _("{DPAD_UPDOWN}VELJA {A_BUTTON}EYÐA")',
-        ]:
-            self.assertIn(snippet, shared_strings)
+            'gText_Counting_1[] = _("1,")',
+            'gText_Counting_2And[] = _("2, og ‥ ‥ ‥")',
+            'gText_Poof[] = _("Púff!")',
+            'gText_MonForgotMove[] = _("{DYNAMIC 0x00} gleymdi\\n{DYNAMIC 0x01}.")',
+            'gText_And[] = _("Og‥")',
+            'gText_MonLearnedTMHM[] = _("{DYNAMIC 0x00} lærði\\n{DYNAMIC 0x01}!")',
+        ]
+        for definition in shared_definitions:
+            self.assertIn(definition, shared_strings)
+
+        fuchsia_definitions = [
+            """FuchsiaCity_House3_Text_WouldYouLikeToForgetMove::
+    .string "Uh… Ó, já, ég eyði hreyfingum.\\p"
+    .string "Ég get látið Vasaskrímsli gleyma\\n"
+    .string "hreyfingum sínum.\\p"
+    .string "Viltu að ég geri það?$""",
+            """FuchsiaCity_House3_Text_WhichMonShouldForgetMove::
+    .string "Hvaða Vasaskrímsli á að gleyma\\n"
+    .string "hreyfingu?$""",
+            """FuchsiaCity_House3_Text_WhichMoveShouldBeForgotten::
+    .string "Hvaða hreyfingu á að gleyma?$""",
+            """FuchsiaCity_House3_Text_MonOnlyKnowsOneMove::
+    .string "{STR_VAR_1} virðist aðeins kunna\\n"
+    .string "eina hreyfingu…$""",
+            """FuchsiaCity_House3_Text_MonsMoveShouldBeForgotten::
+    .string "Hm! {STR_VAR_1}, {STR_VAR_2}? Á að\\n"
+    .string "gleyma þessari hreyfingu?$""",
+            """FuchsiaCity_House3_Text_MonHasForgottenMoveCompletely::
+    .string "Það virkaði fullkomlega!\\p"
+    .string "{STR_VAR_1} hefur gleymt {STR_VAR_2}\\n"
+    .string "alveg.$""",
+            """FuchsiaCity_House3_Text_ComeAgainToForgetOtherMoves::
+    .string "Komdu aftur ef það eru aðrar\\n"
+    .string "hreyfingar til að gleyma.$""",
+            """FuchsiaCity_House3_Text_NoEggShouldKnowMoves::
+    .string "Hvað? Ekkert EGG ætti að kunna\\n"
+    .string "hreyfingar.$""",
+        ]
+        for definition in fuchsia_definitions:
+            self.assertIn(definition, fuchsia_move_deleter)
 
     def test_first_partner_species_are_available_as_rare_grass_encounters(self) -> None:
         encounters_path = self.root / "src" / "data" / "wild_encounters.json"
