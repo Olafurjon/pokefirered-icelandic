@@ -182,7 +182,7 @@ TRANSLATIONS = {
         vasaskrímslunum þínum!
 
         Það leyfir vasaskrímslunum þínum líka
-        að nota FLY eldingarhratt hvenær sem
+        að nota FLUG eldingarhratt hvenær sem
         er, krakki!
 
         Þú ert sérstakur, krakki!
@@ -534,11 +534,12 @@ TRANSLATIONS = {
         Skiptu honum fyrir REIÐHJÓL, alveg
         ókeypis!
 
-        Ekki hafa áhyggjur, uppáhalds
-        GEIGHEGRINN minn getur FLY mig hvert
-        sem ég þarf að fara.
+        Ekki hafa áhyggjur.
+        GEIGHEGRINN minn kann FLUG.
 
-        Þannig að ég þarf ekkert REIÐHJÓL.
+        Hann flytur mig hvert sem ég þarf.
+
+        Þess vegna þarf ég ekkert REIÐHJÓL.
 
         Ég vona að þér líki að hjóla!
     """),

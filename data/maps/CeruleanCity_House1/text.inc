@@ -17,7 +17,7 @@ CeruleanCity_House1_Text_ComeVisitAnytime::
 CeruleanCity_House1_Text_AttackStatFlash::
     .string "ÁRÁS gildi allra vasaskrímslanna\n"
     .string "þinna hækkar örlítið.\p"
-    .string "Það leyfir þér líka að nota FLASH\n"
+    .string "Það leyfir þér líka að nota LEIFTUR\n"
     .string "utan bardaga.$"
 
 CeruleanCity_House1_Text_ObeyLv30Cut::
@@ -27,14 +27,14 @@ CeruleanCity_House1_Text_ObeyLv30Cut::
     .string "skiptum.\p"
     .string "Vasaskrímsli á hærri stigum verða þó\n"
     .string "óstýrilát í bardaga.\p"
-    .string "Það leyfir þér líka að nota CUT utan\n"
+    .string "Það leyfir þér líka að HÖGGVA utan\n"
     .string "bardaga.$"
 
 CeruleanCity_House1_Text_SpeedStatFly::
     .string "HRAÐI allra vasaskrímslanna\n"
     .string "þinna hækkar örlítið.\p"
-    .string "Það leyfir þér líka að nota FLY utan\n"
-    .string "bardaga.$"
+    .string "Það leyfir þér líka að nota FLUG\n"
+    .string "utan bardaga.$"
 
 CeruleanCity_House1_Text_ObeyLv50Strength::
     .string "Vasaskrímsli upp að Lv. 50 hlýða\n"
@@ -43,8 +43,8 @@ CeruleanCity_House1_Text_ObeyLv50Strength::
     .string "skiptum.\p"
     .string "Vasaskrímsli á hærri stigum verða þó\n"
     .string "óstýrilát í bardaga.\p"
-    .string "Það leyfir þér líka að nota STRENGTH\n"
-    .string "utan bardaga.$"
+    .string "Þú getur líka notað hreyfinguna\n"
+    .string "STYRKUR utan bardaga.$"
 
 CeruleanCity_House1_Text_DefenseStatSurf::
     .string "DEFENSE gildi allra vasaskrímslanna\n"

@@ -155,15 +155,15 @@ TRANSLATIONS = {
     """),
     "SSAnne_2F_Corridor_Text_RivalPostBattle": t("""
         {RIVAL}: Ég heyrði að það væri
-        CUT-meistari um borð.
+        meistari í HÖGGVA um borð.
 
         En hann var bara sjóveikur gamall
         maður!
 
-        CUT sjálft er mjög gagnlegt.
-        Já, það mun koma sér vel.
+        HÖGGVA er mjög gagnlegt.
+        Það kemur sér vel.
 
-        Þú ættir líka að fara að hitta hann.
+        Þú ættir líka að hitta hann.
         Sjáumst!
     """),
     "SSAnne_2F_Room1_Text_SleepingMonLookedLikeThis": t("""
@@ -202,10 +202,10 @@ TRANSLATIONS = {
     """),
     "SSAnne_2F_Room3_Text_SomeTreesCanBeCutDown": t("""
         Lítil tré má höggva niður með
-        hreyfingunni CUT.
+        hreyfingunni HÖGGVA.
 
         En mundu þetta!
-        CUT er HM tækni.
+        HÖGGVA er HM tækni.
 
         Þegar hún hefur lærst er ekki auðvelt
         að losa sig við hana.
@@ -231,7 +231,7 @@ TRANSLATIONS = {
         Ó, hvað ég öfunda þig af þeim!
     """),
     "SSAnne_2F_Room5_Text_HaveYouGoneToSafariZone": t("""
-        Hefurðu farið í SAFARI ZONE í
+        Hefurðu farið í SAFARI SVÆÐI í
         FUCHSIA BORG?
 
         Þar eru margar gerðir af sjaldgæfum
@@ -239,7 +239,7 @@ TRANSLATIONS = {
     """),
     "SSAnne_2F_Room5_Text_WeThinkSafariZoneIsAwesome": t("""
         Ég og pabbi minn höldum að SAFARI
-        ZONE sé frábært!
+        SVÆÐI sé frábært!
         Ég vildi að við gætum farið þangað
         aftur.
     """),
@@ -249,11 +249,11 @@ TRANSLATIONS = {
         Hann var allur fölur.
     """),
     "SSAnne_3F_Corridor_Text_CaptainTeachesCutToMons": t("""
-        SKIPSTJÓRINN okkar er sverðmeistari.
-        Hann er magnaður í CUT.
+        SKIPSTJÓRINN er sverðmeistari.
+        Hann er magnaður í HÖGGVA.
 
-        Þeir segja að hann kenni jafnvel CUT
-        til vasaskrímsla!
+        Þeir segja að hann kenni jafnvel
+        vasaskrímslum HÖGGVA!
     """),
     "SSAnne_B1F_Room1_Text_PhillipIntro": t("""
         Félagi, þú gengur plankann ef þú
@@ -318,10 +318,11 @@ TRANSLATIONS = {
         BORG?
     """),
     "SSAnne_B1F_Room5_Text_MachokeHasStrengthToMoveRocks": t("""
-        Félagi minn AFLGARPUR er ofursterkur!
+        Félagi minn AFLGARPUR er
+        ofursterkur!
 
-        Hann hefur nægan STRENGTH til að færa
-        stóra steina!
+        Hann kann hreyfinguna STYRKUR
+        og getur fært stóra steina!
     """),
     "SSAnne_CaptainsOffice_Text_CaptainIFeelSeasick": t("""
         SKIPSTJÓRI: Óaaargh...
@@ -339,28 +340,31 @@ TRANSLATIONS = {
         SKIPSTJÓRI: Úff! Takk fyrir!
         Mér líður miklu betur núna.
 
-        Viltu sjá leynilegu CUT tæknina mína?
+        Viltu sjá leynilegu tæknina
+        sem heitir HÖGGVA?
 
-        Ég gæti sýnt þér dýrmætu CUT tæknina
-        mína ef ég væri ekki svona veikur...
+        Ég gæti kennt þér HÖGGVA ef ég
+        væri ekki svona veikur...
 
-        Ég veit!
-        Þú mátt fá þetta!
-        Þessa FÖLDU VÉL!
+        Ég veit! Þú mátt fá þessa
+        FÖLDU VÉL!
 
-        Kenndu vasaskrímslinu þínu CUT, og þú
-        getur séð það CUT-a hvenær sem er!
+        Kenndu vasaskrímslinu þínu
+        HÖGGVA.
+
+        Þá getur það höggvið tré
+        hvenær sem er!
     """),
     "SSAnne_CaptainsOffice_Text_ObtainedHM01FromCaptain": t("""
         {PLAYER} fékk HM01 frá
         SKIPSTJÓRANUM!
     """),
     "SSAnne_CaptainsOffice_Text_ExplainCut": t("""
-        Með CUT geturðu höggvið niður lítil
+        Með HÖGGVA má höggva niður lítil
         tré.
 
-        Af hverju prófarðu það ekki á trjánum
-        í kringum VERMILION BORG?
+        Prófaðu það á trjánum í kringum
+        VERMILION BORG!
     """),
     "SSAnne_CaptainsOffice_Text_SSAnneWillSetSailSoon": t("""
         SKIPSTJÓRI: ...Úff!

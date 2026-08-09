@@ -1,14 +1,67 @@
 from __future__ import annotations
 
+import ast
 import json
 import re
 import tempfile
+import textwrap
 import unittest
 from pathlib import Path
 import sys
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import check_terms
+
+
+def asm_string_literals(path: Path, label: str) -> list[str]:
+    lines = path.read_text(encoding="utf-8").splitlines()
+    try:
+        start = lines.index(f"{label}::") + 1
+    except ValueError as exc:
+        raise AssertionError(f"missing ASM label {label} in {path}") from exc
+
+    literals: list[str] = []
+    for line in lines[start:]:
+        match = re.match(r'\s*\.string\s+"((?:\\"|[^"])*)"\s*$', line)
+        if match:
+            literals.append(match.group(1).replace(r'\"', '"'))
+            continue
+        if literals:
+            break
+    if not literals:
+        raise AssertionError(f"missing ASM strings for {label} in {path}")
+    return literals
+
+
+def normalize_dialogue(text: str) -> str:
+    text = text.removesuffix("$")
+    text = text.replace(r"\p", "\n\n").replace(r"\n", "\n").replace(r"\l", "\n")
+    return "\n\n".join(" ".join(page.split()) for page in re.split(r"\n\s*\n", text))
+
+
+def normalized_asm_dialogue(path: Path, label: str) -> str:
+    return normalize_dialogue("".join(asm_string_literals(path, label)))
+
+
+def generator_translations(path: Path) -> dict[str, str]:
+    tree = ast.parse(path.read_text(encoding="utf-8"), filename=str(path))
+    for node in tree.body:
+        if not isinstance(node, ast.Assign):
+            continue
+        if not any(isinstance(target, ast.Name) and target.id == "TRANSLATIONS" for target in node.targets):
+            continue
+        if not isinstance(node.value, ast.Dict):
+            break
+        translations: dict[str, str] = {}
+        for key_node, value_node in zip(node.value.keys, node.value.values):
+            if not isinstance(key_node, ast.Constant) or not isinstance(key_node.value, str):
+                continue
+            if not isinstance(value_node, ast.Call) or not value_node.args:
+                continue
+            raw = ast.literal_eval(value_node.args[0])
+            translations[key_node.value] = textwrap.dedent(raw).strip()
+        return translations
+    raise AssertionError(f"missing TRANSLATIONS dictionary in {path}")
 
 
 class TerminologyScannerTests(unittest.TestCase):
@@ -23,6 +76,7 @@ class TerminologyScannerTests(unittest.TestCase):
                 '\t.string "Viltu fyllja formið? Við alum upp eggið. Gagnhögg! SPEED!$"\n'
                 '\t.string "Storage System, SURF, VIRIDIAN FOREST, NIDORAN og SKORDÝ Vasaskrímsli.$"\n'
                 '\t.string "MT. MOON, MOONFJALL, ROCK SMASH og WATERFALL.$"\n'
+                '\t.string "CUT, FLY, STRENGTH, DIG, FLASH, SHOCK WAVE og SONICBOOM.$"\n'
                 '\t.string "TELEPORTER birtist á\\nPC skjánum.$"\n',
                 encoding="utf-8",
             )
@@ -49,6 +103,13 @@ class TerminologyScannerTests(unittest.TestCase):
         self.assertIn("nidoran-species", found)
         self.assertIn("bug-species-phrase", found)
         self.assertIn("nature-name", found)
+        self.assertIn("cut-move", found)
+        self.assertIn("fly-move", found)
+        self.assertIn("strength-move", found)
+        self.assertIn("dig-move", found)
+        self.assertIn("flash-move", found)
+        self.assertIn("shock-wave-move", found)
+        self.assertIn("sonic-boom-move", found)
         self.assertIn("pc-computer", found)
         self.assertIn("teleporter", found)
 
@@ -59,7 +120,8 @@ class TerminologyScannerTests(unittest.TestCase):
             text_file.parent.mkdir(parents=True)
             text_file.write_text(
                 'Test_Text::\n'
-                '\t.string "VASaSKRÍMSLI fá SEYÐI við HJÓLAVEGINN.$"\n',
+                '\t.string "VASaSKRÍMSLI fá SEYÐI við HJÓLAVEGINN.$"\n'
+                '\t.string "HÖGGVA, FLUG, STYRKUR, GRAFA, LEIFTUR, STUÐBYLGJA, HLJÓÐBYLGJA og SAFARI SVÆÐI.$"\n',
                 encoding="utf-8",
             )
 
@@ -84,11 +146,304 @@ class TerminologyScannerTests(unittest.TestCase):
 
         self.assertEqual([], rows)
 
+    def test_default_scan_includes_data_scripts(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            script_file = root / "data" / "scripts" / "field_moves.inc"
+            script_file.parent.mkdir(parents=True)
+            script_file.write_text(
+                'Test_Text::\n\t.string "Viltu nota STRENGTH?$"\n',
+                encoding="utf-8",
+            )
+
+            discovered = check_terms.iter_files(root, check_terms.DEFAULT_INCLUDE)
+            rows = [row for path in discovered for row in check_terms.scan_file(path, root)]
+
+        self.assertIn(script_file, discovered)
+        self.assertIn("strength-move", {row["rule"] for row in rows})
+
 
 class GameplaySanityTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls) -> None:
         cls.root = Path(__file__).resolve().parents[2]
+
+    def test_reported_move_names_are_icelandic(self) -> None:
+        move_names = (self.root / "src" / "data" / "text" / "move_names.h").read_text(encoding="utf-8")
+
+        for snippet in [
+            '[MOVE_CUT]           = _("HÖGGVA")',
+            '[MOVE_FLY]           = _("FLUG")',
+            '[MOVE_STRENGTH]      = _("STYRKUR")',
+            '[MOVE_DIG]           = _("GRAFA")',
+            '[MOVE_FLASH]         = _("LEIFTUR")',
+            '[MOVE_SONIC_BOOM]    = _("HLJÓÐBYLGJA")',
+            '[MOVE_WITHDRAW]      = _("SKELVÖRN")',
+            '[MOVE_SHOCK_WAVE]    = _("STUÐBYLGJA")',
+        ]:
+            self.assertIn(snippet, move_names)
+
+    def test_translation_generators_do_not_emit_legacy_field_terms(self) -> None:
+        generators = [
+            "create_cerulean_v1_batch.py",
+            "create_cerulean_cleanup_v1_batch.py",
+            "create_vermilion_v1_batch.py",
+            "create_ssanne_v1_batch.py",
+            "create_route11_diglett_route2_v1_batch.py",
+            "create_fuchsia_safari_v1_batch.py",
+        ]
+        pattern = re.compile(r"\b(?:CUT|FLY|STRENGTH|DIG|FLASH|SONICBOOM)\b|SAFARI(?:\s|\\n)+ZONE")
+        offenders: list[str] = []
+        for filename in generators:
+            path = self.root / "tools" / "icelandic" / filename
+            if pattern.search(path.read_text(encoding="utf-8")):
+                offenders.append(filename)
+
+        self.assertEqual([], offenders)
+
+        safe_batch = (self.root / "tools" / "icelandic" / "generate_safe_translation_batch.py").read_text(encoding="utf-8")
+        self.assertIn('"SAFARI ZONE": "SAFARI SVÆÐI"', safe_batch)
+
+    def test_polished_field_move_dialogue_and_line_lengths(self) -> None:
+        expected = [
+            (
+                "data/scripts/field_moves.inc",
+                "Text_UseStrength",
+                "Þetta er stór steinn. Vasaskrímsli gæti fært hann.\n\nViltu nota hreyfinguna STYRKUR?",
+            ),
+            (
+                "data/scripts/field_moves.inc",
+                "Text_MonUsedStrengthCanMoveBoulders",
+                "{STR_VAR_1} notaði hreyfinguna STYRKUR!\n\nNú er hægt að færa stóra steina!",
+            ),
+            (
+                "data/scripts/field_moves.inc",
+                "Text_MonMayPushBoulder",
+                "Þetta er stór steinn. Vasaskrímsli gæti fært hann.",
+            ),
+            (
+                "data/maps/CeladonCity_Gym/text.inc",
+                "CeladonCity_Gym_Text_ExplainRainbowBadgeTakeThis",
+                "RAINBOWBADGE mun láta vasaskrímsli allt að Lv. 50 hlýða.\n\nÞú getur líka notað hreyfinguna STYRKUR innan og utan bardaga.\n\nVinsamlegast taktu þetta líka með þér.",
+            ),
+            (
+                "data/text/pokedex_rating.inc",
+                "PokedexRating_Text_LessThan20",
+                "Það lítur út fyrir að þú sért á réttri leið!\n\nÉg gaf einum AÐSTOÐARMANNA minna HM fyrir LEIFTUR.\n\nVertu viss um að sækja það!",
+            ),
+            (
+                "data/maps/SSAnne_2F_Corridor/text.inc",
+                "SSAnne_2F_Corridor_Text_RivalPostBattle",
+                "{RIVAL}: Ég heyrði að það væri meistari í HÖGGVA um borð.\n\nEn hann var bara sjóveikur gamall maður!\n\nHÖGGVA er mjög gagnlegt. Það kemur sér vel.\n\nÞú ættir líka að hitta hann. Sjáumst!",
+            ),
+            (
+                "data/maps/SSAnne_3F_Corridor/text.inc",
+                "SSAnne_3F_Corridor_Text_CaptainTeachesCutToMons",
+                "SKIPSTJÓRINN er sverðmeistari. Hann er magnaður í HÖGGVA.\n\nÞeir segja að hann kenni jafnvel vasaskrímslum HÖGGVA!",
+            ),
+            (
+                "data/maps/SSAnne_CaptainsOffice/text.inc",
+                "SSAnne_CaptainsOffice_Text_ThankYouHaveHMForCut",
+                "SKIPSTJÓRI: Úff! Takk fyrir! Mér líður miklu betur núna.\n\nViltu sjá leynilegu tæknina sem heitir HÖGGVA?\n\nÉg gæti kennt þér HÖGGVA ef ég væri ekki svona veikur...\n\nÉg veit! Þú mátt fá þessa FÖLDU VÉL!\n\nKenndu vasaskrímslinu þínu HÖGGVA.\n\nÞá getur það höggvið tré hvenær sem er!",
+            ),
+            (
+                "data/maps/SSAnne_CaptainsOffice/text.inc",
+                "SSAnne_CaptainsOffice_Text_ExplainCut",
+                "Með HÖGGVA má höggva niður lítil tré.\n\nPrófaðu það á trjánum í kringum VERMILION BORG!",
+            ),
+            (
+                "data/maps/VermilionCity_PokemonFanClub/text.inc",
+                "VermilionCity_PokemonFanClub_Text_ExplainBikeVoucher",
+                "Farðu með REIÐHJÓLSMIÐANN í HJÓLABÚÐINA í CERULEAN BORG.\n\nSkiptu honum fyrir REIÐHJÓL, alveg ókeypis!\n\nEkki hafa áhyggjur. GEIGHEGRINN minn kann FLUG.\n\nHann flytur mig hvert sem ég þarf.\n\nÞess vegna þarf ég ekkert REIÐHJÓL.\n\nÉg vona að þér líki að hjóla!",
+            ),
+            (
+                "data/maps/CeruleanCity_House1/text.inc",
+                "CeruleanCity_House1_Text_SpeedStatFly",
+                "HRAÐI allra vasaskrímslanna þinna hækkar örlítið.\n\nÞað leyfir þér líka að nota FLUG utan bardaga.",
+            ),
+            (
+                "data/maps/CeruleanCity_House1/text.inc",
+                "CeruleanCity_House1_Text_ObeyLv50Strength",
+                "Vasaskrímsli upp að Lv. 50 hlýða þér.\n\nÞað gildir líka um þau sem þú færð í skiptum.\n\nVasaskrímsli á hærri stigum verða þó óstýrilát í bardaga.\n\nÞú getur líka notað hreyfinguna STYRKUR utan bardaga.",
+            ),
+            (
+                "data/maps/SSAnne_B1F_Room5/text.inc",
+                "SSAnne_B1F_Room5_Text_MachokeHasStrengthToMoveRocks",
+                "Félagi minn AFLGARPUR er ofursterkur!\n\nHann kann hreyfinguna STYRKUR og getur fært stóra steina!",
+            ),
+        ]
+
+        for relative_path, label, wanted in expected:
+            path = self.root / relative_path
+            with self.subTest(label=label):
+                self.assertEqual(wanted, normalized_asm_dialogue(path, label))
+                for literal in asm_string_literals(path, label):
+                    for segment in re.split(r"\\[npl]", literal):
+                        visible = re.sub(r"\{[^}]+\}", "", segment).removesuffix("$")
+                        self.assertLessEqual(len(visible), 36, visible)
+
+    def test_field_move_generators_match_runtime(self) -> None:
+        parity = [
+            (
+                "create_cerulean_cleanup_v1_batch.py",
+                "CeruleanCity_Text_IfSlowbroWasntThereCouldCutTree",
+                "data/maps/CeruleanCity/text.inc",
+            ),
+            (
+                "create_cerulean_cleanup_v1_batch.py",
+                "CeruleanCity_House1_Text_ObeyLv30Cut",
+                "data/maps/CeruleanCity_House1/text.inc",
+            ),
+            (
+                "create_cerulean_cleanup_v1_batch.py",
+                "CeruleanCity_House1_Text_SpeedStatFly",
+                "data/maps/CeruleanCity_House1/text.inc",
+            ),
+            (
+                "create_cerulean_cleanup_v1_batch.py",
+                "CeruleanCity_House1_Text_ObeyLv50Strength",
+                "data/maps/CeruleanCity_House1/text.inc",
+            ),
+            (
+                "create_route11_diglett_route2_v1_batch.py",
+                "Route2_House_Text_FaintedMonsCanUseFieldMoves",
+                "data/maps/Route2_House/text.inc",
+            ),
+            (
+                "create_ssanne_v1_batch.py",
+                "SSAnne_2F_Corridor_Text_RivalPostBattle",
+                "data/maps/SSAnne_2F_Corridor/text.inc",
+            ),
+            (
+                "create_ssanne_v1_batch.py",
+                "SSAnne_3F_Corridor_Text_CaptainTeachesCutToMons",
+                "data/maps/SSAnne_3F_Corridor/text.inc",
+            ),
+            (
+                "create_ssanne_v1_batch.py",
+                "SSAnne_B1F_Room5_Text_MachokeHasStrengthToMoveRocks",
+                "data/maps/SSAnne_B1F_Room5/text.inc",
+            ),
+            (
+                "create_ssanne_v1_batch.py",
+                "SSAnne_CaptainsOffice_Text_ThankYouHaveHMForCut",
+                "data/maps/SSAnne_CaptainsOffice/text.inc",
+            ),
+            (
+                "create_ssanne_v1_batch.py",
+                "SSAnne_CaptainsOffice_Text_ExplainCut",
+                "data/maps/SSAnne_CaptainsOffice/text.inc",
+            ),
+            (
+                "create_vermilion_v1_batch.py",
+                "VermilionCity_PokemonFanClub_Text_ExplainBikeVoucher",
+                "data/maps/VermilionCity_PokemonFanClub/text.inc",
+            ),
+            (
+                "create_fuchsia_safari_v1_batch.py",
+                "FuchsiaCity_House1_Text_WardenIsOldHasFalseTeeth",
+                "data/maps/FuchsiaCity_House1/text.inc",
+            ),
+            (
+                "create_fuchsia_safari_v1_batch.py",
+                "SafariZone_East_Text_KeepAnyItemFoundOnSafari",
+                "data/maps/SafariZone_North_RestHouse/text.inc",
+            ),
+            (
+                "create_fuchsia_safari_v1_batch.py",
+                "SafariZone_East_Text_PrizeInDeepestPartOfSafariZone",
+                "data/maps/SafariZone_North_RestHouse/text.inc",
+            ),
+        ]
+        cache: dict[str, dict[str, str]] = {}
+        for generator, label, runtime in parity:
+            if generator not in cache:
+                cache[generator] = generator_translations(
+                    self.root / "tools" / "icelandic" / generator
+                )
+            translations = cache[generator]
+            with self.subTest(generator=generator, label=label):
+                self.assertIn(label, translations)
+                self.assertEqual(
+                    normalized_asm_dialogue(self.root / runtime, label),
+                    normalize_dialogue(translations[label]),
+                )
+
+    def test_move_learning_and_forgetting_prompts_are_icelandic(self) -> None:
+        battle_messages = (self.root / "src" / "battle_message.c").read_text(encoding="utf-8")
+        shared_strings = (self.root / "src" / "strings.c").read_text(encoding="utf-8")
+        fuchsia_move_deleter = (
+            self.root / "data" / "maps" / "FuchsiaCity_House3" / "text.inc"
+        ).read_text(encoding="utf-8")
+
+        battle_definitions = [
+            'sText_PkmnLearnedMove[] = _("{B_BUFF1} lærði\\n{B_BUFF2}!{WAIT_SE}")',
+            'sText_TryToLearnMove1[] = _("{B_BUFF1} reynir að\\nlæra {B_BUFF2}.")',
+            'sText_TryToLearnMove2[] = _("En {B_BUFF1} getur ekki lært\\nmeira en fjögur brögð.")',
+            'sText_TryToLearnMove3[] = _("Eyða bragði til að búa\\ntil pláss fyrir {B_BUFF2}?")',
+            'sText_PkmnForgotMove[] = _("{B_BUFF1} gleymdi\\n{B_BUFF2}.")',
+            'sText_StopLearningMove[] = _("{PAUSE 32}Hætta að læra\\n{B_BUFF2}?")',
+            'sText_DidNotLearnMove[] = _("{B_BUFF1} lærði ekki\\n{B_BUFF2}.")',
+            'sText_PkmnLearnedMove2[] = _("{B_ATK_NAME_WITH_PREFIX} lærði\\n{B_BUFF1}!")',
+        ]
+        for definition in battle_definitions:
+            self.assertIn(definition, battle_messages)
+
+        shared_definitions = [
+            'gText_PkmnLearnedMove3[] = _("{STR_VAR_1} lærði\\n{STR_VAR_2}!")',
+            'gText_PkmnNeedsToReplaceMove[] = _("{STR_VAR_1} vill læra hreyfinguna\\n{STR_VAR_2}.\\pHins vegar kann {STR_VAR_1} nú þegar\\nfjórar hreyfingar.\\pÁ að eyða hreyfingu og\\nskipta henni út fyrir {STR_VAR_2}?")',
+            'gText_StopLearningMove2[] = _("Hætta að reyna að kenna\\n{STR_VAR_2}?")',
+            'gText_MoveNotLearned[] = _("{STR_VAR_1} lærði ekki hreyfinguna\\n{STR_VAR_2}.{PAUSE_UNTIL_PRESS}")',
+            'gText_WhichMoveToForget[] = _("Hvaða hreyfingu á að gleyma?{PAUSE_UNTIL_PRESS}")',
+            'gText_12PoofForgotMove[] = _("1, {PAUSE 0x0F}2, og{PAUSE 0x0F}‥ {PAUSE 0x0F}‥ {PAUSE 0x0F}‥ {PAUSE 0x0F}{PLAY_SE SE_BALL_BOUNCE_1}Púff!\\p{STR_VAR_1} gleymdi hvernig á að\\nnota {STR_VAR_2}.\\pOg...{PAUSE_UNTIL_PRESS}")',
+            'gText_MonIsTryingToLearnMove[] = _("{STR_VAR_1} er að reyna að læra\\n{STR_VAR_2}.\\pEn {STR_VAR_1} getur ekki lært fleiri\\nen fjórar hreyfingar.\\pEyða eldri hreyfingu til að gera\\npláss fyrir {STR_VAR_2}?")',
+            'gText_MonLearnedMove[] = _("{STR_VAR_1} lærði\\n{STR_VAR_2}.")',
+            'gText_StopLearningMove[] = _("Hætta að læra {STR_VAR_2}?")',
+            'gText_1_2_and_Poof[] = _("{PAUSE 0x20}1, {PAUSE 0x0F}2, og {PAUSE 0x0F}‥ {PAUSE 0x0F}‥ {PAUSE 0x0F}‥ {PAUSE 0x0F}{PLAY_SE SE_BALL_BOUNCE_1}Púff!")',
+            'gText_MonForgotOldMoveAndMonLearnedNewMove[] = _("{STR_VAR_1} gleymdi {STR_VAR_3}.\\pOg‥\\p{STR_VAR_1}\\nlærði {STR_VAR_2}.")',
+            'gText_GiveUpTryingToTeachNewMove[] = _("Hætta að reyna að kenna\\n{STR_VAR_1} nýja hreyfingu?")',
+            'gText_WhichMoveShouldBeForgotten[] = _("Hvaða hreyfingu á að gleyma?")',
+            'gText_PokeSum_Controls_PickDelete[] = _("{DPAD_UPDOWN}VELJA {A_BUTTON}EYÐA")',
+            'gText_Counting_1[] = _("1,")',
+            'gText_Counting_2And[] = _("2, og ‥ ‥ ‥")',
+            'gText_Poof[] = _("Púff!")',
+            'gText_MonForgotMove[] = _("{DYNAMIC 0x00} gleymdi\\n{DYNAMIC 0x01}.")',
+            'gText_And[] = _("Og‥")',
+            'gText_MonLearnedTMHM[] = _("{DYNAMIC 0x00} lærði\\n{DYNAMIC 0x01}!")',
+        ]
+        for definition in shared_definitions:
+            self.assertIn(definition, shared_strings)
+
+        fuchsia_definitions = [
+            """FuchsiaCity_House3_Text_WouldYouLikeToForgetMove::
+    .string "Uh… Ó, já, ég eyði hreyfingum.\\p"
+    .string "Ég get látið Vasaskrímsli gleyma\\n"
+    .string "hreyfingum sínum.\\p"
+    .string "Viltu að ég geri það?$""",
+            """FuchsiaCity_House3_Text_WhichMonShouldForgetMove::
+    .string "Hvaða Vasaskrímsli á að gleyma\\n"
+    .string "hreyfingu?$""",
+            """FuchsiaCity_House3_Text_WhichMoveShouldBeForgotten::
+    .string "Hvaða hreyfingu á að gleyma?$""",
+            """FuchsiaCity_House3_Text_MonOnlyKnowsOneMove::
+    .string "{STR_VAR_1} virðist aðeins kunna\\n"
+    .string "eina hreyfingu…$""",
+            """FuchsiaCity_House3_Text_MonsMoveShouldBeForgotten::
+    .string "Hm! {STR_VAR_1}, {STR_VAR_2}? Á að\\n"
+    .string "gleyma þessari hreyfingu?$""",
+            """FuchsiaCity_House3_Text_MonHasForgottenMoveCompletely::
+    .string "Það virkaði fullkomlega!\\p"
+    .string "{STR_VAR_1} hefur gleymt {STR_VAR_2}\\n"
+    .string "alveg.$""",
+            """FuchsiaCity_House3_Text_ComeAgainToForgetOtherMoves::
+    .string "Komdu aftur ef það eru aðrar\\n"
+    .string "hreyfingar til að gleyma.$""",
+            """FuchsiaCity_House3_Text_NoEggShouldKnowMoves::
+    .string "Hvað? Ekkert EGG ætti að kunna\\n"
+    .string "hreyfingar.$""",
+        ]
+        for definition in fuchsia_definitions:
+            self.assertIn(definition, fuchsia_move_deleter)
 
     def test_first_partner_species_are_available_as_rare_grass_encounters(self) -> None:
         encounters_path = self.root / "src" / "data" / "wild_encounters.json"

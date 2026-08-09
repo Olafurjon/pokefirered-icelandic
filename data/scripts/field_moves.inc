@@ -159,24 +159,22 @@ EventScript_DontUseStrength::
 	end
 
 Text_UseStrength::
-	.string "Þetta er stór steinn, en\n"
-	.string "Vasaskrímsli gæti hugsanlega ýtt\p"
-	.string "honum\p"
-	.string "til hliðar.\p"
-	.string "Viltu nota STRENGTH?$"
+	.string "Þetta er stór steinn.\n"
+	.string "Vasaskrímsli gæti fært hann.\p"
+	.string "Viltu nota hreyfinguna\n"
+	.string "STYRKUR?$"
 
 Text_MonUsedStrengthCanMoveBoulders::
-	.string "{STR_VAR_1} notaði STRENGTH!\p"
-	.string "STRENGTH frá {STR_VAR_1} gerði það\n"
-	.string "mögulegt að færa stóra steina!$"
+	.string "{STR_VAR_1} notaði hreyfinguna\n"
+	.string "STYRKUR!\p"
+	.string "Nú er hægt að færa stóra steina!$"
 
 Text_MonMayPushBoulder::
-	.string "It's a big boulder, but a\n"
-	.string "Vasaskrímsli may be able to push it\p"
-	.string "aside.$"
+	.string "Þetta er stór steinn.\n"
+	.string "Vasaskrímsli gæti fært hann.$"
 
 Text_StrengthMadeMovingBouldersPossible::
-	.string "STRENGTH gerði það mögulegt að færa\n"
+	.string "STYRKUR gerði það mögulegt að færa\n"
 	.string "stóra steina.$"
 
 EventScript_Waterfall::

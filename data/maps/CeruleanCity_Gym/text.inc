@@ -18,9 +18,9 @@ CeruleanCity_Gym_Text_ExplainCascadeBadge::
     .string "upp að Lv. 30 hlýða.\p"
     .string "Það gildir líka um þau sem þú færð í\n"
     .string "skiptum.\p"
-    .string "Og fleira: nú geturðu notað CUT\n"
+    .string "Og fleira: nú máttu HÖGGVA\n"
     .string "hvenær sem er, jafnvel utan bardaga.\p"
-    .string "Þú getur notað CUT til að fella\n"
+    .string "Þú getur notað HÖGGVA til að fella\n"
     .string "lítil tré og opna nýjar leiðir.\p"
     .string "Þú mátt líka fá uppáhalds TM-ið\n"
     .string "mitt.$"
@@ -87,4 +87,3 @@ CeruleanCity_Gym_Text_GymStatuePlayerWon::
     .string "CERULEAN VASASKRÍMSLA-SALUR\n"
     .string "SALSTJÓRI: MISTY\p"
     .string "SIGURÞJÁLFARAR: {RIVAL}, {PLAYER}$"
-

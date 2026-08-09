@@ -48,7 +48,7 @@ TRANSLATIONS = {
     """),
     "CeruleanCity_Text_IfSlowbroWasntThereCouldCutTree": t("""
         Ef SLJÓNATAN væri ekki þarna gætirðu
-        notað CUT á litla tréð.
+        höggvið niður litla tréð.
 
         Þannig kæmistu hinum megin.
 
@@ -127,10 +127,10 @@ TRANSLATIONS = {
         Það gildir líka um þau sem þú færð í
         skiptum.
 
-        Og fleira: nú geturðu notað CUT
+        Og fleira: nú geturðu notað HÖGGVA
         hvenær sem er, jafnvel utan bardaga.
 
-        Þú getur notað CUT til að fella lítil
+        Þú getur notað HÖGGVA til að fella lítil
         tré og opna nýjar leiðir.
 
         Þú mátt líka fá uppáhalds TM-ið mitt.
@@ -178,7 +178,7 @@ TRANSLATIONS = {
         ATTACK gildi allra vasaskrímslanna
         þinna hækkar örlítið.
 
-        Það leyfir þér líka að nota FLASH
+        Það leyfir þér líka að nota LEIFTUR
         utan bardaga.
     """),
     "CeruleanCity_House1_Text_ObeyLv30Cut": t("""
@@ -191,15 +191,15 @@ TRANSLATIONS = {
         Vasaskrímsli á hærri stigum verða þó
         óstýrilát í bardaga.
 
-        Það leyfir þér líka að nota CUT utan
+        Það leyfir þér líka að HÖGGVA utan
         bardaga.
     """),
     "CeruleanCity_House1_Text_SpeedStatFly": t("""
-        SPEED gildi allra vasaskrímslanna
+        HRAÐI allra vasaskrímslanna
         þinna hækkar örlítið.
 
-        Það leyfir þér líka að nota FLY utan
-        bardaga.
+        Það leyfir þér líka að nota FLUG
+        utan bardaga.
     """),
     "CeruleanCity_House1_Text_ObeyLv50Strength": t("""
         Vasaskrímsli upp að Lv. 50 hlýða
@@ -211,8 +211,8 @@ TRANSLATIONS = {
         Vasaskrímsli á hærri stigum verða þó
         óstýrilát í bardaga.
 
-        Það leyfir þér líka að nota STRENGTH
-        utan bardaga.
+        Þú getur líka notað hreyfinguna
+        STYRKUR utan bardaga.
     """),
     "CeruleanCity_House1_Text_DefenseStatSurf": t("""
         DEFENSE gildi allra vasaskrímslanna
@@ -251,7 +251,7 @@ TRANSLATIONS = {
         mitt!
 
         Þeir stálu TM-i sem kennir
-        vasaskrímslum að grafa holur með DIG!
+        vasaskrímslum að grafa holur með GRAFA!
 
         Ég ætlaði að nota það á SKAPKÖTT eða
         SANDSNJÁLD...
@@ -263,7 +263,7 @@ TRANSLATIONS = {
         glatað.
 
         Ég ákvað að kenna GRAFLARA að nota
-        DIG án TM.
+        GRAFA án TM.
     """),
     "CeruleanCity_House3_Text_PleaseTradeWithMyHusband": t("""
         Maðurinn minn hefur gaman af að

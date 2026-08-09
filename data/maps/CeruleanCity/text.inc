@@ -78,15 +78,15 @@ CeruleanCity_Text_TrainerLifeIsToughIsntIt::
     .string "líf, ekki satt?$"
 
 CeruleanCity_Text_YouCanCutDownSmallTrees::
-    .string "Vissirðu að þú getur notað CUT á\n"
+    .string "Vissirðu að þú getur höggvið niður\n"
     .string "lítil tré?\p"
     .string "Jafnvel litla tréð fyrir framan\n"
-    .string "búðina má CUT-a niður.\p"
+    .string "búðina má höggva niður.\p"
     .string "Ég held samt að það sé leið í kring.$"
 
 CeruleanCity_Text_IfSlowbroWasntThereCouldCutTree::
     .string "Ef SLJÓNATAN væri ekki þarna gætirðu\n"
-    .string "notað CUT á litla tréð.\p"
+    .string "höggvið niður litla tréð.\p"
     .string "Þannig kæmistu hinum megin.\p"
     .string "Ég held samt að það sé leið í kring.$"
 
@@ -103,14 +103,14 @@ CeruleanCity_Text_PeopleHereWereRobbed::
     .string "vandræðum með ROCKET-GENGIÐ!$"
 
 CeruleanCity_Text_SlowbroUseSonicboom::
-    .string "Allt í lagi! SLJÓNATAN! Notaðu\n"
-    .string "SONICBOOM!$"
+    .string "Allt í lagi, SLJÓNATAN! Notaðu\n"
+    .string "HLJÓÐBYLGJU!$"
 
 CeruleanCity_Text_SlowbroPayAttention::
     .string "Komdu nú, SLJÓNATAN, fylgstu með!$"
 
 CeruleanCity_Text_SlowbroPunch::
-    .string "SLJÓNATAN, punch!$"
+    .string "SLJÓNATAN, kýldu!$"
 
 CeruleanCity_Text_NoYouBlewItAgain::
     .string "Nei! Þú klúðraðir þessu aftur!$"
@@ -125,16 +125,16 @@ CeruleanCity_Text_HardToControlMonsObedience::
     .string "eftir hæfni þinni sem ÞJÁLFARI.$"
 
 CeruleanCity_Text_SlowbroTookSnooze::
-    .string "SLJÓNATAN took a snooze…$"
+    .string "SLJÓNATAN fékk sér blund…$"
 
 CeruleanCity_Text_SlowbroLoafingAround::
-    .string "SLJÓNATAN er að slóra...$"
+    .string "SLJÓNATAN er að slóra…$"
 
 CeruleanCity_Text_SlowbroTurnedAway::
-    .string "SLJÓNATAN turned away…$"
+    .string "SLJÓNATAN sneri sér undan…$"
 
 CeruleanCity_Text_SlowbroIgnoredOrders::
-    .string "SLJÓNATAN ignored orders…$"
+    .string "SLJÓNATAN hunsaði skipanir…$"
 
 CeruleanCity_Text_WantBrightRedBicycle::
     .string "Mig langar í skærrautt reiðhjól.\p"

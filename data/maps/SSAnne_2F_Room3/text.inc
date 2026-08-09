@@ -4,8 +4,7 @@ SSAnne_2F_Room3_Text_SeenMonsFerryPeople::
 
 SSAnne_2F_Room3_Text_SomeTreesCanBeCutDown::
     .string "Lítil tré má höggva niður með\n"
-    .string "hreyfingunni CUT.\p"
-    .string "En mundu þetta! CUT er HM tækni.\p"
+    .string "hreyfingunni HÖGGVA.\p"
+    .string "En mundu þetta! HÖGGVA er HM tækni.\p"
     .string "Þegar hún hefur lærst er ekki\n"
     .string "auðvelt að losa sig við hana.$"
-

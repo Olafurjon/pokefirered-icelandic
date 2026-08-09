@@ -274,8 +274,8 @@ TRANSLATIONS = {
         Rotað vasaskrímsli hefur bara enga
         orku eftir til að berjast.
 
-        Það getur samt notað hreyfingar eins
-        og CUT utan bardaga.
+        Það getur samt notað hreyfinguna
+        HÖGGVA utan bardaga.
     """),
     "Route2_ViridianForest_NorthEntrance_Text_ManyMonsOnlyInForests": t("""
         Mörg vasaskrímsli lifa aðeins í skógum

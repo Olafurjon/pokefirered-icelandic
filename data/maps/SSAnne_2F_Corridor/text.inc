@@ -26,11 +26,10 @@ SSAnne_2F_Corridor_Text_RivalVictory::
 
 SSAnne_2F_Corridor_Text_RivalPostBattle::
     .string "{RIVAL}: Ég heyrði að það væri\n"
-    .string "CUT-meistari um borð.\p"
+    .string "meistari í HÖGGVA um borð.\p"
     .string "En hann var bara sjóveikur gamall\n"
     .string "maður!\p"
-    .string "CUT sjálft er mjög gagnlegt. Já, það\n"
-    .string "mun koma sér vel.\p"
-    .string "Þú ættir líka að fara að hitta hann.\n"
+    .string "HÖGGVA er mjög gagnlegt.\n"
+    .string "Það kemur sér vel.\p"
+    .string "Þú ættir líka að hitta hann.\n"
     .string "Sjáumst!$"
-

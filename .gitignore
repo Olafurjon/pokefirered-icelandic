@@ -69,8 +69,10 @@ CMakeLists.txt
 compile_commands.json
 __pycache__/
 tools/icelandic/__pycache__/
+.worktrees/
 
 # Icelandic localization working artifacts.
+.superpowers/sdd/
 docs/superpowers/
 graphics/title_screen/experiments/
 graphics/title_screen/rollback_vasaskrimsli_title_test/

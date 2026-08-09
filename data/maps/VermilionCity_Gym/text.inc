@@ -20,7 +20,7 @@ VermilionCity_Gym_Text_ExplainThunderBadgeTakeThis::
     .string "ÞRUMUMERKIÐ hækkar HRAÐA hjá\n"
     .string "vasaskrímslunum þínum!\p"
     .string "Það leyfir vasaskrímslunum þínum\n"
-    .string "líka að nota FLY eldingarhratt\p"
+    .string "líka að nota FLUG eldingarhratt\p"
     .string "hvenær sem er, krakki!\p"
     .string "Þú ert sérstakur, krakki! Taktu\n"
     .string "þetta!$"

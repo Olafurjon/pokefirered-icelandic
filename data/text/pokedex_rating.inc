@@ -18,7 +18,8 @@ PokedexRating_Text_LessThan20::
 	.string "Það lítur út fyrir að þú sért á\n"
 	.string "réttri leið!\p"
 	.string "Ég gaf einum AÐSTOÐARMANNA minna\n"
-	.string "FLASH HM. Vertu viss um að sækja það!$"
+	.string "HM fyrir LEIFTUR.\p"
+	.string "Vertu viss um að sækja það!$"
 
 PokedexRating_Text_LessThan30::
 	.string "VasaDEX-ið þitt mætti enn vera\n"

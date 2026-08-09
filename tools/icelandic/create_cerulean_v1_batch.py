@@ -79,11 +79,11 @@ TRANSLATIONS = {
         Þetta er erfitt líf, ekki satt?
     """),
     "CeruleanCity_Text_YouCanCutDownSmallTrees": t("""
-        Vissirðu að þú getur notað CUT á
+        Vissirðu að þú getur höggvið niður
         lítil tré?
 
         Jafnvel litla tréð fyrir framan
-        búðina má CUT-a niður.
+        búðina má höggva niður.
 
         Ég held samt að það sé leið í kring.
     """),
