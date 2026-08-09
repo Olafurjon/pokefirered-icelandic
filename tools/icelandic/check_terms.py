@@ -50,6 +50,8 @@ RULES = [
     Rule("town", re.compile(r"\bTOWN\b|\bTown\b"), "BÆR / bær"),
     Rule("pocket", re.compile(r"\bPOCKET\b|\bPocket\b"), "HÓLF / hólf"),
     Rule("storage-system", re.compile(r"Storage\s+System|STORAGE\s+SYSTEM"), "Geymslukerfi"),
+    Rule("pc-computer", re.compile(r"(?:^|\\[npl]|[^A-Za-z_])PC(?![A-Za-z_])"), "TÖLVA / tölva"),
+    Rule("teleporter", re.compile(r"TELEPORTER(?![A-Za-z])"), "FJARFLUTNINGSTÆKI"),
     Rule("summary-page-info", re.compile(r"Vasaskrímsli\s+INFO|Vasaskrímsli\s+SKILLS"), "Vasaskrímsli UPPL. / Vasaskrímsli HÆFNI"),
     Rule("nature-name", re.compile(r"\b(HARDY|LONELY|BRAVE|ADAMANT|NAUGHTY|BOLD|DOCILE|RELAXED|IMPISH|LAX|TIMID|HASTY|SERIOUS|JOLLY|NAIVE|MODEST|MILD|QUIET|BASHFUL|RASH|CALM|GENTLE|SASSY|CAREFUL|QUIRKY)\b"), "Icelandic nature names"),
     Rule("bag", re.compile(r"\bBAG\b|\bBag\b"), "TASKA / Taska"),

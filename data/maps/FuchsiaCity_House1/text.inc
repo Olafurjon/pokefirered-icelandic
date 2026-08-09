@@ -11,7 +11,6 @@ FuchsiaCity_House1_Text_BillIsMyGrandson::
     .string "safna hlutum, jafnvel sem barn!$"
 
 FuchsiaCity_House1_Text_BillFilesHisOwnMonData::
-    .string "BILL skráir eigin Vasaskrímslagögn á\n"
-    .string "PC tölvuna sína.\p"
+    .string "BILL skráir gögn um vasaskrímslin\n"
+    .string "sín í tölvuna.\p"
     .string "Sýndi hann þér það?$"
-
