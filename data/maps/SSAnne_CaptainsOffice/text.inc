@@ -10,14 +10,14 @@ SSAnne_CaptainsOffice_Text_RubbedCaptainsBack::
 SSAnne_CaptainsOffice_Text_ThankYouHaveHMForCut::
     .string "SKIPSTJÓRI: Úff! Takk fyrir! Mér\n"
     .string "líður miklu betur núna.\p"
-    .string "Viltu sjá leynilegu CUT tæknina\n"
+    .string "Viltu sjá leynilegu tæknina HÖGGVA\n"
     .string "mína?\p"
-    .string "Ég gæti sýnt þér dýrmætu CUT tæknina\n"
+    .string "Ég gæti sýnt þér dýrmætu tæknina HÖGGVA\n"
     .string "mína ef ég væri ekki svona veikur...\p"
     .string "Ég veit! Þú mátt fá þetta! Þessa\n"
     .string "FÖLDU VÉL!\p"
-    .string "Kenndu vasaskrímslinu þínu CUT, og\n"
-    .string "þú getur séð það CUT-a hvenær sem\p"
+    .string "Kenndu vasaskrímslinu þínu HÖGGVA, og\n"
+    .string "þú getur séð það höggva hvenær sem\p"
     .string "er!$"
 
 SSAnne_CaptainsOffice_Text_ObtainedHM01FromCaptain::
@@ -25,7 +25,7 @@ SSAnne_CaptainsOffice_Text_ObtainedHM01FromCaptain::
     .string "SKIPSTJÓRANUM!$"
 
 SSAnne_CaptainsOffice_Text_ExplainCut::
-    .string "Með CUT geturðu höggvið niður lítil\n"
+    .string "Með HÖGGVA geturðu höggvið niður lítil\n"
     .string "tré.\p"
     .string "Af hverju prófarðu það ekki á\n"
     .string "trjánum í kringum VERMILION BORG?$"
@@ -48,4 +48,3 @@ SSAnne_CaptainsOffice_Text_YuckShouldntHaveLooked::
 SSAnne_CaptainsOffice_Text_HowToConquerSeasickness::
     .string "Hvernig má sigrast á sjóveiki...\n"
     .string "SKIPSTJÓRINN er að lesa þetta!$"
-

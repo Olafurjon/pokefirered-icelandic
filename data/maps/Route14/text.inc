@@ -39,7 +39,7 @@ Route14_Text_BeckPostBattle::
 
 Route14_Text_MarlonIntro::
     .string "Hefurðu kennt fugla-Vasaskrímslinu\n"
-    .string "þínu að FLY?\p"
+    .string "þínu að nota FLUG?\p"
     .string "Þá geturðu svifið með því upp í\n"
     .string "himininn!$"
 

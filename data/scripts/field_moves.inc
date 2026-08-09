@@ -163,11 +163,11 @@ Text_UseStrength::
 	.string "Vasaskrímsli gæti hugsanlega ýtt\p"
 	.string "honum\p"
 	.string "til hliðar.\p"
-	.string "Viltu nota STRENGTH?$"
+	.string "Viltu nota STYRKUR?$"
 
 Text_MonUsedStrengthCanMoveBoulders::
-	.string "{STR_VAR_1} notaði STRENGTH!\p"
-	.string "STRENGTH frá {STR_VAR_1} gerði það\n"
+	.string "{STR_VAR_1} notaði STYRKUR!\p"
+	.string "STYRKUR frá {STR_VAR_1} gerði það\n"
 	.string "mögulegt að færa stóra steina!$"
 
 Text_MonMayPushBoulder::
@@ -176,7 +176,7 @@ Text_MonMayPushBoulder::
 	.string "aside.$"
 
 Text_StrengthMadeMovingBouldersPossible::
-	.string "STRENGTH gerði það mögulegt að færa\n"
+	.string "STYRKUR gerði það mögulegt að færa\n"
 	.string "stóra steina.$"
 
 EventScript_Waterfall::

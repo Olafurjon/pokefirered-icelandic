@@ -29,7 +29,7 @@ CeladonCity_Gym_Text_ExplainRainbowBadgeTakeThis::
     .string "RAINBOWBADGE mun láta vasaskrímsli\n"
     .string "allt að Lv. 50 hlýða.\p"
     .string "Það gerir vasaskrímslum líka kleift\n"
-    .string "að nota STRENGTH bæði innan og utan\p"
+    .string "að nota STYRKUR bæði innan og utan\p"
     .string "bardaga.\p"
     .string "Vinsamlegast taktu þetta líka með\n"
     .string "þér.$"

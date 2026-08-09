@@ -61,7 +61,7 @@ VermilionCity_PokemonFanClub_Text_ExplainBikeVoucher::
     .string "Skiptu honum fyrir REIÐHJÓL, alveg\n"
     .string "ókeypis!\p"
     .string "Ekki hafa áhyggjur, uppáhalds\n"
-    .string "GEIGHEGRINN minn getur FLY mig hvert\p"
+    .string "GEIGHEGRINN minn notar FLUG til að fara hvert\p"
     .string "sem ég þarf að fara.\p"
     .string "Þannig að ég þarf ekkert REIÐHJÓL.\p"
     .string "Ég vona að þér líki að hjóla!$"
