@@ -8,27 +8,27 @@ SSAnne_CaptainsOffice_Text_RubbedCaptainsBack::
     .string "Nudd-nudd... Nudd-nudd...$"
 
 SSAnne_CaptainsOffice_Text_ThankYouHaveHMForCut::
-    .string "SKIPSTJÓRI: Úff! Takk fyrir! Mér\n"
-    .string "líður miklu betur núna.\p"
-    .string "Viltu sjá leynilegu tæknina HÖGGVA\n"
-    .string "mína?\p"
-    .string "Ég gæti sýnt þér dýrmætu tæknina HÖGGVA\n"
-    .string "mína ef ég væri ekki svona veikur...\p"
-    .string "Ég veit! Þú mátt fá þetta! Þessa\n"
+    .string "SKIPSTJÓRI: Úff! Takk fyrir!\n"
+    .string "Mér líður miklu betur núna.\p"
+    .string "Viltu sjá leynilegu tæknina mína,\n"
+    .string "HÖGGVA?\p"
+    .string "Ég gæti sýnt þér HÖGGVA ef ég\n"
+    .string "væri ekki svona veikur...\p"
+    .string "Ég veit! Þú mátt fá þessa\n"
     .string "FÖLDU VÉL!\p"
-    .string "Kenndu vasaskrímslinu þínu HÖGGVA, og\n"
-    .string "þú getur séð það höggva hvenær sem\p"
-    .string "er!$"
+    .string "Kenndu vasaskrímslinu þínu\n"
+    .string "HÖGGVA. Þá getur það höggvið\p"
+    .string "tré hvenær sem er!$"
 
 SSAnne_CaptainsOffice_Text_ObtainedHM01FromCaptain::
     .string "{PLAYER} fékk HM01 frá\n"
     .string "SKIPSTJÓRANUM!$"
 
 SSAnne_CaptainsOffice_Text_ExplainCut::
-    .string "Með HÖGGVA geturðu höggvið niður lítil\n"
+    .string "Með HÖGGVA má höggva niður lítil\n"
     .string "tré.\p"
-    .string "Af hverju prófarðu það ekki á\n"
-    .string "trjánum í kringum VERMILION BORG?$"
+    .string "Prófaðu það á trjánum í kringum\n"
+    .string "VERMILION BORG!$"
 
 SSAnne_CaptainsOffice_Text_SSAnneWillSetSailSoon::
     .string "SKIPSTJÓRI: ...Úff!\p"

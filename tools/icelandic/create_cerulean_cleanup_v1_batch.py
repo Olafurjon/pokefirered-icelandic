@@ -48,7 +48,7 @@ TRANSLATIONS = {
     """),
     "CeruleanCity_Text_IfSlowbroWasntThereCouldCutTree": t("""
         Ef SLJÓNATAN væri ekki þarna gætirðu
-        notað HÖGGVA á litla tréð.
+        höggvið niður litla tréð.
 
         Þannig kæmistu hinum megin.
 
@@ -191,15 +191,15 @@ TRANSLATIONS = {
         Vasaskrímsli á hærri stigum verða þó
         óstýrilát í bardaga.
 
-        Það leyfir þér líka að nota HÖGGVA utan
+        Það leyfir þér líka að HÖGGVA utan
         bardaga.
     """),
     "CeruleanCity_House1_Text_SpeedStatFly": t("""
-        SPEED gildi allra vasaskrímslanna
+        HRAÐI allra vasaskrímslanna
         þinna hækkar örlítið.
 
-        Það leyfir þér líka að nota FLUG utan
-        bardaga.
+        Það leyfir þér líka að nota FLUG
+        utan bardaga.
     """),
     "CeruleanCity_House1_Text_ObeyLv50Strength": t("""
         Vasaskrímsli upp að Lv. 50 hlýða

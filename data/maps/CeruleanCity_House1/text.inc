@@ -33,8 +33,8 @@ CeruleanCity_House1_Text_ObeyLv30Cut::
 CeruleanCity_House1_Text_SpeedStatFly::
     .string "HRAÐI allra vasaskrímslanna\n"
     .string "þinna hækkar örlítið.\p"
-    .string "Það leyfir þér líka að nota FLUG utan\n"
-    .string "bardaga.$"
+    .string "Það leyfir þér líka að nota FLUG\n"
+    .string "utan bardaga.$"
 
 CeruleanCity_House1_Text_ObeyLv50Strength::
     .string "Vasaskrímsli upp að Lv. 50 hlýða\n"

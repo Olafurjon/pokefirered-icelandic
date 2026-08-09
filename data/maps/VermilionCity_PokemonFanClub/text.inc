@@ -60,10 +60,10 @@ VermilionCity_PokemonFanClub_Text_ExplainBikeVoucher::
     .string "HJÓLABÚÐINA í CERULEAN BORG.\p"
     .string "Skiptu honum fyrir REIÐHJÓL, alveg\n"
     .string "ókeypis!\p"
-    .string "Ekki hafa áhyggjur, uppáhalds\n"
-    .string "GEIGHEGRINN minn notar FLUG til að fara hvert\p"
-    .string "sem ég þarf að fara.\p"
-    .string "Þannig að ég þarf ekkert REIÐHJÓL.\p"
+    .string "Ekki hafa áhyggjur.\n"
+    .string "GEIGHEGRINN minn kann FLUG.\p"
+    .string "Hann flytur mig hvert sem ég þarf.\p"
+    .string "Þess vegna þarf ég ekkert REIÐHJÓL.\p"
     .string "Ég vona að þér líki að hjóla!$"
 
 VermilionCity_PokemonFanClub_Text_ComeBackToHearStory::

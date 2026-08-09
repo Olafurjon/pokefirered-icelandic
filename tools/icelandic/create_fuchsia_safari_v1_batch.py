@@ -305,8 +305,8 @@ TRANSLATIONS = {
         SIGRANDI ÞJÁLFARAR: {RIVAL}, {PLAYER}
     """),
     "FuchsiaCity_House1_Text_WardenIsOldHasFalseTeeth": t("""
-        VÖRÐUR SAFARI SVÆÐI er gamall, en hann
-        er enn mjög virkur.
+        VÖRÐUR SAFARI SVÆÐISINS er gamall,
+        en hann er enn mjög virkur.
 
         Allar tennurnar hans eru þó
         gervitennur.
@@ -694,14 +694,14 @@ TRANSLATIONS = {
     """),
     "SafariZone_East_Text_KeepAnyItemFoundOnSafari": t("""
         Þú mátt halda öllum hlutum sem þú
-        finnur í SAFARI SVÆÐI.
+        finnur í SAFARI SVÆÐINU.
 
-        En tíminn rennur út ef þú reynir að
-        ná þeim öllum í einu.
+        En tíminn klárast ef þú reynir að ná
+        þeim öllum í einu.
     """),
     "SafariZone_East_Text_PrizeInDeepestPartOfSafariZone": t("""
-        Farðu í dýpsta hluta SAFARI SVÆÐI.
-        Þú vinnur verðlaun!
+        Farðu í dýpsta hluta SAFARI
+        SVÆÐISINS. Þá vinnurðu verðlaun!
     """),
     "SafariZone_East_Text_MyEeveeEvolvedIntoFlareon": t("""
         SNIÐDÝRIÐ mitt þróaðist í GLÓÐBÚA.

@@ -167,13 +167,12 @@ Text_UseStrength::
 
 Text_MonUsedStrengthCanMoveBoulders::
 	.string "{STR_VAR_1} notaði STYRKUR!\p"
-	.string "STYRKUR frá {STR_VAR_1} gerði það\n"
-	.string "mögulegt að færa stóra steina!$"
+	.string "Nú er hægt að færa stóra steina!$"
 
 Text_MonMayPushBoulder::
-	.string "It's a big boulder, but a\n"
-	.string "Vasaskrímsli may be able to push it\p"
-	.string "aside.$"
+	.string "Þetta er stór steinn, en\n"
+	.string "Vasaskrímsli gæti kannski ýtt\p"
+	.string "honum til hliðar.$"
 
 Text_StrengthMadeMovingBouldersPossible::
 	.string "STYRKUR gerði það mögulegt að færa\n"

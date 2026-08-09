@@ -1,5 +1,5 @@
 SSAnne_3F_Corridor_Text_CaptainTeachesCutToMons::
-    .string "SKIPSTJÓRINN okkar er sverðmeistari.\n"
+    .string "SKIPSTJÓRINN er sverðmeistari.\n"
     .string "Hann er magnaður í HÖGGVA.\p"
-    .string "Þeir segja að hann kenni jafnvel HÖGGVA\n"
-    .string "til vasaskrímsla!$"
+    .string "Þeir segja að hann kenni jafnvel\n"
+    .string "vasaskrímslum HÖGGVA!$"

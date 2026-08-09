@@ -534,11 +534,12 @@ TRANSLATIONS = {
         Skiptu honum fyrir REIÐHJÓL, alveg
         ókeypis!
 
-        Ekki hafa áhyggjur, uppáhalds
-        GEIGHEGRINN minn getur flogið með mig
-        hvert sem ég þarf að fara.
+        Ekki hafa áhyggjur.
+        GEIGHEGRINN minn kann FLUG.
 
-        Þannig að ég þarf ekkert REIÐHJÓL.
+        Hann flytur mig hvert sem ég þarf.
+
+        Þess vegna þarf ég ekkert REIÐHJÓL.
 
         Ég vona að þér líki að hjóla!
     """),

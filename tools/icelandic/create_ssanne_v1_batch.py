@@ -155,15 +155,15 @@ TRANSLATIONS = {
     """),
     "SSAnne_2F_Corridor_Text_RivalPostBattle": t("""
         {RIVAL}: Ég heyrði að það væri
-        HÖGGVA-meistari um borð.
+        meistari í HÖGGVA um borð.
 
         En hann var bara sjóveikur gamall
         maður!
 
-        HÖGGVA sjálft er mjög gagnlegt.
-        Já, það mun koma sér vel.
+        HÖGGVA er mjög gagnlegt.
+        Það kemur sér vel.
 
-        Þú ættir líka að fara að hitta hann.
+        Þú ættir líka að hitta hann.
         Sjáumst!
     """),
     "SSAnne_2F_Room1_Text_SleepingMonLookedLikeThis": t("""
@@ -249,11 +249,11 @@ TRANSLATIONS = {
         Hann var allur fölur.
     """),
     "SSAnne_3F_Corridor_Text_CaptainTeachesCutToMons": t("""
-        SKIPSTJÓRINN okkar er sverðmeistari.
+        SKIPSTJÓRINN er sverðmeistari.
         Hann er magnaður í HÖGGVA.
 
-        Þeir segja að hann kenni jafnvel HÖGGVA
-        til vasaskrímsla!
+        Þeir segja að hann kenni jafnvel
+        vasaskrímslum HÖGGVA!
     """),
     "SSAnne_B1F_Room1_Text_PhillipIntro": t("""
         Félagi, þú gengur plankann ef þú
@@ -318,10 +318,11 @@ TRANSLATIONS = {
         BORG?
     """),
     "SSAnne_B1F_Room5_Text_MachokeHasStrengthToMoveRocks": t("""
-        Félagi minn AFLGARPUR er ofursterkur!
+        Félagi minn AFLGARPUR er
+        ofursterkur!
 
-        Hann hefur nægan STYRKUR til að færa
-        stóra steina!
+        Hann getur notað STYRKUR til að
+        færa stóra steina!
     """),
     "SSAnne_CaptainsOffice_Text_CaptainIFeelSeasick": t("""
         SKIPSTJÓRI: Óaaargh...
@@ -339,28 +340,30 @@ TRANSLATIONS = {
         SKIPSTJÓRI: Úff! Takk fyrir!
         Mér líður miklu betur núna.
 
-        Viltu sjá leynilegu HÖGGVA-tæknina mína?
+        Viltu sjá leynilegu tæknina mína,
+        HÖGGVA?
 
-        Ég gæti sýnt þér dýrmætu HÖGGVA-tæknina
-        mína ef ég væri ekki svona veikur...
+        Ég gæti sýnt þér HÖGGVA ef ég
+        væri ekki svona veikur...
 
-        Ég veit!
-        Þú mátt fá þetta!
-        Þessa FÖLDU VÉL!
+        Ég veit! Þú mátt fá þessa
+        FÖLDU VÉL!
 
-        Kenndu vasaskrímslinu þínu HÖGGVA, og þú
-        getur séð það höggva hvenær sem er!
+        Kenndu vasaskrímslinu þínu
+        HÖGGVA. Þá getur það höggvið
+
+        tré hvenær sem er!
     """),
     "SSAnne_CaptainsOffice_Text_ObtainedHM01FromCaptain": t("""
         {PLAYER} fékk HM01 frá
         SKIPSTJÓRANUM!
     """),
     "SSAnne_CaptainsOffice_Text_ExplainCut": t("""
-        Með HÖGGVA geturðu höggvið niður lítil
+        Með HÖGGVA má höggva niður lítil
         tré.
 
-        Af hverju prófarðu það ekki á trjánum
-        í kringum VERMILION BORG?
+        Prófaðu það á trjánum í kringum
+        VERMILION BORG!
     """),
     "SSAnne_CaptainsOffice_Text_SSAnneWillSetSailSoon": t("""
         SKIPSTJÓRI: ...Úff!

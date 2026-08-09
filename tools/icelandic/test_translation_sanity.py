@@ -1,14 +1,67 @@
 from __future__ import annotations
 
+import ast
 import json
 import re
 import tempfile
+import textwrap
 import unittest
 from pathlib import Path
 import sys
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import check_terms
+
+
+def asm_string_literals(path: Path, label: str) -> list[str]:
+    lines = path.read_text(encoding="utf-8").splitlines()
+    try:
+        start = lines.index(f"{label}::") + 1
+    except ValueError as exc:
+        raise AssertionError(f"missing ASM label {label} in {path}") from exc
+
+    literals: list[str] = []
+    for line in lines[start:]:
+        match = re.match(r'\s*\.string\s+"((?:\\"|[^"])*)"\s*$', line)
+        if match:
+            literals.append(match.group(1).replace(r'\"', '"'))
+            continue
+        if literals:
+            break
+    if not literals:
+        raise AssertionError(f"missing ASM strings for {label} in {path}")
+    return literals
+
+
+def normalize_dialogue(text: str) -> str:
+    text = text.removesuffix("$")
+    text = text.replace(r"\p", "\n\n").replace(r"\n", "\n").replace(r"\l", "\n")
+    return "\n\n".join(" ".join(page.split()) for page in re.split(r"\n\s*\n", text))
+
+
+def normalized_asm_dialogue(path: Path, label: str) -> str:
+    return normalize_dialogue("".join(asm_string_literals(path, label)))
+
+
+def generator_translations(path: Path) -> dict[str, str]:
+    tree = ast.parse(path.read_text(encoding="utf-8"), filename=str(path))
+    for node in tree.body:
+        if not isinstance(node, ast.Assign):
+            continue
+        if not any(isinstance(target, ast.Name) and target.id == "TRANSLATIONS" for target in node.targets):
+            continue
+        if not isinstance(node.value, ast.Dict):
+            break
+        translations: dict[str, str] = {}
+        for key_node, value_node in zip(node.value.keys, node.value.values):
+            if not isinstance(key_node, ast.Constant) or not isinstance(key_node.value, str):
+                continue
+            if not isinstance(value_node, ast.Call) or not value_node.args:
+                continue
+            raw = ast.literal_eval(value_node.args[0])
+            translations[key_node.value] = textwrap.dedent(raw).strip()
+        return translations
+    raise AssertionError(f"missing TRANSLATIONS dictionary in {path}")
 
 
 class TerminologyScannerTests(unittest.TestCase):
@@ -90,6 +143,22 @@ class TerminologyScannerTests(unittest.TestCase):
 
         self.assertEqual([], rows)
 
+    def test_default_scan_includes_data_scripts(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            script_file = root / "data" / "scripts" / "field_moves.inc"
+            script_file.parent.mkdir(parents=True)
+            script_file.write_text(
+                'Test_Text::\n\t.string "Viltu nota STRENGTH?$"\n',
+                encoding="utf-8",
+            )
+
+            discovered = check_terms.iter_files(root, check_terms.DEFAULT_INCLUDE)
+            rows = [row for path in discovered for row in check_terms.scan_file(path, root)]
+
+        self.assertIn(script_file, discovered)
+        self.assertIn("strength-move", {row["rule"] for row in rows})
+
 
 class GameplaySanityTests(unittest.TestCase):
     @classmethod
@@ -132,6 +201,151 @@ class GameplaySanityTests(unittest.TestCase):
         safe_batch = (self.root / "tools" / "icelandic" / "generate_safe_translation_batch.py").read_text(encoding="utf-8")
         self.assertIn('"SAFARI ZONE": "SAFARI SVÆÐI"', safe_batch)
 
+    def test_polished_field_move_dialogue_and_line_lengths(self) -> None:
+        expected = [
+            (
+                "data/scripts/field_moves.inc",
+                "Text_MonUsedStrengthCanMoveBoulders",
+                "{STR_VAR_1} notaði STYRKUR!\n\nNú er hægt að færa stóra steina!",
+            ),
+            (
+                "data/scripts/field_moves.inc",
+                "Text_MonMayPushBoulder",
+                "Þetta er stór steinn, en Vasaskrímsli gæti kannski ýtt\n\nhonum til hliðar.",
+            ),
+            (
+                "data/text/pokedex_rating.inc",
+                "PokedexRating_Text_LessThan20",
+                "Það lítur út fyrir að þú sért á réttri leið!\n\nÉg gaf einum AÐSTOÐARMANNA minna HM fyrir LEIFTUR.\n\nVertu viss um að sækja það!",
+            ),
+            (
+                "data/maps/SSAnne_2F_Corridor/text.inc",
+                "SSAnne_2F_Corridor_Text_RivalPostBattle",
+                "{RIVAL}: Ég heyrði að það væri meistari í HÖGGVA um borð.\n\nEn hann var bara sjóveikur gamall maður!\n\nHÖGGVA er mjög gagnlegt. Það kemur sér vel.\n\nÞú ættir líka að hitta hann. Sjáumst!",
+            ),
+            (
+                "data/maps/SSAnne_3F_Corridor/text.inc",
+                "SSAnne_3F_Corridor_Text_CaptainTeachesCutToMons",
+                "SKIPSTJÓRINN er sverðmeistari. Hann er magnaður í HÖGGVA.\n\nÞeir segja að hann kenni jafnvel vasaskrímslum HÖGGVA!",
+            ),
+            (
+                "data/maps/SSAnne_CaptainsOffice/text.inc",
+                "SSAnne_CaptainsOffice_Text_ThankYouHaveHMForCut",
+                "SKIPSTJÓRI: Úff! Takk fyrir! Mér líður miklu betur núna.\n\nViltu sjá leynilegu tæknina mína, HÖGGVA?\n\nÉg gæti sýnt þér HÖGGVA ef ég væri ekki svona veikur...\n\nÉg veit! Þú mátt fá þessa FÖLDU VÉL!\n\nKenndu vasaskrímslinu þínu HÖGGVA. Þá getur það höggvið\n\ntré hvenær sem er!",
+            ),
+            (
+                "data/maps/SSAnne_CaptainsOffice/text.inc",
+                "SSAnne_CaptainsOffice_Text_ExplainCut",
+                "Með HÖGGVA má höggva niður lítil tré.\n\nPrófaðu það á trjánum í kringum VERMILION BORG!",
+            ),
+            (
+                "data/maps/VermilionCity_PokemonFanClub/text.inc",
+                "VermilionCity_PokemonFanClub_Text_ExplainBikeVoucher",
+                "Farðu með REIÐHJÓLSMIÐANN í HJÓLABÚÐINA í CERULEAN BORG.\n\nSkiptu honum fyrir REIÐHJÓL, alveg ókeypis!\n\nEkki hafa áhyggjur. GEIGHEGRINN minn kann FLUG.\n\nHann flytur mig hvert sem ég þarf.\n\nÞess vegna þarf ég ekkert REIÐHJÓL.\n\nÉg vona að þér líki að hjóla!",
+            ),
+            (
+                "data/maps/CeruleanCity_House1/text.inc",
+                "CeruleanCity_House1_Text_SpeedStatFly",
+                "HRAÐI allra vasaskrímslanna þinna hækkar örlítið.\n\nÞað leyfir þér líka að nota FLUG utan bardaga.",
+            ),
+        ]
+
+        for relative_path, label, wanted in expected:
+            path = self.root / relative_path
+            with self.subTest(label=label):
+                self.assertEqual(wanted, normalized_asm_dialogue(path, label))
+                for literal in asm_string_literals(path, label):
+                    for segment in re.split(r"\\[npl]", literal):
+                        visible = re.sub(r"\{[^}]+\}", "", segment).removesuffix("$")
+                        self.assertLessEqual(len(visible), 36, visible)
+
+    def test_field_move_generators_match_runtime(self) -> None:
+        parity = [
+            (
+                "create_cerulean_cleanup_v1_batch.py",
+                "CeruleanCity_Text_IfSlowbroWasntThereCouldCutTree",
+                "data/maps/CeruleanCity/text.inc",
+            ),
+            (
+                "create_cerulean_cleanup_v1_batch.py",
+                "CeruleanCity_House1_Text_ObeyLv30Cut",
+                "data/maps/CeruleanCity_House1/text.inc",
+            ),
+            (
+                "create_cerulean_cleanup_v1_batch.py",
+                "CeruleanCity_House1_Text_SpeedStatFly",
+                "data/maps/CeruleanCity_House1/text.inc",
+            ),
+            (
+                "create_cerulean_cleanup_v1_batch.py",
+                "CeruleanCity_House1_Text_ObeyLv50Strength",
+                "data/maps/CeruleanCity_House1/text.inc",
+            ),
+            (
+                "create_route11_diglett_route2_v1_batch.py",
+                "Route2_House_Text_FaintedMonsCanUseFieldMoves",
+                "data/maps/Route2_House/text.inc",
+            ),
+            (
+                "create_ssanne_v1_batch.py",
+                "SSAnne_2F_Corridor_Text_RivalPostBattle",
+                "data/maps/SSAnne_2F_Corridor/text.inc",
+            ),
+            (
+                "create_ssanne_v1_batch.py",
+                "SSAnne_3F_Corridor_Text_CaptainTeachesCutToMons",
+                "data/maps/SSAnne_3F_Corridor/text.inc",
+            ),
+            (
+                "create_ssanne_v1_batch.py",
+                "SSAnne_B1F_Room5_Text_MachokeHasStrengthToMoveRocks",
+                "data/maps/SSAnne_B1F_Room5/text.inc",
+            ),
+            (
+                "create_ssanne_v1_batch.py",
+                "SSAnne_CaptainsOffice_Text_ThankYouHaveHMForCut",
+                "data/maps/SSAnne_CaptainsOffice/text.inc",
+            ),
+            (
+                "create_ssanne_v1_batch.py",
+                "SSAnne_CaptainsOffice_Text_ExplainCut",
+                "data/maps/SSAnne_CaptainsOffice/text.inc",
+            ),
+            (
+                "create_vermilion_v1_batch.py",
+                "VermilionCity_PokemonFanClub_Text_ExplainBikeVoucher",
+                "data/maps/VermilionCity_PokemonFanClub/text.inc",
+            ),
+            (
+                "create_fuchsia_safari_v1_batch.py",
+                "FuchsiaCity_House1_Text_WardenIsOldHasFalseTeeth",
+                "data/maps/FuchsiaCity_House1/text.inc",
+            ),
+            (
+                "create_fuchsia_safari_v1_batch.py",
+                "SafariZone_East_Text_KeepAnyItemFoundOnSafari",
+                "data/maps/SafariZone_North_RestHouse/text.inc",
+            ),
+            (
+                "create_fuchsia_safari_v1_batch.py",
+                "SafariZone_East_Text_PrizeInDeepestPartOfSafariZone",
+                "data/maps/SafariZone_North_RestHouse/text.inc",
+            ),
+        ]
+        cache: dict[str, dict[str, str]] = {}
+        for generator, label, runtime in parity:
+            if generator not in cache:
+                cache[generator] = generator_translations(
+                    self.root / "tools" / "icelandic" / generator
+                )
+            translations = cache[generator]
+            with self.subTest(generator=generator, label=label):
+                self.assertIn(label, translations)
+                self.assertEqual(
+                    normalized_asm_dialogue(self.root / runtime, label),
+                    normalize_dialogue(translations[label]),
+                )
+
     def test_move_learning_and_forgetting_prompts_are_icelandic(self) -> None:
         battle_messages = (self.root / "src" / "battle_message.c").read_text(encoding="utf-8")
         shared_strings = (self.root / "src" / "strings.c").read_text(encoding="utf-8")
@@ -164,7 +378,7 @@ class GameplaySanityTests(unittest.TestCase):
             'gText_StopLearningMove[] = _("Hætta að læra {STR_VAR_2}?")',
             'gText_1_2_and_Poof[] = _("{PAUSE 0x20}1, {PAUSE 0x0F}2, og {PAUSE 0x0F}‥ {PAUSE 0x0F}‥ {PAUSE 0x0F}‥ {PAUSE 0x0F}{PLAY_SE SE_BALL_BOUNCE_1}Púff!")',
             'gText_MonForgotOldMoveAndMonLearnedNewMove[] = _("{STR_VAR_1} gleymdi {STR_VAR_3}.\\pOg‥\\p{STR_VAR_1}\\nlærði {STR_VAR_2}.")',
-            'gText_GiveUpTryingToTeachNewMove[] = _("Gefast upp á að reyna að kenna nýja\\nhreyfingu til {STR_VAR_1}?")',
+            'gText_GiveUpTryingToTeachNewMove[] = _("Hætta að reyna að kenna\\n{STR_VAR_1} nýja hreyfingu?")',
             'gText_WhichMoveShouldBeForgotten[] = _("Hvaða hreyfingu á að gleyma?")',
             'gText_PokeSum_Controls_PickDelete[] = _("{DPAD_UPDOWN}VELJA {A_BUTTON}EYÐA")',
             'gText_Counting_1[] = _("1,")',
