@@ -21,7 +21,7 @@ Route15_WestEntrance_2F_Text_ReceivedItemFromAide::
     .string "AÐSTOÐARMANNINUM.$"
 
 Route15_WestEntrance_2F_Text_ExplainExpShare::
-    .string "EXP. SHARE er hlutur sem\n"
+    .string "REYNSLUDEILIR er hlutur sem\n"
     .string "Vasaskrímsli getur haldið á.\p"
     .string "Vasaskrímslið fær hlut af EXP.\n"
     .string "stigum án þess að þurfa að berjast.$"

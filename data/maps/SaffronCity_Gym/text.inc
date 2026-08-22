@@ -35,10 +35,10 @@ SaffronCity_Gym_Text_ReceivedTM04FromSabrina::
     .string "{PLAYER} fékk TM04 frá SABRINA.$"
 
 SaffronCity_Gym_Text_ExplainTM04::
-    .string "TM04 er RÓLEGUR HUGUR.\p"
+    .string "TM04 er HUGARRÓ.\p"
     .string "Hún fær Vasaskrímslið til að\n"
-    .string "einbeita sér og hækka bæði SP. ATK\p"
-    .string "og SP. DEF.$"
+    .string "einbeita sér og hækka bæði\p"
+    .string "SÉR. ÁRÁS og SÉR. VÖRN.$"
 
 SaffronCity_Gym_Text_BagFullOfOtherItems::
     .string "TASKAN þín er full af öðrum hlutum.$"

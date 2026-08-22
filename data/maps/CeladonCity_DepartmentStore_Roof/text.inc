@@ -17,7 +17,7 @@ Text_ReceivedItemFromLittleGirl::
     .string "stelpunni.$"
 
 CeladonCity_DepartmentStore_Roof_Text_ExplainTM16::
-    .string "TM16 inniheldur LIGHT SCREEN.\p"
+    .string "TM16 inniheldur LJÓSSKJÓL.\p"
     .string "Bragðið veikir kraft sérárása\n"
     .string "andstæðingsins.$"
 
@@ -28,7 +28,7 @@ CeladonCity_DepartmentStore_Roof_Text_YaySodaPopHaveThis::
     .string "mér!$"
 
 CeladonCity_DepartmentStore_Roof_Text_ExplainTM20::
-    .string "TM20 inniheldur VERNDARHJÚP.\p"
+    .string "TM20 inniheldur SKJÓL.\p"
     .string "Það er bragð sem kemur í veg fyrir\n"
     .string "ástandsvandamál hjá vasaskrímslunum\p"
     .string "þínum.$"
@@ -40,7 +40,7 @@ CeladonCity_DepartmentStore_Roof_Text_YayLemonadeHaveThis::
     .string "mér!$"
 
 CeladonCity_DepartmentStore_Roof_Text_ExplainTM33::
-    .string "TM33 inniheldur REFLECT.\p"
+    .string "TM33 inniheldur ENDURVARP.\p"
     .string "Bragðið veikir kraft líkamlegra\n"
     .string "árása andstæðingsins.$"
 
@@ -78,4 +78,3 @@ CeladonCity_DepartmentStore_Roof_Text_NoMoreRoomForStuff::
 
 CeladonCity_DepartmentStore_Roof_Text_NotThirsty::
     .string "Ekki þyrst!$"
-

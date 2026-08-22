@@ -164,7 +164,7 @@ Help_Text_NothingIWantToKnow::
 	.string "Það er ekkert sem ég vil vita!$"
 
 Help_Text_WhatsPokemonCenter::
-	.string "Hvað er Vasaskrímsli MIÐSTÖÐ?$"
+	.string "Hvað er Vasaskrímslasetur?$"
 
 Help_Text_WhatsPokemonMart::
 	.string "Hvað er Vasaskrímsli VERSLUN?$"
@@ -275,7 +275,7 @@ Help_Text_AnswerWhatHappenedToItemIGot::
 
 Help_Text_AnswerWhatAreMyAdventureBasics::
 	.string "Ef Vasaskrímsli særast í bardaga,\n"
-	.string "farðu með þau á Vasaskrímsli MIÐSTÖÐ\p"
+	.string "farðu með þau á Vasaskrímslasetur\p"
 	.string "og láttu starfsfólkið lækna þau.\n"
 	.string "Venstu því að vista leikinn þinn\p"
 	.string "og skrá framvindu þína. Safnaðu\n"
@@ -293,7 +293,7 @@ Help_Text_AnswerHowAreCavesDifferent::
 	.string "Hellar eru dimmir og hættulegir.\n"
 	.string "Villt Vasaskrímsli geta birst hvar\p"
 	.string "sem er í þeim. Ef neyðarástand er,\n"
-	.string "hlauptu á Vasaskrímsli MIÐSTÖÐ eða\p"
+	.string "hlauptu á Vasaskrímslasetur eða\p"
 	.string "notaðu hluti. Nýir bæir bíða\n"
 	.string "uppgötvunar handan sumra hella, svo\p"
 	.string "ekki gefast upp.$"
@@ -332,7 +332,7 @@ Help_Text_AnswerHowDoIPrepareForBattle::
 	.string "Fyrst skaltu lækna Vasaskrímslin í\n"
 	.string "hópnum þínum (Vasaskrímslin sem\p"
 	.string "eru með þér) að fullu á hvaða\n"
-	.string "Vasaskrímsli MIÐSTÖÐ sem er. Þú\p"
+	.string "Vasaskrímslasetri sem er. Þú\p"
 	.string "ættir líka að kaupa lækningahluti\n"
 	.string "fyrir neyðartilvik í Vasaskrímsli\p"
 	.string "VERSLUN.$"
@@ -344,12 +344,12 @@ Help_Text_AnswerWhatIsAMonsVitality::
 	.string "þess fellur í núll, fellur\p"
 	.string "Vasaskrímslið í yfirlið. Læknaðu\n"
 	.string "særð eða yfirliðin Vasaskrímsli á\p"
-	.string "Vasaskrímsli MIÐSTÖÐ eða með því að\n"
+	.string "Vasaskrímslasetri eða með því að\n"
 	.string "nota hluti.$"
 
 Help_Text_AnswerMyMonsAreHurt::
-	.string "Vasaskrímsli MIÐSTÖÐ er eins og\n"
-	.string "gistihús fyrir Vasaskrímsli. Hún\p"
+	.string "Vasaskrímslasetur er eins og\n"
+	.string "gistihús fyrir Vasaskrímsli. Það\p"
 	.string "mun lækna Vasaskrímsli að fullu af\n"
 	.string "hvers kyns stöðuvandamálum og endur-\p"
 	.string "heimta HP þeirra að fullu með\n"
@@ -364,7 +364,7 @@ Help_Text_AnswerWhatIsStatusProblem::
 	.string "bruna, lömun, eitrun, svefn og\p"
 	.string "frystingu.\p"
 	.string "Hægt er að lækna þetta með því að\n"
-	.string "heimsækja Vasaskrímsli MIÐSTÖÐ eða\p"
+	.string "heimsækja Vasaskrímslasetur eða\p"
 	.string "nota viðeigandi hlut.$"
 
 Help_Text_AnswerWhatHappensIfAllMyMonsFaint::
@@ -373,9 +373,9 @@ Help_Text_AnswerWhatHappensIfAllMyMonsFaint::
 	.string "yfirlið, tapar þú einhverjum\n"
 	.string "Peningum, og þú ert sendur heim eða\p"
 	.string "á\p"
-	.string "Vasaskrímsli MIÐSTÖÐ. Til að minnka\n"
+	.string "Vasaskrímslasetur. Til að minnka\n"
 	.string "þá líkur skaltu heimsækja\p"
-	.string "Vasaskrímsli MIÐSTÖÐVAR oft. Venstu\n"
+	.string "Vasaskrímslasetur oft. Venstu\n"
 	.string "líka því að vista oft.$"
 
 Help_Text_AnswerCantCatchMons::
@@ -384,9 +384,9 @@ Help_Text_AnswerCantCatchMons::
 	.string "frekt. Reyndu að lækka HP þess að\n"
 	.string "einhverju leyti, og reyndu að veikja\p"
 	.string "það með lömun eða svefni áður en þú\n"
-	.string "reynir að veiða það. Ef VASA BOLTINN\p"
-	.string "hristist um stund, er bráðin nálægt\n"
-	.string "því að vera veidd!$"
+	.string "reynir að fanga það. Ef VASA BOLTINN\p"
+	.string "hristist um stund, er Vasaskrímslið\n"
+	.string "nálægt því að vera fangað!$"
 
 Help_Text_AnswerRanOutOfPotions::
 	.string "Það eru verslanir, þekktar sem\n"
@@ -504,8 +504,8 @@ Help_Text_AnswerWhatDoIDoInCave::
 	.string "Ólíkt vegum og skógum, geta villt\n"
 	.string "Vasaskrímsli birst hvar sem er í\p"
 	.string "hellum. Ef Vasaskrímslin þín særast\n"
-	.string "í helli, hlauptu á Vasaskrímsli\p"
-	.string "MIÐSTÖÐ eða notaðu hluti til að\n"
+	.string "í helli, hlauptu á Vasaskrímslasetur\p"
+	.string "eða notaðu hluti til að\n"
 	.string "lækna þau strax. Það er mjög\p"
 	.string "hættulegt að reyna á heppnina í\n"
 	.string "hellum.$"
@@ -516,12 +516,12 @@ Help_Text_AnswerNothingIWantToKnow::
 	.string "leið!$"
 
 Help_Text_AnswerWhatsPokemonCenter::
-	.string "Vasaskrímsli MIÐSTÖÐ er auðkennd með\n"
+	.string "Vasaskrímslasetur er auðkennt með\n"
 	.string "rauðu þaki og 'P.C' skilti.\p"
-	.string "Hver Vasaskrímsli MIÐSTÖÐ býður upp\n"
+	.string "Hvert Vasaskrímslasetur býður upp\n"
 	.string "á þjónustu eins og fulla lækningu\p"
 	.string "Vasaskrímsla og ókeypis tölvunotkun,\n"
-	.string "sem gerir hana ómissandi fyrir\p"
+	.string "sem gerir það ómissandi fyrir\p"
 	.string "ferðalög þín. Á efri hæð eru aðstaða\n"
 	.string "til að tengjast vinum og\p"
 	.string "öðrum.$"
@@ -547,7 +547,7 @@ Help_Text_AnswerWhatsAMon::
 	.string "sem margar gátur eru enn óleystar.\p"
 	.string "Þú gætir séð þau í grasi, sjónum og\n"
 	.string "hellum. Þau virðast hlýða óskum\p"
-	.string "ÞJÁLFARANNA sem veiddu þau.$"
+	.string "ÞJÁLFARANNA sem fönguðu þau.$"
 
 Help_Text_AnswerWhatIsThatPersonLike::
 	.string "Notaðu FRÆGÐARSJÁNA meðal LYKILHLUTA\n"
@@ -868,9 +868,9 @@ Help_Text_HowToUseTownMap::
 	.string "{CIRCLE_3} Ýttu vinstri eða hægri\p"
 	.string "til\p"
 	.string "að opna 'LYKILHLUTAHÓLF,' ýttu svo\n"
-	.string "upp eða niður til að velja 'KORT\p"
-	.string "BORGAR.' {CIRCLE_4} Veldu 'NOTA' til\n"
-	.string "að opna KORT BORGAR.$"
+	.string "upp eða niður til að velja\p"
+	.string "'BÆJARKORT.' {CIRCLE_4} Veldu 'NOTA'\n"
+	.string "að opna BÆJARKORTIÐ.$"
 
 Help_Text_HowToUseTM::
 	.string "{CIRCLE_1} Opnaðu VALMYNDINA.\n"
@@ -922,7 +922,7 @@ Help_Text_HowToEnterName::
 
 Help_Text_HowToUsePC::
 	.string "{CIRCLE_1} Farðu í hvaða\n"
-	.string "Vasaskrímsla MIÐSTÖÐ sem er, farðu\p"
+	.string "Vasaskrímslasetur sem er, farðu\p"
 	.string "að TÖLVUNNI\p"
 	.string "og ýttu á A takkann.$"
 
@@ -1079,15 +1079,15 @@ Help_Text_HowToUseBag2::
 
 Help_Text_HowToReadPokedex::
 	.string "{CIRCLE_3} Veldu 'NÆSTU GÖGN' til að\n"
-	.string "sýna KORT BORGAR með búsvæðum\p"
+	.string "sýna BÆJARKORTIÐ með búsvæðum\p"
 	.string "þess.$"
 	.if REVISION < 1
 	.string "{CIRCLE_3} Veldu 'NÆSTU GÖGN' til að\n"
-	.string "sýna KORT BORGAR með búsvæðum\p"
+	.string "sýna BÆJARKORTIÐ með búsvæðum\p"
 	.string "þess.$"
 	.else
 	.string "{CIRCLE_3} Veldu 'NÆSTU GÖGN' til að\n"
-	.string "sýna KORT BORGAR með búsvæðum\p"
+	.string "sýna BÆJARKORTIÐ með búsvæðum\p"
 	.string "þess.$"
 	.endif
 
@@ -1190,13 +1190,13 @@ Help_Text_Moves::
 	.string "ÁRÁSIR$"
 
 Help_Text_Attack::
-	.string "SÓKN$"
+	.string "ÁRÁS$"
 
 Help_Text_Defense::
 	.string "VÖRN$"
 
 Help_Text_SpAtk::
-	.string "SÉR. SÓKN$"
+	.string "SÉR. ÁRÁS$"
 
 Help_Text_SpDef::
 	.string "SÉR. VÖRN$"
@@ -1339,7 +1339,7 @@ Help_Text_DefineMoves::
 	.string "hreyfingar má læra af hlutum.$"
 
 Help_Text_DefineAttack::
-	.string "SÓKN sýnir kraft líkamlegrar árásar.\n"
+	.string "ÁRÁS sýnir kraft líkamlegrar árásar.\n"
 	.string "Því hærri sem talan er, því öflugri\p"
 	.string "er árásin. Hún á við um þessar\n"
 	.string "tegundir: VENJL., EITUR, JÖRÐ, FLUG,\p"
@@ -1347,14 +1347,14 @@ Help_Text_DefineAttack::
 	.string "STÁL.$"
 
 Help_Text_DefineDefense::
-	.string "VÖRN (DEFENSE) sýnir mótstöðu\n"
+    .string "VÖRN sýnir mótstöðu\n"
 	.string "Vasaskrímslis gegn líkamlegum\p"
 	.string "árásum. Því hærri sem þessi tala er,\n"
 	.string "því minni skaða tekur það af\p"
 	.string "líkamlegri árás óvinar.$"
 
 Help_Text_DefineSpAtk::
-	.string "SP. ATK (Sérstök Árás) gefur til\n"
+    .string "SÉR. ÁRÁS gefur til\n"
 	.string "kynna kraft sérstakrar\p"
 	.string "árásarhreyfingar.\p"
 	.string "Því hærri sem þessi tala er, því\n"
@@ -1366,7 +1366,7 @@ Help_Text_DefineSpAtk::
 	.string "ÍS, HUGAR, DREKI, og MYRKUR.$"
 
 Help_Text_DefineSpDef::
-	.string "SÉR. VÖRN (Special Defense) sýnir\n"
+    .string "SÉR. VÖRN sýnir\n"
 	.string "mótstöðu Vasaskrímslis gegn\p"
 	.string "sérstökum\p"
 	.string "árásum. Því hærri sem þessi tala er,\n"
@@ -1385,7 +1385,7 @@ Help_Text_DefineLevel::
 	.string "Lv. sýnir vöxt og styrk\n"
 	.string "Vasaskrímslis. Yfirleitt hækka\p"
 	.string "eiginleikar eins og\p"
-	.string "HP, SÓKN og VÖRN þegar Vasaskrímsli\n"
+	.string "HP, ÁRÁS og VÖRN þegar Vasaskrímsli\n"
 	.string "hækkar um stig. Það getur líka lært\p"
 	.string "nýja árás við stigahækkun.$"
 
@@ -1455,7 +1455,7 @@ Help_Text_DefinePP::
 	.string "sýnir hversu oft má nota ákveðna\p"
 	.string "árás í bardaga. Eins og HP má\n"
 	.string "endurheimta PP í\p"
-	.string "Vasaskrímsla-MIÐSTÖÐ\p"
+	.string "Vasaskrímslasetri\p"
 	.string "eða með ákveðnum hlutum.$"
 
 Help_Text_DefinePower::
@@ -1475,7 +1475,7 @@ Help_Text_DefineFNT::
 	.string "örmagnast ef HP þess fer niður í\p"
 	.string "núll. Þá getur það ekki tekið þátt í\n"
 	.string "bardaga. Læknaðu örmagnað\p"
-	.string "Vasaskrímsli í Vasaskrímsla-MIÐSTÖÐ\n"
+	.string "Vasaskrímsli á Vasaskrímslasetri\n"
 	.string "eða með hlut.$"
 
 Help_Text_DefineItems::

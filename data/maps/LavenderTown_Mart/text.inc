@@ -6,7 +6,7 @@ LavenderTown_Mart_Text_SearchingForStatRaiseItems::
     .string "að.\n\nVeistu hvar ég fæ þá?$"
 
 LavenderTown_Mart_Text_DidYouBuyRevives::
-    .string "Keyptirðu ENDURLÍFGANIR? Þær\n"
+    .string "Keyptirðu LÍFGUNARLYF? Þau\n"
     .string "endurlífga hvaða yfirliðna\p"
     .string "Vasaskrímsli sem er!$"
 

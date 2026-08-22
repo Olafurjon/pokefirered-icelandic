@@ -11,10 +11,10 @@ Text_SnorlaxReturnedToMountains::
     .string "rækilega… og sneri aftur til fjalla.$"
 
 Text_WantToUsePokeFlute::
-    .string "Viltu nota VASaFLAUTUNA?$"
+    .string "Viltu nota VASA FLAUTUNA?$"
 
 Text_PlayedPokeFlute::
-    .string "{PLAYER} spilaði VASaFLAUTUNA.$"
+    .string "{PLAYER} spilaði á VASA FLAUTUNA.$"
 
 Route12_Text_NedIntro::
     .string "Já! Ég fékk bit hér!$"

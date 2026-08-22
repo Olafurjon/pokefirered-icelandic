@@ -16,7 +16,7 @@ Route12_NorthEntrance_2F_Text_ReceivedTM27FromLittleGirl::
     .string "stelpu.$"
 
 Route12_NorthEntrance_2F_Text_ExplainTM27::
-    .string "TM27 er hreyfing sem heitir RETURN…\p"
+    .string "TM27 er hreyfing sem heitir ENDURGJALD…\p"
     .string "Ef þú kemur vel fram við\n"
     .string "Vasaskrímslið þitt endurgeldur það\p"
     .string "ást þína með\p"

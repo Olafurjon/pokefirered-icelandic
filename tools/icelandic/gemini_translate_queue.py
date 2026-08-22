@@ -101,7 +101,7 @@ Rules:
 - Pokemon/Poké* concepts become Vasaskrímsli. Stylized POKéMON/POKEMON becomes VASaSKRÍMSLI if the source is all-caps/stylized.
 - Poké Ball/Poke Ball concepts become Vasa bolti / VASABOLTI depending on capitalization.
 - Preserve capitalization style: all-caps source should usually produce all-caps Icelandic.
-- Keep proper names such as OAK, KANTO, CELADON, SILPH, TEAM ROCKET, move names, and item identifiers when they are clearly names.
+- Translate established names consistently: OAK becomes EIK and TEAM ROCKET becomes ROCKET-GENGIÐ. Keep names such as KANTO, CELADON and SILPH, and preserve source-code identifiers.
 - Do not translate source-code identifiers, only the visible game text in "english".
 - Do not add explanations.
 

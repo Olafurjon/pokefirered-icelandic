@@ -64,7 +64,7 @@ TRANSLATIONS = {
         Jæja, allt í lagi. Báturinn er hvort
         eð er ekki kominn enn.
 
-        Ég bíð í VASASKRÍMSLAMIÐSTÖÐINNI
+        Ég bíð á VASASKRÍMSLASETRINU
         þarna.
 
         Komdu til mín þegar þú ert búinn með

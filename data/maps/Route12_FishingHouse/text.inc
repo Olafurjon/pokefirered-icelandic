@@ -10,7 +10,7 @@ Route12_FishingHouse_Text_TakeThisAndFish::
     .string "Taktu þetta og veiddu, ungi vinur!$"
 
 Route12_FishingHouse_Text_ReceivedSuperRod::
-    .string "{PLAYER} fékk SUPER ROD frá bróður\n"
+    .string "{PLAYER} fékk FRÁBÆRA STÖNG frá bróður\n"
     .string "FISKIGÚRÚSINS.$"
 
 Route12_FishingHouse_Text_IfYouCatchBigMagikarpShowMe::
@@ -31,7 +31,7 @@ Route12_FishingHouse_Text_OhThatsDisappointing::
 Route12_FishingHouse_Text_TryFishingBringMeMagikarp::
     .string "Halló, {PLAYER}! Hefurðu verið að\n"
     .string "veiða?\p"
-    .string "Prófaðu að veiða með SUPER ROD í\n"
+    .string "Prófaðu að veiða með FRÁBÆRRI STÖNG í\n"
     .string "hvaða vatni sem er.\p"
     .string "Þú finnur ólík Vasaskrímsli á ólíkum\n"
     .string "stöðum.\p"

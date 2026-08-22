@@ -191,14 +191,14 @@ TRANSLATIONS = {
     """),
     "Route16_NorthEntrance_2F_Text_GiveAmuletCoinIfCaught40": t("""
         Hæ! Manstu eftir mér?
-        Ég er einn af AÐSTOÐARMÖNNUM PROF.
-        OAK.
+        Ég er einn af AÐSTOÐARMÖNNUM PRÓF.
+        EIKAR.
 
         Ef VasaDEX-ið þitt er með full gögn
         um 40 tegundir á ég að gefa þér
         verðlaun.
 
-        PROF. OAK fól mér HEILLAPENING handa
+        PRÓF. EIK fól mér HEILLAPENING handa
         þér.
 
         Svo, {PLAYER}, leyfðu mér að spyrja.

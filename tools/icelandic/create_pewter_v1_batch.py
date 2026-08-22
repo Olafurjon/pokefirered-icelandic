@@ -83,7 +83,7 @@ TRANSLATIONS = {
         Þetta er erfið vinna!
     """),
     "PewterCity_Text_SprayingRepelToKeepWildMonsOut": t("""
-        Ég úða REPEL til að halda villtum
+        Ég úða FÆLIEFNI til að halda villtum
         vasaskrímslum frá garðinum mínum!
     """),
     "PewterCity_Text_BrocksLookingForChallengersFollowMe": t("""
@@ -150,7 +150,7 @@ TRANSLATIONS = {
     """),
     "PewterCity_Text_AskedToDeliverThis": t("""
         Gott að ég náði þér.
-        Ég er AÐSTOÐARMAÐUR PROF. OAK.
+        Ég er AÐSTOÐARMAÐUR PRÓF. EIKAR.
 
         Ég var beðinn um að afhenda þetta,
         svo gjörðu svo vel.
@@ -458,12 +458,12 @@ TRANSLATIONS = {
         vasaskrímsli.
     """),
     "PewterCity_Museum_1F_Text_ReceivedOldAmberFromMan": t("""
-        {PLAYER} fékk OLD AMBER
+        {PLAYER} fékk GAMALT RAF
         frá manninum.
     """),
     "PewterCity_Museum_1F_Text_GetOldAmberChecked": t("""
         Suss!
-        Láttu skoða OLD AMBER!
+        Láttu skoða GAMALT RAF!
     """),
     "PewterCity_Museum_1F_Text_DontHaveSpaceForThis": t("""
         Þú hefur ekki pláss fyrir þetta.
@@ -514,7 +514,7 @@ TRANSLATIONS = {
         Haltu áfram.
     """),
     "PewterCity_Museum_1F_Text_WhatsSpecialAboutMoonStone": t("""
-        MOON STONE, ha?
+        MÁNSTEINN, ha?
 
         Hvað er svona sérstakt við hann?
         Hann lítur út eins og venjulegur

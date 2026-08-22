@@ -1,5 +1,5 @@
 CeladonCity_DepartmentStore_3F_Text_OTStandsForOriginalTrainer::
-    .string "Handtekin vasaskrímsli eru skráð með\n"
+    .string "Fönguð vasaskrímsli eru skráð með\n"
     .string "auðkennisnúmeri (ID No.) og\p"
     .string "upprunalegum þjálfara (OT).\p"
     .string "OT stendur fyrir 'Original ÞJÁLFARI'\n"
@@ -54,7 +54,7 @@ Text_CounterTeach::
     .string "Ertu ekki búinn enn? Hvernig væri að\n"
     .string "ég kenndi þér gott bragð?\p"
     .string "Bragðið sem ég hef í huga er\n"
-    .string "GAGNÁTAK.\p"
+    .string "GAGNATÁRÁS.\p"
     .string "Ekki afgreiðsluborðið sem ég halla\n"
     .string "mér á, athugaðu það!$"
 
@@ -64,8 +64,8 @@ Text_CounterDeclined::
 
 Text_CounterWhichMon::
     .string "Hvaða vasaskrímsli ætti ég að kenna\n"
-    .string "GAGNÁTAK?$"
+    .string "GAGNATÁRÁS?$"
 
 Text_CounterTaught::
-    .string "Ertu að nota GAGNÁTAK-bragðið sem ég\n"
+    .string "Ertu að nota GAGNATÁRÁSINA sem ég\n"
     .string "kenndi vasaskrímslinu þínu?$"

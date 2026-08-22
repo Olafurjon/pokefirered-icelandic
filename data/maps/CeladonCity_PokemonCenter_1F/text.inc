@@ -1,5 +1,5 @@
 CeladonCity_PokemonCenter_1F_Text_PokeFluteAwakensSleepingMons::
-    .string "VASAFLAUTA vekur sofandi\n"
+    .string "VASA FLAUTA vekur sofandi\n"
     .string "vasaskrímsli. Þú veist það.\p"
     .string "Hún gerir það með hljóði sem aðeins\n"
     .string "þau heyra.$"

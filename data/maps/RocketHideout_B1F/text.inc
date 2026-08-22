@@ -26,7 +26,7 @@ RocketHideout_B1F_Text_Grunt3Defeat::
     .string "Ég get þetta ekki!$"
 
 RocketHideout_B1F_Text_Grunt3PostBattle::
-    .string "SILPH SCOPE? Hmpf! Ég veit ekki\n"
+    .string "SILPH-SJÁ? Hmpf! Ég veit ekki\n"
     .string "hvar það er.$"
 
 RocketHideout_B1F_Text_Grunt4Intro::

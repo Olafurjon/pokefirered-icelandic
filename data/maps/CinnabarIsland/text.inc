@@ -50,7 +50,7 @@ CinnabarIsland_Text_IllBeWaitingInPokeCenter::
     .string "Hvað, ertu of upptekinn?\p"
     .string "Jæja, allt í lagi. Báturinn er hvort\n"
     .string "eð er ekki kominn enn.\p"
-    .string "Ég bíð í VASASKRÍMSLAMIÐSTÖÐINNI\n"
+    .string "Ég bíð í VASASKRÍMSLASETRINU\n"
     .string "þarna.\p"
     .string "Komdu til mín þegar þú ert búinn með\n"
     .string "erindin þín hér.$"

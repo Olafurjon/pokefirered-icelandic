@@ -1,5 +1,5 @@
 PokemonLeague_AgathasRoom_Text_Intro::
-    .string "Ég er AGATHA úr ELÍTUFERNINGNUM.\p"
+    .string "Ég er AGATHA úr ELÍTU 4.\p"
     .string "Ég heyri að EIK hafi fengið mikinn\n"
     .string "áhuga á þér, barn.\p"
     .string "Gamli karlinn var eitt sinn harður\n"
@@ -16,7 +16,7 @@ PokemonLeague_AgathasRoom_Text_Intro::
     .string "berst!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
 
 PokemonLeague_AgathasRoom_Text_RematchIntro::
-    .string "Ég er AGATHA úr ELÍTUFERNINGNUM.\p"
+    .string "Ég er AGATHA úr ELÍTU 4.\p"
     .string "Þú ert barnið sem EIK tók undir sinn\n"
     .string "verndarvæng, er það ekki?\p"
     .string "Gamli karlinn var eitt sinn harður\n"

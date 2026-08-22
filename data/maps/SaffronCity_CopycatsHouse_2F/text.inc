@@ -21,13 +21,13 @@ Text_MimicTeach::
     .string "Vá! VASa DÚKKA!\p"
     .string "Handa mér? Takk!\p"
     .string "Veistu hvað? Ég get kennt\n"
-    .string "hreyfinguna MIMIC.$"
+    .string "hreyfinguna HERMA EFTIR.$"
 
 Text_MimicDeclined::
-    .string "Líkar þér ekki við MIMIC?$"
+    .string "Líkar þér ekki við HERMA EFTIR?$"
 
 Text_MimicWhichMon::
-    .string "Ég elska MIMIC! Hver á að læra\n"
+    .string "Ég elska HERMA EFTIR! Hver á að læra\n"
     .string "það?$"
 
 Text_MimicTaughtMale::

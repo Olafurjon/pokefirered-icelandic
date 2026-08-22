@@ -124,7 +124,7 @@ SilphCo_7F_Text_RivalPostBattle::
     .string "þróast!\p"
     .string "Er ég snillingur eða hvað?\p"
     .string "Ég fer í VASASKRÍMSLADEILDINA\n"
-    .string "til að sparka ELÍTUFERNINGNUM út.\p"
+    .string "til að sparka ELÍTU 4 út.\p"
     .string "Ég verð öflugasti ÞJÁLFARI\n"
     .string "í heimi!\p"
     .string "{PLAYER}, jæja, gangi þér vel!\n"

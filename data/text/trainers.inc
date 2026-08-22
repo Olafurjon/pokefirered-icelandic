@@ -294,7 +294,7 @@ Route13_Text_GwenRematchIntro::
 
 Route13_Text_AlmaRematchIntro::
 	.string "Ég tæmdi sparnaðinn minn og keypti\n"
-	.string "meira CARBOS.$"
+	.string "meira KOLEFNI.$"
 
 Route13_Text_PerryRematchIntro::
 	.string "Ég ætla ekki að tapa að þessu sinni.\n"
@@ -329,7 +329,7 @@ Route14_Text_BeckRematchIntro::
 
 Route14_Text_MarlonRematchIntro::
 	.string "Hefur þú kennt fugla Vasaskrímslunum\n"
-	.string "þínum að FLJÚGA?\p"
+	.string "þínum hreyfinguna FLUG?\p"
 	.string "Þú munt geta svifið með því upp í\n"
 	.string "himininn! Reyndu það.$"
 
@@ -461,7 +461,7 @@ Route17_Text_VirgilRematchIntro::
 	.string "Ertu úti í göngutúr?$"
 
 Route17_Text_BillyRematchIntro::
-	.string "Við erum BIKERS! Við ráðum vegunum,\n"
+	.string "Við erum HJÓLARAR! Við ráðum vegunum,\n"
 	.string "maður!$"
 
 Route17_Text_NikolasRematchIntro::

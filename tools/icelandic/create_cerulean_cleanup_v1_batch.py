@@ -277,7 +277,7 @@ TRANSLATIONS = {
     """),
     "CeruleanCity_House1_Text_GoCrushBerriesAtDirectCorner": t("""
         Það er eitthvað nýtt á annarri hæð
-        vasaskrímslamiðstöðva, í DIRECT
+        Vasaskrímslasetra, í DIRECT
         CORNER.
 
         Þar var sett upp Wireless Adapter vél
@@ -292,7 +292,7 @@ TRANSLATIONS = {
         með vélinni?
 
         Ekki gleyma, vélin er í DIRECT CORNER
-        í vasaskrímslamiðstöðvum.
+        í Vasaskrímslasetrum.
 
         Ég blanda lyf fyrir þig ef þú kemur
         með BERJADUFT.
@@ -301,17 +301,17 @@ TRANSLATIONS = {
         og komdu með það til mín.
     """),
     "CeruleanCity_Mart_Text_RepelWorksOnWeakMons": t("""
-        REPEL heldur ekki bara pöddum frá,
+        FÆLIEFNI heldur ekki bara pöddum frá,
         það virkar líka á veik vasaskrímsli.
 
         Settu sterkasta vasaskrímslið þitt
         fremst á vasaskrímsla-LISTANN.
 
         Ef fyrsta vasaskrímslið þitt er
-        sterkt verður áhrif REPEL meiri.
+        sterkt verða áhrif FÆLIEFNIS meiri.
     """),
     "CeruleanCity_Mart_Text_DoYouKnowAboutRareCandy": t("""
-        Veistu um RARE CANDY?
+        Veistu um OFUR NAMMI?
         Það er ekki selt í búðum.
 
         Ég held að það láti vasaskrímsli

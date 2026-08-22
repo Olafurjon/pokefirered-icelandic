@@ -31,19 +31,19 @@ PokedexRating_Text_LessThan40::
 	.string "Gott, það sést að þú leggur þig\n"
 	.string "fram!\p"
 	.string "Ég gaf einum AÐSTOÐARMANNA minna\n"
-	.string "ITEMFINDER. Mundu að sækja hann!$"
+	.string "HLUTALEITARA. Mundu að sækja hann!$"
 
 PokedexRating_Text_LessThan50::
 	.string "VasaDEX-ið þitt gengur bara nokkuð\n"
 	.string "vel!\p"
 	.string "Ég gaf einum AÐSTOÐARMANNA minna\n"
-	.string "AMULET COIN. Vertu viss um að sækja hann!$"
+	.string "VERNDARGRIP. Vertu viss um að sækja hann!$"
 
 PokedexRating_Text_LessThan60::
 	.string "Ah, þú hefur loksins náð yfir\n"
 	.string "50 tegundir!\p"
 	.string "Ég gaf einum AÐSTOÐARMANNA minna\n"
-	.string "EXP. SHARE. Vertu viss um að sækja það!$"
+	.string "REYNSLUDEILI. Vertu viss um að sækja hann!$"
 
 PokedexRating_Text_LessThan70::
 	.string "Hoho! Þetta er að verða ansi\n"
@@ -52,7 +52,7 @@ PokedexRating_Text_LessThan70::
 PokedexRating_Text_LessThan80::
 	.string "Mjög gott!\p"
 	.string "Ég held að þú safnir enn fleiri\n"
-	.string "Vasaskrímslum með því að veiða!$"
+	.string "Vasaskrímslum með því að fanga!$"
 
 PokedexRating_Text_LessThan90::
 	.string "Dásamlegt! Leyfðu mér að giska… Þér\n"

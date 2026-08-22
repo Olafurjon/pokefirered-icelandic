@@ -6,7 +6,7 @@ RocketHideout_B3F_Text_Grunt1Defeat::
     .string "Úff! Felldur!$"
 
 RocketHideout_B3F_Text_Grunt1PostBattle::
-    .string "SILPH SCOPE? Ó, vélin sem\n"
+    .string "SILPH-SJÁ? Ó, vélin sem\n"
     .string "FORINGINN stal.\p"
     .string "Hún er hér einhvers staðar.$"
 

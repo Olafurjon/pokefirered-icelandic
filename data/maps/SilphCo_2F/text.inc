@@ -49,14 +49,14 @@ Text_ThunderWaveTeach::
     .string "ELDINGABYLGJU?$"
 
 Text_ThunderWaveDeclined::
-    .string "Ó… En ELDINGABYLGJA er svo nytsamleg…$"
+    .string "Ó… En ÞRUMUBYLGJA er svo nytsamleg…$"
 
 Text_ThunderWaveWhichMon::
     .string "Hvaða Vasaskrímsli á ég að kenna\n"
     .string "ELDINGABYLGJU?$"
 
 Text_ThunderWaveTaught::
-    .string "ELDINGABYLGJA veldur lömun hjá\n"
+    .string "ÞRUMUBYLGJA veldur lömun hjá\n"
     .string "mark-Vasaskrímslinu.\p"
     .string "Lamað Vasaskrímsli getur stundum\n"
     .string "ekki hreyft sig í bardaga.\p"

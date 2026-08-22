@@ -1,12 +1,12 @@
 @ The 5 texts below are supposed to be in FourIsland_House1
 Text_BodySlamTeach::
     .string "Tilbúinn? Boing!\p"
-    .string "Við erum í BODY SLAM keppni til að\n"
+    .string "Við keppum í SKELLI til að\n"
     .string "sjá hver gefst fyrst upp.\p"
     .string "Ef þú tækir þátt yrðirðu samt\n"
     .string "kraminn eins og pöddur…\p"
     .string "Hvernig væri að ég kenndi einu\n"
-    .string "Vasaskrímslinu þínu BODY SLAM í\p"
+    .string "Vasaskrímslinu þínu SKELL í\p"
     .string "staðinn?$"
 
 Text_BodySlamDeclined::
@@ -39,4 +39,3 @@ FourIsland_PokemonCenter_1F_Text_NewPokemonJournalHasntArrived::
     .string "Hvað er þetta?\p"
     .string "Nýja Vasaskrímsla-BLAÐIÐ hefur ekki\n"
     .string "komið til þessarar eyju?$"
-

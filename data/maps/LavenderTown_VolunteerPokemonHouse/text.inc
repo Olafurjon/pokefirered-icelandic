@@ -37,11 +37,11 @@ LavenderTown_VolunteerPokemonHouse_Text_IdLikeYouToHaveThis::
     .string "ég vil að þú eigir það.$"
 
 LavenderTown_VolunteerPokemonHouse_Text_ReceivedPokeFluteFromMrFuji::
-    .string "{PLAYER} fékk VASAFLAUTU frá MR.\n"
+    .string "{PLAYER} fékk VASA FLAUTU frá MR.\n"
     .string "FUJI.$"
 
 LavenderTown_VolunteerPokemonHouse_Text_ExplainPokeFlute::
-    .string "Þegar VASAFLAUTAN hljómar vakna\n"
+    .string "Þegar VASA FLAUTAN hljómar vakna\n"
     .string "sofandi Vasaskrímsli strax.\p"
     .string "Prófaðu hana á Vasaskrímsli sem sofa\n"
     .string "og loka leiðinni.$"
@@ -50,7 +50,7 @@ LavenderTown_VolunteerPokemonHouse_Text_MustMakeRoomForThis::
     .string "Þú verður að gera pláss fyrir þetta!$"
 
 LavenderTown_VolunteerPokemonHouse_Text_HasPokeFluteHelpedYou::
-    .string "MR. FUJI: Hefur VASAFLAUTAN mín\n"
+    .string "MR. FUJI: Hefur VASA FLAUTAN mín\n"
     .string "hjálpað þér?$"
 
 LavenderTown_VolunteerPokemonHouse_Text_GrandPrizeDrawingClipped::
@@ -65,4 +65,3 @@ LavenderTown_VolunteerPokemonHouse_Text_PokemonMagazinesLineShelf::
     .string "hillunni.\p"
     .string "VASASKRÍMSLA INNSÝN…\p"
     .string "VASASKRÍMSLA AÐDÁANDI…$"
-

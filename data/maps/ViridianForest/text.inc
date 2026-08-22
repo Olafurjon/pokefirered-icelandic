@@ -25,7 +25,7 @@ ViridianForest_Text_DougDefeat::
 
 ViridianForest_Text_DougPostBattle::
     .string "Þetta er ömurlegt! Ég ætla að\n"
-    .string "veiða mér sterkari!$"
+    .string "fanga mér sterkari!$"
 
 ViridianForest_Text_SammyIntro::
     .string "Hey, bíddu! Hvar er eldurinn? Af\n"

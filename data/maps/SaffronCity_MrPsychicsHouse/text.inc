@@ -8,7 +8,7 @@ SaffronCity_MrPsychicsHouse_Text_ReceivedTM29FromMrPsychic::
 
 SaffronCity_MrPsychicsHouse_Text_ExplainTM29::
     .string "Þú veist það nú þegar, er það ekki?\n"
-    .string "TM29 er HUGAR.\p"
+    .string "TM29 er HUGARORKA.\p"
     .string "Árásin getur líka lækkað sérstakar\n"
     .string "tölur skotmarksins.$"
 

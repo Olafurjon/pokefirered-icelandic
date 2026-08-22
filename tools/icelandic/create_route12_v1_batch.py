@@ -28,10 +28,10 @@ TRANSLATIONS = {
         Og sneri aftur til fjallanna.
     """),
     "Text_WantToUsePokeFlute": t("""
-        Viltu nota VASAFLAUTU?
+        Viltu nota VASA FLAUTU?
     """),
     "Text_PlayedPokeFlute": t("""
-        {PLAYER} lék á VASAFLAUTU.
+        {PLAYER} lék á VASA FLAUTU.
     """),
     "Route12_Text_NedIntro": t("""
         Já!
@@ -183,7 +183,7 @@ TRANSLATIONS = {
         Taktu þetta og veiddu, ungi vinur!
     """),
     "Route12_FishingHouse_Text_ReceivedSuperRod": t("""
-        {PLAYER} fékk OFURSTÖNG frá bróður
+        {PLAYER} fékk FRÁBÆRA STÖNG frá bróður
         VEIÐISPEKINGSINS.
     """),
     "Route12_FishingHouse_Text_IfYouCatchBigMagikarpShowMe": t("""
@@ -209,7 +209,7 @@ TRANSLATIONS = {
         Halló þarna, {PLAYER}!
         Hefurðu verið að veiða?
 
-        Prófaðu OFURSTÖNGINA í hvaða vatni
+        Prófaðu FRÁBÆRU STÖNGINA í hvaða vatni
         sem er.
 
         Þú finnur ólík vasaskrímsli á ólíkum

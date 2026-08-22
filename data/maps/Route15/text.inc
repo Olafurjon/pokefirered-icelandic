@@ -20,7 +20,7 @@ Route15_Text_BeckyDefeat::
     .string "Nei, rangt!$"
 
 Route15_Text_BeckyPostBattle::
-    .string "Ég er hrædd við BIKERS. Þeir líta\n"
+    .string "Ég er hrædd við HJÓLARA. Þeir líta\n"
     .string "svo illa og grimmilega út!$"
 
 Route15_Text_EdwinIntro::
@@ -45,8 +45,8 @@ Route15_Text_ChesterDefeat::
 Route15_Text_ChesterPostBattle::
     .string "Þetta er svo augljóst að þú ættir að\n"
     .string "vita það, en…\p"
-    .string "Hreyfingar eins og EARTHQUAKE og\n"
-    .string "FISSURE virka ekki á\p"
+    .string "Hreyfingar eins og JARÐSKJÁLFTI og\n"
+    .string "SPRUNGA virka ekki á\p"
     .string "fugla-Vasaskrímsli.$"
 
 Route15_Text_GraceIntro::

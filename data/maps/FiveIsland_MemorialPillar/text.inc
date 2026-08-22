@@ -49,16 +49,16 @@ FiveIsland_MemorialPillar_Text_ThisIsWhereIBuriedMyOnix::
 FiveIsland_MemorialPillar_Text_HereLiesTectonixLemonadeOffering::
     .string "'Hér hvílir TECTONIX' er grafið á\n"
     .string "stórgrýti.\p"
-    .string "LEMONADE stendur sem fórnargjöf\n"
+    .string "SÍTRÓNULAÐI stendur sem fórnargjöf\n"
     .string "fyrir framan gröfina.$"
 
 FiveIsland_MemorialPillar_Text_LeaveAnotherLemonadeOffering::
-    .string "Viltu skilja eftir aðra LEMONADE sem\n"
-    .string "fórn?$"
+    .string "Viltu skilja eftir aðra dós af\n"
+    .string "SÍTRÓNULAÐI sem fórn?$"
 
 FiveIsland_MemorialPillar_Text_PlacedCanOfLemonade::
-    .string "{PLAYER} setti dós af LEMONADE fyrir\n"
-    .string "framan gröfina.$"
+    .string "{PLAYER} setti niður dós af\n"
+    .string "SÍTRÓNULAÐI við gröfina.$"
 
 FiveIsland_MemorialPillar_Text_ThankYouPleaseTakeThis::
     .string "Þ-þakka þér…\p"

@@ -51,10 +51,10 @@ Pokedude_Text_WaterNotVeryEffectiveAgainstGrass::
 
 Pokedude_Text_GrassEffectiveAgainstWater::
 	.string "Úff, þetta er ekki gott!\p"
-	.string "ABSORB-árásin sem þú sást er af\n"
+	.string "SOG-árásin sem þú sást er af\n"
 	.string "GRAS-tegund.\p"
 	.string "POTTGORMUR er VATN Vasaskrímsli.\p"
-	.string "Þess vegna verður ABSORB mjög\n"
+	.string "Þess vegna verður SOG mjög\n"
 	.string "áhrifarík og tvöfaldar skaðann.$"
 
 Pokedude_Text_LetsTryShiftingMons::

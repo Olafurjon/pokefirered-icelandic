@@ -44,7 +44,7 @@ TRANSLATIONS = {
         Hin göfuga fjólubláa borg
     """),
     "LavenderTown_Text_SilphScopeNotice": t("""
-        Nýr SILPH SCOPE!
+        Ný SILPH-SJÁ!
         Gerir hið ósýnilega sýnilegt!
 
         SILPH CO.
@@ -67,7 +67,7 @@ TRANSLATIONS = {
         Vesalings móðir BEINFARA...
 
         Hún var drepin þegar hún reyndi að
-        flýja frá TEAM ROCKET.
+        flýja frá ROCKET-GENGINU.
     """),
     "LavenderTown_House1_Text_GhostOfPokemonTowerIsGone": t("""
         Draugurinn í VASASKRÍMSLATURNI er
@@ -141,8 +141,8 @@ TRANSLATIONS = {
         Veistu hvar ég fæ þá?
     """),
     "LavenderTown_Mart_Text_DidYouBuyRevives": t("""
-        Keyptirðu ENDURLÍFGARA?
-        Þeir vekja rotið vasaskrímsli aftur!
+        Keyptirðu LÍFGUNARLYF?
+        Þau vekja yfirliðin Vasaskrímsli aftur!
     """),
     "LavenderTown_Mart_Text_TrainerDuosCanChallengeYou": t("""
         Stundum skorar ÞJÁLFARA-tvennd á
@@ -160,7 +160,7 @@ TRANSLATIONS = {
         5000¥!
     """),
     "LavenderTown_PokemonCenter_1F_Text_RocketsDoAnythingForMoney": t("""
-        TEAM ROCKET gerir hvað sem er fyrir
+        ROCKET-GENGIÐ gerir hvað sem er fyrir
         peninga!
 
         Ekkert verk er of skítugt, enginn
@@ -169,7 +169,7 @@ TRANSLATIONS = {
     """),
     "LavenderTown_PokemonCenter_1F_Text_CubonesMotherKilledByRockets": t("""
         Ég sá móður BEINFARA reyna að flýja
-        frá TEAM ROCKET.
+        frá ROCKET-GENGINU.
 
         Hún var drepin þegar hún reyndi að
         komast undan...
@@ -226,11 +226,11 @@ TRANSLATIONS = {
         ég vil að þú fáir þetta.
     """),
     "LavenderTown_VolunteerPokemonHouse_Text_ReceivedPokeFluteFromMrFuji": t("""
-        {PLAYER} fékk VASAFLAUTU frá
+        {PLAYER} fékk VASA FLAUTU frá
         MR. FUJI.
     """),
     "LavenderTown_VolunteerPokemonHouse_Text_ExplainPokeFlute": t("""
-        Þegar VASAFLAUTA heyrist hrökkva
+        Þegar VASA FLAUTAN heyrist hrökkva
         sofandi vasaskrímsli vakandi.
 
         Prófaðu að nota hana á vasaskrímsli
@@ -241,7 +241,7 @@ TRANSLATIONS = {
         þetta!
     """),
     "LavenderTown_VolunteerPokemonHouse_Text_HasPokeFluteHelpedYou": t("""
-        MR. FUJI: Hefur VASAFLAUTAN mín
+        MR. FUJI: Hefur VASA FLAUTAN mín
         hjálpað þér?
     """),
     "LavenderTown_VolunteerPokemonHouse_Text_GrandPrizeDrawingClipped": t("""
@@ -334,7 +334,7 @@ TRANSLATIONS = {
         Ekki einu sinni við gátum borið
         kennsl á villuráfandi draugana.
 
-        SILPH SCOPE gæti afhjúpað þá.
+        SILPH-SJÁ gæti afhjúpað þá.
     """),
     "PokemonTower_3F_Text_HopeIntro": t("""
         Urrg... Awaa...
@@ -345,7 +345,7 @@ TRANSLATIONS = {
         Mér er bjargað!
     """),
     "PokemonTower_3F_Text_HopePostBattle": t("""
-        SILPH SCOPE getur borið kennsl á
+        SILPH-SJÁ getur borið kennsl á
         draugana.
     """),
     "PokemonTower_3F_Text_CarlyIntro": t("""

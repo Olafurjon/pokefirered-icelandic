@@ -1,10 +1,9 @@
 SaffronCity_Mart_Text_MaxRepelMoreEffectiveThanSuper::
-    .string "MAX REPEL kemur í veg fyrir að\n"
+    .string "OFURFÆLIEFNI kemur í veg fyrir að\n"
     .string "veikari Vasaskrímsli birtist.\p"
-    .string "MAX REPEL endist lengur en SUPER\n"
-    .string "REPEL.$"
+    .string "OFURFÆLIEFNI endist lengur en GOTT\n"
+    .string "FÆLIEFNI.$"
 
 SaffronCity_Mart_Text_ReviveIsCostly::
-    .string "REVIVE er dýrt, en það vekur\n"
-    .string "yfirliðin Vasaskrímsli aftur!$"
-
+    .string "LÍFGUNARLYF er dýrt, en það\n"
+    .string "vekur yfirliðin Vasaskrímsli aftur!$"

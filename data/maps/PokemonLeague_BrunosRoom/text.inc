@@ -1,5 +1,5 @@
 PokemonLeague_BrunosRoom_Text_Intro::
-    .string "Ég er BRUNO úr ELÍTUFERNINGNUM!\p"
+    .string "Ég er BRUNO úr ELÍTU 4!\p"
     .string "Með hörðum æfingum geta fólk og\n"
     .string "Vasaskrímsli orðið sterkari\p"
     .string "án takmarka.\p"
@@ -13,7 +13,7 @@ PokemonLeague_BrunosRoom_Text_Intro::
     .string "hah!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
 
 PokemonLeague_BrunosRoom_Text_RematchIntro::
-    .string "Ég er BRUNO úr ELÍTUFERNINGNUM!\p"
+    .string "Ég er BRUNO úr ELÍTU 4!\p"
     .string "Með hörðum æfingum geta fólk og\n"
     .string "Vasaskrímsli orðið sterkari\p"
     .string "án takmarka.\p"
