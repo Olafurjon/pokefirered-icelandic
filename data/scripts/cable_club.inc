@@ -1680,7 +1680,7 @@ CableClub_Text_FirstTimeRightThisWay::
 	.string "Ég mun sýna þér hvernig þráðlausa\n"
 	.string "samskiptakerfið virkar.\p"
 	.string "Fyrst þarf ég að sýna þér þessa hæð\n"
-	.string "í Vasaskrímsla MIÐSTÖÐINNI okkar.\p"
+	.string "í Vasaskrímslasetrinu okkar.\p"
 	.string "Þessa leið, vinsamlegast.$"
 
 CableClub_Text_ExplainWirelessClubFirstTime::
@@ -1698,7 +1698,7 @@ CableClub_Text_ExplainWirelessClubFirstTime::
 CableClub_Text_AskAboutLinking::
 	.string "Halló, {PLAYER}!\p"
 	.string "Það er ég, TEALA, starfsmaður á 2.\n"
-	.string "hæð Vasaskrímsla MIÐSTÖÐVARINNAR.\p"
+	.string "hæð Vasaskrímslasetursins.\p"
 	.string "Var eitthvað sem þú þurftir að\n"
 	.string "spyrja mig um tengingar?$"
 

@@ -11,7 +11,7 @@ FuchsiaCity_House2_Text_LikeYourStyleTakeThis::
     .string "Taktu þetta og fiskaðu, ungi vinur!$"
 
 FuchsiaCity_House2_Text_ReceivedGoodRod::
-    .string "{PLAYER} fékk GOOD ROD frá bróður\n"
+    .string "{PLAYER} fékk GÓÐA STÖNG frá bróður\n"
     .string "FISHING GURU.$"
 
 FuchsiaCity_House2_Text_GoodRodCanCatchBetterMons::
@@ -33,4 +33,3 @@ FuchsiaCity_House2_Text_YouHaveNoRoomForGift::
     .string "Ó, nei!\p"
     .string "Ég átti gjöf handa þér, en þú hefur\n"
     .string "ekki pláss fyrir hana!$"
-

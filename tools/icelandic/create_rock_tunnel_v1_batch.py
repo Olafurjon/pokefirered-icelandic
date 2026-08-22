@@ -309,11 +309,11 @@ TRANSLATIONS = {
         Ég hef verið að leita að þér!
 
         Þetta er ég, einn af síviðstöddum
-        AÐSTOÐARMÖNNUM PROF. OAK.
+        AÐSTOÐARMÖNNUM PRÓF. EIKAR.
 
         Ef VasaDEX-ið þitt er með full gögn
         um tuttugu tegundir á ég að gefa þér
-        verðlaun frá PROF. OAK.
+        verðlaun frá PRÓF. EIK.
 
         Hann fól mér þennan EILÍFSTEIN.
 

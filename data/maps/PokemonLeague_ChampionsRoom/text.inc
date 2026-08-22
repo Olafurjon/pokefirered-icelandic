@@ -79,7 +79,7 @@ PokemonLeague_ChampionsRoom_Text_OakImDisappointedRival::
     .string "EIK: {RIVAL}… Ég er vonsvikinn með\n"
     .string "þig.\p"
     .string "Ég kom þegar ég heyrði að þú hefðir\n"
-    .string "sigrað ELÍTUFERNINGINN.\p"
+    .string "sigrað ELÍTU 4.\p"
     .string "En þegar ég kom hingað varstu þegar\n"
     .string "búinn að tapa!\p"
     .string "{RIVAL}, skilurðu hvers vegna þú\n"

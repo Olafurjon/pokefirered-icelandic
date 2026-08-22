@@ -1,6 +1,6 @@
 PokemonLeague_LoreleisRoom_Text_Intro::
     .string "Velkomin í VASASKRÍMSLADEILDINA.\p"
-    .string "Ég er LORELEI úr ELÍTUFERNINGNUM.\p"
+    .string "Ég er LORELEI úr ELÍTU 4.\p"
     .string "Enginn stenst mér snúning þegar\n"
     .string "kemur að ís-Vasaskrímslum.\p"
     .string "Frystiárásir eru máttugar.\p"
@@ -11,7 +11,7 @@ PokemonLeague_LoreleisRoom_Text_Intro::
 
 PokemonLeague_LoreleisRoom_Text_RematchIntro::
     .string "Velkomin í VASASKRÍMSLADEILDINA.\p"
-    .string "Ég, LORELEI úr ELÍTUFERNINGNUM, er\n"
+    .string "Ég, LORELEI úr ELÍTU 4, er\n"
     .string "komin aftur!\p"
     .string "Þú veist hvernig þetta fer. Enginn\n"
     .string "stenst mér snúning í ís-\p"

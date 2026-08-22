@@ -107,7 +107,7 @@ TRANSLATIONS = {
         Viltu fara um borð í SEAGALLOP ferju?
     """),
     "VermilionCity_Text_OhMysticTicketTakeYouToNavelRock": t("""
-        Ó! Þetta er MYSTICMIÐI!
+        Ó! Þetta er DULARMIÐI!
         Hann er sannarlega sjaldgæfur.
 
         Við flytjum þig glöð til NAVEL ROCK
@@ -142,11 +142,11 @@ TRANSLATIONS = {
         Hvernig gengur?
 
         Þetta er ég, einn af AÐSTOÐARMÖNNUM
-        PROF. OAK.
+        PRÓF. EIKAR.
 
         Hittirðu hinn AÐSTOÐARMANNINN?
 
-        Hann var með pakka frá PROF. OAK
+        Hann var með pakka frá PRÓF. EIK
         handa þér, {PLAYER}.
 
         Hann sagðist leita að þér í kringum

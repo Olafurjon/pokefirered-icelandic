@@ -35,7 +35,7 @@ FuchsiaCity_Gym_Text_ReceivedTM06FromKoga::
 
 FuchsiaCity_Gym_Text_KogaExplainTM06::
     .string "Innsiglað í þeirri TM06 liggur\n"
-    .string "TOXIC!\p"
+    .string "EITRUN!\p"
     .string "Þetta er leyndartækni sem á rætur\n"
     .string "sínar að rekja fjögur hundruð ár\p"
     .string "aftur í tímann.$"

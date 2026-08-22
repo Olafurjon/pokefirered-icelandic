@@ -77,7 +77,17 @@ class TerminologyScannerTests(unittest.TestCase):
                 '\t.string "Storage System, SURF, VIRIDIAN FOREST, NIDORAN og SKORDÝ Vasaskrímsli.$"\n'
                 '\t.string "MT. MOON, MOONFJALL, ROCK SMASH og WATERFALL.$"\n'
                 '\t.string "CUT, FLY, STRENGTH, DIG, FLASH, SHOCK WAVE og SONICBOOM.$"\n'
-                '\t.string "TELEPORTER birtist á\\nPC skjánum.$"\n',
+                '\t.string "LIGHT SCREEN, GAGNÁTAK, ICE BEAM, BODY SLAM og SWORDS DANCE.$"\n'
+                '\t.string "SAFEGUARD, BIND, MIST, UPROAR, STOCKPILE, RAGE, ENCORE, CURSE, SPIKES, TORMENT, TAUNT og WISH.$"\n'
+                '\t.string "SAND TOMB, LEECH SEED, SUBSTITUTE, SKETCH, NIGHTMARE, PERISH SONG, SPIT UP, SWALLOW og HEAT WAVE.$"\n'
+                '\t.string "SUPER ROD, EXP. SHARE, SILPH SCOPE, REPEL og FULL HEAL.$"\n'
+                '\t.string "SÓKN, Vasaskrímsli MIÐSTÖÐ, ELÍTUFERNINGUR, PROF. OAK og KORT BORGAR.$"\n'
+                '\t.string "DEFENSE, SP. ATK og SP. DEF eru stöðuheiti.$"\n'
+                '\t.string "BIKERS hittu WARDEN í Vasaskrímsla-MIÐSTÖÐ.$"\n'
+                '\t.string "TELEPORTER birtist á\\nPC skjánum.$"\n'
+                '\t.string "Handtekin vasaskrímsli virtust vera veidd og annað var handtekið.$"\n'
+                '\t.string "VASAFLAUTAN, LEMONADE, REVIVE, OLD AMBER, RÁÐGÁTUBER og NUGGET.$"\n'
+                '\t.string "SOFTBOILED, MILK DRINK, ILMANGAN og KALA.$"\n',
                 encoding="utf-8",
             )
             nature_file = root / "src" / "data" / "text" / "nature_names.h"
@@ -110,8 +120,20 @@ class TerminologyScannerTests(unittest.TestCase):
         self.assertIn("flash-move", found)
         self.assertIn("shock-wave-move", found)
         self.assertIn("sonic-boom-move", found)
+        self.assertIn("move-name-alias", found)
+        self.assertIn("item-name-alias", found)
+        self.assertIn("attack-stat-alias", found)
+        self.assertIn("defense-stat", found)
+        self.assertIn("special-stat", found)
+        self.assertIn("pokemon-center-alias", found)
+        self.assertIn("elite-four-alias", found)
+        self.assertIn("professor-oak-alias", found)
+        self.assertIn("biker-class-alias", found)
+        self.assertIn("warden-alias", found)
         self.assertIn("pc-computer", found)
         self.assertIn("teleporter", found)
+        self.assertIn("capture-term", found)
+        self.assertIn("poke-flute-alias", found)
 
     def test_accepts_approved_icelandic_terms(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
@@ -146,6 +168,27 @@ class TerminologyScannerTests(unittest.TestCase):
 
         self.assertEqual([], rows)
 
+    def test_scans_visible_item_names_and_descriptions(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            item_file = root / "src" / "data" / "items.json"
+            item_file.parent.mkdir(parents=True)
+            item_file.write_text(
+                '[\n'
+                '  {\n'
+                '    "english": "SUPER ROD",\n'
+                '    "description_english": "Hækkar SÓKN."\n'
+                '  }\n'
+                ']\n',
+                encoding="utf-8",
+            )
+
+            rows = check_terms.scan_file(item_file, root)
+            found = {row["rule"] for row in rows}
+
+        self.assertIn("item-name-alias", found)
+        self.assertIn("attack-stat-alias", found)
+
     def test_default_scan_includes_data_scripts(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
@@ -162,11 +205,67 @@ class TerminologyScannerTests(unittest.TestCase):
         self.assertIn(script_file, discovered)
         self.assertIn("strength-move", {row["rule"] for row in rows})
 
+    def test_default_scan_includes_trainer_tower_nicknames(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            tower_file = root / "src" / "trainer_tower_sets.c"
+            tower_file.parent.mkdir(parents=True)
+            tower_file.write_text('.nickname = _("NIDORAN♀"),\n', encoding="utf-8")
+
+            discovered = check_terms.iter_files(root, check_terms.DEFAULT_INCLUDE)
+            rows = check_terms.scan_file(tower_file, root)
+
+        self.assertIn(tower_file, discovered)
+        self.assertEqual(["nidoran-species"], [row["rule"] for row in rows])
+
 
 class GameplaySanityTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls) -> None:
         cls.root = Path(__file__).resolve().parents[2]
+
+    def test_capture_dialogue_uses_fanga_terminology(self) -> None:
+        department_store = (
+            self.root / "data" / "maps" / "CeladonCity_DepartmentStore_3F" / "text.inc"
+        ).read_text(encoding="utf-8")
+        battle_messages = (self.root / "src" / "battle_message.c").read_text(encoding="utf-8")
+
+        self.assertIn("Fönguð vasaskrímsli eru skráð", department_store)
+        self.assertNotRegex(department_store, r"(?i)handtekin")
+        self.assertIn("Það virtist vera fangað!", battle_messages)
+        self.assertIn("{B_OPPONENT_MON1_NAME} var fangað!", battle_messages)
+        self.assertIn("Gefa fangaða {B_OPPONENT_MON1_NAME}", battle_messages)
+        self.assertNotRegex(battle_messages, r"(?i)(?:var|vera) veitt|veiddu \{B_OPPONENT_MON1_NAME\}")
+
+        capture_texts = "\n".join(
+            (self.root / relative_path).read_text(encoding="utf-8")
+            for relative_path in [
+                "data/text/help_system.inc",
+                "data/text/pokedex_rating.inc",
+                "data/maps/PokemonLeague_LancesRoom/text.inc",
+                "data/maps/ViridianForest/text.inc",
+                "data/maps/SafariZone_East_RestHouse/text.inc",
+                "tools/icelandic/create_fuchsia_safari_v1_batch.py",
+            ]
+        )
+        for expected in [
+            "reynir að fanga það",
+            "því að vera fangað",
+            "ÞJÁLFARANNA sem fönguðu þau",
+            "Vasaskrímslum með því að fanga",
+            "Erfitt er að fanga þá og þjálfa",
+            "fanga mér sterkari",
+            "Hversu mörg fangaðirðu?",
+            "Ég fangaði SÆLEGG!",
+        ]:
+            self.assertIn(expected, capture_texts)
+
+        self.assertNotRegex(
+            capture_texts,
+            r"reynir að veiða það|vera veidd|sem veiddu þau|með því að veiða|"
+            r"Erfitt er að veiða þá|veiða mér sterkari|Hversu mörg (?:veiddirðu|náðirðu)|"
+            r"Ég náði SÆLEGGI",
+        )
 
     def test_reported_move_names_are_icelandic(self) -> None:
         move_names = (self.root / "src" / "data" / "text" / "move_names.h").read_text(encoding="utf-8")
@@ -185,14 +284,25 @@ class GameplaySanityTests(unittest.TestCase):
 
     def test_translation_generators_do_not_emit_legacy_field_terms(self) -> None:
         generators = [
+            "create_cinnabar_v1_batch.py",
             "create_cerulean_v1_batch.py",
             "create_cerulean_cleanup_v1_batch.py",
+            "create_cycling_road_v1_batch.py",
             "create_vermilion_v1_batch.py",
             "create_ssanne_v1_batch.py",
+            "create_lavender_tower_v1_batch.py",
             "create_route11_diglett_route2_v1_batch.py",
+            "create_route13_15_v1_batch.py",
             "create_fuchsia_safari_v1_batch.py",
         ]
-        pattern = re.compile(r"\b(?:CUT|FLY|STRENGTH|DIG|FLASH|SONICBOOM)\b|SAFARI(?:\s|\\n)+ZONE")
+        pattern = re.compile(
+            r"\b(?:CUT|FLY|STRENGTH|DIG|FLASH|SONICBOOM)\b"
+            r"|SAFARI(?:\s|\\n)+ZONE"
+            r"|TEAM ROCKET"
+            r"|VASASKRÍMSLAMIÐSTÖÐ"
+            r"|Vasaskrímslamiðstöð"
+            r"|PROF\.\s+OAK"
+        )
         offenders: list[str] = []
         for filename in generators:
             path = self.root / "tools" / "icelandic" / filename

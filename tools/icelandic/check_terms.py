@@ -19,7 +19,9 @@ DEFAULT_INCLUDE = (
     "src/data/region_map/region_map_sections.json",
     "src/battle_main.c",
     "src/battle_message.c",
+    "src/move_descriptions.c",
     "src/strings.c",
+    "src/trainer_tower_sets.c",
 )
 
 SKIP_DIRS = {
@@ -53,15 +55,28 @@ RULES = [
     Rule("storage-system", re.compile(r"Storage\s+System|STORAGE\s+SYSTEM"), "Geymslukerfi"),
     Rule("pc-computer", re.compile(r"(?:^|\\[npl]|[^A-Za-z_])PC(?![A-Za-z_])"), "TÖLVA / tölva"),
     Rule("teleporter", re.compile(r"TELEPORTER(?![A-Za-z])"), "FJARFLUTNINGSTÆKI"),
+    Rule(
+        "capture-term",
+        re.compile(
+            r"\bHandteki(?:n|nn|ð|nir|nar|nu)?\b|\b(?:var|vera) veitt\b|\bGefa veiddu\b|"
+            r"reynir að veiða það|vera veidd|sem veiddu þau|með því að veiða|"
+            r"Erfitt er að veiða þá|veiða mér sterkari|Hversu mörg (?:veiddirðu|náðirðu)",
+            re.IGNORECASE,
+        ),
+        "fanga / fangað / fangaði (veiða only for fishing)",
+    ),
     Rule("summary-page-info", re.compile(r"Vasaskrímsli\s+INFO|Vasaskrímsli\s+SKILLS"), "Vasaskrímsli UPPL. / Vasaskrímsli HÆFNI"),
     Rule("nature-name", re.compile(r"\b(HARDY|LONELY|BRAVE|ADAMANT|NAUGHTY|BOLD|DOCILE|RELAXED|IMPISH|LAX|TIMID|HASTY|SERIOUS|JOLLY|NAIVE|MODEST|MILD|QUIET|BASHFUL|RASH|CALM|GENTLE|SASSY|CAREFUL|QUIRKY)\b"), "Icelandic nature names"),
     Rule("bag", re.compile(r"\bBAG\b|\bBag\b"), "TASKA / Taska"),
     Rule("attack", re.compile(r"\bATTACK\b|\bAttack\b"), "ÁRÁS / Árás"),
+    Rule("attack-stat-alias", re.compile(r"\bSÓKN\b"), "ÁRÁS"),
+    Rule("defense-stat", re.compile(r"\bDEFENSE\b|\bDefense\b"), "VÖRN / Vörn"),
+    Rule("special-stat", re.compile(r"\bSP\.\s*(?:ATK|DEF)\b"), "SÉR. ÁRÁS / SÉR. VÖRN"),
     Rule("speed-stat", re.compile(r"\bSPEED\b|\bSpeed\b"), "HRAÐI / HRAÐA"),
     Rule("tv", re.compile(r"\bTV\b"), "SJÓNVARP / sjónvarp"),
     Rule("potion", re.compile(r"\bPOTIONS?\b|\bPotions?\b|\bDrykkir?\b|\bDRYKKIR?\b"), "SEYÐI / Seyði"),
     Rule("cancel", re.compile(r"\bHATTA\b|\bHatta\b"), "HÆTTA / Hætta"),
-    Rule("town-map", re.compile(r"BAJARKORT"), "BÆJARKORT"),
+    Rule("town-map", re.compile(r"BAJARKORT|KORT BORGAR"), "BÆJARKORT / BÆJARKORTIÐ"),
     Rule("questionnaire-fill", re.compile(r"\bfyllja\b|\bFyllja\b"), "fylla / Fylla"),
     Rule("daycare-raise", re.compile(r"\balum\b|\bAlum\b"), "ölum / Ölum"),
     Rule("critical-hit", re.compile(r"Gagnhögg|GAGNHÖGG|gagnhögg"), "Gæfuhögg"),
@@ -72,16 +87,51 @@ RULES = [
     Rule("dig-move", re.compile(r"\bDIG\b"), "GRAFA"),
     Rule("flash-move", re.compile(r"\bFLASH\b"), "LEIFTUR"),
     Rule("shock-wave-move", re.compile(r"\bSHOCK\s+WAVE\b"), "STUÐBYLGJA"),
+    Rule(
+        "move-name-alias",
+        re.compile(
+            r"\b(?:GAGNÁTAK|LIGHT SCREEN|VERNDARHJÚP|REFLECT|GIGA DRAIN|ÁFALLABYLGJA|"
+            r"ELDINGABYLGJA|RÓLEGUR HUGUR|EITURSTUNGA|FLJÚGA|ICE BEAM|BODY SLAM|"
+            r"SUBSTITUTE|TOXIC|EXPLOSION|RETURN|EARTHQUAKE|FISSURE|MIMIC|SWORDS DANCE|ABSORB|"
+            r"SAFEGUARD|BIND|MIST|UPROAR|STOCKPILE|RAGE|ENCORE|CURSE|SPIKES|TORMENT|TAUNT|WISH|"
+            r"SAND TOMB|LEECH SEED|SKETCH|NIGHTMARE|PERISH(?: SONG)?|SPIT UP|SWALLOW|HEAT WAVE|"
+            r"SOFTBOILED|MILK DRINK|ILMANGAN|KALA)\b"
+        ),
+        "canonical Icelandic name from src/data/text/move_names.h",
+    ),
     Rule("sonic-boom-move", re.compile(r"\bSONICBOOM\b"), "HLJÓÐBYLGJA"),
     Rule("rock-smash", re.compile(r"\bROCK\s+SMASH\b"), "GRJÓTMÖLUN"),
     Rule("waterfall", re.compile(r"\bWATERFALL\b"), "FOSS"),
     Rule("nature-power", re.compile(r"\bNATURE\s+POWER\b"), "NÁTTÚRUKRAFTUR"),
     Rule("mirror-move", re.compile(r"\bMIRROR\s+MOVE\b"), "SPEGLUN"),
     Rule("x-accuracy", re.compile(r"\bX\s+ACCURACY\b"), "X HITTNI"),
+    Rule(
+        "item-name-alias",
+        re.compile(
+            r"\b(?:GOOD ROD|SUPER ROD|EXP\. SHARE|ITEMFINDER|AMULET COIN|FULL RESTORE|"
+            r"SILPH SCOPE|DIRE HIT|GUARD SPEC\.|HP UP|CALCIUM|ZINC|CARBOS|PROTEIN|IRON|"
+            r"PP UP|MAX REPEL|SUPER REPEL|REPEL|FULL HEAL|AWAKENING|ANTIDOTE|ICE HEAL|"
+            r"PARLYZ HEAL|TINYMUSHROOMS|BIG MUSHROOM|LEMONADE|REVIVE|ENDURLÍFGANIR?|"
+            r"RÁÐGÁTUBER|MYSTICMIÐI|METEORITE|RUBY|SAPPHIRE|OLD AMBER|RARE CANDY|"
+            r"MOON STONE|NUGGET(?!\s+(?:BRIDGE|BRÚNA)))\b"
+        ),
+        "canonical Icelandic name from src/data/items.json",
+    ),
     Rule("green-path", re.compile(r"\bGREEN\s+PATH\b"), "GRÆNN STÍGUR"),
     Rule("pattern-bush", re.compile(r"\bPATTERN\s+BUSH\b"), "MYNSTURRUNNI / MYNSTURRUNNA"),
     Rule("english-ability-name", re.compile(r"(?:BATTLE ARMOR|SHADOW TAG|CLEAR BODY|NATURAL CURE|INNER FOCUS|SOUNDPROOF|MARVEL SCALE|LIQUID OOZE|ROCK HEAD|ARENA TRAP|WHITE SMOKE|PURE POWER)"), "Icelandic ability name"),
     Rule("viridian-forest", re.compile(r"VIRIDIAN\s+FOREST|Viridian\s+Forest"), "VIRIDIAN SKÓGUR / VIRIDIAN SKÓGI"),
+    Rule(
+        "pokemon-center-alias",
+        re.compile(r"vasaskrímsl(?:i|a)(?:-|\s*)miðstöð\w*", re.IGNORECASE),
+        "Vasaskrímslasetur / Vasaskrímslasetri",
+    ),
+    Rule("poke-flute-alias", re.compile(r"vasaflaut\w*", re.IGNORECASE), "VASA FLAUTA (with a space)"),
+    Rule("magnitude-move-alias", re.compile(r"STÆRÐ\s+\{B_BUFF1\}"), "STÆRÐARGRÁÐA {B_BUFF1}"),
+    Rule("elite-four-alias", re.compile(r"ELÍTUFERNING(?:UR|INN|NUM)?"), "ELÍTA 4 / ELÍTU 4"),
+    Rule("professor-oak-alias", re.compile(r"\b(?:PROF\.|PRÓF\.)\s+OAK\b|\bOAK:"), "PRÓF. EIK / EIK:"),
+    Rule("biker-class-alias", re.compile(r"\bBIKERS\b"), "HJÓLARAR / HJÓLARA"),
+    Rule("warden-alias", re.compile(r"\bWARDEN\b"), "VÖRÐUR / VÖRÐURINN"),
     Rule("nidoran-species", re.compile(r"\bNIDORAN(?:[♀♂])?\b"), "Náldur / NÁLDUR"),
     Rule("bug-species-phrase", re.compile(r"SKORDÝ\s+Vasaskrímsli|SKORDÝ\s+vasaskrímsli"), "SKORDÝRA Vasaskrímsli"),
     Rule("safari-zone", re.compile(r"SAFARI\s+ZONE|Safari\s+Zone"), "SAFARI SVÆÐI / Safari svæði"),
@@ -154,7 +204,12 @@ def extract_visible_texts(path: Path, line: str) -> list[str]:
     if suffix == ".json":
         if "/data/maps/" in path.as_posix().replace("\\", "/"):
             return []
-        if stripped.startswith('"name":') or stripped.startswith('"description":'):
+        if stripped.startswith((
+            '"name":',
+            '"english":',
+            '"description":',
+            '"description_english":',
+        )):
             return quoted_strings(stripped)[1:]
         return []
 

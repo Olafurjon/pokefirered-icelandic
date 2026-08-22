@@ -12,7 +12,7 @@ CeruleanCity_House1_Text_HaveJustTheThing::
 
 CeruleanCity_House1_Text_GoCrushBerriesAtDirectCorner::
     .string "Það er eitthvað nýtt á annarri hæð\n"
-    .string "vasaskrímslamiðstöðva, í DIRECT\p"
+    .string "Vasaskrímslasetra, í DIRECT\p"
     .string "CORNER.\p"
     .string "Þar var sett upp Wireless Adapter\n"
     .string "vél til að mylja BER.\p"
@@ -22,7 +22,7 @@ CeruleanCity_House1_Text_GoCrushBerriesAtDirectCorner::
     .string "Geturðu búið til BERJADUFT fyrir mig\n"
     .string "með vélinni?\p"
     .string "Ekki gleyma, vélin er í DIRECT\n"
-    .string "CORNER í vasaskrímslamiðstöðvum.\p"
+    .string "CORNER í Vasaskrímslasetrum.\p"
     .string "Ég blanda lyf fyrir þig ef þú kemur\n"
     .string "með BERJADUFT.\p"
     .string "Ekki gleyma, myldu BER í BERJADUFT\n"
@@ -65,4 +65,3 @@ CeruleanCity_House1_Text_HopeToSeeYouAgain::
 CeruleanCity_House1_Text_SeeMeIfYoudLikeToTradePowder::
     .string "Komdu til mín ef þú vilt skipta\n"
     .string "BERJADUFTINU þínu.$"
-

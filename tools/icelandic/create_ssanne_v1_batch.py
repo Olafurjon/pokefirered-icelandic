@@ -63,8 +63,8 @@ TRANSLATIONS = {
     "SSAnne_1F_Room2_Text_AnnPostBattle": t("""
         Þú meiddir greyið vasaskrímslin mín!
 
-        Ég krefst þess að þú læknir þau í
-        vasaskrímslamiðstöð!
+        Ég krefst þess að þú læknir þau á
+        Vasaskrímslasetri!
     """),
     "SSAnne_1F_Room2_Text_CruisingAroundWorld": t("""
         Við erum í siglingu um heiminn, ég og

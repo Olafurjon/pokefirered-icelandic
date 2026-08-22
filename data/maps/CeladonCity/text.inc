@@ -38,7 +38,7 @@ CeladonCity_Text_KeepOutOfTeamRocketsWay::
 CeladonCity_Text_ExplainXAccuracyDireHit::
     .string "ÞJÁLFARA RÁÐ\p"
     .string "X HITTNI eykur nákvæmni bragða.\p"
-    .string "DIRE HIT hækkar líkurnar á rothöggi.\p"
+    .string "BEITT HÖGG hækkar líkurnar á rothöggi.\p"
     .string "Kauptu hlutina þína í\n"
     .string "CELADON-STÓRVERSLUN!$"
 
@@ -103,7 +103,7 @@ Text_SoftboiledTaught::
 
 CeladonCity_Text_SomeoneStoleSilphScope::
     .string "Ó, hvað á ég að gera...\p"
-    .string "Einhver stal SILPH SCOPE okkar.\p"
+    .string "SILPH-SJÁ okkar var stolið.\p"
     .string "Þjófurinn hljóp þessa leið, ég er\n"
     .string "viss um það.\p"
     .string "En ég missti sjónar á honum! Hvert\n"

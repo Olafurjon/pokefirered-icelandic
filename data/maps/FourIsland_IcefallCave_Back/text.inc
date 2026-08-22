@@ -50,7 +50,7 @@ FourIsland_IcefallCave_Back_Text_LoreleiWellDeepFreezeYou::
     .string "við þig í gegn.\p"
     .string "LAGARGANDAN mín er æf yfir því sem\n"
     .string "þið gerðuð vinum hennar.\p"
-    .string "Áfram, LAGARGANDA! ICE BEAM…$"
+    .string "Áfram, LAGARGANDA! ÍSGEISLI…$"
 
 FourIsland_IcefallCave_Back_Text_OkayRocketWareHouseFiveIsland::
     .string "Vááá! Allt í lagi! Ég tala!\p"

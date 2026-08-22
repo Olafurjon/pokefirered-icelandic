@@ -1,6 +1,6 @@
 RocketHideout_B2F_Text_GruntIntro::
     .string "FORINGINN sagði að hægt væri að sjá\n"
-    .string "drauga með SILPH SCOPE.$"
+    .string "drauga með SILPH-SJÁ.$"
 
 RocketHideout_B2F_Text_GruntDefeat::
     .string "Ég gefst upp!$"

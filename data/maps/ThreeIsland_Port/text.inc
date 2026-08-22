@@ -20,7 +20,6 @@ ThreeIsland_Port_Text_ThankGoodnessBikersGone::
     .string "svo sannarlega!$"
 
 ThreeIsland_Port_Text_EverythingTurnedOutForBest::
-    .string "Þessir BIKERS hlupu í burtu, og\n"
+    .string "Þessir HJÓLARAR hlupu í burtu, og\n"
     .string "LOSTELLE fannst heil á húfi.\p"
     .string "Allt endaði vel!$"
-

@@ -4,8 +4,8 @@ TwoIsland_House_Text_TeachMonMoveForMushroom::
     .string "sem Vasaskrímsli læra þegar þau\p"
     .string "vaxa.\p"
     .string "Ég er líka sveppasjúkur.\p"
-    .string "Komdu með tvo TINYMUSHROOMS eða einn\n"
-    .string "BIG MUSHROOM.\p"
+    .string "Komdu með tvo LITLA SVEPPI eða einn\n"
+    .string "STÓRAN SVEPP.\p"
     .string "Ef þú gerir það fyrir mig kenni ég\n"
     .string "Vasaskrímsli hreyfingu.$"
 
@@ -31,7 +31,7 @@ TwoIsland_House_Text_IllNeedMushroomOrTwo::
     .string "ætlarðu að gefa mér?$"
 
 TwoIsland_House_Text_HandedOverTwoTinyMushrooms::
-    .string "{PLAYER} afhenti tvo TINYMUSHROOMS í\n"
+    .string "{PLAYER} afhenti tvo LITLA SVEPPI í\n"
     .string "staðinn.$"
 
 TwoIsland_House_Text_HandedOverOneBigMushroom::
@@ -45,4 +45,3 @@ TwoIsland_House_Text_NeedMushroomOrTwoToLearnMove::
 TwoIsland_House_Text_CantTeachAnEgg::
     .string "Ha? Það er ekki ein einasta hreyfing\n"
     .string "sem ég get kennt EGGI.$"
-

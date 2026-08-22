@@ -88,6 +88,14 @@ This document records approved terminology and style rules for the Icelandic ver
 | MAX POTION | OFURSEYÐI | Healing item family; compact name. |
 | RARE CANDY | OFUR NAMMI | Level-up candy item; prefer this over `SJALDSÆLGÆTI`/`SJALD.SYKR`. |
 | POKé FLUTE | VASA FLAUTA | Item name. |
+| LEMONADE | SÍTRÓNULAÐI | Healing drink item. |
+| REVIVE | LÍFGUNARLYF | Revival item. |
+| ENIGMA BERRY | ENIGMA BER | Berry item. |
+| METEORITE | LOFTSTEINN | Quest item. |
+| OLD AMBER | GAMALT RAF | Fossil quest item. |
+| RUBY | RÚBÍN | Sevii quest item. |
+| SAPPHIRE | SAFÍR | Sevii quest item. |
+| NUGGET | GULLKLUMPUR | Valuable item. |
 | BERRY JUICE | BERJASAFI | Item name. |
 | EXP. SHARE | REYNSLUDEILIR | Item name. |
 | SECRET KEY | LEYNDARLYKILL | Item name. |
@@ -114,6 +122,32 @@ This document records approved terminology and style rules for the Icelandic ver
 | Hidden Power | Falinn kraftur | Move name; all-caps display `FALINN KRAFTUR`. |
 | Brick Break | Múrbrot | Move name; all-caps display `MÚRBROT`. |
 | Secret Power | Leynikraftur | Move name; all-caps display `LEYNIKRAFTUR`. |
+| Safeguard | Skjól | Move name; all-caps display `SKJÓL`. |
+| Bind | Binda | Move name; all-caps display `BINDA`. |
+| Mist | Þoka | Move name; all-caps display `ÞOKA`. |
+| Uproar | Læti | Move name; all-caps display `LÆTI`. |
+| Stockpile | Birgðasöfnun | Move name; all-caps display `BIRGÐASÖFNUN`. |
+| Rage | Æði | Move name; all-caps display `ÆÐI`. |
+| Encore | Uppklapp | Move name; all-caps display `UPPKLAPP`. |
+| Curse | Bölvun | Move name; all-caps display `BÖLVUN`. |
+| Spikes | Broddar | Move name; all-caps display `BRODDAR`. |
+| Torment | Píning | Move name; all-caps display `PÍNING`. |
+| Taunt | Hæðni | Move name; all-caps display `HÆÐNI`. |
+| Wish | Ósk | Move name; all-caps display `ÓSK`. |
+| Sand Tomb | Sandgröf | Move name; all-caps display `SANDGRÖF`. |
+| Leech Seed | Blóðsugurfræ | Move name; all-caps display `BLÓÐSUGURFRÆ`. |
+| Substitute | Staðgengill | Move name; all-caps display `STAÐGENGILL`. |
+| Sketch | Skissa | Move name; all-caps display `SKISSA`. |
+| Nightmare | Martröð | Move name; all-caps display `MARTRÖÐ`. |
+| Perish Song | Dauðasöngur | Move name; all-caps display `DAUÐASÖNGUR`. |
+| Spit Up | Hræka upp | Move name; all-caps display `HRÆKJA UPP`. |
+| Swallow | Kyngja | Move name; all-caps display `KYNGJA`. |
+| Heat Wave | Hitabylgja | Move name; all-caps display `HITABYLGJA`. |
+| Soft-Boiled | Mjúksoðið | Move name; all-caps display `MJÚKSOÐIÐ`. |
+| Milk Drink | Mjólkursopi | Move name; all-caps display `MJÓLKURSOPI`. |
+| Sweet Scent | Sætur ilmur | Move name; all-caps display `SÆTUR ILMUR`; inflect naturally in prose. |
+| Magnitude | Stærðargráða | Move name; all-caps display `STÆRÐARGRÁÐA`. |
+| Grudge | Heift | Move name; all-caps display `HEIFT`. |
 
 ## Stats And Battle Terms
 
@@ -121,12 +155,14 @@ This document records approved terminology and style rules for the Icelandic ver
 | --- | --- | --- |
 | ATTACK | ÁRÁS | Stat name. Use `ÁRÁSAR` in genitive phrases. |
 | DEFENSE / DEFEND | VÖRN | Stat name. |
+| SPECIAL ATTACK / SP. ATK | SÉR. ÁRÁS | Stat name; avoid the English abbreviation in visible prose. |
+| SPECIAL DEFENSE / SP. DEF | SÉR. VÖRN | Stat name; avoid the English abbreviation in visible prose. |
 | SPEED | HRAÐI | Stat name. |
 | SPECIAL | SÉR | Compact UI/stat shorthand. |
 | Nature | Eðli | Summary page label; individual nature names are localized. |
 | INFO | UPPL. | Summary page tab, short for upplýsingar. |
 | SKILLS | HÆFNI | Summary page tab. |
-| catch | fanga | Use for catching monsters. |
+| catch / caught / captured | fanga / fangað / fangaði | Use for catching monsters; never `handtaka` or `veiða`. |
 | fishing / fish | veiða | Use only in fishing context. |
 | fast asleep | steinsefur | Battle status phrase; avoid `steinsofur`. |
 | critical hit | Gæfuhögg | Battle message; avoid `Gagnhögg`. |

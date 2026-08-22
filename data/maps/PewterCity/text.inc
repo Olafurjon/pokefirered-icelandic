@@ -56,7 +56,7 @@ PewterCity_Text_ThatsRightItsHardWork::
     .string "Rétt! Þetta er erfið vinna!$"
 
 PewterCity_Text_SprayingRepelToKeepWildMonsOut::
-    .string "Ég úða REPEL til að halda villtum\n"
+    .string "Ég úða FÆLIEFNI til að halda villtum\n"
     .string "vasaskrímslum frá garðinum mínum!$"
 
 PewterCity_Text_BrocksLookingForChallengersFollowMe::

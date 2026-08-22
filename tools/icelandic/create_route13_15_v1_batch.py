@@ -185,7 +185,7 @@ TRANSLATIONS = {
     """),
     "Route14_Text_MarlonIntro": t("""
         Hefurðu kennt fugla-vasaskrímslinu þínu
-        að FLJÚGA?
+        hreyfinguna FLUG?
 
         Þá geturðu svifið með því upp í
         himininn!
@@ -399,7 +399,7 @@ TRANSLATIONS = {
     "Route15_Text_ErnestPostBattle": t("""
         Lífið er of stutt.
         Það er svalt að lifa sem útlagi.
-        TEAM ROCKET RÆÐUR!
+        ROCKET-GENGIÐ RÆÐUR!
     """),
     "Route15_Text_AlexIntro": t("""
         Láttu mig fá alla peningana þína þegar
@@ -475,18 +475,18 @@ TRANSLATIONS = {
         Ert þú krakkinn sem er að vinna í
         VasaDEX?
 
-        AÐSTOÐARMAÐUR PROF. OAK kom hér við.
+        AÐSTOÐARMAÐUR PRÓF. EIKAR kom hér við.
     """),
     "Route15_WestEntrance_2F_Text_GiveItemIfCaughtEnough": t("""
         Hæ! Manstu eftir mér?
-        Ég er einn af AÐSTOÐARMÖNNUM PROF.
-        OAK.
+        Ég er einn af AÐSTOÐARMÖNNUM PRÓF.
+        EIKAR.
 
         Ef VasaDEX-ið þitt er með full gögn
         um {STR_VAR_1} tegundir á ég að gefa
         þér verðlaun.
 
-        PROF. OAK fól mér {STR_VAR_2} handa
+        PRÓF. EIK fól mér {STR_VAR_2} handa
         þér.
 
         Svo, {PLAYER}, leyfðu mér að spyrja.

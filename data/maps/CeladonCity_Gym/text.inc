@@ -37,7 +37,7 @@ CeladonCity_Gym_Text_ReceivedTM19FromErika::
     .string "{PLAYER} fékk TM19 frá ERIKA.$"
 
 CeladonCity_Gym_Text_ExplainTM19::
-    .string "TM19 inniheldur GIGA DRAIN.\p"
+    .string "TM19 inniheldur GÍGASOG.\p"
     .string "Helmingur skaðans sem það veldur\n"
     .string "rennur til baka og læknar\p"
     .string "vasaskrímslið þitt.\p"

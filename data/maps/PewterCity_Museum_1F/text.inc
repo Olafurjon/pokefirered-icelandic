@@ -60,11 +60,11 @@ PewterCity_Museum_1F_Text_WantYouToGetAmberExamined::
     .string "vasaskrímsli.$"
 
 PewterCity_Museum_1F_Text_ReceivedOldAmberFromMan::
-    .string "{PLAYER} fékk OLD AMBER frá\n"
+    .string "{PLAYER} fékk GAMALT RAF frá\n"
     .string "manninum.$"
 
 PewterCity_Museum_1F_Text_GetOldAmberChecked::
-    .string "Suss! Láttu skoða OLD AMBER!$"
+    .string "Suss! Láttu skoða GAMALT RAF!$"
 
 PewterCity_Museum_1F_Text_DontHaveSpaceForThis::
     .string "Þú hefur ekki pláss fyrir þetta.$"
@@ -85,4 +85,3 @@ PewterCity_Museum_1F_Text_AerodactylFossil::
 PewterCity_Museum_1F_Text_KabutopsFossil::
     .string "DJÚPSAXI steingervingur Frumstætt og\n"
     .string "sjaldgæft vasaskrímsli.$"
-

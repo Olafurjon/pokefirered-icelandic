@@ -64,7 +64,7 @@ ViridianCity_School_Text_ExplainSleep::
     .string "það er sofandi.\p"
     .string "Vasaskrímsli mun vera sofandi\n"
     .string "jafnvel eftir bardaga.\p"
-    .string "Notaðu AWAKENING til að vekja það úr\n"
+    .string "Notaðu VAKNINGARLYF til að vekja það úr\n"
     .string "svefni.$"
 
 ViridianCity_School_Text_ExplainBurn::
@@ -77,14 +77,14 @@ ViridianCity_School_Text_ExplainPoison::
     .string "Þegar eitrað, lækkar heilsa\n"
     .string "Vasaskrímslis stöðugt.\p"
     .string "Eitur er eftir bardaga. Notaðu\n"
-    .string "ANTIDOTE til að lækna eitur!$"
+    .string "MÓTEITUR til að lækna eitur!$"
 
 ViridianCity_School_Text_ExplainFreeze::
     .string "Frosið Vasaskrímsli verður\n"
     .string "hjálparlaust óhreyfanlegt.\p"
     .string "Það helst frosið jafnvel eftir að\n"
     .string "bardaganum lýkur.\p"
-    .string "Notaðu ICE HEAL til að þíða þjáða\n"
+    .string "Notaðu KULDALYF til að þíða þjáða\n"
     .string "Vasaskrímslið.$"
 
 ViridianCity_School_Text_ExplainParalysis::
@@ -92,4 +92,4 @@ ViridianCity_School_Text_ExplainParalysis::
     .string "í veg fyrir að Vasaskrímslið\p"
     .string "hreyfi sig.\p"
     .string "Lömun er eftir bardaga. Notaðu\n"
-    .string "PARLYZ HEAL til meðferðar.$"
+    .string "LÖMUNARLYF til meðferðar.$"

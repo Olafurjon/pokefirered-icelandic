@@ -61,7 +61,8 @@ OneIsland_PokemonCenter_1F_Text_CanYouDeliverThisMeteoritePlayer::
     .string "hefur farið með þetta til hans.$"
 
 OneIsland_PokemonCenter_1F_Text_AcceptedMeteoriteFromBill::
-    .string "{PLAYER} þáði METEORITE frá BILL.$"
+    .string "{PLAYER} fékk hlutinn LOFTSTEINN\n"
+    .string "frá BILL.$"
 
 OneIsland_PokemonCenter_1F_Text_CelioPleaseTakeThis::
     .string "CELIO: {PLAYER}, ef þú ert að fara\n"
@@ -193,7 +194,7 @@ OneIsland_PokemonCenter_1F_Text_OhThats::
     .string "Ó! Þ-þetta er…$"
 
 OneIsland_PokemonCenter_1F_Text_HandedRubyToCelio::
-    .string "{PLAYER} afhenti CELIO RUBY.$"
+    .string "{PLAYER} afhenti CELIO RÚBÍN.$"
 
 OneIsland_PokemonCenter_1F_Text_MayIAskOneMoreFavor::
     .string "Takk fyrir! {PLAYER}, þú ert\n"
@@ -210,7 +211,7 @@ OneIsland_PokemonCenter_1F_Text_AnotherGemstoneInSeviiIslands::
     .string "Á meðan ég var að rannsaka gimsteina\n"
     .string "uppgötvaði ég eitthvað mikilvægt.\p"
     .string "Það er annar gimsteinn sem myndar\n"
-    .string "par með þessum RUBY.\p"
+    .string "par með þessum RÚBÍN.\p"
     .string "Sá gimsteinn á að vera í SEVII\n"
     .string "EYJUM.\p"
     .string "{PLAYER}, vinsamlegast, ég þarf að\n"
@@ -231,11 +232,11 @@ OneIsland_PokemonCenter_1F_Text_PassLetYouGetToAllIslands::
     .string "ekki án hjálpar þinnar.$"
 
 OneIsland_PokemonCenter_1F_Text_HandedSapphireToCelio::
-    .string "{PLAYER} afhenti CELIO SAPPHIRE.$"
+    .string "{PLAYER} afhenti CELIO SAFÍR.$"
 
 OneIsland_PokemonCenter_1F_Text_ThankYouGiveMeTime::
     .string "CELIO: Svo þetta er gimsteinninn sem\n"
-    .string "myndar par með RUBY…\p"
+    .string "myndar par með RÚBÍN…\p"
     .string "{PLAYER}, þú hefur gengið í gegnum\n"
     .string "margt til að fá hann, er það ekki?\p"
     .string "Þú þarft ekki að segja mér það. Ég\n"

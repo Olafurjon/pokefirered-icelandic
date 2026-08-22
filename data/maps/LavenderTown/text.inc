@@ -26,7 +26,7 @@ LavenderTown_Text_TownSign::
     .string "borg$"
 
 LavenderTown_Text_SilphScopeNotice::
-    .string "Nýtt SILPH SCOPE! Gerðu hið\n"
+    .string "Ný SILPH-SJÁ! Gerðu hið\n"
     .string "ósýnilega sýnilegt!\p"
     .string "SILPH CO.$"
 

@@ -1,5 +1,5 @@
 FuchsiaCity_WardensHouse_Text_HifFuffHefifoo::
-    .string "WARDEN: Hif fuff hefifoo!\p"
+    .string "VÖRÐUR: Hif fuff hefifoo!\p"
     .string "Ha lof ha feef ee hafahi ho. Heff\n"
     .string "hee fwee!$"
 
@@ -13,7 +13,7 @@ FuchsiaCity_WardensHouse_Text_GaveGoldTeethToWarden::
     .string "{PLAYER} gaf VÖRÐINUM GULLTENNURNAR.$"
 
 FuchsiaCity_WardensHouse_Text_WardenPoppedInHisTeeth::
-    .string "WARDEN setti tennurnar í sig!$"
+    .string "VÖRÐURINN setti tennurnar í sig!$"
 
 FuchsiaCity_WardensHouse_Text_ThanksSonGiveYouSomething::
     .string "VÖRÐUR: Takk, sonur! Þú ert\n"
@@ -56,4 +56,3 @@ FuchsiaCity_WardensHouse_Text_MonPhotosFossilsOnDisplay::
 FuchsiaCity_WardensHouse_Text_OldMonMerchandiseOnDisplay::
     .string "Gamall Vasaskrímsla-varningur er til\n"
     .string "sýnis.$"
-

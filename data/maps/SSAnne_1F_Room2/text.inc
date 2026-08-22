@@ -21,9 +21,8 @@ SSAnne_1F_Room2_Text_AnnDefeat::
 SSAnne_1F_Room2_Text_AnnPostBattle::
     .string "Þú meiddir greyið vasaskrímslin mín!\p"
     .string "Ég krefst þess að þú læknir þau í\n"
-    .string "vasaskrímslamiðstöð!$"
+    .string "Vasaskrímslasetri!$"
 
 SSAnne_1F_Room2_Text_CruisingAroundWorld::
     .string "Við erum í siglingu um heiminn, ég\n"
     .string "og börnin mín.$"
-

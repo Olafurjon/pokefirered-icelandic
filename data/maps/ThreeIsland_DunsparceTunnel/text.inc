@@ -16,11 +16,10 @@ ThreeIsland_DunsparceTunnel_Text_StruckGoldThisIsForYou::
     .string "þig!$"
 
 ThreeIsland_DunsparceTunnel_Text_ThatsANugget::
-    .string "Þetta er NUGGET!\p"
+    .string "Þetta er GULLKLUMPUR!\p"
     .string "Ég get ekki gefið þér neina gullmola\n"
     .string "af visku, svo þetta verður að duga!$"
 
 ThreeIsland_DunsparceTunnel_Text_WhoopsBagCrammedFull::
     .string "Úbbs, TASKAN þín er troðfull! Ég gef\n"
     .string "þér þetta seinna.$"
-

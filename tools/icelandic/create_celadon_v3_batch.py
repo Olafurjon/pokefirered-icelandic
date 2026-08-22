@@ -21,7 +21,7 @@ TRANSLATIONS = {
 
         X ACCURACY eykur nákvæmni bragða.
 
-        DIRE HIT hækkar líkurnar á
+        BEITT HÖGG hækkar líkurnar á
         rothöggi.
 
         Kauptu hlutina þína í
@@ -41,7 +41,7 @@ TRANSLATIONS = {
     "CeladonCity_Text_GuardSpecProtectsFromStatus": t("""
         ÞJÁLFARARÁÐ
 
-        GUARD SPEC. verndar vasaskrímsli
+        VARÐSPEC. verndar vasaskrímsli
         gegn brögðum sem lækka stöður í
         bardaga.
 
@@ -71,7 +71,7 @@ TRANSLATIONS = {
     "CeladonCity_Text_SomeoneStoleSilphScope": t("""
         Ó, hvað á ég að gera...
 
-        Einhver stal SILPH SCOPE okkar.
+        SILPH-SJÁ okkar var stolið.
 
         Þjófurinn hljóp þessa leið, ég er
         viss um það.
@@ -192,7 +192,7 @@ TRANSLATIONS = {
         bragð?
 
         Bragðið sem ég hef í huga er
-        GAGNÁTAK.
+        GAGNATÁRÁS.
 
         Ekki afgreiðsluborðið sem ég halla
         mér á, athugaðu það!
@@ -242,7 +242,7 @@ TRANSLATIONS = {
         frá litlu stelpunni.
     """),
     "CeladonCity_DepartmentStore_Roof_Text_ExplainTM16": t("""
-        TM16 inniheldur LIGHT SCREEN.
+        TM16 inniheldur LJÓSSKJÓL.
 
         Bragðið veikir kraft sérárása
         andstæðingsins.
@@ -264,7 +264,7 @@ TRANSLATIONS = {
         Þú mátt fá þetta frá mér!
     """),
     "CeladonCity_DepartmentStore_Roof_Text_ExplainTM33": t("""
-        TM33 inniheldur REFLECT.
+        TM33 inniheldur ENDURVARP.
 
         Bragðið veikir kraft líkamlegra
         árása andstæðingsins.
@@ -490,7 +490,7 @@ TRANSLATIONS = {
         frá ERIKA.
     """),
     "CeladonCity_Gym_Text_ExplainTM19": t("""
-        TM19 inniheldur GIGA DRAIN.
+        TM19 inniheldur GÍGASOG.
 
         Helmingur skaðans sem það veldur
         rennur til baka og læknar
@@ -666,7 +666,7 @@ TRANSLATIONS = {
         Þetta er búddískt altari...
     """),
     "CeladonCity_PokemonCenter_1F_Text_PokeFluteAwakensSleepingMons": t("""
-        VASAFLAUTA vekur sofandi
+        VASA FLAUTA vekur sofandi
         vasaskrímsli.
         Þú veist það.
 

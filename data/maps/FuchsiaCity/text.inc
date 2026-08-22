@@ -93,7 +93,7 @@ Text_SubstituteDeclined::
 
 Text_SubstituteWhichMon::
     .string "Hvaða Vasaskrímsli vill læra\n"
-    .string "SUBSTITUTE?$"
+    .string "STAÐGENGIL?$"
 
 Text_SubstituteTaught::
     .string "Ó, hvað ég gæfi fyrir að skríða í\n"

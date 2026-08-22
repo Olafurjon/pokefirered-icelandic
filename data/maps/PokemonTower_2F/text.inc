@@ -29,5 +29,4 @@ PokemonTower_2F_Text_RivalPostBattle::
 PokemonTower_2F_Text_SilphScopeCouldUnmaskGhosts::
     .string "Jafnvel við gátum ekki borið kennsl\n"
     .string "á villandi draugana.\p"
-    .string "SILPH SCOPE gæti afhjúpað þá.$"
-
+    .string "SILPH-SJÁ gæti afhjúpað þá.$"

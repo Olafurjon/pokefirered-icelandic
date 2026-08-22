@@ -1,5 +1,5 @@
 SafariZone_East_Text_HowManyDidYouCatch::
-    .string "Hversu mörg veiddirðu? Ég er úrvinda\n"
+    .string "Hversu mörg fangaðirðu? Ég er úrvinda\n"
     .string "af áreynslunni!$"
 
 SafariZone_East_Text_CaughtChanseyAllWorthwhile::
@@ -9,4 +9,3 @@ SafariZone_East_Text_CaughtChanseyAllWorthwhile::
 SafariZone_East_Text_TiredFromAllTheFun::
     .string "Púff! Ég er þreyttur eftir alla\n"
     .string "skemmtunina!$"
-

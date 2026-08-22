@@ -23,7 +23,7 @@ CeladonCity_Condominiums_RoofRoom_Text_ReadWhichHeading::
 CeladonCity_Condominiums_RoofRoom_Text_ExplainWirelessClub::
     .string "VASASKRÍMSLA-ÞRÁÐLAUSI KLÚBBURINN er\n"
     .string "uppi á hæð á öllum\p"
-    .string "VASASKRÍMSLA-MIÐSTÖÐVUM.\p"
+    .string "VASASKRÍMSLASETRUM.\p"
     .string "Hittu vin til að tengjast með\n"
     .string "þráðlausa millistykkinu þínu.$"
 
@@ -51,4 +51,3 @@ CeladonCity_Condominiums_RoofRoom_Text_PamphletOnTMs::
     .string "Það eru líka sjö HM-brögð sem má\n"
     .string "nota aftur og aftur.\p"
     .string "SILPH CO.$"
-

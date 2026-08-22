@@ -1,6 +1,6 @@
 VictoryRoad_2F_Text_DawsonIntro::
     .string "Ef þú kemst hér í gegn geturðu farið\n"
-    .string "að mæta ELÍTUFERNINGNUM.$"
+    .string "að mæta ELÍTU 4.$"
 
 VictoryRoad_2F_Text_DawsonDefeat::
     .string "Nei! Ótrúlegt!$"
@@ -22,7 +22,7 @@ VictoryRoad_2F_Text_DaisukePostBattle::
 
 VictoryRoad_2F_Text_NelsonIntro::
     .string "Ah, svo þú vilt skora á\n"
-    .string "ELÍTUFERNINGINN?$"
+    .string "ELÍTU 4?$"
 
 VictoryRoad_2F_Text_NelsonDefeat::
     .string "Þú náðir mér!$"

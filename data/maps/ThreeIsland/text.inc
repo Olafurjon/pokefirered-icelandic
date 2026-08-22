@@ -125,7 +125,7 @@ ThreeIsland_Text_ThankYouOhYourMonGotHurt::
     .string "mín vegna.$"
 
 ThreeIsland_Text_GivenFullRestore::
-    .string "{PLAYER} fékk FULL RESTORE.$"
+    .string "{PLAYER} fékk ALGRÆÐI.$"
 
 ThreeIsland_Text_OhYourBagIsFull::
     .string "Ó? Taskan þín er full.$"
@@ -151,7 +151,7 @@ ThreeIsland_Text_WouldntWantToSeeBikersHereAgain::
     .string "af eyjunum hér.\p"
     .string "Samt gæti hún verið minna syfjuð.\p"
     .string "En ég myndi ekki vilja sjá skúrka\n"
-    .string "eins og þessa BIKERS hér aftur.$"
+    .string "eins og þessa HJÓLARA hér aftur.$"
 
 ThreeIsland_Text_WhenDodouEvolvesGoingToPlayGame::
     .string "Ég ætla að þjálfa PARFUGL minn í\n"

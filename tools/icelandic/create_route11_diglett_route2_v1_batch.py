@@ -164,14 +164,14 @@ TRANSLATIONS = {
     """),
     "Route11_EastEntrance_2F_Text_GiveItemfinderIfCaught30": t("""
         Hæ! Manstu eftir mér?
-        Ég er einn af AÐSTOÐARMÖNNUM PROF.
-        OAK.
+        Ég er einn af AÐSTOÐARMÖNNUM PRÓF.
+        EIKAR.
 
         Ef VasaDEX-ið þitt er með full gögn
         um {STR_VAR_1} tegundir á ég að gefa þér
         verðlaun.
 
-        PROF. OAK fól mér {STR_VAR_2} handa
+        PRÓF. EIK fól mér {STR_VAR_2} handa
         þér.
 
         Svo, {PLAYER}, leyfðu mér að spyrja.
@@ -234,14 +234,14 @@ TRANSLATIONS = {
     """),
     "Route2_EastBuilding_Text_GiveHM05IfSeen10Mons": t("""
         Hæ! Manstu eftir mér?
-        Ég er einn af AÐSTOÐARMÖNNUM PROF.
-        OAK.
+        Ég er einn af AÐSTOÐARMÖNNUM PRÓF.
+        EIKAR.
 
         Ef VasaDEX-ið þitt er með full gögn
         um tíu tegundir á ég að gefa þér
         verðlaun.
 
-        PROF. OAK fól mér HM05 handa þér.
+        PRÓF. EIK fól mér HM05 handa þér.
 
         Svo, {PLAYER}, leyfðu mér að spyrja.
 

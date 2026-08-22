@@ -47,7 +47,7 @@ CeruleanCity_House1_Text_ObeyLv50Strength::
     .string "STYRKUR utan bardaga.$"
 
 CeruleanCity_House1_Text_DefenseStatSurf::
-    .string "DEFENSE gildi allra vasaskrímslanna\n"
+    .string "VÖRN allra vasaskrímslanna\n"
     .string "þinna hækkar örlítið.\p"
     .string "Það leyfir þér líka að nota BRIM\n"
     .string "utan bardaga.$"
@@ -63,7 +63,7 @@ CeruleanCity_House1_Text_ObeyLv70RockSmash::
     .string "GRJÓTMÖLUN utan bardaga.$"
 
 CeruleanCity_House1_Text_SpStatsWaterfall::
-    .string "SP. ATK og SP. DEF gildi allra\n"
+    .string "SÉR. ÁRÁS og SÉR. VÖRN allra\n"
     .string "vasaskrímslanna þinna hækka örlítið.\p"
     .string "Það leyfir þér líka að nota\n"
     .string "FOSS utan bardaga.$"

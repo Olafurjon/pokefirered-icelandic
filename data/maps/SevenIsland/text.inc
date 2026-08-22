@@ -4,7 +4,7 @@ Text_SwordsDanceTeach::
     .string "ég verð sterkari og sterkari.\p"
     .string "Já, sterkari og sterkari…\p"
     .string "Viltu læra slíka árás?\n"
-    .string "Hún er SWORDS DANCE.$"
+    .string "Hún er SVERÐADANS.$"
 
 Text_SwordsDanceDeclined::
     .string "Jæja, það er líka í lagi.$"

@@ -42,14 +42,14 @@ Route13_Text_GwenPostBattle::
     .string "berjast til að herða þau.$"
 
 Route13_Text_AlmaIntro::
-    .string "Ég fann CARBOS í helli einu sinni á\n"
+    .string "Ég fann KOLEFNI í helli einu sinni á\n"
     .string "meðan ég var að hellaskoða.$"
 
 Route13_Text_AlmaDefeat::
     .string "Ó, of slæmt! Ég klúðraði bara!$"
 
 Route13_Text_AlmaPostBattle::
-    .string "CARBOS hækkaði HRAÐA\n"
+    .string "KOLEFNI hækkaði HRAÐA\n"
     .string "Vasaskrímslisins míns.$"
 
 Route13_Text_PerryIntro::

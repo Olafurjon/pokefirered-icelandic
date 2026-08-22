@@ -655,11 +655,11 @@ TRANSLATIONS = {
         VESTUR: MIÐSVÆÐI
     """),
     "SafariZone_East_Text_HowManyDidYouCatch": t("""
-        Hversu mörg náðirðu?
+        Hversu mörg fangaðirðu?
         Ég er örmagna eftir átakið!
     """),
     "SafariZone_East_Text_CaughtChanseyAllWorthwhile": t("""
-        Ég náði SÆLEGGI!
+        Ég fangaði SÆLEGG!
 
         Það gerir þetta allt þess virði.
     """),

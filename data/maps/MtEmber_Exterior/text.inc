@@ -13,7 +13,7 @@ Text_ExplosionDeclined::
 Text_ExplosionWhichMon::
     .string "Þú ert hrikalega hugrakkur!\p"
     .string "Hvaða Vasaskrímsli á ég að kenna\n"
-    .string "EXPLOSION?$"
+    .string "SPRENGINGU?$"
 
 Text_ExplosionTaught::
     .string "Að nota SPRENGINGU á þessu\n"

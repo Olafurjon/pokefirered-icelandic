@@ -73,7 +73,7 @@ SaffronCity_Text_GymSign::
 
 SaffronCity_Text_FullHealCuresStatus::
     .string "ÞJÁLFARA RÁÐ\p"
-    .string "FULL HEAL læknar öll mein eins og\n"
+    .string "ALHEILSULYF læknar öll mein eins og\n"
     .string "bruna, lömun, eitrun, frost og\p"
     .string "svefn.\p"
     .string "Það kostar aðeins meira, en er\n"

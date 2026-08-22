@@ -11,9 +11,8 @@ SaffronCity_House_Text_GettingCopycatPokeDoll::
     .string "VASa DÚKKU handa henni.$"
 
 SaffronCity_House_Text_ExplainPPUp::
-    .string "Ég fékk PP UP að gjöf.\p"
+    .string "Ég fékk TÆKNIUPPÖRVUN að gjöf.\p"
     .string "Það er notað til að hækka PP á\n"
     .string "hreyfingu Vasaskrímslis.\p"
     .string "Ég ætti að nota það á öfluga\n"
     .string "hreyfingu með fá PP.$"
-
