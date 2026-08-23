@@ -698,6 +698,15 @@ class GameplaySanityTests(unittest.TestCase):
         self.assertNotIn("IsNationalPokedexEnabled()", evolution_target_text)
         self.assertNotIn("targetSpecies <= KANTO_SPECIES_END", evolution_target_text)
 
+    def test_hm_moves_can_be_replaced_when_learning_a_move(self) -> None:
+        summary_text = (self.root / "src" / "pokemon_summary_screen.c").read_text(encoding="utf-8")
+        battle_text = (self.root / "src" / "battle_script_commands.c").read_text(encoding="utf-8")
+        evolution_text = (self.root / "src" / "evolution_scene.c").read_text(encoding="utf-8")
+
+        self.assertNotIn("IsMoveHm(move)", summary_text)
+        self.assertNotIn("IsHMMove2(moveId)", battle_text)
+        self.assertNotIn("IsHMMove2(move)", evolution_text)
+
     def test_celadon_department_store_sells_evolution_items(self) -> None:
         shop_text = (
             self.root / "data" / "maps" / "CeladonCity_DepartmentStore_4F" / "scripts.inc"

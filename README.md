@@ -89,7 +89,9 @@ ROM build for pull requests and pushes to `main`.
   Laukeðla in Viridian Forest, Glóðmandra on Route 3, and Sprautill on Route 24.
 - The National Dex upgrade after the first Elite Four victory no longer requires
   60 caught species or visiting One Island first.
+- Later-generation evolutions are available before receiving the National Dex.
 - TMs are reusable after being taught.
+- HM moves can be forgotten normally when learning a new move.
 - Running works indoors after receiving the Running Shoes.
 - Shiny odds are increased to 64/65536, roughly 1 in 1024.
 
