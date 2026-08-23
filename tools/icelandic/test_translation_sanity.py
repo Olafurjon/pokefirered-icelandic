@@ -687,6 +687,17 @@ class GameplaySanityTests(unittest.TestCase):
         self.assertNotIn("goto_if_lt VAR_0x8009, 60", oak_rating_scene)
         self.assertNotIn("goto_if_unset FLAG_WORLD_MAP_ONE_ISLAND", oak_rating_scene)
 
+    def test_evolutions_do_not_require_national_dex(self) -> None:
+        evolution_scene_text = (self.root / "src" / "evolution_scene.c").read_text(encoding="utf-8")
+        pokemon_text = (self.root / "src" / "pokemon.c").read_text(encoding="utf-8")
+        start = pokemon_text.index("u16 GetEvolutionTargetSpecies(")
+        end = pokemon_text.index("static u16 HoennPokedexNumToSpecies", start)
+        evolution_target_text = pokemon_text[start:end]
+
+        self.assertNotIn("!IsNationalPokedexEnabled()", evolution_scene_text)
+        self.assertNotIn("IsNationalPokedexEnabled()", evolution_target_text)
+        self.assertNotIn("targetSpecies <= KANTO_SPECIES_END", evolution_target_text)
+
     def test_celadon_department_store_sells_evolution_items(self) -> None:
         shop_text = (
             self.root / "data" / "maps" / "CeladonCity_DepartmentStore_4F" / "scripts.inc"
