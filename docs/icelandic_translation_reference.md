@@ -635,3 +635,10 @@ Species display names may be up to 15 game characters; nickname/save data remain
 - Trade-only evolutions should be obtainable without trading in the Icelandic ROM.
 - Plain trade evolutions use level-up replacements: KADABRA -> ALAKAZAM at Lv. 36, MACHOKE -> MACHAMP at Lv. 40, GRAVELER -> GOLEM at Lv. 36, HAUNTER -> GENGAR at Lv. 38.
 - Trade-with-item evolutions use the original trade item directly from the Bag. The item is consumed when the evolution starts: KONUNGSSTEINN on HRINGEKILL or SLJÓN, MÁLMHÚÐ on GRÁNAMAÐK or LJÁSPRETTA, DREKAHREIST on SJÁFNIR, UPPFÆRSLA on GRAFÍKJA, and DJÚPSJÓTÖNN or DJÚPSJÓHREIST on PERLUSKEL.
+
+## Pokédex Style
+
+- Pokédex category labels must be Icelandic, use the source capitalization, and fit within 11 characters before the visible `Vasaskrímsli` suffix.
+- FireRed Pokédex descriptions use exactly three visible lines with at most 40 characters per line.
+- Use the approved Icelandic species names in descriptions and dialogue; inflect them naturally where the sentence requires it.
+- Display height in metres (`m`) and weight in kilograms (`kg`). Convert imperial measurements in descriptions to sensible metric values rather than retaining feet, inches, miles, or pounds.

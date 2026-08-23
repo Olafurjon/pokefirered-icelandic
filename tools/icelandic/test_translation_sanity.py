@@ -706,6 +706,115 @@ class GameplaySanityTests(unittest.TestCase):
 
         self.assertIn("#define SHINY_ODDS 64", pokemon_constants)
 
+    def test_pokedex_uses_metric_height_and_weight(self) -> None:
+        pokedex_screen = (self.root / "src" / "pokedex_screen.c").read_text(encoding="utf-8")
+        shared_strings = (self.root / "src" / "strings.c").read_text(encoding="utf-8")
+
+        height_start = pokedex_screen.index("void DexScreen_PrintMonHeight")
+        weight_start = pokedex_screen.index("void DexScreen_PrintMonWeight", height_start)
+        flavor_start = pokedex_screen.index("void DexScreen_PrintMonFlavorText", weight_start)
+        height_function = pokedex_screen[height_start:weight_start]
+        weight_function = pokedex_screen[weight_start:flavor_start]
+
+        self.assertIn("height / 10", height_function)
+        self.assertIn("height % 10", height_function)
+        self.assertIn("gText_Meters", height_function)
+        self.assertNotIn("CHAR_SGL_QUOTE_RIGHT", height_function)
+        self.assertNotIn("CHAR_DBL_QUOTE_RIGHT", height_function)
+
+        self.assertIn("weight / 10", weight_function)
+        self.assertIn("weight % 10", weight_function)
+        self.assertIn("gText_Kilograms", weight_function)
+        self.assertNotIn("4536", weight_function)
+        self.assertNotIn("gText_Lbs", weight_function)
+
+        self.assertIn('gText_Meters[] = _("m")', shared_strings)
+        self.assertIn('gText_Kilograms[] = _("kg")', shared_strings)
+
+    def test_snorlax_pokedex_entry_is_fully_icelandic(self) -> None:
+        entries = (self.root / "src" / "data" / "pokemon" / "pokedex_entries.h").read_text(encoding="utf-8")
+        descriptions = (self.root / "src" / "data" / "pokemon" / "pokedex_text_fr.h").read_text(encoding="utf-8")
+
+        snorlax_entry_start = entries.index("[NATIONAL_DEX_SNORLAX]")
+        snorlax_entry_end = entries.index("[NATIONAL_DEX_ARTICUNO]", snorlax_entry_start)
+        snorlax_entry = entries[snorlax_entry_start:snorlax_entry_end]
+        self.assertIn('.categoryName = _("SOFANDI")', snorlax_entry)
+        self.assertNotIn("SLEEPING", snorlax_entry)
+
+        snorlax_text_start = descriptions.index("const u8 gSnorlaxPokedexText[]")
+        snorlax_text_end = descriptions.index("const u8 gSnorlaxPokedexTextUnused[]", snorlax_text_start)
+        snorlax_text = descriptions[snorlax_text_start:snorlax_text_end]
+        self.assertIn("400 kg", snorlax_text)
+        self.assertNotRegex(
+            snorlax_text,
+            r"(?i)\b(it|is|not|unless|eats|over|pounds|food|every|day|when|done)\b",
+        )
+
+    def test_national_pokedex_descriptions_have_no_obvious_english(self) -> None:
+        descriptions = (self.root / "src" / "data" / "pokemon" / "pokedex_text_fr.h").read_text(encoding="utf-8")
+        national_start = descriptions.index("const u8 gBulbasaurPokedexText[]")
+        national_descriptions = descriptions[national_start:]
+        english_words = re.compile(
+            r"(?i)\b(the|this|these|those|it|its|they|their|them|when|where|which|who|"
+            r"with|without|unless|over|under|every|from|into|about|because|cannot|will|"
+            r"has|have|was|were|are|and|but|than|that|while|after|before|during|lives|"
+            r"uses|eats|feeds|makes|becomes|found|said|body|head|tail|legs|moves)\b"
+        )
+
+        matches = sorted(set(match.group(0) for match in english_words.finditer(national_descriptions)))
+        self.assertEqual([], matches)
+        self.assertNotIn("\ufffd", national_descriptions)
+        self.assertEqual([], [char for char in "„“”’°ﬁﬂ" if char in national_descriptions])
+
+    def test_national_pokedex_description_lines_fit_the_display(self) -> None:
+        descriptions = (self.root / "src" / "data" / "pokemon" / "pokedex_text_fr.h").read_text(encoding="utf-8")
+        national_start = descriptions.index("const u8 gBulbasaurPokedexText[]")
+        national_descriptions = descriptions[national_start:]
+        blocks = re.findall(
+            r"const u8 g([A-Za-z0-9]+)PokedexText\[\] = _\((.*?)\);",
+            national_descriptions,
+            re.DOTALL,
+        )
+
+        self.assertEqual(386, len(blocks))
+        for revision in (0, 1):
+            for species, body in blocks:
+                active = True
+                visible_lines = []
+                for source_line in body.splitlines():
+                    stripped = source_line.strip()
+                    if stripped == "#if REVISION == 0":
+                        active = revision == 0
+                    elif stripped == "#else":
+                        active = not active
+                    elif stripped == "#endif":
+                        active = True
+                    elif active:
+                        match = re.match(r'^"([^"\\]*(?:\\.[^"\\]*)*)"', stripped)
+                        if match:
+                            visible_lines.append(match.group(1).removesuffix(r"\n"))
+
+                with self.subTest(species=species, revision=revision):
+                    self.assertEqual(3, len(visible_lines))
+                    self.assertEqual([], [line for line in visible_lines if len(line) > 40])
+
+    def test_national_pokedex_categories_fit_the_display(self) -> None:
+        entries = (self.root / "src" / "data" / "pokemon" / "pokedex_entries.h").read_text(encoding="utf-8")
+        categories = re.findall(r'\.categoryName\s*=\s*_\("([^"]+)"\)', entries)[1:387]
+
+        self.assertEqual(386, len(categories))
+        self.assertEqual([], [category for category in categories if len(category) > 11])
+
+    def test_pokedex_fallback_and_national_labels_are_icelandic(self) -> None:
+        entries = (self.root / "src" / "data" / "pokemon" / "pokedex_entries.h").read_text(encoding="utf-8")
+        shared_strings = (self.root / "src" / "strings.c").read_text(encoding="utf-8")
+
+        self.assertIn('.categoryName = _("ÓÞEKKT")', entries)
+        self.assertNotIn('.categoryName = _("UNKNOWN")', entries)
+        self.assertIn('gText_NumericalModeNational[] = _("TÖLURÖÐ: LANDSVÍS")', shared_strings)
+        self.assertNotIn('gText_NumericalModeNational[] = _("TÖLURÖÐ: NATIONAL")', shared_strings)
+        self.assertIn('gText_PokedexPokemon[] = _(" Vasaskrímsli")', shared_strings)
+
     def test_core_type_names_are_icelandic(self) -> None:
         battle_main = (self.root / "src" / "battle_main.c").read_text(encoding="utf-8")
 
