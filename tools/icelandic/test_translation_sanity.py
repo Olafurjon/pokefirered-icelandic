@@ -610,11 +610,49 @@ class GameplaySanityTests(unittest.TestCase):
         for snippet in expected:
             self.assertIn(snippet, evolution_text)
 
+        items = json.loads(
+            (self.root / "src" / "data" / "items.json").read_text(encoding="utf-8")
+        )["items"]
+        items_by_id = {item["itemId"]: item for item in items}
+        for item_id in [
+            "ITEM_KINGS_ROCK",
+            "ITEM_METAL_COAT",
+            "ITEM_DRAGON_SCALE",
+            "ITEM_UP_GRADE",
+            "ITEM_DEEP_SEA_TOOTH",
+            "ITEM_DEEP_SEA_SCALE",
+        ]:
+            with self.subTest(item_id=item_id):
+                self.assertEqual("ITEM_TYPE_PARTY_MENU", items_by_id[item_id]["type"])
+                self.assertEqual("FieldUseFunc_EvoItem", items_by_id[item_id]["fieldUseFunc"])
+
     def test_eevee_uses_stones_for_espeon_and_umbreon(self) -> None:
         evolution_text = (self.root / "src" / "data" / "pokemon" / "evolution.h").read_text(encoding="utf-8")
 
         self.assertIn("{EVO_ITEM, ITEM_SUN_STONE, SPECIES_ESPEON}", evolution_text)
         self.assertIn("{EVO_ITEM, ITEM_MOON_STONE, SPECIES_UMBREON}", evolution_text)
+
+    def test_fighting_dojo_rematch_unlocks_the_other_reward(self) -> None:
+        flags_text = (self.root / "include" / "constants" / "flags.h").read_text(encoding="utf-8")
+        dojo_text = (
+            self.root / "data" / "maps" / "SaffronCity_Dojo" / "scripts.inc"
+        ).read_text(encoding="utf-8")
+
+        self.assertIn("#define FLAG_GOT_BOTH_HITMON_FROM_DOJO", flags_text)
+        self.assertIn("cleartrainerflag TRAINER_BLACK_BELT_KOICHI", dojo_text)
+        self.assertIn("setvar VAR_MAP_SCENE_SAFFRON_CITY_DOJO, 2", dojo_text)
+        self.assertGreaterEqual(
+            dojo_text.count(
+                "goto_if_set FLAG_GOT_BOTH_HITMON_FROM_DOJO, "
+                "SaffronCity_Dojo_EventScript_AlreadyGotHitmon"
+            ),
+            2,
+        )
+        self.assertIn("setflag FLAG_GOT_BOTH_HITMON_FROM_DOJO", dojo_text)
+        self.assertGreaterEqual(
+            dojo_text.count("call SaffronCity_Dojo_EventScript_RecordHitmonReward"),
+            2,
+        )
 
     def test_national_dex_upgrade_has_no_caught_or_one_island_gate(self) -> None:
         script_text = (self.root / "data" / "maps" / "PalletTown" / "scripts.inc").read_text(encoding="utf-8")

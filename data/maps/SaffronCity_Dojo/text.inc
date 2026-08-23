@@ -21,6 +21,23 @@ SaffronCity_Dojo_Text_StayAndTrainWithUs::
     .string "Gnýr! Vertu og æfðu karate með\n"
     .string "okkur!$"
 
+SaffronCity_Dojo_Text_MasterKoichiRematchIntro::
+    .string "Gnýr! Viltu hitt verðlauna-\n"
+    .string "Vasaskrímslið?\p"
+    .string "Sannaðu þig aftur í bardaga!$"
+
+SaffronCity_Dojo_Text_MasterKoichiRematchDefeat::
+    .string "Hwa! Þú sigraðir aftur!$"
+
+SaffronCity_Dojo_Text_ChooseOtherHitmon::
+    .string "Þú hefur sannað þig!\p"
+    .string "Nú máttu taka hitt BARDAGA\n"
+    .string "Vasaskrímslið!$"
+
+SaffronCity_Dojo_Text_WinRematchForOtherHitmon::
+    .string "Sigraðu KARATE MEISTARANN aftur\n"
+    .string "til að fá hitt Vasaskrímslið.$"
+
 SaffronCity_Dojo_Text_MikeIntro::
     .string "Hoargh! Taktu skóna af þér!$"
 
