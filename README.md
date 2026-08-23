@@ -83,6 +83,8 @@ ROM build for pull requests and pushes to `main`.
 - Evolution items are renewable from the Celadon Department Store 4F shop.
 - Eevee evolves into Espeon with a Sun Stone and Umbreon with a Moon Stone.
 - Eevee is available as a rare grass encounter on Route 7 and Route 16.
+- After taking one Fighting Dojo prize, the Karate Master can be challenged
+  again to unlock the other Hitmon prize.
 - The three first partner species are available as rare grass encounters:
   Laukeðla in Viridian Forest, Glóðmandra on Route 3, and Sprautill on Route 24.
 - The National Dex upgrade after the first Elite Four victory no longer requires

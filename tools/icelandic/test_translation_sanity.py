@@ -632,6 +632,28 @@ class GameplaySanityTests(unittest.TestCase):
         self.assertIn("{EVO_ITEM, ITEM_SUN_STONE, SPECIES_ESPEON}", evolution_text)
         self.assertIn("{EVO_ITEM, ITEM_MOON_STONE, SPECIES_UMBREON}", evolution_text)
 
+    def test_fighting_dojo_rematch_unlocks_the_other_reward(self) -> None:
+        flags_text = (self.root / "include" / "constants" / "flags.h").read_text(encoding="utf-8")
+        dojo_text = (
+            self.root / "data" / "maps" / "SaffronCity_Dojo" / "scripts.inc"
+        ).read_text(encoding="utf-8")
+
+        self.assertIn("#define FLAG_GOT_BOTH_HITMON_FROM_DOJO", flags_text)
+        self.assertIn("cleartrainerflag TRAINER_BLACK_BELT_KOICHI", dojo_text)
+        self.assertIn("setvar VAR_MAP_SCENE_SAFFRON_CITY_DOJO, 2", dojo_text)
+        self.assertGreaterEqual(
+            dojo_text.count(
+                "goto_if_set FLAG_GOT_BOTH_HITMON_FROM_DOJO, "
+                "SaffronCity_Dojo_EventScript_AlreadyGotHitmon"
+            ),
+            2,
+        )
+        self.assertIn("setflag FLAG_GOT_BOTH_HITMON_FROM_DOJO", dojo_text)
+        self.assertGreaterEqual(
+            dojo_text.count("call SaffronCity_Dojo_EventScript_RecordHitmonReward"),
+            2,
+        )
+
     def test_national_dex_upgrade_has_no_caught_or_one_island_gate(self) -> None:
         script_text = (self.root / "data" / "maps" / "PalletTown" / "scripts.inc").read_text(encoding="utf-8")
         start = script_text.index("PalletTown_EventScript_OakRatingScene::")
