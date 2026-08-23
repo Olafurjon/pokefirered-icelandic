@@ -888,7 +888,8 @@ Help_Text_HowToUseHM::
 	.string "á TM KASSANUM. {CIRCLE_4} Veldu\p"
 	.string "og 'NOTA' á HM. {CIRCLE_5} Veldu\n"
 	.string "Vasaskrímsli sem getur lært hana.\p"
-	.string "Erfitt er að fjarlægja HM.$"
+	.string "HM-brögðum má gleyma þegar ný\n"
+	.string "brögð eru lærð.$"
 
 Help_Text_HowToUseMoveOutsideOfBattle::
 	.string "{CIRCLE_1} Opnaðu VALMYNDINA.\n"

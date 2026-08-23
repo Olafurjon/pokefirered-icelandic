@@ -526,9 +526,10 @@ class GameplaySanityTests(unittest.TestCase):
 
         fuchsia_definitions = [
             """FuchsiaCity_House3_Text_WouldYouLikeToForgetMove::
-    .string "Uh… Ó, já, ég eyði hreyfingum.\\p"
-    .string "Ég get látið Vasaskrímsli gleyma\\n"
-    .string "hreyfingum sínum.\\p"
+    .string "Óli gerði mig atvinnulausan…\\p"
+    .string "Nú einbeiti ég mér að ræktinni!\\p"
+    .string "En ég get enn látið Vasaskrímsli\\n"
+    .string "gleyma brögðum.\\p"
     .string "Viltu að ég geri það?$""",
             """FuchsiaCity_House3_Text_WhichMonShouldForgetMove::
     .string "Hvaða Vasaskrímsli á að gleyma\\n"
@@ -597,6 +598,12 @@ class GameplaySanityTests(unittest.TestCase):
 
     def test_trade_item_evolutions_use_direct_items(self) -> None:
         evolution_text = (self.root / "src" / "data" / "pokemon" / "evolution.h").read_text(encoding="utf-8")
+        item_effects_text = (
+            self.root / "src" / "data" / "pokemon" / "item_effects.h"
+        ).read_text(encoding="utf-8")
+        item_constants_text = (
+            self.root / "include" / "constants" / "items.h"
+        ).read_text(encoding="utf-8")
 
         expected = [
             "[SPECIES_POLIWHIRL]  = {{EVO_ITEM, ITEM_WATER_STONE, SPECIES_POLIWRATH},\n                            {EVO_ITEM, ITEM_KINGS_ROCK, SPECIES_POLITOED}}",
@@ -625,6 +632,24 @@ class GameplaySanityTests(unittest.TestCase):
             with self.subTest(item_id=item_id):
                 self.assertEqual("ITEM_TYPE_PARTY_MENU", items_by_id[item_id]["type"])
                 self.assertEqual("FieldUseFunc_EvoItem", items_by_id[item_id]["fieldUseFunc"])
+                self.assertRegex(
+                    item_effects_text,
+                    rf"\[{item_id} - ITEM_POTION\]\s+= sItemEffect_TradeEvolutionItem,",
+                )
+                self.assertIn(
+                    f"(item) == {item_id}",
+                    item_constants_text,
+                )
+        self.assertIn(
+            "static const u8 sItemEffect_TradeEvolutionItem[6] = {\n"
+            "    [4] = ITEM4_EVO_STONE,\n"
+            "};",
+            item_effects_text,
+        )
+        self.assertIn(
+            "IS_DIRECT_EVOLUTION_ITEM(item)",
+            item_constants_text,
+        )
 
     def test_eevee_uses_stones_for_espeon_and_umbreon(self) -> None:
         evolution_text = (self.root / "src" / "data" / "pokemon" / "evolution.h").read_text(encoding="utf-8")
@@ -662,6 +687,26 @@ class GameplaySanityTests(unittest.TestCase):
 
         self.assertNotIn("goto_if_lt VAR_0x8009, 60", oak_rating_scene)
         self.assertNotIn("goto_if_unset FLAG_WORLD_MAP_ONE_ISLAND", oak_rating_scene)
+
+    def test_evolutions_do_not_require_national_dex(self) -> None:
+        evolution_scene_text = (self.root / "src" / "evolution_scene.c").read_text(encoding="utf-8")
+        pokemon_text = (self.root / "src" / "pokemon.c").read_text(encoding="utf-8")
+        start = pokemon_text.index("u16 GetEvolutionTargetSpecies(")
+        end = pokemon_text.index("static u16 HoennPokedexNumToSpecies", start)
+        evolution_target_text = pokemon_text[start:end]
+
+        self.assertNotIn("!IsNationalPokedexEnabled()", evolution_scene_text)
+        self.assertNotIn("IsNationalPokedexEnabled()", evolution_target_text)
+        self.assertNotIn("targetSpecies <= KANTO_SPECIES_END", evolution_target_text)
+
+    def test_hm_moves_can_be_replaced_when_learning_a_move(self) -> None:
+        summary_text = (self.root / "src" / "pokemon_summary_screen.c").read_text(encoding="utf-8")
+        battle_text = (self.root / "src" / "battle_script_commands.c").read_text(encoding="utf-8")
+        evolution_text = (self.root / "src" / "evolution_scene.c").read_text(encoding="utf-8")
+
+        self.assertNotIn("IsMoveHm(move)", summary_text)
+        self.assertNotIn("IsHMMove2(moveId)", battle_text)
+        self.assertNotIn("IsHMMove2(move)", evolution_text)
 
     def test_celadon_department_store_sells_evolution_items(self) -> None:
         shop_text = (

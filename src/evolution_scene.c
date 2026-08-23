@@ -638,19 +638,6 @@ static void Task_EvolutionScene(u8 taskId)
     u32 var;
     struct Pokemon* mon = &gPlayerParty[gTasks[taskId].tPartyId];
 
-    // Automatically cancel if the Pokemon would evolve into a species you have not
-    // yet unlocked, such as Crobat.
-    if (!IsNationalPokedexEnabled()
-        && gTasks[taskId].tState == EVOSTATE_WAIT_CYCLE_MON_SPRITE
-        && gTasks[taskId].tPostEvoSpecies > SPECIES_MEW)
-    {
-        gTasks[taskId].tState = EVOSTATE_CANCEL;
-        gTasks[taskId].tEvoWasStopped = TRUE;
-        gTasks[sEvoGraphicsTaskId].tEvoStopped = TRUE;
-        StopBgAnimation();
-        return;
-    }
-
     // check if B Button was held, so the evolution gets stopped
     if (gMain.heldKeys == B_BUTTON
         && gTasks[taskId].tState == EVOSTATE_WAIT_CYCLE_MON_SPRITE
@@ -989,22 +976,12 @@ static void Task_EvolutionScene(u8 taskId)
                 {
                     // Selected move to forget
                     u16 move = GetMonData(mon, var + MON_DATA_MOVE1);
-                    if (IsHMMove2(move))
-                    {
-                        // Can't forget HMs
-                        BattleStringExpandPlaceholdersToDisplayedString(gBattleStringsTable[STRINGID_HMMOVESCANTBEFORGOTTEN - BATTLESTRINGS_TABLE_START]);
-                        BattlePutTextOnWindow(gDisplayedStringBattle, B_WIN_MSG);
-                        gTasks[taskId].tLearnMoveState = MVSTATE_RETRY_AFTER_HM;
-                    }
-                    else
-                    {
-                        // Forget move
-                        PREPARE_MOVE_BUFFER(gBattleTextBuff2, move)
 
-                        RemoveMonPPBonus(mon, var);
-                        SetMonMoveSlot(mon, gMoveToLearn, var);
-                        gTasks[taskId].tLearnMoveState++;
-                    }
+                    PREPARE_MOVE_BUFFER(gBattleTextBuff2, move)
+
+                    RemoveMonPPBonus(mon, var);
+                    SetMonMoveSlot(mon, gMoveToLearn, var);
+                    gTasks[taskId].tLearnMoveState++;
                 }
             }
             break;
@@ -1095,21 +1072,6 @@ static void Task_TradeEvolutionScene(u8 taskId)
 {
     u32 var = 0;
     struct Pokemon* mon = &gPlayerParty[gTasks[taskId].tPartyId];
-
-    // Automatically cancel if the Pokemon would evolve into a species you have not
-    // yet unlocked, such as Crobat.
-    if (!IsNationalPokedexEnabled()
-        && gTasks[taskId].tState == T_EVOSTATE_WAIT_CYCLE_MON_SPRITE
-        && gTasks[taskId].tPostEvoSpecies > SPECIES_MEW)
-    {
-        gTasks[taskId].tState = EVOSTATE_TRY_LEARN_MOVE;
-        gTasks[taskId].tEvoWasStopped = TRUE;
-        if (gTasks[sEvoGraphicsTaskId].isActive)
-        {
-            gTasks[sEvoGraphicsTaskId].tEvoStopped = TRUE;
-            StopBgAnimation();
-        }
-    }
 
     switch (gTasks[taskId].tState)
     {
@@ -1390,24 +1352,14 @@ static void Task_TradeEvolutionScene(u8 taskId)
                 {
                     // Selected move to forget
                     u16 move = GetMonData(mon, var + MON_DATA_MOVE1);
-                    if (IsHMMove2(move))
-                    {
-                        // Can't forget HMs
-                        BattleStringExpandPlaceholdersToDisplayedString(gBattleStringsTable[STRINGID_HMMOVESCANTBEFORGOTTEN - BATTLESTRINGS_TABLE_START]);
-                        DrawTextOnTradeWindow(0, gDisplayedStringBattle, 1);
-                        gTasks[taskId].tLearnMoveState = T_MVSTATE_RETRY_AFTER_HM;
-                    }
-                    else
-                    {
-                        // Forget move
-                        PREPARE_MOVE_BUFFER(gBattleTextBuff2, move)
 
-                        RemoveMonPPBonus(mon, var);
-                        SetMonMoveSlot(mon, gMoveToLearn, var);
-                        BattleStringExpandPlaceholdersToDisplayedString(gBattleStringsTable[STRINGID_123POOF - BATTLESTRINGS_TABLE_START]);
-                        DrawTextOnTradeWindow(0, gDisplayedStringBattle, 1);
-                        gTasks[taskId].tLearnMoveState++;
-                    }
+                    PREPARE_MOVE_BUFFER(gBattleTextBuff2, move)
+
+                    RemoveMonPPBonus(mon, var);
+                    SetMonMoveSlot(mon, gMoveToLearn, var);
+                    BattleStringExpandPlaceholdersToDisplayedString(gBattleStringsTable[STRINGID_123POOF - BATTLESTRINGS_TABLE_START]);
+                    DrawTextOnTradeWindow(0, gDisplayedStringBattle, 1);
+                    gTasks[taskId].tLearnMoveState++;
                 }
             }
             break;
