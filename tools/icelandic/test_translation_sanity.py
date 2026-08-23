@@ -610,6 +610,22 @@ class GameplaySanityTests(unittest.TestCase):
         for snippet in expected:
             self.assertIn(snippet, evolution_text)
 
+        items = json.loads(
+            (self.root / "src" / "data" / "items.json").read_text(encoding="utf-8")
+        )["items"]
+        items_by_id = {item["itemId"]: item for item in items}
+        for item_id in [
+            "ITEM_KINGS_ROCK",
+            "ITEM_METAL_COAT",
+            "ITEM_DRAGON_SCALE",
+            "ITEM_UP_GRADE",
+            "ITEM_DEEP_SEA_TOOTH",
+            "ITEM_DEEP_SEA_SCALE",
+        ]:
+            with self.subTest(item_id=item_id):
+                self.assertEqual("ITEM_TYPE_PARTY_MENU", items_by_id[item_id]["type"])
+                self.assertEqual("FieldUseFunc_EvoItem", items_by_id[item_id]["fieldUseFunc"])
+
     def test_eevee_uses_stones_for_espeon_and_umbreon(self) -> None:
         evolution_text = (self.root / "src" / "data" / "pokemon" / "evolution.h").read_text(encoding="utf-8")
 

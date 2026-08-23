@@ -634,4 +634,4 @@ Species display names may be up to 15 game characters; nickname/save data remain
 
 - Trade-only evolutions should be obtainable without trading in the Icelandic ROM.
 - Plain trade evolutions use level-up replacements: KADABRA -> ALAKAZAM at Lv. 36, MACHOKE -> MACHAMP at Lv. 40, GRAVELER -> GOLEM at Lv. 36, HAUNTER -> GENGAR at Lv. 38.
-- Trade-with-item evolutions use level-up while holding the original trade item. The held item is consumed when the evolution starts.
+- Trade-with-item evolutions use the original trade item directly from the Bag. The item is consumed when the evolution starts: KONUNGSSTEINN on HRINGEKILL or SLJÓN, MÁLMHÚÐ on GRÁNAMAÐK or LJÁSPRETTA, DREKAHREIST on SJÁFNIR, UPPFÆRSLA on GRAFÍKJA, and DJÚPSJÓTÖNN or DJÚPSJÓHREIST on PERLUSKEL.
