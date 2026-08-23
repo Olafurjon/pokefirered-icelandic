@@ -526,9 +526,10 @@ class GameplaySanityTests(unittest.TestCase):
 
         fuchsia_definitions = [
             """FuchsiaCity_House3_Text_WouldYouLikeToForgetMove::
-    .string "Uh… Ó, já, ég eyði hreyfingum.\\p"
-    .string "Ég get látið Vasaskrímsli gleyma\\n"
-    .string "hreyfingum sínum.\\p"
+    .string "Óli gerði mig atvinnulausan…\\p"
+    .string "Nú einbeiti ég mér að ræktinni!\\p"
+    .string "En ég get enn látið Vasaskrímsli\\n"
+    .string "gleyma brögðum.\\p"
     .string "Viltu að ég geri það?$""",
             """FuchsiaCity_House3_Text_WhichMonShouldForgetMove::
     .string "Hvaða Vasaskrímsli á að gleyma\\n"

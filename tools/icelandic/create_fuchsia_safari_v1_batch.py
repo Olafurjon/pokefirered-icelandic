@@ -370,11 +370,12 @@ TRANSLATIONS = {
         hefur ekkert pláss fyrir hana!
     """),
     "FuchsiaCity_House3_Text_WouldYouLikeToForgetMove": t("""
-        Uh...
-        Ó, já, ég er HREYFINGAEYÐIRINN.
+        Óli gerði mig atvinnulausan...
 
-        Ég get látið vasaskrímsli gleyma
-        hreyfingum sínum.
+        Nú einbeiti ég mér að ræktinni!
+
+        En ég get enn látið vasaskrímsli
+        gleyma brögðum.
 
         Viltu að ég geri það?
     """),
