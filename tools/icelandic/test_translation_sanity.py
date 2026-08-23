@@ -662,8 +662,17 @@ class GameplaySanityTests(unittest.TestCase):
         dojo_text = (
             self.root / "data" / "maps" / "SaffronCity_Dojo" / "scripts.inc"
         ).read_text(encoding="utf-8")
+        master_start = dojo_text.index("SaffronCity_Dojo_EventScript_MasterKoichi::")
+        master_end = dojo_text.index("SaffronCity_Dojo_EventScript_MasterKoichiRematch::", master_start)
+        master_script = dojo_text[master_start:master_end]
+        master_commands = [
+            line.strip()
+            for line in master_script.splitlines()[1:]
+            if line.strip()
+        ]
 
         self.assertIn("#define FLAG_GOT_BOTH_HITMON_FROM_DOJO", flags_text)
+        self.assertTrue(master_commands[0].startswith("trainerbattle_single TRAINER_BLACK_BELT_KOICHI,"))
         self.assertIn("cleartrainerflag TRAINER_BLACK_BELT_KOICHI", dojo_text)
         self.assertIn("setvar VAR_MAP_SCENE_SAFFRON_CITY_DOJO, 2", dojo_text)
         self.assertGreaterEqual(
