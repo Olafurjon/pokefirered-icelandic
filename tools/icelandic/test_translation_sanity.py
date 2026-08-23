@@ -597,6 +597,12 @@ class GameplaySanityTests(unittest.TestCase):
 
     def test_trade_item_evolutions_use_direct_items(self) -> None:
         evolution_text = (self.root / "src" / "data" / "pokemon" / "evolution.h").read_text(encoding="utf-8")
+        item_effects_text = (
+            self.root / "src" / "data" / "pokemon" / "item_effects.h"
+        ).read_text(encoding="utf-8")
+        item_constants_text = (
+            self.root / "include" / "constants" / "items.h"
+        ).read_text(encoding="utf-8")
 
         expected = [
             "[SPECIES_POLIWHIRL]  = {{EVO_ITEM, ITEM_WATER_STONE, SPECIES_POLIWRATH},\n                            {EVO_ITEM, ITEM_KINGS_ROCK, SPECIES_POLITOED}}",
@@ -625,6 +631,24 @@ class GameplaySanityTests(unittest.TestCase):
             with self.subTest(item_id=item_id):
                 self.assertEqual("ITEM_TYPE_PARTY_MENU", items_by_id[item_id]["type"])
                 self.assertEqual("FieldUseFunc_EvoItem", items_by_id[item_id]["fieldUseFunc"])
+                self.assertRegex(
+                    item_effects_text,
+                    rf"\[{item_id} - ITEM_POTION\]\s+= sItemEffect_TradeEvolutionItem,",
+                )
+                self.assertIn(
+                    f"(item) == {item_id}",
+                    item_constants_text,
+                )
+        self.assertIn(
+            "static const u8 sItemEffect_TradeEvolutionItem[6] = {\n"
+            "    [4] = ITEM4_EVO_STONE,\n"
+            "};",
+            item_effects_text,
+        )
+        self.assertIn(
+            "IS_DIRECT_EVOLUTION_ITEM(item)",
+            item_constants_text,
+        )
 
     def test_eevee_uses_stones_for_espeon_and_umbreon(self) -> None:
         evolution_text = (self.root / "src" / "data" / "pokemon" / "evolution.h").read_text(encoding="utf-8")
