@@ -881,6 +881,16 @@ class GameplaySanityTests(unittest.TestCase):
         ]:
             self.assertIn(snippet, battle_main)
 
+    def test_move_tutor_once_prompt_is_icelandic(self) -> None:
+        event_scripts = (self.root / "data" / "event_scripts.s").read_text(encoding="utf-8")
+        start = event_scripts.index("Text_MoveCanOnlyBeLearnedOnce::")
+        end = event_scripts.index("EventScript_ResetAllMapFlags::", start)
+        prompt = event_scripts[start:end]
+
+        self.assertIn("Þetta bragð má aðeins læra", prompt)
+        self.assertIn("einu sinni. Er það í lagi?", prompt)
+        self.assertNotIn("This move can be learned only", prompt)
+
     def test_ability_names_fit_the_configured_buffer(self) -> None:
         battle_main_header = (self.root / "include" / "battle_main.h").read_text(encoding="utf-8")
         abilities_text = (self.root / "src" / "data" / "text" / "abilities.h").read_text(encoding="utf-8")
