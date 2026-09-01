@@ -14,7 +14,7 @@ FuchsiaCity_Gym_Text_KogaIntro::
 
 FuchsiaCity_Gym_Text_KogaDefeat::
     .string "Humph! Þú hefur sannað gildi þitt!\p"
-    .string "Hér! Taktu SOULBADGE!$"
+    .string "Hér! Taktu SÁLARMERKIÐ!$"
 
 FuchsiaCity_Gym_Text_KogaPostBattle::
     .string "Þegar Vasaskrímsli verður fyrir\n"

@@ -282,6 +282,50 @@ class GameplaySanityTests(unittest.TestCase):
         ]:
             self.assertIn(snippet, move_names)
 
+    def test_amulet_coin_soul_badge_and_ghost_move_text_are_consistent(self) -> None:
+        route_text = (
+            self.root / "data" / "maps" / "Route16_NorthEntrance_2F" / "text.inc"
+        ).read_text(encoding="utf-8")
+        cycling_generator = (
+            self.root / "tools" / "icelandic" / "create_cycling_road_v1_batch.py"
+        ).read_text(encoding="utf-8")
+        items = (self.root / "src" / "data" / "items.json").read_text(encoding="utf-8")
+        pokedex_rating = (self.root / "data" / "text" / "pokedex_rating.inc").read_text(encoding="utf-8")
+        koga_text = (
+            self.root / "data" / "maps" / "FuchsiaCity_Gym" / "text.inc"
+        ).read_text(encoding="utf-8")
+        move_descriptions = (self.root / "src" / "move_descriptions.c").read_text(encoding="utf-8")
+        reference = (
+            self.root / "docs" / "icelandic_translation_reference.md"
+        ).read_text(encoding="utf-8")
+
+        self.assertIn("VERNDARGRIP", route_text)
+        self.assertNotIn("HEILLAPENING", route_text)
+        self.assertIn("VERNDARGRIP", cycling_generator)
+        self.assertNotIn("HEILLAPENING", cycling_generator)
+        self.assertIn('"english": "VERNDARGRIPUR"', items)
+        self.assertIn("VERNDARGRIP. Vertu viss um að sækja hann!", pokedex_rating)
+        self.assertIn("Taktu SÁLARMERKIÐ!", koga_text)
+        self.assertNotIn("SOULBADGE", koga_text)
+        self.assertIn("Ógnvekjandi\\nskuggamynd veldur\\n", move_descriptions)
+        self.assertIn("Notandinn slær úr\\nskugganum.", move_descriptions)
+        night_shade_start = move_descriptions.index("gMoveDescription_NightShade[]")
+        night_shade_end = move_descriptions.index("gMoveDescription_Mimic[]", night_shade_start)
+        shadow_punch_start = move_descriptions.index("gMoveDescription_ShadowPunch[]")
+        shadow_punch_end = move_descriptions.index("gMoveDescription_Extrasensory[]", shadow_punch_start)
+        reported_descriptions = (
+            move_descriptions[night_shade_start:night_shade_end]
+            + move_descriptions[shadow_punch_start:shadow_punch_end]
+        )
+        self.assertNotRegex(
+            reported_descriptions,
+            r"(?i)\b(?:mirage|punch|shadows)\b",
+        )
+        self.assertIn("| AMULET COIN | VERNDARGRIPUR |", reference)
+        self.assertIn("| Soul Badge | Sálarmerkið |", reference)
+        self.assertIn("| Shadow Punch | Skuggahögg |", reference)
+        self.assertIn("| Night Shade | Næturskuggi |", reference)
+
     def test_translation_generators_do_not_emit_legacy_field_terms(self) -> None:
         generators = [
             "create_cinnabar_v1_batch.py",
