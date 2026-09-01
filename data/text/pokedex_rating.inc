@@ -37,7 +37,7 @@ PokedexRating_Text_LessThan50::
 	.string "VasaDEX-ið þitt gengur bara nokkuð\n"
 	.string "vel!\p"
 	.string "Ég gaf einum AÐSTOÐARMANNA minna\n"
-	.string "VERNDARGRIP. Vertu viss um að sækja hann!$"
+	.string "HEILLAPENING. Vertu viss um að sækja hann!$"
 
 PokedexRating_Text_LessThan60::
 	.string "Ah, þú hefur loksins náð yfir\n"
