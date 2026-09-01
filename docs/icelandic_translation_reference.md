@@ -103,6 +103,7 @@ This document records approved terminology and style rules for the Icelandic ver
 | LIFT KEY | LYFTULYKILL | Item name. |
 | BERRY POUCH | BERJAPOKI | Item name. |
 | MYSTIC TICKET | DULARMIÐI | Item name. |
+| AMULET COIN | VERNDARGRIPUR | Item name; use `VERNDARGRIP` in accusative contexts. |
 | CUT | HÖGGVA | Canonical move name; use `HÖGGVA` as the preferred verb when removing small trees. |
 | FLY | FLUG | Canonical move/field move name; all-caps display `FLUG`. |
 | STRENGTH | STYRKUR | Canonical move/field move name; all-caps display `STYRKUR`. |
@@ -111,6 +112,8 @@ This document records approved terminology and style rules for the Icelandic ver
 | SONICBOOM | HLJÓÐBYLGJA | Canonical move name; all-caps display `HLJÓÐBYLGJA`. |
 | WITHDRAW | SKELVÖRN | Canonical move name; all-caps display `SKELVÖRN`. |
 | SHOCK WAVE | STUÐBYLGJA | Canonical move name; all-caps display `STUÐBYLGJA`; use `stuð` in the electrical sense, not `áfall`. |
+| Shadow Punch | Skuggahögg | Move name; all-caps display `SKUGGAHÖGG`. |
+| Night Shade | Næturskuggi | Move name; all-caps display `NÆTURSKUGGI`. |
 | Surf | Brim | Move/field move name; all-caps display `BRIM`, verb form `BRIMA`. |
 | Bubble | Búbblur | Move name; all-caps display `BÚBBLUR`. |
 | Whirlwind | Hvirfilvindur | Move name; all-caps display `HVIRFILVINDUR`. |
@@ -200,6 +203,7 @@ This document records approved terminology and style rules for the Icelandic ver
 | BIRCH / Professor Birch | BIRKIR / Prófessor BIRKIR | Use Icelandic name for visible professor name. |
 | TEAM ROCKET | ROCKET-GENGI | Trainer class display uses `ROCKET-GENGI`; grunts use trainer name `ÞRJÓTUR`, admins use `YFIRMAÐUR`. |
 | Boulder Badge | Steinmerkið | Approved badge name. |
+| Soul Badge | Sálarmerkið | Approved badge name; all-caps display `SÁLARMERKIÐ`. |
 | Fossil | Steingervingur / Gerving | Prefer full word in prose, short form where space is tight. |
 
 ## Species Names
