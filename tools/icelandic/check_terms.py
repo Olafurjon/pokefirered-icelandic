@@ -80,6 +80,7 @@ RULES = [
     Rule("questionnaire-fill", re.compile(r"\bfyllja\b|\bFyllja\b"), "fylla / Fylla"),
     Rule("daycare-raise", re.compile(r"\balum\b|\bAlum\b"), "ölum / Ölum"),
     Rule("critical-hit", re.compile(r"Gagnhögg|GAGNHÖGG|gagnhögg"), "Gæfuhögg"),
+    Rule("amulet-coin-alias", re.compile(r"VERNDARGRIP\w*|Verndargrip\w*"), "HEILLAPENINGUR / Heillapeningur"),
     Rule("surf", re.compile(r"\bSURF(?:A)?\b"), "BRIM / BRIMA"),
     Rule("cut-move", re.compile(r"\bCUT\b"), "HÖGGVA"),
     Rule("fly-move", re.compile(r"\bFLY\b"), "FLUG"),

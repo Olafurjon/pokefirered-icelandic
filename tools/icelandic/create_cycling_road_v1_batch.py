@@ -198,7 +198,7 @@ TRANSLATIONS = {
         um 40 tegundir á ég að gefa þér
         verðlaun.
 
-        PRÓF. EIK fól mér VERNDARGRIP handa
+        PRÓF. EIK fól mér HEILLAPENING handa
         þér.
 
         Svo, {PLAYER}, leyfðu mér að spyrja.
@@ -214,11 +214,11 @@ TRANSLATIONS = {
         Gjörðu svo vel!
     """),
     "Route16_NorthEntrance_2F_Text_ReceivedAmuletCoinFromAide": t("""
-        {PLAYER} fékk VERNDARGRIP frá
+        {PLAYER} fékk HEILLAPENING frá
         AÐSTOÐARMANNINUM.
     """),
     "Route16_NorthEntrance_2F_Text_ExplainAmuletCoin": t("""
-        VERNDARGRIPUR er hlutur sem
+        HEILLAPENINGUR er hlutur sem
         vasaskrímsli heldur á.
 
         Ef vasaskrímslið birtist í sigruðum

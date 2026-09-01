@@ -21,7 +21,7 @@ Route16_NorthEntrance_2F_Text_GiveAmuletCoinIfCaught40::
     .string "Ef VasaDEX-ið þitt er með full gögn\n"
     .string "um 40 tegundir á ég að gefa þér\p"
     .string "verðlaun.\p"
-    .string "Prófessor EIK fól mér VERNDARGRIP\n"
+    .string "Prófessor EIK fól mér HEILLAPENING\n"
     .string "handa þér.\p"
     .string "Svo, {PLAYER}, leyfðu mér að spyrja.\p"
     .string "Hefurðu safnað gögnum um að minnsta\n"
@@ -33,11 +33,11 @@ Route16_NorthEntrance_2F_Text_GreatHereYouGo::
     .string "Til hamingju! Gjörðu svo vel!$"
 
 Route16_NorthEntrance_2F_Text_ReceivedAmuletCoinFromAide::
-    .string "{PLAYER} fékk VERNDARGRIP frá\n"
+    .string "{PLAYER} fékk HEILLAPENING frá\n"
     .string "AÐSTOÐARMANNINUM.$"
 
 Route16_NorthEntrance_2F_Text_ExplainAmuletCoin::
-    .string "VERNDARGRIPUR er hlutur sem\n"
+    .string "HEILLAPENINGUR er hlutur sem\n"
     .string "vasaskrímsli heldur á.\p"
     .string "Ef vasaskrímslið birtist í sigruðum\n"
     .string "bardaga færðu meiri peninga.$"

@@ -103,7 +103,7 @@ This document records approved terminology and style rules for the Icelandic ver
 | LIFT KEY | LYFTULYKILL | Item name. |
 | BERRY POUCH | BERJAPOKI | Item name. |
 | MYSTIC TICKET | DULARMIÐI | Item name. |
-| AMULET COIN | VERNDARGRIPUR | Item name; use `VERNDARGRIP` in accusative contexts. |
+| AMULET COIN | HEILLAPENINGUR | Item name; use `HEILLAPENING` in accusative contexts. |
 | CUT | HÖGGVA | Canonical move name; use `HÖGGVA` as the preferred verb when removing small trees. |
 | FLY | FLUG | Canonical move/field move name; all-caps display `FLUG`. |
 | STRENGTH | STYRKUR | Canonical move/field move name; all-caps display `STYRKUR`. |

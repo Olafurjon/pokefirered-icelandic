@@ -299,12 +299,12 @@ class GameplaySanityTests(unittest.TestCase):
             self.root / "docs" / "icelandic_translation_reference.md"
         ).read_text(encoding="utf-8")
 
-        self.assertIn("VERNDARGRIP", route_text)
-        self.assertNotIn("HEILLAPENING", route_text)
-        self.assertIn("VERNDARGRIP", cycling_generator)
-        self.assertNotIn("HEILLAPENING", cycling_generator)
-        self.assertIn('"english": "VERNDARGRIPUR"', items)
-        self.assertIn("VERNDARGRIP. Vertu viss um að sækja hann!", pokedex_rating)
+        self.assertIn("HEILLAPENING", route_text)
+        self.assertNotIn("VERNDARGRIP", route_text)
+        self.assertIn("HEILLAPENING", cycling_generator)
+        self.assertNotIn("VERNDARGRIP", cycling_generator)
+        self.assertIn('"english": "HEILLAPENINGUR"', items)
+        self.assertIn("HEILLAPENING. Vertu viss um að sækja hann!", pokedex_rating)
         self.assertIn("Taktu SÁLARMERKIÐ!", koga_text)
         self.assertNotIn("SOULBADGE", koga_text)
         self.assertIn("Ógnvekjandi\\nskuggamynd veldur\\n", move_descriptions)
@@ -321,10 +321,57 @@ class GameplaySanityTests(unittest.TestCase):
             reported_descriptions,
             r"(?i)\b(?:mirage|punch|shadows)\b",
         )
-        self.assertIn("| AMULET COIN | VERNDARGRIPUR |", reference)
+        self.assertIn("| AMULET COIN | HEILLAPENINGUR |", reference)
         self.assertIn("| Soul Badge | Sálarmerkið |", reference)
         self.assertIn("| Shadow Punch | Skuggahögg |", reference)
         self.assertIn("| Night Shade | Næturskuggi |", reference)
+
+    def test_move_descriptions_have_no_english_residue(self) -> None:
+        move_descriptions = (self.root / "src" / "move_descriptions.c").read_text(encoding="utf-8")
+        definitions = re.findall(
+            r'const u8 gMoveDescription_(\w+)\[\] = _\("((?:\\.|[^"])*)"\);',
+            move_descriptions,
+        )
+        self.assertEqual(354, len(definitions))
+
+        forbidden_words = {
+            "a", "about", "accuracy", "all", "ally", "an", "any", "as", "atk", "attack",
+            "back", "boost", "by", "chimes", "critical",
+            "decoy", "each", "effect", "electrified", "energy", "evade", "evasiveness",
+            "eyes", "faints", "foe", "foreleg", "grip", "hand", "high", "hit", "hurt", "if",
+            "illusory", "it", "its", "itself", "later", "left", "long", "move", "moves", "only",
+            "pincers", "power", "punch", "ratio", "restore", "seed", "shadows", "sharpa", "speed",
+            "stingers", "switch", "tail", "tentacles", "turn", "two", "up", "user", "well",
+            "whirlpool", "wings", "def", "defense", "etc",
+        }
+        offenders: list[str] = []
+        formatting_offenders: list[str] = []
+        for name, encoded_description in definitions:
+            lines = encoded_description.split(r"\n")
+            if len(lines) > 4:
+                formatting_offenders.append(f"{name}: {len(lines)} lines")
+            if any(line != line.strip() for line in lines):
+                formatting_offenders.append(f"{name}: surrounding whitespace")
+            if any(len(line) > 28 for line in lines):
+                formatting_offenders.append(f"{name}: line exceeds 28 characters")
+
+            visible = encoded_description.replace(r"\n", " ").replace(r"\p", " ")
+            words = {word.lower() for word in re.findall(r"[^\W\d_]+", visible)}
+            residue = sorted(words & forbidden_words)
+            if residue:
+                offenders.append(f"{name}: {', '.join(residue)}")
+
+        self.assertEqual([], offenders)
+        self.assertEqual([], formatting_offenders)
+        self.assertNotRegex(
+            move_descriptions,
+            r"\b(?:VATNS|RAFMAGNS|ELD)-gerð|\bSTEIN-|\bhæfir\b|VASaSKRÍMSLI",
+        )
+        descriptions_by_name = dict(definitions)
+        self.assertIn("næsta bragð notandans", descriptions_by_name["MindReader"])
+        self.assertIn("mistekist", descriptions_by_name["Protect"])
+        self.assertIn("mistekist", descriptions_by_name["Detect"])
+        self.assertIn("töngum", descriptions_by_name["Guillotine"])
 
     def test_translation_generators_do_not_emit_legacy_field_terms(self) -> None:
         generators = [
